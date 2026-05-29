@@ -12,16 +12,20 @@ recipe development without prior conversation history.
 
 **Start here if you're a new Claude Code instance:**
 
-1. Read `CONTEXT.md` — family, equipment, dietary preferences, working conventions
-2. Read `RECIPE_FORMAT.md` — exact specification for how recipe files are structured
-3. Read `TECHNIQUES.md` — cooking techniques and equipment-specific knowledge developed through iteration
-4. Read `RATINGS.md` — the relational database of family ratings, with full schema spec at the top
-5. Read `Nussinow_Cooking_Times.md` — authoritative pressure-cooking reference
+1. Read `CLAUDE.md` — hard rules that fire every session (auto-loaded by Claude Code)
+2. Read `CONTEXT.md` — family, equipment, dietary preferences, working conventions
+3. Read `RECIPE_FORMAT.md` — exact specification for how recipe files are structured
+4. Read `TECHNIQUES.md` — cooking techniques and equipment-specific knowledge developed through iteration
+5. Read `RATINGS.md` — the relational database of family ratings, with full schema spec at the top
+6. Read `Nussinow_Cooking_Times.md` — authoritative pressure-cooking reference
 
-Reference docs for specific dish families:
+Reference docs for specific dish families and project infrastructure:
 
 - `SHAKSHUKA.md` — single-serving breakfast profiles (7 shakshuka variants + sauerkraut hash + bulk paste design)
+- `SOLO-HOLGER.md` — single-serving recipes for Holger alone (e.g. Post-Workout Cream); out of the ratings system
 - `CORN-SOUPS.md` — 7-profile corn soup matrix with predicted scores and prediction-vs-actual analysis
+- `PANTRY.md` — staples always in stock; recipe-design reference
+- `EXPERIMENTS.md` — active hypothesis tests and ablation protocols (e.g. Lara smoked paprika, Japanese corn soup white-vs-red miso)
 
 Individual recipe files are at the top level.
 
@@ -32,11 +36,15 @@ Individual recipe files are at the top level.
 ```
 Recipes/
 ├── README.md                                  This file
+├── CLAUDE.md                                  Hard rules (auto-loaded by Claude Code)
 ├── CONTEXT.md                                 Family, equipment, conventions
 ├── RECIPE_FORMAT.md                           Recipe file format spec
 ├── TECHNIQUES.md                              Cooking techniques and gotchas
 ├── SHAKSHUKA.md                               Breakfast profile library
+├── SOLO-HOLGER.md                             Solo Holger recipes (Post-Workout Cream etc.)
 ├── CORN-SOUPS.md                              Corn soup 7-profile matrix
+├── PANTRY.md                                  Staples-in-stock reference
+├── EXPERIMENTS.md                             Hypothesis tests and ablation protocols
 ├── RATINGS.md                                 Relational ratings database
 ├── Nussinow_Cooking_Times.md                  Pressure-cooking reference
 │
@@ -112,6 +120,8 @@ Migrated:
 - `corn-soup-flavor-profiles.pdf` → integrated into `CORN-SOUPS.md`
 
 The only PDF remaining in the parent directory unrelated to this project is `jannes_5k_plan.pdf` (a running plan, out of scope).
+
+**Legacy source files (PDFs and `.wl`) are not stored in this directory but are available on request from the user.** If you need to consult them — e.g. to reconstruct a migration decision, check pre-migration nutrition numbers, or compare planned-vs-cooked drift — ask the user and they will provide them.
 
 ---
 

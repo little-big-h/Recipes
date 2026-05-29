@@ -19,7 +19,7 @@ XHTML Header: <script>
 
 *Yellow-only Thai curry with reduced shiitake and silken tofu for a lighter, more distinctly Thai profile. Tsuyu as the sole umami/salt anchor. Lemongrass, galangal and makrut lime leaves for aromatics. Lime at the table. Family of five.*
 
-> **Changes from v1:** halved shiitake (100g) and tofu (300g) to reduce richness and let Thai aromatics come through; removed green curry paste in favour of yellow-only (50g) to reduce heat; removed dashi soy (salt overload in v1); Tsuyu back to 150ml.
+> **Changes from v1:** halved shiitake (100g) and tofu (300g) to reduce richness and let Thai aromatics come through; removed green curry paste in favour of yellow-only (50g) to reduce heat; removed dashi soy (salt overload in v1); Tsuyu back to 150ml. **Wok-first sauté** instead of Ninja-only — the legacy Thai shiitake PDF used wok for the initial onion/garlic/paste stage and it delivers better caramelisation than Ninja saute mode. Worth treating as a quality lever for this v2 cook.
 
 > **v1 ratings (2026-05-20):** Julina 8 · Anja 9.5 · Lara 7.8 · Jannes 7 · Holger 7.5. Feedback: too salty, too rich, Thai profile lost, too hot for Jannes and Anja.
 
@@ -79,16 +79,20 @@ XHTML Header: <script>
 
 > **Note:** Soak 🍄 shiitake in ~800 ml cold water (enough to submerge) for 2+ hours or overnight. Reserve all soaking water.
 
-1. In Ninja on saute mode: saute 🧅 onions and 🧄 garlic until golden, 7–8 min. Add 🟡 yellow paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 45 sec. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
+1. In the wok over medium-high heat: saute 🧅 onions and 🧄 garlic until golden, 7–8 min (wok caramelises better than Ninja saute mode). Add 🟡 yellow paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 1–2 min until fragrant.
 
-2. Once Ninja done: remove 🍃 lime leaves. Blend completely smooth with 🫘 silken tofu. Adjust consistency with a splash of 💧 water if needed.
+2. Transfer the wok contents to the Ninja. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
 
-3. Return to Ninja on saute mode. Stir in 🥥 coconut milk, warm through 3–4 min. Season with 🧴 liquid aminos — taste carefully before adding.
+3. Once Ninja done: remove 🍃 lime leaves. Blend completely smooth with 🫘 silken tofu. Adjust consistency with a splash of 💧 water if needed.
 
-4. Serve with 🌱 spring onion, ⚫ sesame seeds and 🪴 fresh coriander. 🟢 Lime juice at the table.
+4. Return to Ninja on saute mode. Stir in 🥥 coconut milk, warm through 3–4 min. Season with 🧴 liquid aminos — taste carefully before adding.
+
+5. Serve with 🌱 spring onion, ⚫ sesame seeds and 🪴 fresh coriander. 🟢 Lime juice at the table.
 
 ---
 
 ## Timeline
+
+> ⚠ Timeline below reflects Ninja-only saute (pre-wok-first revision). Needs regeneration before the v2 cook to show the wok stage (0–10 min Wok track) and the wok→Ninja transfer at ~10 min.
 
 ![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Saute%20onions%20%2B%20garlic%22%5D%2C%5B10%2C13%2C%22Bloom%20pastes%22%5D%2C%5B13%2C60%2C%22Pressure%20cook%22%5D%2C%5B68%2C73%2C%22Add%20coconut%20%2B%20season%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Blend%20with%20tofu%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A73%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)

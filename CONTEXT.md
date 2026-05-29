@@ -11,7 +11,7 @@ Everything a Claude Code instance needs to know about the household, the cook, t
 - Competitive marathon runner targeting a Boston qualification (sub-2:55)
 - Diagnosed with mild RED-S (Relative Energy Deficiency in Sport); working with a sports dietitian (Jenaed at Nutrition and Co)
 - Tracks all nutrition in **FoodNoms**
-- Does not eat after 8pm
+- Does not eat after 8pm (note: dietitian Jenaed has recommended a ~21:30 pre-bed carb top-up for recovery; Holger has not adopted this. Late-evening fuelling recipe ideas should respect the 8pm cutoff unless he explicitly re-opens the question)
 - Working targets: ~120g protein/day (usually exceeds at ~177g), ~3300 kcal/day intake
 - Most calories from carbs and protein; limited fat use
 - Health-flagged status: Vitamin D deficiency under correction (50,000 IU/week course), suppressed Free T3 from RED-S, mildly low Hb (dilutional)
@@ -48,6 +48,10 @@ Lara dislikes:
 - **Recognizable silken tofu** in the dish (fine when fully blended into a sauce)
 
 Behavioural rather than purely sensory at times — patterns can shift. Treat as guidelines, not absolute rules.
+
+**Implication for ablation experiments:** Lara's preferences may be increasingly *behavioural* rather than purely sensory. Even a clean negative result from a blind ablation (e.g. smoked paprika) does not prove the preference will shift in everyday eating — behavioural patterns can persist independently of taste data. Interpret sensory experiments accordingly.
+
+**Pre-step for any Lara-focused ablation:** before running a blind taste test, ask Lara to *characterise* what she dislikes about the target ingredient — sharp/hot, bitter, sour, funky; upfront or aftertaste. The qualitative answer shapes the experimental protocol (e.g. if she says "bitter aftertaste," include other bitter-finish controls).
 
 ### Jannes-specific notes
 

@@ -246,10 +246,21 @@ Sync line colours: use a darkened version of the triggering device's colour, or 
 
 ## Recipe iteration philosophy
 
+### Iteration taxonomy
+
+Two distinct kinds of recipe iteration; treat them differently:
+
+- **Seasoning tweak** — same core ingredients and cooking approach, change to spice profile / umami stack / acid handling / salt level. Examples: Japanese corn soup v1→v2 (red miso → white miso, all else held), Thai shiitake soup v1→v2 (yellow-only paste, reduced shiitake & tofu, no dashi soy). Prefer **single-variable changes** for clean attribution of effect on family ratings.
+- **Structural ingredient swap** — core ingredients or cooking approach changes; the dish is conceptually different but in the same family. Example: Indian Roasted Vegetable Bake v1→v2 (removed cauliflower + peppers, replaced tomato-curry sauce with creamy corn + silken tofu base, added chickpeas and carrots). Usually motivated by structural family-preference conflicts that seasoning tweaks can't fix.
+
+This distinction also drives the file convention below.
+
 ### When to update existing file vs create new vN file
 
 - **Update in place** for refinements: ingredient quantity tweaks, method clarifications, format fixes, small substitutions
 - **New `-vN.md` file** for substantial reformulations: different core ingredients, different cooking approach, when you want to preserve the previous version for direct A/B comparison
+
+Roughly: seasoning tweaks may go either way (in place if minor, new file if you want to A/B). Structural swaps almost always warrant a new file.
 
 ### Experiment design
 

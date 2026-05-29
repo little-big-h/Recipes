@@ -11,10 +11,14 @@
             "id": "7ad54855a1e01c1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -111,27 +115,30 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 621.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "realclaudian:Open Claudian": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "f832dec7c205f243",
   "lastOpenFiles": [
+    "PANTRY.md",
+    "SOLO-HOLGER.md",
+    "EXPERIMENTS.md",
+    "CLAUDE.md",
+    "README.md",
+    "roasted-veg-two-profiles.md",
+    "aubergine-passata-amaranth.md",
     "squash-mash-tofu-gravy.md",
     "creamy-corn-soup-mexican-low-effort.md",
     "creamy-corn-soup-mexican.md",
@@ -140,7 +147,6 @@
     "CORN-SOUPS.md",
     "cauliflower-potato-soup-kasha.md",
     "butternut-butterbean-soup.md",
-    "aubergine-passata-amaranth.md",
     "courgette-pea-risotto.md",
     "RATINGS.md",
     "CONTEXT.md",
@@ -151,9 +157,6 @@
     "creamy-corn-soup-japanese.md",
     "thai-yellow-butternut-curry.md",
     "Nussinow_Cooking_Times.md",
-    "RECIPE_FORMAT.md",
-    "SHAKSHUKA.md",
-    "README.md",
-    "TECHNIQUES.md"
+    "RECIPE_FORMAT.md"
   ]
 }

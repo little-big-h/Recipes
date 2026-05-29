@@ -4,6 +4,20 @@
   "title": "Audit inherited Claude project",
   "titleGenerationStatus": "success",
   "createdAt": 1780083964982,
-  "updatedAt": 1780083974836,
-  "sessionId": null
+  "updatedAt": 1780085763741,
+  "lastResponseAt": 1780085763741,
+  "sessionId": "507f4a4b-2e6d-451d-b111-60006841d2fb",
+  "providerState": {
+    "providerSessionId": "507f4a4b-2e6d-451d-b111-60006841d2fb"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 754,
+    "cacheReadInputTokens": 89019,
+    "contextWindow": 1000000,
+    "contextTokens": 89774,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
 }
