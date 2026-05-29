@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "b26fdc68e9102099",
+    "type": "split",
+    "children": [
+      {
+        "id": "72bfa308f08c7d2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ad54855a1e01c1c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ad834aa4e5251a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "284a8bb39fb348ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "607591d6f364fa0d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7309006b49fdd2f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "447b07766f01430f",
+    "type": "split",
+    "children": [
+      {
+        "id": "033459750d99b261",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93179a8db888e5d3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f832dec7c205f243",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "3f0cb6491f7735a4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f832dec7c205f243",
+  "lastOpenFiles": [
+    "squash-mash-tofu-gravy.md",
+    "creamy-corn-soup-mexican-low-effort.md",
+    "creamy-corn-soup-mexican.md",
+    "creamy-corn-soup-indian.md",
+    "creamy-shiitake-soup-thai.md",
+    "CORN-SOUPS.md",
+    "cauliflower-potato-soup-kasha.md",
+    "butternut-butterbean-soup.md",
+    "aubergine-passata-amaranth.md",
+    "courgette-pea-risotto.md",
+    "RATINGS.md",
+    "CONTEXT.md",
+    "creamy-shiitake-soup-thai-v2.md",
+    "creamy-corn-soup-westafrican.md",
+    "creamy-corn-soup-nordic.md",
+    "creamy-corn-soup-japanese-v2.md",
+    "creamy-corn-soup-japanese.md",
+    "thai-yellow-butternut-curry.md",
+    "Nussinow_Cooking_Times.md",
+    "RECIPE_FORMAT.md",
+    "SHAKSHUKA.md",
+    "README.md",
+    "TECHNIQUES.md"
+  ]
+}

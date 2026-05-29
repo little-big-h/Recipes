@@ -1,0 +1,11 @@
+{
+  "realclaudian:open-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:follow-link": []
+}
