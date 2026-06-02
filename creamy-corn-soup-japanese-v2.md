@@ -52,20 +52,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe. Salt slightly lower than v1 (~11g vs ~12g) because white miso has half the salt of red miso. Energy slightly higher (white miso has more carbs). All other values essentially identical to v1.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | 2713 kcal | Iron | 46 mg |
-| Protein | 141 g | Calcium | 1177 mg |
-| Carbohydrates | 415 g | Zinc | 21 mg |
-| — of which sugars | 91 g | Magnesium | 1293 mg |
-| Fat | 79 g | Potassium | 9357 mg |
-| — of which saturates | 12 g | Vitamin D | 0.0 µg |
-| Fibre | 70 g | Vitamin B12 | 0.5 µg |
-| Salt | 11 g | Folate | 1780 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Load%20corn%20%2B%20soybeans%22%5D%2C%5B5%2C123%2C%22High%20pressure%2035%20min%20%2B%20release%22%5D%2C%5B131%2C138%2C%22Finish%3A%20miso%20%2B%20soybeans%20%2B%20bok%20choi%22%5D%5D%7D%2C%22Wok%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B100%2C110%2C%22Saute%20spring%20onion%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B125%2C131%2C%22Blend%20corn%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A123%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A131%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Blend%20done%22%7D%2C%7B%22t%22%3A138%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -85,6 +74,23 @@ XHTML Header: <script>
 
 ---
 
+## Nutrition
+
+*Total values for the whole recipe. Salt slightly lower than v1 (~11g vs ~12g) because white miso has half the salt of red miso. Energy slightly higher (white miso has more carbs). All other values essentially identical to v1.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | 2713 kcal | Iron | 46 mg |
+| Protein | 141 g | Calcium | 1177 mg |
+| Carbohydrates | 415 g | Zinc | 21 mg |
+| — of which sugars | 91 g | Magnesium | 1293 mg |
+| Fat | 79 g | Potassium | 9357 mg |
+| — of which saturates | 12 g | Vitamin D | 0.0 µg |
+| Fibre | 70 g | Vitamin B12 | 0.5 µg |
+| Salt | 11 g | Folate | 1780 µg |
+
+---
+
 ## Experiment design notes
 
 **Single-variable change from v1:** only the miso is different (white 30g vs red 18g). The 30g vs 18g difference is intentional — it's the equivalent amount for "similar miso presence" given white miso is roughly half as concentrated in salt and flavour intensity.
@@ -99,9 +105,3 @@ XHTML Header: <script>
 | Everyone improves | The combined v1 changes (red miso + high Tsuyu) overshot — calibration just needed pulling back |
 
 **Sweetness note:** with white miso reintroducing its natural sweetness and mirin still at 30ml, v2 may read as slightly sweeter than v1. If the soup tastes overly sweet, the next iteration could drop mirin back to 22ml.
-
----
-
-## Timeline
-
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Load%20corn%20%2B%20soybeans%22%5D%2C%5B5%2C123%2C%22High%20pressure%2035%20min%20%2B%20release%22%5D%2C%5B131%2C138%2C%22Finish%3A%20miso%20%2B%20soybeans%20%2B%20bok%20choi%22%5D%5D%7D%2C%22Wok%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B100%2C110%2C%22Saute%20spring%20onion%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B125%2C131%2C%22Blend%20corn%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A123%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A131%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Blend%20done%22%7D%2C%7B%22t%22%3A138%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)

@@ -64,20 +64,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe (family of 5 + small leftovers — roughly 7 servings). **Values are estimates — replace with FoodNoms-verified totals when computed.** Sauerkraut not included in totals (served separately).*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~3950 kcal | Iron | ~30 mg |
-| Protein | ~190 g | Calcium | ~1200 mg |
-| Carbohydrates | ~770 g | Zinc | ~25 mg |
-| — of which sugars | ~210 g | Magnesium | ~1500 mg |
-| Fat | ~30 g | Potassium | ~12000 mg |
-| — of which saturates | ~5 g | Vitamin D | 0 µg |
-| Fibre | ~135 g | Vitamin B12 | ~10 µg (fortified yeast) |
-| Salt | ~25 g | Folate | ~2800 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Load%20corn%20%2B%20beans%22%5D%2C%5B5%2C95%2C%22Heat-up%20%2B%20pressure%20%2B%20release%22%5D%2C%5B105%2C110%2C%22Combine%20%2B%20warm%22%5D%2C%5B110%2C112%2C%22Spinach%20%2B%20acid%22%5D%5D%7D%2C%22Pickup%22%3A%7B%22color%22%3A%22%23999999%22%2C%22steps%22%3A%5B%5B20%2C60%2C%22Pick%20up%20Jannes%22%5D%5D%7D%2C%22Pan%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Saute%20onion%20%2B%20garlic%22%5D%2C%5B68%2C70%2C%22Bloom%20spices%22%5D%5D%7D%2C%22Steamer%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B60%2C70%2C%22Steam%20asparagus%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B95%2C105%2C%22Remove%20chipotle%20%2B%20blend%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%23999999%22%2C%22label%22%3A%22Back%20home%22%7D%2C%7B%22t%22%3A95%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A112%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -103,6 +92,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Load%20corn%20%2B%20beans%22%5D%2C%5B5%2C95%2C%22Heat-up%20%2B%20pressure%20%2B%20release%22%5D%2C%5B105%2C110%2C%22Combine%20%2B%20warm%22%5D%2C%5B110%2C112%2C%22Spinach%20%2B%20acid%22%5D%5D%7D%2C%22Pickup%22%3A%7B%22color%22%3A%22%23999999%22%2C%22steps%22%3A%5B%5B20%2C60%2C%22Pick%20up%20Jannes%22%5D%5D%7D%2C%22Pan%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Saute%20onion%20%2B%20garlic%22%5D%2C%5B68%2C70%2C%22Bloom%20spices%22%5D%5D%7D%2C%22Steamer%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B60%2C70%2C%22Steam%20asparagus%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B95%2C105%2C%22Remove%20chipotle%20%2B%20blend%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%23999999%22%2C%22label%22%3A%22Back%20home%22%7D%2C%7B%22t%22%3A95%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A112%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe (family of 5 + small leftovers — roughly 7 servings). **Values are estimates — replace with FoodNoms-verified totals when computed.** Sauerkraut not included in totals (served separately).*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~3950 kcal | Iron | ~30 mg |
+| Protein | ~190 g | Calcium | ~1200 mg |
+| Carbohydrates | ~770 g | Zinc | ~25 mg |
+| — of which sugars | ~210 g | Magnesium | ~1500 mg |
+| Fat | ~30 g | Potassium | ~12000 mg |
+| — of which saturates | ~5 g | Vitamin D | 0 µg |
+| Fibre | ~135 g | Vitamin B12 | ~10 µg (fortified yeast) |
+| Salt | ~25 g | Folate | ~2800 µg |

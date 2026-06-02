@@ -58,20 +58,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe, including bagels and salad. **Values are estimates — replace with FoodNoms-verified totals when computed.** Calorie-dense by design: this is a carb-loading dinner with bagels on the side.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~4880 kcal | Iron | ~18 mg |
-| Protein | ~186 g | Calcium | ~2030 mg |
-| Carbohydrates | ~790 g | Zinc | ~12 mg |
-| — of which sugars | ~60 g | Magnesium | ~330 mg |
-| Fat | ~99 g | Potassium | ~3500 mg |
-| — of which saturates | ~49 g | Vitamin D | ~0.5 µg |
-| Fibre | ~40 g | Vitamin B12 | ~5 µg |
-| Salt | ~17 g | Folate | ~500 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Pan-tofu%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Microwave%22%5D%2C%5B5%2C18%2C%22Pan-fry%20tofu%22%5D%5D%7D%2C%22Pan-risotto%22%3A%7B%22color%22%3A%22%233AB5B5%22%2C%22steps%22%3A%5B%5B5%2C10%2C%22Saute%22%5D%2C%5B8%2C10%2C%22Toast%20rice%22%5D%2C%5B10%2C40%2C%22Ladle%20stock%22%5D%2C%5B37%2C40%2C%22Add%20peas%22%5D%2C%5B40%2C44%2C%22Mantecatura%22%5D%2C%5B44%2C46%2C%22Rest%22%5D%5D%7D%2C%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C15%2C%22Dice%20veg%22%5D%2C%5B38%2C42%2C%22Dress%20salad%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A46%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -99,6 +88,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Pan-tofu%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Microwave%22%5D%2C%5B5%2C18%2C%22Pan-fry%20tofu%22%5D%5D%7D%2C%22Pan-risotto%22%3A%7B%22color%22%3A%22%233AB5B5%22%2C%22steps%22%3A%5B%5B5%2C10%2C%22Saute%22%5D%2C%5B8%2C10%2C%22Toast%20rice%22%5D%2C%5B10%2C40%2C%22Ladle%20stock%22%5D%2C%5B37%2C40%2C%22Add%20peas%22%5D%2C%5B40%2C44%2C%22Mantecatura%22%5D%2C%5B44%2C46%2C%22Rest%22%5D%5D%7D%2C%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C15%2C%22Dice%20veg%22%5D%2C%5B38%2C42%2C%22Dress%20salad%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A46%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe, including bagels and salad. **Values are estimates — replace with FoodNoms-verified totals when computed.** Calorie-dense by design: this is a carb-loading dinner with bagels on the side.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~4880 kcal | Iron | ~18 mg |
+| Protein | ~186 g | Calcium | ~2030 mg |
+| Carbohydrates | ~790 g | Zinc | ~12 mg |
+| — of which sugars | ~60 g | Magnesium | ~330 mg |
+| Fat | ~99 g | Potassium | ~3500 mg |
+| — of which saturates | ~49 g | Vitamin D | ~0.5 µg |
+| Fibre | ~40 g | Vitamin B12 | ~5 µg |
+| Salt | ~17 g | Folate | ~500 µg |

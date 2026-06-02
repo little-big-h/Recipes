@@ -27,9 +27,11 @@ XHTML Header: <script> ... </script>
 ---
 
 ## Ingredients
-## Nutrition
-## Method
 ## Timeline
+## Method
+## Nutrition
+## Design notes (optional)
+## Cook log (optional)
 ```
 
 ---

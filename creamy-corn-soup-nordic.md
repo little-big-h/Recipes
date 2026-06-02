@@ -54,20 +54,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe. Very low salt compared to other soups — only 2 stock cubes. Season generously at the cold-fold stage. Quark contributes meaningful B12 — notable for a vegetarian dish. Pickled accompaniments not included in totals.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | 2800 kcal | Iron | 32 mg |
-| Protein | 158 g | Calcium | 839 mg |
-| Carbohydrates | 560 g | Zinc | 20 mg |
-| — of which sugars | 108 g | Magnesium | 1234 mg |
-| Fat | 29 g | Potassium | 9552 mg |
-| — of which saturates | 5 g | Vitamin D | 0.0 µg |
-| Fibre | 84 g | Vitamin B12 | 0.9 µg |
-| Salt | 5 g | Folate | 2424 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Load%20corn%20%2B%20stock%22%5D%2C%5B5%2C100%2C%22Low%20pressure%2030%20min%20%2B%20release%22%5D%2C%5B105%2C138%2C%22Low%20pressure%208%20min%20%2B%20release%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B138%2C148%2C%22Blend%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A100%2C%22color%22%3A%22%231E3A5F%22%2C%22label%22%3A%22Add%20beans%22%7D%2C%7B%22t%22%3A138%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A148%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%20to%20chill%22%7D%5D)
 
 ---
 
@@ -89,6 +78,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C5%2C%22Load%20corn%20%2B%20stock%22%5D%2C%5B5%2C100%2C%22Low%20pressure%2030%20min%20%2B%20release%22%5D%2C%5B105%2C138%2C%22Low%20pressure%208%20min%20%2B%20release%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B138%2C148%2C%22Blend%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A100%2C%22color%22%3A%22%231E3A5F%22%2C%22label%22%3A%22Add%20beans%22%7D%2C%7B%22t%22%3A138%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A148%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%20to%20chill%22%7D%5D)
+*Total values for the whole recipe. Very low salt compared to other soups — only 2 stock cubes. Season generously at the cold-fold stage. Quark contributes meaningful B12 — notable for a vegetarian dish. Pickled accompaniments not included in totals.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | 2800 kcal | Iron | 32 mg |
+| Protein | 158 g | Calcium | 839 mg |
+| Carbohydrates | 560 g | Zinc | 20 mg |
+| — of which sugars | 108 g | Magnesium | 1234 mg |
+| Fat | 29 g | Potassium | 9552 mg |
+| — of which saturates | 5 g | Vitamin D | 0.0 µg |
+| Fibre | 84 g | Vitamin B12 | 0.9 µg |
+| Salt | 5 g | Folate | 2424 µg |

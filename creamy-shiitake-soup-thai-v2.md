@@ -58,20 +58,11 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe. Salt reduced significantly vs v1 — Tsuyu and aminos only. Vitamin D and B12 negligible — supplement separately.*
+> ⚠ Timeline below reflects Ninja-only saute (pre-wok-first revision). Needs regeneration before the v2 cook to show the wok stage (0–10 min Wok track) and the wok→Ninja transfer at ~10 min.
 
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | 1873 kcal | Iron | 16.3 mg |
-| Protein | 54 g | Calcium | 754 mg |
-| Carbohydrates | 198 g | Zinc | 16.2 mg |
-| — of which sugars | 54 g | Magnesium | 524 mg |
-| Fat | 100 g | Potassium | 4781 mg |
-| — of which saturates | 75 g | Vitamin D | 0.4 µg |
-| Fibre | 26 g | Vitamin B12 | 0.0 µg |
-| Salt | 16 g | Folate | 427 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Saute%20onions%20%2B%20garlic%22%5D%2C%5B10%2C13%2C%22Bloom%20pastes%22%5D%2C%5B13%2C60%2C%22Pressure%20cook%22%5D%2C%5B68%2C73%2C%22Add%20coconut%20%2B%20season%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Blend%20with%20tofu%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A73%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -91,8 +82,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-> ⚠ Timeline below reflects Ninja-only saute (pre-wok-first revision). Needs regeneration before the v2 cook to show the wok stage (0–10 min Wok track) and the wok→Ninja transfer at ~10 min.
+*Total values for the whole recipe. Salt reduced significantly vs v1 — Tsuyu and aminos only. Vitamin D and B12 negligible — supplement separately.*
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Saute%20onions%20%2B%20garlic%22%5D%2C%5B10%2C13%2C%22Bloom%20pastes%22%5D%2C%5B13%2C60%2C%22Pressure%20cook%22%5D%2C%5B68%2C73%2C%22Add%20coconut%20%2B%20season%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Blend%20with%20tofu%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A73%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | 1873 kcal | Iron | 16.3 mg |
+| Protein | 54 g | Calcium | 754 mg |
+| Carbohydrates | 198 g | Zinc | 16.2 mg |
+| — of which sugars | 54 g | Magnesium | 524 mg |
+| Fat | 100 g | Potassium | 4781 mg |
+| — of which saturates | 75 g | Vitamin D | 0.4 µg |
+| Fibre | 26 g | Vitamin B12 | 0.0 µg |
+| Salt | 16 g | Folate | 427 µg |

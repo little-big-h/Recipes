@@ -56,20 +56,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe. Salt driven by Tsuyu and dashi soy — taste before adding aminos. Vitamin D and B12 negligible — supplement separately.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | 2396 kcal | Iron | 22.2 mg |
-| Protein | 82 g | Calcium | 1071 mg |
-| Carbohydrates | 275 g | Zinc | 25.4 mg |
-| — of which sugars | 63 g | Magnesium | 746 mg |
-| Fat | 110 g | Potassium | 6816 mg |
-| — of which saturates | 76 g | Vitamin D | 0.8 µg |
-| Fibre | 38 g | Vitamin B12 | 0.0 µg |
-| Salt | 24 g | Folate | 628 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Saute%20onions%20%2B%20garlic%22%5D%2C%5B10%2C13%2C%22Bloom%20pastes%22%5D%2C%5B13%2C60%2C%22Pressure%20cook%22%5D%2C%5B68%2C73%2C%22Add%20coconut%20%2B%20season%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Blend%20with%20tofu%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A73%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -87,6 +76,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Saute%20onions%20%2B%20garlic%22%5D%2C%5B10%2C13%2C%22Bloom%20pastes%22%5D%2C%5B13%2C60%2C%22Pressure%20cook%22%5D%2C%5B68%2C73%2C%22Add%20coconut%20%2B%20season%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B60%2C68%2C%22Blend%20with%20tofu%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A60%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Ninja%20done%22%7D%2C%7B%22t%22%3A73%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe. Salt driven by Tsuyu and dashi soy — taste before adding aminos. Vitamin D and B12 negligible — supplement separately.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | 2396 kcal | Iron | 22.2 mg |
+| Protein | 82 g | Calcium | 1071 mg |
+| Carbohydrates | 275 g | Zinc | 25.4 mg |
+| — of which sugars | 63 g | Magnesium | 746 mg |
+| Fat | 110 g | Potassium | 6816 mg |
+| — of which saturates | 76 g | Vitamin D | 0.8 µg |
+| Fibre | 38 g | Vitamin B12 | 0.0 µg |
+| Salt | 24 g | Folate | 628 µg |

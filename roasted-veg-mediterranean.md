@@ -52,20 +52,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe (family of 5). **Values are estimates — replace with FoodNoms-verified totals when computed.** Vegetable-heavy; carbs primarily from squash and kasha.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~2260 kcal | Iron | ~12 mg |
-| Protein | ~73 g | Calcium | ~600 mg |
-| Carbohydrates | ~440 g | Zinc | ~10 mg |
-| — of which sugars | ~100 g | Magnesium | ~700 mg |
-| Fat | ~40 g | Potassium | ~7500 mg |
-| — of which saturates | ~6 g | Vitamin D | 0 µg |
-| Fibre | ~90 g | Vitamin B12 | 0 µg |
-| Salt | ~6 g | Folate | ~700 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C15%2C%22Chop%20veg%22%5D%2C%5B15%2C20%2C%22Toss%20%2B%20season%22%5D%5D%7D%2C%22Oven%22%3A%7B%22color%22%3A%22%23D1A83A%22%2C%22steps%22%3A%5B%5B20%2C35%2C%22Squash%20%2B%20onions%22%5D%2C%5B35%2C45%2C%22%2B%20Cauli%20%2B%20peppers%22%5D%2C%5B45%2C55%2C%22%2B%20Tomatoes%22%5D%2C%5B55%2C57%2C%22Capers%20%2B%20remove%20rosemary%22%5D%5D%7D%2C%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B15%2C19%2C%22Toast%20kasha%22%5D%2C%5B19%2C40%2C%22Heat-up%20%2B%200%20min%20PC%20%2B%20release%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A35%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20cauli%20%2B%20peppers%22%7D%2C%7B%22t%22%3A45%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20tomatoes%22%7D%2C%7B%22t%22%3A57%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -91,6 +80,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C15%2C%22Chop%20veg%22%5D%2C%5B15%2C20%2C%22Toss%20%2B%20season%22%5D%5D%7D%2C%22Oven%22%3A%7B%22color%22%3A%22%23D1A83A%22%2C%22steps%22%3A%5B%5B20%2C35%2C%22Squash%20%2B%20onions%22%5D%2C%5B35%2C45%2C%22%2B%20Cauli%20%2B%20peppers%22%5D%2C%5B45%2C55%2C%22%2B%20Tomatoes%22%5D%2C%5B55%2C57%2C%22Capers%20%2B%20remove%20rosemary%22%5D%5D%7D%2C%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B15%2C19%2C%22Toast%20kasha%22%5D%2C%5B19%2C40%2C%22Heat-up%20%2B%200%20min%20PC%20%2B%20release%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A35%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20cauli%20%2B%20peppers%22%7D%2C%7B%22t%22%3A45%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20tomatoes%22%7D%2C%7B%22t%22%3A57%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe (family of 5). **Values are estimates — replace with FoodNoms-verified totals when computed.** Vegetable-heavy; carbs primarily from squash and kasha.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~2260 kcal | Iron | ~12 mg |
+| Protein | ~73 g | Calcium | ~600 mg |
+| Carbohydrates | ~440 g | Zinc | ~10 mg |
+| — of which sugars | ~100 g | Magnesium | ~700 mg |
+| Fat | ~40 g | Potassium | ~7500 mg |
+| — of which saturates | ~6 g | Vitamin D | 0 µg |
+| Fibre | ~90 g | Vitamin B12 | 0 µg |
+| Salt | ~6 g | Folate | ~700 µg |

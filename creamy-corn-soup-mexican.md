@@ -63,20 +63,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe (family of 5 + leftovers — roughly 8 servings). **Values are estimates — replace with FoodNoms-verified totals when computed.** High salt — driven by stock cubes, capers, tamarind. Per-serving salt ~3 g.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~3900 kcal | Iron | ~30 mg |
-| Protein | ~200 g | Calcium | ~1100 mg |
-| Carbohydrates | ~770 g | Zinc | ~25 mg |
-| — of which sugars | ~220 g | Magnesium | ~1400 mg |
-| Fat | ~28 g | Potassium | ~11000 mg |
-| — of which saturates | ~5 g | Vitamin D | 0 µg |
-| Fibre | ~130 g | Vitamin B12 | ~10 µg (fortified yeast) |
-| Salt | ~27 g | Folate | ~2500 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Prep%20onions%20%2B%20garlic%22%5D%2C%5B10%2C18%2C%22Saute%22%5D%2C%5B18%2C20%2C%22Bloom%20spices%22%5D%2C%5B20%2C50%2C%22Heat-up%22%5D%2C%5B50%2C60%2C%22Pressure%2010%20min%22%5D%2C%5B60%2C70%2C%22Delayed%20release%22%5D%2C%5B77%2C80%2C%22Warm%20beans%22%5D%2C%5B80%2C82%2C%22Spinach%20%2B%20acid%22%5D%5D%7D%2C%22Steamer%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B50%2C60%2C%22Steam%20asparagus%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B70%2C77%2C%22Remove%20chipotle%20%2B%20blend%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A50%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Pressure%20reached%22%7D%2C%7B%22t%22%3A70%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Blend%22%7D%2C%7B%22t%22%3A82%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -102,6 +91,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Prep%20onions%20%2B%20garlic%22%5D%2C%5B10%2C18%2C%22Saute%22%5D%2C%5B18%2C20%2C%22Bloom%20spices%22%5D%2C%5B20%2C50%2C%22Heat-up%22%5D%2C%5B50%2C60%2C%22Pressure%2010%20min%22%5D%2C%5B60%2C70%2C%22Delayed%20release%22%5D%2C%5B77%2C80%2C%22Warm%20beans%22%5D%2C%5B80%2C82%2C%22Spinach%20%2B%20acid%22%5D%5D%7D%2C%22Steamer%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B50%2C60%2C%22Steam%20asparagus%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B70%2C77%2C%22Remove%20chipotle%20%2B%20blend%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A50%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Pressure%20reached%22%7D%2C%7B%22t%22%3A70%2C%22color%22%3A%22%238C2E8C%22%2C%22label%22%3A%22Blend%22%7D%2C%7B%22t%22%3A82%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe (family of 5 + leftovers — roughly 8 servings). **Values are estimates — replace with FoodNoms-verified totals when computed.** High salt — driven by stock cubes, capers, tamarind. Per-serving salt ~3 g.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~3900 kcal | Iron | ~30 mg |
+| Protein | ~200 g | Calcium | ~1100 mg |
+| Carbohydrates | ~770 g | Zinc | ~25 mg |
+| — of which sugars | ~220 g | Magnesium | ~1400 mg |
+| Fat | ~28 g | Potassium | ~11000 mg |
+| — of which saturates | ~5 g | Vitamin D | 0 µg |
+| Fibre | ~130 g | Vitamin B12 | ~10 µg (fortified yeast) |
+| Salt | ~27 g | Folate | ~2500 µg |

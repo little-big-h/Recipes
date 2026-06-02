@@ -59,20 +59,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe. **Values are estimates — replace with FoodNoms-verified totals when computed.** Lower calorie density than the risotto version (no grain side); carbs come primarily from squash.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~1600 kcal | Iron | ~15 mg |
-| Protein | ~60 g | Calcium | ~1100 mg |
-| Carbohydrates | ~255 g | Zinc | ~5 mg |
-| — of which sugars | ~90 g | Magnesium | ~450 mg |
-| Fat | ~40 g | Potassium | ~5800 mg |
-| — of which saturates | ~14 g | Vitamin D | 0 µg |
-| Fibre | ~47 g | Vitamin B12 | 0 µg |
-| Salt | ~7 g | Folate | ~600 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B10%2C20%2C%22Air%20fry%20tofu%22%5D%2C%5B20%2C22%2C%22Add%20squash%20%2B%20seal%22%5D%2C%5B22%2C43%2C%22Heat-up%22%5D%2C%5B43%2C46%2C%22Pressure%203%20min%22%5D%2C%5B46%2C56%2C%22Delayed%20release%22%5D%2C%5B56%2C61%2C%22Mash%22%5D%5D%7D%2C%22Pan-gravy%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B5%2C30%2C%22Caramelise%20onion%20%2B%20apple%22%5D%2C%5B30%2C38%2C%22Finish%20gravy%20%2B%20miso%22%5D%5D%7D%2C%22Pan-beans%22%3A%7B%22color%22%3A%22%233AB5B5%22%2C%22steps%22%3A%5B%5B52%2C59%2C%22Heat%20beans%22%5D%5D%7D%2C%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Tofu%20prep%22%5D%2C%5B10%2C20%2C%22Squash%20prep%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A20%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Air%20fry%20to%20pressure%22%7D%2C%7B%22t%22%3A61%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -100,6 +89,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B10%2C20%2C%22Air%20fry%20tofu%22%5D%2C%5B20%2C22%2C%22Add%20squash%20%2B%20seal%22%5D%2C%5B22%2C43%2C%22Heat-up%22%5D%2C%5B43%2C46%2C%22Pressure%203%20min%22%5D%2C%5B46%2C56%2C%22Delayed%20release%22%5D%2C%5B56%2C61%2C%22Mash%22%5D%5D%7D%2C%22Pan-gravy%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B5%2C30%2C%22Caramelise%20onion%20%2B%20apple%22%5D%2C%5B30%2C38%2C%22Finish%20gravy%20%2B%20miso%22%5D%5D%7D%2C%22Pan-beans%22%3A%7B%22color%22%3A%22%233AB5B5%22%2C%22steps%22%3A%5B%5B52%2C59%2C%22Heat%20beans%22%5D%5D%7D%2C%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Tofu%20prep%22%5D%2C%5B10%2C20%2C%22Squash%20prep%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A20%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Air%20fry%20to%20pressure%22%7D%2C%7B%22t%22%3A61%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe. **Values are estimates — replace with FoodNoms-verified totals when computed.** Lower calorie density than the risotto version (no grain side); carbs come primarily from squash.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~1600 kcal | Iron | ~15 mg |
+| Protein | ~60 g | Calcium | ~1100 mg |
+| Carbohydrates | ~255 g | Zinc | ~5 mg |
+| — of which sugars | ~90 g | Magnesium | ~450 mg |
+| Fat | ~40 g | Potassium | ~5800 mg |
+| — of which saturates | ~14 g | Vitamin D | 0 µg |
+| Fibre | ~47 g | Vitamin B12 | 0 µg |
+| Salt | ~7 g | Folate | ~600 µg |

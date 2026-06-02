@@ -52,20 +52,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe (curry only — rice and lime served separately). Salt much reduced compared to the 100g paste version (~7g vs ~11g). High saturated fat from 9% coconut milk. Very high calcium and potassium from the vegetables.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | 1544 kcal | Iron | 19 mg |
-| Protein | 50 g | Calcium | 1083 mg |
-| Carbohydrates | 255 g | Zinc | 7 mg |
-| — of which sugars | 82 g | Magnesium | 665 mg |
-| Fat | 53 g | Potassium | 7995 mg |
-| — of which saturates | 34 g | Vitamin D | 0.0 µg |
-| Fibre | 48 g | Vitamin B12 | 0.0 µg |
-| Salt | 7 g | Folate | 888 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C15%2C%22Squash%20steam%2Bair-fry%22%5D%2C%5B15%2C28%2C%22Carrot%20steam%2Bair-fry%22%5D%2C%5B28%2C36%2C%22Cauliflower%20steam%2Bair-fry%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B5%2C10%2C%22Tofu%20%2B%20coconut%20blend%22%5D%5D%7D%2C%22Wok%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B8%2C10%2C%22Bloom%20paste%22%5D%2C%5B10%2C15%2C%22Sauce%20simmer%22%5D%2C%5B15%2C28%2C%22%2B%20Squash%22%5D%2C%5B28%2C36%2C%22%2B%20Carrot%22%5D%2C%5B36%2C41%2C%22%2B%20Cauliflower%20%2B%20cabbage%22%5D%2C%5B41%2C43%2C%22Finish%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A15%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Squash%20to%20wok%22%7D%2C%7B%22t%22%3A28%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Carrot%20done%22%7D%2C%7B%22t%22%3A36%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Cauliflower%20done%22%7D%2C%7B%22t%22%3A43%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -93,6 +82,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B0%2C15%2C%22Squash%20steam%2Bair-fry%22%5D%2C%5B15%2C28%2C%22Carrot%20steam%2Bair-fry%22%5D%2C%5B28%2C36%2C%22Cauliflower%20steam%2Bair-fry%22%5D%5D%7D%2C%22Blender%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B5%2C10%2C%22Tofu%20%2B%20coconut%20blend%22%5D%5D%7D%2C%22Wok%22%3A%7B%22color%22%3A%22%235AAD5A%22%2C%22steps%22%3A%5B%5B8%2C10%2C%22Bloom%20paste%22%5D%2C%5B10%2C15%2C%22Sauce%20simmer%22%5D%2C%5B15%2C28%2C%22%2B%20Squash%22%5D%2C%5B28%2C36%2C%22%2B%20Carrot%22%5D%2C%5B36%2C41%2C%22%2B%20Cauliflower%20%2B%20cabbage%22%5D%2C%5B41%2C43%2C%22Finish%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A15%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Squash%20to%20wok%22%7D%2C%7B%22t%22%3A28%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Carrot%20done%22%7D%2C%7B%22t%22%3A36%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Cauliflower%20done%22%7D%2C%7B%22t%22%3A43%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe (curry only — rice and lime served separately). Salt much reduced compared to the 100g paste version (~7g vs ~11g). High saturated fat from 9% coconut milk. Very high calcium and potassium from the vegetables.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | 1544 kcal | Iron | 19 mg |
+| Protein | 50 g | Calcium | 1083 mg |
+| Carbohydrates | 255 g | Zinc | 7 mg |
+| — of which sugars | 82 g | Magnesium | 665 mg |
+| Fat | 53 g | Potassium | 7995 mg |
+| — of which saturates | 34 g | Vitamin D | 0.0 µg |
+| Fibre | 48 g | Vitamin B12 | 0.0 µg |
+| Salt | 7 g | Folate | 888 µg |

@@ -48,20 +48,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe (family of 5; no starch side in original recipe). **Values are estimates — replace with FoodNoms-verified totals when computed.** Low energy density — this is a vegetable-forward dish and may need a starch side (rice, kasha, bread) to be a full meal.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~1050 kcal | Iron | ~10 mg |
-| Protein | ~48 g | Calcium | ~400 mg |
-| Carbohydrates | ~204 g | Zinc | ~5 mg |
-| — of which sugars | ~89 g | Magnesium | ~400 mg |
-| Fat | ~12 g | Potassium | ~5500 mg |
-| — of which saturates | ~2 g | Vitamin D | 0 µg |
-| Fibre | ~55 g | Vitamin B12 | 0 µg |
-| Salt | ~7 g | Folate | ~700 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C12%2C%22Chop%20wave%201%22%5D%2C%5B12%2C22%2C%22Chop%20broccoli%20%2B%20bloom%20curry%22%5D%5D%7D%2C%22Oven%22%3A%7B%22color%22%3A%22%23D1A83A%22%2C%22steps%22%3A%5B%5B12%2C32%2C%22Wave%201%20roast%22%5D%2C%5B32%2C44%2C%22%2B%20Broccoli%20%2B%20sauce%22%5D%2C%5B44%2C54%2C%22%2B%20Cherry%20tomatoes%22%5D%2C%5B54%2C57%2C%22Rest%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A32%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20broccoli%20%2B%20sauce%22%7D%2C%7B%22t%22%3A44%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20tomatoes%22%7D%2C%7B%22t%22%3A57%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -81,6 +70,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C12%2C%22Chop%20wave%201%22%5D%2C%5B12%2C22%2C%22Chop%20broccoli%20%2B%20bloom%20curry%22%5D%5D%7D%2C%22Oven%22%3A%7B%22color%22%3A%22%23D1A83A%22%2C%22steps%22%3A%5B%5B12%2C32%2C%22Wave%201%20roast%22%5D%2C%5B32%2C44%2C%22%2B%20Broccoli%20%2B%20sauce%22%5D%2C%5B44%2C54%2C%22%2B%20Cherry%20tomatoes%22%5D%2C%5B54%2C57%2C%22Rest%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A32%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20broccoli%20%2B%20sauce%22%7D%2C%7B%22t%22%3A44%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20tomatoes%22%7D%2C%7B%22t%22%3A57%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe (family of 5; no starch side in original recipe). **Values are estimates — replace with FoodNoms-verified totals when computed.** Low energy density — this is a vegetable-forward dish and may need a starch side (rice, kasha, bread) to be a full meal.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~1050 kcal | Iron | ~10 mg |
+| Protein | ~48 g | Calcium | ~400 mg |
+| Carbohydrates | ~204 g | Zinc | ~5 mg |
+| — of which sugars | ~89 g | Magnesium | ~400 mg |
+| Fat | ~12 g | Potassium | ~5500 mg |
+| — of which saturates | ~2 g | Vitamin D | 0 µg |
+| Fibre | ~55 g | Vitamin B12 | 0 µg |
+| Salt | ~7 g | Folate | ~700 µg |

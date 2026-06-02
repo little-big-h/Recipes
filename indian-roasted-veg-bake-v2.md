@@ -70,20 +70,9 @@ XHTML Header: <script>
 
 ---
 
-## Nutrition
+## Timeline
 
-*Total values for the whole recipe including cottage cheese side (family of 5). **Values are estimates — replace with FoodNoms-verified totals when computed.** Substantially higher protein and energy than v1; cottage cheese adds B12.*
-
-| Macro | Total | Micro | Total |
-|:------|------:|:------|------:|
-| Energy | ~2510 kcal | Iron | ~15 mg |
-| Protein | ~125 g | Calcium | ~700 mg |
-| Carbohydrates | ~405 g | Zinc | ~10 mg |
-| — of which sugars | ~110 g | Magnesium | ~500 mg |
-| Fat | ~38 g | Potassium | ~7000 mg |
-| — of which saturates | ~7 g | Vitamin D | ~0.5 µg |
-| Fibre | ~70 g | Vitamin B12 | ~1 µg (cottage cheese) |
-| Salt | ~11 g | Folate | ~600 µg |
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Chop%20veg%20%2B%20chickpeas%22%5D%2C%5B0%2C15%2C%22Chop%20broccoli%22%5D%2C%5B5%2C20%2C%22Bloom%20curry%20%2B%20blend%20sauce%22%5D%5D%7D%2C%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B10%2C30%2C%22Air%20fry%20carrots%2C%20onions%2C%20garlic%2C%20chickpeas%22%5D%5D%7D%2C%22Oven%22%3A%7B%22color%22%3A%22%23D1A83A%22%2C%22steps%22%3A%5B%5B32%2C45%2C%22Bake%20with%20broccoli-sauce%22%5D%2C%5B45%2C55%2C%22%2B%20Cherry%20tomatoes%22%5D%2C%5B55%2C58%2C%22Lemon%20%2B%20rest%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A30%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Air%20fry%20done%22%7D%2C%7B%22t%22%3A45%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20tomatoes%22%7D%2C%7B%22t%22%3A58%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
 
 ---
 
@@ -105,6 +94,17 @@ XHTML Header: <script>
 
 ---
 
-## Timeline
+## Nutrition
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Prep%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Chop%20veg%20%2B%20chickpeas%22%5D%2C%5B0%2C15%2C%22Chop%20broccoli%22%5D%2C%5B5%2C20%2C%22Bloom%20curry%20%2B%20blend%20sauce%22%5D%5D%7D%2C%22Ninja%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B10%2C30%2C%22Air%20fry%20carrots%2C%20onions%2C%20garlic%2C%20chickpeas%22%5D%5D%7D%2C%22Oven%22%3A%7B%22color%22%3A%22%23D1A83A%22%2C%22steps%22%3A%5B%5B32%2C45%2C%22Bake%20with%20broccoli-sauce%22%5D%2C%5B45%2C55%2C%22%2B%20Cherry%20tomatoes%22%5D%2C%5B55%2C58%2C%22Lemon%20%2B%20rest%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A30%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Air%20fry%20done%22%7D%2C%7B%22t%22%3A45%2C%22color%22%3A%22%23A88B30%22%2C%22label%22%3A%22Add%20tomatoes%22%7D%2C%7B%22t%22%3A58%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Ready%22%7D%5D)
+*Total values for the whole recipe including cottage cheese side (family of 5). **Values are estimates — replace with FoodNoms-verified totals when computed.** Substantially higher protein and energy than v1; cottage cheese adds B12.*
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | ~2510 kcal | Iron | ~15 mg |
+| Protein | ~125 g | Calcium | ~700 mg |
+| Carbohydrates | ~405 g | Zinc | ~10 mg |
+| — of which sugars | ~110 g | Magnesium | ~500 mg |
+| Fat | ~38 g | Potassium | ~7000 mg |
+| — of which saturates | ~7 g | Vitamin D | ~0.5 µg |
+| Fibre | ~70 g | Vitamin B12 | ~1 µg (cottage cheese) |
+| Salt | ~11 g | Folate | ~600 µg |
