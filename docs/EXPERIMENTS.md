@@ -77,6 +77,37 @@ See recipe file: `../recipes/soups/creamy-corn-soup-japanese-v2.md`. Also `RATIN
 
 ---
 
+### 3. Japanese corn soup — homemade dashi vs bottled concentrate (v2 → v3)
+
+**Hypothesis**: A real kombu-shiitake dashi backbone matches or beats the bottled-concentrate stack (Tsuyu + dashi-soy) on depth and family ratings, *at roughly half the salt*. Kombu glutamate × shiitake guanylate should supply the savoury depth that the salty Tsuyu currently provides, letting Tsuyu drop from 104 → 45 ml. If it lands, this becomes the default build for the Japanese line and a standing salt-budget win.
+
+**Protocol:**
+
+- Cold-brew dashi overnight (mizudashi): 20 g kombu + 11 g shiitake powder in 1800 ml water; remove kombu before cooking (never boil the kombu). Use the dashi in place of the plain water.
+- Tsuyu cut 104 → 45 ml. White miso (30 g), dashi-soy (10 ml), corn, soybeans, bok choi all held at v2 levels.
+- Hon-mirin 22 ml replaces 30 ml mirin-style seasoning (real mirin reads sweeter — see `TECHNIQUES.md`).
+- Same cooking method, garnishes, serving conditions as v2.
+
+**Confound (explicit):** this is **not** a clean single-variable change. Two coupled variables move together — (1) umami source (water → kombu-shiitake dashi) and (2) salt level (~11 g → ~7 g) — plus a smaller mirin change. They're coupled on purpose (real dashi is what affords the salt cut), but a ratings change can't be cleanly attributed to dashi quality vs lower salt. Under-salting is the prime suspect for any dip, especially with the kids.
+
+**Decoupling follow-up:** if v3 is ambiguous, cook **v3b** holding total salt at ~11 g (back-fill the cut Tsuyu salt with plain salt or liquid aminos) so the *only* change from v2 is the dashi source. That isolates dashi quality from salt level.
+
+**Measurement plan:**
+
+- Family ratings out of 10, same five raters.
+- Compare per-person delta vs v2.
+- Predicted outcomes:
+  - Family holds or rises → dashi swap validated, salt cut is free.
+  - Adults hold, kids dip → likely under-salted, not a dashi problem; run v3b.
+  - Across-the-board dip → under-salted or dashi character not landing; v3b decouples which.
+  - Holger especially up → real dashi depth is the adult-palate lever red miso used to provide, minus the fermented edge Jannes disliked.
+
+**Outcome:** *(unfilled — v3 not yet cooked)*
+
+See recipe file: `../recipes/soups/creamy-corn-soup-japanese-v3.md`. Also `RATINGS.md` remark #33.
+
+---
+
 ## Closed / superseded experiments
 
 *(none yet)*
