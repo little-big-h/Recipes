@@ -1,10 +1,10 @@
 # Solo Holger Recipes
 
-Single-serving recipes for Holger alone — typically tied to athletic recovery, fuelling windows, or solo meals. Lightweight format (not full RECIPE_FORMAT.md spec) because these are personal-use, not family-rated.
+Single-serving recipes for Holger alone — typically tied to athletic recovery, fuelling windows, or solo meals. Lightweight format (not full ../docs/RECIPE_FORMAT.md spec) because these are personal-use, not family-rated.
 
 For breakfast variants (shakshuka, sauerkraut hash), see `SHAKSHUKA.md` — separate file because that's an established daily structure with its own profile matrix.
 
-These recipes are **out of the `RATINGS.md` system by design** (single rater, no family score). Iteration happens informally — update entries in place rather than versioning.
+These recipes are **out of the `../docs/RATINGS.md` system by design** (single rater, no family score). Iteration happens informally — update entries in place rather than versioning.
 
 ---
 

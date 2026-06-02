@@ -20,7 +20,7 @@ XHTML Header: <script>
 
 > **Migrated from legacy Wolfram Language source** (`courgette-pea-risotto.wl`). Recipe content fully migrated; nutrition values below are rough estimates pending FoodNoms verification. No family ratings on record.
 
-> **Category mapping note:** rice and bagels colour-coded as Vegetables, parmesan and butter as Protein (the current format omits Grain/Dairy as standalone categories — see RECIPE_FORMAT.md).
+> **Category mapping note:** rice and bagels colour-coded as Vegetables, parmesan and butter as Protein (the current format omits Grain/Dairy as standalone categories — see ../../docs/RECIPE_FORMAT.md).
 
 ---
 

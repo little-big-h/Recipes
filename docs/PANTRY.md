@@ -80,7 +80,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 
 - **Defatted peanut flour** — for West African corn soup; thickens + adds peanut flavour without coconut-milk-level fat
 - **Goji berries**
-- **Cacao nibs, chia seeds** — for Post-Workout Cream (see `SOLO-HOLGER.md`)
+- **Cacao nibs, chia seeds** — for Post-Workout Cream (see `../design/SOLO-HOLGER.md`)
 - **Medjool dates**
 - **Stock cubes** — ~2.5 g salt per cube
 

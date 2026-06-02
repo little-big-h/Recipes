@@ -73,7 +73,7 @@ Even a clean negative result (no sensory aversion) does not prove she will accep
 
 **Outcome:** *(unfilled — v2 not yet cooked)*
 
-See recipe file: `creamy-corn-soup-japanese-v2.md`. Also `RATINGS.md` remark #17.
+See recipe file: `../recipes/soups/creamy-corn-soup-japanese-v2.md`. Also `RATINGS.md` remark #17.
 
 ---
 
@@ -104,7 +104,7 @@ See recipe file: `creamy-corn-soup-japanese-v2.md`. Also `RATINGS.md` remark #17
 
 **Outcome:** *(unfilled — v3 not yet cooked)*
 
-See recipe file: `creamy-corn-soup-japanese-v3.md`. Also `RATINGS.md` remark #33.
+See recipe file: `../recipes/soups/creamy-corn-soup-japanese-v3.md`. Also `RATINGS.md` remark #33.
 
 ---
 

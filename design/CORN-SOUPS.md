@@ -35,13 +35,13 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 
 | Profile | Flavour | Legume (matrix) | Alt. veg | Status | Recipe file |
 |:--------|:--------|:----------------|:---------|:-------|:------------|
-| **Mexican** | Smoky, earthy, bold | Red kidney 250 g dry | Courgette, sweet potato | Built (2 variants) | [creamy-corn-soup-mexican.md](./creamy-corn-soup-mexican.md), [-low-effort.md](./creamy-corn-soup-mexican-low-effort.md) |
-| **Japanese** | Umami, bright, delicate | Silken tofu 600 g | Pak choi, edamame | Cooked v1 (red miso); v2 planned (white miso) | [creamy-corn-soup-japanese.md](./creamy-corn-soup-japanese.md), [-v2.md](./creamy-corn-soup-japanese-v2.md) |
-| **Indian** | Warming, aromatic, complex | Chickpeas 300 g dry | Green beans, cauliflower | Built | [creamy-corn-soup-indian.md](./creamy-corn-soup-indian.md) |
-| **West African** | Nutty, rich, fiery | Black-eyed peas 250 g dry | Okra, plantain | Planned (full recipe written) | [creamy-corn-soup-westafrican.md](./creamy-corn-soup-westafrican.md) |
+| **Mexican** | Smoky, earthy, bold | Red kidney 250 g dry | Courgette, sweet potato | Built (2 variants) | [creamy-corn-soup-mexican.md](../recipes/soups/creamy-corn-soup-mexican.md), [-low-effort.md](../recipes/soups/creamy-corn-soup-mexican-low-effort.md) |
+| **Japanese** | Umami, bright, delicate | Silken tofu 600 g | Pak choi, edamame | Cooked v1 (red miso); v2 planned (white miso) | [creamy-corn-soup-japanese.md](../recipes/soups/creamy-corn-soup-japanese.md), [-v2.md](../recipes/soups/creamy-corn-soup-japanese-v2.md) |
+| **Indian** | Warming, aromatic, complex | Chickpeas 300 g dry | Green beans, cauliflower | Built | [creamy-corn-soup-indian.md](../recipes/soups/creamy-corn-soup-indian.md) |
+| **West African** | Nutty, rich, fiery | Black-eyed peas 250 g dry | Okra, plantain | Planned (full recipe written) | [creamy-corn-soup-westafrican.md](../recipes/soups/creamy-corn-soup-westafrican.md) |
 | **Thai** | Fragrant, citrusy, spicy | Silken tofu 600 g | Pak choi, sugar snap | Concept only | — |
 | **Mediterranean** | Herby, tangy, bright | White beans 150 g + chickpeas 150 g | Courgette, artichoke | Concept only | — |
-| **Nordic** | Creamy, sharp, savoury | White beans 300 g dry | Beetroot, leek | Cooked v1 (qualitative ratings only) | [creamy-corn-soup-nordic.md](./creamy-corn-soup-nordic.md) |
+| **Nordic** | Creamy, sharp, savoury | White beans 300 g dry | Beetroot, leek | Cooked v1 (qualitative ratings only) | [creamy-corn-soup-nordic.md](../recipes/soups/creamy-corn-soup-nordic.md) |
 
 ---
 
@@ -66,8 +66,8 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 **Notes:** smoky-earthy profile. Whole chipotles for heat (remove before blending, control intensity). Smoked paprika substantial — drop or reduce for Lara-friendly version.
 
 **Two cooked variants exist:**
-- **Standard** ([creamy-corn-soup-mexican.md](./creamy-corn-soup-mexican.md)): tinned red kidney beans (4 × 400 g), asparagus steamed separately, no sauerkraut
-- **Low-Effort** ([creamy-corn-soup-mexican-low-effort.md](./creamy-corn-soup-mexican-low-effort.md)): dried butter beans pot-in-pot (unattended ~90 min — designed for the school-pickup window), sauerkraut alongside
+- **Standard** ([creamy-corn-soup-mexican.md](../recipes/soups/creamy-corn-soup-mexican.md)): tinned red kidney beans (4 × 400 g), asparagus steamed separately, no sauerkraut
+- **Low-Effort** ([creamy-corn-soup-mexican-low-effort.md](../recipes/soups/creamy-corn-soup-mexican-low-effort.md)): dried butter beans pot-in-pot (unattended ~90 min — designed for the school-pickup window), sauerkraut alongside
 
 ## Japanese
 
@@ -106,7 +106,7 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 
 **Notes:** chickpeas at 300 g (highest legume load in the matrix). Tikka masala drives the profile.
 
-**Built recipe** ([creamy-corn-soup-indian.md](./creamy-corn-soup-indian.md)): adds 1000 g asparagus steamed separately and 500 g spinach folded in off heat — neither is in the matrix. The matrix's "alt. veg" (green beans, cauliflower) is not used. Substitute green beans for the cauliflower variant when cooking for Jannes.
+**Built recipe** ([creamy-corn-soup-indian.md](../recipes/soups/creamy-corn-soup-indian.md)): adds 1000 g asparagus steamed separately and 500 g spinach folded in off heat — neither is in the matrix. The matrix's "alt. veg" (green beans, cauliflower) is not used. Substitute green beans for the cauliflower variant when cooking for Jannes.
 
 ## West African
 
@@ -124,7 +124,7 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 | Fresh coriander (garnish) | ✓ |
 | Alt. veg | Okra, plantain |
 
-**Notes:** the migrated full recipe ([creamy-corn-soup-westafrican.md](./creamy-corn-soup-westafrican.md)) deviates from this matrix — uses 1 scotch bonnet (not 2), adds goji berries + makrut lime leaves + bay leaves + asparagus alongside, and no okra/plantain. The recipe file supersedes the matrix for cook reference.
+**Notes:** the migrated full recipe ([creamy-corn-soup-westafrican.md](../recipes/soups/creamy-corn-soup-westafrican.md)) deviates from this matrix — uses 1 scotch bonnet (not 2), adds goji berries + makrut lime leaves + bay leaves + asparagus alongside, and no okra/plantain. The recipe file supersedes the matrix for cook reference.
 
 ## Thai
 
@@ -141,7 +141,7 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 | Thai basil (garnish) | ✓ |
 | Alt. veg | Pak choi, sugar snap |
 
-**Notes:** green-curry-based corn soup. Distinct from the existing shiitake-based Thai soup ([creamy-shiitake-soup-thai.md](./creamy-shiitake-soup-thai.md)) — that one uses dried shiitake + yellow paste, not corn + green paste.
+**Notes:** green-curry-based corn soup. Distinct from the existing shiitake-based Thai soup ([creamy-shiitake-soup-thai.md](../recipes/soups/creamy-shiitake-soup-thai.md)) — that one uses dried shiitake + yellow paste, not corn + green paste.
 
 ## Mediterranean
 
@@ -176,7 +176,7 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 | Sauerkraut (cold, side) | ✓ |
 | Alt. veg | Beetroot, leek |
 
-**Notes:** the cooked v1 ([creamy-corn-soup-nordic.md](./creamy-corn-soup-nordic.md)) used quark + lemon + pickled accompaniments instead of mustard + horseradish — the recipe evolved between the matrix and the cook. The pickled accompaniments (pickled cucumber, beetroot, red onion) didn't land well — Anja disliked the pickles, Julina disliked the whole dish.
+**Notes:** the cooked v1 ([creamy-corn-soup-nordic.md](../recipes/soups/creamy-corn-soup-nordic.md)) used quark + lemon + pickled accompaniments instead of mustard + horseradish — the recipe evolved between the matrix and the cook. The pickled accompaniments (pickled cucumber, beetroot, red onion) didn't land well — Anja disliked the pickles, Julina disliked the whole dish.
 
 ---
 
@@ -238,6 +238,6 @@ Prediction had Nordic as broadly liked (avg 7.8) with Lara as the highest scorer
 
 3. **Lara/Jannes/Anja preference flags** noted in profile sections highlight where the matrix conflicts with established preferences. Substitute or omit when cooking for the full family.
 
-4. **Predicted scores** are useful only directionally. Update RATINGS.md with actuals as profiles get cooked; over time the predicted-vs-actual delta becomes a calibration signal for future profile design.
+4. **Predicted scores** are useful only directionally. Update ../docs/RATINGS.md with actuals as profiles get cooked; over time the predicted-vs-actual delta becomes a calibration signal for future profile design.
 
 5. **When recipe diverges from matrix** (different bean form, additional vegetables, different acid handling), the recipe file wins for cooking. The matrix is preserved as historical design intent.

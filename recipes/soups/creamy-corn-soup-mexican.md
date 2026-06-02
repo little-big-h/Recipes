@@ -25,7 +25,7 @@ XHTML Header: <script>
 
 > **Scaled-down variant** (1 kg corn, family of 5 no leftovers): halve all amounts. **Technique difference at the smaller scale:** the original 1 kg recipe simmered asparagus IN the soup (5–8 min, switch to sauté mode after blending) rather than steaming separately. Either approach works; steaming separately gives cleaner asparagus colour and texture, simmering-in extracts more asparagus flavour into the broth.
 
-> **Bean form note:** the corn-soup matrix in `CORN-SOUPS.md` specifies dried red kidney beans 250 g. This recipe uses **4 × 400 g tinned kidney beans (~960 g drained)** — a substantially different bean form and quantity. The matrix represents design intent; the recipe represents what was actually cooked.
+> **Bean form note:** the corn-soup matrix in `../../design/CORN-SOUPS.md` specifies dried red kidney beans 250 g. This recipe uses **4 × 400 g tinned kidney beans (~960 g drained)** — a substantially different bean form and quantity. The matrix represents design intent; the recipe represents what was actually cooked.
 
 ---
 

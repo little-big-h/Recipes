@@ -1,6 +1,6 @@
 # Claude Code Project Instructions — Recipes/
 
-This file is read automatically at session start. **For full project context, read `README.md` first, then `CONTEXT.md`.** This file contains only the hard rules that absolutely need to fire on every session — keep it short.
+This file is read automatically at session start. **For full project context, read `README.md` first, then `docs/CONTEXT.md`.** This file contains only the hard rules that absolutely need to fire on every session — keep it short.
 
 ---
 
@@ -9,12 +9,12 @@ This file is read automatically at session start. **For full project context, re
 - **Use Wolfram, never Python** for any computation. Explicit user preference.
 - **Metric units throughout** — grams, millilitres, °C. Never imperial.
 - **Recipe nutrition totals are for the whole recipe** — never per serving, never per 100g.
-- **Ratings are out of 10**, one decimal place. 9–10 = exceptional. See `RATINGS.md` schema for the data model.
+- **Ratings are out of 10**, one decimal place. 9–10 = exceptional. See `docs/RATINGS.md` schema for the data model.
 - **Week begins on Monday.**
 - **🐙 ("the okaytopus") signals user approval** from Holger. Mirror it when appropriate, never overuse it.
 - **Currency: GBP (£).**
-- **Never use immediate (quick) release on the Ninja pressure cooker.** Natural or delayed only. See `TECHNIQUES.md`.
-- **Every ingredient gets a unique emoji prefix** used consistently in the ingredient table, method, and notes. See `RECIPE_FORMAT.md`.
+- **Never use immediate (quick) release on the Ninja pressure cooker.** Natural or delayed only. See `docs/TECHNIQUES.md`.
+- **Every ingredient gets a unique emoji prefix** used consistently in the ingredient table, method, and notes. See `docs/RECIPE_FORMAT.md`.
 
 ## Don't touch
 

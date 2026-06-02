@@ -16,7 +16,7 @@ XHTML Header: <script>
 
 # Creamy Corn Soup — Japanese Profile (v3: homemade kombu-shiitake dashi)
 
-*Builds on v2 (white miso, family default). The change: the 1800 ml of plain water is replaced by a homemade **kombu-shiitake dashi**, and the salty bottled Tsuyu is cut back hard (104 → 45 ml) to let the real dashi carry the savoury backbone. White miso, corn, soybeans, bok choi and all else held at v2 levels. Real hon-mirin replaces the old mirin-style seasoning, dropped to 22 ml because hon-mirin reads sweeter (see `TECHNIQUES.md`). Net effect: a deeper, rounder dashi character at roughly **half the salt** (~7 g vs ~11 g). Family of five.*
+*Builds on v2 (white miso, family default). The change: the 1800 ml of plain water is replaced by a homemade **kombu-shiitake dashi**, and the salty bottled Tsuyu is cut back hard (104 → 45 ml) to let the real dashi carry the savoury backbone. White miso, corn, soybeans, bok choi and all else held at v2 levels. Real hon-mirin replaces the old mirin-style seasoning, dropped to 22 ml because hon-mirin reads sweeter (see `../../docs/TECHNIQUES.md`). Net effect: a deeper, rounder dashi character at roughly **half the salt** (~7 g vs ~11 g). Family of five.*
 
 ---
 
@@ -79,7 +79,7 @@ XHTML Header: <script>
 
 ## Nutrition
 
-*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — derived as deltas from the v2 block (itself unverified; see `RATINGS.md` observation #14). Salt roughly halves vs v2 (~7 g vs ~11 g) because the salty Tsuyu concentrate is cut from 104 → 45 ml and the homemade dashi that replaces the water is essentially salt-free. Calcium ticks up slightly from kombu minerals leached into the dashi. Iodine not tracked here but materially higher than v2 — see the kombu caveat in `TECHNIQUES.md`.*
+*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — derived as deltas from the v2 block (itself unverified; see `../../docs/RATINGS.md` observation #14). Salt roughly halves vs v2 (~7 g vs ~11 g) because the salty Tsuyu concentrate is cut from 104 → 45 ml and the homemade dashi that replaces the water is essentially salt-free. Calcium ticks up slightly from kombu minerals leached into the dashi. Iodine not tracked here but materially higher than v2 — see the kombu caveat in `../../docs/TECHNIQUES.md`.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -116,4 +116,4 @@ They're coupled on purpose — the whole reason to add real dashi is that it let
 | Across-the-board dip | Either under-salted or the dashi character isn't landing — v3b decouples which |
 | Holger especially up | Real dashi depth is the adult-palate lever red miso used to provide, without the fermented edge Jannes disliked |
 
-**Vegetarian note:** confirm the Tsuyu and dashi-soy bottles are bonito-free (see `PANTRY.md` flag). The homemade kombu-shiitake dashi is guaranteed vegetarian regardless.
+**Vegetarian note:** confirm the Tsuyu and dashi-soy bottles are bonito-free (see `../../docs/PANTRY.md` flag). The homemade kombu-shiitake dashi is guaranteed vegetarian regardless.
