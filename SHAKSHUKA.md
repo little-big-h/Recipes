@@ -17,45 +17,48 @@ Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finish
 
 Amounts per single serving. `—` means not used. The base (passata + spinach + eggs + oil) is shared across all shakshuka profiles; sauerkraut hash uses a different base.
 
-| Component | Sauerkraut Hash | Shak. Indian | Shak. N.African | Shak. Japanese | Shak. Mexican | Shak. M.Eastern | Shak. Korean |
-|:----------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Base** | | | | | | | |
-| Passata | — | 400 g | 400 g | 400 g | 400 g | 400 g | 400 g |
-| Sauerkraut | 320 g | — | — | — | — | — | — |
-| Sauerkraut liquid | 200 ml | — | — | — | — | — | — |
-| Spinach | — | 100 g | 100 g | 100 g | 100 g | 100 g | 100 g |
-| Eggs | 2–3 | 2–3 | 2–3 | 2–3 | 2–3 | 2–3 | 2–3 |
-| **Spice blends** | | | | | | | |
-| Tikka or Madras masala | — | 6 g (one only)\* | — | — | — | — | — |
-| Ras el hanout | 4 g | — | — | — | — | — | — |
-| Harissa powder | — | — | 3 g | — | — | — | — |
-| Shichimi | — | — | — | 8 g | — | — | — |
-| Gochujang | — | — | — | — | — | — | 15 g |
-| Za'atar | — | — | — | — | — | 5 g | — |
-| Sumac | — | — | — | — | — | 3 g | — |
-| **Heat / chili** | | | | | | | |
-| Ancho flakes | — | — | 2 g | — | 8 g | — | — |
-| Chipotle | — | — | — | — | 8 g | — | — |
-| Dried chili | 1 pc | 1 pc | 1 pc | 1 pc | — | — | — |
-| **Toasted whole spices** | | | | | | | |
-| Cumin seeds | — | 2 g | 2 g | — | 2 g | — | — |
-| Mustard seeds | 2 g | — | 2 g | — | — | — | — |
-| Coriander, ground | — | — | — | — | 2 g | — | — |
-| Smoked paprika | 2 g ⚠️ | 2 g ⚠️ | — | — | 2 g ⚠️ | — | — |
-| Turmeric | 1 g | — | — | — | — | — | — |
-| **Aromatics** | | | | | | | |
-| Fresh ginger | — | — | — | 8–10 g\*\* | — | — | 8 g |
-| Dried ginger | — | — | — | 3–4 g\*\* | — | — | — |
-| **Liquid finishers** | | | | | | | |
-| Sesame oil | — | — | — | 5 ml | — | — | 5 ml |
-| Rice vinegar | — | — | — | — | — | — | 5 ml |
-| Miso (white) | — | — | — | 18 g | — | — | — |
-| Liquid aminos | 10 g | 10 g | 10 g | 15 g | 10 g | 10 g | 10 g |
-| Nutritional yeast | 15 g | 15 g | 15 g | — | 15 g | 15 g | — |
+| Component                | Sauerkraut Hash |   Shak. Indian   | Shak. N.African | Shak. Japanese | Shak. Mexican | Shak. M.Eastern | Shak. Korean |
+| :----------------------- | :-------------: | :--------------: | :-------------: | :------------: | :-----------: | :-------------: | :----------: |
+| **Base**                 |                 |                  |                 |                |               |                 |              |
+| Passata                  |        —        |      400 g       |      400 g      |     400 g      |     400 g     |      400 g      |    400 g     |
+| Sauerkraut               |      320 g      |        —         |        —        |       —        |       —       |        —        |      —       |
+| Sauerkraut liquid        |     200 ml      |        —         |        —        |       —        |       —       |        —        |      —       |
+| Spinach                  |        —        |      100 g       |      100 g      |     100 g      |     100 g     |      100 g      |    100 g     |
+| Eggs                     |       2–3       |       2–3        |       2–3       |      2–3       |      2–3      |       2–3       |     2–3      |
+| **Spice blends**         |                 |                  |                 |                |               |                 |              |
+| Tikka or Madras masala   |        —        | 6 g (one only)\* |        —        |       —        |       —       |        —        |      —       |
+| Ras el hanout            |       4 g       |        —         |        —        |       —        |       —       |        —        |      —       |
+| Harissa powder           |        —        |        —         |       3 g       |       —        |       —       |        —        |      —       |
+| Shichimi                 |        —        |        —         |        —        |      4 g       |       —       |        —        |      —       |
+| Gochujang                |        —        |        —         |        —        |       —        |       —       |        —        |     15 g     |
+| Za'atar                  |        —        |        —         |        —        |       —        |       —       |       5 g       |      —       |
+| Sumac                    |        —        |        —         |        —        |       —        |       —       |       3 g       |      —       |
+| **Heat / chili**         |                 |                  |                 |                |               |                 |              |
+| Ancho flakes             |        —        |        —         |       2 g       |       —        |      8 g      |        —        |      —       |
+| Chipotle                 |        —        |        —         |        —        |       —        |      8 g      |        —        |      —       |
+| Dried chili              |      1 pc       |       1 pc       |      1 pc       |      1 pc      |       —       |        —        |      —       |
+| **Toasted whole spices** |                 |                  |                 |                |               |                 |              |
+| Cumin seeds              |        —        |       2 g        |       2 g       |       —        |      2 g      |        —        |      —       |
+| Mustard seeds            |       2 g       |        —         |       2 g       |       —        |       —       |        —        |      —       |
+| Coriander, ground        |        —        |        —         |        —        |       —        |      2 g      |        —        |      —       |
+| Smoked paprika           |     2 g ⚠️      |      2 g ⚠️      |        —        |       —        |    2 g ⚠️     |        —        |      —       |
+| Turmeric                 |       1 g       |        —         |        —        |       —        |       —       |        —        |      —       |
+| **Aromatics**            |                 |                  |                 |                |               |                 |              |
+| Garlic                   |        —        |       8 g        |        —        |      4 g       |      4 g      |        —        |      —       |
+| Fresh ginger             |        —        |        —         |        —        |   8–10 g       |       —       |        —        |     8 g      |
+| Dried ginger             |        —        |        —         |        —        |    3–4 g       |       —       |        —        |      —       |
+| **Liquid finishers**     |                 |                  |                 |                |               |                 |              |
+| Sesame oil               |        —        |        —         |        —        |      5 ml      |       —       |        —        |     5 ml     |
+| Rice vinegar             |        —        |        —         |        —        |       —        |       —       |        —        |     5 ml     |
+| Mirin                    |        —        |        —         |        —        |     10 ml      |       —       |        —        |      —       |
+| Dashi soy                |        —        |        —         |        —        |    8–10 ml     |       —       |        —        |      —       |
+| Miso (red) ⚠️ solo       |        —        |        —         |        —        |      10 g      |       —       |        —        |      —       |
+| Liquid aminos            |      10 g       |       10 g       |      10 g       |       —        |     10 g      |      10 g       |     10 g     |
+| Nutritional yeast        |      15 g       |       15 g       |      15 g       |       —        |     15 g      |      15 g       |      —       |
 
 \* Tikka or Madras for Indian — use one, not both
-\*\* Fresh or dried ginger interchangeable for Japanese — pick one
 ⚠️ Smoked paprika = Lara concern (suspected dislike)
+⚠️ Red miso (Japanese profile) = Holger solo only — Jannes dislikes fermented-forward; white miso is the family default
 
 ---
 
@@ -204,24 +207,54 @@ Per PDF spec. Not yet built with cooking-method detail — direction below is fr
 
 ---
 
-## Profile: Japanese
+## Profile: Japanese / Miso-Forward
 
-Per PDF spec. Not yet built with cooking-method detail.
+Redesigned from PDF spec. **Miso is the star** — red miso for umami depth, dashi sauce for foundation, mirin to round tomato acidity. Oil-free build. Holger solo only (red miso is adult-palate; white miso is the family default).
+
+| Cook | Date | Rating | Notes |
+|:-----|:----:|:------:|:------|
+| Holger | 2026-05-30 | **7.8** | Shaoxing in place of mirin — confirmed working. No ginger (used extra chili instead — poor substitute, different flavour axis). Dried garlic powder in place of fresh — noted below. |
 
 ### Single-serving build
 
-| Ingredient | Weight |
-|:-----------|-------:|
-| Shichimi | 8 g |
-| Fresh ginger | 8–10 g (or dried 3–4 g — pick one) |
-| Dried chili | 1 pc |
-| Sesame oil | 5 ml |
-| White miso (whisked in off heat) | 18 g |
-| Liquid aminos | 15 g |
+| Ingredient | Amount | Notes |
+|:-----------|-------:|:------|
+| Garlic | 4 g (1 clove) or 1–2 g dried powder | pounded or minced; powder confirmed working |
+| Dried chili | 1 pc | |
+| Mirin | 10 ml | rounds tomato acidity; added after water-sweat — Shaoxing confirmed as working substitute |
+| Passata | 400 g | |
+| Dashi soy | 8–10 ml | add with passata; start at 8 ml |
+| Spinach | 100 g | |
+| Eggs | 2–3 | |
+| Red miso (aka) | 10 g | whisked into ~20 ml warm water, added off heat |
+| Sesame oil | 5 ml | finishing drizzle only — not a cooking fat |
+| Shichimi | 4 g | at table |
+| Nori | ½ sheet (~1.5 g) | torn or scissored, at table |
 
-**Method sketch:** sauté ginger in sesame oil, bloom shichimi briefly, add passata, simmer, wilt spinach, eggs, cover. Whisk miso into a bit of liquid off heat and stir back before serving.
+### Method order (oil-free)
 
-**Note:** no nutritional yeast in this profile — miso + aminos provide the umami stack.
+**Before starting:** whisk 10 g red miso into ~20 ml warm (not boiling) water until smooth. Set aside — never returns to heat.
+
+1. Cold pan, medium heat. Add garlic, dried chili, and a 20–30 ml splash of water. Steam-sweat 30–45 sec until garlic softens.
+2. Add mirin, let sizzle 20–30 sec to cook off the alcohol.
+3. Add passata + dashi soy. Stir, simmer 5 min.
+4. Wilt spinach 1–2 min.
+5. Wells, eggs, cover — ~5–7 min until whites set. Remove from heat.
+6. Off heat: stir in miso slurry.
+7. Drizzle sesame oil over surface.
+8. Scatter shichimi and nori at table.
+
+### Design notes
+
+- **Red miso off heat, always.** More critical than white — boiling red miso turns harsh.
+- **Shichimi at table, not bloomed.** Shichimi contains ground ginger, which covers the absence of fresh ginger; uncooked preserves its citrus-peel brightness. Cooking it in loses that counterpoint and risks burning.
+- **Sesame oil as finisher, not cooking fat.** Its aromatics volatilise quickly; finishing drizzle gives maximum impact.
+- **Dashi soy is a concentrate, not a broth.** 8–10 ml is the right register (same as how it appears in the shiitake soup). Too much and it dominates.
+- **No liquid aminos.** Dashi soy is already doing that job (soy + umami). Adding aminos on top risks oversalting.
+- **Mirin substitute — Shaoxing:** confirmed working. Dry (no sweetness) but the red miso and dashi-soy provide sufficient balance against the tomato acidity.
+- **Ginger is load-bearing.** Extra dried chili does not substitute — chili adds heat, ginger adds aromatic warmth. These are different flavour axes. Use fresh ginger (8–10 g) or dried (3–4 g) when available; expect the rating to climb noticeably.
+- **Dried garlic powder:** confirmed as a working substitute for fresh garlic. Add directly to the water-sweat step; no pounding needed.
+- **Salt ceiling.** Red miso 10 g ≈ 1.3 g salt; dashi soy 10 ml ≈ 1.5 g salt. Total ~2.8 g — clean for a solo breakfast. First-cook tuning levers: miso up/down by 2 g, dashi soy up/down by 2 ml.
 
 ---
 
@@ -404,6 +437,7 @@ Compare a cube-based shakshuka against a freshly-pounded portion: day 1 (immedia
 | Audience | Recommended profile |
 |:---------|:--------------------|
 | Solo, want full flavour | Indian / Tikka (most upgraded) |
+| Solo, want Japanese umami depth | Japanese / Miso-Forward ⚠️ red miso — adult only |
 | Anja + Jannes (kids+heat-sensitive) | Mexican (no in-pan chili version) |
 | Bold, want fresh herbs | Thai green |
 | Want something distinctly different | Korean (gochujang) |
