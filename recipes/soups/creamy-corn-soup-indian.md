@@ -21,7 +21,7 @@ XHTML Header: <script>
 
 > **Migrated from legacy PDF source** (`creamy-corn-soup-indian-2kg.pdf`). No family ratings on record. Lara-safer than the Mexican variants — no smoked paprika, no cooked peppers.
 
-> **Bean form note:** the corn-soup matrix in `CORN-SOUPS.md` specifies dried chickpeas 300g for this profile — that matches the recipe.
+> **Bean form note:** the corn-soup matrix in `../../design/CORN-SOUPS.md` specifies dried chickpeas 300g for this profile — that matches the recipe.
 
 ---
 

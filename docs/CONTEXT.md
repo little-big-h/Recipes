@@ -117,7 +117,7 @@ No other significant kitchen equipment used in recipes.
 This project focuses on:
 
 1. **Family dinner recipes** — full-format markdown files with timeline visualization
-2. **Single-serving breakfast variants** (shakshuka, sauerkraut hash) — captured in `SHAKSHUKA.md`, not as individual recipe files
+2. **Single-serving breakfast variants** (shakshuka, sauerkraut hash) — captured in `../design/SHAKSHUKA.md`, not as individual recipe files
 3. **Ratings tracking** — relational database in `RATINGS.md` for longitudinal feedback
 4. **Pressure-cooking reference data** — `Nussinow_Cooking_Times.md`
 5. **Cooking technique documentation** — `TECHNIQUES.md`

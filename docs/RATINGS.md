@@ -124,26 +124,26 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 
 | dish | version | status | date_cooked | recipe_file |
 |:-----|:-------:|:-------|:------------|:------------|
-| Thai Yellow Butternut Squash Curry | v1 | cooked | 2026-05-27 | [thai-yellow-butternut-curry.md](./thai-yellow-butternut-curry.md) |
-| Creamy Shiitake Soup | v1 | cooked | 2026-05-20 | [creamy-shiitake-soup-thai.md](./creamy-shiitake-soup-thai.md) |
-| Creamy Shiitake Soup | v2 | planned | — | [creamy-shiitake-soup-thai-v2.md](./creamy-shiitake-soup-thai-v2.md) |
-| Creamy Corn Soup — Nordic (cold) | v1 | cooked | 2026-05 | [creamy-corn-soup-nordic.md](./creamy-corn-soup-nordic.md) |
-| Creamy Corn Soup — West African | v1 | planned | — | [creamy-corn-soup-westafrican.md](./creamy-corn-soup-westafrican.md) |
-| Creamy Corn Soup — Japanese | v1 | cooked | 2026-05-29 | [creamy-corn-soup-japanese.md](./creamy-corn-soup-japanese.md) |
-| Creamy Corn Soup — Japanese | v2 | planned | — | [creamy-corn-soup-japanese-v2.md](./creamy-corn-soup-japanese-v2.md) |
-| Creamy Corn Soup — Indian | v1 | cooked-historical | — | [creamy-corn-soup-indian.md](./creamy-corn-soup-indian.md) |
-| Creamy Corn Soup — Mexican | v1 | cooked-historical | — | [creamy-corn-soup-mexican.md](./creamy-corn-soup-mexican.md) |
-| Creamy Corn Soup — Mexican (Low Effort) | v1 | cooked-historical | — | [creamy-corn-soup-mexican-low-effort.md](./creamy-corn-soup-mexican-low-effort.md) |
-| Courgette & Pea Risotto with Pan-Fried Tofu | v1 | cooked-historical | — | [courgette-pea-risotto.md](./courgette-pea-risotto.md) |
-| Squash Mash, Onion-Apple Gravy & Air-Fried Tofu | v1 | cooked-historical | — | [squash-mash-tofu-gravy.md](./squash-mash-tofu-gravy.md) |
-| Aubergine · Passata · Amaranth | v1 | cooked-historical | — | [aubergine-passata-amaranth.md](./aubergine-passata-amaranth.md) |
-| Butternut Squash & Butter Bean Soup | v1 | cooked-historical | — | [butternut-butterbean-soup.md](./butternut-butterbean-soup.md) |
-| Indian Cauliflower & Potato Soup with Kasha | v1 | cooked-historical | — | [cauliflower-potato-soup-kasha.md](./cauliflower-potato-soup-kasha.md) |
-| Nordic White Asparagus & Rice Salad | v1 | cooked-historical | — | [nordic-asparagus-rice-salad.md](./nordic-asparagus-rice-salad.md) |
-| Mediterranean Roasted Vegetable Tray with Kasha | v1 | cooked-historical | — | [roasted-veg-mediterranean.md](./roasted-veg-mediterranean.md) |
-| Mediterranean & Indian Roasted Vegetable Tray | v1 | cooked-historical | — | [roasted-veg-two-profiles.md](./roasted-veg-two-profiles.md) |
-| Indian Roasted Vegetable Bake | v1 | cooked-historical | — | [indian-roasted-veg-bake.md](./indian-roasted-veg-bake.md) |
-| Indian Roasted Vegetable Bake | v2 | cooked-historical | — | [indian-roasted-veg-bake-v2.md](./indian-roasted-veg-bake-v2.md) |
+| Thai Yellow Butternut Squash Curry | v1 | cooked | 2026-05-27 | [thai-yellow-butternut-curry.md](../recipes/stovetop-mains/thai-yellow-butternut-curry.md) |
+| Creamy Shiitake Soup | v1 | cooked | 2026-05-20 | [creamy-shiitake-soup-thai.md](../recipes/soups/creamy-shiitake-soup-thai.md) |
+| Creamy Shiitake Soup | v2 | planned | — | [creamy-shiitake-soup-thai-v2.md](../recipes/soups/creamy-shiitake-soup-thai-v2.md) |
+| Creamy Corn Soup — Nordic (cold) | v1 | cooked | 2026-05 | [creamy-corn-soup-nordic.md](../recipes/soups/creamy-corn-soup-nordic.md) |
+| Creamy Corn Soup — West African | v1 | planned | — | [creamy-corn-soup-westafrican.md](../recipes/soups/creamy-corn-soup-westafrican.md) |
+| Creamy Corn Soup — Japanese | v1 | cooked | 2026-05-29 | [creamy-corn-soup-japanese.md](../recipes/soups/creamy-corn-soup-japanese.md) |
+| Creamy Corn Soup — Japanese | v2 | planned | — | [creamy-corn-soup-japanese-v2.md](../recipes/soups/creamy-corn-soup-japanese-v2.md) |
+| Creamy Corn Soup — Indian | v1 | cooked-historical | — | [creamy-corn-soup-indian.md](../recipes/soups/creamy-corn-soup-indian.md) |
+| Creamy Corn Soup — Mexican | v1 | cooked-historical | — | [creamy-corn-soup-mexican.md](../recipes/soups/creamy-corn-soup-mexican.md) |
+| Creamy Corn Soup — Mexican (Low Effort) | v1 | cooked-historical | — | [creamy-corn-soup-mexican-low-effort.md](../recipes/soups/creamy-corn-soup-mexican-low-effort.md) |
+| Courgette & Pea Risotto with Pan-Fried Tofu | v1 | cooked-historical | — | [courgette-pea-risotto.md](../recipes/grains/courgette-pea-risotto.md) |
+| Squash Mash, Onion-Apple Gravy & Air-Fried Tofu | v1 | cooked-historical | — | [squash-mash-tofu-gravy.md](../recipes/stovetop-mains/squash-mash-tofu-gravy.md) |
+| Aubergine · Passata · Amaranth | v1 | cooked-historical | — | [aubergine-passata-amaranth.md](../recipes/stovetop-mains/aubergine-passata-amaranth.md) |
+| Butternut Squash & Butter Bean Soup | v1 | cooked-historical | — | [butternut-butterbean-soup.md](../recipes/soups/butternut-butterbean-soup.md) |
+| Indian Cauliflower & Potato Soup with Kasha | v1 | cooked-historical | — | [cauliflower-potato-soup-kasha.md](../recipes/soups/cauliflower-potato-soup-kasha.md) |
+| Nordic White Asparagus & Rice Salad | v1 | cooked-historical | — | [nordic-asparagus-rice-salad.md](../recipes/grains/nordic-asparagus-rice-salad.md) |
+| Mediterranean Roasted Vegetable Tray with Kasha | v1 | cooked-historical | — | [roasted-veg-mediterranean.md](../recipes/oven-mains/roasted-veg-mediterranean.md) |
+| Mediterranean & Indian Roasted Vegetable Tray | v1 | cooked-historical | — | [roasted-veg-two-profiles.md](../recipes/oven-mains/roasted-veg-two-profiles.md) |
+| Indian Roasted Vegetable Bake | v1 | cooked-historical | — | [indian-roasted-veg-bake.md](../recipes/oven-mains/indian-roasted-veg-bake.md) |
+| Indian Roasted Vegetable Bake | v2 | cooked-historical | — | [indian-roasted-veg-bake-v2.md](../recipes/oven-mains/indian-roasted-veg-bake-v2.md) |
 
 ---
 
@@ -198,7 +198,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 21 | Butternut Squash & Butter Bean Soup | v1 | Migrated from `butternut-butterbean-soup.pdf` legacy source. No ratings on record. Smoked paprika marked optional in original recipe — easy to omit for Lara |
 | 22 | Indian Cauliflower & Potato Soup with Kasha | v1 | Migrated from `cauliflower-potato-soup-kasha.pdf` legacy source. No ratings on record. Contains cauliflower (Jannes flagged dislike) — soup blending may mitigate but worth flagging |
 | 23 | Creamy Corn Soup — Indian | v1 | Migrated from `creamy-corn-soup-indian-2kg.pdf`. No ratings on record. 2 kg corn base with 300 g dried chickpeas pot-in-pot. Asparagus (1000 g) steamed separately. Tikka masala + cumin + turmeric profile. Lara-safer than the Mexican variants — no smoked paprika, no cooked peppers |
-| 24 | Creamy Corn Soup — Mexican | v1 | Migrated from `creamy-corn-soup-mexican-2kg.pdf`. No ratings on record. Diverges from CORN-SOUPS.md matrix: matrix specified dried kidney beans 250g, recipe uses 4 × 400g tinned kidney beans (~960g drained). 20g smoked paprika is significant Lara concern. Scaled-down 1kg variant noted inside the recipe file — original 1kg simmered asparagus IN the soup rather than steaming separately |
+| 24 | Creamy Corn Soup — Mexican | v1 | Migrated from `creamy-corn-soup-mexican-2kg.pdf`. No ratings on record. Diverges from ../design/CORN-SOUPS.md matrix: matrix specified dried kidney beans 250g, recipe uses 4 × 400g tinned kidney beans (~960g drained). 20g smoked paprika is significant Lara concern. Scaled-down 1kg variant noted inside the recipe file — original 1kg simmered asparagus IN the soup rather than steaming separately |
 | 25 | Creamy Corn Soup — Mexican (Low Effort) | v1 | Migrated from `creamy-corn-soup-low-effort.pdf`. No ratings on record. Designed around school-pickup window: dried butter beans pot-in-pot, ~90 min unattended Ninja cook. Sauerkraut alongside is an unusual Mexican accompaniment but provides fermented depth + acidity that pairs with the lime/tamarind finish. Same 20g smoked paprika as the standard Mexican — same Lara concern |
 | 26 | Nordic White Asparagus & Rice Salad | v1 | Migrated from `nordic-asparagus-rice-salad.pdf`. No ratings on record. **Most acid-forward dish in the project** — 2-3 lemons, gherkins + brine, horseradish, Dijon. Significant Lara concern. Build-your-own format helps: skip dressing + gherkins + capers for a Lara-friendly plate (rice + tofu + egg + asparagus only). Low-fat by design |
 | 27 | Mediterranean Roasted Vegetable Tray with Kasha | v1 | Migrated from `roasted-veg-mediterranean.pdf`. No ratings on record. **Multiple structural Lara conflicts: cooked peppers + smoked paprika + balsamic + capers**, plus Jannes (cauliflower). Lara-friendlier substitutions noted in recipe file. Uses 0-min pressure cook in Ninja for kasha — heat-up time alone is sufficient |
@@ -206,7 +206,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 29 | Indian Roasted Vegetable Bake | v1 | Migrated from `indian-roasted-veg-bake.pdf`. No ratings on record. Simple two-wave oven bake — cauliflower + peppers + onions + garlic first wave, broccoli + curry-tomato sauce second wave, cherry tomatoes last. **Carries both Jannes (cauliflower) and Lara (cooked peppers) concerns** — superseded by v2 which removes both |
 | 30 | Indian Roasted Vegetable Bake | v2 | Migrated from `indian-roasted-veg-bake-v2.pdf`. No ratings on record. **Substantial reformulation of v1 — explicitly removes both flagged-dislike ingredients (cauliflower, peppers).** Replaces tomato-curry sauce with creamy corn + silken tofu + curry base. Adds chickpeas (air-fried in Ninja for caramelisation) and carrots. Cottage cheese served cold on the side. Lemon at end. Substantially higher protein and energy than v1 |
 | 31 | Creamy Shiitake Soup | v1 | **Design history (from legacy `creamy-shiitake-soup-thai.pdf`)**: the planned/reference recipe used **wok-first sauté** (transfer to Ninja afterwards) rather than Ninja sauté throughout. Wok delivers better caramelisation than Ninja sauté mode — worth considering as a quality lever for v2. Planned PDF nutrition: 469.5 kcal × 5 servings = 2347 kcal total, 80.5 g protein, **20.5 g salt** — the cooked actual reached 24 g salt, ~3.5 g above planned. The salt jump is fully explained by Tsuyu 150 → 190 ml (used up the bottle). PDF also did not list the additional 1000 ml water that the cooked version needed to hit the 5 L stated yield |
-| 32 | Creamy Corn Soup — West African | v1 | **Design history (from legacy `creamy-corn-soup-westafrican-2kg.pdf`)**: the legacy 2 kg PDF used **dried black turtle beans 250 g** and **1 dried long red chili**. The current planned recipe revises both: **dried black-eyed beans** (matrix-aligned per `CORN-SOUPS.md`) and **1 whole scotch bonnet** (more authentic to the West African profile). The legacy PDF also used pot-in-pot from start in a single pressure cycle; the current recipe uses 2-stage cooking (corn under low pressure 30 min, then beans added high pressure 8 min) for better texture control on both components. All other amounts identical (peanut flour 100g, smoked paprika 16g, goji 15g, etc.) |
+| 32 | Creamy Corn Soup — West African | v1 | **Design history (from legacy `creamy-corn-soup-westafrican-2kg.pdf`)**: the legacy 2 kg PDF used **dried black turtle beans 250 g** and **1 dried long red chili**. The current planned recipe revises both: **dried black-eyed beans** (matrix-aligned per `../design/CORN-SOUPS.md`) and **1 whole scotch bonnet** (more authentic to the West African profile). The legacy PDF also used pot-in-pot from start in a single pressure cycle; the current recipe uses 2-stage cooking (corn under low pressure 30 min, then beans added high pressure 8 min) for better texture control on both components. All other amounts identical (peanut flour 100g, smoked paprika 16g, goji 15g, etc.) |
 
 ---
 
@@ -221,7 +221,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 5 | Lara | 7.8 is her near-ceiling rating. Hitting it means the dish has cleared all her thresholds simultaneously |
 | 6 | Jannes | Appears to prefer milder, less-fermented profiles. Red miso intensity flagged as a likely turn-off. For family-friendly versions of dishes with miso, default to white miso |
 | 7 | family | Red miso pulls dishes in an adult-palate direction (Holger, Anja, Julina all rated highly). Use sparingly for family meals; works well for solo or adult-only cooks |
-| 8 | family | The corn soup matrix has 7 profiles with predicted scores (see `CORN-SOUPS.md`). Where actuals exist (Japanese cooked v1), predictions were directionally accurate but model under-predicted Holger and over-predicted Jannes — both effects consistent with the red-miso hypothesis. Nordic prediction missed badly on Julina (predicted 8.0, actual disliked) — "open-minded" assumption was over-extended |
+| 8 | family | The corn soup matrix has 7 profiles with predicted scores (see `../design/CORN-SOUPS.md`). Where actuals exist (Japanese cooked v1), predictions were directionally accurate but model under-predicted Holger and over-predicted Jannes — both effects consistent with the red-miso hypothesis. Nordic prediction missed badly on Julina (predicted 8.0, actual disliked) — "open-minded" assumption was over-extended |
 | 9 | project | Recipe files routinely diverge from matrix design specs (e.g. Mexican corn soup matrix specifies dried kidney beans 250g; cooked recipe uses 4×400g tinned). When recipes diverge, the recipe file represents the actual cook and supersedes the matrix. Matrix specs are preserved as design intent / starting point for new iterations |
 | 10 | project | **Build-your-own / split-tray is a recurring design pattern** for handling mixed family preferences. Used in: Nordic White Asparagus & Rice Salad (everyone assembles their plate from separate components), Mediterranean & Indian Roasted Vegetable Tray (two trays in oven simultaneously, choose your side), and the corn soup recipes generally (lime/tamarind at table). Effective for seasoning-level differences; less effective when structural ingredients (peppers, cauliflower) are problematic for someone |
 | 11 | Lara, project | **The roasted-veg legacy recipes (Mediterranean + two-profile) are the most Lara-difficult dishes in the project** — they stack 3+ flagged ingredients (cooked peppers, smoked paprika, acid finish) per recipe. Any future cook of these should consider Lara-friendlier variants (drop peppers, halve paprika, move acid to table) or accept that Lara may eat selectively from build-your-own components |
