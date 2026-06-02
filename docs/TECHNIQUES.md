@@ -144,17 +144,17 @@ The vegetarian umami backbone. Kombu (dried kelp) supplies **glutamate**; shiita
 
 **Handling rules:**
 
-- **Never boil kombu.** Boiling extracts alginates → slimy, bitter stock. Two acceptable methods:
+- **For *dashi*, never let the kombu boil.** This is a clean-stock rule, not a property of kombu. The glutamate you want is fully extracted at low/no heat; a hard boil adds nothing on that axis but *also* pulls out alginates (slimy), excess mannitol and bitter, iodine-heavy compounds that muddy a clear stock. Two acceptable methods:
   1. **Mizudashi (cold brew)** — steep kombu in cold water in the fridge, 3 h to overnight. Zero heat. Easiest and most reliable.
   2. **Hot extraction** — steep cold ≥30 min, then heat to just below a simmer (~60–80°C) and **remove the kombu before it boils**.
 - **Don't rinse off the white powder** on the surface — that's mannitol (umami). Wipe with a damp cloth only.
 - **Ratio**: ~10–20 g kombu per litre of water. Add shiitake powder (or a couple of dried shiitake) to the brew for the glutamate + guanylate synergy.
 
-**Pressure-cooker note:** do **not** put kombu into the Ninja for a full pressure cycle — that's the hard boil that ruins it. Cold-brew the dashi *separately*, remove the kombu, then use the finished dashi as the cooking liquid in place of plain water. Boiling the already-extracted *liquid* is fine; it's the kombu *piece* that must never boil.
+**Pressure-cooker note (for dashi):** do **not** put kombu into the Ninja for a full pressure cycle *when the goal is dashi* — that's the hard boil that muddies the stock. Cold-brew the dashi *separately*, remove the kombu, then use the finished dashi as the cooking liquid in place of plain water. Boiling the already-extracted *liquid* is fine. (Boiling a kombu strip *into* a bean pot is a different goal entirely — see the next note.)
 
 **Two low-effort uses:**
 
-- **A strip in with the beans.** Drop one piece of kombu in with soybeans / black-eyed beans in the Ninja. Softens skins, adds glutamate and minerals. It over-extracts at pressure, but that's fine when it's cooked *into* beans as a flavour-and-mineral booster rather than served as clean dashi.
+- **A strip in with the beans — the deliberate exception to the no-boil rule.** Drop one piece of kombu in with soybeans / black-eyed beans in the Ninja. Here you *want* it to cook hard: it softens the bean skins, transfers glutamate and minerals, and the kombu itself goes soft and edible. The sliminess and stronger extraction that would ruin a clear dashi are harmless — even useful as body — in a thick, opaque bean pot. The goal is flavouring the dish, not refining a stock, so "never boil" simply doesn't apply.
 - **Spent kombu → tsukudani.** After making dashi, slice the kombu into ribbons and simmer with a splash of mirin + soy into a savoury condiment. No waste.
 
 **Two health flags (both on-brief for this household):**
