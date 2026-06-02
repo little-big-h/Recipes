@@ -14,11 +14,13 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 
 - **White miso (shiro)** — default miso for family meals. ~6% salt.
 - **Red miso (aka)** — adult-palate use; ~13% salt. See `TECHNIQUES.md` for substitution ratios.
-- **Tsuyu concentrate (Clearspring)** — ~8 g salt per 100 ml. Bottle-to-bottle variance — taste before committing.
-- **Dashi-soy sauce (Emma Basic)** — ~14 g salt per 100 ml. Stronger than Tsuyu.
+- **Tsuyu concentrate (Clearspring)** — ~8 g salt per 100 ml. Bottle-to-bottle variance — taste before committing. ⚠ Vegetarian check: many tsuyu contain katsuobushi (bonito = fish); confirm the bottle. Clearspring also sells a kombu-based vegan tsuyu.
+- **Dashi-soy sauce (Emma Basic)** — ~14 g salt per 100 ml. Stronger than Tsuyu. ⚠ Vegetarian check: confirm it's bonito-free; homemade kombu-shiitake dashi is the guaranteed-vegetarian alternative.
 - **Liquid aminos** — ~3 g salt per 30 ml. General-purpose savoury anchor.
 - **Nutritional yeast** — savoury, B-vitamin contribution.
-- **Shiitake powder** — dried shiitake mushrooms ground; deep umami boost without bulk.
+- **Shiitake powder** — dried shiitake mushrooms ground; deep umami boost without bulk. Guanylate source — pairs synergistically with kombu glutamate (see `TECHNIQUES.md`).
+- **Kombu (dried kelp)** — glutamate backbone for homemade dashi; the vegetarian alternative to bonito-based bottled dashi. Never boil. ~negligible salt. See `TECHNIQUES.md` for dashi method and the iodine caveat. Calcium-rich (relevant to bone-health flag).
+- **Hon-mirin (real, fermented mirin)** — ~14% alcohol; brings umami + glaze sheen, not just sweetness. Distinct from the "mirin-style seasoning" (aji-mirin) it replaces. Negligible salt. Cook off the alcohol (nikiri) before serving. See `TECHNIQUES.md`.
 
 ### Acid
 

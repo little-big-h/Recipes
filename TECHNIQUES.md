@@ -138,6 +138,41 @@ For Thai curries: bloom the paste in oil for **1–2 minutes** until fragrant. T
 - **Substitution ratio**: 30g white ≈ 18g red (matches both salt and flavour intensity)
 - **Red miso is an adult-palate move** — children (Jannes especially) often prefer white. Default to white for family meals.
 
+### Kombu and homemade dashi
+
+The vegetarian umami backbone. Kombu (dried kelp) supplies **glutamate**; shiitake supplies **guanylate**. The two multiply each other — the same synergy bottled dashi gets from bonito (inosinate), but fully vegetarian. We already stock shiitake powder, so kombu completes the pair.
+
+**Handling rules:**
+
+- **Never boil kombu.** Boiling extracts alginates → slimy, bitter stock. Two acceptable methods:
+  1. **Mizudashi (cold brew)** — steep kombu in cold water in the fridge, 3 h to overnight. Zero heat. Easiest and most reliable.
+  2. **Hot extraction** — steep cold ≥30 min, then heat to just below a simmer (~60–80°C) and **remove the kombu before it boils**.
+- **Don't rinse off the white powder** on the surface — that's mannitol (umami). Wipe with a damp cloth only.
+- **Ratio**: ~10–20 g kombu per litre of water. Add shiitake powder (or a couple of dried shiitake) to the brew for the glutamate + guanylate synergy.
+
+**Pressure-cooker note:** do **not** put kombu into the Ninja for a full pressure cycle — that's the hard boil that ruins it. Cold-brew the dashi *separately*, remove the kombu, then use the finished dashi as the cooking liquid in place of plain water. Boiling the already-extracted *liquid* is fine; it's the kombu *piece* that must never boil.
+
+**Two low-effort uses:**
+
+- **A strip in with the beans.** Drop one piece of kombu in with soybeans / black-eyed beans in the Ninja. Softens skins, adds glutamate and minerals. It over-extracts at pressure, but that's fine when it's cooked *into* beans as a flavour-and-mineral booster rather than served as clean dashi.
+- **Spent kombu → tsukudani.** After making dashi, slice the kombu into ribbons and simmer with a splash of mirin + soy into a savoury condiment. No waste.
+
+**Two health flags (both on-brief for this household):**
+
+- **Calcium-rich** — useful given the RED-S bone-health flag.
+- **Iodine — the most iodine-dense food there is.** Given the suppressed Free T3 from RED-S, use kombu moderately (a strip in dashi a few times a week is beneficial; daily heavy-handed use can overshoot iodine). Don't mainline it.
+
+**Salt:** kombu and homemade kombu-shiitake dashi are essentially salt-free, unlike the bottled Tsuyu / dashi-soy concentrates. Replacing bottled-concentrate flavour with real dashi is the main lever for cutting the salt budget on the Japanese line.
+
+### Mirin (real / hon-mirin)
+
+- **Hon-mirin ≠ aji-mirin.** Real hon-mirin is fermented (~14% alcohol) and brings genuine umami and a glaze sheen. "Mirin-style seasoning" (aji-mirin) is glucose syrup + additives + added salt, <1% alcohol — sweetness only. Don't treat them as interchangeable.
+- **Cook off the alcohol (nikiri)** — let it sizzle 20–30 sec in a hot pan, or give the dish a brief simmer before the no-boil miso stage. Alcohol fully cooks off (fine for kids and the 8pm cutoff).
+- **Reads sweeter and more umami than aji-mirin** at the same volume — when converting a recipe written for the old stuff, start ~25% lower (e.g. corn soup mirin 30 ml → 22 ml).
+- **Negligible salt** (unlike aji-mirin) — essentially free against the salt budget.
+- **Best new use:** teriyaki-style glazes for air-fried tofu/veg (mirin + dashi-soy or liquid aminos, reduced to a syrup) — the application the fake stuff couldn't do.
+- **Dry substitute:** Shaoxing works when the dish has enough other umami/sweetness to compensate (confirmed in the Holger-solo shakshuka — see `SHAKSHUKA.md`).
+
 ### Tomato sauce / passata
 
 - **Acidity slows vegetable softening** — avoid braising delicate vegetables directly in heavily acidic sauce. Cook veg separately if texture matters.
