@@ -19,10 +19,6 @@ XHTML Header: <script>
 
 *Golden blended corn soup with chipotle, cumin, paprika, coriander and oregano. Two-phase pressure cooking — corn first, then red kidney beans in a basket sitting in the same liquid. Asparagus steamed separately. Heat reduced to two chipotles. Finished with spinach, tamarind and lime. Served with capers. Family of five + leftovers.*
 
-> **Variant of** `creamy-corn-soup-mexican.md`. Changes: (1) 2 chipotles instead of 4 — reduced heat; (2) dried red kidney beans (not tinned) cooked pot-in-pot using the two-phase technique from `creamy-corn-soup-nordic.md` — corn cooks first, then the kidney bean basket is added on top of the corn liquid and pressure-cooked separately; (3) smoked paprika reduced from 20 g to 15 g — pulls back on the Lara-flagged ingredient and compensates for the more pronounced cumin from morning-of toasting.
-
-> ⚠️ **Lara-conflict flag:** 15 g smoked paprika (reduced from 20 g in base recipe) — Lara concern. For a Lara-friendlier version, drop the smoked paprika and double the dried coriander + oregano. The chipotles are removed before blending (no chili in final soup).
-
 ---
 
 ## Ingredients
@@ -110,6 +106,8 @@ XHTML Header: <script>
 
 ## Design notes
 
+- **Variant of `creamy-corn-soup-mexican.md`.** Changes vs base: (1) 2 chipotles instead of 4 — reduced heat; (2) dried red kidney beans (not tinned) cooked pot-in-pot using the two-phase technique from `creamy-corn-soup-nordic.md` — corn cooks first, then the kidney bean basket is added on top of the corn liquid and pressure-cooked separately; (3) smoked paprika reduced from 20 g to 15 g — pulls back on the Lara-flagged ingredient and compensates for the more pronounced cumin from morning-of toasting.
+- ⚠️ **Lara-conflict flag:** 15 g smoked paprika (reduced from 20 g in base recipe) — Lara concern. For a Lara-friendlier version, drop the smoked paprika and double the dried coriander + oregano. The chipotles are removed before blending (no chili in final soup).
 - **Two-phase pressure technique (Nordic-style):** corn cooks alone in phase 1 (low pressure, 35 min, natural release) — long cook intentional, the corn gets creamier with extended pressure time. Then open, drop a steaming basket with kidney beans onto a rack — the basket sits above the corn but in the same liquid — and pressure-cook phase 2 (high pressure, 15 min, natural release — Nussinow upper bound for unsoaked kidneys). Kidney beans get their short cook; corn doesn't get punished for it (it's blended anyway, but it does sit at temperature throughout phase 2).
 - **Why not single-phase pot-in-pot?** Two-phase lets the corn get its full extended cook independently of the kidney beans, and gives an inspection point between phases — if the chipotles are reading too strong at the end of phase 1, you can pull them before phase 2.
 - **Natural release for both phases.** Phase 1's natural release adds a bit more passive cook time to the corn, supporting the creamier-corn rationale. Phase 2's natural release is gentler on the kidney beans (Nussinow flags natural release as the right choice for beans to avoid splitting).
