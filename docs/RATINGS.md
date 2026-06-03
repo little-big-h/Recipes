@@ -117,6 +117,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Mediterranean Roasted Vegetable Tray with Kasha | Mediterranean |
 | Mediterranean & Indian Roasted Vegetable Tray | Fusion (Mediterranean + Indian) |
 | Indian Roasted Vegetable Bake | Indian |
+| Creamy Pinto, Butternut & Corn Soup | Spanish-leaning |
 
 ---
 
@@ -145,6 +146,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Mediterranean & Indian Roasted Vegetable Tray | v1 | cooked-historical | — | [roasted-veg-two-profiles.md](../recipes/oven-mains/roasted-veg-two-profiles.md) |
 | Indian Roasted Vegetable Bake | v1 | cooked-historical | — | [indian-roasted-veg-bake.md](../recipes/oven-mains/indian-roasted-veg-bake.md) |
 | Indian Roasted Vegetable Bake | v2 | cooked-historical | — | [indian-roasted-veg-bake-v2.md](../recipes/oven-mains/indian-roasted-veg-bake-v2.md) |
+| Creamy Pinto, Butternut & Corn Soup | v1 | planned | — | [creamy-pinto-butternut-soup.md](../recipes/soups/creamy-pinto-butternut-soup.md) |
 
 ---
 
@@ -209,6 +211,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 31 | Creamy Shiitake Soup | v1 | **Design history (from legacy `creamy-shiitake-soup-thai.pdf`)**: the planned/reference recipe used **wok-first sauté** (transfer to Ninja afterwards) rather than Ninja sauté throughout. Wok delivers better caramelisation than Ninja sauté mode — worth considering as a quality lever for v2. Planned PDF nutrition: 469.5 kcal × 5 servings = 2347 kcal total, 80.5 g protein, **20.5 g salt** — the cooked actual reached 24 g salt, ~3.5 g above planned. The salt jump is fully explained by Tsuyu 150 → 190 ml (used up the bottle). PDF also did not list the additional 1000 ml water that the cooked version needed to hit the 5 L stated yield |
 | 32 | Creamy Corn Soup — West African | v1 | **Design history (from legacy `creamy-corn-soup-westafrican-2kg.pdf`)**: the legacy 2 kg PDF used **dried black turtle beans 250 g** and **1 dried long red chili**. The current planned recipe revises both: **dried black-eyed beans** (matrix-aligned per `../design/CORN-SOUPS.md`) and **1 whole scotch bonnet** (more authentic to the West African profile). The legacy PDF also used pot-in-pot from start in a single pressure cycle; the current recipe uses 2-stage cooking (corn under low pressure 30 min, then beans added high pressure 8 min) for better texture control on both components. All other amounts identical (peanut flour 100g, smoked paprika 16g, goji 15g, etc.) |
 | 33 | Creamy Corn Soup — Japanese | v3 | Planned changes from v2: replace the 1800 ml plain water with a homemade **kombu-shiitake dashi** (cold-brewed overnight; 20 g kombu + the recipe's shiitake powder), and cut Tsuyu 104 → 45 ml so the real dashi carries the backbone. White miso, corn, soybeans, bok choi held at v2 levels. Real hon-mirin 22 ml (down from 30 ml mirin-style seasoning — reads sweeter). Net: ~half the salt (~7 g vs ~11 g). **Confounded by design** — dashi-source change and salt cut are coupled; a v3b at held salt would decouple them. Nutrition estimates only, not FoodNoms-verified. See `EXPERIMENTS.md` #3 |
+| 34 | Creamy Pinto, Butternut & Corn Soup | v1 | New dish — introduces pinto beans to the project (creamy break-down → fat-free body). Gold purée of pinto 250 g + butternut 1000 g + 500 g frozen corn, seasoned with **sweet (non-smoked) paprika** + cumin + sautéed onion backbone and a kombu strip (the bean-exception, not a dashi). Steamed broccoli + asparagus on top for contrast. Three confirmed design choices: both greens (not one), savoury backbone added to counter the triple-sweet base, pinto as the sole protein. Clears all family flags — no smoked paprika, no chilli, no in-pot acid (lime at table), no cauliflower. Single-stage HP corn (mild sweetness trade vs the usual 30-min LP) flagged in the recipe. Nutrition estimates only, not FoodNoms-verified (~2162 kcal, 101 g protein, salt ~10 g) |
 
 ---
 

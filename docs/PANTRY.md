@@ -54,7 +54,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 
 - **Amaranth**
 - **Kasha (toasted buckwheat)**
-- **Dried legumes** — black-eyed beans, butter beans, chickpeas, lentils, soybeans (rotated based on which recipes are in the queue)
+- **Dried legumes** — black-eyed beans, butter beans, chickpeas, lentils, soybeans, pinto (rotated based on which recipes are in the queue). Pinto break down creamy when puréed — fat-free body for soups (see the Pinto–Butternut soup). Unsoaked: 20–25 min HP, natural release.
 - **Tinned beans** — kidney, butter, chickpea (for shortcut variants)
 - **Rice** — long-grain default
 
