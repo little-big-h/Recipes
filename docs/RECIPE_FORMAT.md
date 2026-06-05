@@ -12,14 +12,10 @@ endpoint — no local SVG files needed.
 
 ## Markdown Structure
 
-Each file begins with a **MultiMarkdown jQuery snippet** for ingredient
-row colour-coding, followed by the document content:
+Each file is plain GitHub-Flavored Markdown — **no HTML tables, no `<script>`
+blocks** — so it renders identically in GitHub, Obsidian, Bear, etc.:
 
 ```
-<!--
-XHTML Header: <script> ... </script>
--->
-
 # Recipe Title
 
 *Subtitle.*
@@ -36,59 +32,28 @@ XHTML Header: <script> ... </script>
 
 ---
 
-## Ingredient Row Colour-Coding
+## Ingredient Category Column
 
-Rows in the ingredients table are colour-coded by category using a
-**MultiMarkdown metadata jQuery snippet** at the top of each file.
+Each ingredient's category is shown in a dedicated **Type** column in the
+ingredients table, using a coloured-circle emoji. This renders everywhere
+(GitHub included) — unlike the old inline-style / jQuery row colouring,
+which only worked in Obsidian and has been **removed**.
 
-### Standard colour palette
+### Category → circle
 
-| Category | Hex | Wolfram |
-|:---------|:----|:--------|
-| Vegetables | `#d9f2d9` | `RGBColor[0.85, 0.95, 0.85]` |
-| Aromatics | `#fcf5cc` | `RGBColor[0.99, 0.96, 0.80]` |
-| Spices / Pastes | `#fae0d1` | `RGBColor[0.98, 0.88, 0.82]` |
-| Stock | `#ebebeb` | `RGBColor[0.92, 0.92, 0.92]` |
-| Protein | `#e0ebfa` | `RGBColor[0.88, 0.92, 0.98]` |
-| Seasoning | `#ebd9f5` | `RGBColor[0.92, 0.85, 0.96]` |
-| Acid | `#faedd9` | `RGBColor[0.98, 0.93, 0.85]` |
+| Category | Circle | (was hex) |
+|:---------|:------:|:----------|
+| Vegetables | 🟢 | `#d9f2d9` |
+| Aromatics | 🟡 | `#fcf5cc` |
+| Spices / Pastes | 🟠 | `#fae0d1` |
+| Stock | ⚪ | `#ebebeb` |
+| Protein | 🔵 | `#e0ebfa` |
+| Seasoning | 🟣 | `#ebd9f5` |
+| Acid | 🟤 | `#faedd9` |
 
-Only include categories present in the recipe — omit unused ones from the legend.
-
-### Row numbering
-
-`:nth-child(n)` counts within `tbody` — so `n=1` is the first data row,
-`n=2` the second, etc. The header row (`thead`) is excluded automatically
-by using `find('tbody tr')`.
-
-Since ingredients are sorted by time of use (not grouped by category),
-rows of the same colour are typically non-contiguous.
-
-### Snippet template
-
-```markdown
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(11),...').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2),:nth-child(3),...').css('background-color','#fcf5cc');
-            $rows.filter('...').css('background-color','#fae0d1');
-            $rows.filter('...').css('background-color','#ebebeb');
-            $rows.filter('...').css('background-color','#e0ebfa');
-            $rows.filter('...').css('background-color','#ebd9f5');
-            $rows.filter('...').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-```
-
-Key points:
-- Target `.eq(1)` (second table) since the legend table comes first
-- Use `find('tbody tr')` to exclude the column header row from colouring
-- List every row index explicitly — rows of the same category are non-contiguous
+These seven circles are **reserved** for the Type column and the legend.
+Do not use them — or any other coloured circle/square — as an ingredient
+emoji (see *Ingredient table structure* below).
 
 ---
 
@@ -96,28 +61,20 @@ Key points:
 
 ### Legend
 
-An inline-styled HTML table placed immediately before the markdown
-ingredients table. Since it is the first `<table>` in the document,
-the jQuery (which targets `.eq(1)`) leaves it unstyled. Only include
-categories present in the recipe.
+A single **italic line placed immediately *below* the ingredients table**,
+keying only the categories present in the recipe, in canonical order:
 
-```html
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+```markdown
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 ```
 
 ### Ingredient table structure
 
-Plain markdown table with **three columns**: Ingredient, Planned, Actual used.
+Plain markdown table with **four columns**: Type, Ingredient, Planned, Actual used.
 
-**No in-table category headers.** Categories are indicated solely by row colour.
+- **Type** holds the category circle (see the map above). It and the legend
+  are the *only* places the coloured circles appear.
+- **No in-table category section headers.** The Type column carries the category.
 
 **Ingredients are sorted strictly by time of use** — the sequence in which
 each ingredient is first added in the method. Ingredients used at the same
@@ -140,10 +97,20 @@ that describe *how* an ingredient is prepared or handled:
 Do **not** include timing phrases like `(add at stage 2)`, `(from t=90)`,
 `(add just before blending)`, `(steamed separately from t=70)`.
 
-Every ingredient must have a **unique emoji** prefix, used consistently
-in both the table and the method text.
+**Ingredient emojis are representational only.** Every ingredient has a
+**unique emoji** prefix in the Ingredient column, used consistently across
+the table, the method, and the notes. **Never use a coloured circle or
+square** (🟢🟡🟠🔵🟣🟤⚫⚪🔴 / 🟥🟨🟦🟫⬜ …) as an ingredient emoji — those
+abstract shapes are reserved for the category system. Pick the most
+evocative food / plant / utensil emoji available; an approximate match is
+fine (e.g. cumin 🌰, paprika 🌶️, miso 🍶) as long as it is unique within
+the file.
 
-### Standard categories (for colour assignment)
+**Category circles never appear in the method or notes** — only the
+representational ingredient emoji does, to avoid information overload. The
+circles live solely in the Type column and the legend.
+
+### Standard categories
 - Vegetables · Aromatics · Spices / Pastes · Stock · Protein · Seasoning · Acid
 
 ---

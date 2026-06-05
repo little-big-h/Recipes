@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(12)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(3),:nth-child(11)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(4),:nth-child(9),:nth-child(10)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(5),:nth-child(6)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(7)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(8),:nth-child(13),:nth-child(14)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(15)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli
 
 *A gold, creamy soup of pinto beans, butternut and corn — body from the beans' break-down rather than added fat. About two-thirds of the beans blend into the base and the rest go back in whole, so the pinto registers (texture and discrete flavour pockets) instead of vanishing into a smooth purée. Two-phase pressure cook: corn + squash first at low pressure (keeps the corn sweet), then the beans in a controlled high-pressure second phase. A savoury backbone of dried onion, garlic powder, cumin and sweet (non-smoked) paprika, with kombu for invisible umami depth. Steamed broccoli on top for colour and texture contrast. No chilli, no smoke, no in-pot acid — clears every family palate flag; lime at the table for the adults. Family of five.*
@@ -23,33 +6,25 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 500 g | |
+| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | |
+| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | |
+| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | |
+| ⚪ | 🌊 Kombu (one strip, in the pot) | ~15 g | |
+| ⚪ | 💧 Water | 1700 ml | |
+| 🔵 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | |
+| 🟣 | 🫒 Mild olive oil | 15 g | |
+| 🟠 | 🌰 Ground cumin | 6 g | |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | |
+| 🟡 | 🧄 Garlic powder | 5 g | |
+| 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | |
+| 🟣 | 🫗 Liquid aminos | 30 ml | |
+| 🟣 | 🧂 Fine salt (to taste) | ~7 g | |
+| 🟤 | 🍋 Lime wedges (at table) | 1–2 | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌽 Frozen corn (partially thawed) | 500 g | |
-| 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | |
-| 🧅 Dried onion (into the pot — phase 1) | 40 g | |
-| 🍄 Shiitake powder (into the pot — phase 1) | 8 g | |
-| 🌊 Kombu (one strip, in the pot) | ~15 g | |
-| 💧 Water | 1700 ml | |
-| 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | |
-| 🫒 Mild olive oil | 15 g | |
-| 🟤 Ground cumin | 6 g | |
-| 🔴 Sweet paprika (NOT smoked) | 8 g | |
-| 🧄 Garlic powder | 5 g | |
-| 🥦 Broccoli (florets, steamed separately) | 400 g | |
-| 🫗 Liquid aminos | 30 ml | |
-| 🧂 Fine salt (to taste) | ~7 g | |
-| 🍋 Lime wedges (at table) | 1–2 | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -67,11 +42,11 @@ XHTML Header: <script>
 
 2. **Phase 2 — beans.** Open the Ninja. Set the rack inside, put 🫘 pinto beans in the steaming basket and lower it into the now-hot liquid (basket-in-pot = direct submersion). Seal — high pressure, 20 min, natural release. Because the liquid is already hot, this second heat-up is a quick, predictable ~10–15 min, and the beans get a controlled cook — so the third you keep whole hold their shape.
 
-3. During the phase-2 release: heat 🫒 olive oil in the wok. Bloom 🟤 cumin, 🔴 sweet paprika and 🧄 garlic powder ~30 sec with a splash of cooking liquid — the splash keeps the powders from scorching (garlic powder and paprika both burn fast in dry oil). Set aside.
+3. During the phase-2 release: heat 🫒 olive oil in the wok. Bloom 🌰 cumin, 🫑 sweet paprika and 🧄 garlic powder ~30 sec with a splash of cooking liquid — the splash keeps the powders from scorching (garlic powder and paprika both burn fast in dry oil). Set aside.
 
 4. Steam 🥦 broccoli 5–8 min until crisp-tender. Hold warm — it goes on top, not in the blender.
 
-5. Lift out the basket of 🫘 beans and the 🌊 kombu (or leave a small piece of kombu to blend in for extra umami). Set aside **about one-third of the beans whole**. Blend the 🎃 squash, 🌽 corn and cooking liquid with the remaining **two-thirds of the beans** and the bloomed 🟤 spice mixture until completely smooth. Adjust consistency with cooking liquid if needed.
+5. Lift out the basket of 🫘 beans and the 🌊 kombu (or leave a small piece of kombu to blend in for extra umami). Set aside **about one-third of the beans whole**. Blend the 🎃 squash, 🌽 corn and cooking liquid with the remaining **two-thirds of the beans** and the bloomed 🌰 spice mixture until completely smooth. Adjust consistency with cooking liquid if needed.
 
 6. Return the purée to low heat. Stir the reserved whole 🫘 beans back in and warm through. Season with 🫗 liquid aminos, then 🧂 salt and black pepper to taste (target ~10–12 g total salt — the base is otherwise nearly salt-free). Do not hard-boil.
 
