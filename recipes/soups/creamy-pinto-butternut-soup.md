@@ -13,7 +13,7 @@
 | 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | 40 g |
 | 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | 8 g |
 | 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
-| 🔵 | 💧 Water | 1700 ml | 0 | ~1570 ml |
+| 🔵 | 💧 Water | 1700 ml | 0 | ~1.9 L added |
 | 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 350 g |
 | 🟣 | 🥑 Avocado oil | 15 g | 133 | 10 g |
 | 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |
@@ -28,7 +28,7 @@
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*Totals are approximate — weight includes the 1.7 L water and the kombu (mostly lifted out), lime is at-table. Est. kcal is per planned amount and is summed in the Total row.*
+*Totals are approximate — the planned weight includes the 1.7 L water; lime is at-table and the kombu is lifted out. Actual cook: ~1.8–2.0 L water added, but the ~4.7 kg final implies only ~1.57 L retained — the rest evaporated over the two-phase cook (open bean transition + two natural releases). Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 
