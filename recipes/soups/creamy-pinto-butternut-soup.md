@@ -38,13 +38,13 @@ XHTML Header: <script>
 | 🌽 Frozen corn (partially thawed) | 500 g | |
 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | |
 | 🧅 Dried onion (into the pot — phase 1) | 40 g | |
-| 🌊 Kombu (one strip, in the pot) | ~10 g | |
-| 💧 Water | 1500 ml | |
-| 🫘 Dry pinto beans (no soak; basket, phase 2) | 250 g | |
+| 🌊 Kombu (one strip, in the pot) | ~15 g | |
+| 💧 Water | 1700 ml | |
+| 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | |
 | 🫒 Mild olive oil | 15 g | |
-| 🟤 Ground cumin | 3 g | |
-| 🔴 Sweet paprika (NOT smoked) | 5 g | |
-| 🧄 Garlic powder | 3 g | |
+| 🟤 Ground cumin | 6 g | |
+| 🔴 Sweet paprika (NOT smoked) | 8 g | |
+| 🧄 Garlic powder | 5 g | |
 | 🥦 Broccoli (florets, steamed separately) | 400 g | |
 | 🫗 Liquid aminos | 30 ml | |
 | 🧂 Fine salt (to taste) | ~7 g | |
@@ -62,7 +62,7 @@ XHTML Header: <script>
 
 > **Note:** Partially thaw 🌽 corn (frozen adds ~8–12 min to phase-1 heat-up). Peel and cube 🎃 butternut ~3 cm. Trim 🥦 broccoli into florets, set aside. Wipe 🌊 kombu with a damp cloth — do **not** rinse off the white bloom. Measure out 🧅 dried onion and 🧄 garlic powder.
 
-1. **Phase 1 — corn + squash.** Put 🌽 corn, 🎃 butternut, 🧅 dried onion, 🌊 kombu and 💧 1500 ml water in the Ninja (no basket yet — don't fill past the max line). Seal — low pressure, 30 min, natural release. Low pressure keeps the corn sweet; the long cook fully softens the butternut for the purée and rehydrates the dried onion into the liquid. This phase absorbs the long, frozen-corn heat-up.
+1. **Phase 1 — corn + squash.** Put 🌽 corn, 🎃 butternut, 🧅 dried onion, 🌊 kombu and 💧 1700 ml water in the Ninja (no basket yet — don't fill past the max line). Seal — low pressure, 30 min, natural release. Low pressure keeps the corn sweet; the long cook fully softens the butternut for the purée and rehydrates the dried onion into the liquid. This phase absorbs the long, frozen-corn heat-up.
 
 2. **Phase 2 — beans.** Open the Ninja. Set the rack inside, put 🫘 pinto beans in the steaming basket and lower it into the now-hot liquid (basket-in-pot = direct submersion). Seal — high pressure, 20 min, natural release. Because the liquid is already hot, this second heat-up is a quick, predictable ~10–15 min, and the beans get a controlled cook — so the third you keep whole hold their shape.
 
@@ -80,28 +80,28 @@ XHTML Header: <script>
 
 ## Nutrition
 
-*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; replace with FoodNoms totals when next cooked. Naturally creamy and low-fat (28 g fat total) — the body comes from pinto and butternut, not added cream or coconut milk. High fibre (87 g) and folate from the bean-and-vegetable load. Vitamin D and B12 negligible — supplement separately. Salt ~10 g, comfortably inside the 10–15 g family target.*
+*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; replace with FoodNoms totals when next cooked. Naturally creamy and low-fat (30 g fat total) — the body comes from pinto and butternut, not added cream or coconut milk. With the bigger bean load protein climbs to ~122 g and fibre to ~104 g — squarely on-brief for recovery, though that's a lot of fibre per serving. Vitamin D and B12 negligible — supplement separately. Salt ~10 g, comfortably inside the 10–15 g family target.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2218 kcal | Iron | 31 mg |
-| Protein | 100 g | Calcium | 1145 mg |
-| Carbohydrates | 437 g | Zinc | 14 mg |
-| — of which sugars | 66 g | Magnesium | 1127 mg |
-| Fat | 28 g | Potassium | 10292 mg |
+| Energy | 2592 kcal | Iron | 38 mg |
+| Protein | 122 g | Calcium | 1312 mg |
+| Carbohydrates | 504 g | Zinc | 17 mg |
+| — of which sugars | 68 g | Magnesium | 1343 mg |
+| Fat | 30 g | Potassium | 11961 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
-| Fibre | 87 g | Vitamin B12 | 0.0 µg |
-| Salt | 10 g | Folate | 2060 µg |
+| Fibre | 104 g | Vitamin B12 | 0.0 µg |
+| Salt | 10 g | Folate | 2591 µg |
 
 ---
 
 ## Design notes
 
 - **Two-phase pressure cook.** Corn + squash go first at **low pressure** (keeps the corn sweet, fully softens the squash for the purée), then the beans get a controlled **high-pressure** second phase. Switched from the original single-stage HP cook for two reasons: (1) it protects the whole-bean third — beans dropped into already-hot water get a predictable ~10–15 min heat-up and a defined cook window, so they hold shape instead of blowing out over a long variable heat-up; (2) it recovers the corn sweetness that single-stage HP was trading away. Same pattern as the Mexican / West African corn soups. Cost: ~an hour more total and one extra seal/release cycle.
-- **Part-puréed so the pinto registers.** Two-thirds of the beans blend into the creamy base; the final third goes back whole. Pinto's flavour is faint and its main gifts are texture and nutrition — so leaving some whole is what makes the bowl read as *a pinto soup* rather than a smooth squash soup: discrete bean bites and concentrated flavour pockets against the gold purée. The ⅔–⅓ ratio is a starting point — go more-whole for a chunkier, rustic bowl.
+- **Part-puréed so the pinto registers.** Two-thirds of the beans blend into the creamy base; the final third goes back whole. Pinto's flavour is faint and its main gifts are texture and nutrition — so leaving some whole is what makes the bowl read as *a pinto soup* rather than a smooth squash soup: discrete bean bites and concentrated flavour pockets against the gold purée. The ⅔–⅓ ratio is a starting point — go more-whole for a chunkier, rustic bowl. Beans upped to 350 g dried because ⅔ blend into the base (more body, more protein); the extra absorbs liquid, hence water at 1700 ml — add more at the blend if it's still thick.
 - **Dried alliums (using up the jar).** Dried onion goes straight in the phase-1 pot, where the long cook rehydrates and infuses it — the right job for dehydrated onion, and zero prep. Garlic powder blooms with the spices (with a splash of liquid, never bare hot oil). The one cost vs fresh: you lose the sweet, caramelised depth of sautéed onion — but the cumin + paprika bloom carries the savoury-warm note, and the kombu and aminos backstop the umami. If you want more depth another time, a fresh sautéed onion is the upgrade.
 - **Dried-onion amount (40 g).** This is a generous double of the pure reconstitution of the original fresh onion — dried/rehydrated onion has less impact than sautéed, so you overshoot the weight-equivalent rather than match it. Push to 50–60 g to empty the jar, but note dried onion is *itself sweet* (concentrated sugars — it's why the recipe's sugars rose ~8 g going from 20 → 40 g), so it adds sweetness rather than purely countering it; lean on the cumin/garlic/kombu/aminos for the actual savoury balance.
-- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free.
+- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free. Upped to ~15 g for more umami and calcium — but that's about the sensible ceiling: kombu is extremely iodine-dense, which matters given the thyroid flag. For *more* umami than this, reach for shiitake powder (its guanylate multiplies with kombu's glutamate) rather than more kombu.
 - **Sweet paprika, not smoked — deliberate.** Sweet paprika (pimentón dulce) gives the colour and gentle pepper-sweetness with none of the smoke, so the dish is Lara-safe. Supported by field evidence: Lara scored a sweet-paprika dish at her near-ceiling (see `../../docs/RATINGS.md` obs 17 / `../../docs/EXPERIMENTS.md` #1). Do not substitute smoked paprika.
 - **Naturally low-fat.** No coconut milk or cream needed — pinto's starchy break-down does the creaminess. Total fat is just the 15 g cooking oil plus what's in the wholefoods.
 - **Optional:** a scatter of toasted pumpkin seeds adds crunch and ties to the squash; not in the totals above.
