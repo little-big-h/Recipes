@@ -12,7 +12,7 @@
 | 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | 450 | |
 | 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | |
 | 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | |
-| 🔵 | 🌊 Kombu (one strip, in the pot) | ~15 g | ~3 | |
+| 🔵 | 🌊 Kombu (one strip, in the pot) | ~10 g | ~2 | |
 | 🔵 | 💧 Water | 1700 ml | 0 | |
 | 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | |
 | 🟣 | 🫒 Mild olive oil | 15 g | 133 | |
@@ -23,7 +23,7 @@
 | 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
-| | **Total** | **~4.1 kg** | **~2617** | |
+| | **Total** | **~4.1 kg** | **~2616** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -63,14 +63,14 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2616 kcal | Iron | 39 mg |
-| Protein | 123 g | Calcium | 1313 mg |
+| Energy | 2615 kcal | Iron | 39 mg |
+| Protein | 123 g | Calcium | 1295 mg |
 | Carbohydrates | 510 g | Zinc | 17 mg |
-| — of which sugars | 69 g | Magnesium | 1354 mg |
-| Fat | 30 g | Potassium | 12083 mg |
+| — of which sugars | 69 g | Magnesium | 1332 mg |
+| Fat | 30 g | Potassium | 11953 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
 | Fibre | 105 g | Vitamin B12 | 0.0 µg |
-| Salt | 10 g | Folate | 2604 µg |
+| Salt | 10 g | Folate | 2601 µg |
 
 ---
 
@@ -80,7 +80,7 @@
 - **Part-puréed so the pinto registers.** Two-thirds of the beans blend into the creamy base; the final third goes back whole. Pinto's flavour is faint and its main gifts are texture and nutrition — so leaving some whole is what makes the bowl read as *a pinto soup* rather than a smooth squash soup: discrete bean bites and concentrated flavour pockets against the gold purée. The ⅔–⅓ ratio is a starting point — go more-whole for a chunkier, rustic bowl. Beans upped to 350 g dried because ⅔ blend into the base (more body, more protein); the extra absorbs liquid, hence water at 1700 ml — add more at the blend if it's still thick.
 - **Dried alliums (using up the jar).** Dried onion goes straight in the phase-1 pot, where the long cook rehydrates and infuses it — the right job for dehydrated onion, and zero prep. Garlic powder blooms with the spices (with a splash of liquid, never bare hot oil). The one cost vs fresh: you lose the sweet, caramelised depth of sautéed onion — but the cumin + paprika bloom carries the savoury-warm note, and the kombu and aminos backstop the umami. If you want more depth another time, a fresh sautéed onion is the upgrade.
 - **Dried-onion amount (40 g).** This is a generous double of the pure reconstitution of the original fresh onion — dried/rehydrated onion has less impact than sautéed, so you overshoot the weight-equivalent rather than match it. Push to 50–60 g to empty the jar, but note dried onion is *itself sweet* (concentrated sugars — it's why the recipe's sugars rose ~8 g going from 20 → 40 g), so it adds sweetness rather than purely countering it; lean on the cumin/garlic/kombu/aminos for the actual savoury balance.
-- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free. Upped to ~15 g for more umami and calcium — but that's about the sensible ceiling: kombu is extremely iodine-dense, which matters given the thyroid flag. So the *further* umami push comes from 🍄 **shiitake powder (8 g)**, not more kombu — its guanylate multiplies with kombu's glutamate (the same synergy as the kombu-shiitake dashi), deepening the savoury base without adding iodine. Both go in the phase-1 pot so they cook into the base together.
+- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free. Held to 10 g — deliberately modest, since kombu is the most iodine-dense food there is and the thyroid flag argues for restraint. The umami depth comes mainly from 🍄 **shiitake powder (8 g)** — its guanylate multiplies with kombu's glutamate (the same synergy as the kombu-shiitake dashi), so the savoury base deepens without leaning on more iodine-heavy kombu. Both go in the phase-1 pot so they cook into the base together.
 - **Sweet paprika, not smoked — deliberate.** Sweet paprika (pimentón dulce) gives the colour and gentle pepper-sweetness with none of the smoke, so the dish is Lara-safe. Supported by field evidence: Lara scored a sweet-paprika dish at her near-ceiling (see `../../docs/RATINGS.md` obs 17 / `../../docs/EXPERIMENTS.md` #1). Do not substitute smoked paprika.
 - **Naturally low-fat.** No coconut milk or cream needed — pinto's starchy break-down does the creaminess. Total fat is just the 15 g cooking oil plus what's in the wholefoods.
 - **Optional:** a scatter of toasted pumpkin seeds adds crunch and ties to the squash; not in the totals above.
