@@ -110,6 +110,27 @@ See recipe file: `../recipes/soups/creamy-corn-soup-japanese-v3.md`. Also `RATIN
 
 ---
 
+### 4. Pinto–Butternut soup: white miso vs red miso (v1 → v2)
+
+**Hypothesis**: v1 was finished with 20 g **red** miso, and Jannes (red-averse) scored 7.0 — the floor of his usual range. Swapping to **white** miso at a matched dose should lift Jannes (and possibly tighten the family spread) while keeping the savoury depth that fixed v1's blandness. Directly parallel to the Japanese corn soup red→white test (exp #2).
+
+**Protocol:**
+
+- Single-variable change: 20 g white miso for 20 g red miso, whisked in off heat. Everything else held (squash/corn/pinto base, kombu pulled at end of phase 1, shiitake 8 g, aminos 30 ml, spice backbone).
+- **Salt confound to control:** white miso is ~half the salt of red (~6% vs ~13%). Add a little salt or aminos so total salt matches v1 (~13 g) — otherwise the swap confounds "less fermented" with "less salty," and you can't attribute a Jannes change to fermentation.
+- Same cooking method, garnishes, serving conditions.
+
+**Measurement plan:**
+
+- Family ratings out of 10; compare per-person delta vs v1 (Julina 8.3, Anja 8.0, Holger 8.0, Lara 7.3, Jannes 7.0; avg 7.7, spread 1.3).
+- Predicted: Jannes ↑ toward 7.5+; adults roughly held or slightly softer (less fermented edge); spread narrows.
+
+**Outcome:** *(unfilled — v2 not yet cooked)*
+
+See recipe file: `../recipes/soups/creamy-pinto-butternut-soup.md` (documents the white-swap option). Also `RATINGS.md` remark #35.
+
+---
+
 ## Closed / superseded experiments
 
 *(none yet)*
