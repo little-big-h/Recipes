@@ -85,18 +85,19 @@ Amounts per single serving. `—` means not used. The base (passata + spinach + 
 
 ## Profile: Indian / Tikka
 
-The Indian profile received the most substantial technique upgrade after the source PDF was written. **The build below supersedes the PDF spec** — uses overnight chili-mustard soak, fresh-toasted cumin in the mortar, three-component spice bloom.
+The Indian profile received the most substantial technique upgrade after the source PDF was written. **The build below supersedes the PDF spec** — uses a chili soak (overnight *or* a 10–15 min morning soak), fresh-toasted cumin in the mortar, toasted-and-ground mustard, and a three-component spice bloom.
 
 ### Single-serving build (upgraded — current canonical)
 
-**Overnight soak (night before):**
+**Chili soak (overnight, or 10–15 min in the morning):**
 
 | Ingredient | Weight |
 |:-----------|-------:|
-| Dried chilies, scissored | 2 (~2g) |
-| Toasted mustard seeds | 3 g |
+| Dried chilies, scissored (plain/Kashmiri-style — not chipotle/ancho) | 2 (~2g) |
 | Just-boiled water | 50 g |
 | Salt | 1 g |
+
+> No overnight needed — just-boiled water rehydrates scissored chilies to pliable in **10–15 min**, done while you toast the spices and pound the garlic. Use a plain dried red (Kashmiri = colour + mild heat); bird's eye works but is hotter, and the tikka blend already carries chilli, so this is just for extra heat. Mustard has moved to the bloom (toasted + ground — see below).
 
 **Mortar (morning):**
 
@@ -109,6 +110,7 @@ The Indian profile received the most substantial technique upgrade after the sou
 | Ingredient | Weight |
 |:-----------|-------:|
 | Toasted cumin seeds, ground morning-of | 3 g |
+| Toasted mustard seeds, ground (earthy backbone — Holger's preference) | 3–4 g |
 | Dried ginger powder | 1 g |
 | Tikka masala blend | 6 g |
 
@@ -121,8 +123,8 @@ The Indian profile received the most substantial technique upgrade after the sou
 ### Method order specific to Indian profile
 
 1. Bloom garlic in oil 30 sec
-2. Add cumin + ginger + tikka masala — bloom 30 sec, watch heat
-3. Tip in chili-mustard soak (whole contents)
+2. Add cumin + ground mustard + ginger + tikka masala — bloom 30 sec, watch heat
+3. Tip in the chili soak (whole contents)
 4. Add passata, simmer 5 min
 5. Wilt spinach
 6. Wells, eggs, cover
@@ -136,6 +138,10 @@ The Indian profile received the most substantial technique upgrade after the sou
 ### Cumin/tikka balance principle
 
 Tikka masala already contains ground cumin. The freshly-toasted cumin is to **reinforce** that note with fresh character, not introduce it. That's why cumin (3g) sits below tikka (6g) — going heavier on cumin would shift the dish from "tikka shakshuka" to "cumin shakshuka."
+
+### Toasted-ground mustard
+
+The earthy backbone of this profile (Holger's preference). Toast the seeds until they pop, cool, then grind — toasting denatures the myrosinase, killing the pungency and leaving a nutty, earthy note that *deepens* the tikka rather than competing with it. Toast it **separately** from the cumin (they pop at different rates), and keep it under the tikka like the cumin (~3–4 g).
 
 ---
 

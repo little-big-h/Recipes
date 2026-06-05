@@ -78,6 +78,7 @@ The single most impactful technique upgrade across the breakfast profiles.
 - **Cumin seeds**: dry pan, medium heat, 30–45 sec until fragrant. Grind in mortar.
 - **Mustard seeds** (black or brown): dry pan, 1–3 min until they begin popping. Hold whole or grind coarsely.
 - **Toasted mustard ≠ raw mustard chemistry** — toasting denatures myrosinase, which kills the pungent-mustard development pathway. Toasted mustard is nutty and earthy rather than sinus-clearing.
+- **Holger's preference:** the toasted-then-ground form (nutty/earthy) as an *earthy backbone* in spiced dishes — e.g. the Tikka shakshuka. Toast until popping, cool, grind; add with the ground spices.
 
 **Different rates**: cumin and mustard toast at very different speeds. Toast separately.
 
