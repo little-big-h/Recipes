@@ -15,7 +15,7 @@
 | 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
 | 🔵 | 💧 Water | 1700 ml | 0 | |
 | 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 350 g |
-| 🟣 | 🫒 Mild olive oil | 15 g | 133 | 10 g avocado |
+| 🟣 | 🫒 Avocado oil | 15 g | 133 | 10 g |
 | 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |
 | 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | 9 g |
 | 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |
@@ -45,7 +45,7 @@
 
 2. **Phase 2 — beans.** Open the Ninja and **lift out the 🌊 kombu now** — its umami is already in the broth, and pulling it before phase 2 stops it leaching extra iodine and bitterness. Set the rack inside, put 🫘 pinto beans in the steaming basket and lower it into the now-hot liquid (basket-in-pot = direct submersion). Seal — high pressure, 20 min, natural release. Because the liquid is already hot, this second heat-up is a quick, predictable ~10–15 min, and the beans get a controlled cook — so the third you keep whole hold their shape.
 
-3. During the phase-2 release: heat 🫒 olive oil in the wok. Bloom 🌰 cumin, 🫑 sweet paprika and 🧄 garlic powder ~30 sec with a splash of cooking liquid — the splash keeps the powders from scorching (garlic powder and paprika both burn fast in dry oil). Set aside.
+3. During the phase-2 release: heat 🫒 avocado oil in the wok. Bloom 🌰 cumin, 🫑 sweet paprika and 🧄 garlic powder ~30 sec with a splash of cooking liquid — the splash keeps the powders from scorching (garlic powder and paprika both burn fast in dry oil). Set aside.
 
 4. Steam 🥦 broccoli 5–8 min until crisp-tender. Hold warm — it goes on top, not in the blender.
 
