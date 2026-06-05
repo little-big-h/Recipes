@@ -3,13 +3,13 @@ XHTML Header: <script>
     (function($){
         $(function(){
             var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(11)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(3),:nth-child(10)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8),:nth-child(9)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(4),:nth-child(5)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(6)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(7),:nth-child(12),:nth-child(13)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(14)').css('background-color','#faedd9');
+            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(12)').css('background-color','#d9f2d9');
+            $rows.filter(':nth-child(3),:nth-child(11)').css('background-color','#fcf5cc');
+            $rows.filter(':nth-child(4),:nth-child(9),:nth-child(10)').css('background-color','#fae0d1');
+            $rows.filter(':nth-child(5),:nth-child(6)').css('background-color','#ebebeb');
+            $rows.filter(':nth-child(7)').css('background-color','#e0ebfa');
+            $rows.filter(':nth-child(8),:nth-child(13),:nth-child(14)').css('background-color','#ebd9f5');
+            $rows.filter(':nth-child(15)').css('background-color','#faedd9');
         });
     })(jQuery);
     </script>
@@ -38,6 +38,7 @@ XHTML Header: <script>
 | 🌽 Frozen corn (partially thawed) | 500 g | |
 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | |
 | 🧅 Dried onion (into the pot — phase 1) | 40 g | |
+| 🍄 Shiitake powder (into the pot — phase 1) | 8 g | |
 | 🌊 Kombu (one strip, in the pot) | ~15 g | |
 | 💧 Water | 1700 ml | |
 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | |
@@ -62,7 +63,7 @@ XHTML Header: <script>
 
 > **Note:** Partially thaw 🌽 corn (frozen adds ~8–12 min to phase-1 heat-up). Peel and cube 🎃 butternut ~3 cm. Trim 🥦 broccoli into florets, set aside. Wipe 🌊 kombu with a damp cloth — do **not** rinse off the white bloom. Measure out 🧅 dried onion and 🧄 garlic powder.
 
-1. **Phase 1 — corn + squash.** Put 🌽 corn, 🎃 butternut, 🧅 dried onion, 🌊 kombu and 💧 1700 ml water in the Ninja (no basket yet — don't fill past the max line). Seal — low pressure, 30 min, natural release. Low pressure keeps the corn sweet; the long cook fully softens the butternut for the purée and rehydrates the dried onion into the liquid. This phase absorbs the long, frozen-corn heat-up.
+1. **Phase 1 — corn + squash.** Put 🌽 corn, 🎃 butternut, 🧅 dried onion, 🍄 shiitake powder, 🌊 kombu and 💧 1700 ml water in the Ninja (no basket yet — don't fill past the max line). Seal — low pressure, 30 min, natural release. Low pressure keeps the corn sweet; the long cook fully softens the butternut for the purée and rehydrates the dried onion into the liquid. The 🍄 shiitake powder and 🌊 kombu build the umami base together here — guanylate + glutamate, which multiply each other. This phase also absorbs the long, frozen-corn heat-up.
 
 2. **Phase 2 — beans.** Open the Ninja. Set the rack inside, put 🫘 pinto beans in the steaming basket and lower it into the now-hot liquid (basket-in-pot = direct submersion). Seal — high pressure, 20 min, natural release. Because the liquid is already hot, this second heat-up is a quick, predictable ~10–15 min, and the beans get a controlled cook — so the third you keep whole hold their shape.
 
@@ -80,18 +81,18 @@ XHTML Header: <script>
 
 ## Nutrition
 
-*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; replace with FoodNoms totals when next cooked. Naturally creamy and low-fat (30 g fat total) — the body comes from pinto and butternut, not added cream or coconut milk. With the bigger bean load protein climbs to ~122 g and fibre to ~104 g — squarely on-brief for recovery, though that's a lot of fibre per serving. Vitamin D and B12 negligible — supplement separately. Salt ~10 g, comfortably inside the 10–15 g family target.*
+*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; replace with FoodNoms totals when next cooked. Naturally creamy and low-fat (30 g fat total) — the body comes from pinto and butternut, not added cream or coconut milk. With the bigger bean load protein climbs to ~123 g and fibre to ~105 g — squarely on-brief for recovery, though that's a lot of fibre per serving. Vitamin D and B12 negligible — supplement separately. Salt ~10 g, comfortably inside the 10–15 g family target.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2592 kcal | Iron | 38 mg |
-| Protein | 122 g | Calcium | 1312 mg |
-| Carbohydrates | 504 g | Zinc | 17 mg |
-| — of which sugars | 68 g | Magnesium | 1343 mg |
-| Fat | 30 g | Potassium | 11961 mg |
+| Energy | 2616 kcal | Iron | 39 mg |
+| Protein | 123 g | Calcium | 1313 mg |
+| Carbohydrates | 510 g | Zinc | 17 mg |
+| — of which sugars | 69 g | Magnesium | 1354 mg |
+| Fat | 30 g | Potassium | 12083 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
-| Fibre | 104 g | Vitamin B12 | 0.0 µg |
-| Salt | 10 g | Folate | 2591 µg |
+| Fibre | 105 g | Vitamin B12 | 0.0 µg |
+| Salt | 10 g | Folate | 2604 µg |
 
 ---
 
@@ -101,7 +102,7 @@ XHTML Header: <script>
 - **Part-puréed so the pinto registers.** Two-thirds of the beans blend into the creamy base; the final third goes back whole. Pinto's flavour is faint and its main gifts are texture and nutrition — so leaving some whole is what makes the bowl read as *a pinto soup* rather than a smooth squash soup: discrete bean bites and concentrated flavour pockets against the gold purée. The ⅔–⅓ ratio is a starting point — go more-whole for a chunkier, rustic bowl. Beans upped to 350 g dried because ⅔ blend into the base (more body, more protein); the extra absorbs liquid, hence water at 1700 ml — add more at the blend if it's still thick.
 - **Dried alliums (using up the jar).** Dried onion goes straight in the phase-1 pot, where the long cook rehydrates and infuses it — the right job for dehydrated onion, and zero prep. Garlic powder blooms with the spices (with a splash of liquid, never bare hot oil). The one cost vs fresh: you lose the sweet, caramelised depth of sautéed onion — but the cumin + paprika bloom carries the savoury-warm note, and the kombu and aminos backstop the umami. If you want more depth another time, a fresh sautéed onion is the upgrade.
 - **Dried-onion amount (40 g).** This is a generous double of the pure reconstitution of the original fresh onion — dried/rehydrated onion has less impact than sautéed, so you overshoot the weight-equivalent rather than match it. Push to 50–60 g to empty the jar, but note dried onion is *itself sweet* (concentrated sugars — it's why the recipe's sugars rose ~8 g going from 20 → 40 g), so it adds sweetness rather than purely countering it; lean on the cumin/garlic/kombu/aminos for the actual savoury balance.
-- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free. Upped to ~15 g for more umami and calcium — but that's about the sensible ceiling: kombu is extremely iodine-dense, which matters given the thyroid flag. For *more* umami than this, reach for shiitake powder (its guanylate multiplies with kombu's glutamate) rather than more kombu.
+- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free. Upped to ~15 g for more umami and calcium — but that's about the sensible ceiling: kombu is extremely iodine-dense, which matters given the thyroid flag. So the *further* umami push comes from 🍄 **shiitake powder (8 g)**, not more kombu — its guanylate multiplies with kombu's glutamate (the same synergy as the kombu-shiitake dashi), deepening the savoury base without adding iodine. Both go in the phase-1 pot so they cook into the base together.
 - **Sweet paprika, not smoked — deliberate.** Sweet paprika (pimentón dulce) gives the colour and gentle pepper-sweetness with none of the smoke, so the dish is Lara-safe. Supported by field evidence: Lara scored a sweet-paprika dish at her near-ceiling (see `../../docs/RATINGS.md` obs 17 / `../../docs/EXPERIMENTS.md` #1). Do not substitute smoked paprika.
 - **Naturally low-fat.** No coconut milk or cream needed — pinto's starchy break-down does the creaminess. Total fat is just the 15 g cooking oil plus what's in the wholefoods.
 - **Optional:** a scatter of toasted pumpkin seeds adds crunch and ties to the squash; not in the totals above.
