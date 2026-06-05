@@ -15,10 +15,10 @@
 | 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
 | 🔵 | 💧 Water | 1700 ml | 0 | |
 | 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 350 g |
-| 🟣 | 🫒 Mild olive oil | 15 g | 133 | |
-| 🟠 | 🌰 Ground cumin | 6 g | 22 | (6.5 g) |
-| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | (9 g) |
-| 🟡 | 🧄 Garlic powder | 5 g | 17 | (5.5 g) |
+| 🟣 | 🫒 Mild olive oil | 15 g | 133 | 10 g avocado |
+| 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | 9 g |
+| 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |
 | 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | 767 g |
 | 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
