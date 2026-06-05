@@ -8,31 +8,34 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🟤 | 🫘 Dried black-eyed beans (no soak needed) | 250 g | |
-| 🔵 | 🧊 Stock cubes + 2600 ml water | 6 | |
-| 🟠 | 🌶️ Scotch bonnet (kept whole, remove before blending) | 1 | |
-| 🟡 | 🍃 Bay leaves (remove before blending) | 4 | |
-| 🟡 | 🍋 Makrut lime leaves (remove before blending) | 4 | |
-| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | |
-| 🟡 | 🧅 Onions, diced | 4 large | |
-| 🟡 | 🧄 Garlic | 50 g | |
-| 🟡 | 🫚 Fresh ginger, grated | 16 g | |
-| 🟠 | 🫑 Smoked paprika | 16 g | |
-| 🟠 | 🍂 Dried ginger powder | 10 g | |
-| 🟠 | 🌿 Dried coriander | 10 g | |
-| 🟠 | 🍅 Tomato paste | 60 g | |
-| 🟠 | 🥜 Peanut flour (whisk into stock first) | 100 g | |
-| ⚪ | 🍒 Goji berries | 15 g | |
-| 🟣 | 💧 Liquid aminos | 40 g | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
-| 🟢 | 🌱 Fresh coriander (garnish) | generous | |
-| ⚪ | 🫙 Tamarind paste (at table) | to taste | |
-| ⚪ | 🍈 Lime juice (at table) | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
+| 🟤 | 🫘 Dried black-eyed beans (no soak needed) | 250 g | 840 | |
+| 🔵 | 🧊 Stock cubes + 2600 ml water | 6 | 30 | |
+| 🟠 | 🌶️ Scotch bonnet (kept whole, remove before blending) | 1 | ~0 | |
+| 🟡 | 🍃 Bay leaves (remove before blending) | 4 | ~0 | |
+| 🟡 | 🍋 Makrut lime leaves (remove before blending) | 4 | ~0 | |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | 200 | |
+| 🟡 | 🧅 Onions, diced | 4 large | 240 | |
+| 🟡 | 🧄 Garlic | 50 g | 75 | |
+| 🟡 | 🫚 Fresh ginger, grated | 16 g | 13 | |
+| 🟠 | 🫑 Smoked paprika | 16 g | 45 | |
+| 🟠 | 🍂 Dried ginger powder | 10 g | 34 | |
+| 🟠 | 🌿 Dried coriander | 10 g | 30 | |
+| 🟠 | 🍅 Tomato paste | 60 g | 49 | |
+| 🟠 | 🥜 Peanut flour (whisk into stock first) | 100 g | 330 | |
+| ⚪ | 🍒 Goji berries | 15 g | 52 | |
+| 🟣 | 💧 Liquid aminos | 40 g | 20 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| 🟢 | 🌱 Fresh coriander (garnish) | generous | — | |
+| ⚪ | 🫙 Tamarind paste (at table) | to taste | — | |
+| ⚪ | 🍈 Lime juice (at table) | to taste | — | |
+| | **Total** | **~6.8 kg** | **~3718** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

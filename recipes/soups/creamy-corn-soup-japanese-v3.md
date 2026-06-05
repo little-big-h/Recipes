@@ -6,25 +6,28 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🔵 | 🌊 Kombu (wipe, don't rinse; remove before cooking, never boil) | 20 g | |
-| 🔵 | 💧 Water (for the dashi brew) | 1800 ml | |
-| 🟠 | 🍄 Shiitake powder (into the dashi brew; use what you have) | 11 g | |
-| 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | |
-| 🟤 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
-| 🔵 | 🍶 Tsuyu concentrate (Clearspring, taste — very salty) | 45 ml | |
-| 🟠 | 🫚 Dried ginger powder | 1.5 g | |
-| 🟡 | 🌱 Spring onion | 4-5 stalks | |
-| 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | |
-| 🟠 | 🫙 White miso (whisk in off heat, never boil) | 30 g | |
-| 🟣 | 🍯 Hon-mirin (real; simmer briefly to cook off alcohol) | 22 ml | |
-| 🟢 | 🥬 Bok choi (shredded fine, folded in at end) | 400 g | |
-| 🟣 | 🌰 Sesame seeds (garnish) | 1 tbsp | |
-| 🟢 | 🌿 Nori flakes (garnish) | generous | |
-| 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🔵 | 🌊 Kombu (wipe, don't rinse; remove before cooking, never boil) | 20 g | ~3 | |
+| 🔵 | 💧 Water (for the dashi brew) | 1800 ml | 0 | |
+| 🟠 | 🍄 Shiitake powder (into the dashi brew; use what you have) | 11 g | 33 | |
+| 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | 1320 | |
+| 🟤 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | 892 | |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring, taste — very salty) | 45 ml | 20 | |
+| 🟠 | 🫚 Dried ginger powder | 1.5 g | 5 | |
+| 🟡 | 🌱 Spring onion | 4-5 stalks | 24 | |
+| 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | 5 | |
+| 🟠 | 🫙 White miso (whisk in off heat, never boil) | 30 g | 57 | |
+| 🟣 | 🍯 Hon-mirin (real; simmer briefly to cook off alcohol) | 22 ml | 51 | |
+| 🟢 | 🥬 Bok choi (shredded fine, folded in at end) | 400 g | 52 | |
+| 🟣 | 🌰 Sesame seeds (garnish) | 1 tbsp | 52 | |
+| 🟢 | 🌿 Nori flakes (garnish) | generous | 2 | |
+| 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | — | |
+| | **Total** | **~4.1 kg** | **~2516** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

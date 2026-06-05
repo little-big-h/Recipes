@@ -10,27 +10,30 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🥔 Potatoes, large chunks | 900 g | |
-| 🟢 | 🥦 Cauliflower, florets (Jannes concern) | 600 g | |
-| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | |
-| 🔵 | 💧 Water (for kasha) | 600 ml | |
-| 🟡 | 🧅 Onions, diced | 2 large | |
-| 🟡 | 🧄 Garlic, roughly chopped | 5 cloves | |
-| 🟠 | 🌱 Cumin seeds | 4 g | |
-| 🟠 | 🌼 Turmeric | 2 g | |
-| 🟠 | 🫚 Dried ginger powder | 6 g | |
-| 🟠 | 🌶️ Tikka masala powder | 15 g | |
-| 🟠 | 🍄 Shiitake powder | 10 g | |
-| 🔵 | 🧊 Vegetable stock | 1.2 L | |
-| 🟤 | 🧈 Silken tofu | 300 g | |
-| 🟤 | 🫘 White beans, drained — **keep liquid for blending** | 400 g tin | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 20 g | |
-| 🟣 | 💦 Liquid aminos | 15 g | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🥔 Potatoes, large chunks | 900 g | 693 | |
+| 🟢 | 🥦 Cauliflower, florets (Jannes concern) | 600 g | 150 | |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | 1029 | |
+| 🔵 | 💧 Water (for kasha) | 600 ml | 0 | |
+| 🟡 | 🧅 Onions, diced | 2 large | 120 | |
+| 🟡 | 🧄 Garlic, roughly chopped | 5 cloves | 22 | |
+| 🟠 | 🌱 Cumin seeds | 4 g | 15 | |
+| 🟠 | 🌼 Turmeric | 2 g | 6 | |
+| 🟠 | 🫚 Dried ginger powder | 6 g | 20 | |
+| 🟠 | 🌶️ Tikka masala powder | 15 g | 45 | |
+| 🟠 | 🍄 Shiitake powder | 10 g | 30 | |
+| 🔵 | 🧊 Vegetable stock | 1.2 L | 12 | |
+| 🟤 | 🧈 Silken tofu | 300 g | 165 | |
+| 🟤 | 🫘 White beans, drained — **keep liquid for blending** | 400 g tin | 305 | |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 20 g | 38 | |
+| 🟣 | 💦 Liquid aminos | 15 g | 8 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~4.5 kg** | **~2658** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

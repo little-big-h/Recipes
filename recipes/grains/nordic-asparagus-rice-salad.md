@@ -12,25 +12,28 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟤 | 🥚 Eggs (hard-boiled) | 8–10 | |
-| 🟢 | 🍚 Cooked rice (cold leftover) | 600 g | |
-| ⚪ | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | |
-| 🟢 | 🌿 Fresh dill (rice + plate) | large bunch | |
-| 🟢 | 🥒 Gherkins, sliced + brine splash for rice | generous | |
-| 🟤 | 🧊 Firm tofu, microwaved & sliced | 500 g | |
-| 🟣 | 💦 Liquid aminos (tofu marinade) | 20 g | |
-| 🟣 | 🌭 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | |
-| 🟣 | 🫚 Horseradish cream (dressing) | 2 tbsp (~30 g) | |
-| 🟣 | 🫙 White miso (dressing) | 15 g | |
-| 🔵 | 💧 Water (to thin dressing) | 3–4 tbsp | |
-| 🟢 | 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | |
-| 🟣 | 🫒 Capers (on plate) | 3 tbsp (~30 g) | |
-| 🟢 | 🍞 Rye bread | to serve | |
-| 🟣 | 🧂 Salt and white pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟤 | 🥚 Eggs (hard-boiled) | 8–10 | 630 | |
+| 🟢 | 🍚 Cooked rice (cold leftover) | 600 g | 780 | |
+| ⚪ | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | 28 | |
+| 🟢 | 🌿 Fresh dill (rice + plate) | large bunch | 7 | |
+| 🟢 | 🥒 Gherkins, sliced + brine splash for rice | generous | 14 | |
+| 🟤 | 🧊 Firm tofu, microwaved & sliced | 500 g | 720 | |
+| 🟣 | 💦 Liquid aminos (tofu marinade) | 20 g | 10 | |
+| 🟣 | 🌭 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | 17 | |
+| 🟣 | 🫚 Horseradish cream (dressing) | 2 tbsp (~30 g) | 14 | |
+| 🟣 | 🫙 White miso (dressing) | 15 g | 29 | |
+| 🔵 | 💧 Water (to thin dressing) | 3–4 tbsp | 0 | |
+| 🟢 | 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | 100 | |
+| 🟣 | 🫒 Capers (on plate) | 3 tbsp (~30 g) | 7 | |
+| 🟢 | 🍞 Rye bread | to serve | ~500 | |
+| 🟣 | 🧂 Salt and white pepper | to taste | 0 | |
+| | **Total** | **~2.4 kg** | **~2856** | |
 
 *Legend: 🟢 Vegetables · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

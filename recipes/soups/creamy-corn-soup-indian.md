@@ -10,28 +10,31 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🟤 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | |
-| 🔵 | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | |
-| 🔵 | 💧 Stock cubes + 2000 ml water (for corn) | 3 | |
-| 🟡 | 🧅 Onions, diced | 4 large | |
-| 🟡 | 🧄 Garlic | 50 g | |
-| 🟡 | 🫚 Fresh ginger, grated | 15 g | |
-| 🟠 | 🌱 Cumin seeds | 16 g | |
-| 🟠 | 🌼 Turmeric | 15 g | |
-| 🟠 | 🌶️ Tikka masala powder | 20 g | |
-| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | |
-| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | |
-| 🟣 | 💦 Liquid aminos | 30 g | |
-| 🟢 | 🥬 Spinach (off heat) | 500 g | |
-| ⚪ | 🥭 Tamarind paste (off heat) | 15 g | |
-| 🟢 | 🪴 Fresh coriander (garnish) | generous | |
-| ⚪ | 🍋 Lime (at table) | 2 | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
+| 🟤 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | 1092 | |
+| 🔵 | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | 15 | |
+| 🔵 | 💧 Stock cubes + 2000 ml water (for corn) | 3 | 15 | |
+| 🟡 | 🧅 Onions, diced | 4 large | 240 | |
+| 🟡 | 🧄 Garlic | 50 g | 75 | |
+| 🟡 | 🫚 Fresh ginger, grated | 15 g | 12 | |
+| 🟠 | 🌱 Cumin seeds | 16 g | 60 | |
+| 🟠 | 🌼 Turmeric | 15 g | 47 | |
+| 🟠 | 🌶️ Tikka masala powder | 20 g | 60 | |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | 200 | |
+| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | 140 | |
+| 🟣 | 💦 Liquid aminos | 30 g | 15 | |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | 115 | |
+| ⚪ | 🥭 Tamarind paste (off heat) | 15 g | 17 | |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | — | |
+| ⚪ | 🍋 Lime (at table) | 2 | — | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~7.2 kg** | **~3863** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

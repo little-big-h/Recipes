@@ -12,25 +12,28 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🍆 Aubergines, cut into large chunks | 3 medium (~900 g) | |
-| 🟣 | 🧂 Salt (for aubergine rest) | generous | |
-| 🟢 | 🫑 Romano peppers, roughly chopped (Lara concern — cooked peppers) | 3–4 (~400 g) | |
-| 🟢 | 🥕 Carrots, thick coins | 3–4 (~400 g) | |
-| 🔵 | 💧 Water (Ninja base layer) | small splash | |
-| 🟢 | 🍅 Passata | 2 × 690 g | |
-| 🟡 | 🧄 Garlic powder | 2 tsp | |
-| 🟠 | 🌶️ Chili flakes | ½ tsp | |
-| 🟠 | 🥘 Smoked paprika (Lara concern — suspected) | 2 tsp | |
-| 🟠 | 🌿 Dried oregano | 2 tsp | |
-| 🟢 | 🌾 Amaranth, dry | 250 g | |
-| 🔵 | 🥛 Water (or light stock) for amaranth | 500 ml | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 2 tbsp (~36 g) | |
-| 🟣 | 🫒 Capers (at end) | 3 tbsp (~30 g) | |
-| 🟣 | 🧆 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🍆 Aubergines, cut into large chunks | 3 medium (~900 g) | 225 | |
+| 🟣 | 🧂 Salt (for aubergine rest) | generous | 0 | |
+| 🟢 | 🫑 Romano peppers, roughly chopped (Lara concern — cooked peppers) | 3–4 (~400 g) | 124 | |
+| 🟢 | 🥕 Carrots, thick coins | 3–4 (~400 g) | 164 | |
+| 🔵 | 💧 Water (Ninja base layer) | small splash | 0 | |
+| 🟢 | 🍅 Passata | 2 × 690 g | 483 | |
+| 🟡 | 🧄 Garlic powder | 2 tsp | 20 | |
+| 🟠 | 🌶️ Chili flakes | ½ tsp | 3 | |
+| 🟠 | 🥘 Smoked paprika (Lara concern — suspected) | 2 tsp | 14 | |
+| 🟠 | 🌿 Dried oregano | 2 tsp | 5 | |
+| 🟢 | 🌾 Amaranth, dry | 250 g | 928 | |
+| 🔵 | 🥛 Water (or light stock) for amaranth | 500 ml | 0 | |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 2 tbsp (~36 g) | 68 | |
+| 🟣 | 🫒 Capers (at end) | 3 tbsp (~30 g) | 7 | |
+| 🟣 | 🧆 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~3.9 kg** | **~2041** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟣 Seasoning*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

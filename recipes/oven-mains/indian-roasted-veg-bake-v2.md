@@ -24,25 +24,28 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🥕 Carrots, thick slices | 400 g | |
-| 🟢 | 🧅 Onions, wedges | 3 large | |
-| 🟢 | 🧄 Garlic cloves, whole | 6–8 | |
-| 🟤 | 🫘 Chickpeas, drained and dried | 400 g tin | |
-| 🟢 | 🥦 Broccoli, florets | 2 heads | |
-| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | |
-| 🟢 | 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | |
-| 🟤 | 🍮 Silken tofu (sauce base) | 300 g | |
-| 🔵 | 🧊 Stock cube + 200 ml water | 1 | |
-| 🟠 | 🍛 Mild curry powder | 22 g | |
-| 🟠 | 🫚 Turmeric | 3 g | |
-| 🟣 | 🫒 Oil (for blooming) | 1 tsp | |
-| ⚪ | 🍋 Lemon juice (at end) | 1 lemon | |
-| 🟤 | 🥛 Cottage cheese (cold side, do not stir in) | generous | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🥕 Carrots, thick slices | 400 g | 164 | |
+| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |
+| 🟢 | 🧄 Garlic cloves, whole | 6–8 | 45 | |
+| 🟤 | 🫘 Chickpeas, drained and dried | 400 g tin | 334 | |
+| 🟢 | 🥦 Broccoli, florets | 2 heads | 238 | |
+| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | 50 | |
+| 🟢 | 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | 720 | |
+| 🟤 | 🍮 Silken tofu (sauce base) | 300 g | 165 | |
+| 🔵 | 🧊 Stock cube + 200 ml water | 1 | 10 | |
+| 🟠 | 🍛 Mild curry powder | 22 g | 66 | |
+| 🟠 | 🫚 Turmeric | 3 g | 9 | |
+| 🟣 | 🫒 Oil (for blooming) | 1 tsp | 44 | |
+| ⚪ | 🍋 Lemon juice (at end) | 1 lemon | 11 | |
+| 🟤 | 🥛 Cottage cheese (cold side, do not stir in) | generous | 288 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~3.8 kg** | **~2324** | |
 
 *Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

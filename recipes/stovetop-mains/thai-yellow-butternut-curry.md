@@ -8,24 +8,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, peeled and cubed | 1200 g | |
-| 🔵 | 🥥 Light coconut milk (Biona Organic, 9% fat) | 400 ml | |
-| 🟤 | 🧊 Silken tofu | 300 g | |
-| 🟠 | 🍛 Yellow curry paste (Mae Ploy) | 60 g | |
-| 🟠 | 🫚 Galangal paste | 35 g | |
-| 🟠 | 🌾 Lemongrass paste (use what you have) | 15 g | |
-| 🟡 | 🌿 Makrut lime leaves (bruise lightly, remove before serving) | 6 | |
-| 🟢 | 🥕 Carrot, cut into batons | 300 g | |
-| 🟢 | 🌼 Cauliflower, florets | 500 g | |
-| 🟢 | 🥬 Green cabbage, shredded (raw into wok) | 300 g | |
-| ⚪ | 🍋 Lime wedges (at table, for those who want acidity) | 2 limes | |
-| 🟡 | 🌱 Fresh coriander or Thai basil (garnish) | generous | |
-| 🟢 | 🍇 Red cabbage, shredded raw (garnish) | 100 g | |
-| 🟠 | 🌶️ Bird's eye chilies, dried, rehydrated at table (for adults) | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, peeled and cubed | 1200 g | 540 | |
+| 🔵 | 🥥 Light coconut milk (Biona Organic, 9% fat) | 400 ml | 360 | |
+| 🟤 | 🧊 Silken tofu | 300 g | 165 | |
+| 🟠 | 🍛 Yellow curry paste (Mae Ploy) | 60 g | 72 | |
+| 🟠 | 🫚 Galangal paste | 35 g | 32 | |
+| 🟠 | 🌾 Lemongrass paste (use what you have) | 15 g | 14 | |
+| 🟡 | 🌿 Makrut lime leaves (bruise lightly, remove before serving) | 6 | ~0 | |
+| 🟢 | 🥕 Carrot, cut into batons | 300 g | 123 | |
+| 🟢 | 🌼 Cauliflower, florets | 500 g | 125 | |
+| 🟢 | 🥬 Green cabbage, shredded (raw into wok) | 300 g | 75 | |
+| ⚪ | 🍋 Lime wedges (at table, for those who want acidity) | 2 limes | — | |
+| 🟡 | 🌱 Fresh coriander or Thai basil (garnish) | generous | — | |
+| 🟢 | 🍇 Red cabbage, shredded raw (garnish) | 100 g | — | |
+| 🟠 | 🌶️ Bird's eye chilies, dried, rehydrated at table (for adults) | to taste | — | |
+| | **Total** | **~3.2 kg** | **~1506** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

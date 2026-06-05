@@ -12,20 +12,23 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🌼 Cauliflower, florets (Jannes concern) | 1 head | |
-| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 | |
-| 🟢 | 🧅 Onions, wedges | 3 large | |
-| 🟡 | 🧄 Garlic cloves, whole | 6–8 | |
-| 🟢 | 🥦 Broccoli, florets | 1 head | |
-| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | |
-| 🟢 | 🍅 Tinned chopped tomatoes (sauce) | 2 × 400 g | |
-| 🟠 | 🍛 Mild curry powder | 22 g | |
-| 🟣 | 🫒 Oil (for blooming + tossing) | 1 tsp + extra for veg | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🌼 Cauliflower, florets (Jannes concern) | 1 head | 150 | |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 | 78 | |
+| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |
+| 🟡 | 🧄 Garlic cloves, whole | 6–8 | 45 | |
+| 🟢 | 🥦 Broccoli, florets | 1 head | 119 | |
+| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | 50 | |
+| 🟢 | 🍅 Tinned chopped tomatoes (sauce) | 2 × 400 g | 160 | |
+| 🟠 | 🍛 Mild curry powder | 22 g | 66 | |
+| 🟣 | 🫒 Oil (for blooming + tossing) | 1 tsp + extra for veg | 177 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~2.8 kg** | **~1025** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🟣 Seasoning*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

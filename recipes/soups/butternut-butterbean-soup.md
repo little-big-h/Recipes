@@ -12,20 +12,23 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, unpeeled, large chunks | 2 (~2 kg) | |
-| 🟡 | 🧅 Onion, diced | 1 large | |
-| 🟡 | 🧄 Garlic cloves, roughly chopped | 4 | |
-| 🟡 | 🫚 Fresh ginger, grated | 4 cm (~16 g) | |
-| 🟠 | 🌶️ Smoked paprika (optional — for colour; Lara concern) | ½ tsp | |
-| 🔵 | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | |
-| 🟤 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | |
-| ⚪ | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, unpeeled, large chunks | 2 (~2 kg) | 900 | |
+| 🟡 | 🧅 Onion, diced | 1 large | 60 | |
+| 🟡 | 🧄 Garlic cloves, roughly chopped | 4 | 18 | |
+| 🟡 | 🫚 Fresh ginger, grated | 4 cm (~16 g) | 13 | |
+| 🟠 | 🌶️ Smoked paprika (optional — for colour; Lara concern) | ½ tsp | 3 | |
+| 🔵 | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | 10 | |
+| 🟤 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | 828 | |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | 103 | |
+| ⚪ | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | 17 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~4.0 kg** | **~1952** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

@@ -8,24 +8,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟡 | 🧅 Onion, roughly chopped | 2 medium | |
-| 🟡 | 🍃 Bay leaves (remove before blending) | 2 | |
-| 🔵 | 🧊 Stock cubes + 2000 ml water | 2 | |
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🟤 | 🫘 Dry black-eyed beans (no soak, pot-in-pot) | 200 g | |
-| 🟤 | 🫙 Quark (fold in cold, after chilling) | 300 g | |
-| 🟡 | 🌿 Fresh dill (fold in cold, after chilling) | 50 g | |
-| ⚪ | 🍋 Lemon juice (after chilling, be generous) | 2 lemons | |
-| 🟣 | 🧂 Salt and white pepper (season generously — cold mutes) | to taste | |
-| 🟡 | 🌱 Chives, finely sliced (garnish) | generous | |
-| ⚪ | 🥒 Pickled cucumber (accompaniment) | generous | |
-| ⚪ | 🫐 Pickled beetroot (accompaniment) | generous | |
-| ⚪ | 🪻 Pickled red onion (accompaniment) | generous | |
-| 🟠 | 🫚 Horseradish, freshly grated (accompaniment) | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟡 | 🧅 Onion, roughly chopped | 2 medium | 88 | |
+| 🟡 | 🍃 Bay leaves (remove before blending) | 2 | ~0 | |
+| 🔵 | 🧊 Stock cubes + 2000 ml water | 2 | 10 | |
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
+| 🟤 | 🫘 Dry black-eyed beans (no soak, pot-in-pot) | 200 g | 672 | |
+| 🟤 | 🫙 Quark (fold in cold, after chilling) | 300 g | 210 | |
+| 🟡 | 🌿 Fresh dill (fold in cold, after chilling) | 50 g | 12 | |
+| ⚪ | 🍋 Lemon juice (after chilling, be generous) | 2 lemons | 23 | |
+| 🟣 | 🧂 Salt and white pepper (season generously — cold mutes) | to taste | 0 | |
+| 🟡 | 🌱 Chives, finely sliced (garnish) | generous | — | |
+| ⚪ | 🥒 Pickled cucumber (accompaniment) | generous | — | |
+| ⚪ | 🫐 Pickled beetroot (accompaniment) | generous | — | |
+| ⚪ | 🪻 Pickled red onion (accompaniment) | generous | — | |
+| 🟠 | 🫚 Horseradish, freshly grated (accompaniment) | to taste | — | |
+| | **Total** | **~4.9 kg** | **~2775** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

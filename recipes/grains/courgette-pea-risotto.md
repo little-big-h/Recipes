@@ -10,28 +10,31 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟤 | 🧊 Firm tofu, sliced into slabs | 400 g | |
-| 🟤 | 🧈 Butter (for tofu pan-fry) | 15 g | |
-| 🟡 | 🧅 Onion, finely diced | 2 large | |
-| 🟡 | 🧄 Garlic, finely chopped | 3 cloves | |
-| 🟢 | 🥒 Courgette, finely diced | 2 medium | |
-| 🟢 | 🍚 Arborio rice | 500 g | |
-| ⚪ | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | |
-| 🔵 | 🥄 Vegetable stock, kept warm | 1.5 L | |
-| 🟣 | 🫒 Capers | 2 tbsp | |
-| 🟣 | ✨ Nutritional yeast | 15 g | |
-| 🟢 | 🫛 Frozen peas | 350 g | |
-| 🟤 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | |
-| 🟤 | 🧀 Parmesan, grated | 80 g | |
-| 🟢 | 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | |
-| 🟣 | 🌶️ Tabasco (at table) | to taste | |
-| 🟢 | 🥗 Lettuce | as available | |
-| 🟢 | 🥖 Bagels | as needed | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟤 | 🧊 Firm tofu, sliced into slabs | 400 g | 576 | |
+| 🟤 | 🧈 Butter (for tofu pan-fry) | 15 g | 108 | |
+| 🟡 | 🧅 Onion, finely diced | 2 large | 120 | |
+| 🟡 | 🧄 Garlic, finely chopped | 3 cloves | 13 | |
+| 🟢 | 🥒 Courgette, finely diced | 2 medium | 68 | |
+| 🟢 | 🍚 Arborio rice | 500 g | 1750 | |
+| ⚪ | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | 11 | |
+| 🔵 | 🥄 Vegetable stock, kept warm | 1.5 L | 75 | |
+| 🟣 | 🫒 Capers | 2 tbsp | 4 | |
+| 🟣 | ✨ Nutritional yeast | 15 g | 53 | |
+| 🟢 | 🫛 Frozen peas | 350 g | 284 | |
+| 🟤 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | 287 | |
+| 🟤 | 🧀 Parmesan, grated | 80 g | 320 | |
+| 🟢 | 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | ~10 | |
+| 🟣 | 🌶️ Tabasco (at table) | to taste | — | |
+| 🟢 | 🥗 Lettuce | as available | 15 | |
+| 🟢 | 🥖 Bagels | as needed | ~1180 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~4.3 kg** | **~4874** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

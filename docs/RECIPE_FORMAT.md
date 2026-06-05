@@ -70,10 +70,21 @@ keying only the categories present in the recipe, in canonical order:
 
 ### Ingredient table structure
 
-Plain markdown table with **four columns**: Type, Ingredient, Planned, Actual used.
+Plain markdown table with **five columns**: Type, Ingredient, Planned, Est. kcal, Actual used.
 
 - **Type** holds the category circle (see the map above). It and the legend
   are the *only* places the coloured circles appear.
+- **Est. kcal** — estimated energy for the *planned* amount, rounded to whole
+  kcal. Conventions: water / salt / "to taste" → `0`; ingredients removed
+  before serving (kombu strip, whole chillies, makrut leaves) → a small
+  leached value or `~0`; at-table items (lime, raw garnishes) → `—`. The
+  column should **sum to ≈ the recipe's stated Nutrition energy** — reconcile
+  against it.
+- A **Total row** closes the table:
+  `| | **Total** | **~X kg** | **~Y** | |`
+  where X = approximate combined weight of the planned amounts (flag when it
+  includes a large water/stock volume) and Y = the recipe's stated Nutrition
+  energy. A short italic note below the legend records the approximations.
 - **No in-table category section headers.** The Type column carries the category.
 
 **Ingredients are sorted strictly by time of use** — the sequence in which

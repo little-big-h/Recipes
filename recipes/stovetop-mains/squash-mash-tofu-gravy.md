@@ -10,29 +10,32 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, peeled and cubed | 1100 g | |
-| 🟤 | 🧊 Firm tofu, microwaved 5 min and cubed | 300 g | |
-| 🟡 | 🧅 Onions, finely sliced | 3 large | |
-| 🟢 | 🍎 Tart apple, diced | 1 large | |
-| 🟡 | 🧄 Garlic cloves, sliced | 4 | |
-| 🔵 | 🥄 Vegetable stock | 700 ml | |
-| 🟣 | 🫒 Avocado oil (tofu) | 3 g | |
-| 🟠 | 🌶️ Smoked paprika (tofu) | 3 g | |
-| 🟠 | 🍂 Garlic powder (tofu) | 2 g | |
-| 🟠 | 🧆 Black pepper (tofu) | 1 g | |
-| 🟠 | 🍄 Shiitake powder (tofu) | 5 g | |
-| 🟣 | 🍷 Balsamic vinegar (gravy) | 2 tbsp | |
-| 🟠 | 🌿 Thyme, dried (gravy) | 1.5 tsp | |
-| 🟣 | 🫙 White miso (gravy, whisk in off heat) | 20 g | |
-| 🟣 | 🫛 Capers (over tofu, at end) | 3 tbsp | |
-| 🟣 | 🧈 Butter or olive oil (mash) | 20 g | |
-| 🟠 | ✨ Nutmeg, grated (mash) | pinch | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
-| 🟤 | 🫘 Beans for Lara (tinned) | 1 tin | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, peeled and cubed | 1100 g | 495 | |
+| 🟤 | 🧊 Firm tofu, microwaved 5 min and cubed | 300 g | 432 | |
+| 🟡 | 🧅 Onions, finely sliced | 3 large | 160 | |
+| 🟢 | 🍎 Tart apple, diced | 1 large | 104 | |
+| 🟡 | 🧄 Garlic cloves, sliced | 4 | 18 | |
+| 🔵 | 🥄 Vegetable stock | 700 ml | 0 | |
+| 🟣 | 🫒 Avocado oil (tofu) | 3 g | 27 | |
+| 🟠 | 🌶️ Smoked paprika (tofu) | 3 g | 8 | |
+| 🟠 | 🍂 Garlic powder (tofu) | 2 g | 7 | |
+| 🟠 | 🧆 Black pepper (tofu) | 1 g | 3 | |
+| 🟠 | 🍄 Shiitake powder (tofu) | 5 g | 15 | |
+| 🟣 | 🍷 Balsamic vinegar (gravy) | 2 tbsp | 26 | |
+| 🟠 | 🌿 Thyme, dried (gravy) | 1.5 tsp | 4 | |
+| 🟣 | 🫙 White miso (gravy, whisk in off heat) | 20 g | 38 | |
+| 🟣 | 🫛 Capers (over tofu, at end) | 3 tbsp | 7 | |
+| 🟣 | 🧈 Butter or olive oil (mash) | 20 g | 143 | |
+| 🟠 | ✨ Nutmeg, grated (mash) | pinch | 1 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| 🟤 | 🫘 Beans for Lara (tinned) | 1 tin | 288 | |
+| | **Total** | **~3.1 kg** | **~1776** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

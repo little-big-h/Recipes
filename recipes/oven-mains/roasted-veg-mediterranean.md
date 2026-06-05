@@ -14,24 +14,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | |
-| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | |
-| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 (~400 g) | |
-| 🟢 | 🧅 Onions, wedges | 3 large | |
-| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | |
-| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | |
-| 🟠 | 🌿 Rosemary, fresh sprigs | 4–5 | |
-| 🟠 | 🪴 Dried oregano | 2 tsp | |
-| 🟠 | 🌶️ Smoked paprika (Lara concern — suspected) | 2 tsp | |
-| 🟠 | 🧄 Garlic powder | 2 tsp | |
-| 🟣 | 🍷 Balsamic vinegar | 2 tbsp | |
-| 🟣 | 🫛 Capers (at end) | 2 tbsp | |
-| 🟣 | 🫒 Olive oil | 2 tbsp | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | 360 | |
+| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | 175 | |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 (~400 g) | 104 | |
+| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |
+| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | 50 | |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | 1029 | |
+| 🟠 | 🌿 Rosemary, fresh sprigs | 4–5 | ~0 | |
+| 🟠 | 🪴 Dried oregano | 2 tsp | 11 | |
+| 🟠 | 🌶️ Smoked paprika (Lara concern — suspected) | 2 tsp | 11 | |
+| 🟠 | 🧄 Garlic powder | 2 tsp | 20 | |
+| 🟣 | 🍷 Balsamic vinegar | 2 tbsp | 26 | |
+| 🟣 | 🫛 Capers (at end) | 2 tbsp | 4 | |
+| 🟣 | 🫒 Olive oil | 2 tbsp | 248 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~3.6 kg** | **~2218** | |
 
 *Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🟣 Seasoning*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

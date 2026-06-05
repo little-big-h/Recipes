@@ -10,26 +10,29 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🍄 Dried shiitake (soak to submerge, ~800 ml water, reserve) | 100 g | |
-| 🟡 | 🧅 Onions, diced | 3 large | |
-| 🟡 | 🧄 Garlic | 50 g | |
-| 🟠 | 🍛 Yellow curry paste | 50 g | |
-| 🟠 | 🎋 Lemongrass paste | 30 g | |
-| 🟠 | 🪨 Galangal paste | 25 g | |
-| 🔵 | 💧 Water | 1000 ml | |
-| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | |
-| 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | |
-| 🟤 | 🫘 Silken tofu | 300 g | |
-| 🟢 | 🥥 Coconut milk | 400 ml | |
-| 🟣 | 🧴 Liquid aminos | 20 ml | |
-| 🟢 | 🌱 Spring onion, sliced (garnish) | generous | |
-| 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | |
-| 🟢 | 🪴 Fresh coriander (garnish) | generous | |
-| ⚪ | 🍈 Lime juice (at table) | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🍄 Dried shiitake (soak to submerge, ~800 ml water, reserve) | 100 g | 296 | |
+| 🟡 | 🧅 Onions, diced | 3 large | 180 | |
+| 🟡 | 🧄 Garlic | 50 g | 75 | |
+| 🟠 | 🍛 Yellow curry paste | 50 g | 60 | |
+| 🟠 | 🎋 Lemongrass paste | 30 g | 27 | |
+| 🟠 | 🪨 Galangal paste | 25 g | 23 | |
+| 🔵 | 💧 Water | 1000 ml | 0 | |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 68 | |
+| 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | ~0 | |
+| 🟤 | 🫘 Silken tofu | 300 g | 165 | |
+| 🟢 | 🥥 Coconut milk | 400 ml | 920 | |
+| 🟣 | 🧴 Liquid aminos | 20 ml | 10 | |
+| 🟢 | 🌱 Spring onion, sliced (garnish) | generous | — | |
+| 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | 52 | |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | — | |
+| ⚪ | 🍈 Lime juice (at table) | to taste | — | |
+| | **Total** | **~3.4 kg** | **~1876** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 

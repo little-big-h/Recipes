@@ -6,27 +6,30 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Actual used |
-|:----:|:-----------|:-------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🟡 | 🧅 Onions, diced | 4 large | |
-| 🟡 | 🧄 Garlic cloves | 16 | |
-| 🟠 | 🌱 Cumin seeds | 20 g | |
-| 🟠 | 🫑 Smoked paprika (Lara concern — see note) | 15 g | |
-| 🟠 | 🌿 Dried coriander | 8 g | |
-| 🟠 | 🪴 Dried oregano | 6 g | |
-| 🟠 | 🌶️ Chipotle, whole (remove before blending) | 2 | |
-| 🔵 | 🧊 Stock cubes + 2000 ml water | 6 | |
-| 🟢 | 🥦 Asparagus (steamed separately) | 1400 g | |
-| 🟣 | ✨ Nutritional yeast | 40 g | |
-| 🟤 | 🫘 Dried red kidney beans (no soak, pot-in-pot) | 320 g | |
-| 🟢 | 🥬 Spinach (off heat) | 500 g | |
-| ⚪ | 🍮 Tamarind paste (off heat) | 36 g | |
-| ⚪ | 🍋 Lime juice (off heat) | 60 ml | |
-| 🟣 | 🫒 Capers (to serve) | 80 g | |
-| 🟣 | 🧂 Salt and black pepper | to taste | |
+| Type | Ingredient | Planned | Est. kcal | Actual used |
+|:----:|:-----------|:-------:|--------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
+| 🟡 | 🧅 Onions, diced | 4 large | 240 | |
+| 🟡 | 🧄 Garlic cloves | 16 | 71 | |
+| 🟠 | 🌱 Cumin seeds | 20 g | 75 | |
+| 🟠 | 🫑 Smoked paprika (Lara concern — see note) | 15 g | 42 | |
+| 🟠 | 🌿 Dried coriander | 8 g | 24 | |
+| 🟠 | 🪴 Dried oregano | 6 g | 16 | |
+| 🟠 | 🌶️ Chipotle, whole (remove before blending) | 2 | ~0 | |
+| 🔵 | 🧊 Stock cubes + 2000 ml water | 6 | 30 | |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1400 g | 280 | |
+| 🟣 | ✨ Nutritional yeast | 40 g | 140 | |
+| 🟤 | 🫘 Dried red kidney beans (no soak, pot-in-pot) | 320 g | 1066 | |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | 115 | |
+| ⚪ | 🍮 Tamarind paste (off heat) | 36 g | 86 | |
+| ⚪ | 🍋 Lime juice (off heat) | 60 ml | 15 | |
+| 🟣 | 🫒 Capers (to serve) | 80 g | 18 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
+| | **Total** | **~7.1 kg** | **~3978** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+
+*Totals are approximate — weight includes any water/stock; removed and at-table items excluded from energy. Est. kcal is per planned amount and is summed in the Total row.*
 
 ---
 
