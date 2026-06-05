@@ -23,10 +23,11 @@
 | 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
+| | **Total** | **~4.1 kg** | **~2616** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*Est. kcal is for the planned amount (kombu mostly lifted out; lime at table) — the column sums to ≈ the recipe energy total below.*
+*Totals are approximate — weight includes the 1.7 L water and the kombu (mostly lifted out), lime is at-table. Est. kcal is per planned amount and sums to ≈ the recipe energy total below.*
 
 ---
 
