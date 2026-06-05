@@ -20,7 +20,7 @@
 | 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | 9 g |
 | 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |
 | 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | 767 g |
-| 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
+| 🟣 | 🫗 Liquid aminos | 30 ml | 15 | 40 ml |
 | 🟣 | 🫙 Red miso (whisk in off heat — never boil; white for the family) | 20 g | 40 | 20 g |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
