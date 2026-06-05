@@ -13,7 +13,7 @@
 | 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | 40 g |
 | 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | 8 g |
 | 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
-| 🔵 | 💧 Water | 1700 ml | 0 | |
+| 🔵 | 💧 Water | 1700 ml | 0 | ~2340 ml |
 | 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 350 g |
 | 🟣 | 🥑 Avocado oil | 15 g | 133 | 10 g |
 | 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |
@@ -23,7 +23,7 @@
 | 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
-| | **Total** | **~4.1 kg** | **~2616** | |
+| | **Total** | **~4.1 kg** | **~2616** | ~4.7 kg |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
