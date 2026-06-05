@@ -17,7 +17,7 @@ XHTML Header: <script>
 
 # Creamy Pinto, Butternut & Corn Soup with Steamed Greens
 
-*A gold, velvety purée of pinto beans, butternut and corn — creamy from the beans' break-down rather than added fat — under a savoury backbone of sweet (non-smoked) paprika, cumin and sautéed onion, with kombu for invisible umami depth. Steamed broccoli and asparagus laid on top for colour and texture contrast. No chilli, no smoke, no in-pot acid — clears every family palate flag; lime at the table for the adults. Family of five.*
+*A gold, creamy soup of pinto beans, butternut and corn — body from the beans' break-down rather than added fat. About two-thirds of the beans blend into the base and the rest go back in whole, so the pinto registers (texture and discrete flavour pockets) instead of vanishing into a smooth purée. A savoury backbone of sweet (non-smoked) paprika, cumin and sautéed onion, with kombu for invisible umami depth. Steamed broccoli and asparagus on top for colour and texture contrast. No chilli, no smoke, no in-pot acid — clears every family palate flag; lime at the table for the adults. Family of five.*
 
 ---
 
@@ -35,7 +35,7 @@ XHTML Header: <script>
 
 | Ingredient | Planned | Actual used |
 |:-----------|:-------:|:-----------:|
-| 🫘 Dry pinto beans (no soak) | 250 g | |
+| 🫘 Dry pinto beans (no soak; cook in basket — see method) | 250 g | |
 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | |
 | 🌽 Frozen corn (partially thawed) | 500 g | |
 | 🌊 Kombu (one strip, in with the beans) | ~10 g | |
@@ -63,15 +63,15 @@ XHTML Header: <script>
 
 > **Note:** Partially thaw 🌽 corn before loading (frozen adds ~8–12 min heat-up). Peel and cube 🎃 butternut ~3 cm. Trim 🥦 broccoli into florets and 🌿 asparagus into spears, set aside. Wipe 🌊 kombu with a damp cloth — do **not** rinse off the white bloom.
 
-1. Place 🫘 pinto beans, 🎃 butternut, 🌽 corn and the 🌊 kombu strip in the Ninja. Add 💧 1500 ml water — don't fill past the max line, as starchy beans foam. Seal — high pressure, 25 min, natural release. (Butternut and corn fully soften and break down here — that's wanted; they're going into the purée.)
+1. Put 🫘 pinto beans in the steaming basket and set it on the rack in the Ninja (basket-in-pot — they cook through but stay retrievable and intact, the same trick the corn soups use). Add 🎃 butternut, 🌽 corn, the 🌊 kombu strip and 💧 1500 ml water around it — don't fill past the max line, as starchy beans foam. Seal — high pressure, 25 min, natural release. (Butternut and corn fully soften for the purée; the basketed beans cook tender but mostly hold their shape — drop to ~20 min if you want them firmer for the whole portion.)
 
 2. During the natural release: heat 🫒 olive oil in the wok on medium. Sweat 🧅 onion 5–7 min until soft and sweet. Add 🧄 garlic, 30–60 sec. Add 🟤 cumin and 🔴 sweet paprika, bloom ~30 sec — ground spices scorch fast, so keep it moving and pull off the heat as soon as it's fragrant.
 
 3. Steam 🥦 broccoli and 🌿 asparagus 6–8 min until crisp-tender (asparagus on the upper tier, broccoli below). Hold warm — these go on top, not in the blender.
 
-4. Once the Ninja has fully released: lift out the 🌊 kombu (or leave a small piece to blend in for extra umami). Blend the bean–squash–corn base together with the bloomed 🧅 onion-and-spice mixture until completely smooth. Adjust consistency with cooking liquid if needed.
+4. Once the Ninja has fully released: lift out the basket of 🫘 beans and the 🌊 kombu (or leave a small piece of kombu to blend in for extra umami). Set aside **about one-third of the beans whole**. Blend the 🎃 squash, 🌽 corn and cooking liquid with the remaining **two-thirds of the beans** and the bloomed 🧅 onion-and-spice mixture until completely smooth. Adjust consistency with cooking liquid if needed.
 
-5. Return the purée to low heat. Stir in 🫗 liquid aminos, then 🧂 salt and black pepper to taste (target ~10–12 g total salt — the base is otherwise nearly salt-free). Do not hard-boil.
+5. Return the purée to low heat. Stir the reserved whole 🫘 beans back in and warm through. Season with 🫗 liquid aminos, then 🧂 salt and black pepper to taste (target ~10–12 g total salt — the base is otherwise nearly salt-free). Do not hard-boil.
 
 6. Ladle into bowls. Arrange steamed 🥦 broccoli and 🌿 asparagus on top for contrast. 🍋 Lime wedges at the table for the adults (brightness — kept off the pot for Lara).
 
@@ -97,7 +97,8 @@ XHTML Header: <script>
 ## Design notes
 
 - **Sweet paprika, not smoked — deliberate.** Anja hypothesised that Lara dislikes smoky flavours (consistent with the standing smoked-paprika concern). Sweet paprika (pimentón dulce) gives the colour and gentle pepper-sweetness with none of the smoke, so the dish is Lara-safe by design. Do not substitute smoked paprika.
-- **Kombu as the bean exception.** The strip goes straight in with the beans (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free.
+- **Part-puréed so the pinto registers.** Two-thirds of the beans blend into the creamy base; the final third goes back whole. Pinto's flavour is faint and its main gifts are texture and nutrition — so leaving some whole is what makes the bowl read as *a pinto soup* rather than a smooth squash soup: discrete bean bites and concentrated flavour pockets against the gold purée. Same blend-the-base / whole-beans-back-in pattern as the corn soups (Japanese, Mexican). The ⅔–⅓ ratio is a starting point — go more-whole for a chunkier, rustic bowl.
+- **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free.
 - **Savoury backbone vs a flat sweet base.** Pinto + butternut + corn is triple-sweet. The sautéed onion, garlic and cumin under the paprika are what keep it from reading one-dimensional. If it still tastes too sweet after blending, the at-table lime is the first lever; a little more salt or aminos is the second.
 - **Single-stage vs two-stage corn (trade made here).** Corn for blending normally wants 30 min *low* pressure to protect its sweetness (see the corn-soup line). Here it's a 500 g supporting element cooked at *high* pressure with the beans, losing a little of that sweetness — judged an acceptable simplification because the butternut already carries plenty of sweetness. If a future cook reads as not-corn-sweet-enough, split into two stages: beans high-pressure first, then add corn for a short low-pressure second stage.
 - **Naturally low-fat.** No coconut milk or cream needed — pinto's starchy break-down does the creaminess. Total fat is just the 15 g cooking oil plus what's in the wholefoods.

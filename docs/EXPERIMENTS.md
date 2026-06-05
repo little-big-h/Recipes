@@ -48,7 +48,9 @@ Capture her answer verbatim in this file before running the test.
 
 Even a clean negative result (no sensory aversion) does not prove she will accept smoked paprika in everyday meals. Lara's preferences may be increasingly behavioural. The ablation result informs *what we cook* — it does not guarantee *what she eats*.
 
-**Outcome:** *(unfilled — experiment not yet run)*
+**Field evidence (real-world, not the blind test) — 2026-06-04:** Holger made egg-fried quinoa with peas, **sweet (non-smoked) paprika**, shiitake powder and garlic powder. Lara rated it **~7.7–7.8** — her near-ceiling (see RATINGS obs 5). A sweet-paprika dish hitting her ceiling is consistent with the aversion being **smoke-specific, not paprika-general**, i.e. it strengthens the "smoky" branch of the hypothesis. Caveats: not blind, not isolated (peas + shiitake + garlic also present), and the score is from memory. Suggestive, not proof — but it raises confidence that sweet paprika is safe-to-loved for Lara, which de-risks its use in family dishes (e.g. the Pinto–Butternut soup).
+
+**Outcome (blind test):** *(unfilled — experiment not yet run)*
 
 ---
 
