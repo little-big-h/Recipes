@@ -1,6 +1,6 @@
 # Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli
 
-*A gold, creamy soup of pinto beans, butternut and corn — body from the beans' break-down rather than added fat. About two-thirds of the beans blend into the base and the rest go back in whole, so the pinto registers (texture and discrete flavour pockets) instead of vanishing into a smooth purée. Two-phase pressure cook: corn + squash first at low pressure (keeps the corn sweet), then the beans in a controlled high-pressure second phase. A savoury backbone of dried onion, garlic powder, cumin and sweet (non-smoked) paprika, with kombu for invisible umami depth. Steamed broccoli on top for colour and texture contrast. No chilli, no smoke, no in-pot acid — clears every family palate flag; lime at the table for the adults. Family of five.*
+*A gold, creamy soup of pinto beans, butternut and corn — body from the beans' break-down rather than added fat. About two-thirds of the beans blend into the base and the rest go back in whole, so the pinto registers (texture and discrete flavour pockets) instead of vanishing into a smooth purée. Two-phase pressure cook: corn + squash first at low pressure (keeps the corn sweet), then the beans in a controlled high-pressure second phase. A savoury backbone of dried onion, garlic powder, cumin and sweet (non-smoked) paprika, with kombu and a finishing whisk of white miso for umami depth. Steamed broccoli on top for colour and texture contrast. No chilli, no smoke, no in-pot acid — clears every family palate flag; lime at the table for the adults. Family of five.*
 
 ---
 
@@ -21,9 +21,10 @@
 | 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |
 | 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | 767 g |
 | 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 20 g | 38 | 20 g |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
-| | **Total** | **~4.1 kg** | **~2616** | ~4.7 kg |
+| | **Total** | **~4.1 kg** | **~2654** | ~4.7 kg |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -51,7 +52,7 @@
 
 5. Lift out the basket of 🫘 beans. Set aside **about one-third of the beans whole**. Blend the 🎃 squash, 🌽 corn and cooking liquid with the remaining **two-thirds of the beans** and the bloomed 🌰 spice mixture until completely smooth. Adjust consistency with cooking liquid if needed.
 
-6. Return the purée to low heat. Stir the reserved whole 🫘 beans back in and warm through. Season with 🫗 liquid aminos, then 🧂 salt and black pepper to taste (target ~10–12 g total salt — the base is otherwise nearly salt-free). Do not hard-boil.
+6. Return the purée to low heat and stir the reserved whole 🫘 beans back in to warm through. **Off the heat, whisk in 🫙 white miso** (never boil it — it goes harsh and loses its live cultures). Season with 🫗 liquid aminos, then 🧂 salt and black pepper to taste — the sweet base needs a firm savoury hand (target ~12 g total salt; v1 came out under-seasoned without the miso). Do not hard-boil.
 
 7. Ladle into bowls. Pile steamed 🥦 broccoli on top. 🍋 Lime wedges at the table for the adults (brightness — kept off the pot for Lara).
 
@@ -59,18 +60,18 @@
 
 ## Nutrition
 
-*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; replace with FoodNoms totals when next cooked. Naturally creamy and low-fat (30 g fat total) — the body comes from pinto and butternut, not added cream or coconut milk. With the bigger bean load protein climbs to ~123 g and fibre to ~105 g — squarely on-brief for recovery, though that's a lot of fibre per serving. Vitamin D and B12 negligible — supplement separately. Salt ~10 g, comfortably inside the 10–15 g family target.*
+*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; replace with FoodNoms totals when next cooked. Naturally creamy and low-fat (31 g fat total) — the body comes from pinto and butternut, not added cream or coconut milk. With the bigger bean load protein climbs to ~125 g and fibre to ~106 g — squarely on-brief for recovery, though that's a lot of fibre per serving. Vitamin D and B12 negligible — supplement separately. Salt ~12 g, inside the 10–15 g family target.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2615 kcal | Iron | 39 mg |
-| Protein | 123 g | Calcium | 1295 mg |
-| Carbohydrates | 510 g | Zinc | 17 mg |
-| — of which sugars | 69 g | Magnesium | 1332 mg |
-| Fat | 30 g | Potassium | 11953 mg |
+| Energy | 2653 kcal | Iron | 39 mg |
+| Protein | 125 g | Calcium | 1307 mg |
+| Carbohydrates | 515 g | Zinc | 18 mg |
+| — of which sugars | 70 g | Magnesium | 1341 mg |
+| Fat | 31 g | Potassium | 11995 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
-| Fibre | 105 g | Vitamin B12 | 0.0 µg |
-| Salt | 10 g | Folate | 2601 µg |
+| Fibre | 106 g | Vitamin B12 | 0.0 µg |
+| Salt | 12 g | Folate | 2604 µg |
 
 ---
 
@@ -82,5 +83,6 @@
 - **Dried-onion amount (40 g).** This is a generous double of the pure reconstitution of the original fresh onion — dried/rehydrated onion has less impact than sautéed, so you overshoot the weight-equivalent rather than match it. Push to 50–60 g to empty the jar, but note dried onion is *itself sweet* (concentrated sugars — it's why the recipe's sugars rose ~8 g going from 20 → 40 g), so it adds sweetness rather than purely countering it; lean on the cumin/garlic/kombu/aminos for the actual savoury balance.
 - **Kombu as the bean exception.** The strip goes straight in the pot (not a cold-brew dashi) — the documented exception to the no-boil rule in `../../docs/TECHNIQUES.md`: hard cooking is fine here because the goal is flavouring the purée, not refining a clear stock. It adds glutamate, minerals and a little calcium directly into the base, salt-free. Held to 10 g — deliberately modest, since kombu is the most iodine-dense food there is and the thyroid flag argues for restraint. The umami depth comes mainly from 🍄 **shiitake powder (8 g)** — its guanylate multiplies with kombu's glutamate (the same synergy as the kombu-shiitake dashi), so the savoury base deepens without leaning on more iodine-heavy kombu. Both go in the phase-1 pot so they cook into the base together. **Remove the kombu at the end of phase 1** (when you open to add the beans), and don't blend it in: the glutamate has already leached into the broth, so keeping the strip through phase 2 or blending it would only add iodine and a bitter marine edge for negligible extra umami.
 - **Sweet paprika, not smoked — deliberate.** Sweet paprika (pimentón dulce) gives the colour and gentle pepper-sweetness with none of the smoke, so the dish is Lara-safe. Supported by field evidence: Lara scored a sweet-paprika dish at her near-ceiling (see `../../docs/RATINGS.md` obs 17 / `../../docs/EXPERIMENTS.md` #1). Do not substitute smoked paprika.
-- **Naturally low-fat.** No coconut milk or cream needed — pinto's starchy break-down does the creaminess. Total fat is just the 15 g cooking oil plus what's in the wholefoods.
+- **White miso finish — the v1 blandness fix.** First cook came out under-seasoned: the sweet base (squash + corn + onion) needs a firm savoury counterweight, but with the kombu deliberately pulled for iodine, the remaining 8 g shiitake + 30 ml aminos + salt-to-taste were too light for a big, thinnish 4.7 kg pot. Stirring in **20 g white miso off the heat** fixed it — umami *and* salt in one move, low-iodine (unlike more kombu), and Jannes-friendly (white, not red). Adjust to taste; up to ~30 g if still flat. Salt lands ~12 g, still inside the window.
+- **Naturally low-fat.** No coconut milk or cream needed — pinto's starchy break-down does the creaminess. Total fat is just the cooking oil plus what's in the wholefoods.
 - **Optional:** a scatter of toasted pumpkin seeds adds crunch and ties to the squash; not in the totals above.
