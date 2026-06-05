@@ -15,19 +15,19 @@
 | 🟠 | 🫙 Green curry paste | 20 g | |
 | 🟠 | 🎋 Lemongrass paste | 30 g | |
 | 🟠 | 🪨 Galangal paste | 25 g | |
-| ⚪ | 💧 Water | 1000 ml | |
-| ⚪ | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 190 ml |
+| 🔵 | 💧 Water | 1000 ml | |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 190 ml |
 | 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | |
-| 🔵 | 🫘 Silken tofu | 600 g | |
+| 🟤 | 🫘 Silken tofu | 600 g | |
 | 🟢 | 🥥 Coconut milk | 400 ml | |
 | 🟣 | 🫗 Dashi soy sauce (Emma Basic, taste!) | 30 ml | |
 | 🟣 | 🧴 Liquid aminos | 20 ml | |
 | 🟢 | 🌱 Spring onion, sliced (garnish) | generous | |
 | 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | |
 | 🟢 | 🪴 Fresh coriander (garnish) | generous | |
-| 🟤 | 🍈 Lime juice (at table) | to taste | |
+| ⚪ | 🍈 Lime juice (at table) | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

@@ -14,23 +14,23 @@
 
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
-| 🔵 | 🥚 Eggs (hard-boiled) | 8–10 | |
+| 🟤 | 🥚 Eggs (hard-boiled) | 8–10 | |
 | 🟢 | 🍚 Cooked rice (cold leftover) | 600 g | |
-| 🟤 | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | |
+| ⚪ | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | |
 | 🟢 | 🌿 Fresh dill (rice + plate) | large bunch | |
 | 🟢 | 🥒 Gherkins, sliced + brine splash for rice | generous | |
-| 🔵 | 🧊 Firm tofu, microwaved & sliced | 500 g | |
+| 🟤 | 🧊 Firm tofu, microwaved & sliced | 500 g | |
 | 🟣 | 💦 Liquid aminos (tofu marinade) | 20 g | |
 | 🟣 | 🌭 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | |
 | 🟣 | 🫚 Horseradish cream (dressing) | 2 tbsp (~30 g) | |
 | 🟣 | 🫙 White miso (dressing) | 15 g | |
-| ⚪ | 💧 Water (to thin dressing) | 3–4 tbsp | |
+| 🔵 | 💧 Water (to thin dressing) | 3–4 tbsp | |
 | 🟢 | 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | |
 | 🟣 | 🫒 Capers (on plate) | 3 tbsp (~30 g) | |
 | 🟢 | 🍞 Rye bread | to serve | |
 | 🟣 | 🧂 Salt and white pepper | to taste | |
 
-*Legend: 🟢 Vegetables · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

@@ -16,17 +16,17 @@
 | 🟠 | 🌿 Dried coriander | 8 g | |
 | 🟠 | 🪴 Dried oregano | 6 g | |
 | 🟠 | 🌶️ Chipotle, whole (remove before blending) | 2 | |
-| ⚪ | 🧊 Stock cubes + 2000 ml water | 6 | |
+| 🔵 | 🧊 Stock cubes + 2000 ml water | 6 | |
 | 🟢 | 🥦 Asparagus (steamed separately) | 1400 g | |
 | 🟣 | ✨ Nutritional yeast | 40 g | |
-| 🔵 | 🫘 Dried red kidney beans (no soak, pot-in-pot) | 320 g | |
+| 🟤 | 🫘 Dried red kidney beans (no soak, pot-in-pot) | 320 g | |
 | 🟢 | 🥬 Spinach (off heat) | 500 g | |
-| 🟤 | 🍮 Tamarind paste (off heat) | 36 g | |
-| 🟤 | 🍋 Lime juice (off heat) | 60 ml | |
+| ⚪ | 🍮 Tamarind paste (off heat) | 36 g | |
+| ⚪ | 🍋 Lime juice (off heat) | 60 ml | |
 | 🟣 | 🫒 Capers (to serve) | 80 g | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

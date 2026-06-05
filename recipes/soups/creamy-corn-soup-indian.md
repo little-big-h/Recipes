@@ -13,9 +13,9 @@
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
 | 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🔵 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | |
-| ⚪ | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | |
-| ⚪ | 💧 Stock cubes + 2000 ml water (for corn) | 3 | |
+| 🟤 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | |
+| 🔵 | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | |
+| 🔵 | 💧 Stock cubes + 2000 ml water (for corn) | 3 | |
 | 🟡 | 🧅 Onions, diced | 4 large | |
 | 🟡 | 🧄 Garlic | 50 g | |
 | 🟡 | 🫚 Fresh ginger, grated | 15 g | |
@@ -26,12 +26,12 @@
 | 🟣 | ✨ Nutritional yeast (after blending) | 40 g | |
 | 🟣 | 💦 Liquid aminos | 30 g | |
 | 🟢 | 🥬 Spinach (off heat) | 500 g | |
-| 🟤 | 🥭 Tamarind paste (off heat) | 15 g | |
+| ⚪ | 🥭 Tamarind paste (off heat) | 15 g | |
 | 🟢 | 🪴 Fresh coriander (garnish) | generous | |
-| 🟤 | 🍋 Lime (at table) | 2 | |
+| ⚪ | 🍋 Lime (at table) | 2 | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

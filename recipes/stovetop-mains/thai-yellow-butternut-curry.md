@@ -11,8 +11,8 @@
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
 | 🟢 | 🎃 Butternut squash, peeled and cubed | 1200 g | |
-| ⚪ | 🥥 Light coconut milk (Biona Organic, 9% fat) | 400 ml | |
-| 🔵 | 🧊 Silken tofu | 300 g | |
+| 🔵 | 🥥 Light coconut milk (Biona Organic, 9% fat) | 400 ml | |
+| 🟤 | 🧊 Silken tofu | 300 g | |
 | 🟠 | 🍛 Yellow curry paste (Mae Ploy) | 60 g | |
 | 🟠 | 🫚 Galangal paste | 35 g | |
 | 🟠 | 🌾 Lemongrass paste (use what you have) | 15 g | |
@@ -20,12 +20,12 @@
 | 🟢 | 🥕 Carrot, cut into batons | 300 g | |
 | 🟢 | 🌼 Cauliflower, florets | 500 g | |
 | 🟢 | 🥬 Green cabbage, shredded (raw into wok) | 300 g | |
-| 🟤 | 🍋 Lime wedges (at table, for those who want acidity) | 2 limes | |
+| ⚪ | 🍋 Lime wedges (at table, for those who want acidity) | 2 limes | |
 | 🟡 | 🌱 Fresh coriander or Thai basil (garnish) | generous | |
 | 🟢 | 🍇 Red cabbage, shredded raw (garnish) | 100 g | |
 | 🟠 | 🌶️ Bird's eye chilies, dried, rehydrated at table (for adults) | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · ⚪ Acid*
 
 ---
 

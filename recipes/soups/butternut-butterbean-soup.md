@@ -19,13 +19,13 @@
 | 🟡 | 🧄 Garlic cloves, roughly chopped | 4 | |
 | 🟡 | 🫚 Fresh ginger, grated | 4 cm (~16 g) | |
 | 🟠 | 🌶️ Smoked paprika (optional — for colour; Lara concern) | ½ tsp | |
-| ⚪ | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | |
-| 🔵 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | |
+| 🔵 | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | |
+| 🟤 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | |
 | 🟣 | 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | |
-| 🟤 | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | |
+| ⚪ | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

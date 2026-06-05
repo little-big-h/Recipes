@@ -11,8 +11,8 @@
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
 | 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🔵 | 🫘 Dried black-eyed beans (no soak needed) | 250 g | |
-| ⚪ | 🧊 Stock cubes + 2600 ml water | 6 | |
+| 🟤 | 🫘 Dried black-eyed beans (no soak needed) | 250 g | |
+| 🔵 | 🧊 Stock cubes + 2600 ml water | 6 | |
 | 🟠 | 🌶️ Scotch bonnet (kept whole, remove before blending) | 1 | |
 | 🟡 | 🍃 Bay leaves (remove before blending) | 4 | |
 | 🟡 | 🍋 Makrut lime leaves (remove before blending) | 4 | |
@@ -25,14 +25,14 @@
 | 🟠 | 🌿 Dried coriander | 10 g | |
 | 🟠 | 🍅 Tomato paste | 60 g | |
 | 🟠 | 🥜 Peanut flour (whisk into stock first) | 100 g | |
-| 🟤 | 🍒 Goji berries | 15 g | |
+| ⚪ | 🍒 Goji berries | 15 g | |
 | 🟣 | 💧 Liquid aminos | 40 g | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 | 🟢 | 🌱 Fresh coriander (garnish) | generous | |
-| 🟤 | 🫙 Tamarind paste (at table) | to taste | |
-| 🟤 | 🍈 Lime juice (at table) | to taste | |
+| ⚪ | 🫙 Tamarind paste (at table) | to taste | |
+| ⚪ | 🍈 Lime juice (at table) | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

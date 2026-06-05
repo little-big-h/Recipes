@@ -15,7 +15,7 @@
 | 🟢 | 🥔 Potatoes, large chunks | 900 g | |
 | 🟢 | 🥦 Cauliflower, florets (Jannes concern) | 600 g | |
 | 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | |
-| ⚪ | 💧 Water (for kasha) | 600 ml | |
+| 🔵 | 💧 Water (for kasha) | 600 ml | |
 | 🟡 | 🧅 Onions, diced | 2 large | |
 | 🟡 | 🧄 Garlic, roughly chopped | 5 cloves | |
 | 🟠 | 🌱 Cumin seeds | 4 g | |
@@ -23,14 +23,14 @@
 | 🟠 | 🫚 Dried ginger powder | 6 g | |
 | 🟠 | 🌶️ Tikka masala powder | 15 g | |
 | 🟠 | 🍄 Shiitake powder | 10 g | |
-| ⚪ | 🧊 Vegetable stock | 1.2 L | |
-| 🔵 | 🧈 Silken tofu | 300 g | |
-| 🔵 | 🫘 White beans, drained — **keep liquid for blending** | 400 g tin | |
+| 🔵 | 🧊 Vegetable stock | 1.2 L | |
+| 🟤 | 🧈 Silken tofu | 300 g | |
+| 🟤 | 🫘 White beans, drained — **keep liquid for blending** | 400 g tin | |
 | 🟣 | 🫙 White miso (whisk in off heat, never boil) | 20 g | |
 | 🟣 | 💦 Liquid aminos | 15 g | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
 ---
 

@@ -12,26 +12,26 @@
 
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
-| 🔵 | 🧊 Firm tofu, sliced into slabs | 400 g | |
-| 🔵 | 🧈 Butter (for tofu pan-fry) | 15 g | |
+| 🟤 | 🧊 Firm tofu, sliced into slabs | 400 g | |
+| 🟤 | 🧈 Butter (for tofu pan-fry) | 15 g | |
 | 🟡 | 🧅 Onion, finely diced | 2 large | |
 | 🟡 | 🧄 Garlic, finely chopped | 3 cloves | |
 | 🟢 | 🥒 Courgette, finely diced | 2 medium | |
 | 🟢 | 🍚 Arborio rice | 500 g | |
-| 🟤 | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | |
-| ⚪ | 🥄 Vegetable stock, kept warm | 1.5 L | |
+| ⚪ | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | |
+| 🔵 | 🥄 Vegetable stock, kept warm | 1.5 L | |
 | 🟣 | 🫒 Capers | 2 tbsp | |
 | 🟣 | ✨ Nutritional yeast | 15 g | |
 | 🟢 | 🫛 Frozen peas | 350 g | |
-| 🔵 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | |
-| 🔵 | 🧀 Parmesan, grated | 80 g | |
+| 🟤 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | |
+| 🟤 | 🧀 Parmesan, grated | 80 g | |
 | 🟢 | 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | |
 | 🟣 | 🌶️ Tabasco (at table) | to taste | |
 | 🟢 | 🥗 Lettuce | as available | |
 | 🟢 | 🥖 Bagels | as needed | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

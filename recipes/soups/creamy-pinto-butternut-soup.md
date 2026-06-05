@@ -12,9 +12,9 @@
 | 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | |
 | 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | |
 | 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | |
-| ⚪ | 🌊 Kombu (one strip, in the pot) | ~15 g | |
-| ⚪ | 💧 Water | 1700 ml | |
-| 🔵 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | |
+| 🔵 | 🌊 Kombu (one strip, in the pot) | ~15 g | |
+| 🔵 | 💧 Water | 1700 ml | |
+| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | |
 | 🟣 | 🫒 Mild olive oil | 15 g | |
 | 🟠 | 🌰 Ground cumin | 6 g | |
 | 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | |
@@ -22,9 +22,9 @@
 | 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | |
 | 🟣 | 🫗 Liquid aminos | 30 ml | |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | |
-| 🟤 | 🍋 Lime wedges (at table) | 1–2 | |
+| ⚪ | 🍋 Lime wedges (at table) | 1–2 | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

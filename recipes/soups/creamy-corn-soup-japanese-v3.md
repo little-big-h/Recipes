@@ -8,12 +8,12 @@
 
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
-| ⚪ | 🌊 Kombu (wipe, don't rinse; remove before cooking, never boil) | 20 g | |
-| ⚪ | 💧 Water (for the dashi brew) | 1800 ml | |
+| 🔵 | 🌊 Kombu (wipe, don't rinse; remove before cooking, never boil) | 20 g | |
+| 🔵 | 💧 Water (for the dashi brew) | 1800 ml | |
 | 🟠 | 🍄 Shiitake powder (into the dashi brew; use what you have) | 11 g | |
 | 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | |
-| 🔵 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
-| ⚪ | 🍶 Tsuyu concentrate (Clearspring, taste — very salty) | 45 ml | |
+| 🟤 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring, taste — very salty) | 45 ml | |
 | 🟠 | 🫚 Dried ginger powder | 1.5 g | |
 | 🟡 | 🌱 Spring onion | 4-5 stalks | |
 | 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | |
@@ -24,7 +24,7 @@
 | 🟢 | 🌿 Nori flakes (garnish) | generous | |
 | 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
 ---
 

@@ -17,9 +17,9 @@
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
 | 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🔵 | 🫘 Dried butter beans (no soaking, pot-in-pot) | 300 g | |
+| 🟤 | 🫘 Dried butter beans (no soaking, pot-in-pot) | 300 g | |
 | 🟠 | 🌶️ Chipotle, whole (remove before blending) | 4 | |
-| ⚪ | 🧊 Stock cubes + 2000 ml water | 6 | |
+| 🔵 | 🧊 Stock cubes + 2000 ml water | 6 | |
 | 🟢 | 🥦 Asparagus (steamed on return) | 1400 g | |
 | 🟡 | 🧅 Onions, diced | 4 large | |
 | 🟡 | 🧄 Garlic cloves | 16 | |
@@ -29,13 +29,13 @@
 | 🟠 | 🪴 Dried oregano | 6 g | |
 | 🟣 | ✨ Nutritional yeast (after blending) | 40 g | |
 | 🟢 | 🥬 Spinach (off heat) | 500 g | |
-| 🟤 | 🍮 Tamarind paste (off heat) | 36 g | |
-| 🟤 | 🍋 Lime juice (off heat) | 60 ml | |
+| ⚪ | 🍮 Tamarind paste (off heat) | 36 g | |
+| ⚪ | 🍋 Lime juice (off heat) | 60 ml | |
 | 🟣 | 🫒 Capers (to serve) | 80 g | |
 | 🟢 | 🥫 Sauerkraut (cold, alongside) | generous | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

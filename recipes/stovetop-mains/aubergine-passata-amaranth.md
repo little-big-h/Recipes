@@ -18,19 +18,19 @@
 | 🟣 | 🧂 Salt (for aubergine rest) | generous | |
 | 🟢 | 🫑 Romano peppers, roughly chopped (Lara concern — cooked peppers) | 3–4 (~400 g) | |
 | 🟢 | 🥕 Carrots, thick coins | 3–4 (~400 g) | |
-| ⚪ | 💧 Water (Ninja base layer) | small splash | |
+| 🔵 | 💧 Water (Ninja base layer) | small splash | |
 | 🟢 | 🍅 Passata | 2 × 690 g | |
 | 🟡 | 🧄 Garlic powder | 2 tsp | |
 | 🟠 | 🌶️ Chili flakes | ½ tsp | |
 | 🟠 | 🥘 Smoked paprika (Lara concern — suspected) | 2 tsp | |
 | 🟠 | 🌿 Dried oregano | 2 tsp | |
 | 🟢 | 🌾 Amaranth, dry | 250 g | |
-| ⚪ | 🥛 Water (or light stock) for amaranth | 500 ml | |
+| 🔵 | 🥛 Water (or light stock) for amaranth | 500 ml | |
 | 🟣 | 🫙 White miso (whisk in off heat, never boil) | 2 tbsp (~36 g) | |
 | 🟣 | 🫒 Capers (at end) | 3 tbsp (~30 g) | |
 | 🟣 | 🧆 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🟣 Seasoning*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟣 Seasoning*
 
 ---
 

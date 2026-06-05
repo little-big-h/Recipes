@@ -13,11 +13,11 @@
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
 | 🟢 | 🎃 Butternut squash, peeled and cubed | 1100 g | |
-| 🔵 | 🧊 Firm tofu, microwaved 5 min and cubed | 300 g | |
+| 🟤 | 🧊 Firm tofu, microwaved 5 min and cubed | 300 g | |
 | 🟡 | 🧅 Onions, finely sliced | 3 large | |
 | 🟢 | 🍎 Tart apple, diced | 1 large | |
 | 🟡 | 🧄 Garlic cloves, sliced | 4 | |
-| ⚪ | 🥄 Vegetable stock | 700 ml | |
+| 🔵 | 🥄 Vegetable stock | 700 ml | |
 | 🟣 | 🫒 Avocado oil (tofu) | 3 g | |
 | 🟠 | 🌶️ Smoked paprika (tofu) | 3 g | |
 | 🟠 | 🍂 Garlic powder (tofu) | 2 g | |
@@ -30,9 +30,9 @@
 | 🟣 | 🧈 Butter or olive oil (mash) | 20 g | |
 | 🟠 | ✨ Nutmeg, grated (mash) | pinch | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
-| 🔵 | 🫘 Beans for Lara (tinned) | 1 tin | |
+| 🟤 | 🫘 Beans for Lara (tinned) | 1 tin | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
 ---
 

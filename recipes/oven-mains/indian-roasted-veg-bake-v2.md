@@ -29,20 +29,20 @@
 | 🟢 | 🥕 Carrots, thick slices | 400 g | |
 | 🟢 | 🧅 Onions, wedges | 3 large | |
 | 🟢 | 🧄 Garlic cloves, whole | 6–8 | |
-| 🔵 | 🫘 Chickpeas, drained and dried | 400 g tin | |
+| 🟤 | 🫘 Chickpeas, drained and dried | 400 g tin | |
 | 🟢 | 🥦 Broccoli, florets | 2 heads | |
 | 🟢 | 🍒 Cherry tomatoes, halved | 250 g | |
 | 🟢 | 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | |
-| 🔵 | 🍮 Silken tofu (sauce base) | 300 g | |
-| ⚪ | 🧊 Stock cube + 200 ml water | 1 | |
+| 🟤 | 🍮 Silken tofu (sauce base) | 300 g | |
+| 🔵 | 🧊 Stock cube + 200 ml water | 1 | |
 | 🟠 | 🍛 Mild curry powder | 22 g | |
 | 🟠 | 🫚 Turmeric | 3 g | |
 | 🟣 | 🫒 Oil (for blooming) | 1 tsp | |
-| 🟤 | 🍋 Lemon juice (at end) | 1 lemon | |
-| 🔵 | 🥛 Cottage cheese (cold side, do not stir in) | generous | |
+| ⚪ | 🍋 Lemon juice (at end) | 1 lemon | |
+| 🟤 | 🥛 Cottage cheese (cold side, do not stir in) | generous | |
 | 🟣 | 🧂 Salt and black pepper | to taste | |
 
-*Legend: 🟢 Vegetables · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 ---
 

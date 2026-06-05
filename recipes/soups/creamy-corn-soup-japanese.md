@@ -9,9 +9,9 @@
 | Type | Ingredient | Planned | Actual used |
 |:----:|:-----------|:-------:|:-----------:|
 | 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | |
-| 🔵 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
-| ⚪ | 🍶 Tsuyu concentrate (Clearspring) | 104 ml | |
-| ⚪ | 💧 Water | 1800 ml | |
+| 🟤 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 104 ml | |
+| 🔵 | 💧 Water | 1800 ml | |
 | 🟠 | 🍄 Shiitake powder (use what you have) | 11 g | |
 | 🟠 | 🫚 Dried ginger powder | 1.5 g | |
 | 🟡 | 🌱 Spring onion | 4-5 stalks | |
@@ -23,7 +23,7 @@
 | 🟢 | 🌿 Nori flakes (garnish) | generous | |
 | 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
 ---
 

@@ -41,15 +41,15 @@ which only worked in Obsidian and has been **removed**.
 
 ### Category → circle
 
-| Category | Circle | (was hex) |
-|:---------|:------:|:----------|
-| Vegetables | 🟢 | `#d9f2d9` |
-| Aromatics | 🟡 | `#fcf5cc` |
-| Spices / Pastes | 🟠 | `#fae0d1` |
-| Stock | ⚪ | `#ebebeb` |
-| Protein | 🔵 | `#e0ebfa` |
-| Seasoning | 🟣 | `#ebd9f5` |
-| Acid | 🟤 | `#faedd9` |
+| Category | Circle |
+|:---------|:------:|
+| Vegetables | 🟢 |
+| Aromatics | 🟡 |
+| Spices / Pastes | 🟠 |
+| Stock | 🔵 |
+| Protein | 🟤 |
+| Seasoning | 🟣 |
+| Acid | ⚪ |
 
 These seven circles are **reserved** for the Type column and the legend.
 Do not use them — or any other coloured circle/square — as an ingredient
@@ -65,7 +65,7 @@ A single **italic line placed immediately *below* the ingredients table**,
 keying only the categories present in the recipe, in canonical order:
 
 ```markdown
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 ```
 
 ### Ingredient table structure
