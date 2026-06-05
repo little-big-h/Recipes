@@ -1,19 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(4)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(3),:nth-child(5)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8),:nth-child(9),:nth-child(10),:nth-child(11),:nth-child(13),:nth-child(17)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(6)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(2),:nth-child(19)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(7),:nth-child(12),:nth-child(14),:nth-child(15),:nth-child(16),:nth-child(18)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Squash Mash, Onion-Apple Gravy & Air-Fried Tofu
 
 *European-style carb-loading dinner. Creamy butternut mash, generous caramelised onion and apple gravy with miso, crispy air-fried tofu with capers. Beans on the side for Lara.*
@@ -26,36 +10,29 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, peeled and cubed | 1100 g | |
+| 🔵 | 🧊 Firm tofu, microwaved 5 min and cubed | 300 g | |
+| 🟡 | 🧅 Onions, finely sliced | 3 large | |
+| 🟢 | 🍎 Tart apple, diced | 1 large | |
+| 🟡 | 🧄 Garlic cloves, sliced | 4 | |
+| ⚪ | 🥄 Vegetable stock | 700 ml | |
+| 🟣 | 🫒 Avocado oil (tofu) | 3 g | |
+| 🟠 | 🌶️ Smoked paprika (tofu) | 3 g | |
+| 🟠 | 🧄 Garlic powder (tofu) | 2 g | |
+| 🟠 | 🧆 Black pepper (tofu) | 1 g | |
+| 🟠 | 🍄 Shiitake powder (tofu) | 5 g | |
+| 🟣 | 🍷 Balsamic vinegar (gravy) | 2 tbsp | |
+| 🟠 | 🌿 Thyme, dried (gravy) | 1.5 tsp | |
+| 🟣 | 🫙 White miso (gravy, whisk in off heat) | 20 g | |
+| 🟣 | 🫛 Capers (over tofu, at end) | 3 tbsp | |
+| 🟣 | 🧈 Butter or olive oil (mash) | 20 g | |
+| 🟠 | ✨ Nutmeg, grated (mash) | pinch | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
+| 🔵 | 🫘 Beans for Lara (tinned) | 1 tin | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🎃 Butternut squash, peeled and cubed | 1100 g | |
-| ⬜ Firm tofu, microwaved 5 min and cubed | 300 g | |
-| 🧅 Onions, finely sliced | 3 large | |
-| 🍎 Tart apple, diced | 1 large | |
-| 🧄 Garlic cloves, sliced | 4 | |
-| 🥄 Vegetable stock | 700 ml | |
-| 🫒 Avocado oil (tofu) | 3 g | |
-| 🌶️ Smoked paprika (tofu) | 3 g | |
-| 🧄 Garlic powder (tofu) | 2 g | |
-| ⚫ Black pepper (tofu) | 1 g | |
-| 🍄 Shiitake powder (tofu) | 5 g | |
-| 🍷 Balsamic vinegar (gravy) | 2 tbsp | |
-| 🌿 Thyme, dried (gravy) | 1.5 tsp | |
-| 🫙 White miso (gravy, whisk in off heat) | 20 g | |
-| 🟢 Capers (over tofu, at end) | 3 tbsp | |
-| 🧈 Butter or olive oil (mash) | 20 g | |
-| ✨ Nutmeg, grated (mash) | pinch | |
-| 🧂 Salt and black pepper | to taste | |
-| 🫘 Beans for Lara (tinned) | 1 tin | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
 
 ---
 
@@ -69,9 +46,9 @@ XHTML Header: <script>
 
 > **Ninja pipeline:** air fry the tofu first, then switch to pressure cook for the squash. The gravy runs on the hob the entire time.
 
-1. From 0 min: microwave ⬜ tofu 5 minutes to dry it out. Cut into cubes. Toss in 🫒 avocado oil, then 🌶️ smoked paprika, 🧄 garlic powder, ⚫ black pepper and 🍄 shiitake powder (active prep through about 10 min).
+1. From 0 min: microwave 🧊 tofu 5 minutes to dry it out. Cut into cubes. Toss in 🫒 avocado oil, then 🌶️ smoked paprika, 🧄 garlic powder, 🧆 black pepper and 🍄 shiitake powder (active prep through about 10 min).
 
-2. At about 10 min: air fry ⬜ tofu in Ninja at 180°C for 8 minutes. Set aside (done by about 20 min).
+2. At about 10 min: air fry 🧊 tofu in Ninja at 180°C for 8 minutes. Set aside (done by about 20 min).
 
 3. From about 5 min: caramelise 🧅 onions and 🧄 garlic in a pan on low-medium heat 20–25 minutes. Add 🍎 diced apple halfway through (at about 18 min).
 
@@ -85,7 +62,7 @@ XHTML Header: <script>
 
 8. At about 56 min: once delayed release completes, drain 🎃 squash well. Mash in the Ninja pot with 🧈 butter (or olive oil), 🧂 salt, pepper and a grating of ✨ nutmeg (done by about 61 min).
 
-9. Serve: 🎃 mash base, ⬜ tofu on top, generous gravy over everything, 🟢 capers scattered over the tofu. 🫘 Beans alongside for Lara.
+9. Serve: 🎃 mash base, 🧊 tofu on top, generous gravy over everything, 🫛 capers scattered over the tofu. 🫘 Beans alongside for Lara.
 
 ---
 

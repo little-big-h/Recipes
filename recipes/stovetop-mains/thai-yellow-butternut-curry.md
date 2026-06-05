@@ -1,19 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(8),:nth-child(9),:nth-child(10),:nth-child(13)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(3)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(4),:nth-child(5),:nth-child(6),:nth-child(14)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(7),:nth-child(12)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(11)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Thai Yellow Butternut Squash Curry
 
 *Steam-and-air-fried butternut squash blended with silken tofu and light coconut milk forms the base. Carrot and cauliflower get the same steam+air-fry treatment in sequence (Ninja pipeline) while green cabbage goes raw into the wok at the end. Yellow Thai paste, galangal paste and makrut lime leaves. Raw red cabbage as a garnish for colour contrast. Family of five, served with rice.*
@@ -24,31 +8,24 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, peeled and cubed | 1200 g | |
+| ⚪ | 🥥 Light coconut milk (Biona Organic, 9% fat) | 400 ml | |
+| 🔵 | 🧊 Silken tofu | 300 g | |
+| 🟠 | 🍛 Yellow curry paste (Mae Ploy) | 60 g | |
+| 🟠 | 🫚 Galangal paste | 35 g | |
+| 🟠 | 🌾 Lemongrass paste (use what you have) | 15 g | |
+| 🟡 | 🌿 Makrut lime leaves (bruise lightly, remove before serving) | 6 | |
+| 🟢 | 🥕 Carrot, cut into batons | 300 g | |
+| 🟢 | 🌼 Cauliflower, florets | 500 g | |
+| 🟢 | 🥬 Green cabbage, shredded (raw into wok) | 300 g | |
+| 🟤 | 🍋 Lime wedges (at table, for those who want acidity) | 2 limes | |
+| 🟡 | 🌱 Fresh coriander or Thai basil (garnish) | generous | |
+| 🟢 | 🍇 Red cabbage, shredded raw (garnish) | 100 g | |
+| 🟠 | 🌶️ Bird's eye chilies, dried, rehydrated at table (for adults) | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🎃 Butternut squash, peeled and cubed | 1200 g | |
-| 🥥 Light coconut milk (Biona Organic, 9% fat) | 400 ml | |
-| ⚪ Silken tofu | 300 g | |
-| 🟡 Yellow curry paste (Mae Ploy) | 60 g | |
-| 🫚 Galangal paste | 35 g | |
-| 🌾 Lemongrass paste (use what you have) | 15 g | |
-| 🌿 Makrut lime leaves (bruise lightly, remove before serving) | 6 | |
-| 🥕 Carrot, cut into batons | 300 g | |
-| 🌼 Cauliflower, florets | 500 g | |
-| 🥬 Green cabbage, shredded (raw into wok) | 300 g | |
-| 🟢 Lime wedges (at table, for those who want acidity) | 2 limes | |
-| 🌱 Fresh coriander or Thai basil (garnish) | generous | |
-| 🟣 Red cabbage, shredded raw (garnish) | 100 g | |
-| 🌶️ Bird's eye chilies, dried, rehydrated at table (for adults) | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟤 Acid*
 
 ---
 
@@ -64,9 +41,9 @@ XHTML Header: <script>
 
 1. Place 🎃 butternut squash in Ninja steaming basket. Run steam+air-fry until very soft and edges show colour — about 15 minutes (trust your eye, can be faster).
 
-2. While squash cooks: blend 🥥 light coconut milk with ⚪ silken tofu until silky smooth. Set aside.
+2. While squash cooks: blend 🥥 light coconut milk with 🧊 silken tofu until silky smooth. Set aside.
 
-3. While squash cooks (at about 8 minutes): heat oil in wok over low-medium heat. Bruise 🌿 makrut lime leaves lightly in your palm. Bloom 🟡 yellow curry paste, 🫚 galangal paste, 🌾 lemongrass paste and 🌿 makrut lime leaves for 1–2 minutes until fragrant.
+3. While squash cooks (at about 8 minutes): heat oil in wok over low-medium heat. Bruise 🌿 makrut lime leaves lightly in your palm. Bloom 🍛 yellow curry paste, 🫚 galangal paste, 🌾 lemongrass paste and 🌿 makrut lime leaves for 1–2 minutes until fragrant.
 
 4. At about 10 minutes: pour tofu-coconut blend into wok with paste. Bring to gentle simmer. Keep heat low — do not let it boil hard.
 
@@ -78,7 +55,7 @@ XHTML Header: <script>
 
 8. Remove 🌿 makrut lime leaves with tongs. Taste and adjust seasoning — with less paste, you may need a pinch of salt.
 
-9. Serve over rice. Scatter 🌱 fresh coriander or Thai basil and 🟣 shredded raw red cabbage on top for colour contrast. 🟢 Lime wedges and 🌶️ rehydrated bird's eye chilies at the table for those who want acidity or heat.
+9. Serve over rice. Scatter 🌱 fresh coriander or Thai basil and 🍇 shredded raw red cabbage on top for colour contrast. 🍋 Lime wedges and 🌶️ rehydrated bird's eye chilies at the table for those who want acidity or heat.
 
 ---
 
