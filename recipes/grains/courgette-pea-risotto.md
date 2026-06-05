@@ -1,19 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(5),:nth-child(6),:nth-child(11),:nth-child(14),:nth-child(16),:nth-child(17)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(3),:nth-child(4)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(12),:nth-child(13)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(7)').css('background-color','#faedd9');
-            $rows.filter(':nth-child(9),:nth-child(10),:nth-child(15),:nth-child(18)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Courgette & Pea Risotto with Pan-Fried Tofu
 
 *Classic risotto with courgette, peas, lemon and fresh herbs. Butter-fried tofu alongside. Green salad and bagels to serve. Family of five — one carb-loading dinner.*
@@ -26,35 +10,28 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🔵 | 🧊 Firm tofu, sliced into slabs | 400 g | |
+| 🔵 | 🧈 Butter (for tofu pan-fry) | 15 g | |
+| 🟡 | 🧅 Onion, finely diced | 2 large | |
+| 🟡 | 🧄 Garlic, finely chopped | 3 cloves | |
+| 🟢 | 🥒 Courgette, finely diced | 2 medium | |
+| 🟢 | 🍚 Arborio rice | 500 g | |
+| 🟤 | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | |
+| ⚪ | 🥄 Vegetable stock, kept warm | 1.5 L | |
+| 🟣 | 🫒 Capers | 2 tbsp | |
+| 🟣 | ✨ Nutritional yeast | 15 g | |
+| 🟢 | 🫛 Frozen peas | 350 g | |
+| 🔵 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | |
+| 🔵 | 🧀 Parmesan, grated | 80 g | |
+| 🟢 | 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | |
+| 🟣 | 🌶️ Tabasco (at table) | to taste | |
+| 🟢 | 🥗 Lettuce | as available | |
+| 🟢 | 🥖 Bagels | as needed | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| ⬜ Firm tofu, sliced into slabs | 400 g | |
-| 🧈 Butter (for tofu pan-fry) | 15 g | |
-| 🧅 Onion, finely diced | 2 large | |
-| 🧄 Garlic, finely chopped | 3 cloves | |
-| 🥒 Courgette, finely diced | 2 medium | |
-| 🍚 Arborio rice | 500 g | |
-| 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | |
-| 🥄 Vegetable stock, kept warm | 1.5 L | |
-| 🫒 Capers | 2 tbsp | |
-| ✨ Nutritional yeast | 15 g | |
-| 🟢 Frozen peas | 350 g | |
-| 🟨 Butter, cold and cubed (mantecatura) | 40 g | |
-| 🧀 Parmesan, grated | 80 g | |
-| 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | |
-| 🌶️ Tabasco (at table) | to taste | |
-| 🥗 Lettuce | as available | |
-| 🥖 Bagels | as needed | |
-| 🧂 Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -66,9 +43,9 @@ XHTML Header: <script>
 
 ## Method
 
-> **Note:** Have warm 🥄 vegetable stock ready in a separate pan throughout the risotto cook. The pan-fried ⬜ tofu and the risotto run in parallel on the hob; finish in 46 minutes total.
+> **Note:** Have warm 🥄 vegetable stock ready in a separate pan throughout the risotto cook. The pan-fried 🧊 tofu and the risotto run in parallel on the hob; finish in 46 minutes total.
 
-1. From 0 min: microwave ⬜ tofu 5 minutes to dry it out. Slice into slabs, season with 🧂 salt and pepper. Pan-fry in 🧈 butter on medium-high heat **without moving** for 3–4 minutes per side until golden. Finish with a squeeze of 🍋 lemon. Set aside (done by about 18 min).
+1. From 0 min: microwave 🧊 tofu 5 minutes to dry it out. Slice into slabs, season with 🧂 salt and pepper. Pan-fry in 🧈 butter on medium-high heat **without moving** for 3–4 minutes per side until golden. Finish with a squeeze of 🍋 lemon. Set aside (done by about 18 min).
 
 2. From 0 min: finely dice 🧅 onion, 🧄 garlic and 🥒 courgette (15 min active prep).
 
@@ -78,13 +55,13 @@ XHTML Header: <script>
 
 5. From 10 min: begin adding warm 🥄 vegetable stock one ladle at a time, stirring constantly. Wait until each ladle is absorbed before adding the next (continue until about 40 min). Add the **first half** of 🥒 courgette with the first ladle. Add the **second half** at about 25 min. Add 🫒 capers and ✨ nutritional yeast halfway through (about 25 min).
 
-6. At about 37 min: stir in 🟢 frozen peas. Cook 3 more minutes until just tender and bright green.
+6. At about 37 min: stir in 🫛 frozen peas. Cook 3 more minutes until just tender and bright green.
 
-7. At about 40 min: off heat, beat in 🟨 cold cubed butter and 🧀 parmesan vigorously (the *mantecatura* — makes the risotto glossy and creamy). Add remaining 🍋 lemon juice, torn 🌿 fresh herbs and 🌶️ tabasco to taste. Taste and adjust 🧂 salt.
+7. At about 40 min: off heat, beat in 🥛 cold cubed butter and 🧀 parmesan vigorously (the *mantecatura* — makes the risotto glossy and creamy). Add remaining 🍋 lemon juice, torn 🌿 fresh herbs and 🌶️ tabasco to taste. Taste and adjust 🧂 salt.
 
 8. At about 44 min: rest 2 minutes with lid on. Meanwhile dress 🥗 lettuce with 🍋 lemon juice and 🧂 salt.
 
-9. At about 46 min: serve risotto in wide bowls, ⬜ tofu alongside, 🥗 salad and 🥖 bagels on the table.
+9. At about 46 min: serve risotto in wide bowls, 🧊 tofu alongside, 🥗 salad and 🥖 bagels on the table.
 
 ---
 

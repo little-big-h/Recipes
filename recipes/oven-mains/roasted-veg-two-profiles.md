@@ -1,16 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5),:nth-child(6)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(7),:nth-child(8),:nth-child(9),:nth-child(10),:nth-child(13),:nth-child(14),:nth-child(15),:nth-child(16),:nth-child(17)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(11),:nth-child(12),:nth-child(18),:nth-child(19),:nth-child(20),:nth-child(21)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Mediterranean & Indian Roasted Vegetable Tray
 
 *Same vegetables, two flavour profiles — split the tray before seasoning. Butternut squash, cauliflower, peppers, onions and cherry tomatoes. Served with kasha (0 min pressure cook — heat-up only). Family of five.*
@@ -33,35 +20,31 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | |
+| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern) | 2 (~400 g) | |
+| 🟢 | 🧅 Onions, wedges | 3 large | |
+| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | |
+| 🟠 | 🌿 Rosemary, fresh sprigs (Med.) | 4–5 | |
+| 🟠 | 🪴 Dried oregano (Med.) | 2 tsp | |
+| 🟠 | 🍂 Smoked paprika (Med., Lara concern) | 2 tsp | |
+| 🟠 | 🧄 Garlic powder (Med.) | 2 tsp | |
+| 🟣 | 🍷 Balsamic vinegar (Med.) | 2 tbsp | |
+| 🟣 | 🫛 Capers (Med., at end) | 2 tbsp | |
+| 🟠 | 🍛 Mild curry blend (Indian) | 8 g | |
+| 🟠 | 🫚 Dried ginger powder (Indian) | 3 g | |
+| 🟠 | 🌶️ Chili flakes (Indian) | 2 g | |
+| 🟠 | 🌰 Smoked paprika (Indian, Lara concern) | 2 g | |
+| 🟠 | 🍄 Shiitake powder (Indian) | 5 g | |
+| 🟣 | 🫙 White miso (Indian, at end) | 20 g | |
+| 🟣 | 🥥 Tamarind paste (Indian, at end) | 1 tsp | |
+| 🟣 | 🫒 Olive oil | 2 tbsp each tray (4 tbsp total) | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🎃 Butternut squash, large chunks | 1 medium (~800 g) | |
-| 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | |
-| 🫑 Bell peppers, chunked (Lara concern) | 2 (~400 g) | |
-| 🧅 Onions, wedges | 3 large | |
-| 🍅 Cherry tomatoes, halved | 250 g | |
-| 🌾 Kasha (buckwheat groats), dry | 300 g | |
-| 🌿 Rosemary, fresh sprigs (Med.) | 4–5 | |
-| 🪴 Dried oregano (Med.) | 2 tsp | |
-| 🟥 Smoked paprika (Med., Lara concern) | 2 tsp | |
-| 🧄 Garlic powder (Med.) | 2 tsp | |
-| 🍷 Balsamic vinegar (Med.) | 2 tbsp | |
-| 🟢 Capers (Med., at end) | 2 tbsp | |
-| 🟠 Mild curry blend (Indian) | 8 g | |
-| 🟫 Dried ginger powder (Indian) | 3 g | |
-| 🌶️ Chili flakes (Indian) | 2 g | |
-| 🌰 Smoked paprika (Indian, Lara concern) | 2 g | |
-| 🍄 Shiitake powder (Indian) | 5 g | |
-| 🫙 White miso (Indian, at end) | 20 g | |
-| 🥥 Tamarind paste (Indian, at end) | 1 tsp | |
-| 🫒 Olive oil | 2 tbsp each tray (4 tbsp total) | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🟣 Seasoning*
 
 ---
 
@@ -77,10 +60,10 @@ XHTML Header: <script>
 
 1. (0–15 min) Preheat oven to 200°C. Chop 🎃 squash and 🧅 onions into large chunks, 🥦 cauliflower into florets, 🫑 peppers into large pieces.
 
-2. (15–20 min) **Split** vegetables into two batches. Toss each with 🫒 olive oil, ⚫ salt and pepper, then season separately:
+2. (15–20 min) **Split** vegetables into two batches. Toss each with 🫒 olive oil, 🧂 salt and pepper, then season separately:
 
-   - **Mediterranean batch:** 🌿 rosemary (tucked in), 🪴 oregano, 🟥 smoked paprika, 🧄 garlic powder, 🍷 balsamic
-   - **Indian batch:** 🟠 mild curry, 🟫 dried ginger, 🌶️ chili flakes, 🧄 garlic powder, 🌰 smoked paprika, 🍄 shiitake powder
+   - **Mediterranean batch:** 🌿 rosemary (tucked in), 🪴 oregano, 🍂 smoked paprika, 🧄 garlic powder, 🍷 balsamic
+   - **Indian batch:** 🍛 mild curry, 🫚 dried ginger, 🌶️ chili flakes, 🧄 garlic powder, 🌰 smoked paprika, 🍄 shiitake powder
 
 3. (20–35 min) Roast 🎃 squash and 🧅 onions in both trays at 200°C for 15 minutes.
 
@@ -92,7 +75,7 @@ XHTML Header: <script>
 
 7. (~55 min) Remove from oven. Finish each tray separately:
 
-   - **Mediterranean:** scatter 🟢 capers over. Remove 🌿 rosemary sprigs.
+   - **Mediterranean:** scatter 🫛 capers over. Remove 🌿 rosemary sprigs.
    - **Indian:** dissolve 🫙 white miso in a hot corner of the tray, stir in 🥥 tamarind, mix through.
 
 8. Serve over 🌾 kasha — let people choose their tray (or take from both).

@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(7),:nth-child(19)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(3)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(4),:nth-child(11),:nth-child(12),:nth-child(13),:nth-child(14),:nth-child(15)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(5),:nth-child(6),:nth-child(8),:nth-child(9),:nth-child(10)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(16),:nth-child(20),:nth-child(21)').css('background-color','#faedd9');
-            $rows.filter(':nth-child(17),:nth-child(18)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — West African Profile
 
 *Peanut and tomato-based corn soup with goji berries, lime leaves and bay. Dried black-eyed beans cooked pot-in-pot in two stages. Asparagus steamed separately. Tamarind and lime at the table. Fresh coriander to finish. Family of five.*
@@ -25,39 +8,31 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
+| 🔵 | 🫘 Dried black-eyed beans (no soak needed) | 250 g | |
+| ⚪ | 🧊 Stock cubes + 2600 ml water | 6 | |
+| 🟠 | 🌶️ Scotch bonnet (kept whole, remove before blending) | 1 | |
+| 🟡 | 🍃 Bay leaves (remove before blending) | 4 | |
+| 🟡 | 🍋 Makrut lime leaves (remove before blending) | 4 | |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | |
+| 🟡 | 🧅 Onions, diced | 4 large | |
+| 🟡 | 🧄 Garlic | 50 g | |
+| 🟡 | 🫚 Fresh ginger, grated | 16 g | |
+| 🟠 | 🫑 Smoked paprika | 16 g | |
+| 🟠 | 🍂 Dried ginger powder | 10 g | |
+| 🟠 | 🌿 Dried coriander | 10 g | |
+| 🟠 | 🍅 Tomato paste | 60 g | |
+| 🟠 | 🥜 Peanut flour (whisk into stock first) | 100 g | |
+| 🟤 | 🍒 Goji berries | 15 g | |
+| 🟣 | 💧 Liquid aminos | 40 g | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
+| 🟢 | 🌱 Fresh coriander (garnish) | generous | |
+| 🟤 | 🫙 Tamarind paste (at table) | to taste | |
+| 🟤 | 🍈 Lime juice (at table) | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🫘 Dried black-eyed beans (no soak needed) | 250 g | |
-| 🧊 Stock cubes + 2600 ml water | 6 | |
-| 🌶️ Scotch bonnet (kept whole, remove before blending) | 1 | |
-| 🍃 Bay leaves (remove before blending) | 4 | |
-| 🍋 Makrut lime leaves (remove before blending) | 4 | |
-| 🥦 Asparagus (steamed separately) | 1000 g | |
-| 🧅 Onions, diced | 4 large | |
-| 🧄 Garlic | 50 g | |
-| 🫚 Fresh ginger, grated | 16 g | |
-| 🫑 Smoked paprika | 16 g | |
-| 🟤 Dried ginger powder | 10 g | |
-| 🌿 Dried coriander | 10 g | |
-| 🍅 Tomato paste | 60 g | |
-| 🥜 Peanut flour (whisk into stock first) | 100 g | |
-| 🍒 Goji berries | 15 g | |
-| 💧 Liquid aminos | 40 g | |
-| 🧂 Salt and black pepper | to taste | |
-| 🌱 Fresh coriander (garnish) | generous | |
-| 🫙 Tamarind paste (at table) | to taste | |
-| 🟢 Lime juice (at table) | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -75,13 +50,13 @@ XHTML Header: <script>
 
 2. Once fully released (at about 85 minutes): open — rack stays in pot. Place 🫘 black-eyed beans in steaming basket and set basket on rack in the liquid. Seal — high pressure, 8 min, natural release.
 
-3. Once stage 2 is underway (at about 90 minutes): start steaming 🥦 asparagus (8–10 min). In parallel, saute 🧅 onions, 🧄 garlic and 🫚 fresh ginger in wok 7–8 min until golden. Whisk 🥜 peanut flour into a ladleful of stock to form a smooth paste. Add 🫑 smoked paprika, 🟤 dried ginger powder, 🌿 dried coriander and 🍅 tomato paste — cook 2 min. Stir in 🥜 peanut paste. Set aside.
+3. Once stage 2 is underway (at about 90 minutes): start steaming 🥦 asparagus (8–10 min). In parallel, saute 🧅 onions, 🧄 garlic and 🫚 fresh ginger in wok 7–8 min until golden. Whisk 🥜 peanut flour into a ladleful of stock to form a smooth paste. Add 🫑 smoked paprika, 🍂 dried ginger powder, 🌿 dried coriander and 🍅 tomato paste — cook 2 min. Stir in 🥜 peanut paste. Set aside.
 
 4. Once fully released (at about 125 minutes): lift out basket of 🫘 beans. Remove 🌶️ scotch bonnet, 🍃 bay leaves and 🍋 lime leaves. Add 🍒 goji berries to hot 🌽 corn, rest 2–3 min, then blend completely smooth. Thin with cooking liquid as needed.
 
 5. Stir in peanut-onion mixture and 💧 liquid aminos. Add drained 🫘 black-eyed beans. Warm through 3–4 min. Season with 🧂 salt and black pepper to taste.
 
-6. Serve in bowls with 🥦 asparagus alongside. Scatter 🌱 fresh coriander generously. 🫙 Tamarind paste and 🟢 lime juice at the table.
+6. Serve in bowls with 🥦 asparagus alongside. Scatter 🌱 fresh coriander generously. 🫙 Tamarind paste and 🍈 lime juice at the table.
 
 ---
 

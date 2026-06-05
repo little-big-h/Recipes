@@ -1,16 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5),:nth-child(6)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(7),:nth-child(8),:nth-child(9),:nth-child(10)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(11),:nth-child(12),:nth-child(13),:nth-child(14)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Mediterranean Roasted Vegetable Tray with Kasha
 
 *Rosemary-roasted butternut squash, cauliflower, peppers, onions and cherry tomatoes with balsamic and capers. Served with kasha (0 min pressure cook). Family of five.*
@@ -27,28 +14,24 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | |
+| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 (~400 g) | |
+| 🟢 | 🧅 Onions, wedges | 3 large | |
+| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | |
+| 🟠 | 🌿 Rosemary, fresh sprigs | 4–5 | |
+| 🟠 | 🪴 Dried oregano | 2 tsp | |
+| 🟠 | 🌶️ Smoked paprika (Lara concern — suspected) | 2 tsp | |
+| 🟠 | 🧄 Garlic powder | 2 tsp | |
+| 🟣 | 🍷 Balsamic vinegar | 2 tbsp | |
+| 🟣 | 🫛 Capers (at end) | 2 tbsp | |
+| 🟣 | 🫒 Olive oil | 2 tbsp | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🎃 Butternut squash, large chunks | 1 medium (~800 g) | |
-| 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | |
-| 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 (~400 g) | |
-| 🧅 Onions, wedges | 3 large | |
-| 🍅 Cherry tomatoes, halved | 250 g | |
-| 🌾 Kasha (buckwheat groats), dry | 300 g | |
-| 🌿 Rosemary, fresh sprigs | 4–5 | |
-| 🪴 Dried oregano | 2 tsp | |
-| 🟥 Smoked paprika (Lara concern — suspected) | 2 tsp | |
-| 🧄 Garlic powder | 2 tsp | |
-| 🍷 Balsamic vinegar | 2 tbsp | |
-| 🟢 Capers (at end) | 2 tbsp | |
-| 🫒 Olive oil | 2 tbsp | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🟣 Seasoning*
 
 ---
 
@@ -64,7 +47,7 @@ XHTML Header: <script>
 
 1. (0–15 min) Preheat oven to 200°C. Chop 🎃 squash and 🧅 onions into large chunks, 🥦 cauliflower into florets, 🫑 peppers into large pieces.
 
-2. (15–20 min) Toss all vegetables with 🫒 olive oil, ⚫ salt, pepper, 🟥 smoked paprika, 🧄 garlic powder and 🍷 balsamic vinegar. Tuck 🌿 rosemary sprigs throughout. Sprinkle 🪴 dried oregano over.
+2. (15–20 min) Toss all vegetables with 🫒 olive oil, 🧂 salt, pepper, 🌶️ smoked paprika, 🧄 garlic powder and 🍷 balsamic vinegar. Tuck 🌿 rosemary sprigs throughout. Sprinkle 🪴 dried oregano over.
 
 3. (20–35 min) Roast 🎃 squash and 🧅 onions at 200°C for 15 minutes.
 
@@ -74,7 +57,7 @@ XHTML Header: <script>
 
 6. (45–55 min) Add halved 🍅 cherry tomatoes. Roast final 10 minutes until collapsed and lightly caramelised.
 
-7. (~55 min) Remove from oven. Scatter 🟢 capers over. Remove 🌿 rosemary sprigs before serving.
+7. (~55 min) Remove from oven. Scatter 🫛 capers over. Remove 🌿 rosemary sprigs before serving.
 
 8. Serve over 🌾 kasha.
 

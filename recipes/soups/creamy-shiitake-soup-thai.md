@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(12),:nth-child(15),:nth-child(17)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2),:nth-child(3),:nth-child(10)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(4),:nth-child(5),:nth-child(6),:nth-child(7)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(8),:nth-child(9)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(11)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(13),:nth-child(14),:nth-child(16)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(18)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Shiitake Soup — Thai Profile
 
 *Yellow-forward Thai curry with dried shiitake, blended silken tofu and coconut milk. Tsuyu and dashi soy as the umami stack. Lemongrass, galangal and makrut lime leaves for aromatics. No stock cubes — shiitake soaking water (1600 ml) plus ~1000 ml additional water provide the base. Lime at the table. Family of five.*
@@ -23,36 +6,28 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🍄 Dried shiitake (soak in 1600 ml water, reserve) | 193 g | 193 g |
+| 🟡 | 🧅 Onions, diced | 3 large | |
+| 🟡 | 🧄 Garlic | 50 g | |
+| 🟠 | 🍛 Yellow curry paste | 40 g | |
+| 🟠 | 💚 Green curry paste | 20 g | |
+| 🟠 | 🎋 Lemongrass paste | 30 g | |
+| 🟠 | 🪨 Galangal paste | 25 g | |
+| ⚪ | 💧 Water | 1000 ml | |
+| ⚪ | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 190 ml |
+| 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | |
+| 🔵 | 🫘 Silken tofu | 600 g | |
+| 🟢 | 🥥 Coconut milk | 400 ml | |
+| 🟣 | 🫗 Dashi soy sauce (Emma Basic, taste!) | 30 ml | |
+| 🟣 | 🧴 Liquid aminos | 20 ml | |
+| 🟢 | 🌱 Spring onion, sliced (garnish) | generous | |
+| 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | |
+| 🟤 | 🍈 Lime juice (at table) | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🍄 Dried shiitake (soak in 1600 ml water, reserve) | 193 g | 193 g |
-| 🧅 Onions, diced | 3 large | |
-| 🧄 Garlic | 50 g | |
-| 🟡 Yellow curry paste | 40 g | |
-| 💚 Green curry paste | 20 g | |
-| 🎋 Lemongrass paste | 30 g | |
-| 🪨 Galangal paste | 25 g | |
-| 💧 Water | 1000 ml | |
-| 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 190 ml |
-| 🍃 Makrut lime leaves (remove before blending) | 6 | |
-| 🫘 Silken tofu | 600 g | |
-| 🥥 Coconut milk | 400 ml | |
-| 🫗 Dashi soy sauce (Emma Basic, taste!) | 30 ml | |
-| 🧴 Liquid aminos | 20 ml | |
-| 🌱 Spring onion, sliced (garnish) | generous | |
-| ⚫ Sesame seeds (garnish) | 1 tbsp | |
-| 🪴 Fresh coriander (garnish) | generous | |
-| 🟢 Lime juice (at table) | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -66,13 +41,13 @@ XHTML Header: <script>
 
 > **Note:** Soak 🍄 shiitake in 1600 ml cold water for 2+ hours or overnight. Reserve all soaking water.
 
-1. In Ninja on saute mode: saute 🧅 onions and 🧄 garlic until golden, 7–8 min. Add 🟡 yellow paste, 💚 green paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 45 sec. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
+1. In Ninja on saute mode: saute 🧅 onions and 🧄 garlic until golden, 7–8 min. Add 🍛 yellow paste, 💚 green paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 45 sec. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
 
 2. Once Ninja done: remove 🍃 lime leaves. Blend completely smooth with 🫘 silken tofu. Adjust consistency with a splash of 💧 water if needed.
 
 3. Return to Ninja on saute mode. Stir in 🥥 coconut milk, warm through 3–4 min. Season with 🫗 dashi soy sauce and 🧴 liquid aminos — taste carefully, dashi soy is salty.
 
-4. Serve with 🌱 spring onion, ⚫ sesame seeds and 🪴 fresh coriander. 🟢 Lime juice at the table.
+4. Serve with 🌱 spring onion, 🌾 sesame seeds and 🪴 fresh coriander. 🍈 Lime juice at the table.
 
 ---
 

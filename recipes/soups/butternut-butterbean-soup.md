@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2),:nth-child(3),:nth-child(4)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(5)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(6)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(7)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(8),:nth-child(10)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(9)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Butternut Squash & Butter Bean Soup
 
 *Chunky unpeeled squash in a creamy blended bean broth with ginger, miso and tamarind. Pressure cooked in the Ninja. Makes a large batch — stores well for 4–5 days.*
@@ -29,28 +12,20 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🎃 Butternut squash, unpeeled, large chunks | 2 (~2 kg) | |
+| 🟡 | 🧅 Onion, diced | 1 large | |
+| 🟡 | 🧄 Garlic cloves, roughly chopped | 4 | |
+| 🟡 | 🫚 Fresh ginger, grated | 4 cm (~16 g) | |
+| 🟠 | 🌶️ Smoked paprika (optional — for colour; Lara concern) | ½ tsp | |
+| ⚪ | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | |
+| 🔵 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | |
+| 🟤 | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🎃 Butternut squash, unpeeled, large chunks | 2 (~2 kg) | |
-| 🧅 Onion, diced | 1 large | |
-| 🧄 Garlic cloves, roughly chopped | 4 | |
-| 🫚 Fresh ginger, grated | 4 cm (~16 g) | |
-| 🟥 Smoked paprika (optional — for colour; Lara concern) | ½ tsp | |
-| 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | |
-| 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | |
-| 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | |
-| 🟢 Tamarind paste (at end) | 1 tbsp (~15 g) | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -66,7 +41,7 @@ XHTML Header: <script>
 
 1. (0–10 min) Chop 🎃 squash into large chunks (skin on). In parallel: dice 🧅 onion, chop 🧄 garlic, grate 🫚 ginger (done by about 8 min).
 
-2. (5–11 min) Start sauté mode on Ninja. Cook 🧅 onion and 🧄 garlic dry for 5–6 minutes until softened. Add 🫚 ginger and 🟥 smoked paprika (if using), stir 1 minute.
+2. (5–11 min) Start sauté mode on Ninja. Cook 🧅 onion and 🧄 garlic dry for 5–6 minutes until softened. Add 🫚 ginger and 🌶️ smoked paprika (if using), stir 1 minute.
 
 3. (~12 min) Add 🎃 squash and 🧊 vegetable stock. Seal — high pressure, 10 min, delayed release (10 min). Heat-up for ~2 kg load: ~32 min.
 
@@ -74,7 +49,7 @@ XHTML Header: <script>
 
 5. (~67 min, after release) Stir blended 🫘 beans and whole drained 🫘 beans into the pot. Switch to sauté mode and warm through 5–6 minutes.
 
-6. (~73 min) Dissolve 🫙 white miso and 🟢 tamarind paste in a ladle of hot soup, stir back in. Taste and adjust — tamarind for acidity, ⚫ salt for seasoning. **Do not boil after this point** (miso).
+6. (~73 min) Dissolve 🫙 white miso and 🥭 tamarind paste in a ladle of hot soup, stir back in. Taste and adjust — tamarind for acidity, 🧂 salt for seasoning. **Do not boil after this point** (miso).
 
 ---
 

@@ -1,19 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(3)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(4),:nth-child(12)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(5),:nth-child(6)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(7),:nth-child(8),:nth-child(9),:nth-child(10),:nth-child(11)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(13),:nth-child(14)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(15),:nth-child(16),:nth-child(17)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Indian Cauliflower & Potato Soup with Kasha
 
 *Tikka-spiced soup with a silken tofu and white bean cream base. Served with toasted kasha. Family of five.*
@@ -26,34 +10,27 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🥔 Potatoes, large chunks | 900 g | |
+| 🟢 | 🥦 Cauliflower, florets (Jannes concern) | 600 g | |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | |
+| ⚪ | 💧 Water (for kasha) | 600 ml | |
+| 🟡 | 🧅 Onions, diced | 2 large | |
+| 🟡 | 🧄 Garlic, roughly chopped | 5 cloves | |
+| 🟠 | 🌱 Cumin seeds | 4 g | |
+| 🟠 | 🌼 Turmeric | 2 g | |
+| 🟠 | 🫚 Dried ginger powder | 6 g | |
+| 🟠 | 🌶️ Tikka masala powder | 15 g | |
+| 🟠 | 🍄 Shiitake powder | 10 g | |
+| ⚪ | 🧊 Vegetable stock | 1.2 L | |
+| 🔵 | 🧈 Silken tofu | 300 g | |
+| 🔵 | 🫘 White beans, drained — **keep liquid for blending** | 400 g tin | |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 20 g | |
+| 🟣 | 💦 Liquid aminos | 15 g | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🥔 Potatoes, large chunks | 900 g | |
-| 🥦 Cauliflower, florets (Jannes concern) | 600 g | |
-| 🌾 Kasha (buckwheat groats), dry | 300 g | |
-| 💧 Water (for kasha) | 600 ml | |
-| 🧅 Onions, diced | 2 large | |
-| 🧄 Garlic, roughly chopped | 5 cloves | |
-| 🌱 Cumin seeds | 4 g | |
-| 🟡 Turmeric | 2 g | |
-| 🟫 Dried ginger powder | 6 g | |
-| 🟥 Tikka masala powder | 15 g | |
-| 🍄 Shiitake powder | 10 g | |
-| 🧊 Vegetable stock | 1.2 L | |
-| ⚪ Silken tofu | 300 g | |
-| 🫘 White beans, drained — **keep liquid for blending** | 400 g tin | |
-| 🫙 White miso (whisk in off heat, never boil) | 20 g | |
-| 💦 Liquid aminos | 15 g | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
 
 ---
 
@@ -71,13 +48,13 @@ XHTML Header: <script>
 
 2. (5–13 min) Sauté mode on Ninja: cook 🧅 onion and 🧄 garlic dry for 7–8 minutes until softened and golden.
 
-3. (~13 min) Add 🌱 cumin seeds, 🟡 turmeric, 🟫 dried ginger, 🟥 tikka masala and 🍄 shiitake powder. Bloom 30–60 seconds, stirring constantly, until fragrant. **Watch heat — ground spices scorch fast.**
+3. (~13 min) Add 🌱 cumin seeds, 🌼 turmeric, 🫚 dried ginger, 🌶️ tikka masala and 🍄 shiitake powder. Bloom 30–60 seconds, stirring constantly, until fragrant. **Watch heat — ground spices scorch fast.**
 
 4. (~14 min) Add 🥔 potato, 🥦 cauliflower and 🧊 stock. **Do not stir.** Seal — high pressure, 5 min, delayed release (10 min). Heat-up for ~2.5 kg load: ~40 min.
 
-5. (~54 min, during delayed release) Blend ⚪ silken tofu with 🫘 white beans and their liquid until completely smooth.
+5. (~54 min, during delayed release) Blend 🧈 silken tofu with 🫘 white beans and their liquid until completely smooth.
 
-6. (~64 min, after release) Stir blended tofu-bean cream into the pot. Switch to sauté mode and warm through 5–6 minutes. Dissolve 🫙 white miso in a ladle of hot soup and stir back in. Add 💦 liquid aminos, taste and adjust ⚫ salt. **Do not boil after adding miso.**
+6. (~64 min, after release) Stir blended tofu-bean cream into the pot. Switch to sauté mode and warm through 5–6 minutes. Dissolve 🫙 white miso in a ladle of hot soup and stir back in. Add 💦 liquid aminos, taste and adjust 🧂 salt. **Do not boil after adding miso.**
 
 7. Serve over 🌾 kasha.
 

@@ -1,17 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(3),:nth-child(5),:nth-child(6),:nth-child(7)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(4)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(9),:nth-child(10)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Indian Roasted Vegetable Bake
 
 *Low-effort oven bake in two waves. Cauliflower, peppers, onions and garlic roasted first; broccoli added later. Cherry tomatoes last. Bold mild curry tomato sauce. Family of five.*
@@ -26,25 +12,20 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌼 Cauliflower, florets (Jannes concern) | 1 head | |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 | |
+| 🟢 | 🧅 Onions, wedges | 3 large | |
+| 🟡 | 🧄 Garlic cloves, whole | 6–8 | |
+| 🟢 | 🥦 Broccoli, florets | 1 head | |
+| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | |
+| 🟢 | 🍅 Tinned chopped tomatoes (sauce) | 2 × 400 g | |
+| 🟠 | 🍛 Mild curry powder | 22 g | |
+| 🟣 | 🫒 Oil (for blooming + tossing) | 1 tsp + extra for veg | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌼 Cauliflower, florets (Jannes concern) | 1 head | |
-| 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 | |
-| 🧅 Onions, wedges | 3 large | |
-| 🧄 Garlic cloves, whole | 6–8 | |
-| 🥦 Broccoli, florets | 1 head | |
-| 🍒 Cherry tomatoes, halved | 250 g | |
-| 🍅 Tinned chopped tomatoes (sauce) | 2 × 400 g | |
-| 🟡 Mild curry powder | 22 g | |
-| 🫒 Oil (for blooming + tossing) | 1 tsp + extra for veg | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🟣 Seasoning*
 
 ---
 
@@ -58,9 +39,9 @@ XHTML Header: <script>
 
 > **Two-wave roasting:** wave 1 (robust veg, 30 min) goes in first. Wave 2 (broccoli, 22 min) joins at minute 32. Cherry tomatoes go on top for the final 10 minutes.
 
-1. (0–12 min) Preheat oven to 200°C. Chop **wave 1**: 🌼 cauliflower into florets, 🫑 peppers into chunks, 🧅 onions into wedges, 🧄 garlic cloves left whole. Toss with a little 🫒 oil, ⚫ salt and pepper. Roast at 200°C.
+1. (0–12 min) Preheat oven to 200°C. Chop **wave 1**: 🌼 cauliflower into florets, 🫑 peppers into chunks, 🧅 onions into wedges, 🧄 garlic cloves left whole. Toss with a little 🫒 oil, 🧂 salt and pepper. Roast at 200°C.
 
-2. (12–22 min) While wave 1 roasts, chop **wave 2** in parallel: 🥦 broccoli into florets. Also bloom the curry: mix 🟡 mild curry powder with 1 tsp 🫒 oil in a microwave-safe bowl, microwave 30–60 seconds until fragrant. Stir into 🍅 tinned chopped tomatoes.
+2. (12–22 min) While wave 1 roasts, chop **wave 2** in parallel: 🥦 broccoli into florets. Also bloom the curry: mix 🍛 mild curry powder with 1 tsp 🫒 oil in a microwave-safe bowl, microwave 30–60 seconds until fragrant. Stir into 🍅 tinned chopped tomatoes.
 
 3. (~32 min) Add 🥦 broccoli to the tray. Pour 🍅 curry tomato sauce over everything. Roast 12 minutes.
 

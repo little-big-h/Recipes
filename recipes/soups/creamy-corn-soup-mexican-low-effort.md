@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(5),:nth-child(13),:nth-child(17)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(6),:nth-child(7)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(3),:nth-child(8),:nth-child(9),:nth-child(10),:nth-child(11)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(4)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(2)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(12),:nth-child(16),:nth-child(18)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(14),:nth-child(15)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — Mexican (Low Effort)
 
 *Corn and dried butter beans pressure cooked unattended for 90 minutes (pot-in-pot). All cooking done on return from pickup. Asparagus and onions prepared in parallel. Sauerkraut served cold alongside. Family of five.*
@@ -31,36 +14,28 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
+| 🔵 | 🫘 Dried butter beans (no soaking, pot-in-pot) | 300 g | |
+| 🟠 | 🌶️ Chipotle, whole (remove before blending) | 4 | |
+| ⚪ | 🧊 Stock cubes + 2000 ml water | 6 | |
+| 🟢 | 🥦 Asparagus (steamed on return) | 1400 g | |
+| 🟡 | 🧅 Onions, diced | 4 large | |
+| 🟡 | 🧄 Garlic cloves | 16 | |
+| 🟠 | 🌱 Cumin seeds | 20 g | |
+| 🟠 | 🫑 Smoked paprika (Lara concern — see note) | 20 g | |
+| 🟠 | 🌿 Dried coriander | 8 g | |
+| 🟠 | 🪴 Dried oregano | 6 g | |
+| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | |
+| 🟤 | 🍮 Tamarind paste (off heat) | 36 g | |
+| 🟤 | 🍋 Lime juice (off heat) | 60 ml | |
+| 🟣 | 🫒 Capers (to serve) | 80 g | |
+| 🟢 | 🥫 Sauerkraut (cold, alongside) | generous | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🫘 Dried butter beans (no soaking, pot-in-pot) | 300 g | |
-| 🌶️ Chipotle, whole (remove before blending) | 4 | |
-| 🧊 Stock cubes + 2000 ml water | 6 | |
-| 🥦 Asparagus (steamed on return) | 1400 g | |
-| 🧅 Onions, diced | 4 large | |
-| 🧄 Garlic cloves | 16 | |
-| 🌱 Cumin seeds | 20 g | |
-| 🟥 Smoked paprika (Lara concern — see note) | 20 g | |
-| 🌿 Dried coriander | 8 g | |
-| 🪴 Dried oregano | 6 g | |
-| ✨ Nutritional yeast (after blending) | 40 g | |
-| 🥬 Spinach (off heat) | 500 g | |
-| 🟢 Tamarind paste (off heat) | 36 g | |
-| 🍋 Lime juice (off heat) | 60 ml | |
-| 🟡 Capers (to serve) | 80 g | |
-| 🥫 Sauerkraut (cold, alongside) | generous | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -80,15 +55,15 @@ XHTML Header: <script>
 
 3. (60–70 min, on return) Start steaming 🥦 asparagus in bamboo steamers immediately (8–10 min).
 
-4. (60–75 min, in parallel) Sauté 🧅 onions and 🧄 garlic dry in a pan 7–8 minutes until golden. Add 🌱 cumin seeds, 🟥 smoked paprika, 🌿 dried coriander and 🪴 oregano — bloom 1–2 minutes. Set aside.
+4. (60–75 min, in parallel) Sauté 🧅 onions and 🧄 garlic dry in a pan 7–8 minutes until golden. Add 🌱 cumin seeds, 🫑 smoked paprika, 🌿 dried coriander and 🪴 oregano — bloom 1–2 minutes. Set aside.
 
 5. (~95 min, Ninja done) Remove glass bowl of 🫘 butter beans. Remove 🌶️ chipotles — eat yourself (cook's privilege). Stir ✨ nutritional yeast into corn. Blend completely smooth. Add extra stock if too thick.
 
 6. (~105 min) Stir in sautéed 🧅 onion-spice mixture. Add drained 🫘 butter beans. Warm through 3–4 minutes on sauté mode.
 
-7. (~110 min) Off heat: stir in 🥬 spinach until wilted. Add 🟢 tamarind paste and 🍋 lime juice. Taste and adjust ⚫ salt.
+7. (~110 min) Off heat: stir in 🥬 spinach until wilted. Add 🍮 tamarind paste and 🍋 lime juice. Taste and adjust 🧂 salt.
 
-8. Serve in bowls, 🥦 asparagus alongside, 🟡 capers scattered over. 🥫 Sauerkraut cold on the side.
+8. Serve in bowls, 🥦 asparagus alongside, 🫒 capers scattered over. 🥫 Sauerkraut cold on the side.
 
 ---
 

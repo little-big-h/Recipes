@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(11),:nth-child(13),:nth-child(15)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2),:nth-child(3),:nth-child(9)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(4),:nth-child(5),:nth-child(6)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(7),:nth-child(8)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(10)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(12),:nth-child(14)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(16)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Shiitake Soup — Thai Profile v2
 
 *Yellow-only Thai curry with reduced shiitake and silken tofu for a lighter, more distinctly Thai profile. Tsuyu as the sole umami/salt anchor. Lemongrass, galangal and makrut lime leaves for aromatics. Lime at the table. Family of five.*
@@ -27,34 +10,26 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🍄 Dried shiitake (soak to submerge, ~800 ml water, reserve) | 100 g | |
+| 🟡 | 🧅 Onions, diced | 3 large | |
+| 🟡 | 🧄 Garlic | 50 g | |
+| 🟠 | 🍛 Yellow curry paste | 50 g | |
+| 🟠 | 🎋 Lemongrass paste | 30 g | |
+| 🟠 | 🪨 Galangal paste | 25 g | |
+| ⚪ | 💧 Water | 1000 ml | |
+| ⚪ | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | |
+| 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | |
+| 🔵 | 🫘 Silken tofu | 300 g | |
+| 🟢 | 🥥 Coconut milk | 400 ml | |
+| 🟣 | 🧴 Liquid aminos | 20 ml | |
+| 🟢 | 🌱 Spring onion, sliced (garnish) | generous | |
+| 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | |
+| 🟤 | 🍈 Lime juice (at table) | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🍄 Dried shiitake (soak to submerge, ~800 ml water, reserve) | 100 g | |
-| 🧅 Onions, diced | 3 large | |
-| 🧄 Garlic | 50 g | |
-| 🟡 Yellow curry paste | 50 g | |
-| 🎋 Lemongrass paste | 30 g | |
-| 🪨 Galangal paste | 25 g | |
-| 💧 Water | 1000 ml | |
-| 🍶 Tsuyu concentrate (Clearspring) | 150 ml | |
-| 🍃 Makrut lime leaves (remove before blending) | 6 | |
-| 🫘 Silken tofu | 300 g | |
-| 🥥 Coconut milk | 400 ml | |
-| 🧴 Liquid aminos | 20 ml | |
-| 🌱 Spring onion, sliced (garnish) | generous | |
-| ⚫ Sesame seeds (garnish) | 1 tbsp | |
-| 🪴 Fresh coriander (garnish) | generous | |
-| 🟢 Lime juice (at table) | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -70,7 +45,7 @@ XHTML Header: <script>
 
 > **Note:** Soak 🍄 shiitake in ~800 ml cold water (enough to submerge) for 2+ hours or overnight. Reserve all soaking water.
 
-1. In the wok over medium-high heat: saute 🧅 onions and 🧄 garlic until golden, 7–8 min (wok caramelises better than Ninja saute mode). Add 🟡 yellow paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 1–2 min until fragrant.
+1. In the wok over medium-high heat: saute 🧅 onions and 🧄 garlic until golden, 7–8 min (wok caramelises better than Ninja saute mode). Add 🍛 yellow paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 1–2 min until fragrant.
 
 2. Transfer the wok contents to the Ninja. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
 
@@ -78,7 +53,7 @@ XHTML Header: <script>
 
 4. Return to Ninja on saute mode. Stir in 🥥 coconut milk, warm through 3–4 min. Season with 🧴 liquid aminos — taste carefully before adding.
 
-5. Serve with 🌱 spring onion, ⚫ sesame seeds and 🪴 fresh coriander. 🟢 Lime juice at the table.
+5. Serve with 🌱 spring onion, 🌾 sesame seeds and 🪴 fresh coriander. 🍈 Lime juice at the table.
 
 ---
 

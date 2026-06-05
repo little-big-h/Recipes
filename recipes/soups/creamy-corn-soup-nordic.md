@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(4)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(5),:nth-child(6)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(3)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(14)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(7),:nth-child(10)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8),:nth-child(11),:nth-child(12),:nth-child(13)').css('background-color','#faedd9');
-            $rows.filter(':nth-child(9)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — Nordic Profile
 
 *Sweet corn and black-eyed bean soup, chilled and finished with quark and fresh dill. Served with classic Nordic pickled accompaniments. Make the day before — needs at least 4 hours chilling, overnight is better. Family of five.*
@@ -25,32 +8,24 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟡 | 🧅 Onion, roughly chopped | 2 medium | |
+| 🟡 | 🍃 Bay leaves (remove before blending) | 2 | |
+| ⚪ | 🧊 Stock cubes + 2000 ml water | 2 | |
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
+| 🔵 | 🫘 Dry black-eyed beans (no soak, pot-in-pot) | 200 g | |
+| 🔵 | 🫙 Quark (fold in cold, after chilling) | 300 g | |
+| 🟡 | 🌿 Fresh dill (fold in cold, after chilling) | 50 g | |
+| 🟤 | 🍋 Lemon juice (after chilling, be generous) | 2 lemons | |
+| 🟣 | 🧂 Salt and white pepper (season generously — cold mutes) | to taste | |
+| 🟡 | 🌱 Chives, finely sliced (garnish) | generous | |
+| 🟤 | 🥒 Pickled cucumber (accompaniment) | generous | |
+| 🟤 | 🫐 Pickled beetroot (accompaniment) | generous | |
+| 🟤 | 🪻 Pickled red onion (accompaniment) | generous | |
+| 🟠 | 🫚 Horseradish, freshly grated (accompaniment) | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🧅 Onion, roughly chopped | 2 medium | |
-| 🍃 Bay leaves (remove before blending) | 2 | |
-| 🧊 Stock cubes + 2000 ml water | 2 | |
-| 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🫘 Dry black-eyed beans (no soak, pot-in-pot) | 200 g | |
-| 🫙 Quark (fold in cold, after chilling) | 300 g | |
-| 🌿 Fresh dill (fold in cold, after chilling) | 50 g | |
-| 🍋 Lemon juice (after chilling, be generous) | 2 lemons | |
-| 🧂 Salt and white pepper (season generously — cold mutes) | to taste | |
-| 🌱 Chives, finely sliced (garnish) | generous | |
-| 🥒 Pickled cucumber (accompaniment) | generous | |
-| 🫐 Pickled beetroot (accompaniment) | generous | |
-| 🟣 Pickled red onion (accompaniment) | generous | |
-| 🫚 Horseradish, freshly grated (accompaniment) | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -74,7 +49,7 @@ XHTML Header: <script>
 
 5. Once fully chilled: whisk in 🫙 quark and fold in 🌿 fresh dill. Add 🍋 lemon juice generously — cold mutes acidity. Season well with 🧂 salt and white pepper. Taste and adjust.
 
-6. Serve in chilled bowls, topped with 🌱 chives and extra 🌿 dill fronds. Accompany with 🥒 pickled cucumber, 🫐 pickled beetroot, 🟣 pickled red onion and 🫚 freshly grated horseradish on the side.
+6. Serve in chilled bowls, topped with 🌱 chives and extra 🌿 dill fronds. Accompany with 🥒 pickled cucumber, 🫐 pickled beetroot, 🪻 pickled red onion and 🫚 freshly grated horseradish on the side.
 
 ---
 

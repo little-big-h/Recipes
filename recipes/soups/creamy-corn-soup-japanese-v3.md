@@ -1,19 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(4),:nth-child(12),:nth-child(14)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(8)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(3),:nth-child(7),:nth-child(10)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(6)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(5)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(9),:nth-child(11),:nth-child(13),:nth-child(15)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — Japanese Profile (v3: homemade kombu-shiitake dashi)
 
 *Builds on v2 (white miso, family default). The change: the 1800 ml of plain water is replaced by a homemade **kombu-shiitake dashi**, and the salty bottled Tsuyu is cut back hard (104 → 45 ml) to let the real dashi carry the savoury backbone. White miso, corn, soybeans, bok choi and all else held at v2 levels. Real hon-mirin replaces the old mirin-style seasoning, dropped to 22 ml because hon-mirin reads sweeter (see `../../docs/TECHNIQUES.md`). Net effect: a deeper, rounder dashi character at roughly **half the salt** (~7 g vs ~11 g). Family of five.*
@@ -22,32 +6,25 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| ⚪ | 🌊 Kombu (wipe, don't rinse; remove before cooking, never boil) | 20 g | |
+| ⚪ | 💧 Water (for the dashi brew) | 1800 ml | |
+| 🟠 | 🍄 Shiitake powder (into the dashi brew; use what you have) | 11 g | |
+| 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | |
+| 🔵 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
+| ⚪ | 🍶 Tsuyu concentrate (Clearspring, taste — very salty) | 45 ml | |
+| 🟠 | 🫚 Dried ginger powder | 1.5 g | |
+| 🟡 | 🌱 Spring onion | 4-5 stalks | |
+| 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | |
+| 🟠 | 🫙 White miso (whisk in off heat, never boil) | 30 g | |
+| 🟣 | 🍯 Hon-mirin (real; simmer briefly to cook off alcohol) | 22 ml | |
+| 🟢 | 🥬 Bok choi (shredded fine, folded in at end) | 400 g | |
+| 🟣 | 🌰 Sesame seeds (garnish) | 1 tbsp | |
+| 🟢 | 🌿 Nori flakes (garnish) | generous | |
+| 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌊 Kombu (wipe, don't rinse; remove before cooking, never boil) | 20 g | |
-| 💧 Water (for the dashi brew) | 1800 ml | |
-| 🍄 Shiitake powder (into the dashi brew; use what you have) | 11 g | |
-| 🌽 Frozen corn (partially thawed) | 1500 g | |
-| 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
-| 🍶 Tsuyu concentrate (Clearspring, taste — very salty) | 45 ml | |
-| 🟤 Dried ginger powder | 1.5 g | |
-| 🌱 Spring onion | 4-5 stalks | |
-| 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | |
-| 🫙 White miso (whisk in off heat, never boil) | 30 g | |
-| 🍯 Hon-mirin (real; simmer briefly to cook off alcohol) | 22 ml | |
-| 🥬 Bok choi (shredded fine, folded in at end) | 400 g | |
-| ⚫ Sesame seeds (garnish) | 1 tbsp | |
-| 🌿 Nori flakes (garnish) | generous | |
-| 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
 
 ---
 
@@ -65,7 +42,7 @@ XHTML Header: <script>
 >
 > **On the day:** Allow 🌽 corn to partially thaw before loading. No soaking needed for 🫘 soybeans. Shred 🥬 bok choi finely (chiffonade the leaves, fine julienne the stems) during the long pressure cook — set aside.
 
-1. Place rack in Ninja. Put 🫘 soybeans in steaming basket and set on rack. Add 🌽 corn, the **kombu-shiitake dashi** (the 1800 ml brew, 🌊 kombu removed), 🍶 Tsuyu and 🟤 dried ginger powder. Seal — high pressure, 35 min, natural release.
+1. Place rack in Ninja. Put 🫘 soybeans in steaming basket and set on rack. Add 🌽 corn, the **kombu-shiitake dashi** (the 1800 ml brew, 🌊 kombu removed), 🍶 Tsuyu and 🫚 dried ginger powder. Seal — high pressure, 35 min, natural release.
 
 2. At about 100 minutes (during natural release): slice 🌱 spring onion, keeping white and green parts separate. Sauté white parts in 🌻 sesame oil in wok on low heat, 2–3 min until softened. Set aside.
 
@@ -73,7 +50,7 @@ XHTML Header: <script>
 
 4. Return blended corn to Ninja on low heat. Add 🍯 hon-mirin and bring to a brief simmer for 20–30 sec to cook off the alcohol. Pull back to the lowest heat — **no boiling from here on.** Whisk in 🫗 dashi-soy and 🫙 white miso, tasting as you go: Tsuyu is cut back hard this time so there's more salt headroom than in v1/v2, but dashi-soy and miso are still salty. Stir in sautéed 🌱 spring onion white parts and drained 🫘 soybeans. Finally, fold in shredded 🥬 bok choi — residual heat wilts it in 30–60 seconds; stems retain slight crunch.
 
-5. Serve in bowls. Scatter 🌱 spring onion green parts, ⚫ sesame seeds and 🌿 nori flakes. Drizzle 🌻 sesame oil at the table.
+5. Serve in bowls. Scatter 🌱 spring onion green parts, 🌰 sesame seeds and 🌿 nori flakes. Drizzle 🌻 sesame oil at the table.
 
 ---
 

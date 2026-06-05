@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(2),:nth-child(3),:nth-child(5),:nth-child(6),:nth-child(7)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(4),:nth-child(8)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(9)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(10),:nth-child(11)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(13)').css('background-color','#faedd9');
-            $rows.filter(':nth-child(14)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(12),:nth-child(15)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Indian Roasted Vegetable Bake (v2)
 
 *Broccoli and carrots in a pure creamed corn, silken tofu and curry sauce. Carrots, onions, garlic and chickpeas air-fried in Ninja; broccoli mixed into sauce and poured over. Cherry tomatoes added last. Served with cottage cheese. Family of five.*
@@ -41,32 +24,25 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🥕 Carrots, thick slices | 400 g | |
+| 🟢 | 🧅 Onions, wedges | 3 large | |
+| 🟢 | 🧄 Garlic cloves, whole | 6–8 | |
+| 🔵 | 🫘 Chickpeas, drained and dried | 400 g tin | |
+| 🟢 | 🥦 Broccoli, florets | 2 heads | |
+| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | |
+| 🟢 | 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | |
+| 🔵 | 🍮 Silken tofu (sauce base) | 300 g | |
+| ⚪ | 🧊 Stock cube + 200 ml water | 1 | |
+| 🟠 | 🍛 Mild curry powder | 22 g | |
+| 🟠 | 🫚 Turmeric | 3 g | |
+| 🟣 | 🫒 Oil (for blooming) | 1 tsp | |
+| 🟤 | 🍋 Lemon juice (at end) | 1 lemon | |
+| 🔵 | 🥛 Cottage cheese (cold side, do not stir in) | generous | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🥕 Carrots, thick slices | 400 g | |
-| 🧅 Onions, wedges | 3 large | |
-| 🧄 Garlic cloves, whole | 6–8 | |
-| 🫘 Chickpeas, drained and dried | 400 g tin | |
-| 🥦 Broccoli, florets | 2 heads | |
-| 🍒 Cherry tomatoes, halved | 250 g | |
-| 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | |
-| ⚪ Silken tofu (sauce base) | 300 g | |
-| 🧊 Stock cube + 200 ml water | 1 | |
-| 🟡 Mild curry powder | 22 g | |
-| 🟠 Turmeric | 3 g | |
-| 🫒 Oil (for blooming) | 1 tsp | |
-| 🍋 Lemon juice (at end) | 1 lemon | |
-| 🥛 Cottage cheese (cold side, do not stir in) | generous | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -82,7 +58,7 @@ XHTML Header: <script>
 
 1. (0–10 min) Preheat oven to 200°C. Chop 🥕 carrots into thick slices, 🧅 onions into wedges, 🧄 garlic cloves left whole. Drain and pat 🫘 chickpeas dry. In parallel, chop 🥦 broccoli into florets (0–15 min).
 
-2. (~5–20 min, in parallel) Dissolve 🧊 stock cube in 200 ml hot water. Bloom 🟡 mild curry powder and 🟠 turmeric with 1 tsp 🫒 oil in a microwave-safe bowl, 30–60 seconds. Blend with 🌽 creamed corn, ⚪ silken tofu and stock until completely smooth and pourable. Mix 🥦 broccoli florets into the sauce.
+2. (~5–20 min, in parallel) Dissolve 🧊 stock cube in 200 ml hot water. Bloom 🍛 mild curry powder and 🫚 turmeric with 1 tsp 🫒 oil in a microwave-safe bowl, 30–60 seconds. Blend with 🌽 creamed corn, 🍮 silken tofu and stock until completely smooth and pourable. Mix 🥦 broccoli florets into the sauce.
 
 3. (10–30 min) Air fry 🥕 carrots, 🧅 onions, 🧄 garlic and 🫘 chickpeas in Ninja at 200°C for 18–20 minutes until tender and lightly caramelised.
 

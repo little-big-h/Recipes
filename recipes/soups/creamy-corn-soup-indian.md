@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(11),:nth-child(14),:nth-child(16)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(3),:nth-child(4)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(5),:nth-child(6),:nth-child(7)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8),:nth-child(9),:nth-child(10)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(12),:nth-child(13),:nth-child(18)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(15),:nth-child(17)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — Indian Profile (2 kg)
 
 *Tikka-spiced blended corn soup with dried chickpeas cooked pot-in-pot. Ninja runs unattended for ~90 minutes. Asparagus steamed on the side. Tamarind added off heat to the pot; lime served at the table. Family of five + leftovers.*
@@ -27,36 +10,28 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
+| 🔵 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | |
+| ⚪ | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | |
+| ⚪ | 💧 Stock cubes + 2000 ml water (for corn) | 3 | |
+| 🟡 | 🧅 Onions, diced | 4 large | |
+| 🟡 | 🧄 Garlic | 50 g | |
+| 🟡 | 🫚 Fresh ginger, grated | 15 g | |
+| 🟠 | 🌱 Cumin seeds | 16 g | |
+| 🟠 | 🌼 Turmeric | 15 g | |
+| 🟠 | 🌶️ Tikka masala powder | 20 g | |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | |
+| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | |
+| 🟣 | 💦 Liquid aminos | 30 g | |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | |
+| 🟤 | 🥭 Tamarind paste (off heat) | 15 g | |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | |
+| 🟤 | 🍋 Lime (at table) | 2 | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | |
-| 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | |
-| 💧 Stock cubes + 2000 ml water (for corn) | 3 | |
-| 🧅 Onions, diced | 4 large | |
-| 🧄 Garlic | 50 g | |
-| 🫚 Fresh ginger, grated | 15 g | |
-| 🌱 Cumin seeds | 16 g | |
-| 🟡 Turmeric | 15 g | |
-| 🟥 Tikka masala powder | 20 g | |
-| 🥦 Asparagus (steamed separately) | 1000 g | |
-| ✨ Nutritional yeast (after blending) | 40 g | |
-| 💦 Liquid aminos | 30 g | |
-| 🥬 Spinach (off heat) | 500 g | |
-| 🟢 Tamarind paste (off heat) | 15 g | |
-| 🪴 Fresh coriander (garnish) | generous | |
-| 🍋 Lime (at table) | 2 | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -72,13 +47,13 @@ XHTML Header: <script>
 
 1. (0–5 min) Allow 🌽 corn to partially thaw. Place rack in Ninja. Put 🫘 dried chickpeas in steaming basket with 🧊 3 stock cubes dissolved in 600 ml water — place basket on rack. Add 🌽 corn, 💧 remaining 3 stock cubes and 2000 ml water around the basket. Seal — high pressure, ~70 min, natural release (~95 min total including heat-up).
 
-2. (60–75 min) Start steaming 🥦 asparagus in bamboo steamers (8–10 min). In parallel, sauté 🧅 onions, 🧄 garlic and 🫚 fresh ginger in the wok until golden (7–8 min). Add 🌱 cumin seeds, 🟡 turmeric and 🟥 tikka masala — bloom 1–2 minutes. Set aside.
+2. (60–75 min) Start steaming 🥦 asparagus in bamboo steamers (8–10 min). In parallel, sauté 🧅 onions, 🧄 garlic and 🫚 fresh ginger in the wok until golden (7–8 min). Add 🌱 cumin seeds, 🌼 turmeric and 🌶️ tikka masala — bloom 1–2 minutes. Set aside.
 
 3. (~95 min, Ninja done) Lift out steaming basket of 🫘 chickpeas and set aside. Stir ✨ nutritional yeast and 💦 liquid aminos into corn. Blend completely smooth. Thin with chickpea cooking liquid as needed.
 
 4. (~105 min) Stir in sautéed 🧅 onion-spice mixture. Add drained 🫘 chickpeas. Warm through 3–4 minutes on sauté mode.
 
-5. (~110 min) Off heat: stir in 🥬 spinach until wilted. Add 🟢 tamarind paste. Taste and adjust ⚫ salt.
+5. (~110 min) Off heat: stir in 🥬 spinach until wilted. Add 🥭 tamarind paste. Taste and adjust 🧂 salt.
 
 6. Serve in bowls, 🥦 asparagus alongside, 🪴 fresh coriander scattered over. 🍋 Lime wedges at the table.
 

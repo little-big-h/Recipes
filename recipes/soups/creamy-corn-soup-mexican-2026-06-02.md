@@ -1,20 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(10),:nth-child(13)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2),:nth-child(3)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(4),:nth-child(5),:nth-child(6),:nth-child(7),:nth-child(8)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(9)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(12)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(11),:nth-child(16),:nth-child(17)').css('background-color','#ebd9f5');
-            $rows.filter(':nth-child(14),:nth-child(15)').css('background-color','#faedd9');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — Mexican Profile, Dried-Kidney-Bean Iteration (2 kg)
 
 *Golden blended corn soup with chipotle, cumin, paprika, coriander and oregano. Two-phase pressure cooking — corn first, then red kidney beans in a basket sitting in the same liquid. Asparagus steamed separately. Heat reduced to two chipotles. Finished with spinach, tamarind and lime. Served with capers. Family of five + leftovers.*
@@ -23,35 +6,27 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | |
+| 🟡 | 🧅 Onions, diced | 4 large | |
+| 🟡 | 🧄 Garlic cloves | 16 | |
+| 🟠 | 🌱 Cumin seeds | 20 g | |
+| 🟠 | 🫑 Smoked paprika (Lara concern — see note) | 15 g | |
+| 🟠 | 🌿 Dried coriander | 8 g | |
+| 🟠 | 🪴 Dried oregano | 6 g | |
+| 🟠 | 🌶️ Chipotle, whole (remove before blending) | 2 | |
+| ⚪ | 🧊 Stock cubes + 2000 ml water | 6 | |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1400 g | |
+| 🟣 | ✨ Nutritional yeast | 40 g | |
+| 🔵 | 🫘 Dried red kidney beans (no soak, pot-in-pot) | 320 g | |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | |
+| 🟤 | 🍮 Tamarind paste (off heat) | 36 g | |
+| 🟤 | 🍋 Lime juice (off heat) | 60 ml | |
+| 🟣 | 🫒 Capers (to serve) | 80 g | |
+| 🟣 | 🧂 Salt and black pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌽 Frozen corn (partially thawed) | 2000 g | |
-| 🧅 Onions, diced | 4 large | |
-| 🧄 Garlic cloves | 16 | |
-| 🌱 Cumin seeds | 20 g | |
-| 🟥 Smoked paprika (Lara concern — see note) | 15 g | |
-| 🌿 Dried coriander | 8 g | |
-| 🪴 Dried oregano | 6 g | |
-| 🌶️ Chipotle, whole (remove before blending) | 2 | |
-| 🧊 Stock cubes + 2000 ml water | 6 | |
-| 🥦 Asparagus (steamed separately) | 1400 g | |
-| ✨ Nutritional yeast | 40 g | |
-| 🫘 Dried red kidney beans (no soak, pot-in-pot) | 320 g | |
-| 🥬 Spinach (off heat) | 500 g | |
-| 🟢 Tamarind paste (off heat) | 36 g | |
-| 🍋 Lime juice (off heat) | 60 ml | |
-| 🟡 Capers (to serve) | 80 g | |
-| ⚫ Salt and black pepper | to taste | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -69,7 +44,7 @@ XHTML Header: <script>
 
 2. (10–18 min) Sauté mode on Ninja: cook 🧅 onions and 🧄 garlic dry 6–8 minutes until softened.
 
-3. (at about 18 minutes) Add 🌱 cumin seeds, 🟥 smoked paprika, 🌿 dried coriander and 🪴 oregano — bloom 1–2 minutes.
+3. (at about 18 minutes) Add 🌱 cumin seeds, 🫑 smoked paprika, 🌿 dried coriander and 🪴 oregano — bloom 1–2 minutes.
 
 4. (at about 20 minutes) **Phase 1 — corn.** Add 🌽 corn, both 🌶️ chipotles and 🧊 stock. Seal — low pressure, 35 min, natural release. Low pressure preserves corn sweetness; long cook intentional for creaminess. **Heat-up ~30 min** (2 kg partially frozen load).
 
@@ -81,9 +56,9 @@ XHTML Header: <script>
 
 8. (at about 170 minutes) Stir cooked 🫘 kidney beans back into the blended soup. Warm through 2–3 minutes on sauté mode if needed.
 
-9. (at about 173 minutes) Off heat: stir in 🥬 spinach until wilted. Stir in 🟢 tamarind paste and 🍋 lime juice. Taste and adjust ⚫ salt.
+9. (at about 173 minutes) Off heat: stir in 🥬 spinach until wilted. Stir in 🍮 tamarind paste and 🍋 lime juice. Taste and adjust 🧂 salt.
 
-10. Serve in bowls, 🥦 asparagus alongside, 🟡 capers scattered over.
+10. Serve in bowls, 🥦 asparagus alongside, 🫒 capers scattered over.
 
 ---
 

@@ -1,19 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(1),:nth-child(11),:nth-child(13)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(2)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(3),:nth-child(4)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(5),:nth-child(6),:nth-child(9)').css('background-color','#fae0d1');
-            $rows.filter(':nth-child(7)').css('background-color','#fcf5cc');
-            $rows.filter(':nth-child(8),:nth-child(10),:nth-child(12),:nth-child(14)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Creamy Corn Soup — Japanese Profile (v2: white miso)
 
 *Hypothesis test: same recipe as v1 with one variable changed — white miso (30g) substituted for red miso (18g). All other amounts held constant. Goal: determine whether red miso was the cause of Jannes's drop to 6.0 in v1. If Jannes recovers to 7+ and adults stay high, hypothesis confirmed (red miso = adult-palate move). If adults drop too, something else is going on.*
@@ -24,31 +8,24 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#fcf5cc;padding:3px 10px">Aromatics</td>
-<td style="background:#fae0d1;padding:3px 10px">Spices / Pastes</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | |
+| 🔵 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
+| ⚪ | 🍶 Tsuyu concentrate (Clearspring) | 104 ml | |
+| ⚪ | 💧 Water | 1800 ml | |
+| 🟠 | 🍄 Shiitake powder (use what you have) | 11 g | |
+| 🟠 | 🫚 Dried ginger powder | 1.5 g | |
+| 🟡 | 🌱 Spring onion | 4-5 stalks | |
+| 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | |
+| 🟠 | 🫙 White miso (whisk in off heat, never boil) | 30 g | |
+| 🟣 | 🍯 Mirin | 30 ml | |
+| 🟢 | 🥬 Bok choi (shredded fine, folded in at end) | 400 g | |
+| 🟣 | 🌰 Sesame seeds (garnish) | 1 tbsp | |
+| 🟢 | 🌿 Nori flakes (garnish) | generous | |
+| 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🌽 Frozen corn (partially thawed) | 1500 g | |
-| 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | |
-| 🍶 Tsuyu concentrate (Clearspring) | 104 ml | |
-| 💧 Water | 1800 ml | |
-| 🍄 Shiitake powder (use what you have) | 11 g | |
-| 🟤 Dried ginger powder | 1.5 g | |
-| 🌱 Spring onion | 4-5 stalks | |
-| 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | |
-| 🫙 White miso (whisk in off heat, never boil) | 30 g | |
-| 🍯 Mirin | 30 ml | |
-| 🥬 Bok choi (shredded fine, folded in at end) | 400 g | |
-| ⚫ Sesame seeds (garnish) | 1 tbsp | |
-| 🌿 Nori flakes (garnish) | generous | |
-| 🌻 Sesame oil (garnish drizzle) | 1 tbsp | |
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · ⚪ Stock · 🔵 Protein · 🟣 Seasoning*
 
 ---
 
@@ -62,7 +39,7 @@ XHTML Header: <script>
 
 > **Note:** Allow 🌽 corn to partially thaw before loading. No soaking needed for 🫘 soybeans. Shred 🥬 bok choi finely (chiffonade the leaves, fine julienne the stems) during the long pressure cook — set aside.
 
-1. Place rack in Ninja. Put 🫘 soybeans in steaming basket and set on rack. Add 🌽 corn, 🍶 Tsuyu, 💧 1800 ml water, 🍄 shiitake powder and 🟤 dried ginger powder. Seal — high pressure, 35 min, natural release.
+1. Place rack in Ninja. Put 🫘 soybeans in steaming basket and set on rack. Add 🌽 corn, 🍶 Tsuyu, 💧 1800 ml water, 🍄 shiitake powder and 🫚 dried ginger powder. Seal — high pressure, 35 min, natural release.
 
 2. At about 100 minutes (during natural release): slice 🌱 spring onion, keeping white and green parts separate. Sauté white parts in 🌻 sesame oil in wok on low heat, 2–3 min until softened. Set aside.
 
@@ -70,7 +47,7 @@ XHTML Header: <script>
 
 4. Return blended corn to Ninja on lowest heat. Whisk in 🫗 dashi-soy and 🫙 white miso — taste as you go. Tsuyu has loaded plenty of salt, so add the white miso gradually and taste. Add 🍯 mirin. Do not allow to boil after this point. Stir in sautéed 🌱 spring onion white parts and drained 🫘 soybeans. Finally, fold in shredded 🥬 bok choi — residual heat wilts it in 30–60 seconds; stems retain slight crunch.
 
-5. Serve in bowls. Scatter 🌱 spring onion green parts, ⚫ sesame seeds and 🌿 nori flakes. Drizzle 🌻 sesame oil at the table.
+5. Serve in bowls. Scatter 🌱 spring onion green parts, 🌰 sesame seeds and 🌿 nori flakes. Drizzle 🌻 sesame oil at the table.
 
 ---
 
