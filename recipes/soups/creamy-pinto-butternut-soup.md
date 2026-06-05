@@ -9,17 +9,17 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
 | 🟢 | 🌽 Frozen corn (partially thawed) | 500 g | 440 | |
-| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | 450 | |
-| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | |
-| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | |
-| 🔵 | 🌊 Kombu (one strip, in the pot) | ~10 g | ~2 | |
+| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | 450 | 1390 g |
+| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | 40 g |
+| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | 8 g |
+| 🔵 | 🌊 Kombu (one strip, in the pot) | ~10 g | ~2 | 10 g |
 | 🔵 | 💧 Water | 1700 ml | 0 | |
 | 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | |
 | 🟣 | 🫒 Mild olive oil | 15 g | 133 | |
-| 🟠 | 🌰 Ground cumin | 6 g | 22 | |
-| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | |
-| 🟡 | 🧄 Garlic powder | 5 g | 17 | |
-| 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | |
+| 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | 9 g |
+| 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |
+| 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | 767 g |
 | 🟣 | 🫗 Liquid aminos | 30 ml | 15 | |
 | 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
