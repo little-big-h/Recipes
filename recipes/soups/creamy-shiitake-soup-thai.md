@@ -12,7 +12,7 @@
 | 🟡 | 🧅 Onions, diced | 3 large | |
 | 🟡 | 🧄 Garlic | 50 g | |
 | 🟠 | 🍛 Yellow curry paste | 40 g | |
-| 🟠 | 💚 Green curry paste | 20 g | |
+| 🟠 | 🫙 Green curry paste | 20 g | |
 | 🟠 | 🎋 Lemongrass paste | 30 g | |
 | 🟠 | 🪨 Galangal paste | 25 g | |
 | ⚪ | 💧 Water | 1000 ml | |
@@ -41,7 +41,7 @@
 
 > **Note:** Soak 🍄 shiitake in 1600 ml cold water for 2+ hours or overnight. Reserve all soaking water.
 
-1. In Ninja on saute mode: saute 🧅 onions and 🧄 garlic until golden, 7–8 min. Add 🍛 yellow paste, 💚 green paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 45 sec. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
+1. In Ninja on saute mode: saute 🧅 onions and 🧄 garlic until golden, 7–8 min. Add 🍛 yellow paste, 🫙 green paste, 🎋 lemongrass paste and 🪨 galangal paste with a splash of water — bloom 45 sec. Add soaked 🍄 shiitake, all soaking water, 💧 1000 ml water, 🍶 Tsuyu concentrate and 🍃 makrut lime leaves. Seal — pressure cook on high pressure, 15 min, natural release.
 
 2. Once Ninja done: remove 🍃 lime leaves. Blend completely smooth with 🫘 silken tofu. Adjust consistency with a splash of 💧 water if needed.
 

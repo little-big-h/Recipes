@@ -1,18 +1,3 @@
-<!--
-XHTML Header: <script>
-    (function($){
-        $(function(){
-            var $rows=$('table').eq(1).find('tbody tr');
-            $rows.filter(':nth-child(2),:nth-child(4),:nth-child(5),:nth-child(12),:nth-child(14)').css('background-color','#d9f2d9');
-            $rows.filter(':nth-child(1),:nth-child(6)').css('background-color','#e0ebfa');
-            $rows.filter(':nth-child(3)').css('background-color','#faedd9');
-            $rows.filter(':nth-child(11)').css('background-color','#ebebeb');
-            $rows.filter(':nth-child(7),:nth-child(8),:nth-child(9),:nth-child(10),:nth-child(13),:nth-child(15)').css('background-color','#ebd9f5');
-        });
-    })(jQuery);
-    </script>
--->
-
 # Nordic White Asparagus & Rice Salad
 
 *Cold composed salad using leftover rice. Jarred white asparagus, gherkins, capers and horseradish-miso dressing. Build-your-own format — air-fried tofu and hard-boiled eggs served separately. Family of five. Low fat.*
@@ -27,31 +12,25 @@ XHTML Header: <script>
 
 ## Ingredients
 
-<table><tbody><tr>
-<td style="background:#d9f2d9;padding:3px 10px">Vegetables</td>
-<td style="background:#e0ebfa;padding:3px 10px">Protein</td>
-<td style="background:#faedd9;padding:3px 10px">Acid</td>
-<td style="background:#ebebeb;padding:3px 10px">Stock</td>
-<td style="background:#ebd9f5;padding:3px 10px">Seasoning</td>
-</tr></tbody></table>
+| Type | Ingredient | Planned | Actual used |
+|:----:|:-----------|:-------:|:-----------:|
+| 🔵 | 🥚 Eggs (hard-boiled) | 8–10 | |
+| 🟢 | 🍚 Cooked rice (cold leftover) | 600 g | |
+| 🟤 | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | |
+| 🟢 | 🌿 Fresh dill (rice + plate) | large bunch | |
+| 🟢 | 🥒 Gherkins, sliced + brine splash for rice | generous | |
+| 🔵 | 🧊 Firm tofu, microwaved & sliced | 500 g | |
+| 🟣 | 💦 Liquid aminos (tofu marinade) | 20 g | |
+| 🟣 | 🌭 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | |
+| 🟣 | 🫚 Horseradish cream (dressing) | 2 tbsp (~30 g) | |
+| 🟣 | 🫙 White miso (dressing) | 15 g | |
+| ⚪ | 💧 Water (to thin dressing) | 3–4 tbsp | |
+| 🟢 | 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | |
+| 🟣 | 🫒 Capers (on plate) | 3 tbsp (~30 g) | |
+| 🟢 | 🍞 Rye bread | to serve | |
+| 🟣 | 🧂 Salt and white pepper | to taste | |
 
-| Ingredient | Planned | Actual used |
-|:-----------|:-------:|:-----------:|
-| 🥚 Eggs (hard-boiled) | 8–10 | |
-| 🍚 Cooked rice (cold leftover) | 600 g | |
-| 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | |
-| 🌿 Fresh dill (rice + plate) | large bunch | |
-| 🥒 Gherkins, sliced + brine splash for rice | generous | |
-| ⬜ Firm tofu, microwaved & sliced | 500 g | |
-| 💦 Liquid aminos (tofu marinade) | 20 g | |
-| 🟡 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | |
-| 🔴 Horseradish cream (dressing) | 2 tbsp (~30 g) | |
-| 🫙 White miso (dressing) | 15 g | |
-| 💧 Water (to thin dressing) | 3–4 tbsp | |
-| 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | |
-| 🟦 Capers (on plate) | 3 tbsp (~30 g) | |
-| 🍞 Rye bread | to serve | |
-| ⚫ Salt and white pepper | to taste | |
+*Legend: 🟢 Vegetables · ⚪ Stock · 🔵 Protein · 🟣 Seasoning · 🟤 Acid*
 
 ---
 
@@ -67,15 +46,15 @@ XHTML Header: <script>
 
 1. (0–10 min) Hard-boil 🥚 eggs: place in cold water, bring to boil, simmer 10 minutes, cool in cold water, peel and halve. **Start immediately — runs in parallel with everything else.**
 
-2. (0–5 min) Dress cold leftover 🍚 rice generously with 🍋 lemon juice, chopped 🌿 dill and ⚫ salt. Add a splash of 🥒 gherkin brine to loosen and season. Toss well and set aside.
+2. (0–5 min) Dress cold leftover 🍚 rice generously with 🍋 lemon juice, chopped 🌿 dill and 🧂 salt. Add a splash of 🥒 gherkin brine to loosen and season. Toss well and set aside.
 
-3. (5–10 min) Microwave ⬜ tofu 5 minutes to dry. Slice into slabs. Mix 💦 liquid aminos, 🟡 Dijon mustard and a squeeze of 🍋 lemon juice; coat tofu and marinate 10–15 minutes.
+3. (5–10 min) Microwave 🧊 tofu 5 minutes to dry. Slice into slabs. Mix 💦 liquid aminos, 🌭 Dijon mustard and a squeeze of 🍋 lemon juice; coat tofu and marinate 10–15 minutes.
 
-4. (10–15 min) Make the dressing: whisk 🟡 Dijon mustard, 🔴 horseradish cream, 🫙 white miso and 🍋 lemon juice. Thin with 💧 water to a pourable consistency. Sharp, creamy and savoury — adjust to taste.
+4. (10–15 min) Make the dressing: whisk 🌭 Dijon mustard, 🫚 horseradish cream, 🫙 white miso and 🍋 lemon juice. Thin with 💧 water to a pourable consistency. Sharp, creamy and savoury — adjust to taste.
 
-5. (20–28 min) Air fry ⬜ tofu at 180°C for 8 minutes, turning once.
+5. (20–28 min) Air fry 🧊 tofu at 180°C for 8 minutes, turning once.
 
-6. (28–35 min) Drain 🥦 white asparagus gently. Slice 🥒 gherkins. Arrange everything on the table separately: 🍚 rice, 🥦 asparagus, ⬜ tofu, halved 🥚 eggs, 🥒 gherkins, 🟦 capers, dressing, 🌿 dill and 🍞 rye bread.
+6. (28–35 min) Drain 🥦 white asparagus gently. Slice 🥒 gherkins. Arrange everything on the table separately: 🍚 rice, 🥦 asparagus, 🧊 tofu, halved 🥚 eggs, 🥒 gherkins, 🫒 capers, dressing, 🌿 dill and 🍞 rye bread.
 
 7. Everyone assembles their own plate.
 

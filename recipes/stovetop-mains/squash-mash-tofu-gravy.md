@@ -20,7 +20,7 @@
 | ⚪ | 🥄 Vegetable stock | 700 ml | |
 | 🟣 | 🫒 Avocado oil (tofu) | 3 g | |
 | 🟠 | 🌶️ Smoked paprika (tofu) | 3 g | |
-| 🟠 | 🧄 Garlic powder (tofu) | 2 g | |
+| 🟠 | 🍂 Garlic powder (tofu) | 2 g | |
 | 🟠 | 🧆 Black pepper (tofu) | 1 g | |
 | 🟠 | 🍄 Shiitake powder (tofu) | 5 g | |
 | 🟣 | 🍷 Balsamic vinegar (gravy) | 2 tbsp | |
@@ -46,7 +46,7 @@
 
 > **Ninja pipeline:** air fry the tofu first, then switch to pressure cook for the squash. The gravy runs on the hob the entire time.
 
-1. From 0 min: microwave 🧊 tofu 5 minutes to dry it out. Cut into cubes. Toss in 🫒 avocado oil, then 🌶️ smoked paprika, 🧄 garlic powder, 🧆 black pepper and 🍄 shiitake powder (active prep through about 10 min).
+1. From 0 min: microwave 🧊 tofu 5 minutes to dry it out. Cut into cubes. Toss in 🫒 avocado oil, then 🌶️ smoked paprika, 🍂 garlic powder, 🧆 black pepper and 🍄 shiitake powder (active prep through about 10 min).
 
 2. At about 10 min: air fry 🧊 tofu in Ninja at 180°C for 8 minutes. Set aside (done by about 20 min).
 
