@@ -43,7 +43,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 - **Yellow curry paste (Mae Ploy)** — ~10% salt
 - **Green curry paste**
 - **Whole spices**: cumin seeds, mustard seeds (black/brown), coriander seeds, dried red chilies (bird's eye), chipotles, ancho flakes
-- **Ground spices**: turmeric, dried ginger powder, ground coriander
+- **Ground spices**: turmeric, dried ginger powder, ground coriander, **cinnamon** (loads — ⚠ run-down use-up priority; favour cinnamon-friendly dishes before the move)
 
 ### Aromatics (long-life forms)
 
