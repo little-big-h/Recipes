@@ -36,7 +36,8 @@ This file is read automatically at session start. **For full project context, re
 
 ## Forward-protocol decisions
 
-- **FoodNoms-verified nutrition:** replace estimated nutrition with FoodNoms-verified totals **as recipes are cooked again**. No retroactive batch-update work. When you update a recipe's nutrition block, remove any "estimates, not FoodNoms-verified" caveat in the corresponding `remarks` row.
+- **Nutrition ground truth = the USDA → FoodNoms pipeline.** Generate recipe nutrition from authentic USDA FoodData Central values (resolved via `docs/INGREDIENT_MAP.md` first, USDA fallback `docs/USDA_FDC.md` / `tools/fdc-lookup.wl`), computed in Wolfram, per the playbook `docs/RECIPE_NUTRITION_GENERATOR.md`. **These USDA-derived numbers supersede any ad-hoc per-100 g estimates.** Still flagged **"USDA-derived, not FoodNoms-verified"** — only a real FoodNoms reconciliation on a cook clears that.
+- **FoodNoms-verified nutrition:** replace USDA-derived totals with FoodNoms-verified totals **as recipes are cooked again**. No retroactive batch-update work. When you update a recipe's nutrition block, remove any "not FoodNoms-verified" caveat in the corresponding `remarks` row.
 - **Nutrition provenance is uncertain for some current-project recipes.** The `cooked-historical` migrated recipes are flagged as estimates. The current-project recipes (Thai shiitake, Thai butternut curry, Japanese corn soup) were *not* flagged but their provenance was never confirmed. Treat them as unverified until Holger confirms.
 
 ## Communication style
