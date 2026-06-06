@@ -127,6 +127,8 @@ See recipe file: `../recipes/soups/creamy-corn-soup-japanese-v3.md`. Also `RATIN
 
 **Outcome:** *(unfilled — v2 not yet cooked)*
 
+> **Note:** the planned `creamy-pinto-butternut-soup-v2.md` ("Bold") is **not** this test — it changes corn, cauliflower, white miso *and* the whole spice level at once, so a Jannes change there can't be attributed to the miso. The clean single-variable test (white-for-red, all else held, salt matched) still needs its own cook.
+
 See recipe file: `../recipes/soups/creamy-pinto-butternut-soup.md` (documents the white-swap option). Also `RATINGS.md` remark #35.
 
 ---
