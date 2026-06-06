@@ -8,25 +8,25 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | |
-| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 50 g | 174 | |
-| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 12 g | 36 | |
-| 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | |
-| 🔵 | 💧 Water | 1600 ml | 0 | |
-| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | |
-| 🟣 | 🥑 Avocado oil | 15 g | 133 | |
-| 🟠 | 🌰 Ground cumin | 12 g | 45 | |
-| 🟠 | 🌿 Ground coriander | 6 g | 18 | |
-| 🟠 | 🫑 Sweet paprika (NOT smoked) | 12 g | 38 | |
-| 🟡 | 🧄 Garlic powder | 8 g | 26 | |
-| 🟠 | 🥫 Tomato paste (bloom ~1 min — the umami anchor) | 35 g | 36 | |
-| 🟢 | 🌼 Cauliflower (florets, steamed separately) | 450 g | 112 | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 25 g | 48 | |
-| 🟣 | 🫗 Liquid aminos | 40 ml | 34 | |
-| 🟣 | 🧂 Fine salt (to taste) | ~6 g | 0 | |
+| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | 1600 g |
+| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 50 g | 174 | 67 g |
+| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 12 g | 36 | 16 g |
+| 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
+| 🔵 | 💧 Water | 1600 ml | 0 | ~2100 ml |
+| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 465 g |
+| 🟣 | 🥑 Avocado oil | 15 g | 133 | 20 g |
+| 🟠 | 🌰 Ground cumin | 12 g | 45 | 16 g |
+| 🟠 | 🌿 Ground coriander | 6 g | 18 | 8 g |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 12 g | 38 | 16 g |
+| 🟡 | 🧄 Garlic powder | 8 g | 26 | 11 g |
+| 🟠 | 🥫 Tomato paste (bloom ~1 min — the umami anchor) | 35 g | 36 | 47 g |
+| 🟢 | 🌼 Cauliflower (florets, steamed separately) | 450 g | 112 | 600 g |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 25 g | 48 | 33 g |
+| 🟣 | 🫗 Liquid aminos | 40 ml | 34 | 53 ml |
+| 🟣 | 🧂 Fine salt (to taste) | ~6 g | 0 | ~8 g |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
 | 🟠 | 🌶️ Bird's-eye chilli, rehydrated (at table, adults) | to taste | — | |
-| | **Total** | **~3.8 kg** | **~2493** | |
+| | **Total** | **~3.8 kg** | **~2493** | ~5.1 kg |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
