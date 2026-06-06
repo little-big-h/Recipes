@@ -161,6 +161,11 @@ Identical to a meal, but `collectionType` is `3` and the header carries the
 yield (`totalServingSize` = total cooked weight, `servings`, `servingSizeUnit`).
 Each `foodEntries[]` object is an ingredient with its `quantity`.
 
+**Omit, don't zero.** Leave out optional or at-table items (garnish drizzles,
+"to taste" seasonings, anything excluded from the recipe's energy tally)
+entirely — do not add an entry with `calories: 0`. Only include ingredients that
+contribute to the recipe as accounted.
+
 ```jsonc
 {
   "version": 2,
@@ -221,7 +226,7 @@ Each `foodEntries[]` object is an ingredient with its `quantity`.
 | `name` | both | Display name. |
 | `foodID` | both | Identity; see schemes below. |
 | `version` | both | `1`. |
-| `baseAmount` | both | The amount the `nutrients` are stated for (usually `100`). |
+| `baseAmount` | both | The amount the `nutrients` are stated for. **Always `100`** (`baseUnit` `gram` for solids, `milliliter` for liquids). |
 | `baseUnit` | both | `"gram"`, `"milliliter"`, or `"serving"`. |
 | `traits` | both | Flag bitfield, normally `0`. |
 | `nutrients` | both | Per-`baseAmount` values (see §8). |
@@ -269,11 +274,14 @@ file, mint a fresh uppercase UUID and use `local:<UUID>`. Don't fabricate
 
 ## 8. `nutrients` reference
 
-`nutrients` values are stated **per `baseAmount` of `baseUnit`** (typically per
-100 g). To compute what a `foodEntries[]` item actually contributes:
+`nutrients` values are stated **per `baseAmount` of `baseUnit`**. **Always set
+`baseAmount: 100`** with `baseUnit: "gram"` for solids and `baseUnit:
+"milliliter"` for liquids — i.e. always give values per 100 g / 100 ml. Never
+state nutrients per the actual ingredient amount; that is what `quantity` is for.
+To compute what a `foodEntries[]` item actually contributes:
 
 ```
-contribution = nutrients[key] × quantity / baseAmount
+contribution = nutrients[key] × quantity / 100
 ```
 
 Only `calories` is effectively required; include whatever else you have. All keys
@@ -297,12 +305,15 @@ minerals in mg, trace vitamins/minerals in µg.)
    amounts/yield → §6.
 2. **Build the JSON** per that section. Defaults that almost always hold:
    `version: 2` (root), `version: 1` (objects), `traits: 0`, `uncertainty: 0`,
-   `baseAmount: 100`, `baseUnit: "gram"`.
+   `baseAmount: 100` (always), `baseUnit: "gram"` (use `"milliliter"` for
+   liquids).
 3. **Identity:** for custom foods, mint `local:<fresh-UUID>`. Only reuse
    `foodnoms:usda:…`/`ciqual:…` ids copied verbatim from real data.
-4. **Nutrients:** stated per `baseAmount`; include at least `calories`.
+4. **Nutrients:** stated **per 100 g / 100 ml** (`baseAmount` is always `100`);
+   include at least `calories`.
 5. **Entries:** every `foodEntries[]` item needs `quantity` (amount in
-   `baseUnit`) and a `measure`.
+   `baseUnit`) and a `measure`. **Omit** optional/at-table ingredients rather
+   than giving them `calories: 0`.
 6. **Recipe header:** set `totalServingSize`, `servingSizeUnit`, `servings`.
 7. **Encode** with the LZFSE snippet in §2 and save as `<name>.foodnoms`.
 
