@@ -27,6 +27,7 @@ Reference docs for specific dish families and project infrastructure:
 - `docs/PANTRY.md` — staples always in stock; recipe-design reference
 - `docs/EXPERIMENTS.md` — active hypothesis tests and ablation protocols (e.g. Lara smoked paprika, Japanese corn soup white-vs-red miso)
 - `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (LZFSE-compressed JSON); samples in `examples/`
+- `docs/USDA_FDC.md` — pulling authentic USDA nutrition via Wolfram → FoodNoms blocks; helper in `tools/fdc-lookup.wl`
 
 Individual recipe files live under `recipes/`, grouped by dish type.
 
@@ -47,7 +48,11 @@ Recipes/
 │   ├── PANTRY.md                              Staples-in-stock reference
 │   ├── EXPERIMENTS.md                         Hypothesis tests and ablation protocols
 │   ├── FOODNOMS_FORMAT.md                     .foodnoms file format spec
+│   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms (via Wolfram)
 │   └── Nussinow_Cooking_Times.md              Pressure-cooking reference
+│
+├── tools/                                     Helper scripts
+│   └── fdc-lookup.wl                          USDA FDC fetch + map to FoodNoms (Wolfram)
 │
 ├── design/                                    Dish-family design libraries
 │   ├── CORN-SOUPS.md                          Corn soup 7-profile matrix
