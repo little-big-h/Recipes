@@ -18,16 +18,16 @@
    (e.g. sugars on FNDDS foods), so it does not match FoodNoms' stored numbers.
    Full carries unrounded amounts and the complete panel.
 
-   API key: DEMO_KEY is rate-limited (~30 req/hr, 1000/day per IP) — easy to trip
-   on a batch. Set a free key from https://fdc.nal.usda.gov/api-key-signup.html :
-     $FDCApiKey = "...";
+   API key: the project key is set below. It's a free FDC key (rate-limited to
+   ~1000 req/day per IP); the repo is private. Override per-session if needed:
+     $FDCApiKey = "..."   (sign-up: https://fdc.nal.usda.gov/api-key-signup.html)
 
    Output is per 100 g / 100 ml, i.e. baseAmount 100 — ready to drop into a
    .foodnoms nutrients block (see docs/FOODNOMS_FORMAT.md). dataType maps to the
    format's secondarySource via fdcSecondarySource[].
 *)
 
-$FDCApiKey = "DEMO_KEY";
+$FDCApiKey = "CQawDjU3RVijSYCgvhRxH1ReIT12ZS02LkbXX3f1";
 
 (* name -> ranked candidate records *)
 fdcSearch[query_String, n_Integer : 5] := Module[{data},
