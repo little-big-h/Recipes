@@ -113,6 +113,7 @@ The Indian profile received the most substantial technique upgrade after the sou
 | Toasted mustard seeds, ground (earthy backbone — Holger's preference) | 3–4 g |
 | Dried ginger powder | 1 g |
 | Tikka masala blend | 6 g |
+| Tomato paste (bloom ~1 min before the passata — **the umami anchor**) | 1 tbsp (~15 g) |
 
 **Finishing:**
 
@@ -124,16 +125,28 @@ The Indian profile received the most substantial technique upgrade after the sou
 
 1. Bloom garlic in oil 30 sec
 2. Add cumin + ground mustard + ginger + tikka masala — bloom 30 sec, watch heat
-3. Tip in the chili soak (whole contents)
-4. Add passata, simmer 5 min
-5. Wilt spinach
-6. Wells, eggs, cover
+3. Add tomato paste, fry ~1 min until it darkens (builds umami)
+4. Tip in the chili soak (whole contents)
+5. Add passata, simmer 5 min
+6. Wilt spinach
+7. Wells, eggs, cover
 
 ### Variations tested
 
 - **Yoghurt swirl at end**: classic but Holger didn't have it; tested coconut milk + sumac at table — worked
 - **Nutritional yeast** (PDF spec: 15 g): caution — its cheesy/savoury character muddies the spice clarity. Skip for Indian even though it's in the PDF matrix
 - **Lemon**: skip — wrong direction for acid balance (adds to tomato acidity); also Lara dislikes sourness. Sumac is the right brightness move
+
+### Umami — learned the hard way (2026-06-06)
+
+A garlic-powder build with **no umami anchor** (soy/miso/aminos correctly skipped as off-cuisine, but nothing put in their place) came out **flat**. Holger over-salted chasing the missing savouriness, then had to rescue it with sumac. **That salt → acid-rescue spiral is the signature of an umami deficit, not a salt one — salt can't supply umami.**
+
+The umami must come **in-cuisine**, not from soy and not from salt:
+- **Bloom tomato paste (bhuna)** — 1 tbsp fried with the spices before the passata. The easiest, most authentic fix; now in the build above.
+- **Browned onion base** — the real Indian umami engine (more effort; the profile drops onion for speed).
+- **Kasoori methi** (dried fenugreek), a pinch at the end — signature tikka depth.
+- **Yoghurt / coconut-milk** finish for lactic roundness.
+- From-stock shortcut: a little **shiitake powder** is a more neutral umami than miso/aminos — not classically Indian, but far less jarring than soy.
 
 ### Cumin/tikka balance principle
 
