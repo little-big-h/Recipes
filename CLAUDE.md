@@ -4,6 +4,18 @@ This file is read automatically at session start. **For full project context, re
 
 ---
 
+## ⚠ Active constraint — pantry run-down (temporary, until ~Aug 2026)
+
+**Holger is moving to Singapore in ~2 months (~August 2026).** Until the move:
+
+- **Do not buy — or recommend buying — new ingredients.** Design recipes around what is already in stock.
+- **Prioritise using up the spices and pastes on hand** — favour dishes and substitutions that deplete the pantry.
+- If a recipe would call for something not stocked, suggest an **in-stock substitute or omission**, never a purchase.
+
+*(Delete this section after the move.)*
+
+---
+
 ## Hard rules
 
 - **Use Wolfram, never Python** for any computation. Explicit user preference.

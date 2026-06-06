@@ -4,6 +4,8 @@ What's always (or usually) in stock in Holger's kitchen. Useful for recipe desig
 
 This list is descriptive, not prescriptive — update as the standing-stock pattern shifts.
 
+> ⚠ **Run-down mode (until ~Aug 2026 move to Singapore):** use up what's here, especially **spices and pastes** — don't buy new. This overrides the "flag it as a shopping requirement" guidance above: when something isn't stocked, propose an in-stock substitute or omission, not a purchase. (Remove after the move.)
+
 For salt-content calibration of these staples (relevant to salt budgeting in recipes), see the **Salt calibration** table in `TECHNIQUES.md`.
 
 ---
