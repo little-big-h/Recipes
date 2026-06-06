@@ -8,25 +8,25 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | |
-| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 50 g | 174 | |
-| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 12 g | 36 | |
-| 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | |
-| 🔵 | 💧 Water | 1600 ml | 0 | |
-| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | |
-| 🟣 | 🥑 Avocado oil | 15 g | 133 | |
-| 🟠 | 🌰 Ground cumin | 12 g | 45 | |
-| 🟠 | 🌿 Ground coriander | 6 g | 18 | |
-| 🟠 | 🫑 Sweet paprika (NOT smoked) | 12 g | 38 | |
-| 🟡 | 🧄 Garlic powder | 8 g | 26 | |
-| 🟠 | 🥫 Tomato paste (bloom ~1 min — the umami anchor) | 35 g | 36 | |
-| 🟢 | 🌼 Cauliflower (florets, steamed separately) | 450 g | 112 | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 25 g | 48 | |
-| 🟣 | 🫗 Liquid aminos | 40 ml | 34 | |
-| 🟣 | 🧂 Fine salt (to taste) | ~6 g | 0 | |
+| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | 1600 g |
+| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 50 g | 174 | 67 g |
+| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 12 g | 36 | 16 g |
+| 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
+| 🔵 | 💧 Water | 1600 ml | 0 | ~2100 ml |
+| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 465 g |
+| 🟣 | 🥑 Avocado oil | 15 g | 133 | 20 g |
+| 🟠 | 🌰 Ground cumin | 12 g | 45 | 16 g |
+| 🟠 | 🌿 Ground coriander | 6 g | 18 | 8 g |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 12 g | 38 | 16 g |
+| 🟡 | 🧄 Garlic powder | 8 g | 26 | 11 g |
+| 🟠 | 🥫 Tomato paste (bloom ~1 min — the umami anchor) | 35 g | 36 | 47 g |
+| 🟢 | 🌼 Cauliflower (florets, steamed separately) | 450 g | 112 | 600 g |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 25 g | 48 | 33 g |
+| 🟣 | 🫗 Liquid aminos | 40 ml | 34 | 53 ml |
+| 🟣 | 🧂 Fine salt (to taste) | ~6 g | 0 | ~8 g |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
 | 🟠 | 🌶️ Bird's-eye chilli, rehydrated (at table, adults) | to taste | — | |
-| | **Total** | **~3.8 kg** | **~2493** | |
+| | **Total** | **~3.8 kg** | **~2493** | ~5.1 kg |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -82,7 +82,8 @@
 - **What changed from v1 (a bolder reformulation, several variables).** Corn dropped; **white** miso for red; **cauliflower** for broccoli; and the seasoning cranked — cumin 6→12 g, sweet paprika 8→12 g, garlic powder 5→8 g, plus new **ground coriander** and the **bloomed tomato paste** umami anchor, with shiitake 8→12 g and white miso bumped. Butternut bumped 1000→1200 g to fill the volume corn left.
 - **Tomato paste is the bold-savoury engine.** v1 went flat because the sweet base had no umami anchor once the kombu was pulled; bhuna'd tomato paste (plus more shiitake + white miso) fixes that at the root — the boldness is *savoury depth*, not just more dry spice.
 - **Not the clean miso test.** This changes too many things at once to read as the white-vs-red miso experiment (`../../docs/EXPERIMENTS.md` #4) — keep that as a separate single-variable cook.
-- **Jannes / cauliflower flag.** Steamed on top is the *most visible* form of his one flagged vegetable dislike. If his rating drops, blend the cauliflower into the base next time (it purées smooth and vanishes) rather than topping with it.
+- **Jannes / cauliflower flag.** Steamed on top is the *most visible* form of his one flagged vegetable dislike. If his rating drops, blend the cauliflower into the base next time (it purées smooth and vanishes) rather than topping with it. *(First cook 2026-06-06: Jannes scored **7.8** — his best in the pinto line — with the cauliflower **on top**. The worry didn't bite; the bold savoury base seems to have carried it. Keep the blend-in option only if a future cook says otherwise.)*
 - **Heat.** Pot stays mild for the kids; the rehydrated bird's-eye chilli is an at-table adult option. Sweet (not smoked) paprika keeps it Lara-safe.
+- **Lara & the bold cumin.** First cook: Lara called it "spicy" though there's no chilli heat — Anja pins it on the **doubled cumin** (16 g at the scaled actual). For a Lara-inclusive version, pull cumin back toward the v1 level (~6 g) — the tomato paste, shiitake and miso still carry the depth — or treat the cranked cumin as an adults-lean choice.
 - **Two-phase still earns its place** — it protects the whole-bean third. With corn gone, phase 1 no longer needs the full 30 min (it was for corn sweetness); ~10 min suffices to soften the squash.
 - **Run-down note:** uses only in-stock spices/pastes (cumin, coriander, paprika, garlic powder, tomato paste, shiitake, white miso, kombu) — no new buys.
