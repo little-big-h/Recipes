@@ -8,7 +8,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 540 | |
+| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | |
 | 🟡 | 🧅 Dried onion (into the pot — phase 1) | 50 g | 174 | |
 | 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 12 g | 36 | |
 | 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | |
@@ -17,16 +17,16 @@
 | 🟣 | 🥑 Avocado oil | 15 g | 133 | |
 | 🟠 | 🌰 Ground cumin | 12 g | 45 | |
 | 🟠 | 🌿 Ground coriander | 6 g | 18 | |
-| 🟠 | 🫑 Sweet paprika (NOT smoked) | 12 g | 34 | |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 12 g | 38 | |
 | 🟡 | 🧄 Garlic powder | 8 g | 26 | |
-| 🟠 | 🥫 Tomato paste (bloom ~1 min — the umami anchor) | 35 g | 29 | |
+| 🟠 | 🥫 Tomato paste (bloom ~1 min — the umami anchor) | 35 g | 36 | |
 | 🟢 | 🌼 Cauliflower (florets, steamed separately) | 450 g | 112 | |
 | 🟣 | 🫙 White miso (whisk in off heat, never boil) | 25 g | 48 | |
-| 🟣 | 🫗 Liquid aminos | 40 ml | 20 | |
+| 🟣 | 🫗 Liquid aminos | 40 ml | 34 | |
 | 🟣 | 🧂 Fine salt (to taste) | ~6 g | 0 | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
 | 🟠 | 🌶️ Bird's-eye chilli, rehydrated (at table, adults) | to taste | — | |
-| | **Total** | **~3.8 kg** | **~2431** | |
+| | **Total** | **~3.8 kg** | **~2493** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -62,18 +62,18 @@
 
 ## Nutrition
 
-*Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram. Without corn the base is less sweet and more savoury (the point). Loaded with umami (tomato paste + shiitake + white miso + kombu) so it shouldn't go flat like v1. High fibre (~105 g) and protein (~116 g). Vitamin D and B12 negligible — supplement separately. Salt ~12 g, inside the 10–15 g target.*
+*Total values for the whole recipe. **USDA-derived, not FoodNoms-verified** — per-ingredient USDA FoodData Central values (per 100 g) summed in Wolfram, ingredients resolved via `../../docs/INGREDIENT_MAP.md` + USDA lookups (`../../docs/RECIPE_NUTRITION_GENERATOR.md`). High fibre (~103 g) and protein (~110 g). Vitamin D and B12 negligible — supplement separately. **Micros are conservative**: several curated spice/paste records (cumin, coriander, white miso, shiitake powder) carry calories/macros only, so iron/calcium/magnesium/zinc are under-counted. **Salt ~7 g** computed (white-miso sodium absent from its record; true value likely ~9–10 g, still inside the 10–15 g target).*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2431 kcal | Iron | 45 mg |
-| Protein | 116 g | Calcium | 1450 mg |
-| Carbohydrates | 470 g | Zinc | 16 mg |
-| — of which sugars | 69 g | Magnesium | 1328 mg |
-| Fat | 29 g | Potassium | 12472 mg |
-| — of which saturates | 3 g | Vitamin D | 0.0 µg |
-| Fibre | 105 g | Vitamin B12 | 0.0 µg |
-| Salt | 12 g | Folate | 2496 µg |
+| Energy | 2493 kcal | Iron | 27 mg |
+| Protein | 110 g | Calcium | 932 mg |
+| Carbohydrates | 445 g | Zinc | 13 mg |
+| — of which sugars | 48 g | Magnesium | 954 mg |
+| Fat | 28 g | Potassium | 11691 mg |
+| — of which saturates | 4 g | Vitamin D | 0.0 µg |
+| Fibre | 103 g | Vitamin B12 | 0.0 µg |
+| Salt | 7 g | Folate | 2841 µg |
 
 ---
 
