@@ -324,6 +324,18 @@ Salt is the most-tracked nutritional metric across recipes. Major salt sources t
 
 Target salt totals for full family recipes: typically 10–15g (variance by recipe style).
 
+### Flat dish? It needs umami, not salt
+
+The most useful tasting diagnostic in the project. **When a dish tastes flat/hollow and your hand reaches for the salt, the deficit is usually umami, not salt.** The tell: you add salt, it's *still* not right, so you add more, and now it's too salty and you're chasing it with acid (lemon/sumac/vinegar) to rebalance. That **salt → acid-rescue spiral is the fingerprint of an umami hole** — salt and acid can't fill it.
+
+Fix: add an umami source, *then* re-taste for salt (you'll usually need less than you thought).
+
+- **Match the cuisine.** Indian → bloom tomato paste (bhuna), browned onion, kasoori methi, yoghurt. Japanese/East-Asian → miso (off heat), dashi-soy, kombu-shiitake dashi. Mexican/Med → tomato paste, capers, the bean-cooking liquor. Soy/miso/aminos in a tikka muddy it — keep umami in-cuisine.
+- **Glutamate × guanylate/inosinate multiply** — pairing two sources (e.g. kombu + shiitake, tomato + mushroom) is more than additive.
+- **Cross-cuisine shortcut: mushroom powder.** A small pinch boosts umami with little cuisine signature. **Porcini** integrates most seamlessly (deep, neutral, "rich" not "Asian"); plain white/cremini is most invisible; **shiitake** (stocked) works but is a touch more East-Asian-recognisable — keep the dose small.
+
+Validated twice: Anja's flat stew (rescued with shiitake powder) and the Tikka shakshuka (came out flat with no umami anchor → over-salted → sumac rescue; the cure was tomato paste, not salt).
+
 ---
 
 ## Gotchas (one-liners)
