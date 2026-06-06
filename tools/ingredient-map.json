@@ -446,7 +446,7 @@
   "baseUnit": "gram",
   "brand": null,
   "foodID": "foodnoms:usda:170501",
-  "name": "Tomatoes (Crushed, Canned)",
+  "name": "Tomatoes (Crushed, Canned, No Added Salt)",
   "per100": {
    "alcohol": 0,
    "caffeine": 0,
@@ -472,7 +472,7 @@
    "protein": 1.64,
    "riboflavin": 0.052,
    "selenium": 0.6,
-   "sodium": 186,
+   "sodium": 28,
    "sugars": 4.4,
    "thiamin": 0.075,
    "vitaminA": 11,
