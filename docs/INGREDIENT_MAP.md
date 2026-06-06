@@ -15,6 +15,11 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > 'Spring Onion') store nutrients per *serving*, not per 100 g — prefer a
 > gram-based record (or a USDA fallback) when you need a per-gram basis.
 
+> **Breakfast passata.** For breakfast / shakshuka recipes, resolve "passata" to
+> **`Tomatoes (Crushed, Canned)` (`foodnoms:usda:170501`)** — Holger's actual
+> breakfast tin (salted crushed tomatoes: 32 kcal/100 g, sodium 186 mg/100 g).
+> Use this, *not* the generic tomato-purée record, for breakfast from now on.
+
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|
 | Asparagus | `foodnoms:usda:2709767` | gram | 20.0 | usda |
@@ -70,6 +75,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Spinach (Raw) | `foodnoms:usda:168462` | gram | 23.0 | usda |
 | Spring Onion | `local:EFC1C598-5279-4952-8CB9-922499A0BF10` | serving | 480.0 | local |
 | Tamarind | `foodnoms:usda:2709269` | gram | 239.0 | usda |
+| Tomatoes (Crushed, Canned) — breakfast passata | `foodnoms:usda:170501` | gram | 32.0 | usda |
 | Tsuyu Concentrate (Clearspring) | `local:1E1601EF-06F2-4CDE-9E28-FE455B639CE1` | milliliter | 44.4444 | local |
 | Water (for the dashi brew) | `local:3DC78E20-3965-4D2F-BFC1-433AB12B9AE7` | milliliter | 0.0 | local |
 | White Miso | `local:0CF95E20-08C5-4FFF-B889-E25F0B144CF9` | gram | 190.0 | local |
