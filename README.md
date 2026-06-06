@@ -28,6 +28,7 @@ Reference docs for specific dish families and project infrastructure:
 - `docs/EXPERIMENTS.md` — active hypothesis tests and ablation protocols (e.g. Lara smoked paprika, Japanese corn soup white-vs-red miso)
 - `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (LZFSE-compressed JSON); samples in `examples/`
 - `docs/USDA_FDC.md` — pulling authentic USDA nutrition via Wolfram → FoodNoms blocks; helper in `tools/fdc-lookup.wl`
+- `docs/RECIPE_NUTRITION_GENERATOR.md` — playbook: recipe `.md` → USDA → `.foodnoms` file + written-back Nutrition table
 
 Individual recipe files live under `recipes/`, grouped by dish type.
 
@@ -49,6 +50,7 @@ Recipes/
 │   ├── EXPERIMENTS.md                         Hypothesis tests and ablation protocols
 │   ├── FOODNOMS_FORMAT.md                     .foodnoms file format spec
 │   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms (via Wolfram)
+│   ├── RECIPE_NUTRITION_GENERATOR.md          Recipe -> USDA -> .foodnoms + Nutrition table
 │   └── Nussinow_Cooking_Times.md              Pressure-cooking reference
 │
 ├── tools/                                     Helper scripts
