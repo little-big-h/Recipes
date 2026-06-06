@@ -14,8 +14,13 @@
      fdcToFoodNoms[2685570]                   (* fdcId -> per-100g FoodNoms block *)
      fdcToFoodNomsByName["raw spinach"]       (* search + map top hit in one call *)
 
-   API key: DEMO_KEY is rate-limited (~30 req/hr, 1000/day per IP). Set a free
-   key from https://fdc.nal.usda.gov/api-key-signup.html :  $FDCApiKey = "...";
+   Uses format=full: the abridged format ROUNDS values and OMITS some nutrients
+   (e.g. sugars on FNDDS foods), so it does not match FoodNoms' stored numbers.
+   Full carries unrounded amounts and the complete panel.
+
+   API key: DEMO_KEY is rate-limited (~30 req/hr, 1000/day per IP) — easy to trip
+   on a batch. Set a free key from https://fdc.nal.usda.gov/api-key-signup.html :
+     $FDCApiKey = "...";
 
    Output is per 100 g / 100 ml, i.e. baseAmount 100 — ready to drop into a
    .foodnoms nutrients block (see docs/FOODNOMS_FORMAT.md). dataType maps to the
@@ -34,28 +39,40 @@ fdcSearch[query_String, n_Integer : 5] := Module[{data},
   {#["fdcId"], #["description"], #["dataType"]} & /@ Lookup[data, "foods", {}]
 ];
 
-(* raw FDC record (abridged) *)
+(* raw FDC record (full format) *)
 fdcFood[fdcId_] := URLExecute[
    "https://api.nal.usda.gov/fdc/v1/food/" <> ToString[fdcId] <>
-    "?api_key=" <> $FDCApiKey <> "&format=abridged", "RawJSON"];
+    "?api_key=" <> $FDCApiKey <> "&format=full", "RawJSON"];
+
+(* full-format row accessors: each row is
+   <|"nutrient"-><|"name"->..,"unitName"->..|>, "amount"->..|> *)
+fdcRowName[r_] := Lookup[Lookup[r, "nutrient", <||>], "name", ""];
+fdcRowUnit[r_] := ToUpperCase[Lookup[Lookup[r, "nutrient", <||>], "unitName", ""]];
+fdcRowAmt[r_]  := Lookup[r, "amount", Missing[]];
 
 (* Foundation foods often lack a plain Energy/KCAL row; fall back to Atwater *)
 fdcEnergyKcal[fn_List] := Module[{pick},
-  pick[name_] := Lookup[
-    SelectFirst[fn, #["name"] == name && #["unitName"] == "KCAL" &, <||>],
-    "amount", Missing[]];
+  pick[name_] := fdcRowAmt @ SelectFirst[fn,
+    fdcRowName[#] == name && fdcRowUnit[#] == "KCAL" &, <||>];
   FirstCase[
     {pick["Energy"], pick["Energy (Atwater General Factors)"],
      pick["Energy (Atwater Specific Factors)"]}, _?NumberQ, Missing[]]
 ];
 
+(* total-sugars row, robust to "Sugars, total including NLEA" vs "Total Sugars";
+   excludes "added sugars" *)
+fdcSugars[fn_List] := fdcRowAmt @ SelectFirst[fn,
+  With[{n = ToLowerCase @ fdcRowName[#]},
+    StringContainsQ[n, "sugars"] && StringContainsQ[n, "total"] &&
+    ! StringContainsQ[n, "added"]] &, <||>];
+
 (* fdcId -> per-100g block keyed by FoodNoms nutrient names *)
 fdcToFoodNoms[fdcId_] := Module[{data, fn, get},
   data = fdcFood[fdcId];
   fn = Lookup[data, "foodNutrients", {}];
-  get[pat_, unit_ : _] := Lookup[
-    SelectFirst[fn, StringMatchQ[#["name"], pat] && MatchQ[#["unitName"], unit] &, <||>],
-    "amount", Missing[]];
+  (* match by exact nutrient name; unit defaults to "any" *)
+  get[pat_, unit_ : _] := fdcRowAmt @ SelectFirst[fn,
+    StringMatchQ[fdcRowName[#], pat] && MatchQ[fdcRowUnit[#], unit] &, <||>];
   <|
    "name" -> data["description"], "fdcId" -> fdcId, "dataType" -> data["dataType"],
    "baseAmount" -> 100, "baseUnit" -> "gram",
@@ -63,7 +80,7 @@ fdcToFoodNoms[fdcId_] := Module[{data, fn, get},
       "calories" -> fdcEnergyKcal[fn],
       "protein" -> get["Protein"], "fat" -> get["Total lipid (fat)"],
       "carbs" -> get["Carbohydrate, by difference"],
-      "sugars" -> get["Sugars, total" ~~ ___], "fiber" -> get["Fiber, total dietary"],
+      "sugars" -> fdcSugars[fn], "fiber" -> get["Fiber, total dietary"],
       "fatSaturated" -> get["Fatty acids, total saturated"],
       "fatTrans" -> get["Fatty acids, total trans"],
       "fatMonounsaturated" -> get["Fatty acids, total monounsaturated"],
