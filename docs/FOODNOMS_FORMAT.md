@@ -9,7 +9,8 @@ The canonical samples this spec is derived from live in [`../examples/`](../exam
 
 | File | Type |
 |------|------|
-| `Spinach (Raw).foodnoms`, `Coconut Water.foodnoms`, `Bayerischer Tafel-Meerrettich.foodnoms` | individual food |
+| `Asparagus (Raw).foodnoms`, `Black Beans.foodnoms`, `6 Scotch Pancakes.foodnoms` | individual food — **entry form** (`contentType 1`, the common one) |
+| `Spinach (Raw).foodnoms`, `Coconut Water.foodnoms`, `Bayerischer Tafel-Meerrettich.foodnoms` | individual food — **definition form** (`contentType 3`) |
 | `Flat White.foodnoms`, `Breakfast Shakshuka.foodnoms` | meal |
 | `Thai Yellow Butternut Squash Curry …`, `Spinach Paneer Curry …`, `Creamy Pinto, Butternut & Corn Soup …` | recipe |
 
@@ -23,11 +24,15 @@ fragments. You must compress to write one and decompress to read one.
 
 There are three logical things a file can carry, all using the same JSON:
 
-1. **Individual food** — one database/custom food (e.g. "Spinach (Raw)").
+1. **Individual food** — one food/product (e.g. "Asparagus (Raw)"). This has
+   **two encodings**: the common *entry form* (`contentType 1`) and a *definition
+   form* (`contentType 3`) — see §4.
 2. **Meal** — a list of foods eaten in one sitting (e.g. "Flat White").
 3. **Recipe** — an ingredient list with amounts and a yield (e.g. a curry).
 
-Which one it is comes from `contentType` (+ `collectionType`); see §3.
+Which one it is comes from `contentType` (+ `collectionType`); see §3. By volume,
+single foods in **entry form (`contentType 1`)** are by far the most common
+export — that is what FoodNoms produces when you share one food.
 
 ---
 
@@ -75,20 +80,71 @@ the type:
 
 | Type | `contentType` | Arrays present | `collectionType` | Collection-only fields |
 |------|:---:|---|:---:|---|
-| Individual food | `3` | `foods[]` | — | — |
+| Individual food — entry form | `1` | `foodEntries[]` (exactly one) | — | — |
+| Individual food — definition form | `3` | `foods[]` | — | — |
 | Meal | `2` | `foodCollections[]` + `foodEntries[]` | `2` | — |
 | Recipe | `2` | `foodCollections[]` + `foodEntries[]` | `3` | `totalServingSize`, `servings`, `servingSizeUnit` |
 
 - `version`: always `2` (file-format version; the per-object `version` is `1`).
-- `contentType`: `3` = a standalone food, `2` = a collection (meal or recipe).
-- A collection file has exactly one entry in `foodCollections[]` (the header)
-  and one or more `foodEntries[]` (the members/ingredients).
+- `contentType`: `1` = a single standalone food as a logged **entry**; `3` = a
+  single food as a **definition**; `2` = a collection (meal or recipe).
+- **`contentType 1` has no `foodCollections`** — just a one-item `foodEntries[]`.
+  It is the everyday "share a food" export and the most common file you will see.
+- A collection file (`contentType 2`) has exactly one entry in `foodCollections[]`
+  (the header) and one or more `foodEntries[]` (the members/ingredients).
 - A meal vs a recipe is told apart **only** by `collectionType` (`2` vs `3`) and
   the presence of the recipe yield fields.
 
 ---
 
-## 4. Type A — Individual food (`contentType: 3`)
+## 4. Type A — Individual food
+
+A single food has two encodings. **Prefer the entry form (`contentType 1`)** —
+it is what FoodNoms emits when you share one food, and it is ~97% of real files.
+
+### 4a. Entry form (`contentType: 1`) — the common one
+
+A bare one-item `foodEntries[]`, no `foodCollections`. The single entry has the
+same shape as a collection member (§7): it carries `quantity`, `measure` and
+`uncertainty`.
+
+```jsonc
+{
+  "version": 2,
+  "contentType": 1,
+  "foodEntries": [
+    {
+      "name": "Asparagus (Raw)",
+      "foodID": "foodnoms:usda:168389",  // or local:<UUID> for a custom food
+      "source": "usda",                  // present for database foods (see §7)
+      "secondarySource": "sr_legacy_food",
+      "version": 1,
+      "baseAmount": 100,                 // nutrients are PER 100 baseUnit (§8)
+      "baseUnit": "gram",
+      "traits": 0,
+      "uncertainty": 0,
+      "quantity": 1,                     // amount this entry represents, in baseUnit
+      "measure": { "unit": "cup", "value": 1, "traits": 0 },
+      "measures": [                      // optional alternative serving sizes
+        { "descriptionQuantity": 1, "descriptionText": "cup", "unit": "gram", "value": 134, "traits": 0 }
+      ],
+      "nutrients": { "calories": 20, "protein": 2.2, "carbs": 3.88, "fat": 0.12, "...": 0 },
+      "barcode": "5060195905578",        // optional (branded products)
+      "brandOwner": "Genius Foods"       // optional (branded products)
+    }
+  ]
+}
+```
+
+A minimal custom food in entry form needs `name`, `foodID` (`local:<UUID>`),
+`version`, `baseAmount` (100), `baseUnit`, `traits`, `uncertainty`, `quantity`,
+`measure`, and `nutrients` (at least `calories`). `measures`, `barcode`,
+`brandOwner`, `source`/`secondarySource` are optional.
+
+### 4b. Definition form (`contentType: 3`)
+
+A `foods[]` record (a food *definition* rather than a logged entry). It omits
+`quantity`/`measure`/`uncertainty` and may carry `isHidden`. Rare in practice.
 
 ```jsonc
 {
@@ -99,12 +155,12 @@ the type:
       "name": "Spinach (Raw)",
       "foodID": "local:85082DF3-65C6-415F-B4C2-425696EE7DBB",
       "version": 1,
-      "baseAmount": 100,            // nutrients are stated PER baseAmount baseUnit
+      "baseAmount": 100,
       "baseUnit": "gram",
       "traits": 0,
       "isHidden": false,
       "nutrients": { "calories": 23, "protein": 2.86, "carbs": 3.63, "fat": 0.39, "...": 0 },
-      "measures": [                 // optional alternative serving sizes
+      "measures": [
         { "descriptionQuantity": 1, "descriptionText": "cup", "unit": "gram", "value": 30, "traits": 0 }
       ],
       "barcode": "5059572001514",   // optional (branded products)
@@ -113,10 +169,6 @@ the type:
   ]
 }
 ```
-
-A minimal custom food only needs `name`, `foodID` (a `local:<UUID>`), `version`,
-`baseAmount`, `baseUnit`, `traits`, `nutrients` (at least `calories`). `measures`,
-`barcode`, `brandOwner`, `isHidden` are optional.
 
 ---
 
@@ -301,7 +353,8 @@ minerals in mg, trace vitamins/minerals in µg.)
 
 ## 9. Authoring checklist (for another Claude)
 
-1. **Pick the type:** standalone food → §4; one sitting → §5; recipe with
+1. **Pick the type:** standalone food → §4 (use the entry form §4a unless you
+   specifically need a definition record); one sitting → §5; recipe with
    amounts/yield → §6.
 2. **Build the JSON** per that section. Defaults that almost always hold:
    `version: 2` (root), `version: 1` (objects), `traits: 0`, `uncertainty: 0`,
@@ -321,22 +374,25 @@ minerals in mg, trace vitamins/minerals in µg.)
 
 ## 10. Worked round-trip
 
-Author a tiny custom food and write the file:
+Author a tiny custom food in the common **entry form** (`contentType 1`) and
+write the file:
 
 ```python
 import lzfse, json, uuid
 
 food = {
     "version": 2,
-    "contentType": 3,
-    "foods": [{
+    "contentType": 1,
+    "foodEntries": [{
         "name": "Tahini (Light)",
         "foodID": f"local:{str(uuid.uuid4()).upper()}",
         "version": 1,
         "baseAmount": 100,
         "baseUnit": "gram",
         "traits": 0,
-        "isHidden": False,
+        "uncertainty": 0,
+        "quantity": 100,
+        "measure": {"unit": "gram", "value": 1, "traits": 0},
         "nutrients": {
             "calories": 595, "protein": 17, "carbs": 21, "fat": 54,
             "fatSaturated": 7.6, "fiber": 9.3, "sodium": 30, "calcium": 426
@@ -351,7 +407,7 @@ blob = lzfse.compress(json.dumps(food, ensure_ascii=False).encode("utf-8"))
 open("Tahini (Light).foodnoms", "wb").write(blob)
 
 # verify it round-trips
-assert json.loads(lzfse.decompress(blob))["foods"][0]["name"] == "Tahini (Light)"
+assert json.loads(lzfse.decompress(blob))["foodEntries"][0]["name"] == "Tahini (Light)"
 ```
 
 The resulting `Tahini (Light).foodnoms` imports into FoodNoms as a custom food.
