@@ -97,11 +97,25 @@ Survey (FNDDS)→`survey_fndds_food`.
 ## Verification
 
 Five randomly-picked USDA-sourced entries from `examples/` were re-fetched live
-and compared to their recorded `nutrients` (per 100 g): quinoa, brown rice, tofu
-(nigari), canned lima bean, and a water entry. All macros, minerals and vitamins
-matched. The only deltas were **abridged-format rounding** (e.g. tofu 2.205→2.2)
-and **abridged-format omissions** (sugars missing on the two FNDDS foods) — both
-fixed by the switch to `format=full` above — plus trivial FoodNoms normalisation
-of a near-zero water placeholder. Conclusion: the data pulled here is the same
-data FoodNoms recorded.
+(with `format=full`) and compared to their recorded `nutrients` (per 100 g):
+**158/163 fields exact.**
+
+| Ingredient | fdcId | dataType | Result |
+|---|---|---|---|
+| Quinoa (Uncooked) | 168874 | SR Legacy | 31/31 exact |
+| Tofu (Hard, Nigari) | 174291 | SR Legacy | 30/30 exact |
+| Brown Rice, Raw | 169703 | SR Legacy | 36/36 exact |
+| Lima Bean (Canned) | 2709850 | FNDDS | 31/33 |
+| No Water | 2710706 | FNDDS | 30/33 |
+
+The three SR Legacy foods are byte-exact. The five residual deltas are all on
+FNDDS entries and are FoodNoms-side, not API errors: trivial normalisation of a
+near-zero water placeholder (No Water: `sodium 0 vs 3`, `water 100 vs 99.9`,
+`copper 0 vs 0.008`) and ~0.06% precision on two Lima Bean values (`carbs
+18.62 vs 18.6`, `water 70.64 vs 70.6`).
+
+This also confirmed the move from `abridged` to `full`: with abridged, tofu's
+fats came back rounded (`2.205→2.2`) and sugars was missing on the FNDDS foods;
+with full, both are exact. Conclusion: the data pulled here is the same data
+FoodNoms recorded.
 
