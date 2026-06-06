@@ -215,12 +215,15 @@ Per PDF spec. Not yet built with cooking-method detail — direction below is fr
 | Harissa powder | 3 g |
 | Ancho flakes | 2 g |
 | Toasted cumin seeds | 2 g |
+| Ground cinnamon (a whisper — or 2–3 g ras el hanout if out) | ~0.5 g |
 | Toasted mustard seeds | 2 g |
 | Dried chili | 1 pc |
 | Liquid aminos | 10 g |
 | Nutritional yeast | 15 g |
 
-**Method sketch:** bloom cumin + mustard in oil, add harissa + ancho, deglaze with passata. Otherwise standard shakshuka.
+**Method sketch:** bloom cumin + cinnamon + mustard in oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add harissa + ancho, deglaze with passata. Otherwise standard shakshuka.
+
+**Cinnamon — the Maghrebi note (added; first cook planned).** Cumin + cinnamon + tomato is the North African spine (tagine logic), so a *whisper* of cinnamon (~0.5 g, bloomed with the cumin) deepens this profile without reading as "cinnamon" — restraint is everything; more tips it dessert-ward. This is Holger's **solo breakfast**, so the warm-aromatic / Lara caution (below) doesn't apply. **Run-down:** cinnamon isn't a tracked staple — if you're out, your stocked **ras el hanout** *is* the cinnamon-cumin-warm-spice blend; use ~2–3 g in the bloom instead (same warmth, deeper backbone), no purchase.
 
 **Alternative direction (baharat-based, not yet built):** baharat blend (allspice + clove + cinnamon + black pepper + nutmeg + cardamom) + Aleppo pepper + pomegranate molasses + tomato paste. ⚠️ **Lara risk** — baharat contains warm aromatics (cinnamon, cardamom) that Lara potentially dislikes. Run a warm-aromatic ablation experiment before committing this direction to family use.
 
