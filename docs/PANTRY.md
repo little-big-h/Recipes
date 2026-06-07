@@ -79,6 +79,10 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 - **Sesame oil** — Japanese / Korean finishing
 - **Coconut milk** — standard reference: Biona Organic Light, 9% fat (see `TECHNIQUES.md`)
 
+### Dairy
+
+- **Milk** — default is **semi-skimmed** (milk.co.uk values: 47 kcal, 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml). Resolve a plain "milk" to this unless a recipe specifies whole/skimmed. See `docs/INGREDIENT_MAP.md`.
+
 ### Specialised
 
 - **Defatted peanut flour** — for West African corn soup; thickens + adds peanut flavour without coconut-milk-level fat

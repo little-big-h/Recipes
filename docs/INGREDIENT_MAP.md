@@ -25,6 +25,11 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > **committed estimate**, not pending verification: FoodNoms has no micro path, so
 > it stands as final. Supersedes the earlier `foodnoms:usda:170501` approximation.
 
+> **Milk.** Resolve a plain "milk" to **semi-skimmed**, **milk.co.uk** values
+> (`Milk (Semi-Skimmed)`, `local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D`): 47 kcal,
+> 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml. Holger's standard — use it
+> whenever a recipe just says "milk" unless it specifies whole/skimmed.
+
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|
 | Ancho Chile (Dried) | `foodnoms:usda:169396` | gram | 281.0 | usda |
@@ -63,7 +68,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
 | Lemongrass Paste | `foodnoms:fn:12201ed0-e2ef-4495-884f-0e5016e3630a` | gram | 47.0 | fn |
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | usda |
-| Milk (Semi-Skimmed, 2% Reduced Fat) | `foodnoms:usda:171267` | gram | 50.0 | usda |
+| Milk (Semi-Skimmed) — **default for "milk"** | `local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D` | milliliter | 47.0 | milk.co.uk |
 | Miso | `foodnoms:usda:2707439` | gram | 198.0 | usda |
 | MORI-NU (Tofu, Silken, Firm) | `foodnoms:usda:172461` | gram | 62.0 | usda |
 | Mustard Seeds (Ground) | `foodnoms:usda:170929` | gram | 508.0 | usda |
