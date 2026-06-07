@@ -74,7 +74,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 
 ### Fats
 
-- **Avocado oil** — **default general-purpose cooking oil** (Holger's standard; neutral, high smoke point). Reach for this unless a recipe specifies otherwise.
+- **Avocado oil** — **default general-purpose cooking oil** (Holger's standard; neutral, high smoke point). Reach for this unless a recipe specifies otherwise. **Holger uses ≤3 g per dish** (limited-fat approach) — default to 3 g, not a tablespoon.
 - **Mild olive oil** — also stocked; interchangeable where a recipe says "olive oil."
 - **Sesame oil** — Japanese / Korean finishing
 - **Coconut milk** — standard reference: Biona Organic Light, 9% fat (see `TECHNIQUES.md`)

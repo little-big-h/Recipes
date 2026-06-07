@@ -310,7 +310,7 @@ The third column of the ingredient table is "Actual used" — left blank in the 
 
 ### Salt calibration
 
-Salt is the most-tracked nutritional metric across recipes. Major salt sources to keep in mind:
+Salt is tracked across **family** recipes for **palatability** (the table has to work for the kids) — it is **not** a health constraint for Holger himself. As a high-mileage runner he benefits from the sodium (electrolyte replacement), so don't minimise salt in his solo dishes. The table below is for *estimating* the salt content of major sources, not for driving it down:
 
 | Source | Salt content |
 |:-------|:-------------|
@@ -322,7 +322,7 @@ Salt is the most-tracked nutritional metric across recipes. Major salt sources t
 | Stock cubes | ~2.5g per cube |
 | Liquid aminos | ~3g per 30ml |
 
-Target salt totals for full family recipes: typically 10–15g (variance by recipe style).
+Typical salt totals for full family recipes: ~10–15g (variance by recipe style) — a palatability range for shared meals, not a cap, and not applicable to Holger's own portions.
 
 ### Flat dish? It needs umami, not salt
 

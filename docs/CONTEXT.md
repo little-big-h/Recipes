@@ -20,7 +20,8 @@ Everything a Claude Code instance needs to know about the household, the cook, t
 
 - High-protein, high-carb meals support athletic recovery
 - Calcium matters (bone health under RED-S)
-- Salt budget tracked per recipe — typical target ~10–15g salt per family meal
+- **Salt is a positive for Holger, not a constraint.** As a high-mileage runner he sweats heavily and needs the sodium for electrolyte replacement. Do **not** minimise or flag salt in his solo dishes (breakfasts, his own portions) — report it as a neutral number.
+- Salt *is* tracked for **family meals**, but for **palatability** (kids/shared portions), not health — typical family range ~10–15g. Even there it's a taste lever, not a number to drive down.
 - Whole-food approach; avoids refined carbohydrates
 - Doesn't optimize every meal for protein — varied appealing meals are the goal
 

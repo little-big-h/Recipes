@@ -69,7 +69,7 @@ Amounts per single serving. `—` means not used. The base (passata + spinach + 
 | Passata | 400 g |
 | Spinach | 100 g |
 | Eggs | 2–3 |
-| Oil or ghee | 14 g (1 tbsp) |
+| Avocado oil | 3 g |
 
 ### Method (constant across profiles)
 
@@ -222,13 +222,14 @@ Per PDF spec. Not yet built with cooking-method detail — direction below is fr
 | Nutritional yeast | 15 g |
 
 *Spices dialled to **1.5×** per Holger (2026-06) — an intensity bump, not a bigger
-portion. Base (passata 400 g, spinach 100 g, 2 eggs ≈ 100 g, avocado oil 14 g) and
+portion. Base (passata 400 g, spinach 100 g, 2 eggs ≈ 100 g, avocado oil 3 g) and
 condiments (aminos, nooch) unchanged. Nutrition file:
 `examples/North African Shakshuka.foodnoms` (USDA-derived + harissa from its
-label; not FoodNoms-verified — clear on first cook): **527 kcal, 31 g protein,
-16 g fibre, salt 2.01 g** for the whole single serving. Note: the harissa spice
-mix is ~20 % salt (19.59 g/100 g), so at 4.5 g it alone contributes ~0.88 g salt —
-the single biggest sodium source in the dish. Dial harissa down if salt matters.*
+label; not FoodNoms-verified — clear on first cook): **430 kcal, 31 g protein,
+16 g fibre, salt 2.01 g** for the whole single serving. The harissa spice mix is
+~20 % salt (19.59 g/100 g) — at 4.5 g it's the biggest sodium source (~0.88 g
+salt). That's welcome, not a problem: this is Holger's solo breakfast and he
+replaces heavy training-sweat electrolyte losses — salt is a positive here.*
 
 **Method sketch:** bloom cumin + cinnamon + mustard in oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add harissa + ancho, deglaze with passata. Otherwise standard shakshuka.
 
@@ -361,7 +362,7 @@ Bright, herbal, slightly fiery. ⚠️ Lara may find this too heat-forward; buil
 | Sauerkraut (incl. liquid) | 240–320 g |
 | Liquid aminos | 10 g (small splash) |
 | Eggs | 2 |
-| Oil or ghee | 14 g |
+| Avocado oil | 3 g |
 
 ### Method specific to sauerkraut hash
 
