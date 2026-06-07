@@ -212,14 +212,21 @@ Per PDF spec. Not yet built with cooking-method detail — direction below is fr
 
 | Ingredient | Weight |
 |:-----------|-------:|
-| Harissa powder | 3 g |
-| Ancho flakes | 2 g |
-| Toasted cumin seeds | 2 g |
-| Ground cinnamon (a whisper — or 2–3 g ras el hanout if out) | ~0.5 g |
-| Toasted mustard seeds | 2 g |
-| Dried chili | 1 pc |
+| Harissa powder | 4.5 g |
+| Ancho flakes | 3 g |
+| Toasted cumin seeds | 3 g |
+| Ground cinnamon (a whisper — or 2–3 g ras el hanout if out) | ~0.75 g |
+| Toasted mustard seeds | 3 g |
+| Dried chili | 1–2 pc |
 | Liquid aminos | 10 g |
 | Nutritional yeast | 15 g |
+
+*Spices dialled to **1.5×** per Holger (2026-06) — an intensity bump, not a bigger
+portion. Base (passata 400 g, spinach 100 g, 2 eggs ≈ 100 g, avocado oil 14 g) and
+condiments (aminos, nooch) unchanged. Nutrition file:
+`examples/North African Shakshuka.foodnoms` (USDA-derived, not FoodNoms-verified —
+clear on first cook): **529 kcal, 31 g protein, 16 g fibre, salt 1.30 g** for the
+whole single serving.*
 
 **Method sketch:** bloom cumin + cinnamon + mustard in oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add harissa + ancho, deglaze with passata. Otherwise standard shakshuka.
 

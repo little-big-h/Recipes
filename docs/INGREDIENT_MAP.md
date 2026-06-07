@@ -23,6 +23,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|
+| Ancho Chile (Dried) | `foodnoms:usda:169396` | gram | 281.0 | usda |
 | Asparagus | `foodnoms:usda:2709767` | gram | 20.0 | usda |
 | Biona Light Coconut Milk | `local:2FD209A7-4292-467D-BE37-E9E704F325F0` | gram | 90.0 | local |
 | Black Bean | `foodnoms:usda:2707359` | gram | 181.0 | usda |
@@ -35,6 +36,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Carrot | `foodnoms:usda:2709660` | gram | 44.0 | usda |
 | Cauliflower | `foodnoms:usda:2709777` | gram | 25.0 | usda |
 | Chickpea (Dry) | `foodnoms:usda:2644282` | gram | 382.998 | usda |
+| Cinnamon (Ground) | `foodnoms:usda:171320` | gram | 247.0 | usda |
 | Cirio Canned Tomatoes | `local:5202374B-110E-4719-8237-CBB28AA7BC97` | gram | 25.0 | local |
 | Corn (Frozen, Cooked, No Added Fat) | `foodnoms:usda:2709911` | gram | 81.0 | usda |
 | Creamy Oat Organic | `foodnoms:fn:9fc7c5bc-930b-4ed9-8e93-3bbb8227ff77` | milliliter | 146.0 | fn |
@@ -43,6 +45,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Dried Coriander | `foodnoms:openai:31a17dc5-eacb-4320-956b-8f8579f13e1c` | gram | 300.0 | fn |
 | Dried Ginger Powder | `local:4BDECB18-834D-4D4B-9BFD-31240F4D12D4` | gram | 333.3333 | local |
 | Dry Soybeans | `local:F813A821-8AE3-43AB-81EA-7252A1A78118` | gram | 446.0 | local |
+| Egg, whole, raw, fresh | `foodnoms:usda:171287` | gram | 143.0 | usda |
 | Frozen Corn | `local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51` | gram | 88.0 | local |
 | Garlic (Raw) | `foodnoms:usda:2709786` | gram | 143.0 | usda |
 | Garlic Powder | `foodnoms:openai:c12d3878-957a-4223-9800-cbe0fb4e5e2c` | serving | 1800.0 | fn |
@@ -50,6 +53,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Goji Berries, Dried | `foodnoms:openai:75acc603-2922-45a0-8f77-75b549022191` | gram | 346.6667 | fn |
 | Green Curry Paste | `foodnoms:fn:a05efb9a-50d4-43c2-9338-17b8ff67a92a` | gram | 68.0 | fn |
 | Ground Cumin | `foodnoms:openai:1a2ce535-7207-4a5d-bd3a-6be2f1dc84bd` | serving | 2600.0 | fn |
+| Harissa Powder (est.) | `local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69` | gram | 300.0 | local (est.) |
 | Hon-Mirin | `local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA` | milliliter | 231.8182 | local |
 | Kidney Beans | `foodnoms:usda:2707379` | gram | 177.0 | usda |
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
@@ -57,6 +61,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | usda |
 | Miso | `foodnoms:usda:2707439` | gram | 198.0 | usda |
 | MORI-NU (Tofu, Silken, Firm) | `foodnoms:usda:172461` | gram | 62.0 | usda |
+| Mustard Seeds (Ground) | `foodnoms:usda:170929` | gram | 508.0 | usda |
 | Nori Flakes (garnish) | `local:3514212A-FDC4-43BD-8C21-0A3AAF51F4F2` | serving | 200.0 | local |
 | Nutritional Yeast Flakes | `local:A79EC48D-C9A5-43A9-9F24-C57821BECF60` | gram | 349.0 | local (Buy Whole Foods) |
 | Nuts (Coconut Meat, Dried - Desiccated) (Not Sweetened) | `foodnoms:usda:170170` | gram | 660.0 | usda |
