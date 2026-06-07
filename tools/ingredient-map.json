@@ -545,6 +545,35 @@
   "secondary": "sr_legacy_food",
   "source": "usda"
  },
+ "foodnoms:usda:171267": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:171267",
+  "name": "Milk (Semi-Skimmed, 2% Reduced Fat)",
+  "per100": {
+   "calcium": 120.0,
+   "calories": 50.0,
+   "carbs": 4.8,
+   "fat": 1.98,
+   "fatSaturated": 1.257,
+   "fiber": 0.0,
+   "folate": 5.0,
+   "magnesium": 11.0,
+   "phosphorus": 92.0,
+   "potassium": 140.0,
+   "protein": 3.3,
+   "sodium": 47.0,
+   "sugars": 5.06,
+   "vitaminA": 55.0,
+   "vitaminB12": 0.53,
+   "vitaminD": 1.2,
+   "water": 89.21,
+   "zinc": 0.48
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
  "foodnoms:usda:171287": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -1888,6 +1917,31 @@
    "calories": 231.8182
   },
   "secondary": null,
+  "source": null
+ },
+ "local:EE24CBCF-4FAC-4898-AE05-A67B6710617F": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:EE24CBCF-4FAC-4898-AE05-A67B6710617F",
+  "name": "Skyr (Plain)",
+  "per100": {
+   "calcium": 150.0,
+   "calories": 63.0,
+   "carbs": 4.0,
+   "fat": 0.2,
+   "fatSaturated": 0.1,
+   "magnesium": 11.0,
+   "phosphorus": 140.0,
+   "potassium": 150.0,
+   "protein": 11.0,
+   "sodium": 50.0,
+   "sugars": 4.0,
+   "vitaminB12": 0.5,
+   "water": 83.0,
+   "zinc": 0.6
+  },
+  "secondary": "estimate",
   "source": null
  },
  "local:EFC1C598-5279-4952-8CB9-922499A0BF10": {

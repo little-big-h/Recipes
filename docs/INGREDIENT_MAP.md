@@ -63,6 +63,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
 | Lemongrass Paste | `foodnoms:fn:12201ed0-e2ef-4495-884f-0e5016e3630a` | gram | 47.0 | fn |
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | usda |
+| Milk (Semi-Skimmed, 2% Reduced Fat) | `foodnoms:usda:171267` | gram | 50.0 | usda |
 | Miso | `foodnoms:usda:2707439` | gram | 198.0 | usda |
 | MORI-NU (Tofu, Silken, Firm) | `foodnoms:usda:172461` | gram | 62.0 | usda |
 | Mustard Seeds (Ground) | `foodnoms:usda:170929` | gram | 508.0 | usda |
@@ -81,6 +82,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Shiitake Mushroom | `foodnoms:usda:1999628` | gram | 44.095 | usda |
 | Shiitake Mushroom Powder | `foodnoms:openai:6b16585d-3026-4f43-a844-f6af002e6615` | gram | 287.5 | fn |
 | Shiitake Powder | `local:CC9064BD-7F44-4E8B-9C1D-8AFA02E62D4D` | gram | 300.0 | local |
+| Skyr (Plain) | `local:EE24CBCF-4FAC-4898-AE05-A67B6710617F` | gram | 63.0 | local (estimate) |
 | Soy Sauce | `foodnoms:usda:2707442` | gram | 53.0 | usda |
 | Spinach | `foodnoms:usda:2709614` | gram | 27.0 | usda |
 | Spinach (Raw) | `foodnoms:usda:168462` | gram | 23.0 | usda |
