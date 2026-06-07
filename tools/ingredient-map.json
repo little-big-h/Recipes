@@ -1918,6 +1918,38 @@
   "secondary": null,
   "source": null
  },
+ "local:E57DAC40-A68B-4AB1-96D1-402DE270A396": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:E57DAC40-A68B-4AB1-96D1-402DE270A396",
+  "name": "Organic Cacao Nibs (Raw)",
+  "per100": {
+   "caffeine": 127.926,
+   "calcium": 71.194,
+   "calories": 637.0,
+   "carbs": 6.0,
+   "copper": 2.107,
+   "fat": 52.0,
+   "fatSaturated": 30.3,
+   "fiber": 23.4,
+   "folate": 17.798,
+   "iron": 7.709,
+   "magnesium": 277.543,
+   "manganese": 2.134,
+   "niacin": 1.215,
+   "phosphorus": 408.25,
+   "potassium": 847.648,
+   "protein": 12.8,
+   "riboflavin": 0.134,
+   "selenium": 7.954,
+   "sodium": 80.0,
+   "sugars": 1.5,
+   "zinc": 3.788
+  },
+  "secondary": "label+est-micros",
+  "source": "label"
+ },
  "local:EE24CBCF-4FAC-4898-AE05-A67B6710617F": {
   "baseAmount": 100,
   "baseUnit": "gram",

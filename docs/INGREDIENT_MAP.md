@@ -78,6 +78,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Oil (Avocado) | `foodnoms:46D6CFD7-5184-4C62-A572-0F04A6D25009` | gram | 884.0 | local |
 | Onion | `foodnoms:usda:2709795` | gram | 38.0 | usda |
 | Onions (Raw) | `local:15D34B6C-810A-4BBD-A684-61D1EF24B4E3` | gram | 40.0 | local |
+| Organic Cacao Nibs (Raw) | `local:E57DAC40-A68B-4AB1-96D1-402DE270A396` | gram | 637.0 | label + est. micros |
 | Organic Chopped Tomatoes (Tinned) — breakfast passata | `local:0B0EBB36-4389-4601-BFF1-AD27B2DFD124` | gram | 19.0 | label (macros) + usda micros |
 | Organic Coconut Aminos Original | `local:2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5` | milliliter | 84.0 | local (Biona Organic) |
 | Paprika | `foodnoms:ciqual:11049` | gram | 318.0 | ciqual |
