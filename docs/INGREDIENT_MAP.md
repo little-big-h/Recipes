@@ -19,10 +19,11 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > **`Organic Chopped Tomatoes (Tinned)` (`local:0B0EBB36-4389-4601-BFF1-AD27B2DFD124`)**
 > — Holger's actual tin, from its label: **19 kcal/100 g, salt 0.1 g (sodium
 > 40 mg), carbs 3 g, sugars 3 g, fibre 0.9 g, protein 1.1 g**. Micros (potassium,
-> calcium, iron, magnesium, folate…) are **borrowed from USDA crushed tomato
-> `170501`** and flagged — the label carries none; treat as a slight over-estimate
-> since this chopped tin is more dilute than USDA crushed. Supersedes the earlier
-> `foodnoms:usda:170501` approximation.
+> calcium, iron, magnesium, folate…) are **estimated by scaling USDA crushed
+> tomato `170501` by the energy-density ratio (19/32 ≈ 0.59)** — the label carries
+> none and this chopped tin is more dilute than USDA crushed. This is a
+> **committed estimate**, not pending verification: FoodNoms has no micro path, so
+> it stands as final. Supersedes the earlier `foodnoms:usda:170501` approximation.
 
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|
