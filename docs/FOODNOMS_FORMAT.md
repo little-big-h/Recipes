@@ -349,6 +349,14 @@ are optional and default to absent (treat as 0).
 (Units follow FoodNoms' standard nutrient conventions; macros and water in g,
 minerals in mg, trace vitamins/minerals in µg.)
 
+**`carbs` is US-style — it includes fibre.** FoodNoms expects total carbohydrate =
+available carbs + fibre (like a USDA "carbohydrate, by difference" value, which
+already includes fibre). **UK/EU labels report carbs *excluding* fibre** (fibre is
+a separate line), so when building a record from a UK/EU label you must **add the
+label's fibre to its carbs**: `carbs = label_carbs + label_fibre`. Don't double-add
+to USDA-sourced records (already inclusive). **Tell:** if `fiber > carbs`, the
+carbs are still EU-style and FoodNoms will reject the food.
+
 ---
 
 ## 9. Authoring checklist (for another Claude)
