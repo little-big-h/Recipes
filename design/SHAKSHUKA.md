@@ -224,9 +224,11 @@ Per PDF spec. Not yet built with cooking-method detail — direction below is fr
 *Spices dialled to **1.5×** per Holger (2026-06) — an intensity bump, not a bigger
 portion. Base (passata 400 g, spinach 100 g, 2 eggs ≈ 100 g, avocado oil 14 g) and
 condiments (aminos, nooch) unchanged. Nutrition file:
-`examples/North African Shakshuka.foodnoms` (USDA-derived, not FoodNoms-verified —
-clear on first cook): **529 kcal, 31 g protein, 16 g fibre, salt 1.30 g** for the
-whole single serving.*
+`examples/North African Shakshuka.foodnoms` (USDA-derived + harissa from its
+label; not FoodNoms-verified — clear on first cook): **527 kcal, 31 g protein,
+16 g fibre, salt 2.01 g** for the whole single serving. Note: the harissa spice
+mix is ~20 % salt (19.59 g/100 g), so at 4.5 g it alone contributes ~0.88 g salt —
+the single biggest sodium source in the dish. Dial harissa down if salt matters.*
 
 **Method sketch:** bloom cumin + cinnamon + mustard in oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add harissa + ancho, deglaze with passata. Otherwise standard shakshuka.
 

@@ -1763,19 +1763,18 @@
   "baseUnit": "gram",
   "brand": null,
   "foodID": "local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69",
-  "name": "Harissa Powder (est.)",
+  "name": "Harissa Spice Mix",
   "per100": {
-   "calories": 300.0,
-   "carbs": 50.0,
-   "fat": 11.0,
-   "fatSaturated": 1.6,
-   "fiber": 30.0,
-   "protein": 13.0,
-   "sodium": 1500.0,
-   "sugars": 7.0
+   "calories": 259.0,
+   "carbs": 44.38,
+   "fat": 10.78,
+   "fatSaturated": 1.28,
+   "fiber": 20.06,
+   "protein": 6.0,
+   "sodium": 7836.0
   },
   "secondary": null,
-  "source": null
+  "source": "label"
  },
  "local:A3FD9459-082A-44C6-A5A7-ABA3B8597FD2": {
   "baseAmount": 1,
