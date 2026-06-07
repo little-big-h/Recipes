@@ -16,10 +16,13 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > gram-based record (or a USDA fallback) when you need a per-gram basis.
 
 > **Breakfast passata.** For breakfast / shakshuka recipes, resolve "passata" to
-> **`Tomatoes (Crushed, Canned, No Added Salt)` (`foodnoms:usda:170501`)** —
-> Holger's actual breakfast tin (**no added salt**: 32 kcal/100 g, sodium set to
-> the USDA no-salt level **28 mg/100 g**, *not* 170501's salted default of 186).
-> Use this, *not* the generic tomato-purée record, for breakfast from now on.
+> **`Organic Chopped Tomatoes (Tinned)` (`local:0B0EBB36-4389-4601-BFF1-AD27B2DFD124`)**
+> — Holger's actual tin, from its label: **19 kcal/100 g, salt 0.1 g (sodium
+> 40 mg), carbs 3 g, sugars 3 g, fibre 0.9 g, protein 1.1 g**. Micros (potassium,
+> calcium, iron, magnesium, folate…) are **borrowed from USDA crushed tomato
+> `170501`** and flagged — the label carries none; treat as a slight over-estimate
+> since this chopped tin is more dilute than USDA crushed. Supersedes the earlier
+> `foodnoms:usda:170501` approximation.
 
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|
@@ -68,6 +71,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Oil (Avocado) | `foodnoms:46D6CFD7-5184-4C62-A572-0F04A6D25009` | gram | 884.0 | local |
 | Onion | `foodnoms:usda:2709795` | gram | 38.0 | usda |
 | Onions (Raw) | `local:15D34B6C-810A-4BBD-A684-61D1EF24B4E3` | gram | 40.0 | local |
+| Organic Chopped Tomatoes (Tinned) — breakfast passata | `local:0B0EBB36-4389-4601-BFF1-AD27B2DFD124` | gram | 19.0 | label (macros) + usda micros |
 | Organic Coconut Aminos Original | `local:2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5` | milliliter | 84.0 | local (Biona Organic) |
 | Paprika | `foodnoms:ciqual:11049` | gram | 318.0 | ciqual |
 | Pinto Bean | `foodnoms:usda:2707371` | gram | 191.0 | usda |

@@ -224,9 +224,9 @@ Per PDF spec. Not yet built with cooking-method detail — direction below is fr
 *Spices dialled to **1.5×** per Holger (2026-06) — an intensity bump, not a bigger
 portion. Base (passata 400 g, spinach 100 g, 2 eggs ≈ 100 g, avocado oil 3 g) and
 condiments (aminos, nooch) unchanged. Nutrition file:
-`examples/North African Shakshuka.foodnoms` (USDA-derived + harissa from its
-label; not FoodNoms-verified — clear on first cook): **430 kcal, 31 g protein,
-16 g fibre, salt 2.01 g** for the whole single serving. The harissa spice mix is
+`examples/North African Shakshuka.foodnoms` (USDA-derived; harissa and tomatoes
+from their labels; not FoodNoms-verified — clear on first cook): **378 kcal,
+29 g protein, 12 g fibre, salt 2.13 g** for the whole single serving. The harissa spice mix is
 ~20 % salt (19.59 g/100 g) — at 4.5 g it's the biggest sodium source (~0.88 g
 salt). That's welcome, not a problem: this is Holger's solo breakfast and he
 replaces heavy training-sweat electrolyte losses — salt is a positive here.*
