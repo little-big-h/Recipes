@@ -301,6 +301,34 @@
   "secondary": "openai",
   "source": "fn"
  },
+ "foodnoms:usda:167747": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:167747",
+  "name": "Lemon Juice (Raw)",
+  "per100": {
+   "calcium": 6.0,
+   "calories": 22.0,
+   "carbs": 6.9,
+   "fat": 0.24,
+   "fatSaturated": 0.04,
+   "fiber": 0.3,
+   "folate": 20.0,
+   "iron": 0.08,
+   "magnesium": 6.0,
+   "phosphorus": 8.0,
+   "potassium": 103.0,
+   "protein": 0.35,
+   "sodium": 1.0,
+   "sugars": 2.52,
+   "vitaminC": 38.7,
+   "water": 92.31,
+   "zinc": 0.05
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
  "foodnoms:usda:168462": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -344,6 +372,34 @@
    "vitaminK": 482.9,
    "water": 91.4,
    "zinc": 0.53
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
+ "foodnoms:usda:169228": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:169228",
+  "name": "Eggplant / Aubergine (Raw)",
+  "per100": {
+   "calcium": 9.0,
+   "calories": 25.0,
+   "carbs": 5.88,
+   "fat": 0.18,
+   "fatSaturated": 0.034,
+   "fiber": 3.0,
+   "folate": 22.0,
+   "iron": 0.23,
+   "magnesium": 14.0,
+   "phosphorus": 24.0,
+   "potassium": 229.0,
+   "protein": 0.98,
+   "sodium": 2.0,
+   "sugars": 3.53,
+   "vitaminC": 2.2,
+   "water": 92.3,
+   "zinc": 0.16
   },
   "secondary": "sr_legacy_food",
   "source": "usda"
@@ -1559,9 +1615,16 @@
   "foodID": "local:0CF95E20-08C5-4FFF-B889-E25F0B144CF9",
   "name": "White Miso",
   "per100": {
-   "calories": 190.0
+   "calories": 190.0,
+   "carbs": 26.0,
+   "fat": 6.0,
+   "fatSaturated": 1.0,
+   "fiber": 2.5,
+   "protein": 11.0,
+   "sodium": 2400.0,
+   "sugars": 6.3
   },
-  "secondary": null,
+  "secondary": "estimate",
   "source": null
  },
  "local:15D34B6C-810A-4BBD-A684-61D1EF24B4E3": {
@@ -1609,6 +1672,22 @@
    "zinc": 0.17
   },
   "secondary": null,
+  "source": null
+ },
+ "local:1D392317-7844-41F9-8260-701F147AC6C1": {
+  "baseAmount": 100,
+  "baseUnit": "milliliter",
+  "brand": null,
+  "foodID": "local:1D392317-7844-41F9-8260-701F147AC6C1",
+  "name": "Rice Wine (Cooking)",
+  "per100": {
+   "alcohol": 12.0,
+   "calories": 120.0,
+   "carbs": 5.0,
+   "sodium": 5.0,
+   "sugars": 4.0
+  },
+  "secondary": "estimate",
   "source": null
  },
  "local:1E1601EF-06F2-4CDE-9E28-FE455B639CE1": {
@@ -1805,6 +1884,24 @@
    "vitaminK": 4.1406,
    "water": 69.875,
    "zinc": 0.2109
+  },
+  "secondary": null,
+  "source": null
+ },
+ "local:6A4AE1C2-7310-4968-9B44-EC519652DFE2": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:6A4AE1C2-7310-4968-9B44-EC519652DFE2",
+  "name": "Toasted Sesame Oil",
+  "per100": {
+   "calories": 884.0,
+   "fat": 100.0,
+   "fatMonounsaturated": 39.7,
+   "fatPolyunsaturated": 41.7,
+   "fatSaturated": 14.2,
+   "vitaminE": 1.4,
+   "vitaminK": 13.6
   },
   "secondary": null,
   "source": null

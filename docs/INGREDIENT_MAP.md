@@ -55,6 +55,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Dried Ginger Powder | `local:4BDECB18-834D-4D4B-9BFD-31240F4D12D4` | gram | 333.3333 | local |
 | Dry Soybeans | `local:F813A821-8AE3-43AB-81EA-7252A1A78118` | gram | 446.0 | local |
 | Egg, whole, raw, fresh | `foodnoms:usda:171287` | gram | 143.0 | usda |
+| Eggplant / Aubergine (Raw) | `foodnoms:usda:169228` | gram | 25.0 | usda |
 | Frozen Corn | `local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51` | gram | 88.0 | local |
 | Garlic (Raw) | `foodnoms:usda:2709786` | gram | 143.0 | usda |
 | Garlic Powder | `foodnoms:openai:c12d3878-957a-4223-9800-cbe0fb4e5e2c` | serving | 1800.0 | fn |
@@ -66,6 +67,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Hon-Mirin | `local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA` | milliliter | 231.8182 | local |
 | Kidney Beans | `foodnoms:usda:2707379` | gram | 177.0 | usda |
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
+| Lemon Juice (Raw) | `foodnoms:usda:167747` | gram | 22.0 | usda |
 | Lemongrass Paste | `foodnoms:fn:12201ed0-e2ef-4495-884f-0e5016e3630a` | gram | 47.0 | fn |
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | usda |
 | Milk (Semi-Skimmed) — **default for "milk"** | `local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D` | milliliter | 47.0 | milk.co.uk |
@@ -93,7 +95,9 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Spinach | `foodnoms:usda:2709614` | gram | 27.0 | usda |
 | Spinach (Raw) | `foodnoms:usda:168462` | gram | 23.0 | usda |
 | Spring Onion | `local:EFC1C598-5279-4952-8CB9-922499A0BF10` | serving | 480.0 | local |
+| Rice Wine (Cooking) | `local:1D392317-7844-41F9-8260-701F147AC6C1` | milliliter | 120.0 | local (estimate) |
 | Tamarind | `foodnoms:usda:2709269` | gram | 239.0 | usda |
+| Toasted Sesame Oil | `local:6A4AE1C2-7310-4968-9B44-EC519652DFE2` | gram | 884.0 | local |
 | Tomatoes (Crushed, Canned, No Added Salt) — breakfast passata | `foodnoms:usda:170501` | gram | 32.0 | usda |
 | Tsuyu Concentrate (Clearspring) | `local:1E1601EF-06F2-4CDE-9E28-FE455B639CE1` | milliliter | 44.4444 | local |
 | Water (for the dashi brew) | `local:3DC78E20-3965-4D2F-BFC1-433AB12B9AE7` | milliliter | 0.0 | local |
