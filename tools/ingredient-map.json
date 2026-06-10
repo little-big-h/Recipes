@@ -2076,16 +2076,23 @@
   "source": null
  },
  "local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA": {
-  "baseAmount": 22,
+  "baseAmount": 100,
   "baseUnit": "milliliter",
-  "brand": null,
+  "brand": "Clearspring (Mikawa)",
   "foodID": "local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA",
   "name": "Hon-Mirin",
   "per100": {
-   "calories": 231.8182
+   "calories": 189.0,
+   "carbs": 46.0,
+   "fat": 0.5,
+   "fatSaturated": 0.0,
+   "fiber": 0.0,
+   "protein": 0.6,
+   "sodium": 60.0,
+   "sugars": 38.0
   },
   "secondary": null,
-  "source": null
+  "source": "label"
  },
  "local:E57DAC40-A68B-4AB1-96D1-402DE270A396": {
   "baseAmount": 100,

@@ -69,7 +69,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Green Curry Paste | `foodnoms:fn:a05efb9a-50d4-43c2-9338-17b8ff67a92a` | gram | 68.0 | fn |
 | Ground Cumin | `foodnoms:openai:1a2ce535-7207-4a5d-bd3a-6be2f1dc84bd` | serving | 2600.0 | fn |
 | Harissa Spice Mix | `local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69` | gram | 259.0 | label (19.59 g salt/100 g) |
-| Hon-Mirin | `local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA` | milliliter | 231.8182 | local |
+| Hon-Mirin | `local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA` | milliliter | 189.0 | label (Clearspring Mikawa) |
 | Kidney Beans | `foodnoms:usda:2707379` | gram | 177.0 | [usda](https://fdc.nal.usda.gov/food-details/2707379/nutrients) |
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
 | Lemon Juice (Raw) | `foodnoms:usda:167747` | gram | 22.0 | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
