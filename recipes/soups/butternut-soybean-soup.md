@@ -12,13 +12,14 @@
 | 🔵 | 🌊 Kombu (steep, remove before the cook) | 15 g | ~2 | |
 | 🟠 | 🍄 Shiitake powder (into the brine) | 10 g | 30 | |
 | 🟣 | 🫗 Soy sauce (into the brine) | 50 ml | 27 | |
+| 🟣 | 🍯 Mirin (into the brine) | 25 ml | 58 | |
 | 🟡 | 🫚 Dried ginger powder (into the brine) | 4 g | 13 | |
 | 🟤 | 🫘 Dry soy beans (soaked ~5 h in the warm brine) | 250 g | 1115 | |
 | 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | |
 | 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | |
 | 🟠 | 🌶️ Bird's-eye chilli (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
-| | **Total** | **~3.1 kg** | **~1819** | |
+| | **Total** | **~3.2 kg** | **~1877** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -34,7 +35,7 @@
 
 ## Method
 
-> **Make ahead (~5 h before) — quick dashi + bean soak.** Heat 💧 1600 ml water to about 70 °C (steaming, **not** boiling — boiling 🌊 kombu turns it slimy and bitter). Off the heat, add the 🌊 kombu (wiped with a damp cloth first — don't rinse off the white bloom) and steep 30–60 min, then **lift the kombu out**. Stir in 🍄 shiitake powder, 🫗 soy sauce and 🫚 dried ginger — that's the brine. Add the 🫘 dry soy beans and soak ~5 h, covered. Starting the soak *warm* hydrates the beans faster (5 h is short for soy), and the 🌊 kombu + 🍄 shiitake build the umami base — glutamate × guanylate — that the beans drink in. Also peel and cube the 🎃 butternut ~3 cm.
+> **Make ahead (~5 h before) — quick dashi + bean soak.** Heat 💧 1600 ml water to about 70 °C (steaming, **not** boiling — boiling 🌊 kombu turns it slimy and bitter). Off the heat, add the 🌊 kombu (wiped with a damp cloth first — don't rinse off the white bloom) and steep 30–60 min, then **lift the kombu out**. Stir in 🍄 shiitake powder, 🫗 soy sauce, 🍯 mirin and 🫚 dried ginger — that's the brine. Add the 🫘 dry soy beans and soak ~5 h, covered. Starting the soak *warm* hydrates the beans faster (5 h is short for soy), and the 🌊 kombu + 🍄 shiitake build the umami base — glutamate × guanylate — that the beans drink in. Also peel and cube the 🎃 butternut ~3 cm.
 
 1. **Cook.** Tip the 🫘 soy beans and all their brine into the Ninja, then add the 🎃 butternut cubes. Seal — high pressure, 35 min, natural release. Soy beans are stubborn and only part-soaked at 5 h, so hold the long end — 35 min sits between fully-soaked (17–20) and unsoaked (35–45). The 🎃 squash overcooks happily; it's going to be puréed.
 
@@ -54,10 +55,10 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 1819 kcal | Iron | 45 mg |
-| Protein | 115 g | Calcium | 993 mg |
-| Carbohydrates | 221 g | Zinc | 17 mg |
-| — of which sugars | 48 g | Magnesium | 952 mg |
+| Energy | 1877 kcal | Iron | 45 mg |
+| Protein | 115 g | Calcium | 994 mg |
+| Carbohydrates | 232 g | Zinc | 17 mg |
+| — of which sugars | 55 g | Magnesium | 954 mg |
 | Fat | 54 g | Potassium | 8925 mg |
 | — of which saturates | 8 g | Vitamin D | 0.4 µg |
 | Fibre | 51 g | Vitamin B12 | 0.0 µg |
@@ -70,6 +71,7 @@
 - **The quick dashi *is* the bean soak — and the cooking liquid.** Holger had only ~5 h to soak (soy beans want 8–12), so a passive water soak wouldn't have fully hydrated them. Instead the beans soak in a warm kombu-shiitake-soy dashi: the warm start speeds hydration, and because the same liquid then goes into the pressure cook, the brine keeps softening and seasoning the beans the whole way. Salt penetrates beans well during a soak (it seasons all the way through), so a salted umami brine genuinely flavours them — unlike big aromatics, which mostly work during the cook.
 - **Kombu pulled before pressure.** The 🌊 kombu steeps in the dashi, then comes out before the beans (and certainly before the pot) — its glutamate is already in the liquid, and pressure-cooking it would only add iodine and a bitter marine edge (the documented no-boil rule in `../../docs/TECHNIQUES.md`). 🍄 Shiitake powder stays — its guanylate multiplies the kombu glutamate, the same synergy as a full kombu-shiitake dashi.
 - **Soy sauce in for aminos (run-down).** Out of liquid aminos, but lots of soy sauce — so soy carries the salt + savoury anchor in the brine. It's a use-up, in line with the pre-move pantry run-down. Soy is mildly acidic, but pressure cooking overrides any softening drag; if the beans come out firm, that's the short soak, not the soy — just extend a few minutes.
+- **Mirin to round it.** A modest 🍯 mirin (25 ml) in the brine balances the 🫗 soy and 🍶 miso salt with a gentle sweetness and gloss — the classic *kabocha no nimono* logic of squash + dashi + soy + mirin. Kept small because the 🎃 butternut is already sweet: it's for rounding, not sweetening. It's in the brine/cook (not the off-heat finish) so the alcohol cooks off under pressure.
 - **No acid in the pot, heat at the table.** 🍋 Lime and 🌶️ chilli stay off the pot — Lara prefers acid at the table, the kids and Anja are heat-sensitive — and acid in with beans literally stops them softening. Both go on at serving for the adults.
 - **White miso, off heat.** Family default (Jannes finds red/fermented-forward profiles underwhelming), whisked in off the heat so it isn't boiled. It's the umami-and-salt finish that keeps a sweet squash base from reading flat — the lesson from the pinto–butternut soup, which cooked bland until miso went in (`../../docs/RATINGS.md` obs 35). Here it's built in from the start.
 - **Ginger is fine; galangal/cinnamon would not be.** 🫚 Dried ginger is not on Lara's warm-aromatic caution list (cinnamon, cardamom, galangal are) and pairs naturally with butternut.
