@@ -46,7 +46,6 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Bok Choy (Raw) | `foodnoms:usda:2685572` | gram | 20.259 | [usda](https://fdc.nal.usda.gov/food-details/2685572/nutrients) |
 | Broccoli | `foodnoms:usda:2709643` | gram | 39.0 | [usda](https://fdc.nal.usda.gov/food-details/2709643/nutrients) |
 | Butternut Squash (Raw) | `foodnoms:usda:2685570` | gram | 48.1323 | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
-| 🩹 Butternut Squash (Raw) (patched) | `local:patch-2685570-sugars` | gram | 48.1 | patch — base [2685570](https://fdc.nal.usda.gov/food-details/2685570/nutrients) + sugars 2.2 |
 | Cabbage | `foodnoms:usda:2709775` | gram | 34.0 | [usda](https://fdc.nal.usda.gov/food-details/2709775/nutrients) |
 | Carrot | `foodnoms:usda:2709660` | gram | 44.0 | [usda](https://fdc.nal.usda.gov/food-details/2709660/nutrients) |
 | Cauliflower | `foodnoms:usda:2709777` | gram | 25.0 | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |

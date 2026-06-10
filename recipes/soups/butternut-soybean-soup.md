@@ -53,7 +53,7 @@
 
 *Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; micros are committed best-estimates. High protein (~115 g) and fibre (~51 g) from the soy beans — squarely on-brief for recovery. Note this isn't as low-fat as the pinto–butternut soup (soy beans are ~20 % fat, so 54 g total) — but there's no added cream or coconut; the body is squash + bean. Salt ~8.7 g for the whole ~3 L pot sits inside the 10–15 g family target, with headroom to push the 🫗 soy/🍶 miso at the finish. B12 and vitamin D negligible — supplement separately.*
 
-***As cooked (350 g soy beans, not the planned 250 g):** ~2315 kcal, **151 g protein**, 264 g carbs (64 g sugars), 60 g fibre, 74 g fat — see `../../examples/Creamy Butternut & Soy Bean Soup.foodnoms`. The squash nutrition uses **`🩹 Butternut Squash (Raw) (patched)`** — the pristine USDA record (`2685570`) plus a documented +2.2 g/100 g sugars patch, since the USDA Foundation record omits a sugars value (the record itself is left untouched so its FDC link stays valid for monitoring).*
+***As cooked (350 g soy beans, not the planned 250 g):** ~2315 kcal, **151 g protein**, 264 g carbs (64 g sugars), 60 g fibre, 74 g fat — see `../../examples/Creamy Butternut & Soy Bean Soup.foodnoms`. The squash sugars are corrected with a **3-tier patch** (a weightless patch food + a `🩹 …#Patched` sub-recipe — `../../examples/Butternut Squash (Raw) Patch.foodnoms` + `…Patched.foodnoms`), since the USDA Foundation record `2685570` omits a sugars value. The USDA record itself is left untouched, so its FDC link stays valid for monitoring.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
