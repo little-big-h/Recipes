@@ -9,15 +9,15 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🔵 | 💧 Water (for the quick dashi) | 1600 ml | 0 | | |
-| 🔵 | 🌊 Kombu (steep, remove before the cook) | 15 g | ~2 | | |
-| 🟠 | 🍄 Shiitake powder (into the brine) | 10 g | 30 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
-| 🟣 | 🫗 Soy sauce (into the brine) | 50 ml | 27 | | [usda](https://fdc.nal.usda.gov/food-details/2707442/nutrients) |
-| 🟣 | 🍯 Mirin (into the brine) | 25 ml | 58 | | |
-| 🟡 | 🫚 Dried ginger powder (into the brine) | 4 g | 13 | | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
+| 🔵 | 🌊 Kombu (steep, remove before the cook) | 15 g | ~2 | 26 g | |
+| 🟠 | 🍄 Shiitake powder (into the brine) | 10 g | 30 | 17 g | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
+| 🟣 | 🫗 Soy sauce (into the brine) | 50 ml | 27 | 86 ml | [usda](https://fdc.nal.usda.gov/food-details/2707442/nutrients) |
+| 🟣 | 🍯 Mirin (into the brine) | 25 ml | 58 | 43 ml | |
+| 🟡 | 🫚 Dried ginger powder (into the brine) | 4 g | 13 | 7 g | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
 | 🟤 | 🫘 Dry soy beans (soaked ~5 h in the warm brine) | 250 g | 1115 | **350 g** | [usda](https://fdc.nal.usda.gov/food-details/174270/nutrients) |
 | 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | 2061 g | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
 | 🟢 | 🥬 Asparagus (added) | — | 166 | 830 g | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
-| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
+| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | 52 g | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
 | 🟠 | 🌶️ Bird's-eye chilli (at table) | to taste | — | | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | | |
 | | **Total** | **~3.2 kg** | **~1877** | | |
@@ -54,7 +54,7 @@
 
 *Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; micros are committed best-estimates. High protein (~115 g) and fibre (~51 g) from the soy beans — squarely on-brief for recovery. Note this isn't as low-fat as the pinto–butternut soup (soy beans are ~20 % fat, so 54 g total) — but there's no added cream or coconut; the body is squash + bean. Salt ~8.7 g for the whole ~3 L pot sits inside the 10–15 g family target, with headroom to push the 🫗 soy/🍶 miso at the finish. B12 and vitamin D negligible — supplement separately.*
 
-***As cooked (350 g soy beans, 2061 g squash, +830 g asparagus):** ~2895 kcal, **179 g protein**, 386 g carbs (99 g sugars), 94 g fibre, 77 g fat — see `../../examples/Creamy Butternut & Soy Bean Soup.foodnoms`. The squash sugars are corrected with a **3-tier patch** (a weightless patch food + a `🩹 …#Patched` sub-recipe — `../../examples/Butternut Squash (Raw) Patch.foodnoms` + `…Patched.foodnoms`), since the USDA Foundation record `2685570` omits a sugars value. The USDA record itself is left untouched, so its FDC link stays valid for monitoring.*
+***As cooked (350 g soy beans, 2061 g squash, +830 g asparagus, spices ×1.72 to the squash):** ~3023 kcal, **186 g protein**, 409 g carbs (107 g sugars), 97 g fibre, 79 g fat — see `../../examples/Creamy Butternut & Soy Bean Soup.foodnoms`. The squash sugars are corrected with a **3-tier patch** (a weightless patch food + a `🩹 …#Patched` sub-recipe — `../../examples/Butternut Squash (Raw) Patch.foodnoms` + `…Patched.foodnoms`), since the USDA Foundation record `2685570` omits a sugars value. The USDA record itself is left untouched, so its FDC link stays valid for monitoring.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
