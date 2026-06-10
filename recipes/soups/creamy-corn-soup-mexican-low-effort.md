@@ -14,27 +14,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
-| 🟤 | 🫘 Dried butter beans (no soaking, pot-in-pot) | 300 g | 1014 | |
-| 🟠 | 🌶️ Chipotle, whole (remove before blending) | 4 | ~0 | |
-| 🔵 | 🧊 Stock cubes + 2000 ml water | 6 | 30 | |
-| 🟢 | 🥦 Asparagus (steamed on return) | 1400 g | 280 | |
-| 🟡 | 🧅 Onions, diced | 4 large | 240 | |
-| 🟡 | 🧄 Garlic cloves | 16 | 71 | |
-| 🟠 | 🌱 Cumin seeds | 20 g | 75 | |
-| 🟠 | 🫑 Smoked paprika (Lara concern — see note) | 20 g | 56 | |
-| 🟠 | 🌿 Dried coriander | 8 g | 24 | |
-| 🟠 | 🪴 Dried oregano | 6 g | 16 | |
-| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | 140 | |
-| 🟢 | 🥬 Spinach (off heat) | 500 g | 115 | |
-| ⚪ | 🍮 Tamarind paste (off heat) | 36 g | 86 | |
-| ⚪ | 🍋 Lime juice (off heat) | 60 ml | 15 | |
-| 🟣 | 🫒 Capers (to serve) | 80 g | 18 | |
-| 🟢 | 🥫 Sauerkraut (cold, alongside) | generous | — | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~7.1 kg** | **~3940** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |  |
+| 🟤 | 🫘 Dried butter beans (no soaking, pot-in-pot) | 300 g | 1014 | |  |
+| 🟠 | 🌶️ Chipotle, whole (remove before blending) | 4 | ~0 | |  |
+| 🔵 | 🧊 Stock cubes + 2000 ml water | 6 | 30 | |  |
+| 🟢 | 🥦 Asparagus (steamed on return) | 1400 g | 280 | | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
+| 🟡 | 🧅 Onions, diced | 4 large | 240 | |  |
+| 🟡 | 🧄 Garlic cloves | 16 | 71 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
+| 🟠 | 🌱 Cumin seeds | 20 g | 75 | |  |
+| 🟠 | 🫑 Smoked paprika (Lara concern — see note) | 20 g | 56 | |  |
+| 🟠 | 🌿 Dried coriander | 8 g | 24 | |  |
+| 🟠 | 🪴 Dried oregano | 6 g | 16 | |  |
+| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | 140 | |  |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | 115 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
+| ⚪ | 🍮 Tamarind paste (off heat) | 36 g | 86 | | [usda](https://fdc.nal.usda.gov/food-details/2709269/nutrients) |
+| ⚪ | 🍋 Lime juice (off heat) | 60 ml | 15 | |  |
+| 🟣 | 🫒 Capers (to serve) | 80 g | 18 | |  |
+| 🟢 | 🥫 Sauerkraut (cold, alongside) | generous | — | |  |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~7.1 kg** | **~3940** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

@@ -8,23 +8,23 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | 1320 | |
-| 🟤 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | 892 | |
-| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 104 ml | 47 | |
-| 🔵 | 💧 Water | 1800 ml | 0 | |
-| 🟠 | 🍄 Shiitake powder (use what you have) | 11 g | 33 | |
-| 🟠 | 🫚 Dried ginger powder | 1.5 g | 5 | |
-| 🟡 | 🌱 Spring onion | 4-5 stalks | 24 | |
-| 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | 5 | |
-| 🟠 | 🫙 White miso (whisk in off heat, never boil) | 30 g | 57 | |
-| 🟣 | 🍯 Mirin | 30 ml | 69 | |
-| 🟢 | 🥬 Bok choi (shredded fine, folded in at end) | 400 g | 52 | |
-| 🟣 | 🌰 Sesame seeds (garnish) | 1 tbsp | 52 | |
-| 🟢 | 🌿 Nori flakes (garnish) | generous | 2 | |
-| 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | — | |
-| | **Total** | **~4.1 kg** | **~2558** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 1500 g | 1320 | |  |
+| 🟤 | 🫘 Dry soybeans (no soak, pot-in-pot) | 200 g | 892 | |  |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 104 ml | 47 | |  |
+| 🔵 | 💧 Water | 1800 ml | 0 | |  |
+| 🟠 | 🍄 Shiitake powder (use what you have) | 11 g | 33 | |  |
+| 🟠 | 🫚 Dried ginger powder | 1.5 g | 5 | |  |
+| 🟡 | 🌱 Spring onion | 4-5 stalks | 24 | |  |
+| 🟣 | 🫗 Dashi-soy sauce (Emma Basic, taste — very salty) | 10 ml | 5 | |  |
+| 🟠 | 🫙 White miso (whisk in off heat, never boil) | 30 g | 57 | |  |
+| 🟣 | 🍯 Mirin | 30 ml | 69 | |  |
+| 🟢 | 🥬 Bok choi (shredded fine, folded in at end) | 400 g | 52 | |  |
+| 🟣 | 🌰 Sesame seeds (garnish) | 1 tbsp | 52 | |  |
+| 🟢 | 🌿 Nori flakes (garnish) | generous | 2 | |  |
+| 🟣 | 🌻 Sesame oil (garnish drizzle) | 1 tbsp | — | |  |
+| | **Total** | **~4.1 kg** | **~2558** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 

@@ -8,23 +8,23 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟡 | 🧅 Onion, roughly chopped | 2 medium | 88 | |
-| 🟡 | 🍃 Bay leaves (remove before blending) | 2 | ~0 | |
-| 🔵 | 🧊 Stock cubes + 2000 ml water | 2 | 10 | |
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
-| 🟤 | 🫘 Dry black-eyed beans (no soak, pot-in-pot) | 200 g | 672 | |
-| 🟤 | 🫙 Quark (fold in cold, after chilling) | 300 g | 210 | |
-| 🟡 | 🌿 Fresh dill (fold in cold, after chilling) | 50 g | 12 | |
-| ⚪ | 🍋 Lemon juice (after chilling, be generous) | 2 lemons | 23 | |
-| 🟣 | 🧂 Salt and white pepper (season generously — cold mutes) | to taste | 0 | |
-| 🟡 | 🌱 Chives, finely sliced (garnish) | generous | — | |
-| ⚪ | 🥒 Pickled cucumber (accompaniment) | generous | — | |
-| ⚪ | 🫐 Pickled beetroot (accompaniment) | generous | — | |
-| ⚪ | 🪻 Pickled red onion (accompaniment) | generous | — | |
-| 🟠 | 🫚 Horseradish, freshly grated (accompaniment) | to taste | — | |
-| | **Total** | **~4.9 kg** | **~2775** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟡 | 🧅 Onion, roughly chopped | 2 medium | 88 | |  |
+| 🟡 | 🍃 Bay leaves (remove before blending) | 2 | ~0 | |  |
+| 🔵 | 🧊 Stock cubes + 2000 ml water | 2 | 10 | |  |
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |  |
+| 🟤 | 🫘 Dry black-eyed beans (no soak, pot-in-pot) | 200 g | 672 | |  |
+| 🟤 | 🫙 Quark (fold in cold, after chilling) | 300 g | 210 | |  |
+| 🟡 | 🌿 Fresh dill (fold in cold, after chilling) | 50 g | 12 | |  |
+| ⚪ | 🍋 Lemon juice (after chilling, be generous) | 2 lemons | 23 | | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
+| 🟣 | 🧂 Salt and white pepper (season generously — cold mutes) | to taste | 0 | |  |
+| 🟡 | 🌱 Chives, finely sliced (garnish) | generous | — | |  |
+| ⚪ | 🥒 Pickled cucumber (accompaniment) | generous | — | |  |
+| ⚪ | 🫐 Pickled beetroot (accompaniment) | generous | — | |  |
+| ⚪ | 🪻 Pickled red onion (accompaniment) | generous | — | |  |
+| 🟠 | 🫚 Horseradish, freshly grated (accompaniment) | to taste | — | |  |
+| | **Total** | **~4.9 kg** | **~2775** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

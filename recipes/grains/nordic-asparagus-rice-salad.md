@@ -12,24 +12,24 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟤 | 🥚 Eggs (hard-boiled) | 8–10 | 630 | |
-| 🟢 | 🍚 Cooked rice (cold leftover) | 600 g | 780 | |
-| ⚪ | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | 28 | |
-| 🟢 | 🌿 Fresh dill (rice + plate) | large bunch | 7 | |
-| 🟢 | 🥒 Gherkins, sliced + brine splash for rice | generous | 14 | |
-| 🟤 | 🧊 Firm tofu, microwaved & sliced | 500 g | 720 | |
-| 🟣 | 💦 Liquid aminos (tofu marinade) | 20 g | 10 | |
-| 🟣 | 🌭 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | 17 | |
-| 🟣 | 🫚 Horseradish cream (dressing) | 2 tbsp (~30 g) | 14 | |
-| 🟣 | 🫙 White miso (dressing) | 15 g | 29 | |
-| 🔵 | 💧 Water (to thin dressing) | 3–4 tbsp | 0 | |
-| 🟢 | 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | 100 | |
-| 🟣 | 🫒 Capers (on plate) | 3 tbsp (~30 g) | 7 | |
-| 🟢 | 🍞 Rye bread | to serve | ~500 | |
-| 🟣 | 🧂 Salt and white pepper | to taste | 0 | |
-| | **Total** | **~2.4 kg** | **~2856** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟤 | 🥚 Eggs (hard-boiled) | 8–10 | 630 | | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
+| 🟢 | 🍚 Cooked rice (cold leftover) | 600 g | 780 | |  |
+| ⚪ | 🍋 Lemon juice (rice + tofu marinade + dressing) | 2–3 lemons total | 28 | | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
+| 🟢 | 🌿 Fresh dill (rice + plate) | large bunch | 7 | |  |
+| 🟢 | 🥒 Gherkins, sliced + brine splash for rice | generous | 14 | |  |
+| 🟤 | 🧊 Firm tofu, microwaved & sliced | 500 g | 720 | |  |
+| 🟣 | 💦 Liquid aminos (tofu marinade) | 20 g | 10 | |  |
+| 🟣 | 🌭 Dijon mustard (tofu marinade + dressing) | ~25 g total (10 g + 2 tbsp) | 17 | |  |
+| 🟣 | 🫚 Horseradish cream (dressing) | 2 tbsp (~30 g) | 14 | |  |
+| 🟣 | 🫙 White miso (dressing) | 15 g | 29 | |  |
+| 🔵 | 💧 Water (to thin dressing) | 3–4 tbsp | 0 | |  |
+| 🟢 | 🥦 White asparagus (jarred), whole | 1 jar (~500 g) | 100 | |  |
+| 🟣 | 🫒 Capers (on plate) | 3 tbsp (~30 g) | 7 | |  |
+| 🟢 | 🍞 Rye bread | to serve | ~500 | |  |
+| 🟣 | 🧂 Salt and white pepper | to taste | 0 | |  |
+| | **Total** | **~2.4 kg** | **~2856** | |  |
 
 *Legend: 🟢 Vegetables · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

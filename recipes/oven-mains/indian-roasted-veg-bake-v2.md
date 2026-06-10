@@ -24,24 +24,24 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🥕 Carrots, thick slices | 400 g | 164 | |
-| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |
-| 🟢 | 🧄 Garlic cloves, whole | 6–8 | 45 | |
-| 🟤 | 🫘 Chickpeas, drained and dried | 400 g tin | 334 | |
-| 🟢 | 🥦 Broccoli, florets | 2 heads | 238 | |
-| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | 50 | |
-| 🟢 | 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | 720 | |
-| 🟤 | 🍮 Silken tofu (sauce base) | 300 g | 165 | |
-| 🔵 | 🧊 Stock cube + 200 ml water | 1 | 10 | |
-| 🟠 | 🍛 Mild curry powder | 22 g | 66 | |
-| 🟠 | 🫚 Turmeric | 3 g | 9 | |
-| 🟣 | 🫒 Oil (for blooming) | 1 tsp | 44 | |
-| ⚪ | 🍋 Lemon juice (at end) | 1 lemon | 11 | |
-| 🟤 | 🥛 Cottage cheese (cold side, do not stir in) | generous | 288 | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~3.8 kg** | **~2324** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🥕 Carrots, thick slices | 400 g | 164 | | [usda](https://fdc.nal.usda.gov/food-details/2709660/nutrients) |
+| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |  |
+| 🟢 | 🧄 Garlic cloves, whole | 6–8 | 45 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
+| 🟤 | 🫘 Chickpeas, drained and dried | 400 g tin | 334 | | [usda](https://fdc.nal.usda.gov/food-details/2644282/nutrients) |
+| 🟢 | 🥦 Broccoli, florets | 2 heads | 238 | | [usda](https://fdc.nal.usda.gov/food-details/2709643/nutrients) |
+| 🟢 | 🍒 Cherry tomatoes, halved | 250 g | 50 | |  |
+| 🟢 | 🌽 Creamed corn (tinned, sauce base) | 2 × 400 g | 720 | |  |
+| 🟤 | 🍮 Silken tofu (sauce base) | 300 g | 165 | |  |
+| 🔵 | 🧊 Stock cube + 200 ml water | 1 | 10 | |  |
+| 🟠 | 🍛 Mild curry powder | 22 g | 66 | |  |
+| 🟠 | 🫚 Turmeric | 3 g | 9 | |  |
+| 🟣 | 🫒 Oil (for blooming) | 1 tsp | 44 | |  |
+| ⚪ | 🍋 Lemon juice (at end) | 1 lemon | 11 | | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
+| 🟤 | 🥛 Cottage cheese (cold side, do not stir in) | generous | 288 | |  |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~3.8 kg** | **~2324** | |  |
 
 *Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

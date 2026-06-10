@@ -6,25 +6,25 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 500 g | 440 | 504 g |
-| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | 450 | 1390 g |
-| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | 40 g |
-| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | 8 g |
-| 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |
-| 🔵 | 💧 Water | 1700 ml | 0 | ~1.9 L added |
-| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 350 g |
-| 🟣 | 🥑 Avocado oil | 15 g | 133 | 10 g |
-| 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |
-| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | 9 g |
-| 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |
-| 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | 767 g |
-| 🟣 | 🫗 Liquid aminos | 30 ml | 15 | 40 ml |
-| 🟣 | 🫙 Red miso (whisk in off heat — never boil; white for the family) | 20 g | 40 | 20 g |
-| 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |
-| ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |
-| | **Total** | **~4.1 kg** | **~2656** | ~4.7 kg |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 500 g | 440 | 504 g |  |
+| 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1000 g | 450 | 1390 g | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
+| 🟡 | 🧅 Dried onion (into the pot — phase 1) | 40 g | 140 | 40 g |  |
+| 🟠 | 🍄 Shiitake powder (into the pot — phase 1) | 8 g | 24 | 8 g |  |
+| 🔵 | 🌊 Kombu (one strip; lift out at end of phase 1) | ~10 g | ~2 | 10 g |  |
+| 🔵 | 💧 Water | 1700 ml | 0 | ~1.9 L added |  |
+| 🟤 | 🫘 Dry pinto beans (no soak; basket, phase 2) | 350 g | 1214 | 350 g |  |
+| 🟣 | 🥑 Avocado oil | 15 g | 133 | 10 g |  |
+| 🟠 | 🌰 Ground cumin | 6 g | 22 | 6.5 g |  |
+| 🟠 | 🫑 Sweet paprika (NOT smoked) | 8 g | 23 | 9 g |  |
+| 🟡 | 🧄 Garlic powder | 5 g | 17 | 5.5 g |  |
+| 🟢 | 🥦 Broccoli (florets, steamed separately) | 400 g | 136 | 767 g | [usda](https://fdc.nal.usda.gov/food-details/2709643/nutrients) |
+| 🟣 | 🫗 Liquid aminos | 30 ml | 15 | 40 ml |  |
+| 🟣 | 🫙 Red miso (whisk in off heat — never boil; white for the family) | 20 g | 40 | 20 g |  |
+| 🟣 | 🧂 Fine salt (to taste) | ~7 g | 0 | |  |
+| ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | |  |
+| | **Total** | **~4.1 kg** | **~2656** | ~4.7 kg |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

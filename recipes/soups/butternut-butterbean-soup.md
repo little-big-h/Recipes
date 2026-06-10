@@ -12,19 +12,19 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, unpeeled, large chunks | 2 (~2 kg) | 900 | |
-| 🟡 | 🧅 Onion, diced | 1 large | 60 | |
-| 🟡 | 🧄 Garlic cloves, roughly chopped | 4 | 18 | |
-| 🟡 | 🫚 Fresh ginger, grated | 4 cm (~16 g) | 13 | |
-| 🟠 | 🌶️ Smoked paprika (optional — for colour; Lara concern) | ½ tsp | 3 | |
-| 🔵 | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | 10 | |
-| 🟤 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | 828 | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | 103 | |
-| ⚪ | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | 17 | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~4.0 kg** | **~1952** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🎃 Butternut squash, unpeeled, large chunks | 2 (~2 kg) | 900 | | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
+| 🟡 | 🧅 Onion, diced | 1 large | 60 | |  |
+| 🟡 | 🧄 Garlic cloves, roughly chopped | 4 | 18 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
+| 🟡 | 🫚 Fresh ginger, grated | 4 cm (~16 g) | 13 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
+| 🟠 | 🌶️ Smoked paprika (optional — for colour; Lara concern) | ½ tsp | 3 | |  |
+| 🔵 | 🧊 Vegetable stock (2 cubes + 1 L water) | 1 L | 10 | |  |
+| 🟤 | 🫘 Butter beans, drained, reserve liquid | 3 × 400 g tins | 828 | | [usda](https://fdc.nal.usda.gov/food-details/2709850/nutrients) |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 3 tbsp (~54 g) | 103 | |  |
+| ⚪ | 🥭 Tamarind paste (at end) | 1 tbsp (~15 g) | 17 | | [usda](https://fdc.nal.usda.gov/food-details/2709269/nutrients) |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~4.0 kg** | **~1952** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

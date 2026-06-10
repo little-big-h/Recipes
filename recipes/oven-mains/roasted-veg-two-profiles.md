@@ -20,30 +20,30 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | 360 | |
-| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | 175 | |
-| 🟢 | 🫑 Bell peppers, chunked (Lara concern) | 2 (~400 g) | 104 | |
-| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |
-| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | 50 | |
-| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | 1029 | |
-| 🟠 | 🌿 Rosemary, fresh sprigs (Med.) | 4–5 | ~0 | |
-| 🟠 | 🪴 Dried oregano (Med.) | 2 tsp | 11 | |
-| 🟠 | 🍂 Smoked paprika (Med., Lara concern) | 2 tsp | 11 | |
-| 🟠 | 🧄 Garlic powder (Med.) | 2 tsp | 20 | |
-| 🟣 | 🍷 Balsamic vinegar (Med.) | 2 tbsp | 26 | |
-| 🟣 | 🫛 Capers (Med., at end) | 2 tbsp | 4 | |
-| 🟠 | 🍛 Mild curry blend (Indian) | 8 g | 24 | |
-| 🟠 | 🫚 Dried ginger powder (Indian) | 3 g | 10 | |
-| 🟠 | 🌶️ Chili flakes (Indian) | 2 g | 6 | |
-| 🟠 | 🌰 Smoked paprika (Indian, Lara concern) | 2 g | 6 | |
-| 🟠 | 🍄 Shiitake powder (Indian) | 5 g | 15 | |
-| 🟣 | 🫙 White miso (Indian, at end) | 20 g | 38 | |
-| 🟣 | 🥥 Tamarind paste (Indian, at end) | 1 tsp | 14 | |
-| 🟣 | 🫒 Olive oil | 2 tbsp each tray (4 tbsp total) | 495 | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~3.7 kg** | **~2578** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | 360 | | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
+| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | 175 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern) | 2 (~400 g) | 104 | |  |
+| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |  |
+| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | 50 | |  |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | 1029 | |  |
+| 🟠 | 🌿 Rosemary, fresh sprigs (Med.) | 4–5 | ~0 | |  |
+| 🟠 | 🪴 Dried oregano (Med.) | 2 tsp | 11 | |  |
+| 🟠 | 🍂 Smoked paprika (Med., Lara concern) | 2 tsp | 11 | |  |
+| 🟠 | 🧄 Garlic powder (Med.) | 2 tsp | 20 | |  |
+| 🟣 | 🍷 Balsamic vinegar (Med.) | 2 tbsp | 26 | |  |
+| 🟣 | 🫛 Capers (Med., at end) | 2 tbsp | 4 | |  |
+| 🟠 | 🍛 Mild curry blend (Indian) | 8 g | 24 | |  |
+| 🟠 | 🫚 Dried ginger powder (Indian) | 3 g | 10 | |  |
+| 🟠 | 🌶️ Chili flakes (Indian) | 2 g | 6 | |  |
+| 🟠 | 🌰 Smoked paprika (Indian, Lara concern) | 2 g | 6 | |  |
+| 🟠 | 🍄 Shiitake powder (Indian) | 5 g | 15 | |  |
+| 🟣 | 🫙 White miso (Indian, at end) | 20 g | 38 | |  |
+| 🟣 | 🥥 Tamarind paste (Indian, at end) | 1 tsp | 14 | | [usda](https://fdc.nal.usda.gov/food-details/2709269/nutrients) |
+| 🟣 | 🫒 Olive oil | 2 tbsp each tray (4 tbsp total) | 495 | |  |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~3.7 kg** | **~2578** | |  |
 
 *Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🟣 Seasoning*
 

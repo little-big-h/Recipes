@@ -10,27 +10,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟤 | 🧊 Firm tofu, sliced into slabs | 400 g | 576 | |
-| 🟤 | 🧈 Butter (for tofu pan-fry) | 15 g | 108 | |
-| 🟡 | 🧅 Onion, finely diced | 2 large | 120 | |
-| 🟡 | 🧄 Garlic, finely chopped | 3 cloves | 13 | |
-| 🟢 | 🥒 Courgette, finely diced | 2 medium | 68 | |
-| 🟢 | 🍚 Arborio rice | 500 g | 1750 | |
-| ⚪ | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | 11 | |
-| 🔵 | 🥄 Vegetable stock, kept warm | 1.5 L | 75 | |
-| 🟣 | 🫒 Capers | 2 tbsp | 4 | |
-| 🟣 | ✨ Nutritional yeast | 15 g | 53 | |
-| 🟢 | 🫛 Frozen peas | 350 g | 284 | |
-| 🟤 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | 287 | |
-| 🟤 | 🧀 Parmesan, grated | 80 g | 320 | |
-| 🟢 | 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | ~10 | |
-| 🟣 | 🌶️ Tabasco (at table) | to taste | — | |
-| 🟢 | 🥗 Lettuce | as available | 15 | |
-| 🟢 | 🥖 Bagels | as needed | ~1180 | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~4.3 kg** | **~4874** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟤 | 🧊 Firm tofu, sliced into slabs | 400 g | 576 | |  |
+| 🟤 | 🧈 Butter (for tofu pan-fry) | 15 g | 108 | |  |
+| 🟡 | 🧅 Onion, finely diced | 2 large | 120 | |  |
+| 🟡 | 🧄 Garlic, finely chopped | 3 cloves | 13 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
+| 🟢 | 🥒 Courgette, finely diced | 2 medium | 68 | |  |
+| 🟢 | 🍚 Arborio rice | 500 g | 1750 | |  |
+| ⚪ | 🍋 Lemon juice (squeeze at toast, full lemon by end) | 1 lemon | 11 | | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
+| 🔵 | 🥄 Vegetable stock, kept warm | 1.5 L | 75 | |  |
+| 🟣 | 🫒 Capers | 2 tbsp | 4 | |  |
+| 🟣 | ✨ Nutritional yeast | 15 g | 53 | |  |
+| 🟢 | 🫛 Frozen peas | 350 g | 284 | |  |
+| 🟤 | 🥛 Butter, cold and cubed (mantecatura) | 40 g | 287 | |  |
+| 🟤 | 🧀 Parmesan, grated | 80 g | 320 | |  |
+| 🟢 | 🌿 Fresh herbs (basil, Thai basil, parsley) | generous handful | ~10 | |  |
+| 🟣 | 🌶️ Tabasco (at table) | to taste | — | |  |
+| 🟢 | 🥗 Lettuce | as available | 15 | |  |
+| 🟢 | 🥖 Bagels | as needed | ~1180 | |  |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~4.3 kg** | **~4874** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

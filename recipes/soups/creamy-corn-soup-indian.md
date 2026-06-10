@@ -10,27 +10,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |
-| 🟤 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | 1092 | |
-| 🔵 | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | 15 | |
-| 🔵 | 💧 Stock cubes + 2000 ml water (for corn) | 3 | 15 | |
-| 🟡 | 🧅 Onions, diced | 4 large | 240 | |
-| 🟡 | 🧄 Garlic | 50 g | 75 | |
-| 🟡 | 🫚 Fresh ginger, grated | 15 g | 12 | |
-| 🟠 | 🌱 Cumin seeds | 16 g | 60 | |
-| 🟠 | 🌼 Turmeric | 15 g | 47 | |
-| 🟠 | 🌶️ Tikka masala powder | 20 g | 60 | |
-| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | 200 | |
-| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | 140 | |
-| 🟣 | 💦 Liquid aminos | 30 g | 15 | |
-| 🟢 | 🥬 Spinach (off heat) | 500 g | 115 | |
-| ⚪ | 🥭 Tamarind paste (off heat) | 15 g | 17 | |
-| 🟢 | 🪴 Fresh coriander (garnish) | generous | — | |
-| ⚪ | 🍋 Lime (at table) | 2 | — | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~7.2 kg** | **~3863** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🌽 Frozen corn (partially thawed) | 2000 g | 1760 | |  |
+| 🟤 | 🫘 Dried chickpeas (no soak, pot-in-pot) | 300 g | 1092 | |  |
+| 🔵 | 🧊 Stock cubes + 600 ml water (for chickpeas) | 3 | 15 | |  |
+| 🔵 | 💧 Stock cubes + 2000 ml water (for corn) | 3 | 15 | |  |
+| 🟡 | 🧅 Onions, diced | 4 large | 240 | |  |
+| 🟡 | 🧄 Garlic | 50 g | 75 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
+| 🟡 | 🫚 Fresh ginger, grated | 15 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
+| 🟠 | 🌱 Cumin seeds | 16 g | 60 | |  |
+| 🟠 | 🌼 Turmeric | 15 g | 47 | |  |
+| 🟠 | 🌶️ Tikka masala powder | 20 g | 60 | |  |
+| 🟢 | 🥦 Asparagus (steamed separately) | 1000 g | 200 | | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
+| 🟣 | ✨ Nutritional yeast (after blending) | 40 g | 140 | |  |
+| 🟣 | 💦 Liquid aminos | 30 g | 15 | |  |
+| 🟢 | 🥬 Spinach (off heat) | 500 g | 115 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
+| ⚪ | 🥭 Tamarind paste (off heat) | 15 g | 17 | | [usda](https://fdc.nal.usda.gov/food-details/2709269/nutrients) |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | — | |  |
+| ⚪ | 🍋 Lime (at table) | 2 | — | |  |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~7.2 kg** | **~3863** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

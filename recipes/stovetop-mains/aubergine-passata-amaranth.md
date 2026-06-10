@@ -12,24 +12,24 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🍆 Aubergines, cut into large chunks | 3 medium (~900 g) | 225 | |
-| 🟣 | 🧂 Salt (for aubergine rest) | generous | 0 | |
-| 🟢 | 🫑 Romano peppers, roughly chopped (Lara concern — cooked peppers) | 3–4 (~400 g) | 124 | |
-| 🟢 | 🥕 Carrots, thick coins | 3–4 (~400 g) | 164 | |
-| 🔵 | 💧 Water (Ninja base layer) | small splash | 0 | |
-| 🟢 | 🍅 Passata | 2 × 690 g | 483 | |
-| 🟡 | 🧄 Garlic powder | 2 tsp | 20 | |
-| 🟠 | 🌶️ Chili flakes | ½ tsp | 3 | |
-| 🟠 | 🥘 Smoked paprika (Lara concern — suspected) | 2 tsp | 14 | |
-| 🟠 | 🌿 Dried oregano | 2 tsp | 5 | |
-| 🟢 | 🌾 Amaranth, dry | 250 g | 928 | |
-| 🔵 | 🥛 Water (or light stock) for amaranth | 500 ml | 0 | |
-| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 2 tbsp (~36 g) | 68 | |
-| 🟣 | 🫒 Capers (at end) | 3 tbsp (~30 g) | 7 | |
-| 🟣 | 🧆 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~3.9 kg** | **~2041** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🍆 Aubergines, cut into large chunks | 3 medium (~900 g) | 225 | |  |
+| 🟣 | 🧂 Salt (for aubergine rest) | generous | 0 | |  |
+| 🟢 | 🫑 Romano peppers, roughly chopped (Lara concern — cooked peppers) | 3–4 (~400 g) | 124 | |  |
+| 🟢 | 🥕 Carrots, thick coins | 3–4 (~400 g) | 164 | | [usda](https://fdc.nal.usda.gov/food-details/2709660/nutrients) |
+| 🔵 | 💧 Water (Ninja base layer) | small splash | 0 | |  |
+| 🟢 | 🍅 Passata | 2 × 690 g | 483 | |  |
+| 🟡 | 🧄 Garlic powder | 2 tsp | 20 | |  |
+| 🟠 | 🌶️ Chili flakes | ½ tsp | 3 | |  |
+| 🟠 | 🥘 Smoked paprika (Lara concern — suspected) | 2 tsp | 14 | |  |
+| 🟠 | 🌿 Dried oregano | 2 tsp | 5 | |  |
+| 🟢 | 🌾 Amaranth, dry | 250 g | 928 | |  |
+| 🔵 | 🥛 Water (or light stock) for amaranth | 500 ml | 0 | |  |
+| 🟣 | 🫙 White miso (whisk in off heat, never boil) | 2 tbsp (~36 g) | 68 | |  |
+| 🟣 | 🫒 Capers (at end) | 3 tbsp (~30 g) | 7 | |  |
+| 🟣 | 🧆 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~3.9 kg** | **~2041** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟣 Seasoning*
 

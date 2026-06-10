@@ -6,27 +6,27 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🍄 Dried shiitake (soak in 1600 ml water, reserve) | 193 g | 571 | 193 g |
-| 🟡 | 🧅 Onions, diced | 3 large | 180 | |
-| 🟡 | 🧄 Garlic | 50 g | 75 | |
-| 🟠 | 🍛 Yellow curry paste | 40 g | 48 | |
-| 🟠 | 🫙 Green curry paste | 20 g | 24 | |
-| 🟠 | 🎋 Lemongrass paste | 30 g | 27 | |
-| 🟠 | 🪨 Galangal paste | 25 g | 23 | |
-| 🔵 | 💧 Water | 1000 ml | 0 | |
-| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 68 | 190 ml |
-| 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | ~0 | |
-| 🟤 | 🫘 Silken tofu | 600 g | 330 | |
-| 🟢 | 🥥 Coconut milk | 400 ml | 920 | |
-| 🟣 | 🫗 Dashi soy sauce (Emma Basic, taste!) | 30 ml | 15 | |
-| 🟣 | 🧴 Liquid aminos | 20 ml | 10 | |
-| 🟢 | 🌱 Spring onion, sliced (garnish) | generous | — | |
-| 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | 52 | |
-| 🟢 | 🪴 Fresh coriander (garnish) | generous | — | |
-| ⚪ | 🍈 Lime juice (at table) | to taste | — | |
-| | **Total** | **~4.6 kg** | **~2343** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🍄 Dried shiitake (soak in 1600 ml water, reserve) | 193 g | 571 | 193 g |  |
+| 🟡 | 🧅 Onions, diced | 3 large | 180 | |  |
+| 🟡 | 🧄 Garlic | 50 g | 75 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
+| 🟠 | 🍛 Yellow curry paste | 40 g | 48 | |  |
+| 🟠 | 🫙 Green curry paste | 20 g | 24 | |  |
+| 🟠 | 🎋 Lemongrass paste | 30 g | 27 | |  |
+| 🟠 | 🪨 Galangal paste | 25 g | 23 | |  |
+| 🔵 | 💧 Water | 1000 ml | 0 | |  |
+| 🔵 | 🍶 Tsuyu concentrate (Clearspring) | 150 ml | 68 | 190 ml |  |
+| 🟡 | 🍃 Makrut lime leaves (remove before blending) | 6 | ~0 | |  |
+| 🟤 | 🫘 Silken tofu | 600 g | 330 | |  |
+| 🟢 | 🥥 Coconut milk | 400 ml | 920 | |  |
+| 🟣 | 🫗 Dashi soy sauce (Emma Basic, taste!) | 30 ml | 15 | |  |
+| 🟣 | 🧴 Liquid aminos | 20 ml | 10 | |  |
+| 🟢 | 🌱 Spring onion, sliced (garnish) | generous | — | |  |
+| 🟣 | 🌾 Sesame seeds (garnish) | 1 tbsp | 52 | |  |
+| 🟢 | 🪴 Fresh coriander (garnish) | generous | — | |  |
+| ⚪ | 🍈 Lime juice (at table) | to taste | — | |  |
+| | **Total** | **~4.6 kg** | **~2343** | |  |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 

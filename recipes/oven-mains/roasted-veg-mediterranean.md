@@ -14,23 +14,23 @@
 
 ## Ingredients
 
-| Type | Ingredient | Planned | Est. kcal | Actual used |
-|:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | 360 | |
-| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | 175 | |
-| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 (~400 g) | 104 | |
-| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |
-| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | 50 | |
-| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | 1029 | |
-| 🟠 | 🌿 Rosemary, fresh sprigs | 4–5 | ~0 | |
-| 🟠 | 🪴 Dried oregano | 2 tsp | 11 | |
-| 🟠 | 🌶️ Smoked paprika (Lara concern — suspected) | 2 tsp | 11 | |
-| 🟠 | 🧄 Garlic powder | 2 tsp | 20 | |
-| 🟣 | 🍷 Balsamic vinegar | 2 tbsp | 26 | |
-| 🟣 | 🫛 Capers (at end) | 2 tbsp | 4 | |
-| 🟣 | 🫒 Olive oil | 2 tbsp | 248 | |
-| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |
-| | **Total** | **~3.6 kg** | **~2218** | |
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🟢 | 🎃 Butternut squash, large chunks | 1 medium (~800 g) | 360 | | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
+| 🟢 | 🥦 Cauliflower (small), florets (Jannes concern) | 1 (~700 g) | 175 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
+| 🟢 | 🫑 Bell peppers, chunked (Lara concern — cooked peppers) | 2 (~400 g) | 104 | |  |
+| 🟢 | 🧅 Onions, wedges | 3 large | 180 | |  |
+| 🟢 | 🍅 Cherry tomatoes, halved | 250 g | 50 | |  |
+| 🟢 | 🌾 Kasha (buckwheat groats), dry | 300 g | 1029 | |  |
+| 🟠 | 🌿 Rosemary, fresh sprigs | 4–5 | ~0 | |  |
+| 🟠 | 🪴 Dried oregano | 2 tsp | 11 | |  |
+| 🟠 | 🌶️ Smoked paprika (Lara concern — suspected) | 2 tsp | 11 | |  |
+| 🟠 | 🧄 Garlic powder | 2 tsp | 20 | |  |
+| 🟣 | 🍷 Balsamic vinegar | 2 tbsp | 26 | |  |
+| 🟣 | 🫛 Capers (at end) | 2 tbsp | 4 | |  |
+| 🟣 | 🫒 Olive oil | 2 tbsp | 248 | |  |
+| 🟣 | 🧂 Salt and black pepper | to taste | 0 | |  |
+| | **Total** | **~3.6 kg** | **~2218** | |  |
 
 *Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🟣 Seasoning*
 
