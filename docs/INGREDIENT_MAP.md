@@ -57,8 +57,8 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Cumin Seeds | `foodnoms:openai:e276b2c8-e28b-4bd5-939c-95d42714ab92` | gram | 375.0 | fn |
 | Dashi-Soy Sauce (Emma Basic) | `local:0159CF00-07C8-45B4-9844-6C34731320D9` | milliliter | 50.0 | local |
 | Dried Coriander | `foodnoms:openai:31a17dc5-eacb-4320-956b-8f8579f13e1c` | gram | 300.0 | fn |
-| Dried Ginger Powder | `local:4BDECB18-834D-4D4B-9BFD-31240F4D12D4` | gram | 333.3333 | local |
-| Dry Soybeans | `local:F813A821-8AE3-43AB-81EA-7252A1A78118` | gram | 446.0 | local |
+| Dried Ginger Powder | `foodnoms:usda:170926` | gram | 335.0 | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
+| Dry Soybeans | `foodnoms:usda:174270` | gram | 446.0 | [usda](https://fdc.nal.usda.gov/food-details/174270/nutrients) |
 | Egg, whole, raw, fresh | `foodnoms:usda:171287` | gram | 143.0 | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
 | Eggplant / Aubergine (Raw) | `foodnoms:usda:169228` | gram | 25.0 | [usda](https://fdc.nal.usda.gov/food-details/169228/nutrients) |
 | Frozen Corn | `local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51` | gram | 88.0 | local |
@@ -94,7 +94,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Sesame Seeds (garnish) | `local:6C8317A7-F72D-4964-B711-B2E0A7CAF4B3` | serving | 5200.0 | local |
 | Shiitake Mushroom | `foodnoms:usda:1999628` | gram | 44.095 | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
 | Shiitake Mushroom Powder | `foodnoms:openai:6b16585d-3026-4f43-a844-f6af002e6615` | gram | 287.5 | fn |
-| Shiitake Powder | `local:CC9064BD-7F44-4E8B-9C1D-8AFA02E62D4D` | gram | 300.0 | local |
+| Shiitake Powder | `foodnoms:usda:168436` | gram | 296.0 | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
 | Skyr (Plain) | `local:EE24CBCF-4FAC-4898-AE05-A67B6710617F` | gram | 63.0 | local (estimate) |
 | Soy Sauce | `foodnoms:usda:2707442` | gram | 53.0 | [usda](https://fdc.nal.usda.gov/food-details/2707442/nutrients) |
 | Spinach | `foodnoms:usda:2709614` | gram | 27.0 | [usda](https://fdc.nal.usda.gov/food-details/2709614/nutrients) |

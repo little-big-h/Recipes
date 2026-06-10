@@ -329,6 +329,38 @@
   "secondary": "sr_legacy_food",
   "source": "usda"
  },
+ "foodnoms:usda:168436": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:168436",
+  "name": "Shiitake Powder",
+  "per100": {
+   "calcium": 11.0,
+   "calories": 296.0,
+   "carbs": 75.37,
+   "copper": 5.165,
+   "fat": 0.99,
+   "fatSaturated": 0.225,
+   "fiber": 11.5,
+   "folate": 163.0,
+   "iron": 1.72,
+   "magnesium": 132.0,
+   "manganese": 1.176,
+   "phosphorus": 294.0,
+   "potassium": 1534.0,
+   "protein": 9.58,
+   "selenium": 46.1,
+   "sodium": 13.0,
+   "sugars": 2.21,
+   "vitaminB6": 0.965,
+   "vitaminC": 3.5,
+   "water": 9.5,
+   "zinc": 7.66
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
  "foodnoms:usda:168462": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -572,6 +604,38 @@
   "secondary": "sr_legacy_food",
   "source": "usda"
  },
+ "foodnoms:usda:170926": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:170926",
+  "name": "Dried Ginger Powder",
+  "per100": {
+   "calcium": 114.0,
+   "calories": 335.0,
+   "carbs": 71.62,
+   "copper": 0.48,
+   "fat": 4.24,
+   "fatSaturated": 2.599,
+   "fiber": 14.1,
+   "folate": 13.0,
+   "iron": 19.8,
+   "magnesium": 214.0,
+   "manganese": 33.3,
+   "phosphorus": 168.0,
+   "potassium": 1320.0,
+   "protein": 8.98,
+   "selenium": 55.8,
+   "sodium": 27.0,
+   "sugars": 3.39,
+   "vitaminB6": 0.626,
+   "vitaminC": 0.7,
+   "water": 9.94,
+   "zinc": 3.64
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
  "foodnoms:usda:170929": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -695,6 +759,38 @@
    "vitaminC": 0.0,
    "water": 87.4,
    "zinc": 0.61
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
+ "foodnoms:usda:174270": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:174270",
+  "name": "Dry Soybeans",
+  "per100": {
+   "calcium": 277.0,
+   "calories": 446.0,
+   "carbs": 30.16,
+   "copper": 1.658,
+   "fat": 19.94,
+   "fatSaturated": 2.884,
+   "fiber": 9.3,
+   "folate": 375.0,
+   "iron": 15.7,
+   "magnesium": 280.0,
+   "manganese": 2.517,
+   "phosphorus": 704.0,
+   "potassium": 1797.0,
+   "protein": 36.49,
+   "selenium": 17.8,
+   "sodium": 2.0,
+   "sugars": 7.33,
+   "vitaminB6": 0.377,
+   "vitaminC": 6.0,
+   "water": 8.54,
+   "zinc": 4.89
   },
   "secondary": "sr_legacy_food",
   "source": "usda"
@@ -1817,18 +1913,6 @@
   "secondary": null,
   "source": null
  },
- "local:4BDECB18-834D-4D4B-9BFD-31240F4D12D4": {
-  "baseAmount": 1.5,
-  "baseUnit": "gram",
-  "brand": null,
-  "foodID": "local:4BDECB18-834D-4D4B-9BFD-31240F4D12D4",
-  "name": "Dried Ginger Powder",
-  "per100": {
-   "calories": 333.3333
-  },
-  "secondary": null,
-  "source": null
- },
  "local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51": {
   "baseAmount": 1500,
   "baseUnit": "gram",
@@ -1991,18 +2075,6 @@
   "secondary": null,
   "source": null
  },
- "local:CC9064BD-7F44-4E8B-9C1D-8AFA02E62D4D": {
-  "baseAmount": 11,
-  "baseUnit": "gram",
-  "brand": null,
-  "foodID": "local:CC9064BD-7F44-4E8B-9C1D-8AFA02E62D4D",
-  "name": "Shiitake Powder",
-  "per100": {
-   "calories": 300.0
-  },
-  "secondary": null,
-  "source": null
- },
  "local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA": {
   "baseAmount": 22,
   "baseUnit": "milliliter",
@@ -2080,18 +2152,6 @@
   "name": "Spring Onion",
   "per100": {
    "calories": 480.0
-  },
-  "secondary": null,
-  "source": null
- },
- "local:F813A821-8AE3-43AB-81EA-7252A1A78118": {
-  "baseAmount": 200,
-  "baseUnit": "gram",
-  "brand": null,
-  "foodID": "local:F813A821-8AE3-43AB-81EA-7252A1A78118",
-  "name": "Dry Soybeans",
-  "per100": {
-   "calories": 446.0
   },
   "secondary": null,
   "source": null

@@ -10,13 +10,13 @@
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🔵 | 💧 Water (for the quick dashi) | 1600 ml | 0 | | |
 | 🔵 | 🌊 Kombu (steep, remove before the cook) | 15 g | ~2 | | |
-| 🟠 | 🍄 Shiitake powder (into the brine) | 10 g | 30 | | |
+| 🟠 | 🍄 Shiitake powder (into the brine) | 10 g | 30 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
 | 🟣 | 🫗 Soy sauce (into the brine) | 50 ml | 27 | | [usda](https://fdc.nal.usda.gov/food-details/2707442/nutrients) |
 | 🟣 | 🍯 Mirin (into the brine) | 25 ml | 58 | | |
-| 🟡 | 🫚 Dried ginger powder (into the brine) | 4 g | 13 | | |
-| 🟤 | 🫘 Dry soy beans (soaked ~5 h in the warm brine) | 250 g | 1115 | | |
+| 🟡 | 🫚 Dried ginger powder (into the brine) | 4 g | 13 | | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
+| 🟤 | 🫘 Dry soy beans (soaked ~5 h in the warm brine) | 250 g | 1115 | | [usda](https://fdc.nal.usda.gov/food-details/174270/nutrients) |
 | 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
-| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | | |
+| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
 | 🟠 | 🌶️ Bird's-eye chilli (at table) | to taste | — | | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | | |
 | | **Total** | **~3.2 kg** | **~1877** | | |
