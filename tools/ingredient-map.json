@@ -875,7 +875,6 @@
    "potassium": 329.1,
    "protein": 1.1487,
    "sodium": 0.0,
-   "sugars": 2.2,
    "vitaminC": 7.6,
    "water": 87.32,
    "zinc": 0.193
@@ -2163,5 +2162,39 @@
   },
   "secondary": null,
   "source": null
+ },
+ "local:patch-2685570-sugars": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:patch-2685570-sugars",
+  "name": "🩹 Butternut Squash (Raw) (patched)",
+  "patchDelta": {
+   "sugars": 2.2
+  },
+  "patchOf": "foodnoms:usda:2685570",
+  "patchReason": "USDA Foundation record 2685570 omits a sugars value (~2.2 g/100 g)",
+  "per100": {
+   "calcium": 21.74,
+   "calories": 48.1323,
+   "carbs": 10.5075,
+   "copper": 0.0733,
+   "fat": 0.1675,
+   "fiber": 1.959,
+   "folate": 55.0,
+   "iron": 0.2129,
+   "magnesium": 14.95,
+   "manganese": 0.0754,
+   "phosphorus": 26.53,
+   "potassium": 329.1,
+   "protein": 1.1487,
+   "sodium": 0.0,
+   "sugars": 2.2,
+   "vitaminC": 7.6,
+   "water": 87.32,
+   "zinc": 0.193
+  },
+  "secondary": null,
+  "source": "patch"
  }
 }
