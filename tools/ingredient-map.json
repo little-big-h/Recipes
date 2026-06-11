@@ -511,6 +511,34 @@
   "secondary": "sr_legacy_food",
   "source": "usda"
  },
+ "foodnoms:usda:169957": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:169957",
+  "name": "Mung Bean Sprouts",
+  "per100": {
+   "calcium": 13.0,
+   "calories": 30.0,
+   "carbs": 5.94,
+   "fat": 0.18,
+   "fatSaturated": 0.046,
+   "fiber": 1.8,
+   "folate": 61.0,
+   "iron": 0.91,
+   "magnesium": 21.0,
+   "phosphorus": 54.0,
+   "potassium": 149.0,
+   "protein": 3.04,
+   "sodium": 6.0,
+   "sugars": 4.13,
+   "vitaminC": 13.2,
+   "water": 90.4,
+   "zinc": 0.41
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
  "foodnoms:usda:170170": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -725,6 +753,34 @@
   "secondary": "sr_legacy_food",
   "source": "usda"
  },
+ "foodnoms:usda:172238": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:172238",
+  "name": "Capers (Canned)",
+  "per100": {
+   "calcium": 40.0,
+   "calories": 23.0,
+   "carbs": 4.89,
+   "fat": 0.86,
+   "fatSaturated": 0.233,
+   "fiber": 3.2,
+   "folate": 23.0,
+   "iron": 1.67,
+   "magnesium": 33.0,
+   "phosphorus": 10.0,
+   "potassium": 40.0,
+   "protein": 2.36,
+   "sodium": 2348.0,
+   "sugars": 0.41,
+   "vitaminC": 4.3,
+   "water": 83.85,
+   "zinc": 0.32
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
  "foodnoms:usda:172461": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -759,6 +815,34 @@
    "vitaminC": 0.0,
    "water": 87.4,
    "zinc": 0.61
+  },
+  "secondary": "sr_legacy_food",
+  "source": "usda"
+ },
+ "foodnoms:usda:174267": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "foodnoms:usda:174267",
+  "name": "Peanut Flour (Defatted)",
+  "per100": {
+   "calcium": 140.0,
+   "calories": 327.0,
+   "carbs": 34.7,
+   "fat": 0.55,
+   "fatSaturated": 0.063,
+   "fiber": 15.8,
+   "folate": 248.0,
+   "iron": 2.1,
+   "magnesium": 370.0,
+   "phosphorus": 760.0,
+   "potassium": 1290.0,
+   "protein": 52.2,
+   "sodium": 180.0,
+   "sugars": 8.22,
+   "vitaminC": 0.0,
+   "water": 7.8,
+   "zinc": 5.1
   },
   "secondary": "sr_legacy_food",
   "source": "usda"
@@ -2001,6 +2085,24 @@
   },
   "secondary": null,
   "source": null
+ },
+ "local:6D3E22C3-B79B-49D1-A35D-D4AD9C0C7238": {
+  "baseAmount": 100,
+  "baseUnit": "milliliter",
+  "brand": null,
+  "foodID": "local:6D3E22C3-B79B-49D1-A35D-D4AD9C0C7238",
+  "name": "Kecap Manis (est.)",
+  "per100": {
+   "calories": 250.0,
+   "carbs": 58.0,
+   "fat": 0.1,
+   "fiber": 0.0,
+   "protein": 4.0,
+   "sodium": 3500.0,
+   "sugars": 52.0
+  },
+  "secondary": "estimate",
+  "source": "estimate"
  },
  "local:7A94FF9B-E956-4FDA-B07E-5F139C778EBB": {
   "baseAmount": 400,

@@ -47,6 +47,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Broccoli | `foodnoms:usda:2709643` | gram | 39.0 | [usda](https://fdc.nal.usda.gov/food-details/2709643/nutrients) |
 | Butternut Squash (Raw) | `foodnoms:usda:2685570` | gram | 48.1323 | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
 | Cabbage | `foodnoms:usda:2709775` | gram | 34.0 | [usda](https://fdc.nal.usda.gov/food-details/2709775/nutrients) |
+| Capers (Canned) | `foodnoms:usda:172238` | gram | 23.0 | [usda](https://fdc.nal.usda.gov/food-details/172238/nutrients) |
 | Carrot | `foodnoms:usda:2709660` | gram | 44.0 | [usda](https://fdc.nal.usda.gov/food-details/2709660/nutrients) |
 | Cauliflower | `foodnoms:usda:2709777` | gram | 25.0 | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | Chickpea (Dry) | `foodnoms:usda:2644282` | gram | 382.998 | [usda](https://fdc.nal.usda.gov/food-details/2644282/nutrients) |
@@ -70,6 +71,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Ground Cumin | `foodnoms:openai:1a2ce535-7207-4a5d-bd3a-6be2f1dc84bd` | serving | 2600.0 | fn |
 | Harissa Spice Mix | `local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69` | gram | 259.0 | label (19.59 g salt/100 g) |
 | Hon-Mirin | `local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA` | milliliter | 189.0 | label (Clearspring Mikawa) |
+| Kecap Manis (est.) | `local:6D3E22C3-B79B-49D1-A35D-D4AD9C0C7238` | milliliter | 250.0 | estimate |
 | Kidney Beans | `foodnoms:usda:2707379` | gram | 177.0 | [usda](https://fdc.nal.usda.gov/food-details/2707379/nutrients) |
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
 | Lemon Juice (Raw) | `foodnoms:usda:167747` | gram | 22.0 | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
@@ -78,6 +80,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Milk (Semi-Skimmed) — **default for "milk"** | `local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D` | milliliter | 47.0 | milk.co.uk |
 | Miso | `foodnoms:usda:2707439` | gram | 198.0 | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
 | MORI-NU (Tofu, Silken, Firm) | `foodnoms:usda:172461` | gram | 62.0 | [usda](https://fdc.nal.usda.gov/food-details/172461/nutrients) |
+| Mung Bean Sprouts | `foodnoms:usda:169957` | gram | 30.0 | [usda](https://fdc.nal.usda.gov/food-details/169957/nutrients) |
 | Mustard Seeds (Ground) | `foodnoms:usda:170929` | gram | 508.0 | [usda](https://fdc.nal.usda.gov/food-details/170929/nutrients) |
 | Nori Flakes (garnish) | `local:3514212A-FDC4-43BD-8C21-0A3AAF51F4F2` | serving | 200.0 | local |
 | Nutritional Yeast Flakes | `local:A79EC48D-C9A5-43A9-9F24-C57821BECF60` | gram | 349.0 | local (Buy Whole Foods) |
@@ -89,6 +92,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Organic Chopped Tomatoes (Tinned) — breakfast passata | `local:0B0EBB36-4389-4601-BFF1-AD27B2DFD124` | gram | 19.0 | label (macros) + usda micros |
 | Organic Coconut Aminos Original | `local:2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5` | milliliter | 84.0 | local (Biona Organic) |
 | Paprika | `foodnoms:ciqual:11049` | gram | 318.0 | ciqual |
+| Peanut Flour (Defatted) | `foodnoms:usda:174267` | gram | 327.0 | [usda](https://fdc.nal.usda.gov/food-details/174267/nutrients) |
 | Pinto Bean | `foodnoms:usda:2707371` | gram | 191.0 | [usda](https://fdc.nal.usda.gov/food-details/2707371/nutrients) |
 | Sesame Oil (at-table drizzle) | `local:A3FD9459-082A-44C6-A5A7-ABA3B8597FD2` | serving | 0.0 | local |
 | Sesame Seeds (garnish) | `local:6C8317A7-F72D-4964-B711-B2E0A7CAF4B3` | serving | 5200.0 | local |
