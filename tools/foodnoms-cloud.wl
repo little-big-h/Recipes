@@ -308,13 +308,15 @@ buildFoodNomsRecipe[spec_Association] := Module[
 
 (* ======================= C. APIFunction (JSON in) ======================== *)
 
-(* The caller sends `spec` as a JSON object. We take the field as a raw String and
-   parse it with Developer`ReadRawJSONString -> nested Associations (exactly what
-   buildFoodNomsRecipe wants). NB: the built-in "JSON"/"RawJSON" interpreter types
-   are NOT used — "JSON" yields rule-lists (wrong shape) and both choke on the
-   ✴️/🩹 non-ASCII in recipe names; ReadRawJSONString handles UTF-8 cleanly. *)
-foodnomsAPI = APIFunction[{"spec" -> "String"},
-   buildFoodNomsRecipe[Developer`ReadRawJSONString[#spec]] &, "JSON"];
+(* The caller sends `spec` as a JSON object; the builtin "RawJSON" interpreter
+   parses it into nested Associations -- exactly what buildFoodNomsRecipe wants.
+   Send standard JSON with any non-ASCII escaped as \\uXXXX (the default for most
+   JSON encoders, e.g. Python json.dumps): the interpreter accepts ASCII bytes and
+   decodes the escapes back to the real characters. The patched-food name glyph is
+   generated server-side, so the caller rarely needs non-ASCII beyond the recipe
+   name's stamp. NB: plain "JSON" yields rule-lists (wrong shape) -- use "RawJSON". *)
+foodnomsAPI = APIFunction[{"spec" -> "RawJSON"},
+   buildFoodNomsRecipe[#spec] &, "JSON"];
 
 
 (* ===================== D. Deploy (run once, as pirk0) ===================== *)

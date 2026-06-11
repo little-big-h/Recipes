@@ -294,8 +294,9 @@ https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
 
 ### Usage
 
-Call with a single `spec` parameter — a **JSON object** (parsed server-side into
-nested Associations). Returns JSON
+Call with a single `spec` parameter — a **JSON object** (builtin `RawJSON`
+interpreter → nested Associations). Send standard JSON with non-ASCII escaped as
+`\uXXXX` (the `✴️` stamp, etc.). Returns JSON
 `{"files": […], "totals": {…}, "warnings": […]}`.
 
 ```bash

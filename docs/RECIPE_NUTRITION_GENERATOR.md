@@ -34,8 +34,10 @@ paste `fdc-lookup.wl` or hand-assemble JSON each session. Source of truth:
 + redeploy if that file changes). Deploy line (run once, authenticated as the cloud
 owner): `CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]`.
 
-**Call it** with a `spec` parameter — a **JSON object** (parsed server-side into
-nested Associations, so the caller just sends ordinary JSON):
+**Call it** with a `spec` parameter — a **JSON object** (the endpoint's builtin
+`RawJSON` interpreter parses it into nested Associations). Send ordinary JSON with
+any non-ASCII escaped as `\uXXXX` (standard JSON; what `json.dumps` emits by
+default) — e.g. the `✴️` name stamp:
 
 ```json
 {
