@@ -71,7 +71,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Ground Cumin | `foodnoms:openai:1a2ce535-7207-4a5d-bd3a-6be2f1dc84bd` | serving | 2600.0 | fn |
 | Harissa Spice Mix | `local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69` | gram | 259.0 | label (19.59 g salt/100 g) |
 | Hon-Mirin | `local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA` | milliliter | 189.0 | label (Clearspring Mikawa) |
-| Kecap Manis (est.) | `local:6D3E22C3-B79B-49D1-A35D-D4AD9C0C7238` | milliliter | 250.0 | estimate |
+| Kecap Manis (Chi Wan) | `local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9` | milliliter | 122.0 | label (Chi Wan) |
 | Kidney Beans | `foodnoms:usda:2707379` | gram | 177.0 | [usda](https://fdc.nal.usda.gov/food-details/2707379/nutrients) |
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
 | Lemon Juice (Raw) | `foodnoms:usda:167747` | gram | 22.0 | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
@@ -92,7 +92,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Organic Chopped Tomatoes (Tinned) — breakfast passata | `local:0B0EBB36-4389-4601-BFF1-AD27B2DFD124` | gram | 19.0 | label (macros) + usda micros |
 | Organic Coconut Aminos Original | `local:2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5` | milliliter | 84.0 | local (Biona Organic) |
 | Paprika | `foodnoms:ciqual:11049` | gram | 318.0 | ciqual |
-| Peanut Flour (Defatted) | `foodnoms:usda:174267` | gram | 327.0 | [usda](https://fdc.nal.usda.gov/food-details/174267/nutrients) |
+| Peanut Flour (Defatted) | `local:2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC` | gram | 380.0 | label (Buy Whole Foods) |
 | Pinto Bean | `foodnoms:usda:2707371` | gram | 191.0 | [usda](https://fdc.nal.usda.gov/food-details/2707371/nutrients) |
 | Sesame Oil (at-table drizzle) | `local:A3FD9459-082A-44C6-A5A7-ABA3B8597FD2` | serving | 0.0 | local |
 | Sesame Seeds (garnish) | `local:6C8317A7-F72D-4964-B711-B2E0A7CAF4B3` | serving | 5200.0 | local |

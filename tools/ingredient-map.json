@@ -819,34 +819,6 @@
   "secondary": "sr_legacy_food",
   "source": "usda"
  },
- "foodnoms:usda:174267": {
-  "baseAmount": 100,
-  "baseUnit": "gram",
-  "brand": null,
-  "foodID": "foodnoms:usda:174267",
-  "name": "Peanut Flour (Defatted)",
-  "per100": {
-   "calcium": 140.0,
-   "calories": 327.0,
-   "carbs": 34.7,
-   "fat": 0.55,
-   "fatSaturated": 0.063,
-   "fiber": 15.8,
-   "folate": 248.0,
-   "iron": 2.1,
-   "magnesium": 370.0,
-   "phosphorus": 760.0,
-   "potassium": 1290.0,
-   "protein": 52.2,
-   "sodium": 180.0,
-   "sugars": 8.22,
-   "vitaminC": 0.0,
-   "water": 7.8,
-   "zinc": 5.1
-  },
-  "secondary": "sr_legacy_food",
-  "source": "usda"
- },
  "foodnoms:usda:174270": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -1910,6 +1882,36 @@
   "secondary": "milk.co.uk",
   "source": "milk.co.uk"
  },
+ "local:2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": "Buy Whole Foods Online",
+  "foodID": "local:2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC",
+  "name": "Peanut Flour (Defatted)",
+  "per100": {
+   "calcium": 115.2,
+   "calories": 380.0,
+   "carbs": 16.0,
+   "copper": 1.6,
+   "fat": 14.4,
+   "fatSaturated": 1.2,
+   "fiber": 16.0,
+   "folate": 284.8,
+   "iron": 5.6,
+   "magnesium": 204.8,
+   "manganese": 2.4,
+   "niacin": 17.6,
+   "phosphorus": 490.0,
+   "potassium": 824.8,
+   "protein": 47.2,
+   "selenium": 8.8,
+   "sodium": 0.0,
+   "sugars": 8.0,
+   "zinc": 4.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:2FD209A7-4292-467D-BE37-E9E704F325F0": {
   "baseAmount": 100,
   "baseUnit": "gram",
@@ -2086,24 +2088,6 @@
   "secondary": null,
   "source": null
  },
- "local:6D3E22C3-B79B-49D1-A35D-D4AD9C0C7238": {
-  "baseAmount": 100,
-  "baseUnit": "milliliter",
-  "brand": null,
-  "foodID": "local:6D3E22C3-B79B-49D1-A35D-D4AD9C0C7238",
-  "name": "Kecap Manis (est.)",
-  "per100": {
-   "calories": 250.0,
-   "carbs": 58.0,
-   "fat": 0.1,
-   "fiber": 0.0,
-   "protein": 4.0,
-   "sodium": 3500.0,
-   "sugars": 52.0
-  },
-  "secondary": "estimate",
-  "source": "estimate"
- },
  "local:7A94FF9B-E956-4FDA-B07E-5F139C778EBB": {
   "baseAmount": 400,
   "baseUnit": "gram",
@@ -2115,6 +2099,25 @@
   },
   "secondary": null,
   "source": null
+ },
+ "local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9": {
+  "barcode": "4002239604307",
+  "baseAmount": 100,
+  "baseUnit": "milliliter",
+  "brand": "Chi Wan",
+  "foodID": "local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9",
+  "name": "Kecap Manis (Chi Wan)",
+  "per100": {
+   "calories": 122.0,
+   "carbs": 20.9,
+   "fat": 0.1,
+   "fatSaturated": 0.1,
+   "protein": 9.0,
+   "sodium": 5400.0,
+   "sugars": 14.4
+  },
+  "secondary": null,
+  "source": "label"
  },
  "local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69": {
   "baseAmount": 100,
