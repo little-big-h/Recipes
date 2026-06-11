@@ -280,52 +280,71 @@ Sync line colours: use a darkened version of the triggering device's colour, or 
 
 ---
 
-## Wolfram Cloud recipe-nutrition endpoint
+## Wolfram Cloud recipe-nutrition endpoints
 
-Generating a `.foodnoms` recipe from a list of USDA ingredients is deployed as a
-Cloud Object, parallel to the timeline endpoint above. Source of truth:
+Turning a list of USDA ingredients into a `.foodnoms` recipe is deployed as **two**
+Cloud Objects, parallel to the timeline endpoint above. They are split on purpose:
+**resolution** (fuzzy name → candidates, to be judged) is a different operation from
+**construction** (resolved ids → file, deterministic). Source of truth:
 `../tools/foodnoms-cloud.wl`; full playbook: `RECIPE_NUTRITION_GENERATOR.md`.
 
-### Endpoint
+Both take a single `spec` parameter — a **JSON object** (builtin `RawJSON`
+interpreter → nested Associations). Send standard JSON with non-ASCII escaped as
+`\uXXXX` (the `✴️` stamp, etc.).
+
+### 1. `ResolveFDC` — ingredient name → ranked USDA candidates
+
+```
+https://www.wolframcloud.com/obj/pirk0/ResolveFDC
+```
+
+```bash
+curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
+  --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
+```
+
+Returns `{"results":[{"query":…,"candidates":[{"fdcId","description","dataType"},…]},…]}`.
+The candidates are advisory — **you pick** the `fdcId` (rank by `dataType`:
+Foundation > SR Legacy > FNDDS > Branded, plus food-identity match). The builder never
+auto-picks.
+
+### 2. `BuildFoodNomsRecipe` — resolved ingredients → `.foodnoms` + totals
 
 ```
 https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
 ```
-
-### Usage
-
-Call with a single `spec` parameter — a **JSON object** (builtin `RawJSON`
-interpreter → nested Associations). Send standard JSON with non-ASCII escaped as
-`\uXXXX` (the `✴️` stamp, etc.). Returns JSON
-`{"files": […], "totals": {…}, "warnings": […]}`.
 
 ```bash
 curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
   --data-urlencode 'spec={"name":"…","servings":5,"ingredients":[…]}'
 ```
 
+Returns `{"files": […], "totals": {…}, "warnings": […]}`.
+
 - `files[]` — each `{name, json, b64}`; `b64` is the ready-to-write `.foodnoms`
   bytes. Recipe first, then any patch-provenance files (`FOODNOMS_FORMAT.md` §11).
   Write from the bytes: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]`, or in the
   shell `printf %s "$b64" | base64 -d > "$name"`.
 - `totals` — 16 summed nutrient slots + `salt` (= `sodium_mg * 2.5 / 1000`).
-- `warnings` — unresolved queries / unmapped USDA dataTypes / patch-created keys.
+- `warnings` — unresolved/skipped ingredients / unmapped USDA dataTypes / patch-created keys.
 
-### Spec shape
+#### Spec shape
 
 ```json
 {"name": "<recipe name incl. [DD-MM-YY] ✴️>", "servings": 5,
  "totalServingSize": 4778,
  "ingredients": [
    {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
-   {"query": "dry soybeans", "quantity": 326},
+   {"fdcId": 174270, "quantity": 326},
    {"foodID": "local:…", "name": "Hon-Mirin", "quantity": 40,
     "unit": "milliliter", "nutrients": {"calories": 257}}]}
 ```
 
-Ingredient = **USDA** (`fdcId`/`query` + `quantity`, optional `unit`), **USDA +
-patch** (`patch` per-100 g deltas, optional `patchNote`/`patchFoodID`/`patchedFoodID`),
-or **pass-through** (`foodID` + `nutrients` verbatim, for non-USDA foods).
+Ingredient = **USDA** (`fdcId` + `quantity`, optional `unit`), **USDA + patch**
+(`patch` per-100 g deltas, optional `patchNote`/`patchFoodID`/`patchedFoodID`), or
+**pass-through** (`foodID` + `nutrients` verbatim, for non-USDA foods). An ingredient
+with neither `fdcId` nor `foodID`+`nutrients` is skipped with a warning — resolve it via
+`ResolveFDC` first.
 
 ### Notes
 

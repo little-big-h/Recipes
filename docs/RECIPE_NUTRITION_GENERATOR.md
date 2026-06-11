@@ -26,18 +26,39 @@ recipe.md ─▶ parse ingredients+amounts ─▶ resolve each to a USDA fdcId
 
 ---
 
-## Hosted endpoint (preferred) — `BuildFoodNomsRecipe`
+## Hosted endpoints (preferred) — `ResolveFDC` + `BuildFoodNomsRecipe`
 
-Steps 2–5 below are deployed as a single Wolfram Cloud Object so you don't have to
-paste `fdc-lookup.wl` or hand-assemble JSON each session. Source of truth:
-`../tools/foodnoms-cloud.wl` (Section A is a synced copy of `fdc-lookup.wl`; re-sync
-+ redeploy if that file changes). Deploy line (run once, authenticated as the cloud
-owner): `CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]`.
+Steps 2–5 below are deployed as **two** Wolfram Cloud Objects, kept deliberately
+separate because they are different kinds of operation:
 
-**Call it** with a `spec` parameter — a **JSON object** (the endpoint's builtin
-`RawJSON` interpreter parses it into nested Associations). Send ordinary JSON with
-any non-ASCII escaped as `\uXXXX` (standard JSON; what `json.dumps` emits by
-default) — e.g. the `✴️` name stamp:
+- **`ResolveFDC`** — *resolution* (Step 2). A fuzzy, ranked **name → USDA candidates**
+  search. Its output is options **to be judged**, never auto-committed.
+- **`BuildFoodNomsRecipe`** — *construction* (Steps 3–5). A deterministic
+  **resolved-ingredients → `.foodnoms` + totals** function. It takes only `fdcId`s (or
+  pass-through foods) and never searches.
+
+Source of truth: `../tools/foodnoms-cloud.wl` (Section A is a synced copy of
+`fdc-lookup.wl`; re-sync + redeploy if that changes). Deploy once, authenticated as the
+cloud owner:
+`CloudDeploy[resolveAPI, CloudObject["ResolveFDC"], Permissions -> "Public"]` and
+`CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]`.
+
+Both take a `spec` parameter — a **JSON object** (builtin `RawJSON` interpreter →
+nested Associations). Send ordinary JSON with any non-ASCII escaped as `\uXXXX`
+(standard JSON; what `json.dumps` emits) — e.g. the `✴️` name stamp.
+
+### 1. Resolve (Step 2) — you pick the `fdcId`
+
+```bash
+curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
+  --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
+```
+→ `{"results":[{"query":"…","candidates":[{"fdcId":…,"description":"…","dataType":"…"},…]},…]}`.
+Rank by `dataType` (Foundation > SR Legacy > FNDDS > Branded) and food-identity match,
+**ask when ambiguous** (the rules in Step 2 below). The candidate list is advisory —
+`BuildFoodNomsRecipe` will not pick for you.
+
+### 2. Build (Steps 3–5) — already-resolved ingredients only
 
 ```json
 {
@@ -46,24 +67,23 @@ default) — e.g. the `✴️` name stamp:
   "totalServingSize": 4778,
   "ingredients": [
     {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
-    {"query": "dry soybeans", "quantity": 326},
+    {"fdcId": 174270, "quantity": 326},
     {"foodID": "local:DC95FB78-…", "name": "Hon-Mirin", "quantity": 40,
      "unit": "milliliter", "nutrients": {"calories": 257, "carbs": 43.4}}
   ]
 }
 ```
-
-From the shell:
-
 ```bash
 curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
   --data-urlencode 'spec={"name":"…","servings":5,"ingredients":[…]}'
 ```
 
-Ingredient forms: **USDA** (`fdcId` or `query` + `quantity`, optional `unit`); **USDA
-+ patch** (add `patch` = per-100 g nutrient deltas, optional `patchNote`,
+Ingredient forms: **USDA** (`fdcId` + `quantity`, optional `unit`); **USDA + patch**
+(add `patch` = per-100 g nutrient deltas, optional `patchNote`,
 `patchFoodID`/`patchedFoodID` to reuse stable ids); **pass-through** for non-USDA
-`local:`/`ciqual:` foods (explicit `foodID` + `nutrients`, used verbatim).
+`local:`/`ciqual:` foods (explicit `foodID` + `nutrients`, used verbatim). An ingredient
+with neither an `fdcId` nor `foodID`+`nutrients` is **skipped with a warning** — resolve
+it first.
 
 **Response** (`"JSON"`): `<|"files" -> {…}, "totals" -> {…}, "warnings" -> {…}|>`.
 - `files` — recipe first, then any patch + patched-food provenance objects
@@ -71,10 +91,10 @@ Ingredient forms: **USDA** (`fdcId` or `query` + `quantity`, optional `unit`); *
   Wolfram: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]` (then `Close`).
 - `totals` — the 16 summed slots + `salt` (= `sodium*2.5/1000`), for the `.md`
   Nutrition table (Step 5 write-back below still applies).
-- `warnings` — unresolved queries, unmapped dataTypes, patch-created keys.
+- `warnings` — unresolved/skipped ingredients, unmapped dataTypes, patch-created keys.
 
 Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `totals`, and
-**Step 6 verify**. The manual Steps 2–5 below remain the fallback if the endpoint is
+**Step 6 verify**. The manual Steps 2–5 below remain the fallback if the endpoints are
 unavailable.
 
 ---

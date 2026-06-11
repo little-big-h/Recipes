@@ -246,15 +246,11 @@ buildFoodNomsRecipe[spec_Association] := Module[
       (* pass-through: explicit foodID + nutrients given verbatim *)
       KeyExistsQ[ing, "nutrients"] && KeyExistsQ[ing, "foodID"],
         AppendTo[entries, passthroughFoodEntry[ing, i]],
-      (* USDA-resolved (with or without a patch) *)
-      True,
-        fdcId = Lookup[ing, "fdcId", Missing[]];
-        If[MissingQ[fdcId],
-         With[{hits = fdcSearch[Lookup[ing, "query", ""], 1]},
-          If[hits === {},
-           AppendTo[warnings, "No USDA match for: " <> ToString @ Lookup[ing, "query", "?"]];
-           i++; Continue[],
-           fdcId = hits[[1, 1]]]]];
+      (* USDA-resolved by a known fdcId (with or without a patch).
+         NB: no fuzzy name search here — resolution is a separate concern
+         (the ResolveFDC endpoint). An ingredient must arrive already resolved. *)
+      KeyExistsQ[ing, "fdcId"],
+        fdcId = ing["fdcId"];
         block = fdcToFoodNoms[fdcId];
         If[fdcSecondarySource[block["dataType"]] === Missing[],
          AppendTo[warnings,
@@ -273,7 +269,12 @@ buildFoodNomsRecipe[spec_Association] := Module[
            block["name"] <> ": patch created previously-missing key(s) " <>
             ToString[trio["missing"]]]],
          (* else: plain USDA entry *)
-         AppendTo[entries, usdaFoodEntry[block, qty, unit, i]]]
+         AppendTo[entries, usdaFoodEntry[block, qty, unit, i]]],
+      (* unresolved: neither a known fdcId nor a pass-through food — skip, don't guess *)
+      True,
+        AppendTo[warnings,
+         "Ingredient " <> ToString @ Lookup[ing, "name", Lookup[ing, "query", "#" <> ToString[i]]] <>
+          " is unresolved (needs `fdcId`, or `foodID`+`nutrients`); skipped. Use ResolveFDC first."]
       ]];
     i++,
     {rawIng, ings}];
@@ -306,6 +307,22 @@ buildFoodNomsRecipe[spec_Association] := Module[
   <|"files" -> files, "totals" -> totals, "warnings" -> warnings|>];
 
 
+(* ============ B2. Resolution: ingredient name -> USDA candidates =========
+   A SEPARATE concern from building. fdcSearch is fuzzy and ranked — its output
+   exists to be judged (by Claude), not silently top-picked. So it is exposed as
+   its own endpoint; buildFoodNomsRecipe only ever takes already-resolved ids.
+   Rank order is the USDA API's relevance (Foundation/SR Legacy/FNDDS/Branded
+   noted via dataType, for the caller to weigh). *)
+resolveFDC[spec_Association] := Module[{qs, n},
+  qs = Lookup[spec, "queries",
+     If[KeyExistsQ[spec, "query"], {spec["query"]}, {}]];
+  n = Lookup[spec, "n", 5];
+  <|"results" -> Function[q,
+     <|"query" -> q,
+       "candidates" -> (<|"fdcId" -> #[[1]], "description" -> #[[2]],
+            "dataType" -> #[[3]]|> & /@ fdcSearch[q, n])|>] /@ qs|>];
+
+
 (* ======================= C. APIFunction (JSON in) ======================== *)
 
 (* The caller sends `spec` as a JSON object; the builtin "RawJSON" interpreter
@@ -318,25 +335,34 @@ buildFoodNomsRecipe[spec_Association] := Module[
 foodnomsAPI = APIFunction[{"spec" -> "RawJSON"},
    buildFoodNomsRecipe[#spec] &, "JSON"];
 
+(* the resolution endpoint (search only — returns candidates to judge) *)
+resolveAPI = APIFunction[{"spec" -> "RawJSON"},
+   resolveFDC[#spec] &, "JSON"];
+
 
 (* ===================== D. Deploy (run once, as pirk0) ===================== *)
 
-(* Evaluate in an authenticated Wolfram Cloud session (CloudConnect[]):
+(* Evaluate in an authenticated Wolfram Cloud session (CloudConnect[]). Two
+   endpoints, two concerns — deploy both:
 
-   CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"],
-     Permissions -> "Public"]
+   CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],            Permissions -> "Public"]
+   CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"],   Permissions -> "Public"]
 
-   -> https://www.wolframcloud.com/obj/<user>/BuildFoodNomsRecipe
+   1) ResolveFDC — name(s) -> ranked USDA candidates (you pick the fdcId):
 
-   Call it with `spec` set to a JSON object, e.g. from the shell:
+     curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
+       --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
+     -> {"results":[{"query":"...","candidates":[{"fdcId":...,"description":"...","dataType":"..."},...]},...]}
+
+   2) BuildFoodNomsRecipe — already-resolved ingredients -> .foodnoms + totals:
 
      curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
        --data-urlencode 'spec={"name":"My Soup","servings":5,
          "ingredients":[{"fdcId":2685570,"quantity":1918,
          "patch":{"sugars":2.2}}]}'
+     -> {"files":[{name,json,b64}...], "totals":{...}, "warnings":[...]}
 
-   The response is JSON: {"files":[{name,json,b64}...], "totals":{...},
-   "warnings":[...]}. Write each returned file from its Base64 bytes:
+   Write each returned file from its Base64 bytes:
      BinaryWrite[f["name"], BaseDecode[f["b64"]]]   (* per files[] item *)
 *)
 

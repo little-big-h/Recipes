@@ -5,10 +5,11 @@ into FoodNoms `nutrients` blocks — the same source FoodNoms itself uses.
 
 The helper is [`../tools/fdc-lookup.wl`](../tools/fdc-lookup.wl).
 
-> **Also deployed as a Cloud Object.** These helpers are inlined into
-> [`../tools/foodnoms-cloud.wl`](../tools/foodnoms-cloud.wl) and deployed as the
-> public `BuildFoodNomsRecipe` endpoint, which assembles a whole recipe (USDA
-> ingredients + patches → `.foodnoms` bytes + totals) in one call — see
+> **Also deployed as Cloud Objects.** These helpers are inlined into
+> [`../tools/foodnoms-cloud.wl`](../tools/foodnoms-cloud.wl) and deployed as two
+> public endpoints, split by concern: **`ResolveFDC`** (`fdcSearch` — a name → ranked
+> USDA candidates lookup, output to be judged) and **`BuildFoodNomsRecipe`**
+> (resolved ingredients + patches → `.foodnoms` bytes + totals, deterministic). See
 > `RECIPE_NUTRITION_GENERATOR.md` and `TECHNIQUES.md`. `fdc-lookup.wl` remains the
 > **source of truth** and the manual route for one-off lookups; Section A of
 > `foodnoms-cloud.wl` is a **synced copy** — if you change `fdc-lookup.wl`, re-sync
