@@ -65,6 +65,27 @@ blob = lzfse.compress(json.dumps(data, ensure_ascii=False).encode("utf-8"))
 open("My Food.foodnoms", "wb").write(blob)
 ```
 
+**Writing without Python — uncompressed LZFSE block.** LZFSE *compression* isn't
+available in Wolfram, but the container also permits an **uncompressed block**, which
+Apple's decoder (and liblzfse) accept. That is pure byte assembly — no codec, no
+Python — so Wolfram can emit a valid `.foodnoms` directly:
+
+```
+'bvx-'  +  uint32 little-endian raw-JSON length  +  raw UTF-8 JSON  +  'bvx$'
+```
+
+```wolfram
+foodnomsBytes[a_] := Module[{j = ExportByteArray[a, "RawJSON"]},
+  ByteArray @ Join[ToCharacterCode["bvx-"], Reverse @ IntegerDigits[Length[j], 256, 4],
+                   Normal[j], ToCharacterCode["bvx$"]]];
+(* write: BinaryWrite[name, foodnomsBytes[obj]]; Close[name] *)
+```
+
+This is what `../tools/foodnoms-cloud.wl` and the `BuildFoodNomsRecipe` Cloud Object
+return (Base64-encoded). The file is uncompressed (a few KB — fine for recipes). The
+Python snippet above stays useful as a **reader** for decoding existing compressed
+exports.
+
 **Filename.** FoodNoms names exports after the food/collection, e.g.
 `Spinach (Raw).foodnoms` or `Thai Yellow Butternut Squash Curry 27/5/26.foodnoms`
 (slashes from dates are stripped by the OS, hence `…Curry 27526.foodnoms` on
@@ -449,3 +470,8 @@ explicit, *weightless* **patch**, in three pieces (example trio in `examples/`:
 3. **Use the patched food as an ingredient** in the dish: reference its `foodID`,
    store its **per-gram** nutrients (`baseAmount: 1`), `quantity` in grams. No
    phantom mass; the USDA record is never touched. (Holger's design, 2026-06.)
+
+**Automated.** The `BuildFoodNomsRecipe` Cloud Object (`../tools/foodnoms-cloud.wl`,
+`RECIPE_NUTRITION_GENERATOR.md`) emits this whole trio for any ingredient given a
+`patch` (per-100 g nutrient deltas): the recipe's per-gram `🩹 … #Patched` entry plus
+the two reusable provenance files (patch food + patched food), as separate `files[]`.

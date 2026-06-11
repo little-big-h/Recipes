@@ -20,8 +20,53 @@ recipe.md ─▶ parse ingredients+amounts ─▶ resolve each to a USDA fdcId
 ```
 
 > **Computation rule:** nutrition totals are computed in **Wolfram, never
-> Python** (project rule). Python is used **only** for the LZFSE encode step,
-> which is file I/O, not computation.
+> Python** (project rule). The hosted endpoint below also emits the `.foodnoms`
+> file **bytes** in Wolfram (uncompressed LZFSE block), so the whole pipeline is
+> Python-free — the only client step is writing bytes to disk.
+
+---
+
+## Hosted endpoint (preferred) — `BuildFoodNomsRecipe`
+
+Steps 2–5 below are deployed as a single Wolfram Cloud Object so you don't have to
+paste `fdc-lookup.wl` or hand-assemble JSON each session. Source of truth:
+`../tools/foodnoms-cloud.wl` (Section A is a synced copy of `fdc-lookup.wl`; re-sync
++ redeploy if that file changes). Deploy line (run once, authenticated as the cloud
+owner): `CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]`.
+
+**Call it** with a `spec` parameter whose value is **Wolfram source** (an
+`Association` literal — parsed natively by the `"Expression"` interpreter, no JSON
+escaping):
+
+```wolfram
+spec = <|
+  "name" -> "Creamy Butternut & Soy Bean Soup [10-06-26] ✴️",  (* full name incl. date + ✴️ *)
+  "servings" -> 5,
+  "totalServingSize" -> 4778,        (* optional measured cooked yield; defaults to Σ quantities *)
+  "ingredients" -> {
+    <|"fdcId" -> 2685570, "quantity" -> 1918, "patch" -> <|"sugars" -> 2.2|>|>,  (* USDA + patch *)
+    <|"query" -> "dry soybeans", "quantity" -> 326|>,                            (* resolve by name *)
+    <|"foodID" -> "local:DC95FB78-…", "name" -> "Hon-Mirin", "quantity" -> 40,
+      "unit" -> "milliliter", "nutrients" -> <|"calories" -> 257, "carbs" -> 43.4|>|>  (* pass-through *)
+  }|>;
+```
+
+Ingredient forms: **USDA** (`fdcId` or `query` + `quantity`, optional `unit`); **USDA
++ patch** (add `patch` = per-100 g nutrient deltas, optional `patchNote`,
+`patchFoodID`/`patchedFoodID` to reuse stable ids); **pass-through** for non-USDA
+`local:`/`ciqual:` foods (explicit `foodID` + `nutrients`, used verbatim).
+
+**Response** (`"JSON"`): `<|"files" -> {…}, "totals" -> {…}, "warnings" -> {…}|>`.
+- `files` — recipe first, then any patch + patched-food provenance objects
+  (`FOODNOMS_FORMAT.md` §11). Each item: `{name, json, b64}`. Write each in pure
+  Wolfram: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]` (then `Close`).
+- `totals` — the 16 summed slots + `salt` (= `sodium*2.5/1000`), for the `.md`
+  Nutrition table (Step 5 write-back below still applies).
+- `warnings` — unresolved queries, unmapped dataTypes, patch-created keys.
+
+Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `totals`, and
+**Step 6 verify**. The manual Steps 2–5 below remain the fallback if the endpoint is
+unavailable.
 
 ---
 

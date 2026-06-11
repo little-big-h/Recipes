@@ -280,6 +280,54 @@ Sync line colours: use a darkened version of the triggering device's colour, or 
 
 ---
 
+## Wolfram Cloud recipe-nutrition endpoint
+
+Generating a `.foodnoms` recipe from a list of USDA ingredients is deployed as a
+Cloud Object, parallel to the timeline endpoint above. Source of truth:
+`../tools/foodnoms-cloud.wl`; full playbook: `RECIPE_NUTRITION_GENERATOR.md`.
+
+### Endpoint
+
+```
+https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
+```
+
+### Usage
+
+Call with a single `spec` parameter whose value is **Wolfram source** (an
+`Association` literal — parsed by the `"Expression"` interpreter, not JSON). It
+returns `<|"files" -> {…}, "totals" -> {…}, "warnings" -> {…}|>` as JSON.
+
+- `files[]` — each `{name, json, b64}`; `b64` is the ready-to-write `.foodnoms`
+  bytes. Recipe first, then any patch-provenance files (`FOODNOMS_FORMAT.md` §11).
+  Write in pure Wolfram: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]`.
+- `totals` — 16 summed nutrient slots + `salt` (= `sodium_mg * 2.5 / 1000`).
+- `warnings` — unresolved queries / unmapped USDA dataTypes / patch-created keys.
+
+### Spec shape
+
+```wolfram
+<|"name" -> "<recipe name incl. [DD-MM-YY] ✴️>", "servings" -> 5,
+  "totalServingSize" -> 4778,    (* optional cooked yield; default Σ quantities *)
+  "ingredients" -> {
+    <|"fdcId" -> 2685570, "quantity" -> 1918, "patch" -> <|"sugars" -> 2.2|>|>,
+    <|"query" -> "dry soybeans", "quantity" -> 326|>,
+    <|"foodID" -> "local:…", "name" -> "Hon-Mirin", "quantity" -> 40,
+      "unit" -> "milliliter", "nutrients" -> <|"calories" -> 257|>|>}|>
+```
+
+Ingredient = **USDA** (`fdcId`/`query` + `quantity`, optional `unit`), **USDA +
+patch** (`patch` per-100 g deltas, optional `patchNote`/`patchFoodID`/`patchedFoodID`),
+or **pass-through** (`foodID` + `nutrients` verbatim, for non-USDA foods).
+
+### Notes
+
+- The `.foodnoms` bytes are an **uncompressed LZFSE block** (`bvx-`…`bvx$`) built in
+  Wolfram — no Python (`FOODNOMS_FORMAT.md` §2).
+- `Permissions -> "Public"`. The embedded FDC API key is never returned in responses.
+
+---
+
 ## Recipe iteration philosophy
 
 ### Iteration taxonomy
