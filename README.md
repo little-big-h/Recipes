@@ -12,6 +12,8 @@ recipe development without prior conversation history.
 
 **Start here if you're a new Claude Code instance:**
 
+> **Picking up mid-stream?** Read **`docs/ONBOARDING.md`** first — operational tooling, the gotchas you won't guess (the working tree gets rewound by a concurrent agent!), and the current state of play.
+
 1. Read `CLAUDE.md` — hard rules that fire every session (auto-loaded by Claude Code)
 2. Read `docs/CONTEXT.md` — family, equipment, dietary preferences, working conventions
 3. Read `docs/RECIPE_FORMAT.md` — exact specification for how recipe files are structured

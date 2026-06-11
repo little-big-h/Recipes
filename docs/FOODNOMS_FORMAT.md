@@ -426,3 +426,26 @@ assert json.loads(lzfse.decompress(blob))["foodEntries"][0]["name"] == "Tahini (
 ```
 
 The resulting `Tahini (Light).foodnoms` imports into FoodNoms as a custom food.
+
+---
+
+## 11. Patched records — fixing a USDA gap without mutating the record
+
+Sometimes a USDA record is missing a field (e.g. the butternut Foundation record
+`2685570` has no `sugars`). **Do not edit the authentic USDA values** — keep them
+pristine so the FDC link stays valid for monitoring. Model the correction as an
+explicit, *weightless* **patch**, in three pieces (example trio in `examples/`:
+`Butternut Squash (Raw) Patch`, `… Patched`, and the soup that uses it):
+
+1. **The patch** — a `foods[]` definition (`contentType 3`), **`baseUnit:
+   "serving"`**, `nutrients` = the **delta only** (e.g. `{"sugars": 2.2}`). Because
+   the unit is `serving` (not grams), it contributes the nutrient but **zero weight**
+   when used. Tag `brandOwner: "Created by Claude"`.
+2. **The patched food** — a recipe (`contentType 2`, `collectionType 3`) named
+   **`🩹 <Original> #Patched`** with two entries: the **pristine original** (100 g)
+   **+ the weightless patch** (`quantity 1`). `totalServingSize` stays the
+   original's base (100 g) — the patch added grams of nothing. Carry `urlString`
+   (link to the original record) and `notes` ("why patched") for provenance.
+3. **Use the patched food as an ingredient** in the dish: reference its `foodID`,
+   store its **per-gram** nutrients (`baseAmount: 1`), `quantity` in grams. No
+   phantom mass; the USDA record is never touched. (Holger's design, 2026-06.)

@@ -1,6 +1,6 @@
 # Claude Code Project Instructions — Recipes/
 
-This file is read automatically at session start. **For full project context, read `README.md` first, then `docs/CONTEXT.md`.** This file contains only the hard rules that absolutely need to fire on every session — keep it short.
+This file is read automatically at session start. **For full project context, read `README.md` first, then `docs/CONTEXT.md`; see `docs/ONBOARDING.md` for tooling/operational notes + current state.** This file contains only the hard rules that absolutely need to fire on every session — keep it short.
 
 ---
 
