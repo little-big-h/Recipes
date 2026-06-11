@@ -71,6 +71,13 @@ open("My Food.foodnoms", "wb").write(blob)
 disk). Use the food/collection `name` as the filename; the extension is
 `.foodnoms`.
 
+**Recipe naming (Holger's convention).** Append to every **Claude-generated**
+recipe/collection `name` a **`[DD-MM-YY]` creation-date suffix** *and* a trailing
+**🤖** (signals it was Claude-generated) — e.g. `Creamy Butternut & Soy Bean Soup
+[10-06-26] 🤖`. The date is when the recipe was **created** (not necessarily cooked).
+Put the stamp in the collection `name` so it carries through to the FoodNoms export
+filename.
+
 ---
 
 ## 3. Top-level structure
