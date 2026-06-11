@@ -16,8 +16,8 @@
 | 🟡 | 🫚 Dried ginger powder (into the brine) | 4 g | 13 | 6.5 g | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
 | 🟤 | 🫘 Dry soy beans (soaked ~5 h in the warm brine) | 250 g | 1115 | 326 g | [usda](https://fdc.nal.usda.gov/food-details/174270/nutrients) |
 | 🟢 | 🎃 Butternut squash (peeled, ~3 cm cubes) | 1200 g | 578 | 1918 g | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
-| 🟢 | 🥬 Asparagus (added) | — | 166 | 772 g | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
-| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | 48 g | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
+| 🟢 | 🥬 Asparagus (added) | — | 166 | 850 g | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
+| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 30 g | 57 | 52 g | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
 | 🟠 | 🌶️ Bird's-eye chilli (at table) | to taste | — | | |
 | ⚪ | 🍋 Lime wedges (at table) | 1–2 | — | | |
 | | **Total** | **~3.2 kg** | **~1877** | | |
@@ -54,7 +54,7 @@
 
 *Total values for the whole recipe. **Estimates, not FoodNoms-verified** — computed in Wolfram from standard per-100 g values; micros are committed best-estimates. High protein (~115 g) and fibre (~51 g) from the soy beans — squarely on-brief for recovery. Note this isn't as low-fat as the pinto–butternut soup (soy beans are ~20 % fat, so 54 g total) — but there's no added cream or coconut; the body is squash + bean. Salt ~8.7 g for the whole ~3 L pot sits inside the 10–15 g family target, with headroom to push the 🫗 soy/🍶 miso at the finish. B12 and vitamin D negligible — supplement separately.*
 
-***As cooked, then scaled to **1918 g squash** (×0.93 from the 2061 g batch):** ~2814 kcal, **173 g protein**, 381 g carbs (100 g sugars), 90 g fibre, 73 g fat — see `../../examples/Creamy Butternut & Soy Bean Soup.foodnoms`. The squash sugars are corrected with a **3-tier patch** (a weightless patch food + a `🩹 …#Patched` sub-recipe — `../../examples/Butternut Squash (Raw) Patch.foodnoms` + `…Patched.foodnoms`), since the USDA Foundation record `2685570` omits a sugars value. The USDA record itself is left untouched, so its FDC link stays valid for monitoring.*
+***As cooked, then scaled to **1918 g squash** (×0.93 from the 2061 g batch; asparagus held at 850 g and white miso at 52 g):** ~2837 kcal, **175 g protein**, 385 g carbs (101 g sugars), 92 g fibre, 73 g fat — see `../../examples/Creamy Butternut & Soy Bean Soup.foodnoms`. The squash sugars are corrected with a **3-tier patch** (a weightless patch food + a `🩹 …#Patched` sub-recipe — `../../examples/Butternut Squash (Raw) Patch.foodnoms` + `…Patched.foodnoms`), since the USDA Foundation record `2685570` omits a sugars value. The USDA record itself is left untouched, so its FDC link stays valid for monitoring.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
