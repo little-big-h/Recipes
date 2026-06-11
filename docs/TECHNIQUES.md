@@ -294,26 +294,32 @@ https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
 
 ### Usage
 
-Call with a single `spec` parameter whose value is **Wolfram source** (an
-`Association` literal — parsed by the `"Expression"` interpreter, not JSON). It
-returns `<|"files" -> {…}, "totals" -> {…}, "warnings" -> {…}|>` as JSON.
+Call with a single `spec` parameter — a **JSON object** (parsed server-side into
+nested Associations). Returns JSON
+`{"files": […], "totals": {…}, "warnings": […]}`.
+
+```bash
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"…","servings":5,"ingredients":[…]}'
+```
 
 - `files[]` — each `{name, json, b64}`; `b64` is the ready-to-write `.foodnoms`
   bytes. Recipe first, then any patch-provenance files (`FOODNOMS_FORMAT.md` §11).
-  Write in pure Wolfram: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]`.
+  Write from the bytes: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]`, or in the
+  shell `printf %s "$b64" | base64 -d > "$name"`.
 - `totals` — 16 summed nutrient slots + `salt` (= `sodium_mg * 2.5 / 1000`).
 - `warnings` — unresolved queries / unmapped USDA dataTypes / patch-created keys.
 
 ### Spec shape
 
-```wolfram
-<|"name" -> "<recipe name incl. [DD-MM-YY] ✴️>", "servings" -> 5,
-  "totalServingSize" -> 4778,    (* optional cooked yield; default Σ quantities *)
-  "ingredients" -> {
-    <|"fdcId" -> 2685570, "quantity" -> 1918, "patch" -> <|"sugars" -> 2.2|>|>,
-    <|"query" -> "dry soybeans", "quantity" -> 326|>,
-    <|"foodID" -> "local:…", "name" -> "Hon-Mirin", "quantity" -> 40,
-      "unit" -> "milliliter", "nutrients" -> <|"calories" -> 257|>|>}|>
+```json
+{"name": "<recipe name incl. [DD-MM-YY] ✴️>", "servings": 5,
+ "totalServingSize": 4778,
+ "ingredients": [
+   {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
+   {"query": "dry soybeans", "quantity": 326},
+   {"foodID": "local:…", "name": "Hon-Mirin", "quantity": 40,
+    "unit": "milliliter", "nutrients": {"calories": 257}}]}
 ```
 
 Ingredient = **USDA** (`fdcId`/`query` + `quantity`, optional `unit`), **USDA +

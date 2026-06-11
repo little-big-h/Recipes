@@ -306,12 +306,15 @@ buildFoodNomsRecipe[spec_Association] := Module[
   <|"files" -> files, "totals" -> totals, "warnings" -> warnings|>];
 
 
-(* ===================== C. APIFunction (Expression in) ===================== *)
+(* ======================= C. APIFunction (JSON in) ======================== *)
 
-(* The caller passes `spec` as Wolfram source (an Association literal); the
-   "Expression" interpreter parses it natively — no JSON to ImportString. *)
-foodnomsAPI = APIFunction[{"spec" -> "Expression"},
-   buildFoodNomsRecipe[#spec] &, "JSON"];
+(* The caller sends `spec` as a JSON object. We take the field as a raw String and
+   parse it with Developer`ReadRawJSONString -> nested Associations (exactly what
+   buildFoodNomsRecipe wants). NB: the built-in "JSON"/"RawJSON" interpreter types
+   are NOT used — "JSON" yields rule-lists (wrong shape) and both choke on the
+   ✴️/🩹 non-ASCII in recipe names; ReadRawJSONString handles UTF-8 cleanly. *)
+foodnomsAPI = APIFunction[{"spec" -> "String"},
+   buildFoodNomsRecipe[Developer`ReadRawJSONString[#spec]] &, "JSON"];
 
 
 (* ===================== D. Deploy (run once, as pirk0) ===================== *)
@@ -323,15 +326,15 @@ foodnomsAPI = APIFunction[{"spec" -> "Expression"},
 
    -> https://www.wolframcloud.com/obj/<user>/BuildFoodNomsRecipe
 
-   Call it with the `spec` parameter set to Wolfram source, e.g.:
+   Call it with `spec` set to a JSON object, e.g. from the shell:
 
-   URLExecute[HTTPRequest[
-     "https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe",
-     <|"Method" -> "POST",
-       "Body" -> {"spec" -> "<|\"name\"->\"My Soup\",\"servings\"->5,
-          \"ingredients\"->{<|\"fdcId\"->2685570,\"quantity\"->1918,
-          \"patch\"-><|\"sugars\"->2.2|>|>}|>"}|>], "RawJSON"]
+     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+       --data-urlencode 'spec={"name":"My Soup","servings":5,
+         "ingredients":[{"fdcId":2685570,"quantity":1918,
+         "patch":{"sugars":2.2}}]}'
 
-   Then write each returned file in pure Wolfram:
+   The response is JSON: {"files":[{name,json,b64}...], "totals":{...},
+   "warnings":[...]}. Write each returned file from its Base64 bytes:
      BinaryWrite[f["name"], BaseDecode[f["b64"]]]   (* per files[] item *)
 *)
+

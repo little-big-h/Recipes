@@ -34,21 +34,28 @@ paste `fdc-lookup.wl` or hand-assemble JSON each session. Source of truth:
 + redeploy if that file changes). Deploy line (run once, authenticated as the cloud
 owner): `CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]`.
 
-**Call it** with a `spec` parameter whose value is **Wolfram source** (an
-`Association` literal — parsed natively by the `"Expression"` interpreter, no JSON
-escaping):
+**Call it** with a `spec` parameter — a **JSON object** (parsed server-side into
+nested Associations, so the caller just sends ordinary JSON):
 
-```wolfram
-spec = <|
-  "name" -> "Creamy Butternut & Soy Bean Soup [10-06-26] ✴️",  (* full name incl. date + ✴️ *)
-  "servings" -> 5,
-  "totalServingSize" -> 4778,        (* optional measured cooked yield; defaults to Σ quantities *)
-  "ingredients" -> {
-    <|"fdcId" -> 2685570, "quantity" -> 1918, "patch" -> <|"sugars" -> 2.2|>|>,  (* USDA + patch *)
-    <|"query" -> "dry soybeans", "quantity" -> 326|>,                            (* resolve by name *)
-    <|"foodID" -> "local:DC95FB78-…", "name" -> "Hon-Mirin", "quantity" -> 40,
-      "unit" -> "milliliter", "nutrients" -> <|"calories" -> 257, "carbs" -> 43.4|>|>  (* pass-through *)
-  }|>;
+```json
+{
+  "name": "Creamy Butternut & Soy Bean Soup [10-06-26] ✴️",
+  "servings": 5,
+  "totalServingSize": 4778,
+  "ingredients": [
+    {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
+    {"query": "dry soybeans", "quantity": 326},
+    {"foodID": "local:DC95FB78-…", "name": "Hon-Mirin", "quantity": 40,
+     "unit": "milliliter", "nutrients": {"calories": 257, "carbs": 43.4}}
+  ]
+}
+```
+
+From the shell:
+
+```bash
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"…","servings":5,"ingredients":[…]}'
 ```
 
 Ingredient forms: **USDA** (`fdcId` or `query` + `quantity`, optional `unit`); **USDA
