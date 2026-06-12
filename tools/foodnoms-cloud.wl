@@ -425,14 +425,17 @@ specFromParams[a_] := Module[{errs = {}},
   If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
-  <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
-    "ingredients" -> Join[
-      MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
-        {a["fdcIds"], a["grams"]}],
-      MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-          "nutrients" -> AssociationThread[#5 -> #6]|> &,
-        {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
-         a["customNutrientNames"], a["customNutrientValues"]}]]|>];
+  Join[
+    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
+      "ingredients" -> Join[
+        MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
+          {a["fdcIds"], a["grams"]}],
+        MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
+            "nutrients" -> AssociationThread[#5 -> #6]|> &,
+          {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
+           a["customNutrientNames"], a["customNutrientValues"]}]]|>,
+    (* explicit yield only when supplied; otherwise the builder sums ingredient weights *)
+    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
 
 (* The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
    envelope -- so a browser GET on a query-string URL, or `curl -o`, lands the
@@ -442,6 +445,8 @@ specFromParams[a_] := Module[{errs = {}},
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
     "emit" -> opt["String", "recipe"],
+    (* explicit cooked yield; Missing[] default so "absent" != a real 0 *)
+    "totalServingSize" -> opt["Number", Missing[]],
     "fdcIds" -> opt[DelimitedSequence["Integer", ","], {}],
     "grams"  -> opt[DelimitedSequence["Number",  ","], {}],
     "patchFdcIds"        -> opt[DelimitedSequence["Integer", ","], {}],
@@ -506,6 +511,10 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    A custom (non-USDA) food adds: customNames=Hon-Mirin&customFoodIds=local:...&
    customQuantities=40&customUnits=milliliter&customNutrientNames=calories,sugars&
    customNutrientValues=189,38  (';' separates foods; nested ','/';' for the blocks).
+
+   totalServingSize=<grams> sets the recipe's cooked yield explicitly (e.g. when
+   water boils off); omit it and the yield defaults to the sum of ingredient
+   weights. Nutrition totals are unaffected either way.
 
    No envelope: warnings + the companion-file menu live in the recipe collection's
    `notes`; totals are read back from the file with

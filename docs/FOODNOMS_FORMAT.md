@@ -94,6 +94,10 @@ uncompressed (a few KB — fine for recipes) and therefore looks like plain JSON
 Wolfram reader for it; the Python `lzfse` snippet above still reads FoodNoms's *compressed*
 exports.
 
+The endpoint's `totalServingSize=<grams>` query param sets the recipe's cooked yield
+explicitly (e.g. when water boils off); omit it and the yield defaults to Σ ingredient
+weights. Nutrition totals are unaffected either way.
+
 **Filename.** FoodNoms names exports after the food/collection, e.g.
 `Spinach (Raw).foodnoms` or `Thai Yellow Butternut Squash Curry 27/5/26.foodnoms`
 (slashes from dates are stripped by the OS, hence `…Curry 27526.foodnoms` on
