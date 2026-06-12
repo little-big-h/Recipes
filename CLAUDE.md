@@ -19,6 +19,7 @@ This file is read automatically at session start. **For full project context, re
 ## Hard rules
 
 - **Use Wolfram, never Python** for any computation. Explicit user preference.
+- **Never manually parse JSON.** Don't hand-roll string surgery or call `ImportString`/`Interpreter["RawJSON"]` in a function body. Let the framework do it declaratively — an `APIFunction` parameter interpreter, `Import`/`URLExecute` with a format, etc. (Holger, emphatic.)
 - **Metric units throughout** — grams, millilitres, °C. Never imperial.
 - **Recipe nutrition totals are for the whole recipe** — never per serving, never per 100g.
 - **Ratings are out of 10**, one decimal place. 9–10 = exceptional. See `docs/RATINGS.md` schema for the data model.
