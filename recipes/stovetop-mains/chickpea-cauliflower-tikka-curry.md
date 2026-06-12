@@ -15,12 +15,12 @@
 | 🟢 | 🍅 Passata | 1000 g | 320 | | [usda](https://fdc.nal.usda.gov/food-details/170501/nutrients) |
 | 🟢 | 🥦 Cauliflower | 763 g | 191 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | 🟤 | 🌀 Whole-wheat penne | 324 g | 1128 | | local (est.) |
-| 🟢 | 🥬 Spinach | ~200 g *(est.)* | 46 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
-| | **Total** | **~3.7 kg** | **~3408** | | |
+| 🟢 | 🥬 Spinach | 207 g | 48 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
+| | **Total** | **~3.7 kg** | **~3410** | | |
 
 *Legend: 🟢 Vegetables · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
-*Totals approximate — the planned weight includes ~1 L cooking water (mostly absorbed by the chickpeas and pasta or reduced off). 🩹 The USDA chickpea record `2644282` carries **no fibre value** (reports 0), so it's corrected with a fibre patch (+12.2 g/100 g) — see Nutrition. 🥬 spinach amount is still an **estimate pending the actual weight**.*
+*Totals approximate — the planned weight includes ~1 L cooking water (mostly absorbed by the chickpeas and pasta or reduced off). 🩹 The USDA chickpea record `2644282` carries **no fibre value** (reports 0), so it's corrected with a fibre patch (+12.2 g/100 g) — see Nutrition.*
 
 ---
 
@@ -40,20 +40,20 @@
 
 ## Nutrition
 
-*Whole recipe. **Estimates, not FoodNoms-verified** — read back from the generated `.foodnoms` (USDA-derived, computed server-side). The 🥬 spinach amount is an estimate, and 🧈 ghee / 🌶️ tikka masala / 🌀 penne are local estimate records (no labels resolved yet). **Very high fibre (~121 g) and protein (~173 g)**, both chickpea-driven (400 g dry) — note the fibre load is steep if split among the kids. Salt ~8.8 g is driven by the 1000 g salted crushed-tomato passata (170501, 186 mg Na/100 g) plus the tikka blend — ~2.2 g/serving across 4, fine for the kids. The chickpea record `2644282` reports **no fibre**, so fibre is corrected with a **3-tier patch** (+12.2 g/100 g); the USDA record itself is left untouched so its FDC link stays valid for monitoring.*
+*Whole recipe. **Estimates, not FoodNoms-verified** — read back from the generated `.foodnoms` (USDA-derived, computed server-side). 🧈 ghee / 🌶️ tikka masala / 🌀 penne are local estimate records (no labels resolved yet). **Very high fibre (~121 g) and protein (~173 g)**, both chickpea-driven (400 g dry) — note the fibre load is steep if split among the kids. Salt ~8.8 g is driven by the 1000 g salted crushed-tomato passata (170501, 186 mg Na/100 g) plus the tikka blend — ~2.2 g/serving across 4, fine for the kids. The chickpea record `2644282` reports **no fibre**, so fibre is corrected with a **3-tier patch** (+12.2 g/100 g); the USDA record itself is left untouched so its FDC link stays valid for monitoring.*
 
-**⬇ Regenerate & download** (clicking issues a GET; `BuildFoodNomsRecipe` returns the file as an attachment, saved as `Chickpea, Cauliflower and Spinach Tikka Curry.foodnoms`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Chickpea%2C+Cauliflower+%26+Spinach+Tikka+Curry+%5B12-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=4&fdcIds=2644282%2C170501%2C2709777%2C168462&grams=400%2C1000%2C763%2C200&patchFdcIds=2644282&patchNutrientNames=fiber&patchDeltas=12.2&customNames=Ghee%3BTikka+Masala+Powder%3BWhole-Wheat+Penne&customFoodIds=local%3A4CB51F82-A552-1994-0DA7-B0C93A9B1B32%3Blocal%3A96D7CCE8-359F-8F21-3A22-1D3990211C6B%3Blocal%3A0D3371BC-3C4A-51B5-FCB9-9166842D18F7&customQuantities=10%3B32%3B324&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=900%2C0%2C0%2C0%2C100%2C62%2C0%2C2%2C0%2C4%2C0.01%2C0%2C5%2C0%2C0%2C0%3B319%2C12%2C45%2C8%2C12%2C2%2C25%2C3760%2C15%2C350%2C2%2C150%2C1200%2C0%2C0%2C30%3B348%2C14.6%2C71.5%2C3.9%2C2.5%2C0.5%2C8%2C8%2C3.6%2C40%2C2.0%2C126%2C215%2C0%2C0%2C57) · the recipe's `notes` field lists the two 🩹 chickpea companion files (re-request with `&emit=<url-encoded name>`).
+**⬇ Regenerate & download** (clicking issues a GET; `BuildFoodNomsRecipe` returns the file as an attachment, saved as `Chickpea, Cauliflower and Spinach Tikka Curry.foodnoms`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Chickpea%2C+Cauliflower+%26+Spinach+Tikka+Curry+%5B12-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=4&fdcIds=2644282%2C170501%2C2709777%2C168462&grams=400%2C1000%2C763%2C207&patchFdcIds=2644282&patchNutrientNames=fiber&patchDeltas=12.2&customNames=Ghee%3BTikka+Masala+Powder%3BWhole-Wheat+Penne&customFoodIds=local%3A4CB51F82-A552-1994-0DA7-B0C93A9B1B32%3Blocal%3A96D7CCE8-359F-8F21-3A22-1D3990211C6B%3Blocal%3A0D3371BC-3C4A-51B5-FCB9-9166842D18F7&customQuantities=10%3B32%3B324&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=900%2C0%2C0%2C0%2C100%2C62%2C0%2C2%2C0%2C4%2C0.01%2C0%2C5%2C0%2C0%2C0%3B319%2C12%2C45%2C8%2C12%2C2%2C25%2C3760%2C15%2C350%2C2%2C150%2C1200%2C0%2C0%2C30%3B348%2C14.6%2C71.5%2C3.9%2C2.5%2C0.5%2C8%2C8%2C3.6%2C40%2C2.0%2C126%2C215%2C0%2C0%2C57) · the recipe's `notes` field lists the two 🩹 chickpea companion files (re-request with `&emit=<url-encoded name>`).
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3408 kcal | Iron | 59 mg |
-| Protein | 173 g | Calcium | 1392 mg |
+| Energy | 3410 kcal | Iron | 59 mg |
+| Protein | 173 g | Calcium | 1399 mg |
 | Carbohydrates | 606 g | Zinc | 25 mg |
-| — of which sugars | 75 g | Magnesium | 1468 mg |
-| Fat | 53 g | Potassium | 11705 mg |
+| — of which sugars | 75 g | Magnesium | 1473 mg |
+| Fat | 53 g | Potassium | 11744 mg |
 | — of which saturates | 10 g | Vitamin D | 0.0 µg |
 | Fibre | 121 g | Vitamin B12 | 0.0 µg |
-| Salt | 8.8 g | Folate | 1147 µg |
+| Salt | 8.8 g | Folate | 1161 µg |
 
 ---
 
@@ -70,4 +70,4 @@
 
 ## Cook log
 
-- **First cook 2026-06-12 — for the kids (Holger not eating).** As cooked: 🫘 chickpeas 400 g dry, 🌶️ tikka 32 g, 🧈 ghee 10 g, 🍅 passata 1000 g, 🥦 cauliflower 763 g, 🌀 whole-wheat penne 324 g; 🥬 spinach amount **to confirm** (~200 g est.). Ratings pending — record against the kids in `../../docs/RATINGS.md`.
+- **First cook 2026-06-12 — for the kids (Holger not eating).** As cooked: 🫘 chickpeas 400 g dry, 🌶️ tikka 32 g, 🧈 ghee 10 g, 🍅 passata 1000 g, 🥦 cauliflower 763 g, 🌀 whole-wheat penne 324 g, 🥬 spinach 207 g. Ratings pending — record against the kids in `../../docs/RATINGS.md`.
