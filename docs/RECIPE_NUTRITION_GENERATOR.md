@@ -137,6 +137,23 @@ curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o "Patched.f
 A patch-free recipe yields only the recipe file; an unknown `emit` falls back to the
 recipe (with a note saying so).
 
+#### Clickable download link (GET, for markdown)
+
+Markdown links can only issue a **GET** — no POST body — but a Wolfram `APIFunction`
+reads its named params from the query string too, so put the whole spec there:
+
+```
+https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?spec=<percent-encoded JSON>
+```
+
+Clicking it downloads the `.foodnoms` (the `Content-Disposition: attachment` header
+names the file). Percent-encoding also dodges the glyph-mangling — no shell involved.
+Build the URL in Wolfram: `"…/BuildFoodNomsRecipe?spec=" <> URLEncode[specJSON]`. Keep
+the JSON compact; query strings are bounded (≈8 KB in practice — a typical recipe is
+~1 KB encoded, fine). A worked link lives in the squash-soup recipe's Nutrition section
+(`../recipes/soups/butternut-soybean-soup.md`); for a companion file, append its name to
+the spec's `emit` before encoding.
+
 Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `foodnomsTotals`
 on the downloaded file, and **Step 6 verify**. The manual Steps 2–5 below remain the
 fallback if the endpoints are unavailable.

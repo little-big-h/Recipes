@@ -343,6 +343,13 @@ No envelope, so the sidecar data lives **in the file**:
   unknown `emit`). An unknown `emit` falls back to the recipe; a patch-free recipe yields
   only the recipe file.
 
+**Clickable download link (markdown).** A markdown link is a GET only, but the
+`APIFunction` also reads `spec` from the query string, so
+`…/BuildFoodNomsRecipe?spec=<percent-encoded JSON>` is a one-click download (the
+`attachment` header names the file; percent-encoding avoids glyph-mangling). Build it with
+`URLEncode[specJSON]`; keep the JSON compact (query strings cap ≈8 KB). Live example in
+`../recipes/soups/butternut-soybean-soup.md`.
+
 #### Spec shape
 
 ```json
