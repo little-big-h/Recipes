@@ -1,8 +1,8 @@
 (* ::Package:: *)
 
 (* foodnoms-cloud.wl — deploy-ready Wolfram Cloud Object that turns a recipe
-   spec (a list of USDA ingredients + optional patches) into ready-to-write
-   .foodnoms file bytes plus whole-recipe nutrition totals.
+   spec (a list of USDA ingredients + optional patches) into the raw bytes of a
+   ready-to-import .foodnoms file (downloaded directly, no JSON envelope).
 
    WHY THIS EXISTS
    Generating a .foodnoms recipe used to be a manual, per-session playbook
@@ -11,14 +11,16 @@
    in patches, sum totals. This deploys that as Wolfram Cloud APIFunctions
    (same pattern as the pirk0/RenderTimeline endpoint), split into two concerns:
    ResolveFDC (name -> ranked USDA candidates, to be judged) and
-   BuildFoodNomsRecipe (resolved ids -> one .foodnoms file + totals).
+   BuildFoodNomsRecipe (resolved ids -> one .foodnoms file; totals are read back
+   from the file, warnings + companion-file menu ride in its notes field).
 
    THE .foodnoms BYTES ARE PRODUCED HERE, IN WOLFRAM — NO PYTHON.
    LZFSE *compression* is not available in Wolfram, but the LZFSE container
    permits an UNCOMPRESSED block: 'bvx-' + uint32-LE raw-length + raw JSON +
    'bvx$'. Apple's compression framework / liblzfse decode that fine. We
-   assemble those bytes directly (foodnomsBytes), Base64 them into the JSON
-   response, and the caller writes them with BinaryWrite[name, BaseDecode[b64]].
+   assemble those bytes directly (foodnomsBytes) and return them as the HTTP
+   response body, so `curl -o recipe.foodnoms` lands the file with no decoding.
+   foodnomsDecode is the inverse, for reading totals back out of a built file.
 
    HOW IT RUNS
    The FDC helpers (Section A) call api.nal.usda.gov via URLExecute; that only
@@ -236,11 +238,24 @@ patchTrio[block_, delta_Association, qty_, note_String, patchID0_, patchedID0_, 
 slotTotal[entries_, slot_] :=
   Total[(Lookup[#["nutrients"], slot, 0] * #["quantity"] / #["baseAmount"]) & /@ entries];
 
-(* spec (Association) -> <|"files"->{..}, "totals"->.., "warnings"->..|> *)
+(* --- read totals back from a generated .foodnoms (the endpoint no longer
+   returns them; the file is self-describing). Inverse of foodnomsBytes: the
+   block is 'bvx-' + 4-byte length + raw JSON + 'bvx$', so drop 8 leading and 4
+   trailing bytes and parse. *)
+foodnomsDecode[bytes_ByteArray] := ImportByteArray[Take[bytes, {9, -5}], "RawJSON"];
+
+(* decoded-or-bytes .foodnoms -> the 16 whole-recipe slot totals + salt *)
+foodnomsTotals[in_] := Module[{r = If[Head[in] === ByteArray, foodnomsDecode[in], in], e, t},
+  e = Lookup[r, "foodEntries", {}];
+  t = Association @ Table[s -> N[slotTotal[e, s], 6], {s, $totalsSlots}];
+  t["salt"] = N[t["sodium"] * 2.5 / 1000, 6]; t];
+
+(* spec (Association) -> <|"name"->..., "bytes"->ByteArray, "json"->...|>
+   for the ONE file selected by `emit` (default the recipe). *)
 buildFoodNomsRecipe[spec_Association] := Module[
   {name, servings, ings, warnings = {}, entries = {}, aux = {}, totalSize,
-   totals, recipeJson, recipeRec, auxRecs, allRecs, manifest, emit, selected,
-   file, i = 0},
+   recipeJson, recipeCollection, auxRecs, emit, selected, notes,
+   selectedName, selectedJson, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
   ings = Lookup[spec, "ingredients", {}];
@@ -290,23 +305,15 @@ buildFoodNomsRecipe[spec_Association] := Module[
   totalSize = Lookup[spec, "totalServingSize",
     Total[Lookup[#, "quantity", 0] & /@ entries]];
 
-  totals = Association @ Table[s -> N[slotTotal[entries, s], 6], {s, $totalsSlots}];
-  totals["salt"] = N[totals["sodium"] * 2.5 / 1000, 6];
-
-  recipeJson = <|"version" -> 2, "contentType" -> 2,
-    "foodCollections" -> {<|
-       "name" -> name, "collectionType" -> 3, "version" -> 1, "traits" -> 0,
-       "totalServingSize" -> totalSize, "servingSizeUnit" -> "gram",
-       "servings" -> servings|>},
-    "foodEntries" -> entries|>;
-
-  (* Every call yields exactly ONE raw .foodnoms file. The recipe and each
-     reusable provenance object (patch food / patched food, FOODNOMS_FORMAT.md
-     §11) are separate files; `emit` picks which to render this call. The full
-     menu is returned as `manifest` so the caller can come back for the others —
-     their foodIDs are deterministic (mkLocalID), so the recipe and its
-     separately-emitted provenance files stay linked. *)
-  recipeRec = <|"name" -> name, "kind" -> "recipe", "json" -> recipeJson|>;
+  (* Every call yields exactly ONE raw .foodnoms file (the response body IS the
+     file bytes). The recipe and each reusable provenance object (patch food /
+     patched food, FOODNOMS_FORMAT.md §11) are separate files; `emit` picks which
+     to render. There is no JSON envelope, so anything the caller would have read
+     from one is carried IN the file instead:
+       - totals     -> derivable from the file's foodEntries (foodnomsTotals);
+       - warnings + the companion-file menu -> the recipe collection's `notes`.
+     Provenance foodIDs are deterministic (mkLocalID), so a companion file
+     emitted in a later call still links to the recipe that references it. *)
   auxRecs = DeleteDuplicatesBy[
     Map[Function[j,
       If[KeyExistsQ[j, "foods"],
@@ -314,23 +321,36 @@ buildFoodNomsRecipe[spec_Association] := Module[
         <|"name" -> j["foodCollections"][[1]]["name"], "kind" -> "patchedFood", "json" -> j|>]],
       aux],
     #["name"] &];
-  allRecs = Prepend[auxRecs, recipeRec];
-  manifest = KeyDrop["json"] /@ allRecs;
 
   emit = Lookup[spec, "emit", "recipe"];
-  selected = Which[
-    emit === "recipe", recipeRec,
-    True, SelectFirst[allRecs, #["name"] === emit &, $Failed]];
+  selected = If[emit === "recipe", "recipe",
+    SelectFirst[auxRecs, #["name"] === emit &, $Failed]];
   If[selected === $Failed,
    AppendTo[warnings,
     "emit target " <> ToString[emit] <> " not found; emitted the recipe instead. " <>
-     "Available: " <> ToString[manifest[[All, "name"]]]];
-   selected = recipeRec];
+     "Available: " <> ToString[Prepend[#["name"] & /@ auxRecs, "recipe"]]];
+   selected = "recipe"];
 
-  file = <|"name" -> selected["name"] <> ".foodnoms", "kind" -> selected["kind"],
-    "json" -> selected["json"], "b64" -> BaseEncode[foodnomsBytes[selected["json"]]]|>;
+  (* warnings + companion-file menu -> recipe collection notes *)
+  notes = StringRiffle[DeleteCases[{
+     If[warnings =!= {}, "\:26a0 " <> StringRiffle[warnings, " | "], Nothing],
+     If[auxRecs =!= {},
+      "Companion .foodnoms files (re-request with emit=<name>, identical ingredients): " <>
+       StringRiffle[("\"" <> #["name"] <> "\"") & /@ auxRecs, ", "], Nothing]},
+    Nothing], "\n"];
+  recipeCollection = <|
+     "name" -> name, "collectionType" -> 3, "version" -> 1, "traits" -> 0,
+     "totalServingSize" -> totalSize, "servingSizeUnit" -> "gram",
+     "servings" -> servings|>;
+  If[notes =!= "", AppendTo[recipeCollection, "notes" -> notes]];
+  recipeJson = <|"version" -> 2, "contentType" -> 2,
+    "foodCollections" -> {recipeCollection}, "foodEntries" -> entries|>;
 
-  <|"file" -> file, "manifest" -> manifest, "totals" -> totals, "warnings" -> warnings|>];
+  {selectedName, selectedJson} = If[selected === "recipe",
+    {name, recipeJson}, {selected["name"], selected["json"]}];
+
+  <|"name" -> selectedName <> ".foodnoms", "bytes" -> foodnomsBytes[selectedJson],
+    "json" -> selectedJson|>];
 
 
 (* ============ B2. Resolution: ingredient name -> USDA candidates =========
@@ -360,9 +380,17 @@ resolveFDC[spec_Association] := Module[{qs, n},
    JSON encoders, e.g. Python json.dumps): the interpreter accepts ASCII bytes and
    decodes the escapes back to the real characters. The patched-food name glyph is
    generated server-side, so the caller rarely needs non-ASCII beyond the recipe
-   name's stamp. NB: plain "JSON" yields rule-lists (wrong shape) -- use "RawJSON". *)
+   name's stamp. NB: plain "JSON" yields rule-lists (wrong shape) -- use "RawJSON".
+
+   The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
+   JSON envelope -- so `curl -o recipe.foodnoms ...` writes the file directly. The
+   filename is offered via Content-Disposition (RFC 5987, so the emoji/✴️ survive). *)
 foodnomsAPI = APIFunction[{"spec" -> "RawJSON"},
-   buildFoodNomsRecipe[#spec] &, "JSON"];
+   With[{r = buildFoodNomsRecipe[#spec]},
+     HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
+        "Content-Type" -> "application/octet-stream",
+        "Content-Disposition" ->
+          "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]] &];
 
 (* the resolution endpoint (search only — returns candidates to judge) *)
 resolveAPI = APIFunction[{"spec" -> "RawJSON"},
@@ -389,26 +417,24 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
            "baseAmount":100,"baseUnit":"gram","nutrients":{...}},...]},...]}
 
    2) BuildFoodNomsRecipe — already-resolved ingredients -> ONE raw .foodnoms
-      file + totals. One call, one file; keep `ingredients` identical and vary
-      only `emit` ("recipe" default, or a provenance name from the `manifest`):
+      file. The response body IS the file, so pipe it straight to disk with -o.
+      One call, one file; keep `ingredients` identical and vary only `emit`
+      ("recipe" default, or a companion-food name listed in the recipe's notes):
 
-     # recipe (default); the response's manifest names the other files
-     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+     # recipe (default) -> writes Soup.foodnoms directly
+     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o Soup.foodnoms \
        --data-urlencode 'spec={"name":"My Soup","emit":"recipe",
          "ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
-     -> {"file":{name,kind,json,b64}, "manifest":[{name,kind},...],
-         "totals":{...}, "warnings":[...]}
-        manifest: "recipe" | "Squash, winter, butternut, raw Patch"
-                  | "<glyph> Squash, winter, butternut, raw #Patched"
 
-     # a provenance file: paste its manifest name verbatim into emit
-     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+     # a companion provenance file (name copied from the recipe's notes field)
+     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o Patch.foodnoms \
        --data-urlencode 'spec={"name":"My Soup",
          "emit":"Squash, winter, butternut, raw Patch",
          "ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
 
-   Write the single returned file from its Base64 bytes:
-     BinaryWrite[file["name"], BaseDecode[file["b64"]]]
-   An unknown emit warns and falls back to the recipe; a patch-free recipe
-   yields only the recipe file. *)
+   No JSON envelope: warnings + the companion-file menu live in the recipe
+   collection's `notes`; whole-recipe totals are not returned — read them back
+   from the file with foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]]
+   (or foodnomsDecode to inspect the JSON). An unknown emit warns (in notes) and
+   falls back to the recipe; a patch-free recipe yields only the recipe file. *)
 

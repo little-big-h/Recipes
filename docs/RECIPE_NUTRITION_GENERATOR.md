@@ -93,46 +93,47 @@ Ingredient forms: **USDA** (`fdcId` + `quantity`, optional `unit`); **USDA + pat
 with neither an `fdcId` nor `foodID`+`nutrients` is **skipped with a warning** — resolve
 it first.
 
-**Response** (`"JSON"`): `<|"file" -> {…}, "manifest" -> {…}, "totals" -> {…}, "warnings" -> {…}|>`.
-- `file` — the **single** selected `.foodnoms`: `{name, kind, json, b64}`. Write it in
-  pure Wolfram: `BinaryWrite[file["name"], BaseDecode[file["b64"]]]` (then `Close`).
-- `manifest` — every file this recipe can produce: `{name, kind}` with `kind` ∈
-  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). See "Emitting each file"
-  below.
-- `totals` — the 16 summed slots + `salt` (= `sodium*2.5/1000`), for the `.md`
-  Nutrition table (Step 5 write-back below still applies); returned on every call.
-- `warnings` — unresolved/skipped ingredients, unmapped dataTypes, patch-created keys,
-  unknown `emit`.
+**Response: the raw `.foodnoms` bytes themselves** (`application/octet-stream`), *not*
+a JSON envelope — so `curl -o recipe.foodnoms …` writes the file directly. With no
+envelope, what you'd have read from one lives in the file instead:
+- **`totals`** — not returned; the file is self-describing. Read them back with
+  `foodnomsTotals[ByteArray[BinaryReadList["recipe.foodnoms"]]]` (16 slots + `salt`),
+  then do the Step 5 write-back. `foodnomsDecode` returns the raw JSON to inspect.
+- **`warnings` + the companion-file menu** — written into the recipe collection's
+  **`notes`** field (visible in FoodNoms and via `foodnomsDecode`). An unknown `emit`,
+  unmapped dataType, or skipped ingredient surfaces there.
 
 #### Emitting each file
 
-One call → one file. Keep the **`ingredients` identical** across calls (that's what
-fixes the file set and the deterministic ids); change only `emit`. First call returns
-the recipe and the `manifest`; copy each `manifest[].name` into `emit` to fetch the rest:
+One call → one file, selected by `emit` (default `"recipe"`). The recipe and each
+patch-provenance object (`FOODNOMS_FORMAT.md` §11) are separate files; their `local:`
+foodIDs are **deterministic** (hashed from the food name), so a companion file emitted
+in a later call still links to the recipe. Keep **`ingredients` identical** across calls
+(that fixes the file set + ids); change only `emit`. The recipe's `notes` lists the
+companion names to use:
 
 ```bash
-# 1. recipe (default) — response.manifest lists the other files for this recipe
-curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+# 1. recipe (default) -> writes the file; its notes list the companion files
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o "Soup.foodnoms" \
   --data-urlencode 'spec={"name":"Soup [10-06-26] ✴️","servings":5,"emit":"recipe","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
-#   manifest -> [{"name":"Soup [10-06-26] ✴️","kind":"recipe"},
-#               {"name":"Squash, winter, butternut, raw Patch","kind":"patchFood"},
-#               {"name":"🩹 Squash, winter, butternut, raw #Patched","kind":"patchedFood"}]
+#   notes -> Companion .foodnoms files (re-request with emit=<name>, identical ingredients):
+#            "Squash, winter, butternut, raw Patch", "🩹 Squash, winter, butternut, raw #Patched"
 
-# 2. the patch food (paste the manifest name verbatim into emit)
-curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+# 2. the patch food (paste the companion name verbatim into emit)
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o "Patch.foodnoms" \
   --data-urlencode 'spec={"name":"Soup [10-06-26] ✴️","servings":5,"emit":"Squash, winter, butternut, raw Patch","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
 
 # 3. the patched food
-curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o "Patched.foodnoms" \
   --data-urlencode 'spec={"name":"Soup [10-06-26] ✴️","servings":5,"emit":"🩹 Squash, winter, butternut, raw #Patched","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
 ```
 
-An unknown `emit` warns and falls back to the recipe. A recipe with no patches yields
-only the `recipe` file, so the default call is all you need.
+A patch-free recipe yields only the recipe file; an unknown `emit` falls back to the
+recipe (with a note saying so).
 
-Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `totals`, and
-**Step 6 verify**. The manual Steps 2–5 below remain the fallback if the endpoints are
-unavailable.
+Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `foodnomsTotals`
+on the downloaded file, and **Step 6 verify**. The manual Steps 2–5 below remain the
+fallback if the endpoints are unavailable.
 
 ---
 
