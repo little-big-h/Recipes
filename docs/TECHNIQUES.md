@@ -290,7 +290,9 @@ Cloud Objects, parallel to the timeline endpoint above. They are split on purpos
 
 Both take a single `spec` parameter — a **JSON object** (builtin `RawJSON`
 interpreter → nested Associations). Send standard JSON with non-ASCII escaped as
-`\uXXXX` (the `✴️` stamp, etc.).
+`\uXXXX` (the `✴️` stamp, etc.). A shell can mangle those multi-byte glyphs (the
+`✴️` name stamp, `🩹` in an `emit`) — escape them as `\uXXXX` (the `🩹` needs a
+UTF-16 surrogate pair) or write the spec to a file and use `--data @spec.json`.
 
 ### 1. `ResolveFDC` — ingredient name → ranked USDA candidates
 

@@ -47,6 +47,12 @@ Both take a `spec` parameter — a **JSON object** (builtin `RawJSON` interprete
 nested Associations). Send ordinary JSON with any non-ASCII escaped as `\uXXXX`
 (standard JSON; what `json.dumps` emits) — e.g. the `✴️` name stamp.
 
+> **Glyph caveat.** A shell can mangle the multi-byte `✴️` stamp (and `🩹` in an
+> `emit` value), corrupting the request — escape them as `\uXXXX` in the JSON (the
+> `🩹` is above U+FFFF, so it needs its UTF-16 surrogate pair), or simplest, write
+> the spec to a file and send `--data @spec.json`. The curls below show the glyphs
+> literally for readability.
+
 ### 1. Resolve (Step 2) — you pick the `fdcId`
 
 ```bash

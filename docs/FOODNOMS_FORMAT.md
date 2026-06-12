@@ -18,9 +18,11 @@ The canonical samples this spec is derived from live in [`../examples/`](../exam
 
 ## 1. What a `.foodnoms` file is
 
-A `.foodnoms` file is **a single JSON object, LZFSE-compressed**. It is *not*
-plain text — opening one in an editor shows binary with stray readable
-fragments. You must compress to write one and decompress to read one.
+A `.foodnoms` file is **a single JSON object inside an Apple LZFSE container**.
+FoodNoms's own exports are *compressed* (so opening one in an editor shows binary
+with stray readable fragments) and need decompressing to read. But the container
+also allows an **uncompressed block**, which FoodNoms imports just as happily — that
+is how we write them from Wolfram (which has no LZFSE encoder); see §2.
 
 There are three logical things a file can carry, all using the same JSON:
 
@@ -67,8 +69,11 @@ open("My Food.foodnoms", "wb").write(blob)
 
 **Writing without Python — uncompressed LZFSE block.** LZFSE *compression* isn't
 available in Wolfram, but the container also permits an **uncompressed block**, which
-Apple's decoder (and liblzfse) accept. That is pure byte assembly — no codec, no
-Python — so Wolfram can emit a valid `.foodnoms` directly:
+Apple's decoder (and liblzfse) accept — and this is **verified to import into FoodNoms**
+(Holger, 2026-06-12). FoodNoms's own exports are compressed (`bvxn` LZVN or `bvx2`
+LZFSE-v2 — across the `examples/` corpus, all of them), but all three block types decode
+through the same Apple LZFSE reader, so an uncompressed `bvx-` file is a fully valid
+`.foodnoms`. It's pure byte assembly — no codec, no Python — so Wolfram emits one directly:
 
 ```
 'bvx-'  +  uint32 little-endian raw-JSON length  +  raw UTF-8 JSON  +  'bvx$'
@@ -82,8 +87,11 @@ foodnomsBytes[a_] := Module[{j = ExportByteArray[a, "RawJSON"]},
 ```
 
 This is what `../tools/foodnoms-cloud.wl` and the `BuildFoodNomsRecipe` Cloud Object
-return (Base64-encoded). The file is uncompressed (a few KB — fine for recipes). The
-Python snippet above stays useful as a **reader** for decoding existing compressed
+emit — the endpoint now returns these bytes **as the raw HTTP response body** (no Base64,
+no JSON envelope), so `curl -o recipe.foodnoms …` writes the file directly. The result is
+uncompressed (a few KB — fine for recipes) and therefore looks like plain JSON in a thin
+`bvx-`…`bvx$` wrapper; that's by design. `foodnomsDecode` (in `foodnoms-cloud.wl`) is the
+Wolfram reader for it; the Python `lzfse` snippet above still reads FoodNoms's *compressed*
 exports.
 
 **Filename.** FoodNoms names exports after the food/collection, e.g.

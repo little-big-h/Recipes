@@ -17,7 +17,10 @@
    THE .foodnoms BYTES ARE PRODUCED HERE, IN WOLFRAM — NO PYTHON.
    LZFSE *compression* is not available in Wolfram, but the LZFSE container
    permits an UNCOMPRESSED block: 'bvx-' + uint32-LE raw-length + raw JSON +
-   'bvx$'. Apple's compression framework / liblzfse decode that fine. We
+   'bvx$'. FoodNoms's own exports are compressed ('bvxn' LZVN / 'bvx2' LZFSE-v2),
+   but all three decode through Apple's one LZFSE reader, and the uncompressed
+   'bvx-' variant is VERIFIED to import into FoodNoms (Holger, 2026-06-12). So a
+   bvx- file is plain JSON in a thin wrapper — that's by design, not a bug. We
    assemble those bytes directly (foodnomsBytes) and return them as the HTTP
    response body, so `curl -o recipe.foodnoms` lands the file with no decoding.
    foodnomsDecode is the inverse, for reading totals back out of a built file.
@@ -436,5 +439,11 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    collection's `notes`; whole-recipe totals are not returned — read them back
    from the file with foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]]
    (or foodnomsDecode to inspect the JSON). An unknown emit warns (in notes) and
-   falls back to the recipe; a patch-free recipe yields only the recipe file. *)
+   falls back to the recipe; a patch-free recipe yields only the recipe file.
+
+   GLYPHS: a shell can mangle the multi-byte name stamp (codepoints U+2734
+   U+FE0F) or the patched-food glyph (U+1FA79) in an `emit` value. Either send
+   them as JSON backslash-u escapes (4-hex each; the glyph above 0xFFFF needs its
+   UTF-16 surrogate pair), or — simplest — put the spec in a file and send
+   `--data @spec.json`. *)
 
