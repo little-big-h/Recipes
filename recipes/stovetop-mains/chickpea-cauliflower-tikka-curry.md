@@ -70,4 +70,4 @@
 
 ## Cook log
 
-- **First cook 2026-06-12 — for the kids (Holger not eating).** As cooked: 🫘 chickpeas 400 g dry, 🌶️ tikka 32 g, 🧈 ghee 10 g, 🍅 passata 1000 g, 🥦 cauliflower 763 g, 🌀 whole-wheat penne 324 g, 🥬 spinach 207 g. Ratings pending — record against the kids in `../../docs/RATINGS.md`.
+- **First cook 2026-06-12 — for the kids (Holger not eating).** As cooked: 🫘 chickpeas 400 g dry, 🌶️ tikka 32 g, 🧈 ghee 10 g, 🍅 passata 1000 g, 🥦 cauliflower 763 g, 🌀 whole-wheat penne 324 g, 🥬 spinach 207 g. **Finished yield: 4380 g** (cooked weight — ~640 g net water retained over the ~3.74 kg of ingredients; ≈78 kcal/100 g, so ~853 kcal / ~1095 g per serving at 4). Ratings pending — record against the kids in `../../docs/RATINGS.md`.
