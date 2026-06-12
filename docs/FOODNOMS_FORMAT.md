@@ -480,6 +480,8 @@ explicit, *weightless* **patch**, in three pieces (example trio in `examples/`:
    phantom mass; the USDA record is never touched. (Holger's design, 2026-06.)
 
 **Automated.** The `BuildFoodNomsRecipe` Cloud Object (`../tools/foodnoms-cloud.wl`,
-`RECIPE_NUTRITION_GENERATOR.md`) emits this whole trio for any ingredient given a
-`patch` (per-100 g nutrient deltas): the recipe's per-gram `🩹 … #Patched` entry plus
-the two reusable provenance files (patch food + patched food), as separate `files[]`.
+`RECIPE_NUTRITION_GENERATOR.md`) builds this whole trio for any ingredient given a
+`patch` (per-100 g nutrient deltas): the recipe's per-gram `🩹 … #Patched` entry is
+embedded in the recipe file, and the two reusable provenance files (patch food + patched
+food) are emitted **one per call** via the `emit` parameter (their names are listed in the
+recipe's `notes`). Deterministic `local:` foodIDs keep them linked across calls.
