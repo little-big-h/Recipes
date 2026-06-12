@@ -389,17 +389,26 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
            "baseAmount":100,"baseUnit":"gram","nutrients":{...}},...]},...]}
 
    2) BuildFoodNomsRecipe — already-resolved ingredients -> ONE raw .foodnoms
-      file + totals. `emit` selects which file ("recipe", the default, or a
-      provenance food name from the returned `manifest`):
+      file + totals. One call, one file; keep `ingredients` identical and vary
+      only `emit` ("recipe" default, or a provenance name from the `manifest`):
 
+     # recipe (default); the response's manifest names the other files
      curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
-       --data-urlencode 'spec={"name":"My Soup","servings":5,"emit":"recipe",
-         "ingredients":[{"fdcId":2685570,"quantity":1918,
-         "patch":{"sugars":2.2}}]}'
+       --data-urlencode 'spec={"name":"My Soup","emit":"recipe",
+         "ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
      -> {"file":{name,kind,json,b64}, "manifest":[{name,kind},...],
          "totals":{...}, "warnings":[...]}
+        manifest: "recipe" | "Squash, winter, butternut, raw Patch"
+                  | "<glyph> Squash, winter, butternut, raw #Patched"
+
+     # a provenance file: paste its manifest name verbatim into emit
+     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+       --data-urlencode 'spec={"name":"My Soup",
+         "emit":"Squash, winter, butternut, raw Patch",
+         "ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
 
    Write the single returned file from its Base64 bytes:
      BinaryWrite[file["name"], BaseDecode[file["b64"]]]
-   then call again with emit set to each manifest entry's name for the rest. *)
+   An unknown emit warns and falls back to the recipe; a patch-free recipe
+   yields only the recipe file. *)
 

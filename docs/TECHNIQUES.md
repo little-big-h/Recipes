@@ -328,9 +328,23 @@ Returns `{"file": {…}, "manifest": […], "totals": {…}, "warnings": […]}`
   bytes. Write: `BinaryWrite[file["name"], BaseDecode[file["b64"]]]`, or in the shell
   `printf %s "$b64" | base64 -d > "$name"`.
 - `manifest[]` — every file this recipe yields: `{name, kind}`, `kind` ∈
-  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). Re-call with `emit` set to
-  a `name` to fetch that one. Provenance files link to the recipe by **deterministic**
-  `local:` foodIDs (hashed from the food name), so they need not be emitted in one call.
+  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). One call → one file; keep
+  `ingredients` identical and vary only `emit` (deterministic `local:` foodIDs keep the
+  files linked across calls):
+
+```bash
+# 1. recipe (default); response.manifest names the rest
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"Soup ✴️","emit":"recipe","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+#   -> manifest: "recipe", "Squash, winter, butternut, raw Patch",
+#                "🩹 Squash, winter, butternut, raw #Patched"
+
+# 2. a provenance file — paste its manifest name into emit (same ingredients)
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"Soup ✴️","emit":"🩹 Squash, winter, butternut, raw #Patched","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+```
+  An unknown `emit` warns and falls back to the recipe; a patch-free recipe yields only
+  the `recipe` file.
 - `totals` — 16 summed nutrient slots + `salt` (= `sodium_mg * 2.5 / 1000`); every call.
 - `warnings` — unresolved/skipped ingredients / unmapped USDA dataTypes / patch-created
   keys / unknown `emit`.

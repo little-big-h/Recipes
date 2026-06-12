@@ -97,13 +97,38 @@ it first.
 - `file` — the **single** selected `.foodnoms`: `{name, kind, json, b64}`. Write it in
   pure Wolfram: `BinaryWrite[file["name"], BaseDecode[file["b64"]]]` (then `Close`).
 - `manifest` — every file this recipe can produce: `{name, kind}` with `kind` ∈
-  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). To get a provenance
-  file, call again with `emit` set to its `name`. An unknown `emit` warns and falls back
-  to the recipe.
+  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). See "Emitting each file"
+  below.
 - `totals` — the 16 summed slots + `salt` (= `sodium*2.5/1000`), for the `.md`
   Nutrition table (Step 5 write-back below still applies); returned on every call.
 - `warnings` — unresolved/skipped ingredients, unmapped dataTypes, patch-created keys,
   unknown `emit`.
+
+#### Emitting each file
+
+One call → one file. Keep the **`ingredients` identical** across calls (that's what
+fixes the file set and the deterministic ids); change only `emit`. First call returns
+the recipe and the `manifest`; copy each `manifest[].name` into `emit` to fetch the rest:
+
+```bash
+# 1. recipe (default) — response.manifest lists the other files for this recipe
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"Soup [10-06-26] ✴️","servings":5,"emit":"recipe","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+#   manifest -> [{"name":"Soup [10-06-26] ✴️","kind":"recipe"},
+#               {"name":"Squash, winter, butternut, raw Patch","kind":"patchFood"},
+#               {"name":"🩹 Squash, winter, butternut, raw #Patched","kind":"patchedFood"}]
+
+# 2. the patch food (paste the manifest name verbatim into emit)
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"Soup [10-06-26] ✴️","servings":5,"emit":"Squash, winter, butternut, raw Patch","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+
+# 3. the patched food
+curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
+  --data-urlencode 'spec={"name":"Soup [10-06-26] ✴️","servings":5,"emit":"🩹 Squash, winter, butternut, raw #Patched","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+```
+
+An unknown `emit` warns and falls back to the recipe. A recipe with no patches yields
+only the `recipe` file, so the default call is all you need.
 
 Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `totals`, and
 **Step 6 verify**. The manual Steps 2–5 below remain the fallback if the endpoints are
