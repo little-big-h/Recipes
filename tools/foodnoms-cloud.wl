@@ -375,29 +375,83 @@ resolveFDC[spec_Association] := Module[{qs, n},
              "nutrients" -> block["nutrients"]|>]] /@ fdcSearch[q, n]|>] /@ qs|>];
 
 
-(* ======================= C. APIFunction (JSON in) ======================== *)
+(* ================= C. APIFunctions (decomposed query params) =============
 
-(* The caller sends `spec` as a JSON object; the builtin "RawJSON" interpreter
-   parses it into nested Associations -- exactly what buildFoodNomsRecipe wants.
-   Send standard JSON with any non-ASCII escaped as \\uXXXX (the default for most
-   JSON encoders, e.g. Python json.dumps): the interpreter accepts ASCII bytes and
-   decodes the escapes back to the real characters. The patched-food name glyph is
-   generated server-side, so the caller rarely needs non-ASCII beyond the recipe
-   name's stamp. NB: plain "JSON" yields rule-lists (wrong shape) -- use "RawJSON".
+   NO JSON CROSSES THE WIRE. The earlier design took the spec as a JSON string
+   and parsed it -- but a JSON file-interpreter can't read a GET query string
+   (so clickable links 400'd), and hand-parsing JSON is against the rules
+   (CLAUDE.md). Instead every field is its own typed query parameter, parsed
+   DECLARATIVELY by the framework's interpreters -- no ImportString, no string
+   surgery. Holger's "DSM" (decomposition storage model): one column per
+   attribute. CompoundElement can't help here -- Wolfram explicitly forbids
+   DelimitedSequence[CompoundElement[..]] ("nvldnesting") and CompoundElement
+   won't split a delimited string -- so the ingredient list is stored as
+   PARALLEL TYPED ARRAYS, aligned by position:
 
-   The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
-   JSON envelope -- so `curl -o recipe.foodnoms ...` writes the file directly. The
-   filename is offered via Content-Disposition (RFC 5987, so the emoji/✴️ survive). *)
-foodnomsAPI = APIFunction[{"spec" -> "RawJSON"},
-   With[{r = buildFoodNomsRecipe[#spec]},
-     HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
-        "Content-Type" -> "application/octet-stream",
-        "Content-Disposition" ->
-          "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]] &];
+     fdcIds,grams                          -- USDA ingredients
+     patchFdcIds,patchNutrientNames,patchDeltas  -- sparse per-100g patches
+     custom* (6 arrays, ';'-separated; nutrient arrays nested ';'/',')  -- non-USDA foods
+
+   specFromParams stitches the columns back into the row-shaped spec that
+   buildFoodNomsRecipe already consumes, after a length-alignment guard. *)
+
+opt[interp_, def_] := <|"Interpreter" -> interp, "Default" -> def|>;
+
+(* per-ingredient patch: the (key,delta) pairs whose patchFdcIds entry is `id` *)
+patchFor[id_, a_] := AssociationThread[
+   Pick[a["patchNutrientNames"], a["patchFdcIds"], id] ->
+   Pick[a["patchDeltas"],        a["patchFdcIds"], id]];
+
+(* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
+specFromParams[a_] := Module[{errs = {}},
+  If[Length[a["fdcIds"]] =!= Length[a["grams"]],
+   AppendTo[errs, "fdcIds and grams must be equal length"]];
+  If[! Equal @@ Length /@ {a["patchFdcIds"], a["patchNutrientNames"], a["patchDeltas"]},
+   AppendTo[errs, "patchFdcIds/patchNutrientNames/patchDeltas must be equal length"]];
+  If[! Equal @@ Length /@ {a["customNames"], a["customFoodIds"], a["customQuantities"],
+       a["customUnits"], a["customNutrientNames"], a["customNutrientValues"]},
+   AppendTo[errs, "all custom* arrays must be equal length"]];
+  If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
+   AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
+  If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
+  <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
+    "ingredients" -> Join[
+      MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
+        {a["fdcIds"], a["grams"]}],
+      MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
+          "nutrients" -> AssociationThread[#5 -> #6]|> &,
+        {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
+         a["customNutrientNames"], a["customNutrientValues"]}]]|>];
+
+(* The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
+   envelope -- so a browser GET on a query-string URL, or `curl -o`, lands the
+   file directly. Filename via Content-Disposition (RFC 5987, glyphs survive). *)
+foodnomsAPI = APIFunction[
+   {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
+    "emit" -> opt["String", "recipe"],
+    "fdcIds" -> opt[DelimitedSequence["Integer", ","], {}],
+    "grams"  -> opt[DelimitedSequence["Number",  ","], {}],
+    "patchFdcIds"        -> opt[DelimitedSequence["Integer", ","], {}],
+    "patchNutrientNames" -> opt[DelimitedSequence["String",  ","], {}],
+    "patchDeltas"        -> opt[DelimitedSequence["Number",  ","], {}],
+    "customNames"      -> opt[DelimitedSequence["String", ";"], {}],
+    "customFoodIds"    -> opt[DelimitedSequence["String", ";"], {}],
+    "customQuantities" -> opt[DelimitedSequence["Number", ";"], {}],
+    "customUnits"      -> opt[DelimitedSequence["String", ";"], {}],
+    "customNutrientNames"  -> opt[DelimitedSequence[DelimitedSequence["String", ","], ";"], {}],
+    "customNutrientValues" -> opt[DelimitedSequence[DelimitedSequence["Number", ","], ";"], {}]},
+   Module[{spec = specFromParams[#], r},
+     If[FailureQ[spec],
+      HTTPResponse[spec["err"], <|"StatusCode" -> 400, "Headers" -> {"Content-Type" -> "text/plain"}|>],
+      r = buildFoodNomsRecipe[spec];
+      HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
+         "Content-Type" -> "application/octet-stream",
+         "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]] &];
 
 (* the resolution endpoint (search only — returns candidates to judge) *)
-resolveAPI = APIFunction[{"spec" -> "RawJSON"},
-   resolveFDC[#spec] &, "JSON"];
+resolveAPI = APIFunction[
+   {"queries" -> opt[DelimitedSequence["String", ";"], {}], "n" -> opt["Integer", 5]},
+   resolveFDC[<|"queries" -> #queries, "n" -> #n|>] &, "JSON"];
 
 
 (* ===================== D. Deploy (run once, as pirk0) ===================== *)
@@ -410,40 +464,39 @@ resolveAPI = APIFunction[{"spec" -> "RawJSON"},
 CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],          Permissions -> "Public"]
 CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]
 
-(* 1) ResolveFDC — name(s) -> ranked USDA candidates, each WITH its per-100 g
+(* Every field is its own query param (GET or POST form) -- no JSON anywhere.
+   Parallel arrays align by position; comma within an array, ';' between custom
+   foods. URLBuild handles the percent-encoding (glyphs become UTF-8 %XX -- no
+   shell-mangling, no \\u escaping needed).
+
+   1) ResolveFDC — name(s) -> ranked USDA candidates, each WITH its per-100 g
       nutrients (so you can pick the best entry on the numbers, not just the name):
 
-     curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
-       --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
+     curl -s 'https://www.wolframcloud.com/obj/pirk0/ResolveFDC?queries=butternut%20squash%20raw;dry%20soybeans&n=5'
      -> {"results":[{"query":"...","candidates":[
           {"fdcId":...,"description":"...","dataType":"...",
            "baseAmount":100,"baseUnit":"gram","nutrients":{...}},...]},...]}
 
-   2) BuildFoodNomsRecipe — already-resolved ingredients -> ONE raw .foodnoms
-      file. The response body IS the file, so pipe it straight to disk with -o.
-      One call, one file; keep `ingredients` identical and vary only `emit`
-      ("recipe" default, or a companion-food name listed in the recipe's notes):
+   2) BuildFoodNomsRecipe — resolved ingredients -> ONE raw .foodnoms file. The
+      body IS the file, so a browser GET or `curl -o` lands it directly. One call,
+      one file; keep all params identical and vary only `emit` ("recipe" default,
+      or a companion-food name listed in the recipe's notes):
 
-     # recipe (default) -> writes Soup.foodnoms directly
-     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o Soup.foodnoms \
-       --data-urlencode 'spec={"name":"My Soup","emit":"recipe",
-         "ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+     # recipe (default): one USDA ingredient (fdcId 169295, 500 g) patched +200 sodium/100g
+     curl -s -o Soup.foodnoms \
+       'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=My%20Soup&fdcIds=169295&grams=500&patchFdcIds=169295&patchNutrientNames=sodium&patchDeltas=200'
 
-     # a companion provenance file (name copied from the recipe's notes field)
-     curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o Patch.foodnoms \
-       --data-urlencode 'spec={"name":"My Soup",
-         "emit":"Squash, winter, butternut, raw Patch",
-         "ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+     # a companion provenance file: same params, change only emit (URL-encoded name from notes)
+     curl -s -o Patch.foodnoms \
+       'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=My%20Soup&fdcIds=169295&grams=500&patchFdcIds=169295&patchNutrientNames=sodium&patchDeltas=200&emit=Squash%2C%20winter%2C%20butternut%2C%20raw%20Patch'
 
-   No JSON envelope: warnings + the companion-file menu live in the recipe
-   collection's `notes`; whole-recipe totals are not returned — read them back
-   from the file with foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]]
-   (or foodnomsDecode to inspect the JSON). An unknown emit warns (in notes) and
-   falls back to the recipe; a patch-free recipe yields only the recipe file.
+   A custom (non-USDA) food adds: customNames=Hon-Mirin&customFoodIds=local:...&
+   customQuantities=40&customUnits=milliliter&customNutrientNames=calories,sugars&
+   customNutrientValues=189,38  (';' separates foods; nested ','/';' for the blocks).
 
-   GLYPHS: a shell can mangle the multi-byte name stamp (codepoints U+2734
-   U+FE0F) or the patched-food glyph (U+1FA79) in an `emit` value. Either send
-   them as JSON backslash-u escapes (4-hex each; the glyph above 0xFFFF needs its
-   UTF-16 surrogate pair), or — simplest — put the spec in a file and send
-   `--data @spec.json`. *)
+   No envelope: warnings + the companion-file menu live in the recipe collection's
+   `notes`; totals are read back from the file with
+   foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]] (foodnomsDecode for
+   the JSON). Unknown emit -> recipe (noted); patch-free recipe -> only the recipe
+   file. Mis-aligned column lengths -> HTTP 400 with the offending arrays. *)
 

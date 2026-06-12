@@ -288,85 +288,65 @@ Cloud Objects, parallel to the timeline endpoint above. They are split on purpos
 **construction** (resolved ids → file, deterministic). Source of truth:
 `../tools/foodnoms-cloud.wl`; full playbook: `RECIPE_NUTRITION_GENERATOR.md`.
 
-Both take a single `spec` parameter — a **JSON object** (builtin `RawJSON`
-interpreter → nested Associations). Send standard JSON with non-ASCII escaped as
-`\uXXXX` (the `✴️` stamp, etc.). A shell can mangle those multi-byte glyphs (the
-`✴️` name stamp, `🩹` in an `emit`) — escape them as `\uXXXX` (the `🩹` needs a
-UTF-16 surrogate pair) or write the spec to a file and use `--data @spec.json`.
+**No JSON crosses the wire** — every field is its own typed query parameter, parsed
+declaratively by the framework's interpreters (no `ImportString`, no string surgery; see
+CLAUDE.md). Build URLs with `URLBuild`, which percent-encodes everything, so the `✴️`/`🩹`
+glyphs ride as UTF-8 with no shell-mangling.
 
 ### 1. `ResolveFDC` — ingredient name → ranked USDA candidates
 
-```
-https://www.wolframcloud.com/obj/pirk0/ResolveFDC
-```
-
 ```bash
-curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
-  --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
+curl -s 'https://www.wolframcloud.com/obj/pirk0/ResolveFDC?queries=butternut%20squash%20raw;dry%20soybeans&n=5'
 ```
 
-Returns `{"results":[{"query":…,"candidates":[{"fdcId","description","dataType",`
-`"baseAmount":100,"baseUnit":"gram","nutrients":{…}},…]},…]}` — each candidate with its
-**per-100 g nutrients**, so you can choose on the numbers (which record has `sugars`,
-`calcium`, etc. populated), not just the name. Candidates are advisory — **you pick** the
-`fdcId` (rank by `dataType`: Foundation > SR Legacy > FNDDS > Branded, plus food-identity
-match). The builder never auto-picks.
+`queries` is a `;`-list. Returns `{"results":[{"query":…,"candidates":[{"fdcId","description",`
+`"dataType","baseAmount":100,"baseUnit":"gram","nutrients":{…}},…]},…]}` — each candidate
+with its **per-100 g nutrients**, so you can choose on the numbers (which record has
+`sugars`, `calcium`, etc.), not just the name. Advisory — **you pick** the `fdcId` (rank by
+`dataType`: Foundation > SR Legacy > FNDDS > Branded, plus food-identity match).
 
 ### 2. `BuildFoodNomsRecipe` — resolved ingredients → one downloadable `.foodnoms`
 
-```
-https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
-```
-
 **The response body is the raw `.foodnoms` bytes** (`application/octet-stream`), not a
-JSON envelope — so `-o` writes the file straight to disk. **One file per call**, picked
-by `emit` (default `"recipe"`). Keep `ingredients` identical and vary only `emit`;
-deterministic `local:` foodIDs keep the files linked across calls.
+JSON envelope — so a browser GET or `-o` writes the file straight to disk. **One file per
+call**, picked by `emit` (default `recipe`); deterministic `local:` foodIDs keep companion
+files linked across calls.
+
+The spec is **decomposed** (DSM): the ingredient list is parallel typed arrays, aligned by
+position (`CompoundElement` can't carry typed tuples in a query — Wolfram forbids
+`DelimitedSequence[CompoundElement[…]]`).
+
+| Param | Type | Carries |
+|---|---|---|
+| `name` / `servings` / `emit` | String / Integer / String | name, servings, which file |
+| `fdcIds` / `grams` | comma-lists | USDA ingredients, positionally aligned |
+| `patchFdcIds` / `patchNutrientNames` / `patchDeltas` | comma-lists | sparse per-100 g patches |
+| `customNames` / `customFoodIds` / `customQuantities` / `customUnits` | `;`-lists | non-USDA foods |
+| `customNutrientNames` / `customNutrientValues` | nested (`;` foods, `,` fields) | each custom food's nutrient block |
 
 ```bash
-# 1. recipe (default) -> writes Soup.foodnoms; its notes list the companion files
-curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o Soup.foodnoms \
-  --data-urlencode 'spec={"name":"Soup ✴️","emit":"recipe","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
-#   notes -> "Squash, winter, butternut, raw Patch", "🩹 Squash, winter, butternut, raw #Patched"
-
-# 2. a companion file — paste its name (from notes) into emit (same ingredients)
-curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe -o Patched.foodnoms \
-  --data-urlencode 'spec={"name":"Soup ✴️","emit":"🩹 Squash, winter, butternut, raw #Patched","ingredients":[{"fdcId":169295,"quantity":500,"patch":{"sodium":200}}]}'
+# recipe (default) -> writes Soup.foodnoms; its notes list the companion files
+curl -s -o Soup.foodnoms \
+  'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Soup&fdcIds=169295&grams=500&patchFdcIds=169295&patchNutrientNames=sodium&patchDeltas=200'
+# a companion file: same params, add &emit=<url-encoded name from notes>
+curl -s -o Patch.foodnoms \
+  'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Soup&fdcIds=169295&grams=500&patchFdcIds=169295&patchNutrientNames=sodium&patchDeltas=200&emit=Squash%2C%20winter%2C%20butternut%2C%20raw%20Patch'
 ```
 
-No envelope, so the sidecar data lives **in the file**:
-- **Totals** — not returned; the file is self-describing. Read back with
+Mis-aligned column lengths → **HTTP 400** naming the offending arrays. No envelope, so the
+sidecar data lives **in the file**:
+- **Totals** — not returned; read back with
   `foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]]` → 16 slots + `salt`
   (= `sodium_mg * 2.5 / 1000`). `foodnomsDecode` returns the JSON.
 - **Warnings + the companion-file menu** — written into the recipe collection's
-  **`notes`** (unresolved/skipped ingredients, unmapped dataTypes, patch-created keys,
-  unknown `emit`). An unknown `emit` falls back to the recipe; a patch-free recipe yields
-  only the recipe file.
+  **`notes`**. Unknown `emit` falls back to the recipe; a patch-free recipe yields only
+  the recipe file.
 
-**Clickable download link (markdown).** A markdown link is a GET only, but the
-`APIFunction` also reads `spec` from the query string, so
-`…/BuildFoodNomsRecipe?spec=<percent-encoded JSON>` is a one-click download (the
-`attachment` header names the file; percent-encoding avoids glyph-mangling). Build it with
-`URLEncode[specJSON]`; keep the JSON compact (query strings cap ≈8 KB). Live example in
+**Clickable download link (markdown).** Because the spec is plain query params, the URL
+itself is a one-click markdown download link (GET; the `attachment` header names the file).
+Build it with `URLBuild["…/BuildFoodNomsRecipe", {"name"->…, "fdcIds"->…, …}]`; query
+strings cap ≈8 KB (a recipe is ~0.5 KB). Live example in
 `../recipes/soups/butternut-soybean-soup.md`.
-
-#### Spec shape
-
-```json
-{"name": "<recipe name incl. [DD-MM-YY] ✴️>", "servings": 5,
- "totalServingSize": 4778, "emit": "recipe",
- "ingredients": [
-   {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
-   {"fdcId": 174270, "quantity": 326},
-   {"foodID": "local:…", "name": "Hon-Mirin", "quantity": 40,
-    "unit": "milliliter", "nutrients": {"calories": 257}}]}
-```
-
-Ingredient = **USDA** (`fdcId` + `quantity`, optional `unit`), **USDA + patch**
-(`patch` per-100 g deltas, optional `patchNote`/`patchFoodID`/`patchedFoodID`), or
-**pass-through** (`foodID` + `nutrients` verbatim, for non-USDA foods). An ingredient
-with neither `fdcId` nor `foodID`+`nutrients` is skipped with a warning — resolve it via
-`ResolveFDC` first.
 
 ### Notes
 
