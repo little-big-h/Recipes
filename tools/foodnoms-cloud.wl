@@ -146,12 +146,13 @@ foodnomsBytes[a_] := Module[{j = ExportByteArray[a, "RawJSON"]},
     ToCharacterCode["bvx$"]]];
 
 (* download filename only -- the in-file collection name (the "description")
-   keeps the full stamp. Drop the [DD-MM-YY] suffix and emoji (✴️ stamp, 🩹
-   glyph, variation selectors), and spell '&' as 'and'. *)
+   keeps the full stamp. Drop the [DD-MM-YY] suffix, emoji (✴️ stamp, 🩹 glyph,
+   variation selectors) and '#', and spell '&' as 'and'. *)
 cleanFilename[s_String] := Module[{x = s},
   x = StringDelete[x, RegularExpression["\\s*\\[\\d{2}-\\d{2}-\\d{2}\\]"]];
   x = StringDelete[x, RegularExpression[
      "[\\x{2600}-\\x{27BF}\\x{2B00}-\\x{2BFF}\\x{FE00}-\\x{FE0F}\\x{1F000}-\\x{1FAFF}]"]];
+  x = StringDelete[x, "#"];
   x = StringReplace[x, "&" -> "and"];
   StringTrim @ StringReplace[x, RegularExpression["\\s{2,}"] -> " "]];
 

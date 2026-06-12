@@ -124,8 +124,8 @@ POST body needed. Build it with `URLBuild["…/BuildFoodNomsRecipe", {"name"->�
 (`../recipes/soups/butternut-soybean-soup.md`).
 
 The **download filename** is sanitized server-side (`cleanFilename`): the `[DD-MM-YY]`
-stamp and emoji are dropped and `&`→`and`, so `…&name=…Soup [10-06-26] ✴️` saves as
-`… Soup.foodnoms`. The full stamped name is kept as the in-file collection name (the
+stamp, emoji and `#` are dropped and `&`→`and`, so `…&name=…Soup [10-06-26] ✴️` saves as
+`… Soup.foodnoms` (and the `🩹 … #Patched` companion as `… Patched.foodnoms`). The full stamped name is kept as the in-file collection name (the
 "description" FoodNoms shows), so pass `name` with the stamp as normal.
 
 Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `foodnomsTotals`
