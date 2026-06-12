@@ -145,6 +145,16 @@ foodnomsBytes[a_] := Module[{j = ExportByteArray[a, "RawJSON"]},
     Normal[j],
     ToCharacterCode["bvx$"]]];
 
+(* download filename only -- the in-file collection name (the "description")
+   keeps the full stamp. Drop the [DD-MM-YY] suffix and emoji (✴️ stamp, 🩹
+   glyph, variation selectors), and spell '&' as 'and'. *)
+cleanFilename[s_String] := Module[{x = s},
+  x = StringDelete[x, RegularExpression["\\s*\\[\\d{2}-\\d{2}-\\d{2}\\]"]];
+  x = StringDelete[x, RegularExpression[
+     "[\\x{2600}-\\x{27BF}\\x{2B00}-\\x{2BFF}\\x{FE00}-\\x{FE0F}\\x{1F000}-\\x{1FAFF}]"]];
+  x = StringReplace[x, "&" -> "and"];
+  StringTrim @ StringReplace[x, RegularExpression["\\s{2,}"] -> " "]];
+
 (* the 16 nutrient slots summed for the whole-recipe totals (RECIPE_FORMAT.md) *)
 $totalsSlots = {"calories", "protein", "carbs", "sugars", "fat", "fatSaturated",
    "fiber", "sodium", "iron", "calcium", "zinc", "magnesium", "potassium",
@@ -352,7 +362,7 @@ buildFoodNomsRecipe[spec_Association] := Module[
   {selectedName, selectedJson} = If[selected === "recipe",
     {name, recipeJson}, {selected["name"], selected["json"]}];
 
-  <|"name" -> selectedName <> ".foodnoms", "bytes" -> foodnomsBytes[selectedJson],
+  <|"name" -> cleanFilename[selectedName] <> ".foodnoms", "bytes" -> foodnomsBytes[selectedJson],
     "json" -> selectedJson|>];
 
 
@@ -425,7 +435,9 @@ specFromParams[a_] := Module[{errs = {}},
 
 (* The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
    envelope -- so a browser GET on a query-string URL, or `curl -o`, lands the
-   file directly. Filename via Content-Disposition (RFC 5987, glyphs survive). *)
+   file directly. Filename via Content-Disposition (RFC 5987); cleanFilename
+   strips the [date] stamp + emoji and spells '&' as 'and' for the FILENAME only
+   -- the in-file collection name keeps the full "...[DD-MM-YY] ✴️" stamp. *)
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
     "emit" -> opt["String", "recipe"],

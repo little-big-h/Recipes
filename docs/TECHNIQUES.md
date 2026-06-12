@@ -346,7 +346,9 @@ sidecar data lives **in the file**:
 itself is a one-click markdown download link (GET; the `attachment` header names the file).
 Build it with `URLBuild["…/BuildFoodNomsRecipe", {"name"->…, "fdcIds"->…, …}]`; query
 strings cap ≈8 KB (a recipe is ~0.5 KB). Live example in
-`../recipes/soups/butternut-soybean-soup.md`.
+`../recipes/soups/butternut-soybean-soup.md`. The saved **filename** is sanitized
+(`cleanFilename`): `[DD-MM-YY]` stamp + emoji dropped, `&`→`and` — so `Soup [10-06-26] ✴️`
+saves as `Soup.foodnoms`; the full stamped name stays as the in-file collection name.
 
 ### Notes
 
