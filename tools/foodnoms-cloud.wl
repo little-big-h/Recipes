@@ -8,8 +8,10 @@
    Generating a .foodnoms recipe used to be a manual, per-session playbook
    (docs/RECIPE_NUTRITION_GENERATOR.md): paste fdc-lookup.wl, resolve each
    ingredient to a USDA fdcId, fetch per-100 g blocks, hand-assemble JSON, fold
-   in patches, sum totals. This deploys all of that as ONE Wolfram Cloud
-   APIFunction (same pattern as the pirk0/RenderTimeline endpoint).
+   in patches, sum totals. This deploys that as Wolfram Cloud APIFunctions
+   (same pattern as the pirk0/RenderTimeline endpoint), split into two concerns:
+   ResolveFDC (name -> ranked USDA candidates, to be judged) and
+   BuildFoodNomsRecipe (resolved ids -> one .foodnoms file + totals).
 
    THE .foodnoms BYTES ARE PRODUCED HERE, IN WOLFRAM — NO PYTHON.
    LZFSE *compression* is not available in Wolfram, but the LZFSE container
@@ -121,8 +123,13 @@ fdcSecondarySource[dataType_] := Switch[dataType,
 
 (* ===================== B. FoodNoms recipe builder ========================= *)
 
-(* fresh uppercase local: id *)
-mkLocalID[] := "local:" <> ToUpperCase[CreateUUID[]];
+(* Deterministic local: id, derived from a seed string (a food name + role).
+   Stable across calls so a separately-emitted provenance file (see `emit`
+   below) carries the SAME foodID the recipe references — they link in FoodNoms
+   without a shared random UUID. Format: SHA-256 -> first 32 hex as 8-4-4-4-12. *)
+mkLocalID[seed_String] := Module[
+  {h = ToUpperCase @ StringTake[Hash[seed, "SHA256", "HexString"], 32]},
+  "local:" <> StringInsert[h, "-", {9, 13, 17, 21}]];
 
 (* a .foodnoms byte stream as an UNCOMPRESSED LZFSE block:
    'bvx-' + uint32 little-endian raw length + raw UTF-8 JSON + 'bvx$' *)
@@ -174,10 +181,10 @@ passthroughFoodEntry[ing_, sortIdx_] := Module[
 patchTrio[block_, delta_Association, qty_, note_String, patchID0_, patchedID0_, sortIdx_] :=
  Module[{patchID, patchedID, fdcId, per100, perGram, missing, base, patchFood,
     patchedFood, recipeEntry, url, oname, secSrc},
-  patchID = If[StringQ[patchID0], patchID0, mkLocalID[]];
-  patchedID = If[StringQ[patchedID0], patchedID0, mkLocalID[]];
   fdcId = block["fdcId"];
   oname = block["name"];
+  patchID = If[StringQ[patchID0], patchID0, mkLocalID[oname <> "#patch"]];
+  patchedID = If[StringQ[patchedID0], patchedID0, mkLocalID[oname <> "#patched"]];
   per100 = block["nutrients"];
   secSrc = fdcSecondarySource[block["dataType"]];
   url = "https://fdc.nal.usda.gov/food-details/" <> ToString[fdcId] <> "/nutrients";
@@ -232,7 +239,8 @@ slotTotal[entries_, slot_] :=
 (* spec (Association) -> <|"files"->{..}, "totals"->.., "warnings"->..|> *)
 buildFoodNomsRecipe[spec_Association] := Module[
   {name, servings, ings, warnings = {}, entries = {}, aux = {}, totalSize,
-   totals, recipeJson, files, auxFiles, i = 0},
+   totals, recipeJson, recipeRec, auxRecs, allRecs, manifest, emit, selected,
+   file, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
   ings = Lookup[spec, "ingredients", {}];
@@ -292,19 +300,37 @@ buildFoodNomsRecipe[spec_Association] := Module[
        "servings" -> servings|>},
     "foodEntries" -> entries|>;
 
-  (* dedupe reusable provenance objects by their food/collection name *)
-  auxFiles = DeleteDuplicatesBy[
+  (* Every call yields exactly ONE raw .foodnoms file. The recipe and each
+     reusable provenance object (patch food / patched food, FOODNOMS_FORMAT.md
+     §11) are separate files; `emit` picks which to render this call. The full
+     menu is returned as `manifest` so the caller can come back for the others —
+     their foodIDs are deterministic (mkLocalID), so the recipe and its
+     separately-emitted provenance files stay linked. *)
+  recipeRec = <|"name" -> name, "kind" -> "recipe", "json" -> recipeJson|>;
+  auxRecs = DeleteDuplicatesBy[
     Map[Function[j,
-      <|"name" -> (If[KeyExistsQ[j, "foods"], j["foods"][[1]]["name"],
-           j["foodCollections"][[1]]["name"]]) <> ".foodnoms",
-        "json" -> j, "b64" -> BaseEncode[foodnomsBytes[j]]|>], aux],
+      If[KeyExistsQ[j, "foods"],
+        <|"name" -> j["foods"][[1]]["name"], "kind" -> "patchFood", "json" -> j|>,
+        <|"name" -> j["foodCollections"][[1]]["name"], "kind" -> "patchedFood", "json" -> j|>]],
+      aux],
     #["name"] &];
+  allRecs = Prepend[auxRecs, recipeRec];
+  manifest = KeyDrop["json"] /@ allRecs;
 
-  files = Prepend[auxFiles,
-    <|"name" -> name <> ".foodnoms", "json" -> recipeJson,
-      "b64" -> BaseEncode[foodnomsBytes[recipeJson]]|>];
+  emit = Lookup[spec, "emit", "recipe"];
+  selected = Which[
+    emit === "recipe", recipeRec,
+    True, SelectFirst[allRecs, #["name"] === emit &, $Failed]];
+  If[selected === $Failed,
+   AppendTo[warnings,
+    "emit target " <> ToString[emit] <> " not found; emitted the recipe instead. " <>
+     "Available: " <> ToString[manifest[[All, "name"]]]];
+   selected = recipeRec];
 
-  <|"files" -> files, "totals" -> totals, "warnings" -> warnings|>];
+  file = <|"name" -> selected["name"] <> ".foodnoms", "kind" -> selected["kind"],
+    "json" -> selected["json"], "b64" -> BaseEncode[foodnomsBytes[selected["json"]]]|>;
+
+  <|"file" -> file, "manifest" -> manifest, "totals" -> totals, "warnings" -> warnings|>];
 
 
 (* ============ B2. Resolution: ingredient name -> USDA candidates =========
@@ -319,8 +345,11 @@ resolveFDC[spec_Association] := Module[{qs, n},
   n = Lookup[spec, "n", 5];
   <|"results" -> Function[q,
      <|"query" -> q,
-       "candidates" -> (<|"fdcId" -> #[[1]], "description" -> #[[2]],
-            "dataType" -> #[[3]]|> & /@ fdcSearch[q, n])|>] /@ qs|>];
+       "candidates" -> Function[hit,
+          With[{block = fdcToFoodNoms[hit[[1]]]},
+           <|"fdcId" -> hit[[1]], "description" -> hit[[2]], "dataType" -> hit[[3]],
+             "baseAmount" -> 100, "baseUnit" -> "gram",
+             "nutrients" -> block["nutrients"]|>]] /@ fdcSearch[q, n]|>] /@ qs|>];
 
 
 (* ======================= C. APIFunction (JSON in) ======================== *)
@@ -342,27 +371,35 @@ resolveAPI = APIFunction[{"spec" -> "RawJSON"},
 
 (* ===================== D. Deploy (run once, as pirk0) ===================== *)
 
-(* Evaluate in an authenticated Wolfram Cloud session (CloudConnect[]). Two
-   endpoints, two concerns — deploy both:
+(* Evaluate the two CloudDeploy lines below in an authenticated Wolfram Cloud
+   session (CloudConnect[]). Two endpoints, two concerns. They are real
+   statements, not commented-out — running this file in an authenticated session
+   (re)deploys both. *)
 
-   CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],            Permissions -> "Public"]
-   CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"],   Permissions -> "Public"]
+CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],          Permissions -> "Public"]
+CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]
 
-   1) ResolveFDC — name(s) -> ranked USDA candidates (you pick the fdcId):
+(* 1) ResolveFDC — name(s) -> ranked USDA candidates, each WITH its per-100 g
+      nutrients (so you can pick the best entry on the numbers, not just the name):
 
      curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
        --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
-     -> {"results":[{"query":"...","candidates":[{"fdcId":...,"description":"...","dataType":"..."},...]},...]}
+     -> {"results":[{"query":"...","candidates":[
+          {"fdcId":...,"description":"...","dataType":"...",
+           "baseAmount":100,"baseUnit":"gram","nutrients":{...}},...]},...]}
 
-   2) BuildFoodNomsRecipe — already-resolved ingredients -> .foodnoms + totals:
+   2) BuildFoodNomsRecipe — already-resolved ingredients -> ONE raw .foodnoms
+      file + totals. `emit` selects which file ("recipe", the default, or a
+      provenance food name from the returned `manifest`):
 
      curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
-       --data-urlencode 'spec={"name":"My Soup","servings":5,
+       --data-urlencode 'spec={"name":"My Soup","servings":5,"emit":"recipe",
          "ingredients":[{"fdcId":2685570,"quantity":1918,
          "patch":{"sugars":2.2}}]}'
-     -> {"files":[{name,json,b64}...], "totals":{...}, "warnings":[...]}
+     -> {"file":{name,kind,json,b64}, "manifest":[{name,kind},...],
+         "totals":{...}, "warnings":[...]}
 
-   Write each returned file from its Base64 bytes:
-     BinaryWrite[f["name"], BaseDecode[f["b64"]]]   (* per files[] item *)
-*)
+   Write the single returned file from its Base64 bytes:
+     BinaryWrite[file["name"], BaseDecode[file["b64"]]]
+   then call again with emit set to each manifest entry's name for the rest. *)
 

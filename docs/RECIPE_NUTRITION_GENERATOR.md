@@ -53,18 +53,26 @@ nested Associations). Send ordinary JSON with any non-ASCII escaped as `\uXXXX`
 curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
   --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
 ```
-→ `{"results":[{"query":"…","candidates":[{"fdcId":…,"description":"…","dataType":"…"},…]},…]}`.
-Rank by `dataType` (Foundation > SR Legacy > FNDDS > Branded) and food-identity match,
-**ask when ambiguous** (the rules in Step 2 below). The candidate list is advisory —
-`BuildFoodNomsRecipe` will not pick for you.
+→ `{"results":[{"query":"…","candidates":[{"fdcId":…,"description":"…","dataType":"…",`
+`"baseAmount":100,"baseUnit":"gram","nutrients":{…}},…]},…]}`. Each candidate carries
+its **per-100 g nutrients**, so you can pick on the numbers, not just the name (e.g.
+choose the record that actually has `sugars`/`calcium` populated). Rank by `dataType`
+(Foundation > SR Legacy > FNDDS > Branded) and food-identity match, **ask when ambiguous**
+(the rules in Step 2 below). The list is advisory — `BuildFoodNomsRecipe` won't pick for you.
 
 ### 2. Build (Steps 3–5) — already-resolved ingredients only
+
+`BuildFoodNomsRecipe` emits **one raw `.foodnoms` file per call**, chosen by `emit`
+(default `"recipe"`). The recipe and each patch-provenance object are separate files;
+because their `local:` foodIDs are **deterministic** (hashed from the food name), a
+provenance file emitted in a later call still links to the recipe that references it.
 
 ```json
 {
   "name": "Creamy Butternut & Soy Bean Soup [10-06-26] ✴️",
   "servings": 5,
   "totalServingSize": 4778,
+  "emit": "recipe",
   "ingredients": [
     {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
     {"fdcId": 174270, "quantity": 326},
@@ -75,7 +83,7 @@ Rank by `dataType` (Foundation > SR Legacy > FNDDS > Branded) and food-identity 
 ```
 ```bash
 curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
-  --data-urlencode 'spec={"name":"…","servings":5,"ingredients":[…]}'
+  --data-urlencode 'spec={"name":"…","servings":5,"emit":"recipe","ingredients":[…]}'
 ```
 
 Ingredient forms: **USDA** (`fdcId` + `quantity`, optional `unit`); **USDA + patch**
@@ -85,13 +93,17 @@ Ingredient forms: **USDA** (`fdcId` + `quantity`, optional `unit`); **USDA + pat
 with neither an `fdcId` nor `foodID`+`nutrients` is **skipped with a warning** — resolve
 it first.
 
-**Response** (`"JSON"`): `<|"files" -> {…}, "totals" -> {…}, "warnings" -> {…}|>`.
-- `files` — recipe first, then any patch + patched-food provenance objects
-  (`FOODNOMS_FORMAT.md` §11). Each item: `{name, json, b64}`. Write each in pure
-  Wolfram: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]` (then `Close`).
+**Response** (`"JSON"`): `<|"file" -> {…}, "manifest" -> {…}, "totals" -> {…}, "warnings" -> {…}|>`.
+- `file` — the **single** selected `.foodnoms`: `{name, kind, json, b64}`. Write it in
+  pure Wolfram: `BinaryWrite[file["name"], BaseDecode[file["b64"]]]` (then `Close`).
+- `manifest` — every file this recipe can produce: `{name, kind}` with `kind` ∈
+  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). To get a provenance
+  file, call again with `emit` set to its `name`. An unknown `emit` warns and falls back
+  to the recipe.
 - `totals` — the 16 summed slots + `salt` (= `sodium*2.5/1000`), for the `.md`
-  Nutrition table (Step 5 write-back below still applies).
-- `warnings` — unresolved/skipped ingredients, unmapped dataTypes, patch-created keys.
+  Nutrition table (Step 5 write-back below still applies); returned on every call.
+- `warnings` — unresolved/skipped ingredients, unmapped dataTypes, patch-created keys,
+  unknown `emit`.
 
 Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `totals`, and
 **Step 6 verify**. The manual Steps 2–5 below remain the fallback if the endpoints are

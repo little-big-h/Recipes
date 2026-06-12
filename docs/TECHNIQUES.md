@@ -303,12 +303,14 @@ curl -s https://www.wolframcloud.com/obj/pirk0/ResolveFDC \
   --data-urlencode 'spec={"queries":["butternut squash raw","dry soybeans"],"n":5}'
 ```
 
-Returns `{"results":[{"query":…,"candidates":[{"fdcId","description","dataType"},…]},…]}`.
-The candidates are advisory — **you pick** the `fdcId` (rank by `dataType`:
-Foundation > SR Legacy > FNDDS > Branded, plus food-identity match). The builder never
-auto-picks.
+Returns `{"results":[{"query":…,"candidates":[{"fdcId","description","dataType",`
+`"baseAmount":100,"baseUnit":"gram","nutrients":{…}},…]},…]}` — each candidate with its
+**per-100 g nutrients**, so you can choose on the numbers (which record has `sugars`,
+`calcium`, etc. populated), not just the name. Candidates are advisory — **you pick** the
+`fdcId` (rank by `dataType`: Foundation > SR Legacy > FNDDS > Branded, plus food-identity
+match). The builder never auto-picks.
 
-### 2. `BuildFoodNomsRecipe` — resolved ingredients → `.foodnoms` + totals
+### 2. `BuildFoodNomsRecipe` — resolved ingredients → one `.foodnoms` + totals
 
 ```
 https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
@@ -316,23 +318,28 @@ https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe
 
 ```bash
 curl -s https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe \
-  --data-urlencode 'spec={"name":"…","servings":5,"ingredients":[…]}'
+  --data-urlencode 'spec={"name":"…","servings":5,"emit":"recipe","ingredients":[…]}'
 ```
 
-Returns `{"files": […], "totals": {…}, "warnings": […]}`.
+Returns `{"file": {…}, "manifest": […], "totals": {…}, "warnings": […]}`. **One raw
+`.foodnoms` file per call**, picked by `emit` (default `"recipe"`).
 
-- `files[]` — each `{name, json, b64}`; `b64` is the ready-to-write `.foodnoms`
-  bytes. Recipe first, then any patch-provenance files (`FOODNOMS_FORMAT.md` §11).
-  Write from the bytes: `BinaryWrite[f["name"], BaseDecode[f["b64"]]]`, or in the
-  shell `printf %s "$b64" | base64 -d > "$name"`.
-- `totals` — 16 summed nutrient slots + `salt` (= `sodium_mg * 2.5 / 1000`).
-- `warnings` — unresolved/skipped ingredients / unmapped USDA dataTypes / patch-created keys.
+- `file` — the selected `{name, kind, json, b64}`; `b64` is the ready-to-write `.foodnoms`
+  bytes. Write: `BinaryWrite[file["name"], BaseDecode[file["b64"]]]`, or in the shell
+  `printf %s "$b64" | base64 -d > "$name"`.
+- `manifest[]` — every file this recipe yields: `{name, kind}`, `kind` ∈
+  `recipe`/`patchFood`/`patchedFood` (`FOODNOMS_FORMAT.md` §11). Re-call with `emit` set to
+  a `name` to fetch that one. Provenance files link to the recipe by **deterministic**
+  `local:` foodIDs (hashed from the food name), so they need not be emitted in one call.
+- `totals` — 16 summed nutrient slots + `salt` (= `sodium_mg * 2.5 / 1000`); every call.
+- `warnings` — unresolved/skipped ingredients / unmapped USDA dataTypes / patch-created
+  keys / unknown `emit`.
 
 #### Spec shape
 
 ```json
 {"name": "<recipe name incl. [DD-MM-YY] ✴️>", "servings": 5,
- "totalServingSize": 4778,
+ "totalServingSize": 4778, "emit": "recipe",
  "ingredients": [
    {"fdcId": 2685570, "quantity": 1918, "patch": {"sugars": 2.2}},
    {"fdcId": 174270, "quantity": 326},
