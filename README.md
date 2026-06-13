@@ -1,5 +1,22 @@
 # Recipes — Family Vegetarian Cooking Project
 
+## 🍽️ Latest recipes
+
+*The 10 most recently created recipes, newest first. Kept current on every new recipe (see `CLAUDE.md`).*
+
+1. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
+2. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
+3. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
+4. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
+5. **[Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli](recipes/soups/creamy-pinto-butternut-soup.md)** — 2026-06-03
+6. **[Creamy Corn Soup — Mexican, Dried-Kidney-Bean Iteration (2 kg)](recipes/soups/creamy-corn-soup-mexican-2026-06-02.md)** — 2026-06-02
+7. **[Thai Yellow Butternut Squash Curry](recipes/stovetop-mains/thai-yellow-butternut-curry.md)** — 2026-05-29
+8. **[Squash Mash, Onion-Apple Gravy & Air-Fried Tofu](recipes/stovetop-mains/squash-mash-tofu-gravy.md)** — 2026-05-29
+9. **[Aubergine · Passata · Amaranth](recipes/stovetop-mains/aubergine-passata-amaranth.md)** — 2026-05-29
+10. **[Creamy Shiitake Soup — Thai Profile](recipes/soups/creamy-shiitake-soup-thai.md)** — 2026-05-29
+
+---
+
 A working project for developing, iterating, and tracking family recipes.
 Holger Pirk's home kitchen, vegetarian, family of five.
 

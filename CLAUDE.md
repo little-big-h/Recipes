@@ -29,6 +29,7 @@ This file is read automatically at session start. **For full project context, re
 - **Never use immediate (quick) release on the Ninja pressure cooker.** Natural or delayed only. See `docs/TECHNIQUES.md`.
 - **Every ingredient gets a unique emoji prefix** used consistently in the ingredient table, method, and notes. See `docs/RECIPE_FORMAT.md`.
 - **Name every Claude-generated recipe with a `[DD-MM-YY]` creation-date suffix and a trailing ✴️** (marks it Claude-made), e.g. `Creamy Butternut & Soy Bean Soup [10-06-26] ✴️`. The stamp goes in the collection `name`. See `docs/FOODNOMS_FORMAT.md`.
+- **Keep the "🍽️ Latest recipes" list at the very top of `README.md` current.** Whenever you add a new recipe file under `recipes/`, prepend it to that list (newest first, with its creation date) and drop the oldest so it stays at **10**. It must be the first thing seen in the repo — Holger's standing request.
 
 ## Don't touch
 
