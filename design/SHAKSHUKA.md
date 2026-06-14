@@ -206,7 +206,7 @@ Developed for Anja and Jannes (heat-sensitive). Built around toasted cumin, oreg
 
 ## Profile: Mexican — chipotle-forward (solo)
 
-The adult/solo counterpart to the kid-safe Mexican above. Where that build strips all chilli to the table to protect Anja and Jannes, this one is **built around the smoke** — whole dried chipotle + ancho flakes soaked and blended into the sauce. Holger solo; uses up the chipotles and anchos (pantry run-down). Designed 2026-06-12, first cook 2026-06-13.
+The adult/solo counterpart to the kid-safe Mexican above. Where that build strips all chilli to the table to protect Anja and Jannes, this one is **built around the smoke** — whole dried chipotle + ancho flakes soaked and blended into the sauce, with smoked paprika stacked on top. Holger solo; uses up the chipotles and anchos (pantry run-down). Designed 2026-06-12, revised 2026-06-14 (smoke-forward); first cook pending.
 
 ### Single-serving build (2 eggs)
 
@@ -227,37 +227,36 @@ The adult/solo counterpart to the kid-safe Mexican above. Where that build strip
 |:-----------|-------:|
 | Garlic powder | 1.5 g |
 | Toasted cumin seeds, ground | 2 g |
-| Toasted mustard seeds, ground | 2 g |
 | Ground coriander | 2 g |
+| Smoked paprika (pimentón) | 6 g |
 | Dried oregano (regular — Mexican unavailable) | 2 g *(optional, if in stock)* |
 
-**Build:** passata 400 g · coconut aminos 3 g · nutritional yeast 10 g (≈7 g stirred into the sauce for umami, ≈3 g sprinkled at the end) · spinach 100 g · 2 eggs · fresh coriander · lime at the table.
+**Build:** passata 400 g · coconut aminos 15 g · nutritional yeast 5 g (sprinkled at the end, cotija-style) · spinach 100 g · 2 eggs · fresh coriander · lime at the table.
 
 ### Method
 
 1. Soak chipotle + ancho flakes in the just-boiled salted water 10–15 min; blend with the soak water into a smoky paste.
-2. Bloom garlic powder + ground cumin + ground mustard + coriander (+ oregano) in the oil 30–60 sec — brief; powder and ground spices scorch.
+2. Bloom garlic powder + ground cumin + coriander + smoked paprika (+ oregano) in the oil 30–60 sec — **brief**; paprika scorches bitter fast, so keep it moving and have the chilli paste to hand.
 3. Add the chilli paste, fry 30–60 sec.
-4. Add passata + aminos + ~7 g nooch, simmer 5 min.
+4. Add passata + aminos, simmer 5 min.
 5. Wilt spinach 1–2 min.
 6. Two egg wells, cover, ~5–7 min until the whites set.
-7. Off heat: sprinkle the remaining ~3 g nooch (cotija-style). Coriander; lime at the table.
+7. Off heat: sprinkle the 5 g nooch (cotija-style). Coriander; lime at the table.
 
 ### Design notes
 
-- **Chipotle replaces the smoked paprika.** Chipotle is smoked jalapeño — smoke *and* heat in one — so the PDF's chipotle + smoked-paprika double-smoke collapses to chipotle alone.
-- **Ancho does the rounding (no carrot).** The kid build leaned on grated carrot for the sweetness that balances the chilli; with carrot dropped, the raisiny-sweet ancho (8 g, barely hot) is what keeps the chipotle from reading sharp. Ancho is structural here, not a garnish — which is also the point, it's a use-up.
-- **Nooch is the umami anchor (no tomato paste).** Tomato paste was the *bhuna* depth move; dropping it puts the umami load on nutritional yeast (10 g) + aminos + the smoky chilli paste. Nooch fills the cotija-cheese role authentically — the Indian profile's flatness lesson, solved cotija-style instead of with paste.
-- **Toasted-and-ground mustard (2 g)** — Holger's earthy backbone. Off-cuisine, but quiet once toasted (myrosinase denatured → nutty, not pungent), and kept under the cumin so it deepens rather than competes. Skip it for maximum chipotle clarity.
+- **Smoke-forward — chipotle *and* smoked paprika (deliberate).** Chipotle is smoked jalapeño (smoke + heat); 6 g smoked paprika (pimentón) stacks a second, deeper smoke on top — Holger's call for a smoke-forward profile, not a balanced one. It also brings colour and a real iron/potassium lift (paprika is dense in both). Bloom it briefly — paprika is the first thing in the pan to burn bitter.
+- **Ancho does the rounding (no carrot).** The kid build leaned on grated carrot for the sweetness that balances the chilli; with carrot dropped, the raisiny-sweet ancho (8 g, barely hot) is what keeps the chipotle + paprika smoke from reading harsh. Ancho is structural here, not a garnish — which is also the point, it's a use-up.
+- **Aminos is the umami anchor now (no tomato paste).** Tomato paste was the *bhuna* depth move; with it gone, coconut aminos at 15 g carries the savoury-salt backbone, and nutritional yeast drops to 5 g as a cotija-style finish rather than the anchor. (The Indian profile's flatness lesson — keep an in-cuisine umami source in; here it's aminos + the smoky chilli paste.)
 - **Garlic powder, not fresh** — confirmed working in the Japanese profile; straight into the bloom, no pounding.
 
 ### Nutrition (whole single serving)
 
 *Estimates, not FoodNoms-verified — USDA-derived + label values, computed server-side. Micros are committed best-estimates (cumin's micros aren't in its record, so iron/magnesium are if anything conservative).*
 
-**383 kcal · 28 g protein · 38 g carbs (17 g sugars) · 16 g fat (4 g sat) · 13 g fibre · salt 2.1 g.** Micros: K 1792 mg, Ca 265 mg, Mg 170 mg, Fe 9.5 mg, Zn 2.9 mg, folate 285 µg, B12 0.9 µg, vit D ~2 µg. Salt 2.1 g includes the 1 g soak salt — a touch above the North African profile, welcome for a training-sweat breakfast.
+**382 kcal · 26 g protein · 41 g carbs (20 g sugars) · 16 g fat (4 g sat) · 14 g fibre · salt 2.4 g.** Micros: K 1914 mg, Ca 273 mg, Mg 173 mg, Fe 10.6 mg, Zn 3.0 mg, folate 285 µg, B12 0.9 µg, vit D ~2 µg. Salt 2.4 g (incl. the 1 g soak salt and the bumped aminos) — welcome for a training-sweat breakfast.
 
-**⬇ Download** (`BuildFoodNomsRecipe`, returns the file directly): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Chipotle+Shakshuka+%5B12-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C170929%2C169396%2C168570%2C170922%2C171325&grams=100%2C100%2C2%2C8%2C8%2C2%2C1.5&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BCumin+Seeds%3BOrganic+Coconut+Aminos%3BNutritional+Yeast+Flakes%3BSalt&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92%3Blocal%3A2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3Blocal%3AA79EC48D-C9A5-43A9-9F24-C57821BECF60%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3B3%3B2%3B3%3B10%3B1&customUnits=gram%3Bgram%3Bgram%3Bmilliliter%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B84%2C1%2C21%2C20%2C1%2C1%2C1%2C1000%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B349%2C47%2C39%2C1%2C5%2C1%2C20%2C80%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · chipotle resolved to the USDA generic "Peppers, hot chile, sun-dried" (168570) as a proxy.
+**⬇ Download** (`BuildFoodNomsRecipe`, returns the file directly): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Chipotle+Shakshuka+%5B12-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C169396%2C168570%2C170922%2C171325%2C171329&grams=100%2C100%2C8%2C8%2C2%2C1.5%2C6&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BCumin+Seeds%3BOrganic+Coconut+Aminos%3BNutritional+Yeast+Flakes%3BSalt&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92%3Blocal%3A2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3Blocal%3AA79EC48D-C9A5-43A9-9F24-C57821BECF60%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3B3%3B2%3B15%3B5%3B1&customUnits=gram%3Bgram%3Bgram%3Bmilliliter%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B84%2C1%2C21%2C20%2C1%2C1%2C1%2C1000%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B349%2C47%2C39%2C1%2C5%2C1%2C20%2C80%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · chipotle → USDA generic "Peppers, hot chile, sun-dried" (168570) as a proxy; paprika → "Spices, paprika" (171329).
 
 ---
 
