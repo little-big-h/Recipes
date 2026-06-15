@@ -4,15 +4,15 @@
 
 ## Ingredients
 
-| Ingredient | Amount |
-|:-----------|-------:|
-| 🧅 Leek | 226 g |
-| 🥬 Celery | 302 g |
-| 🥕 Carrots | 555 g |
-| 🥔 Potatoes | 1315 g |
-| 🌿 Parsley | 18 g |
-| 🧊 Knorr vegetable stock cubes | 40 g |
-| **Cooked yield** | **4800 g** |
+| Ingredient | Amount | kcal | Source |
+|:-----------|-------:|-----:|:-------|
+| 🧅 Leek | 226 g | 138 | [usda](https://fdc.nal.usda.gov/food-details/169246/nutrients) |
+| 🥬 Celery | 302 g | 42 | [usda](https://fdc.nal.usda.gov/food-details/169988/nutrients) |
+| 🥕 Carrots | 555 g | 228 | [usda](https://fdc.nal.usda.gov/food-details/170393/nutrients) |
+| 🥔 Potatoes | 1315 g | 1013 | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
+| 🌿 Parsley | 18 g | 7 | [usda](https://fdc.nal.usda.gov/food-details/170416/nutrients) |
+| 🧊 Knorr vegetable stock cubes | 40 g | 127 | Knorr label |
+| **Cooked yield** | **4800 g** | **1553** | |
 
 ## Nutrition
 
