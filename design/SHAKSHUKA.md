@@ -156,6 +156,26 @@ Tikka masala already contains ground cumin. The freshly-toasted cumin is to **re
 
 The earthy backbone of this profile (Holger's preference). Toast the seeds until they pop, cool, then grind — toasting denatures the myrosinase, killing the pungency and leaving a nutty, earthy note that *deepens* the tikka rather than competing with it. Toast it **separately** from the cumin (they pop at different rates), and keep it under the tikka like the cumin (~3–4 g).
 
+### Bold variant (Holger, 2026-06-15) — garlic powder + sweet paprika
+
+A dialled-up solo version (first cook 2026-06-16). Spices ~1.5× the canonical and **tikka-forward**, fresh garlic swapped for powder, plus **sweet paprika** for colour and pepper body (the tikka blend already carries some, so this is a bold push, not a staple — Kashmiri if you have it; **not** smoked, which would drag it Spanish/Mexican).
+
+| Bloom | Bold | Canonical |
+|:------|----:|----------:|
+| 🧄 Garlic powder | 2 g | (8 g fresh) |
+| 🌰 Toasted cumin, ground | 4 g | 3 g |
+| 🌑 Toasted mustard, ground | 4 g | 3–4 g |
+| 🫚 Dried ginger | 1.5 g | 1 g |
+| 🍛 Tikka masala | 9 g | 6 g |
+| 🌶️ Sweet (or Kashmiri) paprika | 3 g | — |
+| 🍅 Tomato paste (bhuna anchor) | 22 g | ~15 g |
+
+Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt), passata 400 g, spinach 100 g, 2 eggs; sumac + coriander to finish. Garlic powder goes straight into the bloom (no pounding). **Hold the line even bold:** tikka (9) stays above cumin/mustard (4) so it reads *tikka*, not cumin; bold = spice + the tomato-paste bhuna, **not** more salt; no nooch (muddies the spice clarity here).
+
+**Nutrition (whole serving):** ~351 kcal · 25 g protein · 37 g carbs (18 g sugars) · 14 g fat · 12 g fibre · salt 2.8 g. Micros: K 1902 mg, Ca 297 mg, Mg 188 mg, Fe 11 mg, folate 287 µg, vit D ~2 µg. USDA-derived + labels, not FoodNoms-verified; micros are committed estimates.
+
+**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Bold+Indian+Tikka+Shakshuka+%5B15-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C170929%2C170926%2C171329%2C170459%2C171325%2C168570&grams=100%2C100%2C4%2C1.5%2C3%2C22%2C2%2C2&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BCumin+Seeds%3BTikka+Masala+Powder%3BSalt&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92%3Blocal%3AE9093201-1187-8D70-F973-C04C12A04DBC%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3B4%3B9%3B1&customUnits=gram%3Bgram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B319%2C12%2C45%2C8%2C12%2C2%2C25%2C3760%2C15%2C350%2C2%2C150%2C1200%2C0%2C0%2C30%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · sweet paprika → "Spices, paprika" (171329); chilli → "Peppers, hot chile, sun-dried" (168570) as a dried-Kashmiri proxy.
+
 ---
 
 ## Profile: Mexican
