@@ -51,6 +51,8 @@ Reference docs for specific dish families and project infrastructure:
 
 Individual recipe files live under `recipes/`, grouped by dish type.
 
+**Anja's own cooks** live under `anjas-cooking/` — logged minimally (name · ingredients · nutrition · FoodNoms link, no method); see its `README.md`. Rated in `docs/RATINGS.md` like everything else.
+
 ---
 
 ## File organization
