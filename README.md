@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
-2. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
-3. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
-4. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
-5. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
-6. **[Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli](recipes/soups/creamy-pinto-butternut-soup.md)** — 2026-06-03
-7. **[Creamy Corn Soup — Mexican, Dried-Kidney-Bean Iteration (2 kg)](recipes/soups/creamy-corn-soup-mexican-2026-06-02.md)** — 2026-06-02
-8. **[Thai Yellow Butternut Squash Curry](recipes/stovetop-mains/thai-yellow-butternut-curry.md)** — 2026-05-29
-9. **[Squash Mash, Onion-Apple Gravy & Air-Fried Tofu](recipes/stovetop-mains/squash-mash-tofu-gravy.md)** — 2026-05-29
-10. **[Aubergine · Passata · Amaranth](recipes/stovetop-mains/aubergine-passata-amaranth.md)** — 2026-05-29
+1. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
+2. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
+3. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
+4. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
+5. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
+6. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
+7. **[Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli](recipes/soups/creamy-pinto-butternut-soup.md)** — 2026-06-03
+8. **[Creamy Corn Soup — Mexican, Dried-Kidney-Bean Iteration (2 kg)](recipes/soups/creamy-corn-soup-mexican-2026-06-02.md)** — 2026-06-02
+9. **[Thai Yellow Butternut Squash Curry](recipes/stovetop-mains/thai-yellow-butternut-curry.md)** — 2026-05-29
+10. **[Squash Mash, Onion-Apple Gravy & Air-Fried Tofu](recipes/stovetop-mains/squash-mash-tofu-gravy.md)** — 2026-05-29
 
 ---
 

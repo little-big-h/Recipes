@@ -121,6 +121,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Creamy Butternut & Soy Bean Soup | Japanese-leaning |
 | Chickpea, Cauliflower & Spinach Tikka Curry | Indian |
 | Vegetable & Potato Soup (Anja) | European |
+| Lobia Masala with Air-Fried Butternut | Indian |
 
 ---
 
@@ -154,6 +155,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Creamy Butternut & Soy Bean Soup | v1 | cooked | 2026-06-10 | [butternut-soybean-soup.md](../recipes/soups/butternut-soybean-soup.md) |
 | Chickpea, Cauliflower & Spinach Tikka Curry | v1 | cooked | 2026-06-12 | [chickpea-cauliflower-tikka-curry.md](../recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md) |
 | Vegetable & Potato Soup (Anja) | v1 | cooked | 2026-06-15 | [vegetable-potato-soup.md](../anjas-cooking/vegetable-potato-soup.md) |
+| Lobia Masala with Air-Fried Butternut | v1 | cooked | 2026-06-16 | [lobia-masala-butternut.md](../recipes/stovetop-mains/lobia-masala-butternut.md) |
 
 ---
 
@@ -198,6 +200,11 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Vegetable & Potato Soup (Anja) | v1 | Jannes | 8.0 |
 | Vegetable & Potato Soup (Anja) | v1 | Lara | 7.9 |
 | Vegetable & Potato Soup (Anja) | v1 | Holger | 7.6 |
+| Lobia Masala with Air-Fried Butternut | v1 | Julina | 8.5 |
+| Lobia Masala with Air-Fried Butternut | v1 | Jannes | 8.0 |
+| Lobia Masala with Air-Fried Butternut | v1 | Anja | 8.8 |
+| Lobia Masala with Air-Fried Butternut | v1 | Holger | 8.0 |
+| Lobia Masala with Air-Fried Butternut | v1 | Lara | 7.5 |
 
 *Nordic cold soup (v1) ratings were qualitative; see remarks. `cooked-historical` dishes have aggregate-only or no ratings — see remarks.*
 
@@ -247,6 +254,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 38 | Creamy Butternut & Soy Bean Soup | v1 | **First cook 2026-06-10 — family avg 6.5, spread 4.0** (Holger 8.0, Lara 7.3, Anja 7.2, Jannes 5.9, Julina 4.0). **Widest spread of any meal logged** (beats Japanese corn soup v1's 3.0). Split the table hard: the **two kids cratered** — **Julina 4.0** (far below her 8–9 norm; obs 4: a Julina drop = something *fundamental* is off) and **Jannes 5.9** (below his 7.0–7.5 floor, below even his red-miso 6.0). **Anja 7.2** (variance signal, obs 3) softened from her usual 8–9.5. Only Holger (his dish) and **Lara 7.3** (fine — no in-pot acid, no smoked paprika, ginger not galangal; cleared her flags) were content. **Leading hypothesis: the whole soy beans.** The near-twin Pinto–Butternut soup (creamy *blended* beans) scored **7.7–8.0 family-wide**; this swapped that for **whole soy beans** — beany, firm-textured, savoury — plus a dashi/miso/soy umami push. Soy beans are the differentiator and prime suspect: texture (under-tender risk flagged off the 5 h soak / 35 min cook) and/or beany-savoury flavour against sweet squash. Reads as a **Holger-solo / adult dish, not a family one.** Ask the kids whether it was the beans' *texture* or *taste*. Nutrition estimates, not FoodNoms-verified. |
 | 39 | Chickpea, Cauliflower & Spinach Tikka Curry | v1 | **First cook 2026-06-12 — kids' meal, Holger not eating.** Two ratings: **Jannes 7.8, Anja 8.0** (Lara/Julina did not score). Built deliberately as a mild, pasta-forward landing after the soy-bean soup cratered the kids (remark 38): unsoaked chickpeas pressure-cooked in plain water (no tomato — acid stops beans softening), then 1000 g passata + cauliflower + 324 g whole-wheat penne + spinach simmered one-pot. **Jannes 7.8 ties his series-best (pinto v2, remark 37) and again clears cauliflower (his flagged dislike) — third straight data point that bold/mild savoury + tomato coating overrides the cauliflower aversion** (the florets simmered in tomato sauce, not steamed naked on top). Anja 8.0 in her usual range. Nutrition USDA-derived, not FoodNoms-verified (~3410 kcal, 173 g protein, 121 g fibre incl. a chickpea-record fibre patch, 8.8 g salt; finished yield 4380 g). |
 | 40 | Vegetable & Potato Soup (Anja) | v1 | **Anja's own cook, 2026-06-15** — first dish logged under `anjas-cooking/`. **Family avg 8.2, spread 1.9** (Julina 9.5, Anja 8.0, Jannes 8.0, Lara 7.9, Holger 7.6). Strong family-wide hit — everyone ≥7.6, no dislikes. **The kids topped out:** Jannes 8.0 is a **new high for him** (above his 7.0–7.8 range — the mild, unfermented, simple-comfort profile is exactly his lane, obs 6), and **Lara 7.9 clears her stated ~7.8 near-ceiling** (obs 5) — a plain leek/potato soup trips none of her flags (no sourness, no smoked paprika, no warm aromatics). Julina 9.5 exceptional. **Holger lowest at 7.6** — the only one for whom "simple" undersells; his peaks are the bold/umami dishes (Japanese corn 9.0, pinto v2 8.2), and a plain potato soup is comfort, not a highlight. Sharp contrast with the soy-bean soup (remark 38, 6.5 avg, kids cratered): a simple mild comfort soup **unites** the family where the ambitious one split it. Great debut for Anja's cooking. Leek/celery/carrot/potato + Knorr veg cubes + parsley; 4800 g pot. Nutrition USDA-derived + Knorr label, not FoodNoms-verified (~1553 kcal, 40 g protein, 53 g fibre, salt 15.1 g — ~13 g from the 40 g of stock cubes). |
+| 41 | Lobia Masala with Air-Fried Butternut | v1 | **First cook 2026-06-16 — family avg 8.16, spread 1.3** (Anja 8.8, Julina 8.5, Jannes 8.0, Holger 8.0, Lara 7.5). Strong family-wide hit, everyone ≥7.5 — sits with the veg soup (8.2) and pinto v2 (8.0) at the top of the family table. **Black-eyed peas land where the soy beans didn't:** creamy/mild like the pinto in the favourite pinto–butternut soup, *not* the firm beany whole soy beans that cratered the kids (obs 18) — Julina 8.5 (vs her 4.0 on the soy soup) and Jannes 8.0 (vs 5.9) are the clean contrast, so it really is whole soy beans specifically that fail, not "beans + squash". **Jannes 8.0** extends his run of highs on mild-savoury dishes (veg soup 8.0, pinto v2 7.8). **Lara 7.5** even with the lemon going *into the pot* (she was away, rated later) — near her ceiling, acid-in-pot didn't hurt her here. Structure: unsoaked peas pressure-cooked in plain water (no tomato — acid rule), bhuna'd tikka-tomato sauce + white-miso umami anchor, butternut air-fried separately and folded in late to keep its caramelised edges. Nutrition USDA-derived, not FoodNoms-verified (~2151 kcal, 115 g protein, 80 g fibre, salt 6.1 g; passata salt + spice amounts estimated). |
 
 ---
 
