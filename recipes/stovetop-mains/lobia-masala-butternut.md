@@ -66,7 +66,7 @@
 - **Peas in plain water, passata after.** Tomato acid stops beans softening — the recurring rule that bit the chickpeas and soy beans. The peas cook clean, the passata goes in later.
 - **Squash air-fried separately, folded in late.** Air-frying caramelises it; folding it in at the end (not simmering it in the sauce) keeps the sweet roasted edges instead of dissolving them. Same move as the cauliflower in the tikka curry.
 - **Umami anchor = tikka bhuna + white miso.** A tomato base goes flat without one (the lesson from the Indian shakshuka and pinto v1). The bhuna'd tomato paste + tikka does it during the cook; the white miso (off heat) finishes it.
-- **Black-eyed peas land where soy beans didn't.** Creamy, mild peas read like the pinto in the family-favourite pinto–butternut soup — *not* like the firm, beany whole soy beans that cratered the kids (obs 18). Confirms the issue was the soy beans specifically, not "beans in a squash dish."
+- **Beans + butternut is fine for the family — the soy-bean soup failed on a bitter dashi, not the beans.** Creamy, mild black-eyed peas read like the pinto in the family-favourite pinto–butternut soup, and this scored 8.16. The earlier soy-bean soup cratered the kids because its **kombu-shiitake dashi went bitter** (Holger, 2026-06-16; obs 18 corrected) — this dish has no dashi, which is the real difference.
 - **Lara-away licence.** With Lara out, the lemon went into the pot for a real acid lift against the sweet squash + tomato, rather than being held at the table.
 
 ---

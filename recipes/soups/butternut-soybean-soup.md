@@ -86,4 +86,4 @@
 
 ## Cook log
 
-- **First cook: 2026-06-10 (planned).** Untested. Watch the soy-bean tenderness off a 5 h soak — if still firm after the 35 min HP / natural release, that's the short soak; extend the next cook or start the soak earlier. Record family ratings in `../../docs/RATINGS.md`.
+- **First cook 2026-06-10 — family avg 6.5, the kids cratered** (Julina 4.0, Jannes 5.9, Anja 7.2, Lara 7.3, Holger 8.0). **Cause: a bitter dashi, not the soy beans** (Holger, 2026-06-16) — the kids complained it tasted bitter, i.e. the kombu-shiitake brew (24 g kombu + 16 g shiitake powder at the scaled cook) over-extracted. The whole soy beans themselves were fine. **Fix for a re-cook:** go much lighter on the 🌊 kombu, pull it earlier / steep cooler, or skip the dashi entirely for a family version (the near-twin pinto–butternut and the lobia masala both scored ~8 with no dashi). See `../../docs/RATINGS.md` remark 38 / obs 18.
