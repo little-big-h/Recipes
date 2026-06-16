@@ -290,12 +290,12 @@ Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli 
 
 | Ingredient | Weight |
 |:-----------|-------:|
-| 🌶️ Harissa powder | 8 g |
+| 🫙 Harissa powder | 8 g |
 | 🫑 Ancho flakes | 6 g |
 | 🌰 Toasted cumin seeds | 3 g |
-| 🟤 Ground cinnamon (a whisper — or 2–3 g ras el hanout if out) | ~1 g |
-| 🌑 Toasted mustard seeds | 3 g |
-| 🔴 Dried chili | 1–2 pc |
+| 🪵 Ground cinnamon (a whisper — or 2–3 g ras el hanout if out) | ~1 g |
+| 🌭 Toasted mustard seeds | 3 g |
+| 🌶️ Dried chili | 1–2 pc |
 | 🫗 Liquid aminos | 10 g |
 | 🧀 Nutritional yeast | 15 g |
 
@@ -303,7 +303,7 @@ Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli 
 
 **⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=North+African+Shakshuka+%28Bold%29+%5B16-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C171320%2C170929%2C169396&grams=100%2C100%2C1%2C3%2C6&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BCumin+Seeds%3BHarissa+Spice+Mix%3BOrganic+Coconut+Aminos%3BNutritional+Yeast+Flakes&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92%3Blocal%3AA2A80202-62A6-4F50-9DF6-5265FFFEFE69%3Blocal%3A2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3Blocal%3AA79EC48D-C9A5-43A9-9F24-C57821BECF60&customQuantities=400%3B3%3B3%3B8%3B10%3B15&customUnits=gram%3Bgram%3Bgram%3Bgram%3Bmilliliter%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B259%2C6%2C64.44%2C0%2C10.78%2C1.28%2C20.06%2C7836%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B84%2C1%2C21%2C20%2C1%2C1%2C1%2C1000%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B349%2C47%2C39%2C1%2C5%2C1%2C20%2C80%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · uses the lean 19 kcal/100 g tin; +24 kcal on a 100 kcal/400 g standard tin.
 
-**Method sketch:** bloom 🌰 cumin + 🟤 cinnamon + 🌑 mustard in 🥑 oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add 🌶️ harissa + 🫑 ancho, deglaze with 🥫 passata, wilt 🥬 spinach, crack the 🥚 eggs into wells. Otherwise standard shakshuka.
+**Method sketch:** bloom 🌰 cumin + 🪵 cinnamon + 🌭 mustard in 🥑 oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add 🫙 harissa + 🫑 ancho, deglaze with 🥫 passata, wilt 🥬 spinach, crack the 🥚 eggs into wells. Otherwise standard shakshuka.
 
 **Cinnamon — the Maghrebi note (added; first cook planned).** Cumin + cinnamon + tomato is the North African spine (tagine logic), so a *whisper* of cinnamon (~1 g, bloomed with the cumin) deepens this profile without reading as "cinnamon" — restraint is everything; more tips it dessert-ward. This is Holger's **solo breakfast**, so the warm-aromatic / Lara caution (below) doesn't apply. **Run-down:** cinnamon isn't a tracked staple — if you're out, your stocked **ras el hanout** *is* the cinnamon-cumin-warm-spice blend; use ~2–3 g in the bloom instead (same warmth, deeper backbone), no purchase.
 
