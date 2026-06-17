@@ -71,6 +71,7 @@ Advisory only — `BuildFoodNomsRecipe` won't pick for you.
 | Param | Type | Carries |
 |---|---|---|
 | `name` / `servings` / `emit` | String / Integer / String | recipe name, servings, which file |
+| `totalServingSize` | Number (optional) | cooked yield in g; omit → Σ ingredient weights |
 | `fdcIds` / `grams` | comma-lists (Integer / Number) | USDA ingredients, **positionally aligned** |
 | `patchFdcIds` / `patchNutrientNames` / `patchDeltas` | comma-lists | sparse per-100 g patches (patch applies to that fdcId) |
 | `customNames` / `customFoodIds` / `customQuantities` / `customUnits` | `;`-lists | non-USDA foods (label / `local:`), nutrition given directly |

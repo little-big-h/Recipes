@@ -319,6 +319,7 @@ position (`CompoundElement` can't carry typed tuples in a query — Wolfram forb
 | Param | Type | Carries |
 |---|---|---|
 | `name` / `servings` / `emit` | String / Integer / String | name, servings, which file |
+| `totalServingSize` | Number (optional) | cooked yield in g; omit → Σ ingredient weights |
 | `fdcIds` / `grams` | comma-lists | USDA ingredients, positionally aligned |
 | `patchFdcIds` / `patchNutrientNames` / `patchDeltas` | comma-lists | sparse per-100 g patches |
 | `customNames` / `customFoodIds` / `customQuantities` / `customUnits` | `;`-lists | non-USDA foods |
