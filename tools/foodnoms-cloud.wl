@@ -316,6 +316,11 @@ buildFoodNomsRecipe[spec_Association] := Module[
     i++,
     {rawIng, ings}];
 
+  (* optional uniform uncertainty (0-1 fraction) on every entry; default 0 leaves
+     the helpers' hardcoded 0 untouched. The FoodNoms 'uncertainty' field. *)
+  With[{unc = Lookup[spec, "uncertainty", 0]},
+    If[unc =!= 0, entries = (Append[#, "uncertainty" -> unc] &) /@ entries]];
+
   totalSize = Lookup[spec, "totalServingSize",
     Total[Lookup[#, "quantity", 0] & /@ entries]];
 
@@ -425,14 +430,19 @@ specFromParams[a_] := Module[{errs = {}},
   If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
-  <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
-    "ingredients" -> Join[
-      MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
-        {a["fdcIds"], a["grams"]}],
-      MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-          "nutrients" -> AssociationThread[#5 -> #6]|> &,
-        {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
-         a["customNutrientNames"], a["customNutrientValues"]}]]|>];
+  Join[
+   <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
+     "uncertainty" -> a["uncertainty"],
+     "ingredients" -> Join[
+       MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
+         {a["fdcIds"], a["grams"]}],
+       MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
+           "nutrients" -> AssociationThread[#5 -> #6]|> &,
+         {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
+          a["customNutrientNames"], a["customNutrientValues"]}]]|>,
+   (* totalServingSize only when a number was supplied, else the builder's
+      ingredient-sum fallback must win (Missing would break its Lookup default) *)
+   If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
 
 (* The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
    envelope -- so a browser GET on a query-string URL, or `curl -o`, lands the
@@ -442,6 +452,8 @@ specFromParams[a_] := Module[{errs = {}},
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
     "emit" -> opt["String", "recipe"],
+    "totalServingSize" -> opt["Number", Missing[]],
+    "uncertainty" -> opt["Number", 0],
     "fdcIds" -> opt[DelimitedSequence["Integer", ","], {}],
     "grams"  -> opt[DelimitedSequence["Number",  ","], {}],
     "patchFdcIds"        -> opt[DelimitedSequence["Integer", ","], {}],
@@ -506,6 +518,10 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    A custom (non-USDA) food adds: customNames=Hon-Mirin&customFoodIds=local:...&
    customQuantities=40&customUnits=milliliter&customNutrientNames=calories,sugars&
    customNutrientValues=189,38  (';' separates foods; nested ','/';' for the blocks).
+
+   Two scalar knobs: totalServingSize=<grams> sets the recipe yield (default = sum
+   of ingredient weights); uncertainty=<0..1> sets the FoodNoms uncertainty fraction
+   on every entry (e.g. uncertainty=0.3 for a ±30% eyeballed estimate; default 0).
 
    No envelope: warnings + the companion-file menu live in the recipe collection's
    `notes`; totals are read back from the file with
