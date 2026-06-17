@@ -316,9 +316,9 @@ buildFoodNomsRecipe[spec_Association] := Module[
     i++,
     {rawIng, ings}];
 
-  (* optional uniform uncertainty (0-1 fraction) on every entry; default 0 leaves
-     the helpers' hardcoded 0 untouched. The FoodNoms 'uncertainty' field. *)
-  With[{unc = Lookup[spec, "uncertainty", 0]},
+  (* FoodNoms 'uncertainty' is an INTEGER percent 0-100 (verified from a FoodNoms
+     export: 30% serialises as 30, NOT 0.3). Round to int; default 0 = none. *)
+  With[{unc = Round @ Lookup[spec, "uncertainty", 0]},
     If[unc =!= 0, entries = (Append[#, "uncertainty" -> unc] &) /@ entries]];
 
   totalSize = Lookup[spec, "totalServingSize",
@@ -520,8 +520,8 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    customNutrientValues=189,38  (';' separates foods; nested ','/';' for the blocks).
 
    Two scalar knobs: totalServingSize=<grams> sets the recipe yield (default = sum
-   of ingredient weights); uncertainty=<0..1> sets the FoodNoms uncertainty fraction
-   on every entry (e.g. uncertainty=0.3 for a ±30% eyeballed estimate; default 0).
+   of ingredient weights); uncertainty=<0..100 integer percent> sets the FoodNoms
+   uncertainty on every entry (e.g. uncertainty=30 for a ±30% estimate; default 0).
 
    No envelope: warnings + the companion-file menu live in the recipe collection's
    `notes`; totals are read back from the file with
