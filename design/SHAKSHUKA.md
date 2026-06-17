@@ -176,7 +176,7 @@ Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt
 
 **⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Bold+Indian+Tikka+Shakshuka+%5B15-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C170929%2C170926%2C171329%2C170459%2C171325%2C168570&grams=100%2C100%2C4%2C1.5%2C3%2C22%2C2%2C2&customNames=Chopped+Tomatoes+%28Tinned%29%3BCumin+Seeds%3BTikka+Masala+Powder%3BSalt&customFoodIds=local%3A1ED2F859-6009-8CA5-547E-2EF1EBEB69FD%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92%3Blocal%3AE9093201-1187-8D70-F973-C04C12A04DBC%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3B4%3B9%3B1&customUnits=gram%3Bgram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=25%2C1.45%2C5.13%2C3.95%2C0.13%2C0.05%2C1.18%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B319%2C12%2C45%2C8%2C12%2C2%2C25%2C3760%2C15%2C350%2C2%2C150%2C1200%2C0%2C0%2C30%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · sweet paprika → "Spices, paprika" (171329); chilli → "Peppers, hot chile, sun-dried" (168570) as a dried-Kashmiri proxy.
 
-**Cook log — 2026-06-16 (first cook): 8.5.** "Pretty good" — the bold build (garlic powder, +3 g sweet paprika, ~1.5× spices, tikka-forward) landed well on a first pass. First numeric breakfast score on record.
+**Cook log — 2026-06-16 (first cook):** "Pretty good" (qualitative). The bold build — garlic powder, +3 g sweet paprika, ~1.5× spices, tikka-forward — landed well on a first pass.
 
 ---
 
@@ -284,7 +284,7 @@ The adult/solo counterpart to the kid-safe Mexican above. Where that build strip
 
 ## Profile: North African
 
-Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli side timid): harissa and ancho pushed up, cumin/mustard held at 3 g, cinnamon held a whisper. First cook pending.
+Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli side timid): harissa and ancho pushed up, cumin/mustard held at 3 g, cinnamon held a whisper. **First cook (bold) — scored 8.5** (2026-06-16): the bolder harissa/ancho landed; cinnamon-cumin-harissa came together. Highest numeric breakfast score on record (vs the Japanese profile's 7.8; the bold Indian was "pretty good", unscored).
 
 ### Single-serving build
 
