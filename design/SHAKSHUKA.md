@@ -182,7 +182,7 @@ Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt
 
 ## Profile: Curry-Powder (South Indian, fennel-forward)
 
-A second Indian profile, distinct from the tikka one: built on a stocked **organic "medium curry" powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli). Fennel-led and sweet-aromatic rather than tikka-savoury. Holger solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-17.
+A second Indian profile, distinct from the tikka one: built on a stocked **organic "medium curry" powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli). Fennel-led and sweet-aromatic rather than tikka-savoury. Holger solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-18.
 
 ### Single-serving build (2 eggs)
 
@@ -270,7 +270,7 @@ Developed for Anja and Jannes (heat-sensitive). Built around toasted cumin, oreg
 
 ## Profile: Mexican — chipotle-forward (solo)
 
-The adult/solo counterpart to the kid-safe Mexican above. Where that build strips all chilli to the table to protect Anja and Jannes, this one is **built around the smoke** — whole dried chipotle + ancho flakes soaked and blended into the sauce, with smoked paprika stacked on top. Holger solo; uses up the chipotles and anchos (pantry run-down). Designed 2026-06-12, revised 2026-06-14 (smoke-forward); first cook pending.
+The adult/solo counterpart to the kid-safe Mexican above. Where that build strips all chilli to the table to protect Anja and Jannes, this one is **built around the smoke** — whole dried chipotle + ancho flakes soaked and blended into the sauce, with smoked paprika stacked on top. Holger solo; uses up the chipotles and anchos (pantry run-down). Designed 2026-06-12, revised 2026-06-14 (smoke-forward). **First cook 2026-06-17 — 8.5.** The double-smoke (chipotle + smoked paprika) landed; ties the bold North African at the top of the breakfast table.
 
 ### Single-serving build (2 eggs)
 
