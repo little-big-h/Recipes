@@ -116,6 +116,31 @@ For Thai curries: bloom the paste in oil for **1–2 minutes** until fragrant. T
 - Dried ginger goes in the **spice bloom**, not the mortar (it's a ground spice, not a fresh aromatic)
 - **Scorches faster** than other ground spices — keep the bloom moving and have liquid ready
 
+### Bhuna — frying the masala (low-fat deglaze method)
+
+*Bhuna* (from *bhunao*, "to fry/roast") is frying a masala until its **water cooks off** and its **surface browns** — trading raw, watery, sharp flavours for deep, cooked, caramelised ones. The flavour is built *on the pan* (the brown *fond*) and folded back in. It's the single biggest lever for depth/umami in tomato- and onion-based dishes, and the project's standing answer to "low on umami" in the Indian profiles (which forbid soy/nooch).
+
+**Why low-fat needs a different method.** A classic high-fat bhuna signals "done" when the **oil separates out** ("*tel chhodna*"). At the project's ~3 g oil you never get that clean oil-release — so the masala sticks, and the temptation is to pull it early (→ raw, flat). Instead, reach the same depth by **deglazing**:
+
+1. **Medium heat**, stir/scrape near-constantly.
+2. Fry until the paste **catches and a brown film (fond) forms** on the pan.
+3. **Splash in a little liquid** (water, the chili-soak liquid, a spoon of passata) and **scrape the fond up** so it dissolves back in — that fond is concentrated Maillard browning = umami. You're harvesting it, not cleaning the pan.
+4. Let it cook down and **catch again → splash → scrape**. Repeat **3–5×**.
+5. Each cycle deposits and re-dissolves a layer of browning → progressively darker, deeper masala. **Burn-proof**, because the fond never sits dry-and-dark long enough to scorch.
+
+The repetition *is* the bhuna. A 90-sec fry = one thin layer (flat); five deglaze cycles = restaurant-deep.
+
+**Read it, don't time it:**
+- **Colour:** bright red/orange → brick → deep brick-brown.
+- **Smell** (most reliable): sharp raw-tomato/raw-spice → mellow, sweet, *cooked*, slightly nutty. When the raw-tomato smell is gone, it's there.
+- **Texture:** thickens, pulls together glossy, comes away from the pan cleanly.
+
+**Three failure modes:** pulled too early (raw/flat — the common one, born of fear of burning); heat too high (scorches before it cooks); too little movement / no deglazing (burns where it sticks → makes you pull early → vicious cycle).
+
+**Pan:** heavy-based or non-stick is far more forgiving at low fat. Stainless sticks hardest but gives the *best* fond — fine, just deglaze diligently.
+
+**The bigger upgrade — onion base.** The real Indian umami engine isn't tomato, it's **onion bhuna'd to deep gold-brown** before anything else (8–12 min, *past* pale, to the edge of catching), then ginger-garlic, then spices, then tomato. The breakfast shakshukas skip onion for speed (part of why they read lighter on umami); for the family curries (dahl, lobia) do the onion base — it out-umamis any amount of nooch. Practice drill: brown onions properly once and taste raw-vs-browned; that's ~80 % of a great curry base.
+
 ---
 
 ## Specific ingredient handling
