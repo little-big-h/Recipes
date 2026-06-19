@@ -32,6 +32,14 @@
 
 ---
 
+## Timeline
+
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Air%20fryer%22%3A%7B%22color%22%3A%22%23E8883A%22%2C%22steps%22%3A%5B%5B0%2C10%2C%22Cauliflower%20200C%22%5D%2C%5B10%2C20%2C%22%2B%20broccoli%20%28last%2010%29%22%5D%5D%7D%2C%22Microwave%22%3A%7B%22color%22%3A%22%23B772B7%22%2C%22steps%22%3A%5B%5B0%2C3%2C%22Onion%20%28soften%29%22%5D%2C%5B4%2C12%2C%22Potatoes%20par-cook%22%5D%5D%7D%2C%22Ninja%20%28hob%29%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B3%2C11%2C%22Bhuna%20onion%20puree%22%5D%2C%5B11%2C14%2C%22Spices%20%2B%20tomato%20bhuna%22%5D%2C%5B14%2C22%2C%22Potatoes%20%2B%20water%20simmer%22%5D%2C%5B22%2C25%2C%22Chickpeas%20warm%22%5D%2C%5B25%2C30%2C%22Off%20heat%3A%20coconut%20%2B%20tofu%3B%20fold%20veg%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A20%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Air-fryer%20done%22%7D%2C%7B%22t%22%3A30%2C%22color%22%3A%22%231F4D7A%22%2C%22label%22%3A%22Ready%22%7D%5D)
+
+*Active assembly ~30 min, three streams in parallel (air fryer · microwave · hob). The 🫘 dried chickpeas are a separate ~40-min pressure-cook **make-ahead** (see below) — not on this clock.*
+
+---
+
 ## Method
 
 > **Three things de-risk this cook:** the potatoes are par-cooked *out* of the pot (no scorch), the cauliflower is air-fried *ahead* (caramelised, holds shape), and the coconut + tofu go in *off the heat* (no split).
