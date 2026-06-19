@@ -12,18 +12,19 @@
 | 🟢 | 🌱 Mung bean sprouts | 100 g | 30 | [usda](https://fdc.nal.usda.gov/food-details/169957/nutrients) |
 | 🟤 | 🥜 Peanut flour, defatted (Buy Whole Foods) | 10 g | 38 | label |
 | 🟣 | 🍯 Kecap manis (Chi Wan) | 20 ml | 24 | label |
-| ⚪ | 🍋 Lime, to finish | to taste | — | — |
+| ⚪ | 🍎 Apple cider vinegar (Holger's acid) | ~5 ml | — | — |
+| ⚪ | 🍋 Lime, to finish (optional) | to taste | — | — |
 | | **Total** | **~320 g** | **~130** | |
 
 *Legend: 🟢 Vegetables · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-> **⚪ Add the capers (or another acid).** The original version had **~15 g capers** — they supply the sharp brine-acid that cuts the sweet-rich peanut-kecap base (the role tamarind/lime plays in real gado-gado). This logged lunch omitted them and leaned on lime instead. **Don't skip the acid**: without it the peanut + kecap reads flat and cloying. Capers `foodnoms:usda:172238` (≈ +4 kcal, +0.5 g fibre for 15 g).
+> **⚪ The acid is not optional.** Without a sharp sour note the sweet-rich peanut-kecap base reads flat and cloying (the role tamarind/lime plays in real gado-gado). **Holger's standing acid: apple cider vinegar at 0.5 parts** — so the dressing ratio is **peanut flour : kecap : ACV = 1 : 2 : 0.5** (10 g : 20 ml : ~5 ml). The original used **~15 g capers** (brine + acid + mustardy pungency — `foodnoms:usda:172238`, ≈ +4 kcal/+0.5 g fibre for 15 g); lime works too. Any of the three; just don't skip it.
 
 ---
 
 ## Method
 
-1. **Sauce.** Whisk the 🥜 peanut flour with the 🍯 kecap manis and a splash of warm water into a loose, pourable sauce — sweet-salty-nutty.
+1. **Sauce.** Whisk the 🥜 peanut flour with the 🍯 kecap manis, the 🍎 apple cider vinegar (~0.5 parts) and a splash of warm water into a loose, pourable sauce — sweet-salty-nutty-sharp. *(Ratio: peanut flour : kecap : ACV = 1 : 2 : 0.5.)*
 2. **Asparagus.** Steam the 🥬 asparagus 2–3 min, kept crisp.
 3. **Toss** the asparagus and 🌱 sprouts (and 🫒 capers, if using) through the sauce.
 4. **Finish** with 🍋 lime — or the caper brine. **The acid is the point.**
