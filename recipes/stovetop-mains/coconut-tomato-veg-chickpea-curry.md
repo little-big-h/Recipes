@@ -15,7 +15,7 @@
 | 🟢 | 🍅 Tomato purée (double concentrate) | 60 g | 49 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
 | 🟣 | 🥥 Light coconut milk | 400 ml | 292 | | local *(est.)* |
 | 🟤 | 🍮 Silken tofu (blended smooth) | 300 g | 165 | | local *(est.)* |
-| 🟤 | 🫘 Chickpeas (tinned, drained) | 480 g | 787 | | [usda](https://fdc.nal.usda.gov/food-details/173757/nutrients) |
+| 🟤 | 🫘 Chickpeas (dried → cooked) | 180 g dry *(~480 g cooked)* | 787 | | [usda](https://fdc.nal.usda.gov/food-details/173757/nutrients) |
 | 🟢 | 🌼 Cauliflower (air-fried) | 600 g | 150 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | 🟢 | 🥦 Broccoli | 400 g | 136 | | [usda](https://fdc.nal.usda.gov/food-details/170379/nutrients) |
 | 🟤 | 🥔 Potatoes (microwave par-cooked) | 700 g | 539 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
@@ -35,6 +35,8 @@
 ## Method
 
 > **Three things de-risk this cook:** the potatoes are par-cooked *out* of the pot (no scorch), the cauliflower is air-fried *ahead* (caramelised, holds shape), and the coconut + tofu go in *off the heat* (no split).
+
+> **Make ahead — the chickpeas.** Pressure-cook ~180 g dried 🫘 chickpeas in plain water (**no tomato** — acid stalls bean softening) in the Ninja, natural release: unsoaked ~35–40 min, or soaked overnight ~15–20 min. Drain (reserve a little liquid). Yields ~480 g cooked. *(A tin of pre-cooked chickpeas, ~480 g drained, skips this.)*
 
 1. **Air-fry the cauliflower ahead.** Toss the 🌼 cauliflower in a little oil + salt (a pinch of the curry powder, optional). **200 °C, ~18–20 min**, shaking once, until browned at the edges. Single layer — two batches beats crowding. Set aside; it folds in at the very end.
 2. **Par-cook the potatoes.** Cube the 🥔 potatoes into a covered microwave bowl with a splash of water; **high ~6–8 min, stir once**, to *firm-tender* (not fully soft — they finish in the sauce). Drain.
@@ -75,11 +77,11 @@
 - **Cauliflower air-fried, folded late** — caramelised florets that hold shape, the way Jannes tolerates cauliflower (sauced, not boiled to mush).
 - **Cream = light coconut milk + blended silken tofu, off heat.** The tofu adds body and protein near fat-free; both split if boiled, so they go in at the end. **Blend the tofu smooth** — Lara's fine with silken tofu fully blended, not in recognisable lumps.
 - **Tomato purée ≠ passata.** Concentrate, so ~60 g (a few tbsp) bhuna'd, with the liquid built from coconut milk + water — not a passata-sized pour.
-- **Beans off the acid.** Tinned chickpeas (or pre-cooked) stirred in — never cooked in the tomato base, which stalls bean softening.
+- **Beans off the acid.** Dried chickpeas are pressure-cooked separately in plain water (make-ahead above), then stirred in — never cooked in the tomato base, which stalls bean softening.
 - **Mild for the family**, chilli + lime at the table for the adults — the curry powder is chilli-free, so the pot stays gentle.
 
 ---
 
 ## Cook log
 
-- **First cook 2026-06-18 (planned) — for the family.** As planned: onion 200 g, garlic 12 g, ginger 15 g, curry powder 25 g, tomato purée 60 g, light coconut milk 400 ml, silken tofu 300 g, chickpeas 480 g, cauliflower 600 g, broccoli 400 g, potatoes 700 g. First outing for the microwave-blend onion base and the scorch-avoidance sequence. Record family ratings in `../../docs/RATINGS.md`.
+- **First cook 2026-06-18 (planned) — for the family.** As planned: onion 200 g, garlic 12 g, ginger 15 g, curry powder 25 g, tomato purée 60 g, light coconut milk 400 ml, silken tofu 300 g, chickpeas ~180 g dried (~480 g cooked), cauliflower 600 g, broccoli 400 g, potatoes 700 g. First outing for the microwave-blend onion base and the scorch-avoidance sequence. Record family ratings in `../../docs/RATINGS.md`.
