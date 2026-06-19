@@ -182,9 +182,11 @@ Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt
 
 ## Profile: Curry-Powder (South Indian, fennel-forward)
 
-A second Indian profile, distinct from the tikka one: built on a stocked **organic "medium curry" powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli). Fennel-led and sweet-aromatic rather than tikka-savoury. Holger solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-18.
+A second Indian profile, distinct from the tikka one: built on a stocked **organic "medium curry" powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli, so heat is added). Fennel-led and sweet-aromatic, built **hot** — a dried-chilli soak blended in, since Holger likes it that way. Solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-18.
 
-### Single-serving build (2 eggs)
+### Single-serving build (2 eggs) — hot
+
+**Chilli soak** (10–15 min): 🌶️ regular dried red chillies ~3 g (2–3) + just-boiled water ~50 g + pinch salt → blend to a paste (soak water in). Go generous — Holger likes it hot.
 
 **Wet masala** (mix to a paste, then bhuna):
 
@@ -192,33 +194,37 @@ A second Indian profile, distinct from the tikka one: built on a stocked **organ
 |:-----------|-------:|
 | 🍛 Medium curry powder | 10 g |
 | 🧄 Garlic powder | 2 g |
+| 🫚 Dried ginger | 1.5 g |
+| 🌰 Toasted cumin, ground | 2 g |
 | 🍅 Tomato paste | 20 g |
 | 🥑 Avocado oil | 3 g |
 
-**Build:** 🥫 passata 400 g · 🧂 salt ~1.5 g · 🥬 spinach 100 g · 🥚 2 eggs · 🌿 fresh coriander · 🍋 lemon to finish. *(Optional 🥥 coconut-milk swirl, 40–50 g — South-Indian-authentic richness; adds fat.)*
+**Build:** 🥫 passata 400 g · 🧂 salt ~1.5 g · 🥬 spinach 100 g · 🥚 2 eggs · 🌿 fresh coriander · 🍋 lemon to finish. *(Optional: 🫙 garam masala 2 g in the masala for a warm clove/cardamom finish; fresh 🌶️ chilli at the table to push the heat; 🥥 coconut-milk swirl 40–50 g — adds fat.)*
 
 ### Method
 
-1. Work the 🍛 curry powder + 🧄 garlic powder into the 🍅 tomato paste + 🥑 oil → a wet masala (scorch-proof; turmeric and mustard burn fast bloomed naked).
-2. Fry the masala ~1.5–2 min until it darkens and the oil sheens out (bhuna).
-3. Add 🥫 passata + 🧂 salt, simmer 5 min.
-4. Wilt 🥬 spinach 1–2 min.
-5. Two 🥚 egg wells, cover ~5–7 min.
-6. Finish: 🌿 coriander, a squeeze of 🍋 lemon. (Optional 🥥 coconut-milk swirl off heat.)
+1. Soak the 🌶️ dried chillies in the just-boiled water 10–15 min, then blend to a paste (soak water in).
+2. Work the 🍛 curry powder + 🧄 garlic powder + 🫚 ginger + 🌰 cumin into the 🍅 tomato paste + 🥑 oil → a wet masala (scorch-proof; turmeric/mustard/cumin burn fast bloomed naked).
+3. Fry the masala ~1.5–2 min until it darkens and the oil sheens out (bhuna).
+4. Stir in the 🌶️ chilli paste, fry ~30 sec.
+5. Add 🥫 passata + 🧂 salt, simmer 5 min.
+6. Wilt 🥬 spinach 1–2 min.
+7. Two 🥚 egg wells, cover ~5–7 min.
+8. Finish: 🌿 coriander, a squeeze of 🍋 lemon. (Fresh chilli / garam / coconut to taste.)
 
 ### Design notes
 
 - **Fennel is the signature.** The blend leads with fennel + coriander, so it reads sweet-aromatic and South-Indian — a clear contrast to the savoury tikka profiles. Lean in: the lemon and the optional coconut milk are both South-Indian-friendly.
 - **Only a trace of salt in the blend → still season.** The label shows 1.2 g salt/100 g (natural to the spices, not added) — at 10 g that's ~0.1 g, so ~1.5 g salt is still added (Holger's electrolyte positive).
-- **No chilli → "medium" is the black pepper + mustard.** Gentle warmth, no capsaicin. Add a dried chilli to the bloom or chilli at the table if you want heat.
+- **Hot, via a chilli soak.** The blend has no chilli of its own (its "medium" is just black pepper + mustard), so the heat is ~3 g of regular dried red chillies soaked and blended into the masala — go generous, plus fresh chilli at the table. **Ginger + extra toasted cumin** round it (the blend lacks a deep earthy backbone), and a pinch of **garam** adds the warm clove/cardamom finish it has none of.
 - **Umami from the tomato-paste bhuna** — the Indian-profile rule (in-cuisine; no soy/nooch, which muddy the spice clarity).
 - **Wet-masala bhuna** — same scorch-proofing as the bold Indian and Mexican: powders into the paste + oil, fry till the oil sheens out, then deglaze.
 
 ### Nutrition (whole serving)
 
-*Estimates, not FoodNoms-verified — USDA-derived base + the curry powder's **own label** (an EU label: its 56 g carbs exclude the 28.7 g fibre, so US-style = 84.7 g/100 g per our convention; salt 1.2 g/100 g). **~323 kcal · 22 g protein · 34 g carbs (16 g sugars) · 15 g fat · 10 g fibre · salt 2.6 g.** Micros: K 1773 mg, Ca 292 mg, Mg 174 mg, Fe 10 mg, folate 291 µg, vit D ~2 µg — committed estimates.*
+*Estimates, not FoodNoms-verified — USDA-derived base + the curry powder's **own label** (EU label: 56 g carbs + 28.7 g fibre = 84.7 g/100 g US-style; salt 1.2 g/100 g). Hot build (+ chilli soak, ginger, extra cumin). **~345 kcal · 23 g protein · 38 g carbs (17 g sugars) · 15 g fat · 11 g fibre · salt 2.6 g.** Micros: K 1849 mg, Ca 295 mg, Mg 180 mg, Fe 11 mg, folate 292 µg, vit D ~2 µg — committed estimates.*
 
-**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Curry-Powder+Shakshuka+%5B16-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C171325%2C170459&grams=100%2C100%2C2%2C20&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BMedium+Curry+Powder%3BSalt&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A0C821049-0C88-78A6-C63D-47B85C1489A9%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3B3%3B10%3B1.5&customUnits=gram%3Bgram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B312%2C12.4%2C84.7%2C3%2C13.4%2C1.5%2C28.7%2C480%2C19%2C478%2C4.1%2C254%2C1543%2C0%2C0%2C154%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · curry powder = a custom record from your label (carbs converted to US-style; micros from the USDA generic).
+**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Curry-Powder+Shakshuka+%28Hot%29+%5B16-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C171325%2C170459%2C168570%2C170926&grams=100%2C100%2C2%2C20%2C3%2C1.5&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BMedium+Curry+Powder%3BSalt%3BCumin+Seeds&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A0C821049-0C88-78A6-C63D-47B85C1489A9%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92&customQuantities=400%3B3%3B10%3B1.5%3B2&customUnits=gram%3Bgram%3Bgram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B312%2C12.4%2C84.7%2C3%2C13.4%2C1.5%2C28.7%2C480%2C19%2C478%2C4.1%2C254%2C1543%2C0%2C0%2C154%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · curry powder = a custom record from your label; chilli/ginger USDA generics.
 
 ---
 
