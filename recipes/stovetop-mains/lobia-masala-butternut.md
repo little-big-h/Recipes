@@ -33,7 +33,7 @@
 
 > **No soak.** Black-eyed peas cook tender unsoaked in minutes.
 
-1. **Pressure-cook the peas.** 🫛 peas + ~1200 ml 💧 water in the Ninja — **no 🥫 passata** (tomato acid stalls bean softening). High pressure **6–7 min, natural release** (Nussinow). Don't drain — keep the liquid.
+1. **Pressure-cook the peas.** 🫛 peas + ~1200 ml 💧 water in the Ninja — **no 🥫 passata** (tomato acid stalls bean softening). High pressure **5–6 min, natural release** (Holger's firmer preference; Nussinow's 6–7 came out a touch mushy). Don't drain — keep the liquid.
 2. **Air-fry the squash.** Toss 🎃 butternut cubes with the 🥑 oil + a pinch of salt; **200 °C, ~20 min**, shaking once, until caramelised. Single layer — do it in **two batches** rather than crowding (crowding steams instead of browns).
 3. **Build the sauce.** Bloom 🧄 garlic powder + 🌰 cumin + 🌿 coriander + 🟡 turmeric + 🍛 tikka in a little oil, then **bhuna the 🍅 tomato paste ~1 min** until it darkens (the umami anchor). Add the 🥫 passata; simmer 5–8 min.
 4. **Combine.** Stir the cooked 🫛 peas + a splash of their liquid into the sauce; simmer to meld and thicken.

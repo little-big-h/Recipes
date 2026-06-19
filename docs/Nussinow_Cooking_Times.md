@@ -16,7 +16,7 @@ All quantities given per **1 cup dry** ingredient.
 |:------------------------------------|:----------------:|:-------------------:|:-----------:|:-----:|
 | Adzuki (azuki) | 5–9 minutes | 10 minutes, plus 10 minutes sitting | NA | 2 cups |
 | Black | 4–6 minutes | 24–28 minutes | 18–25 minutes | 2–2½ cups |
-| Black-eyed peas | 3 minutes | 6–7 minutes | 10–11 minutes | 2½ cups |
+| Black-eyed peas | 3 minutes | 6–7 min *(Holger: **5–6** for firmer — 6–7 came out mushy)* | 10–11 minutes | 2½ cups |
 | Borlotti (cranberry) | 7–10 minutes | 25–35 minutes | 20–25 minutes | 2½ cups |
 | Cannellini | 5–8 minutes | 20–30 minutes | 22–25 minutes | 2½ cups |
 | Chickpeas | 12–14 minutes | 30–40 minutes | 22–25 minutes | 2½ cups |
@@ -119,7 +119,7 @@ Our format file documents pressure-cook times for some ingredients in shorthand.
 
 | Ingredient | Our format file | Nussinow | Status |
 |:-----------|:---------------:|:--------:|:-------|
-| Black-eyed beans (unsoaked) | 8 min HP | 6–7 min HP | **Format file is too long** — Nussinow says 6–7 |
+| Black-eyed beans (unsoaked) | 8 min HP | 6–7 min HP | Nussinow says 6–7; **Holger's working value is 5–6** (firmer — 6–7 came out mushy, 2026-06) |
 | Soybeans (soaked) | 15–20 min HP | 17–20 min HP | Mostly aligned; lower bound of our range too low |
 | Soybeans (unsoaked) | 35 min HP | 35–45 min HP | **Format file is at the low end** of Nussinow's range — 40 min would be safer for fully tender |
 | Lentils | 8–10 min HP | 4–6 min (red), 6 min (green/brown), 4–6 min (beluga) | **Format file is way too long** for lentils — Nussinow says 4–6 min |
@@ -128,7 +128,7 @@ Our format file documents pressure-cook times for some ingredients in shorthand.
 **Action items (for future format file update):**
 1. Bump soybeans unsoaked HP to 35–45 min range (currently flat 35)
 2. Drop lentils HP from 8–10 to 4–6 min
-3. Drop black-eyed beans unsoaked HP from 8 to 6–7 min
+3. Drop black-eyed beans unsoaked HP from 8 to **5–6 min** (Holger's firmer preference; Nussinow's 6–7 came out mushy, 2026-06)
 4. Replace "Other dried legumes 20–25 min" with bean-specific values
 
 ---
