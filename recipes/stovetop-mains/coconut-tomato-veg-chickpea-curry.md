@@ -15,7 +15,7 @@
 | 🟢 | 🍅 Tomato purée (double concentrate) | 60 g | 49 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
 | 🟣 | 🥥 Light coconut milk (Biona 9%) | 400 ml | 360 | | label |
 | 🟤 | 🍮 Silken tofu (Clearspring, blended) | 300 g | 183 | | label |
-| 🟤 | 🫘 Chickpeas (dried → cooked) | 225 g dry *(~600 g cooked)* | 756 | | label |
+| 🟤 | 🫘 Chickpeas (dried → cooked) | 250 g dry *(~660 g cooked)* | 840 | | label |
 | 🟢 | 🌼 Cauliflower (air-fried) | 600 g | 150 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | 🟢 | 🥦 Broccoli | 400 g | 136 | | [usda](https://fdc.nal.usda.gov/food-details/170379/nutrients) |
 | 🟤 | 🥔 Potatoes (microwave par-cooked) | 700 g | 539 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
@@ -24,7 +24,7 @@
 | 🟣 | 🧂 Salt | 6 g | 0 | | local |
 | ⚪ | 🍋 Lemon (at table) | to taste | — | | — |
 | 🟠 | 🌶️ Chilli (at table) | to taste | — | | — |
-| | **Total** | **~3.4 kg** | **~2467** | | |
+| | **Total** | **~3.4 kg** | **~2551** | | |
 
 *Legend: 🟡 Aromatics · 🟠 Spices/heat · 🟢 Vegetables · 🟣 Seasoning/cream · 🟤 Protein/carb · 🥑 Fat · 🔵 Stock · ⚪ Acid*
 
@@ -44,7 +44,7 @@
 
 > **Three things de-risk this cook:** the potatoes are par-cooked *out* of the pot (no scorch), the cauliflower is air-fried *ahead* (caramelised, holds shape), and the coconut + tofu go in *off the heat* (no split).
 
-> **Make ahead — the chickpeas.** Pressure-cook ~225 g dried 🫘 chickpeas in plain water (**no tomato** — acid stalls bean softening) in the Ninja, natural release: unsoaked ~35–40 min, or soaked overnight ~15–20 min. Drain (reserve a little liquid). Yields ~600 g cooked. *(A tin of pre-cooked chickpeas, ~600 g drained, skips this.)*
+> **Make ahead — the chickpeas.** Pressure-cook ~250 g dried 🫘 chickpeas in plain water (~800 ml–1 L; **no tomato** — acid stalls bean softening) in the Ninja, natural release: **unsoaked 30–40 min, or soaked 12–14 min** (Nussinow). Drain (reserve a little liquid). Yields ~660 g cooked. *(A tin of pre-cooked chickpeas, ~660 g drained, skips this.)*
 
 1. **Air-fry the cauliflower ahead.** Toss the 🌼 cauliflower in a little oil + salt (a pinch of the curry powder, optional). **200 °C, ~18–20 min**, shaking once, until browned at the edges. Single layer — two batches beats crowding. Set aside; it folds in at the very end.
 2. **Par-cook the potatoes.** Cube the 🥔 potatoes into a covered microwave bowl with a splash of water; **high ~6–8 min, stir once**, to *firm-tender* (not fully soft — they finish in the sauce). Drain.
@@ -59,22 +59,22 @@
 
 ## Nutrition
 
-*Whole recipe. **Estimates, not FoodNoms-verified** — USDA-derived veg + the four shop items from their own labels (curry powder, Biona light coconut milk, Clearspring silken tofu, dried chickpeas); micros are committed best-estimates. Very high fibre (~78 g) and protein (~117 g) from the chickpeas + tofu + veg. The ~38 g saturated fat is almost all the coconut milk (Biona light is still 9 % fat). Salt ~7.5 g for the whole ~3.4 kg pot.*
+*Whole recipe. **Estimates, not FoodNoms-verified** — USDA-derived veg + the four shop items from their own labels (curry powder, Biona light coconut milk, Clearspring silken tofu, dried chickpeas); micros are committed best-estimates. Very high fibre (~80 g) and protein (~122 g) from the chickpeas + tofu + veg. The ~38 g saturated fat is almost all the coconut milk (Biona light is still 9 % fat). Salt ~7.5 g for the whole ~3.4 kg pot.*
 
-**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Creamy+Coconut-Tomato+Veg+%26+Chickpea+Curry+%5B18-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=5&fdcIds=170000%2C169230%2C169231%2C2709777%2C170379%2C170026%2C170459&grams=200%2C12%2C15%2C600%2C400%2C700%2C60&customNames=Medium+Curry+Powder%3BLight+Coconut+Milk+%28Biona%29%3BSilken+Tofu+%28Clearspring%29%3BChickpeas+%28dried%29%3BOil+%28Avocado%29%3BSalt%3BWater&customFoodIds=local%3A0C821049-0C88-78A6-C63D-47B85C1489A9%3Blocal%3A56ACE2B9-0225-FA29-F8BB-051BFDD52CEE%3Blocal%3A84D79F82-4707-430F-513A-49C12E668835%3Blocal%3A832B71D5-5529-B992-00CD-EE7E25B0CE36%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96%3Blocal%3AC3BEEE68-F379-F4BF-3B44-FD4845DC66AD&customQuantities=25%3B400%3B300%3B225%3B12%3B6%3B400&customUnits=gram%3Bmilliliter%3Bgram%3Bgram%3Bgram%3Bgram%3Bmilliliter&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=312%2C12.4%2C84.7%2C3%2C13.4%2C1.5%2C28.7%2C480%2C19%2C478%2C4.1%2C254%2C1543%2C0%2C0%2C154%3B90%2C0.7%2C2.3%2C0.9%2C9%2C7.9%2C0.57%2C4%2C0.5%2C16%2C0.3%2C18%2C150%2C0%2C0%2C0%3B61%2C6.5%2C3.0%2C1.1%2C2.7%2C0.5%2C0.2%2C5%2C1%2C30%2C0.6%2C27%2C150%2C0%2C0%2C15%3B336%2C21.4%2C55.9%2C2.6%2C5.4%2C0.6%2C10.7%2C40%2C4.3%2C105%2C3.4%2C115%2C875%2C0%2C0%2C557%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0)
+**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Creamy+Coconut-Tomato+Veg+%26+Chickpea+Curry+%5B18-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=5&fdcIds=170000%2C169230%2C169231%2C2709777%2C170379%2C170026%2C170459&grams=200%2C12%2C15%2C600%2C400%2C700%2C60&customNames=Medium+Curry+Powder%3BLight+Coconut+Milk+%28Biona%29%3BSilken+Tofu+%28Clearspring%29%3BChickpeas+%28dried%29%3BOil+%28Avocado%29%3BSalt%3BWater&customFoodIds=local%3A0C821049-0C88-78A6-C63D-47B85C1489A9%3Blocal%3A56ACE2B9-0225-FA29-F8BB-051BFDD52CEE%3Blocal%3A84D79F82-4707-430F-513A-49C12E668835%3Blocal%3A832B71D5-5529-B992-00CD-EE7E25B0CE36%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96%3Blocal%3AC3BEEE68-F379-F4BF-3B44-FD4845DC66AD&customQuantities=25%3B400%3B300%3B250%3B12%3B6%3B400&customUnits=gram%3Bmilliliter%3Bgram%3Bgram%3Bgram%3Bgram%3Bmilliliter&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=312%2C12.4%2C84.7%2C3%2C13.4%2C1.5%2C28.7%2C480%2C19%2C478%2C4.1%2C254%2C1543%2C0%2C0%2C154%3B90%2C0.7%2C2.3%2C0.9%2C9%2C7.9%2C0.57%2C4%2C0.5%2C16%2C0.3%2C18%2C150%2C0%2C0%2C0%3B61%2C6.5%2C3.0%2C1.1%2C2.7%2C0.5%2C0.2%2C5%2C1%2C30%2C0.6%2C27%2C150%2C0%2C0%2C15%3B336%2C21.4%2C55.9%2C2.6%2C5.4%2C0.6%2C10.7%2C40%2C4.3%2C105%2C3.4%2C115%2C875%2C0%2C0%2C557%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0)
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2467 kcal | Iron | 33 mg |
-| Protein | 117 g | Calcium | 1006 mg |
-| Carbohydrates | 381 g | Zinc | 18 mg |
-| — of which sugars | 54 g | Magnesium | 865 mg |
-| Fat | 76 g | Potassium | 10448 mg |
+| Energy | 2551 kcal | Iron | 34 mg |
+| Protein | 122 g | Calcium | 1032 mg |
+| Carbohydrates | 395 g | Zinc | 19 mg |
+| — of which sugars | 54 g | Magnesium | 894 mg |
+| Fat | 77 g | Potassium | 10667 mg |
 | — of which saturates | 38 g | Vitamin D | 0.0 µg |
-| Fibre | 78 g | Vitamin B12 | 0.0 µg |
-| Salt | 7.5 g | Folate | 2083 µg |
+| Fibre | 80 g | Vitamin B12 | 0.0 µg |
+| Salt | 7.5 g | Folate | 2222 µg |
 
-*Per serving (÷5): **~493 kcal · 23 g protein · 76 g carbs · 15 g fat · 16 g fibre · salt 1.5 g.***
+*Per serving (÷5): **~510 kcal · 24 g protein · 79 g carbs · 15 g fat · 16 g fibre · salt 1.5 g.***
 
 ---
 
@@ -92,4 +92,4 @@
 
 ## Cook log
 
-- **First cook 2026-06-18 (planned) — for the family.** As planned: onion 200 g, garlic 12 g, ginger 15 g, curry powder 25 g, tomato purée 60 g, light coconut milk 400 ml, silken tofu 300 g, chickpeas ~225 g dried (~600 g cooked), cauliflower 600 g, broccoli 400 g, potatoes 700 g. All four shop items reconciled to their own labels. First outing for the microwave-blend onion base and the scorch-avoidance sequence. Record family ratings in `../../docs/RATINGS.md`.
+- **First cook 2026-06-18 (planned) — for the family.** As planned: onion 200 g, garlic 12 g, ginger 15 g, curry powder 25 g, tomato purée 60 g, light coconut milk 400 ml, silken tofu 300 g, chickpeas ~250 g dried (~660 g cooked), cauliflower 600 g, broccoli 400 g, potatoes 700 g. All four shop items reconciled to their own labels. First outing for the microwave-blend onion base and the scorch-avoidance sequence. Record family ratings in `../../docs/RATINGS.md`.
