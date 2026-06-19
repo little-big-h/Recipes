@@ -160,6 +160,8 @@ The repetition *is* the bhuna. A 90-sec fry = one thin layer (flat); five deglaz
 - **Madhur Jaffrey, *An Invitation to Indian Cooking* (1973)** — the foundational Western introduction to Indian technique and the *bhuno* process.
 - **J. Kenji López-Alt, *The Food Lab* (2015)** — not Indian, but the clearest lay explanation of the Maillard/caramelisation mechanics behind browning.
 
+See **`docs/READING.md`** for the full reference shelf (with audiobook availability) and an own-words technique digest of Julie Sahni's *Classic Indian Cooking*.
+
 ---
 
 ## Specific ingredient handling
