@@ -141,6 +141,25 @@ The repetition *is* the bhuna. A 90-sec fry = one thin layer (flat); five deglaz
 
 **The bigger upgrade — onion base.** The real Indian umami engine isn't tomato, it's **onion bhuna'd to deep gold-brown** before anything else (8–12 min, *past* pale, to the edge of catching), then ginger-garlic, then spices, then tomato. The breakfast shakshukas skip onion for speed (part of why they read lighter on umami); for the family curries (dahl, lobia) do the onion base — it out-umamis any amount of nooch. Practice drill: brown onions properly once and taste raw-vs-browned; that's ~80 % of a great curry base.
 
+**Bhuna vs. Western sautéed / caramelised onions.** They overlap but aren't the same — and the gap is where most home curries fall short:
+- Western **sauté** → soften + light golden; onions stay as recognisable *pieces* folded in.
+- Western **caramelise** → low-and-slow, sweet, jammy *strands* you can still see.
+- **Bhuna** → onions fried *with* ginger-garlic, spices and tomato until they **collapse and dissolve into a deep-brown paste** that becomes the invisible *body of the gravy*.
+- Four real differences: (1) **endpoint** — dissolve into the sauce, not a garnish; (2) **chemistry** — Maillard-forward (savoury/roasty) rather than caramelisation-forward (sweet/jammy); (3) **spices fried *in***, not added after, so it's one integrated brown base; (4) the **fry→catch→deglaze→repeat rhythm** with "fat separates" as the done-signal. Analogy: caramelised onions are the sweet *topping* on a burger; bhuna onion masala is the deep savoury *foundation* of a curry you can no longer see but absolutely taste. A long Western caramelise gets you partway, but stays jammy-sweet-and-intact; bhuna pushes past into savoury, dissolved, spiced, fat-separated — which is why it reads as umami and a sauté doesn't.
+
+**Further reading**
+- [Hari Ghotra — *How to Cook Onions* (for curry)](https://www.harighotra.co.uk/blog/how-to-cook-onions) — an Indian chef's breakdown of the onion-cooking stages and why deep browning matters.
+- [Tigers & Strawberries — *Cutting and Browning Onions for Proper Flavor in Indian Food*](http://www.tigersandstrawberries.com/2008/03/24/cutting-and-browning-onions-for-proper-flavor-in-indian-food/) — long-form on getting the onion base right.
+- [PotsandPans India — *Perfect Bhuna Technique: Getting the Right Masala Texture*](https://www.potsandpans.in/blogs/articles/perfect-bhuna-technique-getting-the-right-masala-texture) — the bhuna step itself, texture cues.
+- [Glebe Kitchen — *Easy curry recipe technique (nearly restaurant style)*](https://glebekitchen.com/easy-curry-recipe-technique-nearly-restaurant-style/) — British-Indian restaurant base-gravy approach (where the bhuna/deglaze rhythm comes from).
+- [Swasthi's Recipes — *Chicken Bhuna Masala*](https://www.indianhealthyrecipes.com/chicken-bhuna-masala/) — bhuna in practice in a full dish.
+
+**Books**
+- **Nik Sharma, *The Flavor Equation* (2020)** — a molecular-biologist's account of *why* browning builds flavour (Maillard, aroma molecules concentrating in residual fat). The science under this whole entry.
+- **Julie Sahni, *Classic Indian Cooking* (1980)** — the most technique-exhaustive English-language Indian cookbook; bhuna and onion-browning explained in unusual depth.
+- **Madhur Jaffrey, *An Invitation to Indian Cooking* (1973)** — the foundational Western introduction to Indian technique and the *bhuno* process.
+- **J. Kenji López-Alt, *The Food Lab* (2015)** — not Indian, but the clearest lay explanation of the Maillard/caramelisation mechanics behind browning.
+
 ---
 
 ## Specific ingredient handling
