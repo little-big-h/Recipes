@@ -122,6 +122,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Chickpea, Cauliflower & Spinach Tikka Curry | Indian |
 | Vegetable & Potato Soup (Anja) | European |
 | Lobia Masala with Air-Fried Butternut | Indian |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | Indian |
 
 ---
 
@@ -156,6 +157,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Chickpea, Cauliflower & Spinach Tikka Curry | v1 | cooked | 2026-06-12 | [chickpea-cauliflower-tikka-curry.md](../recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md) |
 | Vegetable & Potato Soup (Anja) | v1 | cooked | 2026-06-15 | [vegetable-potato-soup.md](../anjas-cooking/vegetable-potato-soup.md) |
 | Lobia Masala with Air-Fried Butternut | v1 | cooked | 2026-06-16 | [lobia-masala-butternut.md](../recipes/stovetop-mains/lobia-masala-butternut.md) |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | cooked | 2026-06-18 | [coconut-tomato-veg-chickpea-curry.md](../recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md) |
 
 ---
 
@@ -205,6 +207,11 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Lobia Masala with Air-Fried Butternut | v1 | Anja | 8.8 |
 | Lobia Masala with Air-Fried Butternut | v1 | Holger | 8.0 |
 | Lobia Masala with Air-Fried Butternut | v1 | Lara | 7.5 |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | Julina | 9.25 |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | Holger | 8.8 |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | Anja | 8.5 |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | Jannes | 8.0 |
+| Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | Lara | 8.0 |
 
 *Nordic cold soup (v1) ratings were qualitative; see remarks. `cooked-historical` dishes have aggregate-only or no ratings — see remarks.*
 
@@ -258,6 +265,10 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 
 ---
 
+| 42 | Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | **First cook 2026-06-18 — family avg 8.51, spread 1.25** (Julina 9.25, Holger 8.8, Anja 8.5, Jannes 8.0, Lara 8.0). **Top of the family table** — beats the veg soup (8.2) and Lobia (8.16); everyone ≥8.0, no dislikes, narrowest spread of any well-scored meal. **Two standouts.** (1) **Lara 8.0 — a new ceiling**, above her stated ~7.8 near-max (obs 5): a mild, sweet-creamy curry with no in-pot acid (lime at table), no smoked paprika, no warm aromatics, recognisable tofu *fully blended* (her one tofu condition met) — clears every flag at once. (2) **Holger 8.8 on a deliberately mild dish** — near his bold/umami peaks (Japanese corn 9.0); the browned-onion bhuna base + tomato-purée concentrate gave it adult-grade savoury depth without heat, so "mild for the kids" didn't cost him. **Jannes 8.0** extends his mild-savoury run (veg soup 8.0, Lobia 8.0, pinto v2 7.8) and **again clears cauliflower** — air-fried + folded into a creamy curry, his fourth straight sauced-cauliflower pass (obs 19). **Julina 9.25** exceptional, her usual lane. Structure that worked: microwave-and-blend onion bhuna'd to deep gold as the umami engine; cauliflower air-fried separately and folded late; coconut milk + blended silken tofu off heat (no split); dried chickpeas pressure-cooked in plain water off the acid; potatoes microwave par-cooked to dodge the Ninja scorch trap. **Broccoli omitted on the night.** As-cooked 3.56 kg pot (onion 306 g, cauliflower 865 g, potato 992 g). Nutrition USDA-derived + four shop-item labels, not FoodNoms-verified (~2749 kcal, 123 g protein, 83 g fibre, salt 7.4 g). |
+
+---
+
 ## observations
 
 | obs_id | scope | text |
@@ -266,7 +277,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 2 | Jannes, Anja | Heat-sensitive. Build dishes mild, offer chili at the table for adults |
 | 3 | Anja | Variance signal — historically highest scorer; significant drops indicate specific identifiable issues |
 | 4 | Julina | Most open-minded eater; a drop from her means something fundamental is off |
-| 5 | Lara | 7.8 is her near-ceiling rating. Hitting it means the dish has cleared all her thresholds simultaneously |
+| 5 | Lara | ~7.8 was long her near-ceiling — hitting it means a dish cleared all her thresholds at once (veg soup 7.9, egg-fried quinoa ~7.8). **Raised 2026-06-18: the Coconut–Tomato curry pulled an 8.0 from her** — her highest logged score. A mild sweet-creamy curry with no in-pot acid, no smoked paprika, no warm aromatics, and silken tofu *fully blended* (her tofu condition) can clear 8.0. So the ceiling is ~8.0, and it takes every flag cleared simultaneously to reach it |
 | 6 | Jannes | Appears to prefer milder, less-fermented profiles. Red miso intensity flagged as a likely turn-off. For family-friendly versions of dishes with miso, default to white miso. **Reinforced 2026-06-05:** the Pinto–Butternut soup was finished with red miso and Jannes scored 7.0 (floor of his range) — consistent with the pattern, though a milder effect than his Japanese-soup drop to 6.0 (red miso was a smaller dose here, 20 g in a 4.7 kg pot). **Update 2026-06-06:** v2 used **white** miso (in a bolder, tomato-anchored base) and Jannes rose to 7.8 — his best in the pinto line. Consistent with white-better-than-red for him, but confounded with the whole v2 reformulation, so suggestive not conclusive. Note he also liked the *bold* v2 — "bold savoury" suits him; it's *heat* and *fermented-funk* he's averse to, not assertive flavour per se |
 | 7 | family | Red miso pulls dishes in an adult-palate direction (Holger, Anja, Julina all rated highly). Use sparingly for family meals; works well for solo or adult-only cooks |
 | 8 | family | The corn soup matrix has 7 profiles with predicted scores (see `../design/CORN-SOUPS.md`). Where actuals exist (Japanese cooked v1), predictions were directionally accurate but model under-predicted Holger and over-predicted Jannes — both effects consistent with the red-miso hypothesis. Nordic prediction missed badly on Julina (predicted 8.0, actual disliked) — "open-minded" assumption was over-extended |
