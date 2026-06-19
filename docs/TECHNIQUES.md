@@ -141,6 +141,8 @@ The repetition *is* the bhuna. A 90-sec fry = one thin layer (flat); five deglaz
 
 **The bigger upgrade — onion base.** The real Indian umami engine isn't tomato, it's **onion bhuna'd to deep gold-brown** before anything else (8–12 min, *past* pale, to the edge of catching), then ginger-garlic, then spices, then tomato. The breakfast shakshukas skip onion for speed (part of why they read lighter on umami); for the family curries (dahl, lobia) do the onion base — it out-umamis any amount of nooch. Practice drill: brown onions properly once and taste raw-vs-browned; that's ~80 % of a great curry base.
 
+**Microwave-and-blend onion shortcut.** A restaurant-base trick (glebekitchen lineage): **microwave** the onions to soften and drive off water (no browning — the microwave can't Maillard), then **blend** to a purée. The purée — pre-softened, partly dehydrated, huge surface area — then **browns much faster and reduces to a smooth base** when you fry it. **Crucial: it's *prep*, not the browning.** You still have to bhuna the purée to develop Maillard depth and cook off the raw-onion harshness; skip it and it reads pale and sulfurous (worse than browned diced onion). At low fat a purée sticks/spits and forms less fond, so lean hard on the deglaze method and give it patience. Best for batching a base ahead or the family curries; the solo shakshukas skip onion anyway.
+
 **Bhuna vs. Western sautéed / caramelised onions.** They overlap but aren't the same — and the gap is where most home curries fall short:
 - Western **sauté** → soften + light golden; onions stay as recognisable *pieces* folded in.
 - Western **caramelise** → low-and-slow, sweet, jammy *strands* you can still see.
