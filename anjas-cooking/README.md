@@ -6,4 +6,5 @@ Family ratings are tracked centrally in [`../docs/RATINGS.md`](../docs/RATINGS.m
 
 ## Dishes
 
+- [Aubergine Parmigiana](aubergine-parmigiana.md) — 2026-06-20
 - [Vegetable & Potato Soup](vegetable-potato-soup.md) — 2026-06-15

@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
-2. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
-3. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
-4. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
-5. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
-6. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
-7. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
-8. **[Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli](recipes/soups/creamy-pinto-butternut-soup.md)** — 2026-06-03
-9. **[Creamy Corn Soup — Mexican, Dried-Kidney-Bean Iteration (2 kg)](recipes/soups/creamy-corn-soup-mexican-2026-06-02.md)** — 2026-06-02
-10. **[Thai Yellow Butternut Squash Curry](recipes/stovetop-mains/thai-yellow-butternut-curry.md)** — 2026-05-29
+1. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
+2. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
+3. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
+4. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
+5. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
+6. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
+7. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
+8. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
+9. **[Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli](recipes/soups/creamy-pinto-butternut-soup.md)** — 2026-06-03
+10. **[Creamy Corn Soup — Mexican, Dried-Kidney-Bean Iteration (2 kg)](recipes/soups/creamy-corn-soup-mexican-2026-06-02.md)** — 2026-06-02
 
 ---
 
