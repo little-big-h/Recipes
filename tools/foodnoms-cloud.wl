@@ -267,11 +267,14 @@ foodnomsTotals[in_] := Module[{r = If[Head[in] === ByteArray, foodnomsDecode[in]
 (* spec (Association) -> <|"name"->..., "bytes"->ByteArray, "json"->...|>
    for the ONE file selected by `emit` (default the recipe). *)
 buildFoodNomsRecipe[spec_Association] := Module[
-  {name, servings, ings, warnings = {}, entries = {}, aux = {}, totalSize,
+  {name, servings, ctype, ings, warnings = {}, entries = {}, aux = {}, totalSize,
    recipeJson, recipeCollection, auxRecs, emit, selected, notes,
    selectedName, selectedJson, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
+  (* collectionType: 3 = recipe (default; carries the yield fields), 2 = meal
+     (a list of foods eaten, no yield). See FOODNOMS_FORMAT.md 5 vs 6. *)
+  ctype = Lookup[spec, "collectionType", 3];
   ings = Lookup[spec, "ingredients", {}];
 
   Do[
@@ -357,10 +360,13 @@ buildFoodNomsRecipe[spec_Association] := Module[
       "Companion .foodnoms files (re-request with emit=<name>, identical ingredients): " <>
        StringRiffle[("\"" <> #["name"] <> "\"") & /@ auxRecs, ", "], Nothing]},
     Nothing], "\n"];
-  recipeCollection = <|
-     "name" -> name, "collectionType" -> 3, "version" -> 1, "traits" -> 0,
-     "totalServingSize" -> totalSize, "servingSizeUnit" -> "gram",
-     "servings" -> servings|>;
+  recipeCollection = If[ctype === 2,
+    (* meal: no yield fields *)
+    <|"name" -> name, "collectionType" -> 2, "version" -> 1, "traits" -> 0|>,
+    (* recipe: carries the cooked-yield fields *)
+    <|"name" -> name, "collectionType" -> 3, "version" -> 1, "traits" -> 0,
+      "totalServingSize" -> totalSize, "servingSizeUnit" -> "gram",
+      "servings" -> servings|>];
   If[notes =!= "", AppendTo[recipeCollection, "notes" -> notes]];
   recipeJson = <|"version" -> 2, "contentType" -> 2,
     "foodCollections" -> {recipeCollection}, "foodEntries" -> entries|>;
@@ -432,7 +438,7 @@ specFromParams[a_] := Module[{errs = {}},
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
-     "uncertainty" -> a["uncertainty"],
+     "uncertainty" -> a["uncertainty"], "collectionType" -> a["collectionType"],
      "ingredients" -> Join[
        MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
          {a["fdcIds"], a["grams"]}],
@@ -454,6 +460,7 @@ foodnomsAPI = APIFunction[
     "emit" -> opt["String", "recipe"],
     "totalServingSize" -> opt["Number", Missing[]],
     "uncertainty" -> opt["Number", 0],
+    "collectionType" -> opt["Integer", 3],
     "fdcIds" -> opt[DelimitedSequence["Integer", ","], {}],
     "grams"  -> opt[DelimitedSequence["Number",  ","], {}],
     "patchFdcIds"        -> opt[DelimitedSequence["Integer", ","], {}],

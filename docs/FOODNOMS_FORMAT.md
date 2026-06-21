@@ -245,6 +245,12 @@ A meal is a collection header plus the foods eaten. No yield fields.
 }
 ```
 
+**From the endpoint.** `BuildFoodNomsRecipe` emits a meal when called with
+**`collectionType=2`** (default `3` = recipe): same entries, but the collection
+header drops `totalServingSize`/`servingSizeUnit`/`servings`. Use this for logging
+*eaten* food (see `MEAL_LOGGING.md`); each `foodEntries[]` `quantity` is the grams
+eaten of that dish.
+
 ---
 
 ## 6. Type C — Recipe (`contentType: 2`, `collectionType: 3`)

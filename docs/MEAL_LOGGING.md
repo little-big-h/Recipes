@@ -19,7 +19,11 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 
 1. **Read both LCDs** from the photos and subtract.
 2. **Scale** a per-100 g nutrition estimate for that dish to the eaten grams.
-3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams. Hand back the **download link** (the endpoint *is* the file creator; don't try to pull the bytes into the repo container — `wolframcloud.com` isn't in its egress allowlist).
+3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams. **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
+
+> **Note on the live endpoint.** The `collectionType=2` (meal) switch was added to `../tools/foodnoms-cloud.wl` on 2026-06-21 but **needs redeploying** to take effect on the live Cloud Object (deploy requires Holger's Wolfram Cloud session). Until then, the endpoint only emits recipes; a meal can be produced by taking the recipe JSON and changing `collectionType` 3→2 + dropping the yield fields, then re-wrapping as an uncompressed `bvx-` container (`FOODNOMS_FORMAT.md` §2).
+
+> **Egress.** `wolframcloud.com` is **not** in the repo container's network allowlist, so `curl`-ing the endpoint from here fails. To deliver an actual file, build the bytes in the Wolfram kernel and bridge them out as base64 (`BaseEncode`), then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
 
 ---
 
