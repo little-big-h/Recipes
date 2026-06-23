@@ -332,6 +332,47 @@ The adult/solo counterpart to the kid-safe Mexican above. Where that build strip
 
 ---
 
+## Profile: Mexican — Mole-Chipotle (solo)
+
+A **mole/adobo** lean on the chipotle-forward Mexican profile: smoky chipotle + ancho heat married to warm **cinnamon** and a whisper of **cacao** — the chile-chocolate-warm-spice triad of real mole, not a fusion stretch. **No tomato-paste bhuna this time** — umami comes from a stacked condiment trio instead. Holger solo; designed 2026-06-23 for a 2026-06-24 cook. Run-down: chipotle, ancho, cacao nibs.
+
+### Single-serving build (2 eggs)
+
+**Chilli soak (10–15 min):** whole 🌶️ chipotle ~8 g + 🫑 ancho flakes 8 g + just-boiled water ~70 g + 🧂 salt 1 g → blend with the soak water into a smoky paste.
+
+**Bloom** (≤3 g 🥑 oil — brief; paprika, cinnamon and cacao all scorch):
+
+| Ingredient | Weight |
+|:-----------|-------:|
+| 🧄 Garlic powder | 1.5 g |
+| 🌰 Toasted cumin | 2 g |
+| 🌶️ Smoked paprika | 6 g |
+| 🪵 Cinnamon (a whisper) | 1 g |
+| ⚫ Cacao nibs, ground (the mole bridge) | 3 g |
+| 🍄 Shiitake powder (the umami engine) | 5 g |
+| 🌿 Dried oregano (optional) | 2 g |
+
+**Build:** 🥫 passata 400 g (no paste — **simmer a few minutes longer** to cook off the raw-tin edge) · 🥬 spinach 100 g · 🥚 2 eggs in wells. **Off heat:** 🫗 coconut aminos 15 g + 🧀 nutritional yeast 6 g (cotija-style). 🍋 lime at the table.
+
+### Design notes
+
+- **Mole logic, not fusion.** Chipotle + cinnamon + cacao is the chile-chocolate-warm-spice triad of mole/adobo; ancho bridges the smoke and the dried-fruit sweetness. Authentic Mexican, not a stretch.
+- **No bhuna — umami by condiment trio (replacing the anchor, not omitting it).** Coconut aminos + nooch supply *glutamate*; **shiitake powder supplies *guanylate*** — and glutamate × guanylate is the multiplicative synergy (dashi's secret) that makes the dish punch without the Maillard anchor. Shiitake is **load-bearing** here, used generously (run-down constraint waived for this cook). What's traded away is the bhuna's roasted/cooked-tomato depth — compensated by the **longer passata simmer**, the **smoked paprika**, and the **cacao's roasted bitterness**.
+- **This is the inverse of the 2026-06-06 flat-Indian failure** (which had *nothing* in the soy's place and went flat → over-salting). Here the umami is genuinely present, so the salt-chasing trap doesn't apply — **taste before adding salt** (aminos + nooch + 1 g soak salt already land it ~2.4 g).
+- **Restraint on cinnamon + cacao.** Both support, never lead — a smoky-savoury breakfast with warm depth, not a sweet one. Whisper amounts; the lime finish cuts the richness they add.
+
+### Nutrition (whole serving)
+
+*Estimates, not FoodNoms-verified — USDA-derived + labels; micros are committed best-estimates.*
+
+**~418 kcal · 27 g protein · 46 g carbs (22 g sugars) · 18 g fat (5 g sat) · 17 g fibre · salt 2.4 g.** Micros: K 2103 mg, Ca 325 mg, Mg 205 mg, Fe 12.9 mg, Zn 3.6 mg, folate 294 µg, B12 0.9 µg, vit D ~2 µg.
+
+**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Mole-Chipotle+Shakshuka+%5B24-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&totalServingSize=730&fdcIds=168462%2C171287%2C168570%2C169396%2C171325%2C170923%2C171329%2C171320%2C171328%2C168436&grams=100%2C100%2C8%2C8%2C1.5%2C2%2C6%2C1%2C2%2C5&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BOrganic+Coconut+Aminos%3BNutritional+Yeast+Flakes%3BCacao+Nibs%3BSalt&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3Blocal%3AA79EC48D-C9A5-43A9-9F24-C57821BECF60%3Blocal%3AE57DAC40-A68B-4AB1-96D1-402DE270A396%3Blocal%3AEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3B3%3B15%3B6%3B3%3B1&customUnits=gram%3Bgram%3Bgram%3Bgram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B84%2C1%2C21%2C20%2C1%2C1%2C1%2C1000%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B349%2C47%2C39%2C1%2C5%2C1%2C20%2C80%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B637%2C14%2C35%2C1%2C47%2C28%2C33%2C20%2C13.9%2C128%2C6.8%2C272%2C750%2C0%2C0%2C32%3B0%2C0%2C0%2C0%2C0%2C0%2C0%2C39300%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · chipotle → "Peppers, hot chile, sun-dried" (168570) as a proxy; cacao nibs from the pantry record.
+
+**Cook log — planned 2026-06-24.** First test of the no-bhuna / shiitake-driven umami in a mole-spiced chipotle base. Score and note whether the condiment trio + longer simmer match the bhuna's depth.
+
+---
+
 ## Profile: North African
 
 Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli side timid): harissa and ancho pushed up, cumin/mustard held at 3 g, cinnamon held a whisper. **First cook (bold) — scored 8.5** (2026-06-16): the bolder harissa/ancho landed; cinnamon-cumin-harissa came together. Highest numeric breakfast score on record (vs the Japanese profile's 7.8; the bold Indian was "pretty good", unscored) — **now itself topped by the bold + fennel + soak cook at 8.6 (2026-06-21, cook log below).**
