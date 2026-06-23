@@ -37,7 +37,7 @@ Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.m
 | **Weighed prepared/cooked dish** | **10** | Portion exact; only the per-gram composition (oil, sauce, recipe) is estimated. |
 | **Photo only, no scale** | **30** | Both the portion *and* the composition are guessed from the image. |
 
-**Set uncertainty per entry, not per meal** — a single sitting routinely mixes tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato 10, photo-estimated mushroom 30). The endpoint's `uncertainty` query param applies one value to *all* entries, so for a mixed-method meal: build with `uncertainty=0`, then **patch each `foodEntries[]` item's `uncertainty` in the kernel** before re-emitting the `bvx-` bytes (`Append[entry, "uncertainty" -> n]`; omit the field entirely for the 0 tier).
+**Set uncertainty per entry, not per meal** — a single sitting can mix tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato + mushroom 10). The endpoint's `uncertainty` query param applies one value to *all* entries, so when tiers differ: build with the common value (or `0`), then **patch each `foodEntries[]` item's `uncertainty` in the kernel** before re-emitting the `bvx-` bytes (`Append[entry, "uncertainty" -> n]`; omit the field entirely for the 0 tier).
 
 **The weights are the certain part; the composition is the estimate.** Even a perfectly-weighed 367 g of Ma Po has unknown oil content — that's what the 10 % covers, not the gram count. The 0 tier is the case where there's no composition guess either.
 
@@ -49,7 +49,8 @@ Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.m
 - **Glare / refraction** washes out digits. When a digit is ambiguous, **say so and ask Holger to confirm** rather than guessing — a straight-on, glare-free shot reads cleanly.
 - **Sanity-check the subtraction.** Empty-vessel weight should be plausible and consistent (e.g. 604 g empty + 364 g rice = 968 g full — the tare checks out).
 - **Same vessels both shots.** If crockery is added/stacked/removed between before and after, the difference is meaningless. Spoon/ladle in both is fine — it cancels.
-- **Tableside sauce pours invalidate the weigh** (fine dining). If the "before" weigh is taken *before* the waiter pours a sauce, the poured mass (often +80–100 g) is never on the scale, so before − after **undercounts** what was eaten. Tell: an implausibly small consumed weight against a clearly substantial plate (Blue Room 2026-06-23: weighed difference said 72 g for a full mushroom main; the photo showed ~150 g). **Fall back to a photo + menu portion estimate (30 %)** for that dish.
+- **Trust a valid weigh over the photo — fine-dining plating inflates apparent volume.** A wide plate holding a charred leek, a few mushrooms and a sauce swirl can *look* like ~150 g but weigh ~70 g; the volume is mostly sauce and bare plate. Don't override a sound before/after with a larger eyeball estimate — fine-dining portions really are that small. (Blue Room 2026-06-23: the mushroom main weighed 72 g; an initial photo estimate of ~150 g was an over-count.)
+- **One real way the weigh *can* lie: a tableside sauce pour.** If the "before" shot is taken *before* the sauce is poured, that mass (often +80–100 g) never hit the scale and consumed is undercounted. **Check the before photo actually shows the sauce** — if it does (as at the Blue Room), the weigh is valid; if not, fall back to a photo estimate (30 %).
 
 ---
 
