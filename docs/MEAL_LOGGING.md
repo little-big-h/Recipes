@@ -21,7 +21,7 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 2. **Scale** a per-100 g nutrition estimate for that dish to the eaten grams.
 3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams. **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
 
-> **Note on the live endpoint.** The `collectionType=2` (meal) switch was added to `../tools/foodnoms-cloud.wl` on 2026-06-21 but **needs redeploying** to take effect on the live Cloud Object (deploy requires Holger's Wolfram Cloud session). Until then, the endpoint only emits recipes; a meal can be produced by taking the recipe JSON and changing `collectionType` 3→2 + dropping the yield fields, then re-wrapping as an uncompressed `bvx-` container (`FOODNOMS_FORMAT.md` §2).
+> **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty still has to be patched in the kernel (see Uncertainty policy below) since the query param is meal-wide.
 
 > **Egress.** `wolframcloud.com` is **not** in the repo container's network allowlist, so `curl`-ing the endpoint from here fails. To deliver an actual file, build the bytes in the Wolfram kernel and bridge them out as base64 (`BaseEncode`), then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
 
@@ -29,16 +29,17 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 
 ## Uncertainty policy
 
-Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.md`) by **how the portion size was determined**:
+Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.md`) by **how *both* the portion and the composition are known**:
 
 | Situation | `uncertainty` | Why |
 |:--|:--:|:--|
-| **Weighed** (before/after on the scale) | **10** | The portion is *exact*; only the per-gram composition (oil, sauce, recipe) is estimated. |
+| **Weighed raw whole food** (fruit, plain salad veg) | **0** | Both knowns: the portion is weighed *and* the composition is fixed — it just *is* that food (raw strawberries, watermelon). Nothing left to estimate. |
+| **Weighed prepared/cooked dish** | **10** | Portion exact; only the per-gram composition (oil, sauce, recipe) is estimated. |
 | **Photo only, no scale** | **30** | Both the portion *and* the composition are guessed from the image. |
 
-The whole meal file carries one flat figure for the dishes logged the same way. (If a single meal mixes weighed and photo-only dishes, split them — weighed entries 10, eyeballed entries 30.)
+**Set uncertainty per entry, not per meal** — a single sitting routinely mixes tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato 10, photo-estimated mushroom 30). The endpoint's `uncertainty` query param applies one value to *all* entries, so for a mixed-method meal: build with `uncertainty=0`, then **patch each `foodEntries[]` item's `uncertainty` in the kernel** before re-emitting the `bvx-` bytes (`Append[entry, "uncertainty" -> n]`; omit the field entirely for the 0 tier).
 
-**The weights are the certain part; the nutrition is the estimate.** Even a perfectly-weighed 367 g of Ma Po has unknown oil content — that's what the 10 % covers, not the gram count.
+**The weights are the certain part; the composition is the estimate.** Even a perfectly-weighed 367 g of Ma Po has unknown oil content — that's what the 10 % covers, not the gram count. The 0 tier is the case where there's no composition guess either.
 
 ---
 
@@ -48,6 +49,7 @@ The whole meal file carries one flat figure for the dishes logged the same way. 
 - **Glare / refraction** washes out digits. When a digit is ambiguous, **say so and ask Holger to confirm** rather than guessing — a straight-on, glare-free shot reads cleanly.
 - **Sanity-check the subtraction.** Empty-vessel weight should be plausible and consistent (e.g. 604 g empty + 364 g rice = 968 g full — the tare checks out).
 - **Same vessels both shots.** If crockery is added/stacked/removed between before and after, the difference is meaningless. Spoon/ladle in both is fine — it cancels.
+- **Tableside sauce pours invalidate the weigh** (fine dining). If the "before" weigh is taken *before* the waiter pours a sauce, the poured mass (often +80–100 g) is never on the scale, so before − after **undercounts** what was eaten. Tell: an implausibly small consumed weight against a clearly substantial plate (Blue Room 2026-06-23: weighed difference said 72 g for a full mushroom main; the photo showed ~150 g). **Fall back to a photo + menu portion estimate (30 %)** for that dish.
 
 ---
 
