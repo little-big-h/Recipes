@@ -15,50 +15,68 @@ Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finish
 
 ## Profile reference matrix
 
-Amounts per single serving. `—` means not used. The base (passata + spinach + eggs + oil) is shared across all shakshuka profiles; sauerkraut hash uses a different base.
+Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = whole dried chillies; *tbl* = added at the table; `—` = not used). The base (🥫 passata + 🥬 spinach + 🥚 eggs + 🥑 oil) is shared across all profiles. Every shakshuka **build** in this doc is a column — the **sauerkraut hash** is a different structure (see *Structure 2* below), so it isn't here.
 
-| Component                | Sauerkraut Hash |   Shak. Indian   | Shak. N.African | Shak. Japanese | Shak. Mexican | Shak. M.Eastern | Shak. Korean |
-| :----------------------- | :-------------: | :--------------: | :-------------: | :------------: | :-----------: | :-------------: | :----------: |
-| **Base**                 |                 |                  |                 |                |               |                 |              |
-| Passata                  |        —        |      400 g       |      400 g      |     400 g      |     400 g     |      400 g      |    400 g     |
-| Sauerkraut               |      320 g      |        —         |        —        |       —        |       —       |        —        |      —       |
-| Sauerkraut liquid        |     200 ml      |        —         |        —        |       —        |       —       |        —        |      —       |
-| Spinach                  |        —        |      100 g       |      100 g      |     100 g      |     100 g     |      100 g      |    100 g     |
-| Eggs                     |       2–3       |       2–3        |       2–3       |      2–3       |      2–3      |       2–3       |     2–3      |
-| **Spice blends**         |                 |                  |                 |                |               |                 |              |
-| Tikka or Madras masala   |        —        | 6 g (one only)\* |        —        |       —        |       —       |        —        |      —       |
-| Ras el hanout            |       4 g       |        —         |        —        |       —        |       —       |        —        |      —       |
-| Harissa powder           |        —        |        —         |       3 g       |       —        |       —       |        —        |      —       |
-| Shichimi                 |        —        |        —         |        —        |      4 g       |       —       |        —        |      —       |
-| Gochujang                |        —        |        —         |        —        |       —        |       —       |        —        |     15 g     |
-| Za'atar                  |        —        |        —         |        —        |       —        |       —       |       5 g       |      —       |
-| Sumac                    |        —        |        —         |        —        |       —        |       —       |       3 g       |      —       |
-| **Heat / chili**         |                 |                  |                 |                |               |                 |              |
-| Ancho flakes             |        —        |        —         |       2 g       |       —        |      8 g      |        —        |      —       |
-| Chipotle                 |        —        |        —         |        —        |       —        |      8 g      |        —        |      —       |
-| Dried chili              |      1 pc       |       1 pc       |      1 pc       |      1 pc      |       —       |        —        |      —       |
-| **Toasted whole spices** |                 |                  |                 |                |               |                 |              |
-| Cumin seeds              |        —        |       2 g        |       2 g       |       —        |      2 g      |        —        |      —       |
-| Mustard seeds            |       2 g       |        —         |       2 g       |       —        |       —       |        —        |      —       |
-| Coriander, ground        |        —        |        —         |        —        |       —        |      2 g      |        —        |      —       |
-| Smoked paprika           |     2 g ⚠️      |      2 g ⚠️      |        —        |       —        |    2 g ⚠️     |        —        |      —       |
-| Turmeric                 |       1 g       |        —         |        —        |       —        |       —       |        —        |      —       |
-| **Aromatics**            |                 |                  |                 |                |               |                 |              |
-| Garlic                   |        —        |       8 g        |        —        |      4 g       |      4 g      |        —        |      —       |
-| Fresh ginger             |        —        |        —         |        —        |   8–10 g       |       —       |        —        |     8 g      |
-| Dried ginger             |        —        |        —         |        —        |    3–4 g       |       —       |        —        |      —       |
-| **Liquid finishers**     |                 |                  |                 |                |               |                 |              |
-| Sesame oil               |        —        |        —         |        —        |      5 ml      |       —       |        —        |     5 ml     |
-| Rice vinegar             |        —        |        —         |        —        |       —        |       —       |        —        |     5 ml     |
-| Mirin                    |        —        |        —         |        —        |     10 ml      |       —       |        —        |      —       |
-| Dashi soy                |        —        |        —         |        —        |    8–10 ml     |       —       |        —        |      —       |
-| Miso (red) ⚠️ solo       |        —        |        —         |        —        |      10 g      |       —       |        —        |      —       |
-| Liquid aminos            |      10 g       |       10 g       |      10 g       |       —        |     10 g      |      10 g       |     10 g     |
-| Nutritional yeast        |      15 g       |       15 g       |      15 g       |       —        |     15 g      |      15 g       |      —       |
+| Component | Indian | Ind. bold | Curry-Pwd | N.African | Mex. kid | Mex. chip | Mex. mole | Japanese | M.East | Korean | Thai |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| **Base** | | | | | | | | | | | |
+| 🥫 Passata | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 |
+| 🥬 Spinach | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
+| 🥚 Eggs | 2–3 | 2–3 | 2 | 2 | 2–3 | 2 | 2 | 2–3 | 2–3 | 2–3 | 2–3 |
+| 🥑 Avocado oil | 3 | 3 | 3 | 3 | 7 | 3 | 3 | — | 3 | — | 3 |
+| **Spice blends / pastes** | | | | | | | | | | | |
+| 🍛 Tikka masala\* | 6 | 9 | — | — | — | — | — | — | — | — | — |
+| 🍛 Curry powder | — | — | 10 | — | — | — | — | — | — | — | — |
+| 🫙 Harissa | — | — | — | 8 | — | — | — | — | — | — | — |
+| 🌶️ Gochujang | — | — | — | — | — | — | — | — | — | 15 | — |
+| 🌿 Za'atar | — | — | — | — | — | — | — | — | 5 | — | — |
+| 🍇 Sumac | tbl | tbl | — | — | tbl | — | — | — | 3 | — | — |
+| 🍶 Red miso ⚠ | — | — | — | — | — | — | — | 10 | — | — | — |
+| 🍲 Green curry paste | — | — | — | — | — | — | — | — | — | — | 20 |
+| 🌾 Lemongrass paste | — | — | — | — | — | — | — | — | — | — | 10 |
+| 🫚 Galangal paste | — | — | — | — | — | — | — | — | — | — | 8 |
+| **Heat / chili** | | | | | | | | | | | |
+| 🌶️ Chipotle (soaked) | — | — | — | — | — | 8 | 8 | — | — | — | — |
+| 🫑 Ancho flakes | — | — | — | 6 | — | 8 | 8 | — | — | — | — |
+| 🌶️ Dried chilli (soak) | 2 pc | 2–3 pc | ~3 | 1–2 pc | — | — | — | 1 pc | — | — | — |
+| 🌶️ Smoked paprika ⚠ | — | — | — | — | — | 6 | 6 | — | — | — | — |
+| 🌶️ Sweet / Kashmiri paprika | — | 3 | — | — | — | — | — | — | — | — | — |
+| 🌶️ Bird's-eye | — | — | — | — | tbl | — | — | — | — | — | — |
+| **Toasted whole spices** | | | | | | | | | | | |
+| 🌰 Cumin | 3 | 4 | 2 | 3 | 2 | 2 | 2 | — | — | — | — |
+| 🌭 Mustard | 3–4 | 4 | — | 4 | — | — | — | — | — | — | — |
+| 🌿 Fennel | — | — | — | 2 | — | — | — | — | — | — | — |
+| 🪵 Cinnamon | — | — | — | 1 | — | — | 1 | — | — | — | — |
+| ⚫ Cacao nibs | — | — | — | — | — | — | 3 | — | — | — | — |
+| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | — | — | — | — |
+| 🌿 Coriander (ground) | — | — | — | — | — | 2 | — | — | — | — | — |
+| 🌿 Oregano | — | — | — | — | 2 | 2 | 2 | — | — | — | — |
+| **Aromatics** | | | | | | | | | | | |
+| 🧄 Garlic (fresh) | 8 | — | — | — | 4 | — | — | 4 | — | — | — |
+| 🧄 Garlic powder | — | 2 | 2 | — | — | 1.5 | 1.5 | 1–2 | — | — | — |
+| 🫚 Fresh ginger | — | — | — | — | — | — | — | 8–10 | — | 8 | 3 |
+| 🫚 Dried ginger | 1 | 1.5 | 1.5 | — | — | — | — | 3–4 | — | — | — |
+| 🍅 Tomato paste (bhuna) | 15 | 22 | 20 | — | 8 | 20 | **none** | — | — | — | — |
+| 🥕 Grated carrot | — | — | — | — | 50 | — | — | — | — | — | — |
+| **Liquid finishers / umami** | | | | | | | | | | | |
+| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | — | 10 | 10 | 10 |
+| 🧀 Nutritional yeast | — | — | — | 15 | 3 | 5 | 6 | — | 15 | — | — |
+| 🍶 Dashi soy | — | — | — | — | — | — | — | 8–10 | — | — | — |
+| 🍶 Mirin | — | — | — | — | — | — | — | 10 | — | — | — |
+| 🛢️ Sesame oil (finish) | — | — | — | — | — | — | — | 5 | — | 5 | — |
+| 🍋 Rice vinegar | — | — | — | — | — | — | — | — | — | 5 | — |
+| 🌶️ Shichimi | — | — | — | — | — | — | — | 4 | — | — | — |
+| 🥬 Nori | — | — | — | — | — | — | — | ~1.5 | — | — | — |
+| 🧂 Salt (in soak) | 1 | 1 | 1.5 | — | — | 1 | 1 | — | — | — | — |
+| 🍋 Lemon / lime | — | — | lemon | — | — | lime | lime | — | — | — | — |
+| 🥥 Coconut milk (opt) | 40–50 | — | 40–50 | — | — | — | — | — | — | — | — |
+| 🫙 Garam masala (opt) | — | — | 2 | — | — | — | — | — | — | — | — |
 
-\* Tikka or Madras for Indian — use one, not both
-⚠️ Smoked paprika = Lara concern (suspected dislike)
-⚠️ Red miso (Japanese profile) = Holger solo only — Jannes dislikes fermented-forward; white miso is the family default
+\* 🍛 **Indian** — Tikka *or* Madras, not both; the **bold** Indian runs tikka at 9 g.
+⚠ **Solo-only:** 🌶️ smoked paprika (Lara dislikes *smoke* — sweet paprika is fine) and 🍶 red miso (Jannes dislikes the fermented funk; white miso is the family default).
+- 🥕 **Mexican kid** drops to **300 g passata + 50 g grated carrot** (sweetness softens the heat for Jannes/Anja) and keeps all chilli at the table.
+- 🍅 **Mexican mole** is the one tomato-base build with **no bhuna** — its umami is 🫗 aminos + 🧀 nooch + 🍄 shiitake (glutamate × guanylate). Every other tomato-base profile bhunas the paste.
+- 🥥 The coconut-milk splash (Indian, Curry-Powder) is an optional creamy / acid-cut finish, not core.
 
 ---
 
