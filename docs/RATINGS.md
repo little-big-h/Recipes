@@ -124,6 +124,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Lobia Masala with Air-Fried Butternut | Indian |
 | Creamy Coconut–Tomato Veg & Chickpea Curry | Indian |
 | Aubergine Parmigiana (Anja) | Italian |
+| Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | Indonesian-leaning (gado-gado) |
 
 ---
 
@@ -160,6 +161,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Lobia Masala with Air-Fried Butternut | v1 | cooked | 2026-06-16 | [lobia-masala-butternut.md](../recipes/stovetop-mains/lobia-masala-butternut.md) |
 | Creamy Coconut–Tomato Veg & Chickpea Curry | v1 | cooked | 2026-06-18 | [coconut-tomato-veg-chickpea-curry.md](../recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md) |
 | Aubergine Parmigiana (Anja) | v1 | cooked | 2026-06-20 | [aubergine-parmigiana.md](../anjas-cooking/aubergine-parmigiana.md) |
+| Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | v1 | cooked | 2026-06-24 | [cold-buckwheat-asparagus-blackeyed-salad.md](../recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md) |
 
 ---
 
