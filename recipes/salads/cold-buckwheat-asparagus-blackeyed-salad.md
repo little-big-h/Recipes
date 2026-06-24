@@ -46,7 +46,7 @@
 
 **Lunchtime (low-effort, then chill):**
 
-1. **🫘 Beans.** Pressure-cook 300 g dried black-eyed beans in plain water (~900 ml–1 L; **no salt-tomato** — acid stalls beans). **High pressure 4 min, natural release** (down ~2 min from the usual 5–6, since last time was mushy; never quick-release). The instant pressure's down, **drain and spread on a tray to cool** — this is the real anti-mush move. A little salt in the water is fine.
+1. **🫘 Beans.** Pressure-cook 300 g dried black-eyed beans in plain water (~900 ml–1 L; **no tomato** — *acid* stalls beans, but salt does not). **High pressure 4 min, natural release** (down ~2 min from the usual 5–6, since last time was mushy; never quick-release). The instant pressure's down, **drain and spread on a tray to cool** — this is the real anti-mush move. *Optional flavour upgrade: cook them in a **light veg/herb stock** (½–1 cube) instead of plain water — it seasons the beans from the inside (salt even helps them cook evenly, skins intact). Use a **plain, not tomato-based** stock, go light (the dressing already brings salt), and keep it 4 min. You drain off the liquid, so nutritionally it's negligible — only a little extra sodium carries into the beans.*
 2. **🥚 Eggs.** Hard-boil 6 eggs (~10 min), straight into iced water, peel. Chill.
 3. **🌾 Kasha.** It's **already toasted**, so skip the dry-pan step: simmer ~1:2 with water ~10 min to *just tender*, drain, spread to cool. Toss the cooled grain with a splash of the aminos + lime so the base is seasoned.
 4. Everything into the fridge for the afternoon.
