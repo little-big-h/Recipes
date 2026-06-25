@@ -11,7 +11,7 @@
 | 🌾 | Buckwheat / kasha (dry, pre-toasted) | 250 g | 858 | 250 g (210 toasted + 40 untoasted) | local *(est.)* |
 | 🫛 | Asparagus (blanched, chilled) | 500 g | 100 | 900 g | [usda](https://fdc.nal.usda.gov/food-details/168389/nutrients) |
 | 🫘 | Black-eyed beans (dried → pressure-cooked) | 300 g | 1008 | 300 g (+1 Knorr stock cube) | [usda](https://fdc.nal.usda.gov/food-details/173758/nutrients) |
-| 🥚 | Eggs (hard-boiled, halved) | 6 (~330 g) | 512 | | local |
+| 🥚 | Eggs (hard-boiled, halved) | 6 (~330 g) | 512 | 330 g | local |
 | 🫑 | Bell peppers (**raw**, diced) | 300 g | 84 | 365 g | local *(est.)* |
 | 🌽 | Sweetcorn (canned, **charred**) | 200 g | 160 | 0 — at table | local *(est.)* |
 | 🥬 | Italian-style salad leaves | — | — | 140 g (24) | label (17 kcal/100 g) |
