@@ -17,7 +17,7 @@
 | 🥬 | Italian-style salad leaves | — | — | 140 g (24) | label (17 kcal/100 g) |
 | 🥜 | Defatted peanut flour (dressing) | 60 g | 228 | | label (Buy Whole Foods) |
 | 🫗 | Sweet-chilli coconut aminos (Biona) | 45 g | 54 | | label |
-| 🍇 | Pomegranate molasses | 15 g | 42 | omitted (not found) | local *(est.)* |
+| 🍇 | Pomegranate molasses | 15 g | 42 | → 10 ml balsamic (sub, ~21 kcal) | local *(est.)* |
 | 🧄 | Garlic + ginger | 12 g | 14 | | local *(est.)* |
 | 🥛 | Natural yoghurt (kids' dressing cut) | 150 g | 90 | | local *(est.)* |
 | 🌰 | Toasted peanuts (topping) | 25 g | 147 | | local *(est.)* |
@@ -103,6 +103,7 @@
   - **Kasha method — pressure cooker (validated, good texture).** With the beans already done, cooked the 250 g kasha in the Ninja: **low pressure, 0 min, 10-min defined release**, absorption method (water cooked in, no draining). Came out **firm, good texture** — a repeatable, hands-off alternative to the stovetop simmer, and the defined release makes it predictable (the same logic as the firm-bean cook). *(Water used: TBD — confirm ratio for the record.)*
   - **Peppers as used:** 365 g raw (vs 300 g planned) — +65 g, ~+18 kcal (negligible).
   - **Corn → table:** charred corn (200 g planned) **left out of the mixed bowl** — kids add their own at the table. −160 kcal from the shared bowl.
-  - **Pom molasses omitted (not found):** dressing ran as peanut flour + sweet-chilli aminos + garlic/ginger, **brightened with extra lime** (± a thread of balsamic for the dark sweet-tart note pom would've given). −42 kcal; the dressing held up fine without it.
+  - **Pom molasses omitted (not found):** dressing ran as peanut flour + sweet-chilli aminos + garlic/ginger + extra lime, with **10 ml balsamic** (207 kcal/100 ml → ~21 kcal) as the pom stand-in for the dark sweet-tart note. Net ~−21 kcal vs the pom version; held up fine.
   - **Italian-style salad leaves added:** **140 g** @ 17 kcal/100 g = ~24 kcal — extra fresh hot-day volume; added per-serving (not pre-tossed, so they don't wilt). Any bag dressing sachet left out.
-  - **Running as-served total ≈ 3220 kcal · ~214 g protein · ~96 g fibre** (~645 kcal/serving over five) — corn out, pom out, leaves in.
+  - **Dressing & yield:** total dressing **307 g** (after diluting to a pourable cream). **Measured assembled salad 2994 g** (without corn or topping peanuts) → roughly **~100 kcal/100 g** as-served.
+  - **Running as-served total ≈ 3240 kcal · ~214 g protein · ~96 g fibre** (~650 kcal/serving over five) — corn out, pom→10 ml balsamic, leaves in.
