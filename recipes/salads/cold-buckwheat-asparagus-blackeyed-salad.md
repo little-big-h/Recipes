@@ -9,8 +9,8 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🌾 | Buckwheat / kasha (dry, pre-toasted) | 250 g | 858 | 250 g (210 toasted + 40 untoasted) | local *(est.)* |
-| 🫛 | Asparagus (blanched, chilled) | 500 g | 100 | | [usda](https://fdc.nal.usda.gov/food-details/168389/nutrients) |
-| 🫘 | Black-eyed beans (dried → pressure-cooked) | 300 g | 1008 | | [usda](https://fdc.nal.usda.gov/food-details/173758/nutrients) |
+| 🫛 | Asparagus (blanched, chilled) | 500 g | 100 | 900 g | [usda](https://fdc.nal.usda.gov/food-details/168389/nutrients) |
+| 🫘 | Black-eyed beans (dried → pressure-cooked) | 300 g | 1008 | 300 g (+1 Knorr stock cube) | [usda](https://fdc.nal.usda.gov/food-details/173758/nutrients) |
 | 🥚 | Eggs (hard-boiled, halved) | 6 (~330 g) | 512 | | local |
 | 🫑 | Bell peppers (**raw**, diced) | 300 g | 84 | | local *(est.)* |
 | 🌽 | Sweetcorn (canned, **charred**) | 200 g | 160 | | local *(est.)* |
@@ -97,3 +97,5 @@
 
 - **First cook 2026-06-24 (planned) — family, hot-day dinner.** Beans at 4 min HP (firmer-than-last-time test); buckwheat base; no kecap (sweet-chilli aminos + pom molasses); raw peppers + charred corn + hard-boiled eggs; dressing split mild/spicy with yoghurt. Build-your-own. Record family ratings in `../../docs/RATINGS.md` and whether the 4-min beans held their shape.
   - **Kasha as used:** 250 g total = **210 g pre-toasted + 40 g untoasted**, simmered together (no extra toasting — hot day, didn't want to heat the house). The 40 g untoasted cooks on the same timing; nutrition unchanged from the planned 250 g.
+  - **Beans as used:** 300 g dry as planned, **cooked with 1 Knorr stock cube** (the optional stock-bean route). Drained, so energy/macros are unchanged — only a little extra sodium carried into the beans.
+  - **Asparagus as used:** **900 g** (vs 500 g planned) — +400 g. Low-energy, so ~**+80 kcal · +9 g protein · +8 g fibre** on the whole bowl; mostly just more green bulk. As-cooked whole recipe ≈ **3377 kcal · ~218 g protein · ~97 g fibre** (~675 kcal/serving over five).
