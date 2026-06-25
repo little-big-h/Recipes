@@ -96,7 +96,7 @@
 
 ## Cook log
 
-- **First cook 2026-06-24 (planned) — family, hot-day dinner.** Beans at 4 min HP (firmer-than-last-time test); buckwheat base; no kecap (sweet-chilli aminos + pom molasses); raw peppers + charred corn + hard-boiled eggs; dressing split mild/spicy with yoghurt. Build-your-own. Record family ratings in `../../docs/RATINGS.md` and whether the 4-min beans held their shape.
+- **First cook 2026-06-24/25 (cooked) — family, hot-day dinner. Family avg 8.32** (Anja 9.0, Julina 8.9, Holger 8.5, Jannes 8.0, Lara 7.2); logged in `../../docs/RATINGS.md` (remark 44). Build-your-own paid off — three of five tuned their plate: **Jannes dropped the rocket** (6.9→8.0), **Julina skipped the peanut dressing** (disliked the nutty flavour, still 8.9), **Holger added yuzu** + coriander. Beans 4 min HP; buckwheat base; no kecap (sweet-chilli aminos, pom→10 ml balsamic); raw peppers + hard-boiled eggs; corn at table; dressing split mild/spicy with yoghurt. *(4-min bean firmness: not separately reported — no complaints, so presumed fine.)*
   - **Kasha as used:** 250 g total = **210 g pre-toasted + 40 g untoasted**, simmered together (no extra toasting — hot day, didn't want to heat the house). The 40 g untoasted cooks on the same timing; nutrition unchanged from the planned 250 g.
   - **Beans as used:** 300 g dry as planned, **cooked with 1 Knorr stock cube** (the optional stock-bean route). Drained, so energy/macros are unchanged — only a little extra sodium carried into the beans.
   - **Asparagus as used:** **900 g** (vs 500 g planned) — +400 g. Low-energy, so ~**+80 kcal · +9 g protein · +8 g fibre** on the whole bowl; mostly just more green bulk.
