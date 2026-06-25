@@ -12,7 +12,7 @@
 | 🫛 | Asparagus (blanched, chilled) | 500 g | 100 | 900 g | [usda](https://fdc.nal.usda.gov/food-details/168389/nutrients) |
 | 🫘 | Black-eyed beans (dried → pressure-cooked) | 300 g | 1008 | 300 g (+1 Knorr stock cube) | [usda](https://fdc.nal.usda.gov/food-details/173758/nutrients) |
 | 🥚 | Eggs (hard-boiled, halved) | 6 (~330 g) | 512 | | local |
-| 🫑 | Bell peppers (**raw**, diced) | 300 g | 84 | | local *(est.)* |
+| 🫑 | Bell peppers (**raw**, diced) | 300 g | 84 | 365 g | local *(est.)* |
 | 🌽 | Sweetcorn (canned, **charred**) | 200 g | 160 | | local *(est.)* |
 | 🥜 | Defatted peanut flour (dressing) | 60 g | 228 | | label (Buy Whole Foods) |
 | 🫗 | Sweet-chilli coconut aminos (Biona) | 45 g | 54 | | label |
@@ -98,5 +98,6 @@
 - **First cook 2026-06-24 (planned) — family, hot-day dinner.** Beans at 4 min HP (firmer-than-last-time test); buckwheat base; no kecap (sweet-chilli aminos + pom molasses); raw peppers + charred corn + hard-boiled eggs; dressing split mild/spicy with yoghurt. Build-your-own. Record family ratings in `../../docs/RATINGS.md` and whether the 4-min beans held their shape.
   - **Kasha as used:** 250 g total = **210 g pre-toasted + 40 g untoasted**, simmered together (no extra toasting — hot day, didn't want to heat the house). The 40 g untoasted cooks on the same timing; nutrition unchanged from the planned 250 g.
   - **Beans as used:** 300 g dry as planned, **cooked with 1 Knorr stock cube** (the optional stock-bean route). Drained, so energy/macros are unchanged — only a little extra sodium carried into the beans.
-  - **Asparagus as used:** **900 g** (vs 500 g planned) — +400 g. Low-energy, so ~**+80 kcal · +9 g protein · +8 g fibre** on the whole bowl; mostly just more green bulk. As-cooked whole recipe ≈ **3377 kcal · ~218 g protein · ~97 g fibre** (~675 kcal/serving over five).
+  - **Asparagus as used:** **900 g** (vs 500 g planned) — +400 g. Low-energy, so ~**+80 kcal · +9 g protein · +8 g fibre** on the whole bowl; mostly just more green bulk.
   - **Kasha method — pressure cooker (validated, good texture).** With the beans already done, cooked the 250 g kasha in the Ninja: **low pressure, 0 min, 10-min defined release**, absorption method (water cooked in, no draining). Came out **firm, good texture** — a repeatable, hands-off alternative to the stovetop simmer, and the defined release makes it predictable (the same logic as the firm-bean cook). *(Water used: TBD — confirm ratio for the record.)*
+  - **Peppers as used:** 365 g raw (vs 300 g planned) — +65 g, ~+18 kcal (negligible). **Running as-cooked total ≈ 3395 kcal · ~219 g protein · ~98 g fibre** (~680 kcal/serving over five).
