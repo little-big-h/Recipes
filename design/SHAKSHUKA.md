@@ -48,7 +48,7 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 | 🌿 Fennel | — | — | — | 2 | — | — | — | — | — | — | — |
 | 🪵 Cinnamon | — | — | — | 1 | — | — | 1 | — | — | — | — |
 | ⚫ Cacao nibs | — | — | — | — | — | — | 3 | — | — | — | — |
-| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | — | — | — | — |
+| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | — | — | — | 4 |
 | 🌿 Coriander (ground) | — | — | — | — | — | 2 | — | — | — | — | — |
 | 🌿 Oregano | — | — | — | — | 2 | 2 | 2 | — | — | — | — |
 | **Aromatics** | | | | | | | | | | | |
@@ -59,7 +59,7 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 | 🍅 Tomato paste (bhuna) | 15 | 22 | 20 | — | 8 | 20 | **none** | — | — | — | — |
 | 🥕 Grated carrot | — | — | — | — | 50 | — | — | — | — | — | — |
 | **Liquid finishers / umami** | | | | | | | | | | | |
-| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | — | 10 | 10 | 10 |
+| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | — | 10 | 10 | 15 |
 | 🧀 Nutritional yeast | — | — | — | 15 | 3 | 5 | 6 | — | 15 | — | — |
 | 🍶 Dashi soy | — | — | — | — | — | — | — | 8–10 | — | — | — |
 | 🍶 Mirin | — | — | — | — | — | — | — | 10 | — | — | — |
@@ -535,21 +535,33 @@ Gochujang-based, with sesame and rice vinegar. Distinctive flavour direction not
 
 ## Profile: Thai green (bonus — not in PDF matrix)
 
-Not in the source PDF but retained as a useful direction. Built around fresh aromatics rather than fermented depth.
+Not in the source PDF but retained as a useful direction. Built around fresh aromatics — but **fresh aromatics aren't umami**, so the savoury depth has to come from a properly-fried paste + shiitake (see notes below), not from fermented pastes.
 
 | Ingredient | Single-serving |
 |:-----------|---------------:|
-| Green curry paste | 20 g |
-| Lemongrass paste | 10 g |
-| Galangal paste | 8 g |
-| Fresh ginger or dried ginger powder | 3 g fresh / 0.5 g dried |
-| Liquid aminos | 10 g |
-| Passata | 400 g |
-| Spinach | 100 g |
-| Eggs | 2–3 |
-| Thai basil or coriander | generous |
+| 🍲 Green curry paste | 20 g |
+| 🌾 Lemongrass paste | 10 g |
+| 🫚 Galangal paste | 8 g |
+| 🫚 Fresh ginger or dried ginger powder | 3 g fresh / 0.5 g dried |
+| 🍄 Shiitake powder | 4 g |
+| 🫗 Liquid aminos | 15 g |
+| 🥫 Passata | 400 g |
+| 🥬 Spinach | 100 g |
+| 🥚 Eggs | 2–3 |
+| 🌿 Thai basil or coriander | generous |
+| 🥥 Coconut milk (optional) | 30–40 g |
 
 Bright, herbal, slightly fiery. ⚠️ Lara may find this too heat-forward; build conservatively for her.
+
+### Umami depth (added 2026-06-25)
+
+The original build leaned on **10 ml aminos alone for savouriness — and it doesn't dent it.** Two reasons: (1) coconut aminos is a *mild, sweet, glutamate-only* source, and glutamate on its own reads flat/linear; (2) **vegetarian green curry paste lacks the shrimp paste (kapi) + fish sauce** that carry a real green curry's umami backbone, so the dish is fragrant up top but hollow underneath. The fixes:
+
+- **🍄 Shiitake powder 4 g — the key add.** It supplies **guanylate**, and glutamate × guanylate is the multiplicative dashi synergy (same lever as the no-bhuna Mexican mole). Dried shiitake is in-cuisine for Thai veg cooking; biggest depth gain per gram, no fat, no clash — it stands in for the missing kapi/fish-sauce backbone.
+- **Crack the paste — the technique fix (the bigger miss).** A real green curry *fries the paste in coconut cream/oil until it darkens and the oil splits* — that Maillard step is the Thai bhuna. Bloom 🍲 green paste + 🌾 lemongrass + 🫚 galangal in the 3 g oil (or a spoon of coconut cream) until fragrant and a shade darker **before** adding the passata; don't just stir the paste into the sauce.
+- **🫗 Aminos 10 → 15 ml** — more glutamate to feed the shiitake synergy.
+- **🥥 Coconut-milk splash (30–40 g, optional, off heat)** — not umami, but the round Thai-curry *body* the dish otherwise lacks; authentic. Costs a little fat, so optional given the low-fat lean.
+- **Avoid** nutritional yeast / white miso here — both add umami but read cheesy/fermented-Japanese against coconut-green and would muddy it.
 
 ---
 
