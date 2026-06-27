@@ -4,7 +4,7 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Ras el Hanout Spelt with Air-Fried Butternut & Chickpeas](recipes/grains/ras-el-hanout-spelt-butternut-chickpeas.md)** — 2026-06-27
+1. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
 2. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
 3. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
 4. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
