@@ -1,6 +1,6 @@
 # Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans
 
-*A North-African spiced grain main: whole spelt and a kidney + pinto bean mix pressure-cooked together in plain water (no tomato — acid stalls beans and toughens grain), folded into a ras-el-hanout-bloomed tomato sauce finished off-heat with white miso, and topped with separately air-fried butternut so the squash keeps its sweet, caramelised edges. Beans go in **dried and unsoaked** for speed; pinto breaks down creamy and gives the sauce body, kidney holds its shape. Built mild for Jannes; harissa + lemon held **at the table** for the adults and to keep acid off Lara's portion. Family of five.*
+*A North-African spiced grain main: a kidney + pinto bean mix pressure-cooked in stock, the spelt then cooked **in the reserved bean liquor** (carrying the flavour and leached minerals into the grain), folded into a ras-el-hanout-bloomed tomato sauce finished off-heat with white miso, and topped with separately air-fried butternut so the squash keeps its sweet, caramelised edges. Beans and spelt both go in **dried and unsoaked**; pinto breaks down creamy and gives the sauce body, kidney holds its shape. Built mild for Jannes; harissa + lemon held **at the table** for the adults and to keep acid off Lara's portion. Family of five.*
 
 ---
 
@@ -8,10 +8,11 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🌾 | Spelt berries (whole, unsoaked) | 250 g | 845 | | local *(est.)* |
-| 🫘 | Kidney beans (dried, unsoaked) | 125 g | 421 | **176 g** | [usda](https://fdc.nal.usda.gov/food-details/173744/nutrients) *(est.)* |
-| 🫛 | Pinto beans (dried, unsoaked) | 125 g | 434 | **194 g** | [usda](https://fdc.nal.usda.gov/food-details/173746/nutrients) *(est.)* |
-| 💧 | Water (spelt + bean cook liquid, not drained) | ~1700 ml | 0 | | |
+| 🫘 | Kidney beans (dried, unsoaked) | 176 g | 593 | **176 g** | [usda](https://fdc.nal.usda.gov/food-details/173744/nutrients) *(est.)* |
+| 🫛 | Pinto beans (dried, unsoaked) | 194 g | 673 | **194 g** | [usda](https://fdc.nal.usda.gov/food-details/173746/nutrients) *(est.)* |
+| 🧂 | Vegetable stock cube (in the bean water) | 1 cube | 20 | | local *(est.)* |
+| 💧 | Water (bean cook + spelt cook; bean liquor reserved) | ~1.5 L total | 0 | | |
+| 🌾 | Spelt berries (whole, unsoaked — cooked in bean liquor) | 300 g | 1014 | | local *(est.)* |
 | 🎃 | Butternut squash (peeled, air-fried) | 900 g | 405 | | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🥑 | Avocado oil (3 g squash · 3 g sauce) | 6 g | 53 | | local |
 | 🧄 | Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
@@ -23,56 +24,55 @@
 | 🌿 | Parsley (garnish) | a handful | — | | — |
 | 🌶️ | Harissa (at table) | to taste | — | | — |
 | 🍋 | Lemon (at table) | to taste | — | | — |
-| | **Total** | **~3.1 kg input** *(incl. ~1.2 L water)* | **~2460** | | |
+| | **Total** | **~3.2 kg input** *(incl. ~1.5 L water)* | **~3060** | | |
 
-*Legend: 🌾 Grain · 🫘🫛 Pulse · 💧 Stock · 🎃 Vegetable · 🥑 Fat · 🧄🌰🍛 Spices / Aromatics · 🍅🥫 Tomato · 🍶 Seasoning · 🌿 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
+*Legend: 🫘🫛 Pulse · 🧂 Stock · 💧 Stock · 🌾 Grain · 🎃 Vegetable · 🥑 Fat · 🧄🌰🍛 Spices / Aromatics · 🍅🥫 Tomato · 🍶 Seasoning · 🌿 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
 
-*Spice amounts (🧄🌰🍛) and 🥫 passata are **estimates** — spices weren't weighed (Claude-suggested) and the passata is a UK-passata generic (its salt is the main unknown). 🌾 spelt is mapped to a generic whole-spelt value, not a specific FDC entry. 💧 water lives in the grain + beans (0 kcal). Totals are input weight; cooked yield is higher (the spelt and beans drink ~700 ml).*
+*Spice amounts (🧄🌰🍛) and 🥫 passata are **estimates** — spices weren't weighed (Claude-suggested) and the passata is a UK-passata generic (its salt is the main unknown). 🌾 spelt is mapped to a generic whole-spelt value, not a specific FDC entry. 💧 water is staged (beans first, then the reserved liquor + a top-up for the spelt) and carries 0 kcal. Totals are input weight; cooked yield is higher (the beans and spelt drink ~1.4 L between them).*
 
 ---
 
 ## Timeline
 
-*Textual schedule rather than the rendered Wolfram endpoint — the Ninja does two sequential jobs here (pressure-cook, then air-fry), and I haven't been able to visually verify the timeline endpoint render this session. Ask and I'll generate the encoded `RenderTimeline` URL.*
+*Textual schedule rather than the rendered Wolfram endpoint — the Ninja runs three sequential jobs here (air-fry, then two pressure stages), and I haven't been able to visually verify the timeline endpoint render this session. Ask and I'll generate the encoded `RenderTimeline` URL.*
 
-| Minute | Ninja | Wok |
-|------:|:------|:----|
-| 0–25 | Come to pressure (~1.6 kg load) | — |
-| 25–50 | **Kidney + pinto + spelt — high pressure, 25 min** | — |
-| 50–67 | Natural release | start: bloom spices, bhuna paste, passata simmer |
-| 67–107 | Air-fry butternut (200 °C, two batches) | hold sauce warm |
-| 107–111 | — | fold base, miso **off heat**, top with squash |
-| **~111** | | **Ready** |
+| Phase | Ninja | Wok |
+|:------|:------|:----|
+| Squash | Air-fry butternut (200 °C, ~40 min, two batches), set aside | — |
+| Beans | Kidney + pinto + stock cube, **25 min HP, natural release**, drain & reserve liquor | — |
+| Spelt | Spelt in reserved liquor + water, **~30–35 min HP, natural release** | bloom spices, bhuna paste, passata simmer |
+| Finish | — | fold beans + spelt, miso **off heat**, top with squash |
 
-*If you'd rather not run the Ninja twice, air-fry the squash first and pressure-cook the base second — same total, squash just rewarms when folded in.*
+*The squash can be air-fried at any free moment — it's folded in at the end and rewarms, so it doesn't have to be first. The two pressure stages are the long pole.*
 
 ---
 
 ## Method
 
-> **No soak.** Beans and spelt go in dried for speed — rinse and drain only. Trade-off: at 25 min the beans are tender but the whole spelt lands **firm-chewy** (unsoaked it really wants ~35 min). For softer grain, soak the spelt ahead or give the pot 35 min; the beans tolerate the extra time.
+> **No soak.** Beans and spelt both go in dried. The grain is cooked **in the reserved bean stock** — drain the beans but keep every drop of the liquor.
 
-1. **Pressure-cook the base.** Rinsed 🌾 spelt + 🫘 kidney + 🫛 pinto + ~1700 ml 💧 water in the Ninja (everything submerged by ~4–5 cm) — **no 🥫 passata, no salt** (tomato acid stalls the beans and toughens the grain; salt later). **High pressure 25 min, natural release** — this fully cooks the kidney beans (essential — never pressure-cook them short). Don't drain — keep the starchy liquid.
-2. **Air-fry the squash.** Toss 🎃 butternut cubes with ~3 g 🥑 oil + a pinch of salt; **200 °C, ~20 min**, shaking once, until caramelised. Single layer — do it in **two batches** rather than crowding (crowding steams instead of browns). Set aside.
-3. **Build the sauce.** In the wok, bloom 🧄 garlic powder + 🌰 cumin + 🍛 ras el hanout in the remaining ~3 g 🥑 oil ~30 sec, then **bhuna the 🍅 tomato paste ~1 min** until it darkens (the umami anchor). Add the 🥫 passata; simmer 5–8 min.
-4. **Combine.** Fold the cooked 🌾 spelt + 🫘🫛 beans into the sauce with a ladle or two of their reserved 💧 liquid; simmer 3–5 min to meld, loosening to a moist pilaf (not soupy). The pinto will start to break down and thicken it.
-5. **Finish off heat.** Whisk in the 🍶 white miso (never boil). Taste and add salt — the base went in unsalted.
-6. **Top & serve.** Pile the air-fried 🎃 butternut over the top so it keeps its roasted edges. 🌿 parsley over. 🌶️ harissa + 🍋 lemon **at the table** for the adults; keep Lara's portion acid-free.
+1. **Air-fry the squash.** Toss 🎃 butternut cubes with ~3 g 🥑 oil + a pinch of salt; **200 °C, ~20 min**, shaking once, until caramelised. Single layer — do it in **two batches** rather than crowding (crowding steams instead of browns). Set aside; it rewarms when folded in.
+2. **Pressure-cook the beans.** 🫘 kidney + 🫛 pinto + 1 🧂 stock cube + ~1200 ml 💧 water in the Ninja — **no 🥫 passata** (tomato acid stalls the beans). **High pressure 25 min, natural release** — this fully cooks the kidney beans (essential — never run them short). **Drain, but keep the liquor.**
+3. **Cook the spelt in the bean liquor.** Return the reserved liquor to the pot, top up with 💧 water to ~750 ml, add the 🌾 spelt. **High pressure ~30–35 min (unsoaked), natural release**, or simmer covered ~50 min until tender-chewy. Cooking the grain in the bean stock carries the salt, flavour and leached minerals into the spelt. *(Soaked spelt → ~22 min HP.)*
+4. **Build the sauce.** In the wok, bloom 🧄 garlic powder + 🌰 cumin + 🍛 ras el hanout in ~3 g 🥑 oil ~30 sec, then **bhuna the 🍅 tomato paste ~1 min** until it darkens (the umami anchor). Add the 🥫 passata; simmer 5–8 min.
+5. **Combine.** Fold the cooked 🫘🫛 beans + 🌾 spelt into the sauce with a splash of any leftover liquor; simmer 3–5 min to meld, loosening to a moist pilaf (not soupy). The pinto breaks down and thickens it.
+6. **Finish off heat.** Whisk in the 🍶 white miso (never boil). Taste and adjust salt — the stock cube already seasoned the base.
+7. **Top & serve.** Pile the air-fried 🎃 butternut over the top so it keeps its roasted edges. 🌿 parsley over. 🌶️ harissa + 🍋 lemon **at the table** for the adults; keep Lara's portion acid-free.
 
 ---
 
 ## Nutrition
 
-*Whole recipe. **Estimates, not FoodNoms-verified** — USDA-derived + label values, computed in Wolfram; micros are committed best-estimates (final, not pending verification). Very high fibre (~95 g), folate (~1.6 mg) and potassium (~9.5 g) from the beans + spelt. Salt ~3.4 g is from ingredients only (miso + passata + ras el hanout); the base is cooked unsalted, so add salt to taste at step 5 — for family palatability this typically lands ~6–8 g. Lower fat and sugar than the chickpea version (kidney + pinto are leaner and less sweet than chickpeas).*
+*Whole recipe, for the **actual amounts** (176 g kidney + 194 g pinto + 300 g spelt + 1 stock cube). **Estimates, not FoodNoms-verified** — USDA-derived + label values, computed in Wolfram; micros are committed best-estimates (final, not pending verification). A big, hearty main: very high protein (~149 g), fibre (~118 g), folate (~2.2 mg) and potassium (~11.4 g) from the beans + spelt. Salt ~5.9 g comes mostly from the stock cube + miso; the bean liquor (and its salt) is carried into the grain rather than drained away. Adjust up at step 6 to taste — salt is a positive for Holger.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
             iron, calcium, zinc, magnesium, potassium, vitD, B12, folate}
-   Per 100 g. *)
+   Per 100 g (stockCube is per cube). *)
 n100 = <|
-  "spelt"       -> {338, 14.6, 70.2,  1.6,  2.4, 0.4,  10.7, 0.00,  4.4,  27, 3.3, 136,  388, 0, 0,  45},
   "kidney"      -> {337, 22.5, 61.3,  2.1,  1.1, 0.16, 15.2, 0.02,  8.2,  83, 2.8, 138, 1359, 0, 0, 394},
   "pinto"       -> {347, 21.4, 62.6,  2.1,  1.2, 0.25, 15.5, 0.03,  5.1, 113, 2.3, 176, 1393, 0, 0, 525},
+  "spelt"       -> {338, 14.6, 70.2,  1.6,  2.4, 0.4,  10.7, 0.00,  4.4,  27, 3.3, 136,  388, 0, 0,  45},
   "butternut"   -> { 45,  1.0, 11.7,  2.2,  0.1, 0.02,  2.0, 0.01,  0.7,  48, 0.15, 34,  352, 0, 0,  27},
   "avocadoOil"  -> {884,  0,    0,    0,   100, 11.6,   0,   0.00,  0,     0, 0,     0,    0, 0, 0,   0},
   "garlicPwd"   -> {331, 16.6, 73.0,  2.4,  0.7, 0.2,   9.0, 0.06,  5.7,  79, 2.6,  77, 1190, 0, 0,  47},
@@ -80,26 +80,29 @@ n100 = <|
   "rasElHanout" -> {300, 12.0, 50.0,  3.0,  8.0, 1.0,  12.0, 5.00, 30.0, 250, 3.0,  90, 1000, 0, 0,  20},
   "tomatoPaste" -> { 82,  4.3, 18.9, 12.2,  0.5, 0.1,   4.1, 0.05, 2.98,  36, 0.63, 42, 1014, 0, 0,  19},
   "passata"     -> { 32,  1.4,  5.8,  5.0,  0.2, 0.05,  1.4, 0.20,  0.9,  15, 0.2,  18,  300, 0, 0,  13},
-  "whiteMiso"   -> {199, 11.7, 26.5,  6.2,  6.0, 1.0,   5.4, 6.00,  2.5,  57, 2.6,  48,  210, 0, 0,  19}
+  "whiteMiso"   -> {199, 11.7, 26.5,  6.2,  6.0, 1.0,   5.4, 6.00,  2.5,  57, 2.6,  48,  210, 0, 0,  19},
+  "stockCube"   -> { 20,  0.4,  3.0,  0.5,  0.5, 0.2,   0.0, 2.50,  0.2,   5, 0.0,   2,   20, 0, 0,   0}
 |>;
 amounts = <|
-  "spelt" -> 250, "kidney" -> 125, "pinto" -> 125, "butternut" -> 900,
+  "kidney" -> 176, "pinto" -> 194, "spelt" -> 300, "butternut" -> 900,
   "avocadoOil" -> 6, "garlicPwd" -> 6, "cumin" -> 6, "rasElHanout" -> 12,
   "tomatoPaste" -> 40, "passata" -> 400, "whiteMiso" -> 30
 |>;
-totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
+(* beans/spelt/etc scaled by grams/100; stockCube counted as 1 whole *)
+totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
+           + n100["stockCube"], 4];
 ```
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2460 kcal | Iron | 47 mg |
-| Protein | 115 g | Calcium | 925 mg |
-| Carbohydrates | 487 g | Zinc | 19 mg |
-| — of which sugars | 56 g | Magnesium | 1180 mg |
-| Fat | 21 g | Potassium | 9550 mg |
-| — of which saturates | 3 g | Vitamin D | 0.0 µg |
-| Fibre | 95 g | Vitamin B12 | 0.0 µg |
-| Salt | ~3.4 g | Folate | 1575 µg |
+| Energy | 3060 kcal | Iron | 57 mg |
+| Protein | 149 g | Calcium | 1065 mg |
+| Carbohydrates | 600 g | Zinc | 23 mg |
+| — of which sugars | 60 g | Magnesium | 1440 mg |
+| Fat | 24 g | Potassium | 11410 mg |
+| — of which saturates | 4 g | Vitamin D | 0.0 µg |
+| Fibre | 118 g | Vitamin B12 | 0.0 µg |
+| Salt | ~5.9 g | Folate | 2160 µg |
 
 *FoodNoms collection name (with creation stamp): **Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans [27-06-26] ✴️**. The `.foodnoms` download block can be generated via `docs/RECIPE_NUTRITION_GENERATOR.md` once the FDC ids are pinned (spelt still needs a confirmed entry).*
 
@@ -107,9 +110,10 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 
 ## Design notes
 
-- **Base in plain water, tomato after.** The recurring rule — tomato acid stalls bean softening (it bit the chickpeas, soy beans, and lobia peas) and toughens whole grain. Spelt + beans cook clean in plain water; the passata goes in at step 3.
-- **Kidney + pinto, unsoaked, for speed.** Both cook tender from dry at 25 min HP, natural release. **Kidney beans must be fully cooked** (raw/undercooked kidney is mildly toxic — phytohaemagglutinin) — never run them short. Pinto breaks down creamy and thickens the sauce (the body trick from the pinto–butternut soup); kidney holds shape for texture contrast.
-- **Spelt rides along firm.** Unsoaked whole spelt at 25 min comes out chewy — fine for a hearty pilaf, but if you want it softer, soak it ahead or push the pot to 35 min (the beans don't mind). The beans set the time here.
+- **Two-stage cook: beans in stock, spelt in the liquor.** Holger's technique — pressure-cook the beans with a stock cube, drain but **keep the liquor**, then cook the grain in it (topped up with water). The grain drinks the salt, savouriness and leached minerals that would otherwise be poured away. Replaces the original single-pot cook.
+- **No tomato in the cook water.** The recurring rule — tomato acid stalls bean softening (it bit the chickpeas, soy beans, and lobia peas). Salt (the stock cube) is fine; it's acid, not salt, that toughens beans. Passata goes in at step 4.
+- **Kidney + pinto, unsoaked.** Both cook tender from dry at 25 min HP, natural release. **Kidney beans must be fully cooked** (raw/undercooked kidney is mildly toxic — phytohaemagglutinin) — never run them short. Pinto breaks down creamy and thickens the sauce (the body trick from the pinto–butternut soup); kidney holds shape for texture contrast.
+- **Spelt 300 g against 370 g beans.** Keeps the grain present (≈660 g cooked vs ≈925 g beans) without swamping it, and carries the high-carb load. Unsoaked whole spelt is the slow step (~30–35 min HP); soak it ahead if you want to cut that to ~22 min.
 - **Squash air-fried separately, folded late.** Air-frying caramelises it; folding it in at the end (not simmering it into the sauce) keeps the sweet roasted edges instead of dissolving them. Same move as the lobia butternut and the tikka-curry cauliflower.
 - **Umami anchor = ras el hanout bhuna + white miso.** A tomato base goes flat without one (the Indian-shakshuka / pinto-v1 lesson). Bhuna'd tomato paste + bloomed ras el hanout do it during the cook; white miso (off heat) finishes it.
 - **Pantry run-down fit.** Ras el hanout is in stock and wants using before the move; this dish is built around it. No new purchases — spelt assumed on hand (it's not on the standing pantry list, so confirm).
@@ -119,5 +123,5 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 
 ## Cook log
 
-- **Planned — not yet cooked.** Designed 2026-06-27. Started as a butternut/spelt/**chickpea** dish; switched the legume to a **kidney + pinto mix** (dried, unsoaked, 25 min HP) on the cook's call for speed and to use what's in stock — only 154 g of black-eyed beans were on hand, so those were dropped. Architecture still mirrors the Lobia Masala (8.16): plain-water base + air-fried butternut folded late + white-miso finish, ras el hanout for the spice. Open questions on first cook: spelt firmness at 25 min unsoaked, and whether 12 g ras el hanout is mild enough for Lara/Jannes.
+- **Planned — cooked 2026-06-27 (ratings pending).** Designed and cooked same day with a fast-moving brief. Evolution: started as butternut/spelt/**chickpea**; cook swapped the legume to a **kidney + pinto mix** (only 154 g black-eyed on hand, so those were dropped) and moved to a **two-stage cook** — beans pressure-cooked with a stock cube (25 min HP), drained with the liquor kept, then the spelt cooked in that liquor. As cooked: **176 g kidney + 194 g pinto** (dried, unsoaked), **300 g spelt** (chosen to balance the heavier bean load), ~1.2 L bean water + reserved liquor topped to ~750 ml for the grain. Architecture still mirrors the Lobia Masala (8.16): air-fried butternut folded late + white-miso finish, ras el hanout for the spice. Open questions: spelt firmness at ~30 min unsoaked, and whether 12 g ras el hanout is mild enough for Lara/Jannes. **Ratings to be added once collected.**
 </content>
