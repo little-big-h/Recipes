@@ -127,16 +127,59 @@ tools/
 
 ---
 
-## 6. State of play (as of 2026-06-11)
+## 6. State of play (as of 2026-06-27)
 
-- **Heavy `.foodnoms` generation phase.** `tools/ingredient-map.json` was expanded
-  a lot: soybeans/dried-ginger/shiitake-powder resolved from calories-only stubs to
-  **full USDA records**; label-derived records added for harissa, the tomato tin,
-  kecap manis (Chi Wan), peanut flour (Buy Whole Foods), hon-mirin (Clearspring
-  Mikawa), skyr, semi-skimmed milk; **USDA FDC links** added to every USDA row in
-  `INGREDIENT_MAP.md` and a `USDA` column to every recipe's ingredient table.
-- **Creamy Butternut & Soy Bean Soup** is the recipe most actively iterated; cooked
-  and **rated poorly (family avg 6.5, widest spread in the log)** — see RATINGS
-  remark 38 / obs 18.
-- **A second agent is committing to this repo concurrently** (the source of the
-  tree rewinds in §2). Don't assume your last push is still `HEAD` — re-sync.
+**⚠ Tooling changes this session — read before doing FoodNoms work:**
+
+- **The Wolfram Language MCP tool is DISABLED** (Holger turned it off). Do **not**
+  rely on a local Wolfram kernel for building `.foodnoms` or doing nutrition math.
+  Use the **`BuildFoodNomsRecipe` Wolfram Cloud endpoint** instead — it sums and
+  builds the file server-side, and **its download URL *is* the file** (so an endpoint
+  URL doubles as a shareable/embeddable link). For local file work without Wolfram:
+  build `bvx-` uncompressed bytes in `bash` (`'bvx-'` + uint32-LE length + JSON +
+  `'bvx$'`), transform existing files with `jq`, and do any arithmetic in `awk`
+  (not Python — the only sanctioned Python is the `lzfse` codec for reading FoodNoms
+  exports, §2).
+- **Container egress blocks `wolframcloud.com`** — you **cannot fetch or test the
+  endpoint from here**. Build endpoint URLs, but **have Holger click-test one** before
+  trusting a batch. (Open: the **Thai shakshuka download URL is awaiting his
+  click-test** — if it errors, the fix is centralised in the SHAKSHUKA.md ref-def block.)
+- **To deliver an actual file from the container**, build the `bvx-` bytes locally and
+  `SendUserFile` (the base64-bridge trick in `MEAL_LOGGING.md` is now unnecessary —
+  just write the file and send it).
+
+**Holger's real "Breakfast Shakshuka" base records** (decoded from his FoodNoms export
+this session — align shakshuka files to these, *not* ad-hoc local records):
+- Tomato = **`foodnoms:usda:170501`** "Tomatoes (Crushed, Canned)", **32 kcal/100 g,
+  186 mg Na** (salted — NOT the 19-kcal no-salt "Passata" local some earlier files used).
+- Egg = **`foodnoms:01CB05E2-622D-47D0-AEF3-FF93CA40D7AC`**, logged as **2 × large (50 g)**, vit-D 2.
+- Spinach = `foodnoms:usda:168462` "Spinach (Raw)"; Nooch = `local:A79EC48D-C9A5-43A9-9F24-C57821BECF60`.
+
+**Shakshuka meal-file regime** (`design/SHAKSHUKA.md`): collectionType **2**,
+**uncertainty 0** (committed values — Holger overrode the MEAL_LOGGING 10% "prepared
+dish" tier; these are recipe-spec, treat as committed), all seasonings merged into one
+**named** "Spices & Seasonings — <constituents>" line. Per-profile download URLs live in
+the **"FoodNoms downloads"** section (reference-style defs) and link from **every matrix
+column header and every profile section heading**. *Open offers Holger may take up:*
+(a) pull **nooch** out into its own line to match his Breakfast Shakshuka exactly;
+(b) strip the **old collectionType-3 "⬇ Download" recipe links** still sitting in some
+profile sections (superseded by the header links).
+
+**Recent cooks logged this session:**
+- **Cold Buckwheat, Asparagus & Black-Eyed Bean Salad** — cooked & rated (family avg
+  **8.32**; RATINGS remark 44). **PC kasha method validated** (0-min / low pressure /
+  10-min defined release, absorption — firm, predictable). Lara's 7.2 = the **900 g
+  cold-blanched asparagus** (situational, not a standing flag). New people-note signals:
+  **Jannes dislikes rocket/peppery leaves**; **Julina not keen on nutty/peanut dressings**.
+  *Open:* the PC kasha **water amount** is still "TBD" in the recipe; bean-firmness not
+  separately confirmed (presumed fine).
+- **Thai green shakshuka** — redesigned for umami (shiitake 4 g added *with the passata*,
+  **not** bloomed; fry the paste hard; aminos 10→15 ml). First cook **8.4** — now canonical.
+  *Open:* which fix carried it; whether the optional coconut-milk splash was used.
+
+- **A second agent commits to this repo concurrently** (the source of the tree rewinds in
+  §2). Don't assume your last push is still `HEAD` — re-sync. This session was developed on
+  branch `claude/mirin-kombu-cooking-TQbeN` and **fast-forward-merged to `main`**.
+- **Date skew:** the environment's `currentDate` read **2026-06-27**, but cook logs /
+  `.foodnoms` stamps this session used **2026-06-25 / `[25-06-26]`** and bash mtimes show
+  Jun 27 — stamps may be off by ~2 days. Confirm the date with Holger before stamping.
