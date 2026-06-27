@@ -14,7 +14,7 @@
 | 💧 | Water (bean cook + spelt cook; bean liquor reserved) | ~1.5 L total | 0 | | |
 | 🌾 | Spelt berries (whole, unsoaked — cooked in bean liquor) | 300 g | 1014 | | local *(est.)* |
 | 🎃 | Butternut squash (peeled, air-fried) | 1307 g | 588 | **1307 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
-| 🥑 | Avocado oil (3 g squash · 3 g sauce) | 6 g | 53 | | local |
+| 🥑 | Avocado oil (5 g squash · 3 g sauce) | 8 g | 71 | **8 g** | local |
 | 🧄 | Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
 | 🌰 | Cumin (ground) | 6 g | 23 | | local *(est.)* |
 | 🍛 | Ras el hanout | 12 g | 36 | | local *(est.)* |
@@ -24,7 +24,7 @@
 | 🌿 | Parsley (garnish) | a handful | — | | — |
 | 🌶️ | Harissa (at table) | to taste | — | | — |
 | 🍋 | Lemon (at table) | to taste | — | | — |
-| | **Total** | **~3.6 kg input** *(incl. ~1.5 L water)* | **~3240** | | |
+| | **Total** | **~3.6 kg input** *(incl. ~1.5 L water)* | **~3260** | | |
 
 *Legend: 🫘🫛 Pulse · 🧂 Stock · 💧 Stock · 🌾 Grain · 🎃 Vegetable · 🥑 Fat · 🧄🌰🍛 Spices / Aromatics · 🍅🥫 Tomato · 🍶 Seasoning · 🌿 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
 
@@ -51,7 +51,7 @@
 
 > **No soak.** Beans and spelt both go in dried. The grain is cooked **in the reserved bean stock** — drain the beans but keep every drop of the liquor.
 
-1. **Air-fry the squash.** Toss 🎃 butternut cubes with ~3 g 🥑 oil + a pinch of salt; **200 °C, ~20 min**, shaking once, until caramelised. Single layer — do it in **two batches** rather than crowding (crowding steams instead of browns). Set aside; it rewarms when folded in.
+1. **Air-fry the squash.** Toss 🎃 butternut cubes with ~5 g 🥑 oil + a pinch of salt (a touch more than the usual 3 g, to coat the bigger squash load evenly); **200 °C, ~20 min**, shaking once, until caramelised. Single layer — do it in **two batches** rather than crowding (crowding steams instead of browns). Set aside; it rewarms when folded in.
 2. **Pressure-cook the beans.** 🫘 kidney + 🫛 pinto + 1 🧂 stock cube + ~1200 ml 💧 water in the Ninja — **no 🥫 passata** (tomato acid stalls the beans). **High pressure 25 min, natural release** — this fully cooks the kidney beans (essential — never run them short). **Drain, but keep the liquor.**
 3. **Cook the spelt in the bean liquor.** Return the reserved liquor to the pot, top up with 💧 water to ~750 ml, add the 🌾 spelt. **High pressure ~30–35 min (unsoaked), natural release**, or simmer covered ~50 min until tender-chewy. Cooking the grain in the bean stock carries the salt, flavour and leached minerals into the spelt. *(Soaked spelt → ~22 min HP.)*
 4. **Build the sauce.** In the wok, bloom 🧄 garlic powder + 🌰 cumin + 🍛 ras el hanout in ~3 g 🥑 oil ~30 sec, then **bhuna the 🍅 tomato paste ~1 min** until it darkens (the umami anchor). Add the 🥫 passata; simmer 5–8 min.
@@ -85,7 +85,7 @@ n100 = <|
 |>;
 amounts = <|
   "kidney" -> 176, "pinto" -> 194, "spelt" -> 300, "butternut" -> 1307,
-  "avocadoOil" -> 6, "garlicPwd" -> 6, "cumin" -> 6, "rasElHanout" -> 12,
+  "avocadoOil" -> 8, "garlicPwd" -> 6, "cumin" -> 6, "rasElHanout" -> 12,
   "tomatoPaste" -> 40, "passata" -> 400, "whiteMiso" -> 30
 |>;
 (* beans/spelt/etc scaled by grams/100; stockCube counted as 1 whole *)
@@ -95,11 +95,11 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3240 kcal | Iron | 60 mg |
+| Energy | 3260 kcal | Iron | 60 mg |
 | Protein | 153 g | Calcium | 1260 mg |
 | Carbohydrates | 648 g | Zinc | 24 mg |
 | — of which sugars | 69 g | Magnesium | 1580 mg |
-| Fat | 24 g | Potassium | 12840 mg |
+| Fat | 26 g | Potassium | 12840 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
 | Fibre | 126 g | Vitamin B12 | 0.0 µg |
 | Salt | ~5.9 g | Folate | 2270 µg |
