@@ -9,18 +9,18 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🫘 | Kidney beans (dried, unsoaked) | 176 g | 593 | **176 g** | [usda](https://fdc.nal.usda.gov/food-details/173744/nutrients) *(est.)* |
-| 🫛 | Pinto beans (dried, unsoaked) | 194 g | 673 | **194 g** | [usda](https://fdc.nal.usda.gov/food-details/173746/nutrients) *(est.)* |
+| 🫛 | Pinto beans (dried, unsoaked) | 194 g | 673 | **194 g** | local *(canonical raw pinto — no current FDC record)* |
 | 🧂 | Vegetable stock cube (in the bean water) | 1 cube | 20 | | local *(est.)* |
 | 💧 | Water (bean cook + spelt cook; bean liquor reserved) | ~1.5 L total | 0 | | |
 | 🌾 | Spelt berries (whole, unsoaked — cooked in bean liquor) | 300 g | 1014 | | local *(est.)* |
 | 🎃 | Butternut squash (peeled, air-fried) | 1307 g | 588 | **1307 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🥑 | Avocado oil (5 g squash · 3 g sauce) | 8 g | 71 | **8 g** | local |
 | 🧄 | Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
-| 🌰 | Cumin (ground) | 6 g | 23 | | local *(est.)* |
+| 🌰 | Cumin (ground) | 6 g | 22 | | local *(est.)* |
 | 🍛 | Ras el hanout | 15 g | 45 | **15 g** | local *(est.)* |
 | 🍅 | Tomato paste | 40 g | 33 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
 | 🥫 | Passata | 500 g | 142 | **500 g** | label *(142 kcal / 500 g)* |
-| 🍶 | White miso (off heat) | 30 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/172442/nutrients) |
+| 🍶 | White miso (off heat) | 30 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/172442/nutrients) |
 | 🌿 | Parsley (garnish) | a handful | — | | — |
 | 🌶️ | Harissa (at table) | to taste | — | | — |
 | 🍋 | Lemon (at table) | to taste | — | | — |
@@ -63,25 +63,26 @@
 
 ## Nutrition
 
-*Whole recipe, for the **actual amounts** (176 g kidney + 194 g pinto + 300 g spelt + 1307 g squash + 500 g passata + 15 g ras el hanout + 1 stock cube). **Estimates, not FoodNoms-verified** — USDA-derived + label values (passata energy from the label, 142 kcal/500 g), computed in Wolfram; micros are committed best-estimates (final, not pending verification). A big, hearty main: very high protein (~154 g), fibre (~128 g), folate (~2.3 mg) and potassium (~13.2 g) from the beans + spelt + a generous squash load. Salt ~6.3 g comes mostly from the stock cube + miso + ras el hanout; the bean liquor (and its salt) is carried into the grain rather than drained away. Adjust up at step 6 to taste — salt is a positive for Holger.*
+*Whole recipe, for the **actual amounts** (176 g kidney + 194 g pinto + 300 g spelt + 1307 g squash + 500 g passata + 15 g ras el hanout + 1 stock cube). **USDA-derived, not FoodNoms-verified** — the five mappable ingredients use authentic USDA FoodData Central per-100 g values fetched via Wolfram; pinto + the pantry/compound items use canonical per-100 g blocks (passata energy from its label, 142 kcal/500 g); summed in Wolfram. Micros are committed best-estimates (final, not pending verification). A big, hearty main: very high protein (~155 g), fibre (~128 g), folate (~2.3 mg) and potassium (~13.2 g) from the beans + spelt + a generous squash load. Salt ~7.4 g — mostly the stock cube + USDA miso (much saltier than first estimated, 3728 mg sodium/100 g); the bean liquor (and its salt) is carried into the grain rather than drained away. Adjust to taste at step 6 — salt is a positive for Holger.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
             iron, calcium, zinc, magnesium, potassium, vitD, B12, folate}
    Per 100 g (stockCube is per cube). *)
+(* USDA-exact per-100 g for the five mapped ids; canonical blocks for the rest. *)
 n100 = <|
-  "kidney"      -> {337, 22.5, 61.3,  2.1,  1.1, 0.16, 15.2, 0.02,  8.2,  83, 2.8, 138, 1359, 0, 0, 394},
-  "pinto"       -> {347, 21.4, 62.6,  2.1,  1.2, 0.25, 15.5, 0.03,  5.1, 113, 2.3, 176, 1393, 0, 0, 525},
-  "spelt"       -> {338, 14.6, 70.2,  1.6,  2.4, 0.4,  10.7, 0.00,  4.4,  27, 3.3, 136,  388, 0, 0,  45},
-  "butternut"   -> { 45,  1.0, 11.7,  2.2,  0.1, 0.02,  2.0, 0.01,  0.7,  48, 0.15, 34,  352, 0, 0,  27},
-  "avocadoOil"  -> {884,  0,    0,    0,   100, 11.6,   0,   0.00,  0,     0, 0,     0,    0, 0, 0,   0},
-  "garlicPwd"   -> {331, 16.6, 73.0,  2.4,  0.7, 0.2,   9.0, 0.06,  5.7,  79, 2.6,  77, 1190, 0, 0,  47},
-  "cumin"       -> {375, 18.0, 44.0,  2.3, 22.0, 1.5,  11.0, 0.17, 66.0, 931, 4.8, 366, 1788, 0, 0,  10},
-  "rasElHanout" -> {300, 12.0, 50.0,  3.0,  8.0, 1.0,  12.0, 5.00, 30.0, 250, 3.0,  90, 1000, 0, 0,  20},
-  "tomatoPaste" -> { 82,  4.3, 18.9, 12.2,  0.5, 0.1,   4.1, 0.05, 2.98,  36, 0.63, 42, 1014, 0, 0,  19},
-  "passata"     -> {28.4, 1.4,  5.8,  5.0,  0.2, 0.05,  1.4, 0.20,  0.9,  15, 0.2,  18,  300, 0, 0,  13}, (* energy from label: 142 kcal / 500 g *)
-  "whiteMiso"   -> {199, 11.7, 26.5,  6.2,  6.0, 1.0,   5.4, 6.00,  2.5,  57, 2.6,  48,  210, 0, 0,  19},
-  "stockCube"   -> { 20,  0.4,  3.0,  0.5,  0.5, 0.2,   0.0, 2.50,  0.2,   5, 0.0,   2,   20, 0, 0,   0}
+  "kidney"      -> {337, 22.53, 61.29,  2.1, 1.06, 0.154, 15.2, 0.03, 6.69,  83, 2.79, 138, 1359, 0, 0,    394}, (* USDA 173744 *)
+  "pinto"       -> {347, 21.4,  62.6,   2.1, 1.2,  0.25,  15.5, 0.03, 5.1,  113, 2.3,  176, 1393, 0, 0,    525}, (* canonical raw pinto, custom *)
+  "spelt"       -> {338, 14.6,  70.2,   1.6, 2.4,  0.4,   10.7, 0.00, 4.4,   27, 3.3,  136,  388, 0, 0,     45},
+  "butternut"   -> { 45,  1.0,  11.69,  2.2, 0.1,  0.021,  2.0, 0.01, 0.7,   48, 0.15,  34,  352, 0, 0,     27}, (* USDA 169295 *)
+  "avocadoOil"  -> {884,  0,     0,     0,  100, 11.6,     0,   0.00, 0,      0, 0,      0,    0, 0, 0,      0},
+  "garlicPwd"   -> {331, 16.55, 72.73, 2.43, 0.73, 0.249,  9.0, 0.15, 5.65,  79, 2.99,  77, 1193, 0, 0,     47}, (* USDA 171325 *)
+  "cumin"       -> {375, 18.0,  44.0,   2.3, 22.0, 1.5,   11.0, 0.17, 66.0, 931, 4.8,  366, 1788, 0, 0,     10},
+  "rasElHanout" -> {300, 12.0,  50.0,   3.0,  8.0, 1.0,   12.0, 5.00, 30.0, 250, 3.0,   90, 1000, 0, 0,     20},
+  "tomatoPaste" -> { 82,  4.32, 18.91, 12.18, 0.47, 0.1,   4.1, 0.15, 2.98,  36, 0.63,  42, 1014, 0, 0,     12}, (* USDA 170459 *)
+  "passata"     -> {28.4, 1.4,   5.8,   5.0, 0.2,  0.05,   1.4, 0.20, 0.9,   15, 0.2,   18,  300, 0, 0,     13}, (* energy from label: 142 kcal / 500 g *)
+  "whiteMiso"   -> {198, 12.79, 25.37,  6.2, 6.01, 1.025,  5.4, 9.32, 2.49,  57, 2.56,  48,  210, 0, 0.08,  19}, (* USDA 172442 *)
+  "stockCube"   -> { 20,  0.4,   3.0,   0.5, 0.5,  0.2,    0.0, 2.50, 0.2,    5, 0.0,    2,   20, 0, 0,      0}
 |>;
 amounts = <|
   "kidney" -> 176, "pinto" -> 194, "spelt" -> 300, "butternut" -> 1307,
@@ -95,29 +96,20 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3280 kcal | Iron | 62 mg |
-| Protein | 154 g | Calcium | 1285 mg |
-| Carbohydrates | 655 g | Zinc | 24 mg |
+| Energy | 3280 kcal | Iron | 59.5 mg |
+| Protein | 155 g | Calcium | 1283 mg |
+| Carbohydrates | 654 g | Zinc | 24.2 mg |
 | — of which sugars | 74 g | Magnesium | 1600 mg |
-| Fat | 27 g | Potassium | 13180 mg |
+| Fat | 27 g | Potassium | 13176 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
 | Fibre | 128 g | Vitamin B12 | 0.0 µg |
-| Salt | ~6.3 g | Folate | 2285 µg |
+| Salt | ~7.4 g | Folate | 2282 µg |
 
 *FoodNoms collection name (with creation stamp): **Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans [27-06-26] ✴️**.*
 
-***`.foodnoms` build — resolved, pending a Wolfram session to emit + verify** (no Wolfram MCP connected when this was written; the `BuildFoodNomsRecipe` link must be `URLBuild`-encoded and the returned bytes round-trip-checked per `docs/RECIPE_NUTRITION_GENERATOR.md`). All ingredients are resolved:*
+***`.foodnoms` file — generated & verified.** Built via the `BuildFoodNomsRecipe` Wolfram Cloud endpoint and round-trip-checked (HTTP 200, valid LZFSE, 12 entries, MD5 `d3ac5c388fd9245621b51c15d812fce0`). Saved as [`examples/…Mixed Beans 270626.foodnoms`](../../examples/Ras%20el%20Hanout%20Spelt%20with%20Air-Fried%20Butternut%20and%20Mixed%20Beans%20270626.foodnoms). Re-download:* [**⬇ download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Ras+el+Hanout+Spelt+with+Air-Fried+Butternut+%26+Mixed+Beans+%5B27-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=5&totalServingSize=3212&fdcIds=173744%2C169295%2C171325%2C170459%2C172442&grams=176%2C1307%2C6%2C40%2C30&customNames=Pinto+Beans+%28Dried%29%3BSpelt+%28Whole%29%3BCumin+%28Ground%29%3BRas+el+Hanout%3BPassata%3BAvocado+Oil%3BVegetable+Stock+Cube&customFoodIds=local%3AA1B2C3D4-0007-4000-8000-000000000007%3Blocal%3AA1B2C3D4-0001-4000-8000-000000000001%3Blocal%3AA1B2C3D4-0002-4000-8000-000000000002%3Blocal%3AA1B2C3D4-0003-4000-8000-000000000003%3Blocal%3AA1B2C3D4-0004-4000-8000-000000000004%3Blocal%3AA1B2C3D4-0005-4000-8000-000000000005%3Blocal%3AA1B2C3D4-0006-4000-8000-000000000006&customQuantities=194%3B300%3B6%3B15%3B500%3B8%3B10&customUnits=gram%3Bgram%3Bgram%3Bgram%3Bmilliliter%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=347%2C21.4%2C62.6%2C2.1%2C1.2%2C0.25%2C15.5%2C12%2C5.1%2C113%2C2.3%2C176%2C1393%2C0%2C0%2C525%3B338%2C14.6%2C70.2%2C1.6%2C2.4%2C0.4%2C10.7%2C0%2C4.4%2C27%2C3.3%2C136%2C388%2C0%2C0%2C45%3B375%2C18%2C44%2C2.3%2C22%2C1.5%2C11%2C68%2C66%2C931%2C4.8%2C366%2C1788%2C0%2C0%2C10%3B300%2C12%2C50%2C3%2C8%2C1%2C12%2C2000%2C30%2C250%2C3%2C90%2C1000%2C0%2C0%2C20%3B28.4%2C1.4%2C5.8%2C5%2C0.2%2C0.05%2C1.4%2C80%2C0.9%2C15%2C0.2%2C18%2C300%2C0%2C0%2C13%3B884%2C0%2C0%2C0%2C100%2C11.6%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B200%2C4%2C30%2C5%2C5%2C2%2C0%2C10000%2C2%2C50%2C0%2C20%2C200%2C0%2C0%2C0)
 
-- *USDA (`fdcIds`/`grams`): kidney `173744`/176 · pinto `173746`/194 · butternut `169295`/1307 · garlic powder `171325`/6 · tomato paste `170459`/40 · white miso `172442`/30.*
-- *Custom (per-100 g `cal,prot,carb,sug,fat,sat,fib,sodium-mg,Fe,Ca,Zn,Mg,K,vitD,B12,folate`; qty·unit):*
-  - *Spelt (whole) — 300·gram — `338,14.6,70.2,1.6,2.4,0.4,10.7,0,4.4,27,3.3,136,388,0,0,45`*
-  - *Cumin (ground) — 6·gram — `375,18,44,2.3,22,1.5,11,68,66,931,4.8,366,1788,0,0,10`*
-  - *Ras el hanout — 15·gram — `300,12,50,3,8,1,12,2000,30,250,3,90,1000,0,0,20`*
-  - *Passata — 500·milliliter — `28.4,1.4,5.8,5,0.2,0.05,1.4,80,0.9,15,0.2,18,300,0,0,13` (energy from label, 142 kcal/500 g)*
-  - *Avocado oil — 8·gram — `884,0,0,0,100,11.6,0,0,0,0,0,0,0,0,0,0`*
-  - *Veg stock cube — 10·gram — `200,4,30,5,5,2,0,10000,2,50,0,20,200,0,0,0`*
-
-- *`name` = the stamped collection name above · `servings` = 5 · `totalServingSize` = 3212. On emit, USDA-fetched values for the six `fdcId`s may shift totals slightly from the hand-estimated table above; write back from `foodnomsTotals`.*
+*Resolution notes: five USDA `fdcId`s fetched exact — kidney `173744`, butternut `169295`, garlic powder `171325`, tomato paste `170459`, white miso `172442`. **Pinto is passed as a custom food** — the SR Legacy "pinto, mature seeds, raw" record is no longer in current FDC (search returns only sprouted / canned / cooked, or a 0 %-moisture Foundation entry), so the custom uses canonical raw-pinto per-100 g values. Spelt, cumin, ras el hanout, passata, avocado oil and the stock cube are custom (no clean USDA generic). The USDA fetch is why these totals supersede the earlier hand estimates — chiefly miso sodium lifting salt to ~7.4 g.*
 
 ---
 
