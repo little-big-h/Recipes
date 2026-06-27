@@ -563,6 +563,8 @@ The original build leaned on **10 ml aminos alone for savouriness — and it doe
 - **🥥 Coconut-milk splash (30–40 g, optional, off heat)** — not umami, but the round Thai-curry *body* the dish otherwise lacks; authentic. Costs a little fat, so optional given the low-fat lean.
 - **Avoid** nutritional yeast / white miso here — both add umami but read cheesy/fermented-Japanese against coconut-green and would muddy it.
 
+**Cook log — 2026-06-25: 8.4.** First cook of the Thai green, with the umami fixes in (🍄 shiitake 4 g stirred in *with the passata*, paste fried hard, 🫗 aminos 15 ml). Landed well — **the depth gap is closed**; sits just under the bold North African (8.6) and Mexican chipotle (8.5), above the mole (8.0). Whole serving ~337 kcal · 21 g protein · 33 g carbs · 15 g fat · 8 g fibre · salt 3.2 g (USDA + label/estimates, not FoodNoms-verified). *Open: which fix carried it — the shiitake or the paste-fry — and whether the coconut-milk splash was used.*
+
 ---
 
 ## Structure 2: Sauerkraut hash
