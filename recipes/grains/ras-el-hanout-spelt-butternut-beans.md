@@ -104,7 +104,20 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
 | Fibre | 128 g | Vitamin B12 | 0.0 µg |
 | Salt | ~6.3 g | Folate | 2285 µg |
 
-*FoodNoms collection name (with creation stamp): **Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans [27-06-26] ✴️**. The `.foodnoms` download block can be generated via `docs/RECIPE_NUTRITION_GENERATOR.md` once the FDC ids are pinned (spelt still needs a confirmed entry).*
+*FoodNoms collection name (with creation stamp): **Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans [27-06-26] ✴️**.*
+
+***`.foodnoms` build — resolved, pending a Wolfram session to emit + verify** (no Wolfram MCP connected when this was written; the `BuildFoodNomsRecipe` link must be `URLBuild`-encoded and the returned bytes round-trip-checked per `docs/RECIPE_NUTRITION_GENERATOR.md`). All ingredients are resolved:*
+
+- *USDA (`fdcIds`/`grams`): kidney `173744`/176 · pinto `173746`/194 · butternut `169295`/1307 · garlic powder `171325`/6 · tomato paste `170459`/40 · white miso `172442`/30.*
+- *Custom (per-100 g `cal,prot,carb,sug,fat,sat,fib,sodium-mg,Fe,Ca,Zn,Mg,K,vitD,B12,folate`; qty·unit):*
+  - *Spelt (whole) — 300·gram — `338,14.6,70.2,1.6,2.4,0.4,10.7,0,4.4,27,3.3,136,388,0,0,45`*
+  - *Cumin (ground) — 6·gram — `375,18,44,2.3,22,1.5,11,68,66,931,4.8,366,1788,0,0,10`*
+  - *Ras el hanout — 15·gram — `300,12,50,3,8,1,12,2000,30,250,3,90,1000,0,0,20`*
+  - *Passata — 500·milliliter — `28.4,1.4,5.8,5,0.2,0.05,1.4,80,0.9,15,0.2,18,300,0,0,13` (energy from label, 142 kcal/500 g)*
+  - *Avocado oil — 8·gram — `884,0,0,0,100,11.6,0,0,0,0,0,0,0,0,0,0`*
+  - *Veg stock cube — 10·gram — `200,4,30,5,5,2,0,10000,2,50,0,20,200,0,0,0`*
+
+- *`name` = the stamped collection name above · `servings` = 5 · `totalServingSize` = 3212. On emit, USDA-fetched values for the six `fdcId`s may shift totals slightly from the hand-estimated table above; write back from `foodnomsTotals`.*
 
 ---
 
