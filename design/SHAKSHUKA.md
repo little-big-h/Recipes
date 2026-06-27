@@ -17,7 +17,7 @@ Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finish
 
 Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = whole dried chillies; *tbl* = added at the table; `—` = not used). The base (🥫 passata + 🥬 spinach + 🥚 eggs + 🥑 oil) is shared across all profiles. Every shakshuka **build** in this doc is a column — the **sauerkraut hash** is a different structure (see *Structure 2* below), so it isn't here.
 
-| Component | Indian | Ind. bold | Curry-Pwd | N.African | Mex. kid | Mex. chip | Mex. mole | Japanese | M.East | Korean | Thai |
+| Component | [Indian][s-indian] | [Ind. bold][s-bold] | [Curry-Pwd][s-curry] | [N.African][s-nafr] | [Mex. kid][s-mexkid] | [Mex. chip][s-mexchip] | [Mex. mole][s-mexmole] | [Japanese][s-japanese] | [M.East][s-meast] | [Korean][s-korean] | [Thai][s-thai] |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | **Base** | | | | | | | | | | | |
 | 🥫 Passata | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 |
@@ -101,7 +101,7 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 
 ---
 
-## Profile: Indian / Tikka
+## Profile: [Indian / Tikka][s-indian]
 
 The Indian profile received the most substantial technique upgrade after the source PDF was written. **The build below supersedes the PDF spec** — uses a chili soak (overnight *or* a 10–15 min morning soak), fresh-toasted cumin in the mortar, toasted-and-ground mustard, and a three-component spice bloom.
 
@@ -174,7 +174,7 @@ Tikka masala already contains ground cumin. The freshly-toasted cumin is to **re
 
 The earthy backbone of this profile (Holger's preference). Toast the seeds until they pop, cool, then grind — toasting denatures the myrosinase, killing the pungency and leaving a nutty, earthy note that *deepens* the tikka rather than competing with it. Toast it **separately** from the cumin (they pop at different rates), and keep it under the tikka like the cumin (~3–4 g).
 
-### Bold variant (Holger, 2026-06-15) — garlic powder + sweet paprika
+### [Bold variant][s-bold] (Holger, 2026-06-15) — garlic powder + sweet paprika
 
 A dialled-up solo version (first cook 2026-06-16). Spices ~1.5× the canonical and **tikka-forward**, fresh garlic swapped for powder, plus **sweet paprika** for colour and pepper body (the tikka blend already carries some, so this is a bold push, not a staple — Kashmiri if you have it; **not** smoked, which would drag it Spanish/Mexican).
 
@@ -198,7 +198,7 @@ Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt
 
 ---
 
-## Profile: Curry-Powder (South Indian, fennel-forward)
+## Profile: [Curry-Powder (South Indian, fennel-forward)][s-curry]
 
 A second Indian profile, distinct from the tikka one: built on a stocked **organic "medium curry" powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli, so heat is added). Fennel-led and sweet-aromatic, built **hot** — a dried-chilli soak blended in, since Holger likes it that way. Solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-18.
 
@@ -248,7 +248,7 @@ A second Indian profile, distinct from the tikka one: built on a stocked **organ
 
 ---
 
-## Profile: Mexican
+## Profile: [Mexican][s-mexkid]
 
 Developed for Anja and Jannes (heat-sensitive). Built around toasted cumin, oregano, tomato paste depth, with carrot for sweetness. No chili in the pan; chili at the table.
 
@@ -294,7 +294,7 @@ Developed for Anja and Jannes (heat-sensitive). Built around toasted cumin, oreg
 
 ---
 
-## Profile: Mexican — chipotle-forward (solo)
+## Profile: [Mexican — chipotle-forward (solo)][s-mexchip]
 
 The adult/solo counterpart to the kid-safe Mexican above. Where that build strips all chilli to the table to protect Anja and Jannes, this one is **built around the smoke** — whole dried chipotle + ancho flakes soaked and blended into the sauce, with smoked paprika stacked on top. Holger solo; uses up the chipotles and anchos (pantry run-down). Designed 2026-06-12, revised 2026-06-14 (smoke-forward). **First cook 2026-06-17 — 8.5.** The double-smoke (chipotle + smoked paprika) landed; ties the bold North African at the top of the breakfast table.
 
@@ -350,7 +350,7 @@ The adult/solo counterpart to the kid-safe Mexican above. Where that build strip
 
 ---
 
-## Profile: Mexican — Mole-Chipotle (solo)
+## Profile: [Mexican — Mole-Chipotle (solo)][s-mexmole]
 
 A **mole/adobo** lean on the chipotle-forward Mexican profile: smoky chipotle + ancho heat married to warm **cinnamon** and a whisper of **cacao** — the chile-chocolate-warm-spice triad of real mole, not a fusion stretch. **No tomato-paste bhuna this time** — umami comes from a stacked condiment trio instead. Holger solo; designed 2026-06-23 for a 2026-06-24 cook. Run-down: chipotle, ancho, cacao nibs.
 
@@ -397,7 +397,7 @@ Leaning toward the first: the problem was crowding, not the idea.
 
 ---
 
-## Profile: North African
+## Profile: [North African][s-nafr]
 
 Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli side timid): harissa and ancho pushed up, cumin/mustard held at 3 g, cinnamon held a whisper. **First cook (bold) — scored 8.5** (2026-06-16): the bolder harissa/ancho landed; cinnamon-cumin-harissa came together. Highest numeric breakfast score on record (vs the Japanese profile's 7.8; the bold Indian was "pretty good", unscored) — **now itself topped by the bold + fennel + soak cook at 8.6 (2026-06-21, cook log below).**
 
@@ -439,7 +439,7 @@ Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli 
 
 ---
 
-## Profile: Japanese / Miso-Forward
+## Profile: [Japanese / Miso-Forward][s-japanese]
 
 Redesigned from PDF spec. **Miso is the star** — red miso for umami depth, dashi sauce for foundation, mirin to round tomato acidity. Oil-free build. Holger solo only (red miso is adult-palate; white miso is the family default).
 
@@ -490,7 +490,7 @@ Redesigned from PDF spec. **Miso is the star** — red miso for umami depth, das
 
 ---
 
-## Profile: Middle Eastern (shakshuka)
+## Profile: [Middle Eastern (shakshuka)][s-meast]
 
 Per PDF spec — distinct from the sauerkraut hash Levantine variant. Spice-light, finisher-led.
 
@@ -509,7 +509,7 @@ Per PDF spec — distinct from the sauerkraut hash Levantine variant. Spice-ligh
 
 ---
 
-## Profile: Korean (new — from PDF)
+## Profile: [Korean (new — from PDF)][s-korean]
 
 Gochujang-based, with sesame and rice vinegar. Distinctive flavour direction not present in any other profile.
 
@@ -533,7 +533,7 @@ Gochujang-based, with sesame and rice vinegar. Distinctive flavour direction not
 
 ---
 
-## Profile: Thai green (bonus — not in PDF matrix)
+## Profile: [Thai green (bonus — not in PDF matrix)][s-thai]
 
 Not in the source PDF but retained as a useful direction. Built around fresh aromatics — but **fresh aromatics aren't umami**, so the savoury depth has to come from a properly-fried paste + shiitake (see notes below), not from fermented pastes.
 
@@ -691,3 +691,21 @@ Compare a cube-based shakshuka against a freshly-pounded portion: day 1 (immedia
 | Holger solo, want comfort | Sauerkraut hash, Levantine (za'atar + sumac + tahini) |
 | Simplest, fastest | Middle Eastern shakshuka (za'atar + sumac, 4-ingredient flavouring) |
 | Family-friendly variant | Mexican (mildest cooking-in heat, chili at table) |
+
+---
+
+## FoodNoms downloads
+
+One **meal** file per profile (collectionType 2; **committed values, no ±band**; base aligned to Holger's *Breakfast Shakshuka* records — crushed-tomato `usda:170501`, his egg record, raw spinach; all the seasonings rolled into one **named** "Spices & Seasonings" line). The profile names in the matrix above and the section headings link here. Each link hits the `BuildFoodNomsRecipe` endpoint and downloads the file directly.
+
+[s-indian]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Indian%20Tikka%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20tikka%20masala%2C%20cumin%2C%20mustard%2C%20tomato%20paste%2C%20chilli&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A9A8D233D-4E52-D03C-BA1F-848BF926CE7F&customQuantities=100%3B3%3B39.5&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B208.15200000000002%2C9.178%2C31.912%2C8.98%2C7.407%2C0.76%2C9.468%2C1611.127%2C10.418000000000001%2C202.937%2C1.825%2C114.253%2C977.8480000000001%2C0.0%2C0.0%2C27.747
+[s-bold]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Bold%20Indian%20Tikka%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20tikka%20masala%2C%20cumin%2C%20mustard%2C%20sweet%20paprika%2C%20tomato%20paste&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3AD83EE330-DF1C-B3C0-0DEC-CA21CA3F7C85&customQuantities=100%3B3%3B48.5&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B224.031%2C10.077%2C34.328%2C10.293000000000001%2C8.464%2C0.964%2C12.521%2C1561%2C12.77%2C202.804%2C2.1%2C132.02100000000002%2C1199.134%2C0.0%2C0.0%2C32.67
+[s-curry]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Curry-Powder%20Shakshuka%20%28Hot%29%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20curry%20powder%2C%20cumin%2C%20tomato%20paste%2C%20chilli&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A2A5804F8-EE1D-EFAB-3F33-6E590BE373AC&customQuantities=100%3B3%3B40&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B191.163%2C8.108%2C44.404%2C10.281%2C5.33%2C0.673%2C12.881%2C1642.488%2C11.036%2C195.65%2C1.942%2C121.275%2C1231.55%2C0.0%2C0.0%2C51.662
+[s-nafr]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=North%20African%20Shakshuka%20%28Bold%20%2B%20Fennel%29%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20harissa%2C%20ancho%2C%20cumin%2C%20fennel%2C%20cinnamon%2C%20mustard%2C%20aminos%2C%20nooch&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A14E0A8FC-9E3D-F3A5-61DC-266575E18731&customQuantities=100%3B3%3B50.5&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B285.406%2C20.661%2C42.655%2C6.191%2C9.345%2C1.094%2C16.953%2C1485.634%2C7.049%2C152.168%2C1.149%2C83.525%2C582.297%2C0.0%2C0.0%2C23.257
+[s-mexkid]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican%20Shakshuka%20%28Kid-Safe%29%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462%2C170393%2C173735&grams=300%2C100%2C50%2C60&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20cumin%2C%20oregano%2C%20garlic%2C%20tomato%20paste%2C%20aminos%2C%20nooch&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3ADD0C3183-A519-9630-3297-770B73B21159&customQuantities=100%3B7%3B22&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B174.136%2C11.71%2C31.356%2C8.051%2C3.494%2C0.606%2C9.555%2C189.364%2C10.771%2C275.818%2C1.121%2C77.636%2C718.727%2C0.0%2C0.0%2C27.364
+[s-mexchip]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican%20Chipotle%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20chipotle%2C%20ancho%2C%20smoked%20paprika%2C%20cumin%2C%20coriander%2C%20oregano%2C%20tomato%20paste%2C%20aminos%2C%20nooch&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A6C0DB40D-EA91-F177-699E-0171D9D605A6&customQuantities=100%3B3%3B70.5&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B191.65200000000002%2C10.256%2C37.191%2C13.759%2C4.292%2C0.776%2C13.462%2C826.355%2C8.821%2C150.475%2C1.234%2C89.241%2C1206.035%2C0.0%2C0.0%2C36.972
+[s-mexmole]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican%20Mole-Chipotle%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20chipotle%2C%20ancho%2C%20smoked%20paprika%2C%20cumin%2C%20cinnamon%2C%20cacao%2C%20shiitake%2C%20oregano%2C%20aminos%2C%20nooch&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A68A63FA3-53D1-1BE0-2C92-75F9C4CF42F8&customQuantities=100%3B3%3B58.5&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B261.547%2C12.542%2C46.855000000000004%2C12.463000000000001%2C7.45%2C2.375%2C18.391000000000002%2C972.154%2C9.163%2C151.068%2C2.145%2C95.718%2C1131.017%2C13.162%2C0.0%2C46.761
+[s-japanese]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Japanese%20Miso%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20miso%2C%20mirin%2C%20dashi%20soy%2C%20sesame%20oil%2C%20shichimi%2C%20nori%2C%20garlic%2C%20ginger%2C%20chilli&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Blocal%3A681994D3-E3F0-A68F-5D7F-102593B6499A&customQuantities=100%3B53.5&customUnits=gram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B230.53300000000002%2C5.188%2C25.274%2C8.884%2C11.419%2C1.651%2C3.9450000000000003%2C1742.364%2C1.875%2C48.523%2C0.896%2C40.393%2C255.299%2C0.0%2C0.015%2C11.682
+[s-meast]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Middle%20Eastern%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20za%27atar%2C%20sumac%2C%20aminos%2C%20nooch%2C%20garlic&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A7EF683B8-ABB1-B354-1FD3-723E9600E44D&customQuantities=100%3B3%3B37&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B251.108%2C21.904%2C36.412%2C7.541%2C4.838%2C1.064%2C14.011000000000001%2C644.811%2C2.454%2C97.946%2C0.652%2C35.135%2C200.108%2C0.0%2C0.0%2C0.324
+[s-korean]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Korean%20Gochujang%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20gochujang%2C%20ginger%2C%20sesame%20oil%2C%20rice%20vinegar%2C%20aminos&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Blocal%3A9095E184-5C3E-BFE0-A3A2-293AE7AA745F&customQuantities=100%3B43&customUnits=gram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B216.047%2C2.327%2C24.294%2C12.700000000000001%2C12.698%2C2.015%2C1.651%2C1073%2C0.7000000000000001%2C13.674%2C0.23800000000000002%2C18.581%2C147.674%2C0.0%2C0.0%2C2.047
+[s-thai]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Thai%20Green%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20green%20curry%20paste%2C%20lemongrass%2C%20galangal%2C%20ginger%2C%20shiitake%2C%20aminos&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A1A53030F-E11F-652D-0EBE-B16935A054D9&customQuantities=100%3B3%3B60&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B113.4%2C2.096%2C21.897%2C9.232%2C2.32%2C1.002%2C3.05%2C1471.517%2C1.111%2C20.867%2C0.784%2C26.95%2C251.35%2C10.267%2C0%2C11.417
