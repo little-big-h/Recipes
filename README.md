@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
-2. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
-3. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
-4. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
-5. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
-6. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
-7. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
-8. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
-9. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
-10. **[Creamy Pinto, Butternut & Corn Soup with Steamed Broccoli](recipes/soups/creamy-pinto-butternut-soup.md)** — 2026-06-03
+1. **[Ras el Hanout Spelt with Air-Fried Butternut & Chickpeas](recipes/grains/ras-el-hanout-spelt-butternut-chickpeas.md)** — 2026-06-27
+2. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
+3. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
+4. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
+5. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
+6. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
+7. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
+8. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
+9. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
+10. **[Creamy Pinto & Butternut Soup — Bold (v2, no corn)](recipes/soups/creamy-pinto-butternut-soup-v2.md)** — 2026-06-06
 
 ---
 
