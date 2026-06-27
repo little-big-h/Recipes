@@ -17,14 +17,14 @@
 | 🥑 | Avocado oil (5 g squash · 3 g sauce) | 8 g | 71 | **8 g** | local |
 | 🧄 | Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
 | 🌰 | Cumin (ground) | 6 g | 23 | | local *(est.)* |
-| 🍛 | Ras el hanout | 12 g | 36 | | local *(est.)* |
+| 🍛 | Ras el hanout | 15 g | 45 | **15 g** | local *(est.)* |
 | 🍅 | Tomato paste | 40 g | 33 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
-| 🥫 | Passata | 400 g | 128 | | local *(est.)* |
+| 🥫 | Passata | 500 g | 142 | **500 g** | label *(142 kcal / 500 g)* |
 | 🍶 | White miso (off heat) | 30 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/172442/nutrients) |
 | 🌿 | Parsley (garnish) | a handful | — | | — |
 | 🌶️ | Harissa (at table) | to taste | — | | — |
 | 🍋 | Lemon (at table) | to taste | — | | — |
-| | **Total** | **~3.6 kg input** *(incl. ~1.5 L water)* | **~3260** | | |
+| | **Total** | **~3.7 kg input** *(incl. ~1.5 L water)* | **~3280** | | |
 
 *Legend: 🫘🫛 Pulse · 🧂 Stock · 💧 Stock · 🌾 Grain · 🎃 Vegetable · 🥑 Fat · 🧄🌰🍛 Spices / Aromatics · 🍅🥫 Tomato · 🍶 Seasoning · 🌿 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
 
@@ -63,7 +63,7 @@
 
 ## Nutrition
 
-*Whole recipe, for the **actual amounts** (176 g kidney + 194 g pinto + 300 g spelt + 1307 g squash + 1 stock cube). **Estimates, not FoodNoms-verified** — USDA-derived + label values, computed in Wolfram; micros are committed best-estimates (final, not pending verification). A big, hearty main: very high protein (~153 g), fibre (~126 g), folate (~2.3 mg) and potassium (~12.8 g) from the beans + spelt + a generous squash load. Salt ~5.9 g comes mostly from the stock cube + miso; the bean liquor (and its salt) is carried into the grain rather than drained away. Adjust up at step 6 to taste — salt is a positive for Holger.*
+*Whole recipe, for the **actual amounts** (176 g kidney + 194 g pinto + 300 g spelt + 1307 g squash + 500 g passata + 15 g ras el hanout + 1 stock cube). **Estimates, not FoodNoms-verified** — USDA-derived + label values (passata energy from the label, 142 kcal/500 g), computed in Wolfram; micros are committed best-estimates (final, not pending verification). A big, hearty main: very high protein (~154 g), fibre (~128 g), folate (~2.3 mg) and potassium (~13.2 g) from the beans + spelt + a generous squash load. Salt ~6.3 g comes mostly from the stock cube + miso + ras el hanout; the bean liquor (and its salt) is carried into the grain rather than drained away. Adjust up at step 6 to taste — salt is a positive for Holger.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -79,14 +79,14 @@ n100 = <|
   "cumin"       -> {375, 18.0, 44.0,  2.3, 22.0, 1.5,  11.0, 0.17, 66.0, 931, 4.8, 366, 1788, 0, 0,  10},
   "rasElHanout" -> {300, 12.0, 50.0,  3.0,  8.0, 1.0,  12.0, 5.00, 30.0, 250, 3.0,  90, 1000, 0, 0,  20},
   "tomatoPaste" -> { 82,  4.3, 18.9, 12.2,  0.5, 0.1,   4.1, 0.05, 2.98,  36, 0.63, 42, 1014, 0, 0,  19},
-  "passata"     -> { 32,  1.4,  5.8,  5.0,  0.2, 0.05,  1.4, 0.20,  0.9,  15, 0.2,  18,  300, 0, 0,  13},
+  "passata"     -> {28.4, 1.4,  5.8,  5.0,  0.2, 0.05,  1.4, 0.20,  0.9,  15, 0.2,  18,  300, 0, 0,  13}, (* energy from label: 142 kcal / 500 g *)
   "whiteMiso"   -> {199, 11.7, 26.5,  6.2,  6.0, 1.0,   5.4, 6.00,  2.5,  57, 2.6,  48,  210, 0, 0,  19},
   "stockCube"   -> { 20,  0.4,  3.0,  0.5,  0.5, 0.2,   0.0, 2.50,  0.2,   5, 0.0,   2,   20, 0, 0,   0}
 |>;
 amounts = <|
   "kidney" -> 176, "pinto" -> 194, "spelt" -> 300, "butternut" -> 1307,
-  "avocadoOil" -> 8, "garlicPwd" -> 6, "cumin" -> 6, "rasElHanout" -> 12,
-  "tomatoPaste" -> 40, "passata" -> 400, "whiteMiso" -> 30
+  "avocadoOil" -> 8, "garlicPwd" -> 6, "cumin" -> 6, "rasElHanout" -> 15,
+  "tomatoPaste" -> 40, "passata" -> 500, "whiteMiso" -> 30
 |>;
 (* beans/spelt/etc scaled by grams/100; stockCube counted as 1 whole *)
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
@@ -95,14 +95,14 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3260 kcal | Iron | 60 mg |
-| Protein | 153 g | Calcium | 1260 mg |
-| Carbohydrates | 648 g | Zinc | 24 mg |
-| — of which sugars | 69 g | Magnesium | 1580 mg |
-| Fat | 26 g | Potassium | 12840 mg |
+| Energy | 3280 kcal | Iron | 62 mg |
+| Protein | 154 g | Calcium | 1285 mg |
+| Carbohydrates | 655 g | Zinc | 24 mg |
+| — of which sugars | 74 g | Magnesium | 1600 mg |
+| Fat | 27 g | Potassium | 13180 mg |
 | — of which saturates | 4 g | Vitamin D | 0.0 µg |
-| Fibre | 126 g | Vitamin B12 | 0.0 µg |
-| Salt | ~5.9 g | Folate | 2270 µg |
+| Fibre | 128 g | Vitamin B12 | 0.0 µg |
+| Salt | ~6.3 g | Folate | 2285 µg |
 
 *FoodNoms collection name (with creation stamp): **Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans [27-06-26] ✴️**. The `.foodnoms` download block can be generated via `docs/RECIPE_NUTRITION_GENERATOR.md` once the FDC ids are pinned (spelt still needs a confirmed entry).*
 
@@ -123,5 +123,5 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]]
 
 ## Cook log
 
-- **Planned — cooked 2026-06-27 (ratings pending).** Designed and cooked same day with a fast-moving brief. Evolution: started as butternut/spelt/**chickpea**; cook swapped the legume to a **kidney + pinto mix** (only 154 g black-eyed on hand, so those were dropped) and moved to a **two-stage cook** — beans pressure-cooked with a stock cube (25 min HP), drained with the liquor kept, then the spelt cooked in that liquor. As cooked: **176 g kidney + 194 g pinto** (dried, unsoaked), **300 g spelt** (chosen to balance the heavier bean load), **1307 g squash** (well over the 900 g design — a squash-heavy pot), ~1.2 L bean water + reserved liquor topped to ~750 ml for the grain. Architecture still mirrors the Lobia Masala (8.16): air-fried butternut folded late + white-miso finish, ras el hanout for the spice. Open questions: spelt firmness at ~30 min unsoaked, and whether 12 g ras el hanout is mild enough for Lara/Jannes. **Ratings to be added once collected.**
+- **Planned — cooked 2026-06-27 (ratings pending).** Designed and cooked same day with a fast-moving brief. Evolution: started as butternut/spelt/**chickpea**; cook swapped the legume to a **kidney + pinto mix** (only 154 g black-eyed on hand, so those were dropped) and moved to a **two-stage cook** — beans pressure-cooked with a stock cube (25 min HP), drained with the liquor kept, then the spelt cooked in that liquor. As cooked: **176 g kidney + 194 g pinto** (dried, unsoaked), **300 g spelt** (chosen to balance the heavier bean load), **1307 g squash** (well over the 900 g design — a squash-heavy pot), **8 g oil** (5 g squash toss for the bigger load + 3 g sauce), **500 g passata** (label 142 kcal/500 g), **15 g ras el hanout**, ~1.2 L bean water + reserved liquor topped to ~750 ml for the grain. Architecture still mirrors the Lobia Masala (8.16): air-fried butternut folded late + white-miso finish, ras el hanout for the spice. Open questions: spelt firmness at ~30 min unsoaked, and whether 12 g ras el hanout is mild enough for Lara/Jannes. **Ratings to be added once collected.**
 </content>
