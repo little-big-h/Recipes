@@ -375,7 +375,7 @@ buildFoodNomsRecipe[spec_Association] := Module[
     {name, recipeJson}, {selected["name"], selected["json"]}];
 
   <|"name" -> cleanFilename[selectedName] <> ".foodnoms", "bytes" -> foodnomsBytes[selectedJson],
-    "json" -> selectedJson|>];
+    "json" -> selectedJson, "warnings" -> warnings|>];
 
 
 (* ============ B2. Resolution: ingredient name -> USDA candidates =========
@@ -450,11 +450,30 @@ specFromParams[a_] := Module[{errs = {}},
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
 
-(* The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
-   envelope -- so a browser GET on a query-string URL, or `curl -o`, lands the
-   file directly. Filename via Content-Disposition (RFC 5987); cleanFilename
-   strips the [date] stamp + emoji and spells '&' as 'and' for the FILENAME only
-   -- the in-file collection name keeps the full "...[DD-MM-YY] ✴️" stamp. *)
+(* CONTENT NEGOTIATION on the `Accept` request header -- ONE resource, two
+   representations of the same recipe, same URL:
+
+     Accept: application/json   -> a plain JSON view: the decoded recipe
+                                   (foodCollections + foodEntries, no 'bvx-'
+                                   wrapper) PLUS computed `totals` (16 slots +
+                                   salt), per-ingredient `estKcal`, and
+                                   `warnings`. Lets a caller read totals and the
+                                   resolved entry descriptions WITHOUT decoding
+                                   the LZFSE container client-side.
+     anything else (the default,
+       incl. browsers' text/html
+       and application/octet-stream)
+                                -> the raw .foodnoms bytes, exactly as before, so
+                                   a browser GET or `curl -o` still lands the file
+                                   (the clickable download link is unaffected).
+
+   `Vary: Accept` is set on every response so a shared cache never serves the
+   JSON view to a client that asked for the file (or vice-versa). The request
+   header is read with HTTPRequestData (guarded -- falls back to the bytes view
+   if headers are unavailable). Filename via Content-Disposition (RFC 5987);
+   cleanFilename strips the [date] stamp + emoji and spells '&' as 'and' for the
+   FILENAME only -- the in-file collection name keeps the full "...[DD-MM-YY] ✴️"
+   stamp. *)
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
     "emit" -> opt["String", "recipe"],
@@ -472,13 +491,37 @@ foodnomsAPI = APIFunction[
     "customUnits"      -> opt[DelimitedSequence["String", ";"], {}],
     "customNutrientNames"  -> opt[DelimitedSequence[DelimitedSequence["String", ","], ";"], {}],
     "customNutrientValues" -> opt[DelimitedSequence[DelimitedSequence["Number", ","], ";"], {}]},
-   Module[{spec = specFromParams[#], r},
+   Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[FailureQ[spec],
-      HTTPResponse[spec["err"], <|"StatusCode" -> 400, "Headers" -> {"Content-Type" -> "text/plain"}|>],
+      HTTPResponse[spec["err"], <|"StatusCode" -> 400,
+        "Headers" -> {"Content-Type" -> "text/plain", "Vary" -> "Accept"}|>],
       r = buildFoodNomsRecipe[spec];
-      HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
-         "Content-Type" -> "application/octet-stream",
-         "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]] &];
+      (* the request's Accept header, lower-cased; guarded -- if the header isn't
+         reachable we default to "*/*" (the bytes view). *)
+      accept = Quiet @ Check[
+        ToLowerCase @ Lookup[
+          Association @ Cases[HTTPRequestData["Headers"], (k_ -> v_) :> (ToLowerCase[k] -> v)],
+          "accept", "*/*"],
+        "*/*"];
+      wantJson = StringContainsQ[accept, "application/json"];
+      If[wantJson,
+       (* JSON view: decoded recipe + computed totals + per-ingredient est. kcal
+          + warnings. Same numbers the bytes view encodes, no LZFSE wrapper. *)
+       body = <|
+          "filename" -> r["name"],
+          "recipe" -> r["json"],
+          "totals" -> foodnomsTotals[r["json"]],
+          "estKcal" -> (Function[e, <|
+              "name" -> e["name"],
+              "kcal" -> Round[Lookup[e["nutrients"], "calories", 0] *
+                  e["quantity"] / e["baseAmount"]]|>] /@ r["json"]["foodEntries"]),
+          "warnings" -> r["warnings"]|>;
+       HTTPResponse[ExportByteArray[body, "RawJSON"], <|"StatusCode" -> 200,
+         "Headers" -> {"Content-Type" -> "application/json", "Vary" -> "Accept"}|>],
+       (* default: the raw .foodnoms bytes (unchanged) *)
+       HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
+          "Content-Type" -> "application/octet-stream", "Vary" -> "Accept",
+          "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]]] &];
 
 (* the resolution endpoint (search only — returns candidates to judge) *)
 resolveAPI = APIFunction[
@@ -530,9 +573,19 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    of ingredient weights); uncertainty=<0..100 integer percent> sets the FoodNoms
    uncertainty on every entry (e.g. uncertainty=30 for a ±30% estimate; default 0).
 
-   No envelope: warnings + the companion-file menu live in the recipe collection's
-   `notes`; totals are read back from the file with
-   foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]] (foodnomsDecode for
-   the JSON). Unknown emit -> recipe (noted); patch-free recipe -> only the recipe
-   file. Mis-aligned column lengths -> HTTP 400 with the offending arrays. *)
+   Totals + entries without downloading the file: set the Accept header to ask
+   for the JSON view (decoded recipe + `totals` + per-ingredient `estKcal` +
+   `warnings`) instead of the bytes -- same URL, content-negotiated:
+
+     curl -s -H 'Accept: application/json' \
+       'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=My%20Soup&fdcIds=169295&grams=500'
+     -> {"filename":"My Soup.foodnoms","recipe":{...},"totals":{...,"salt":...},
+         "estKcal":[{"name":...,"kcal":...},...],"warnings":[...]}
+
+   Default (no/other Accept, e.g. a browser or `curl -o`) still returns the raw
+   .foodnoms bytes. Either way warnings + the companion-file menu also live in the
+   recipe collection's `notes`; foodnomsTotals[ByteArray[BinaryReadList[
+   "Soup.foodnoms"]]] (foodnomsDecode for the JSON) still reads totals back from a
+   saved file. Unknown emit -> recipe (noted); patch-free recipe -> only the
+   recipe file. Mis-aligned column lengths -> HTTP 400 with the offending arrays. *)
 
