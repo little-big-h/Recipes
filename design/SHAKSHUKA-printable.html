@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Shakshuka Profiles — Kitchen Reference</title>
+<style>
+  @page { size: A4 landscape; margin: 6mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a1a;
+    font-size: 6.7pt;
+    line-height: 1.05;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 2px; }
+  h1 { font-size: 13pt; margin: 0; letter-spacing: -0.2px; }
+  h1 .sub { font-size: 7.5pt; font-weight: 400; color: #555; margin-left: 8px; }
+  .meta { font-size: 6.4pt; color: #666; text-align: right; line-height: 1.15; }
+
+  .base {
+    background: #fff7ec; border: 1px solid #e8c98c; border-radius: 3px;
+    padding: 2px 7px; margin-bottom: 3px; font-size: 6.8pt; line-height: 1.2;
+  }
+  .base b { color: #9a6a12; }
+
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+  col.lbl { width: 116px; }
+  th, td { border: 0.5px solid #d8d8d8; padding: 0.3px 2px; text-align: center; vertical-align: middle; }
+  thead th {
+    background: #2c3e50; color: #fff; font-size: 6.2pt; font-weight: 600;
+    padding: 2px 1px; line-height: 1.02;
+  }
+  thead th.cmp { text-align: left; background: #1f2c38; padding-left: 5px; }
+  td.cmp, th.cmp { text-align: left; padding-left: 5px; }
+  td.cmp { font-weight: 600; font-size: 6.2pt; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  td.cmp .em { font-size: 6pt; }
+  tbody td { line-height: 1.0; }
+  tr.grp td {
+    background: #e9eef2; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.3px; font-size: 5.9pt; color: #2c3e50; text-align: left; padding-left: 5px;
+    padding-top: 0.5px; padding-bottom: 0.5px;
+  }
+  td.amt { font-variant-numeric: tabular-nums; }
+  td.dash { color: #c4c4c4; }
+  tbody tr:nth-child(even) td:not(.cmp) { background: #fafbfc; }
+  .hot { background: #fdecea !important; }
+  td.cmp .em { margin-right: 2px; }
+
+  .footwrap { display: flex; gap: 10px; margin-top: 3px; }
+  .notes { flex: 1.55; font-size: 6pt; line-height: 1.18; }
+  .scores { flex: 1; font-size: 6pt; }
+  .notes b, .scores b { color: #2c3e50; }
+  .notes p { margin: 0 0 1.5px 0; }
+  ul { margin: 1px 0 0 0; padding-left: 12px; }
+  li { margin-bottom: 1px; }
+  .legend { font-size: 5.8pt; color: #555; margin-top: 1.5px; }
+  .stbl { width: 100%; border-collapse: collapse; }
+  .stbl td { border: 0; padding: 0.3px 4px 0.3px 0; text-align: left; }
+  .stbl .s { text-align: right; font-weight: 700; color: #1f7a3d; width: 28px; }
+  .warn { color: #b5530a; font-weight: 700; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Shakshuka Profiles <span class="sub">single-serving spice matrix · grams unless noted</span></h1>
+  <div class="meta">Source: design/SHAKSHUKA.md · Recipes/<br>pantry run-down build · ✴️ Claude-assisted</div>
+</header>
+
+<div class="base">
+  <b>Shared base (all profiles):</b> 🥫 Passata 400 g · 🥬 Spinach 100 g · 🥚 Eggs 2–3 · 🥑 Avocado oil 3 g.
+  &nbsp;<b>Method:</b> bloom aromatics 30–60 s → bloom spices/pastes 30–60 s → deglaze w/ passata (+ soaked chillies) → wilt spinach 1–2 min → eggs in wells, cover 5–7 min → finish.
+  &nbsp;<i>tbl</i> = added at table · <i>pc</i> = whole dried chillies · — = not used.
+</div>
+
+<table>
+  <colgroup>
+    <col class="lbl">
+    <col span="11">
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="cmp">Component</th>
+      <th>Indian<br>Tikka</th>
+      <th>Indian<br>bold</th>
+      <th>Curry<br>Powder</th>
+      <th>North<br>African</th>
+      <th>Mex.<br>kid</th>
+      <th>Mex.<br>chipotle</th>
+      <th>Mex.<br>mole</th>
+      <th>Japanese<br>miso</th>
+      <th>Mid.<br>East</th>
+      <th>Korean<br>gochuj.</th>
+      <th>Thai<br>green</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="grp"><td colspan="12">Base overrides</td></tr>
+    <tr><td class="cmp"><span class="em">🥫</span>Passata</td><td class="amt">400</td><td class="amt">400</td><td class="amt">400</td><td class="amt">400</td><td class="amt">300</td><td class="amt">400</td><td class="amt">400</td><td class="amt">400</td><td class="amt">400</td><td class="amt">400</td><td class="amt">400</td></tr>
+    <tr><td class="cmp"><span class="em">🥚</span>Eggs</td><td class="amt">2–3</td><td class="amt">2–3</td><td class="amt">2</td><td class="amt">2</td><td class="amt">2–3</td><td class="amt">2</td><td class="amt">2</td><td class="amt">2–3</td><td class="amt">2–3</td><td class="amt">2–3</td><td class="amt">2–3</td></tr>
+    <tr><td class="cmp"><span class="em">🥑</span>Avocado oil</td><td class="amt">3</td><td class="amt">3</td><td class="amt">3</td><td class="amt">3</td><td class="amt">7</td><td class="amt">3</td><td class="amt">3</td><td class="dash">—</td><td class="amt">3</td><td class="dash">—</td><td class="amt">3</td></tr>
+
+    <tr class="grp"><td colspan="12">Spice blends / pastes</td></tr>
+    <tr><td class="cmp"><span class="em">🍛</span>Tikka masala*</td><td class="amt">6</td><td class="amt">9</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍛</span>Curry powder</td><td class="dash">—</td><td class="dash">—</td><td class="amt">10</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🫙</span>Harissa</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">8</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Gochujang</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">15</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌿</span>Za'atar</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">5</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍇</span>Sumac</td><td class="amt">tbl</td><td class="amt">tbl</td><td class="dash">—</td><td class="dash">—</td><td class="amt">tbl</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">3</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍶</span>Red miso <span class="warn">⚠</span></td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">10</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍲</span>Green curry paste</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">20</td></tr>
+    <tr><td class="cmp"><span class="em">🌾</span>Lemongrass paste</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">10</td></tr>
+    <tr><td class="cmp"><span class="em">🫚</span>Galangal paste</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">8</td></tr>
+
+    <tr class="grp"><td colspan="12">Heat / chili</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Chipotle (soaked)</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">8</td><td class="amt">8</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🫑</span>Ancho flakes</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">6</td><td class="dash">—</td><td class="amt">8</td><td class="amt">8</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Dried chilli (soak)</td><td class="amt">2pc</td><td class="amt">2–3pc</td><td class="amt">~3</td><td class="amt">1–2pc</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">1pc</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Smoked paprika <span class="warn">⚠</span></td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">6</td><td class="amt">6</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Sweet/Kashmiri papr.</td><td class="dash">—</td><td class="amt">3</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Bird's-eye</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">tbl</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+
+    <tr class="grp"><td colspan="12">Toasted whole spices</td></tr>
+    <tr><td class="cmp"><span class="em">🌰</span>Cumin</td><td class="amt">3</td><td class="amt">4</td><td class="amt">2</td><td class="amt">3</td><td class="amt">2</td><td class="amt">2</td><td class="amt">2</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌭</span>Mustard</td><td class="amt">3–4</td><td class="amt">4</td><td class="dash">—</td><td class="amt">4</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌿</span>Fennel</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">2</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🪵</span>Cinnamon</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">1</td><td class="dash">—</td><td class="dash">—</td><td class="amt">1</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">⚫</span>Cacao nibs</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">3</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍄</span>Shiitake powder</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">5</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">4</td></tr>
+    <tr><td class="cmp"><span class="em">🌿</span>Coriander (ground)</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">2</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌿</span>Oregano</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">2</td><td class="amt">2</td><td class="amt">2</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+
+    <tr class="grp"><td colspan="12">Aromatics</td></tr>
+    <tr><td class="cmp"><span class="em">🧄</span>Garlic (fresh)</td><td class="amt">8</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">4</td><td class="dash">—</td><td class="dash">—</td><td class="amt">4</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🧄</span>Garlic powder</td><td class="dash">—</td><td class="amt">2</td><td class="amt">2</td><td class="dash">—</td><td class="dash">—</td><td class="amt">1.5</td><td class="amt">1.5</td><td class="amt">1–2</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🫚</span>Fresh ginger</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">8–10</td><td class="dash">—</td><td class="amt">8</td><td class="amt">3</td></tr>
+    <tr><td class="cmp"><span class="em">🫚</span>Dried ginger</td><td class="amt">1</td><td class="amt">1.5</td><td class="amt">1.5</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">3–4</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍅</span>Tomato paste (bhuna)</td><td class="amt">15</td><td class="amt">22</td><td class="amt">20</td><td class="dash">—</td><td class="amt">8</td><td class="amt">20</td><td class="amt">none</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🥕</span>Grated carrot</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">50</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+
+    <tr class="grp"><td colspan="12">Liquid finishers / umami</td></tr>
+    <tr><td class="cmp"><span class="em">🫗</span>Aminos (liq/coco)</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">10</td><td class="amt">3</td><td class="amt">15</td><td class="amt">15</td><td class="dash">—</td><td class="amt">10</td><td class="amt">10</td><td class="amt">15</td></tr>
+    <tr><td class="cmp"><span class="em">🧀</span>Nutritional yeast</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">15</td><td class="amt">3</td><td class="amt">5</td><td class="amt">6</td><td class="dash">—</td><td class="amt">15</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍶</span>Dashi soy</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">8–10</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍶</span>Mirin</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">10</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🛢️</span>Sesame oil (finish)</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">5</td><td class="dash">—</td><td class="amt">5</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍋</span>Rice vinegar</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">5</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🌶️</span>Shichimi</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">4</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🥬</span>Nori</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">~1.5</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🧂</span>Salt (in soak)</td><td class="amt">1</td><td class="amt">1</td><td class="amt">1.5</td><td class="dash">—</td><td class="dash">—</td><td class="amt">1</td><td class="amt">1</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🍋</span>Lemon / lime</td><td class="dash">—</td><td class="dash">—</td><td class="amt">lem</td><td class="dash">—</td><td class="dash">—</td><td class="amt">lime</td><td class="amt">lime</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+    <tr><td class="cmp"><span class="em">🥥</span>Coconut milk (opt)</td><td class="amt">40–50</td><td class="dash">—</td><td class="amt">40–50</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="amt">30–40</td></tr>
+    <tr><td class="cmp"><span class="em">🫙</span>Garam masala (opt)</td><td class="dash">—</td><td class="dash">—</td><td class="amt">2</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td><td class="dash">—</td></tr>
+  </tbody>
+</table>
+
+<div class="footwrap">
+  <div class="notes">
+    <p><b>* Indian:</b> Tikka <i>or</i> Madras, not both; bold runs tikka 9 g. Hold tikka above cumin/mustard so it reads <i>tikka</i>, not cumin.</p>
+    <p><span class="warn">⚠ Solo-only:</span> smoked paprika (Lara dislikes smoke — sweet paprika fine) &amp; red miso (Jannes dislikes funk — white miso is family default).</p>
+    <p><b>Umami rule:</b> every tomato-base profile <i>bhunas</i> the tomato paste — except <b>mole</b>, whose umami is aminos + nooch + shiitake (glutamate × guanylate). Soaked chillies: blend the soak water in (half the flavour). Stir shiitake in <i>with the passata</i> in Thai (it scorches dry).</p>
+    <p><b>Kid-safe Mexican:</b> 300 g passata + 50 g grated carrot, all chilli at the table. <b>Bhuna fix when flat:</b> deglaze the stuck fond with water splashes, repeat 2–3× — the fond is concentrated flavour, not a burn.</p>
+    <p class="legend"><b>Key:</b> amounts per single serving, g unless noted · <i>tbl</i> table · <i>pc</i> whole dried chilli · — not used · <span class="warn">⚠</span> family-palate caveat.</p>
+  </div>
+  <div class="scores">
+    <b>Cook scores (out of 10)</b>
+    <table class="stbl">
+      <tr><td>North African (bold + fennel + soak)</td><td class="s">8.6</td></tr>
+      <tr><td>Mexican chipotle</td><td class="s">8.5</td></tr>
+      <tr><td>Thai green</td><td class="s">8.4</td></tr>
+      <tr><td>Curry-Powder (hot)</td><td class="s">8.2</td></tr>
+      <tr><td>Mexican mole-chipotle</td><td class="s">8.0</td></tr>
+      <tr><td>Japanese miso (no ginger)</td><td class="s">7.8</td></tr>
+      <tr><td>Indian bold</td><td class="s">good*</td></tr>
+    </table>
+    <p style="margin-top:3px"><b>Pick by audience:</b> Solo full flavour → Indian/Tikka · Smoke + heat → Mex. chipotle · Umami depth → Japanese (red miso, adult) · Kids/heat-sensitive → Mexican (no in-pan chilli) · Fresh herbs → Thai · Something different → Korean · Fastest → Middle Eastern.</p>
+    <p class="legend">*Indian bold "pretty good", unscored. Nutrition ~340–420 kcal · 21–30 g protein · 11–17 g fibre · salt 2.4–3.2 g per serving (USDA-derived, not FoodNoms-verified).</p>
+  </div>
+</div>
+</body>
+</html>
