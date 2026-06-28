@@ -271,7 +271,7 @@ foodnomsTotals[in_] := Module[{r = If[Head[in] === ByteArray, foodnomsDecode[in]
 buildFoodNomsRecipe[spec_Association] := Module[
   {name, servings, ctype, ings, warnings = {}, entries = {}, aux = {}, totalSize,
    recipeJson, recipeCollection, auxRecs, emit, selected, notes,
-   selectedName, selectedJson, defaultUnc, i = 0},
+   selectedName, selectedJson, defaultUnc, fe, fjson, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
   (* collectionType: 3 = recipe (default; carries the yield fields), 2 = meal
@@ -351,6 +351,23 @@ buildFoodNomsRecipe[spec_Association] := Module[
     #["name"] &];
 
   emit = Lookup[spec, "emit", "recipe"];
+  (* emit=food: a STANDALONE food in entry form (contentType 1, FOODNOMS_FORMAT
+     §4a) -- a one-item foodEntries[], NO collection. The first resolved entry
+     already carries baseAmount/baseUnit/nutrients (per 100) + quantity/measure/
+     uncertainty, i.e. the entry-form shape, so we just rewrap it without a
+     collection (dropping the collection-only collectionSortIndex). The filename
+     and foodID come from that food; warns if more than one food was supplied. *)
+  If[emit === "food",
+   fe = If[entries === {}, $Failed, KeyDrop[First[entries], "collectionSortIndex"]];
+   If[Length[entries] > 1,
+    AppendTo[warnings, "emit=food emits only the first food; " <>
+      ToString[Length[entries] - 1] <> " other(s) ignored"]];
+   If[fe === $Failed, AppendTo[warnings, "emit=food: no resolved food to emit"]];
+   fjson = <|"version" -> 2, "contentType" -> 1,
+      "foodEntries" -> If[fe === $Failed, {}, {fe}]|>;
+   Return[<|
+     "name" -> cleanFilename[If[fe === $Failed, "Food", Lookup[fe, "name", "Food"]]] <> ".foodnoms",
+     "bytes" -> foodnomsBytes[fjson], "json" -> fjson, "warnings" -> warnings|>]];
   selected = If[emit === "recipe", "recipe",
     SelectFirst[auxRecs, #["name"] === emit &, $Failed]];
   If[selected === $Failed,
@@ -582,7 +599,8 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    2) BuildFoodNomsRecipe — resolved ingredients -> ONE raw .foodnoms file. The
       body IS the file, so a browser GET or `curl -o` lands it directly. One call,
       one file; keep all params identical and vary only `emit` ("recipe" default,
-      or a companion-food name listed in the recipe's notes):
+      "food" for a standalone food — see below, or a companion-food name listed in
+      the recipe's notes):
 
      # recipe (default): one USDA ingredient (fdcId 169295, 500 g) patched +200 sodium/100g
      curl -s -o Soup.foodnoms \
@@ -613,6 +631,20 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
        customQuantities=367;437;120&customUnits=gram;gram;gram&\
        customNutrientNames=calories;calories;calories&customNutrientValues=114;130;32&\
        customUncertainties=10;10;0'
+
+   STANDALONE FOOD (emit=food): a reusable FoodNoms food in entry form (contentType
+   1, no collection) -- for logging a labelled product by any weight. Pass exactly
+   ONE food (a USDA fdcId, or a custom food from a label) + emit=food; the first
+   resolved entry is rewrapped as the food (filename + foodID come from it). Macros
+   from the label, micros estimated and passed as custom nutrients:
+
+     # custom food from a UK label (per 100 g); micros estimated
+     curl -s -o 'Wasabi Peas.foodnoms' 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?\
+       emit=food&customNames=Wasabi%20Peas&customFoodIds=local:WASABIPEAS&customQuantities=100&customUnits=gram&\
+       customNutrientNames=calories,protein,carbs,sugars,fat,fatSaturated,fiber,sodium,iron,calcium,zinc,magnesium,potassium,vitaminD,vitaminB12,folate&\
+       customNutrientValues=433,12,50,4,18,1.4,16,680,2.4,50,1.5,55,470,0,0,125'
+
+     # or straight from a USDA generic: emit=food&fdcIds=168389&grams=100
 
    Totals + entries without downloading the file: set the Accept header to ask
    for the JSON view (decoded recipe + `totals` + per-ingredient `estKcal` +
