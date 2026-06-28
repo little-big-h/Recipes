@@ -23,7 +23,7 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 
 > **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty still has to be patched in the kernel (see Uncertainty policy below) since the query param is meal-wide.
 
-> **Egress.** `wolframcloud.com` is **not** in the repo container's network allowlist, so `curl`-ing the endpoint from here fails. To deliver an actual file, build the bytes in the Wolfram kernel and bridge them out as base64 (`BaseEncode`), then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
+> **Egress.** `wolframcloud.com` **is now in** the container's network allowlist (added 2026-06-27), so the simplest path is to **`curl` the endpoint directly**: `curl -o meal.foodnoms '…/BuildFoodNomsRecipe?…'` for the raw file bytes, or add `-H 'Accept: application/json'` to get the decoded entries + computed totals back (verify resolution + totals without cracking the `bvx-` container — see `RECIPE_NUTRITION_GENERATOR.md`). *Fallback* — for a kernel-only session, if egress is ever withdrawn, or when you must **patch per-entry `uncertainty`** in the kernel (the query param is meal-wide, see above): build the bytes in Wolfram, bridge them out with `BaseEncode[byteArray]`, then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
 
 ---
 
