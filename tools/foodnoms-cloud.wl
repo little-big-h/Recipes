@@ -161,21 +161,23 @@ $totalsSlots = {"calories", "protein", "carbs", "sugars", "fat", "fatSaturated",
    "fiber", "sodium", "iron", "calcium", "zinc", "magnesium", "potassium",
    "vitaminD", "vitaminB12", "folate"};
 
-(* standard per-100 g USDA ingredient entry *)
-usdaFoodEntry[block_, qty_, unit_, sortIdx_] := DeleteMissing @ <|
+(* standard per-100 g USDA ingredient entry. `unc` is this entry's uncertainty
+   (integer percent); 0 -> omit the field entirely (the FoodNoms "no estimate"
+   tier), per the meal-logging uncertainty policy. *)
+usdaFoodEntry[block_, qty_, unit_, sortIdx_, unc_ : 0] := DeleteMissing @ <|
    "name" -> block["name"],
    "foodID" -> "foodnoms:usda:" <> ToString[block["fdcId"]],
    "source" -> "usda",
    "secondarySource" -> fdcSecondarySource[block["dataType"]],
    "version" -> 1, "baseAmount" -> 100, "baseUnit" -> unit,
-   "traits" -> 0, "uncertainty" -> 0,
+   "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
    "quantity" -> qty,
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> block["nutrients"],
    "collectionSortIndex" -> sortIdx|>;
 
 (* pass-through entry for non-USDA (local:/ciqual:) foods: nutrients given verbatim *)
-passthroughFoodEntry[ing_, sortIdx_] := Module[
+passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
   {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]]},
   DeleteMissing @ <|
    "name" -> Lookup[ing, "name", "Ingredient"],
@@ -185,7 +187,7 @@ passthroughFoodEntry[ing_, sortIdx_] := Module[
    "version" -> 1,
    "baseAmount" -> Lookup[ing, "baseAmount", 100],
    "baseUnit" -> unit,
-   "traits" -> 0, "uncertainty" -> 0,
+   "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
    "quantity" -> ing["quantity"],
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> ing["nutrients"],
@@ -269,23 +271,29 @@ foodnomsTotals[in_] := Module[{r = If[Head[in] === ByteArray, foodnomsDecode[in]
 buildFoodNomsRecipe[spec_Association] := Module[
   {name, servings, ctype, ings, warnings = {}, entries = {}, aux = {}, totalSize,
    recipeJson, recipeCollection, auxRecs, emit, selected, notes,
-   selectedName, selectedJson, i = 0},
+   selectedName, selectedJson, defaultUnc, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
   (* collectionType: 3 = recipe (default; carries the yield fields), 2 = meal
      (a list of foods eaten, no yield). See FOODNOMS_FORMAT.md 5 vs 6. *)
   ctype = Lookup[spec, "collectionType", 3];
   ings = Lookup[spec, "ingredients", {}];
+  (* FoodNoms 'uncertainty' is an INTEGER percent 0-100 (verified from a FoodNoms
+     export: 30% serialises as 30, NOT 0.3). The meal-wide `uncertainty` is the
+     DEFAULT; each ingredient may carry its own (per-entry tiers 0/10/30, set via
+     the fdcUncertainties / customUncertainties columns). 0 -> field omitted. *)
+  defaultUnc = Round @ Lookup[spec, "uncertainty", 0];
 
   Do[
-    Module[{ing = rawIng, fdcId, block, patch, qty, unit, note, trio},
+    Module[{ing = rawIng, fdcId, block, patch, qty, unit, note, trio, thisUnc},
      qty = Lookup[ing, "quantity", 0];
      unit = Lookup[ing, "unit", "gram"];
      patch = Lookup[ing, "patch", <||>];
+     thisUnc = Lookup[ing, "uncertainty", defaultUnc];
      Which[
       (* pass-through: explicit foodID + nutrients given verbatim *)
       KeyExistsQ[ing, "nutrients"] && KeyExistsQ[ing, "foodID"],
-        AppendTo[entries, passthroughFoodEntry[ing, i]],
+        AppendTo[entries, passthroughFoodEntry[ing, i, thisUnc]],
       (* USDA-resolved by a known fdcId (with or without a patch).
          NB: no fuzzy name search here — resolution is a separate concern
          (the ResolveFDC endpoint). An ingredient must arrive already resolved. *)
@@ -301,7 +309,8 @@ buildFoodNomsRecipe[spec_Association] := Module[
             StringRiffle[KeyValueMap[#1 <> " +" <> ToString[#2] &, patch], ", "] <> "."];
          trio = patchTrio[block, patch, qty, note,
            Lookup[ing, "patchFoodID", Missing[]], Lookup[ing, "patchedFoodID", Missing[]], i];
-         AppendTo[entries, trio["entry"]];
+         AppendTo[entries, If[TrueQ[thisUnc > 0],
+            Append[trio["entry"], "uncertainty" -> Round[thisUnc]], trio["entry"]]];
          AppendTo[aux, trio["patchFood"]];
          AppendTo[aux, trio["patchedFood"]];
          If[trio["missing"] =!= {},
@@ -309,7 +318,7 @@ buildFoodNomsRecipe[spec_Association] := Module[
            block["name"] <> ": patch created previously-missing key(s) " <>
             ToString[trio["missing"]]]],
          (* else: plain USDA entry *)
-         AppendTo[entries, usdaFoodEntry[block, qty, unit, i]]],
+         AppendTo[entries, usdaFoodEntry[block, qty, unit, i, thisUnc]]],
       (* unresolved: neither a known fdcId nor a pass-through food — skip, don't guess *)
       True,
         AppendTo[warnings,
@@ -319,11 +328,8 @@ buildFoodNomsRecipe[spec_Association] := Module[
     i++,
     {rawIng, ings}];
 
-  (* FoodNoms 'uncertainty' is an INTEGER percent 0-100 (verified from a FoodNoms
-     export: 30% serialises as 30, NOT 0.3). Round to int; default 0 = none. *)
-  With[{unc = Round @ Lookup[spec, "uncertainty", 0]},
-    If[unc =!= 0, entries = (Append[#, "uncertainty" -> unc] &) /@ entries]];
-
+  (* uncertainty is now applied PER ENTRY in the loop above (each entry's own
+     tier, or defaultUnc) -- no blanket post-pass. *)
   totalSize = Lookup[spec, "totalServingSize",
     Total[Lookup[#, "quantity", 0] & /@ entries]];
 
@@ -424,6 +430,14 @@ patchFor[id_, a_] := AssociationThread[
    Pick[a["patchNutrientNames"], a["patchFdcIds"], id] ->
    Pick[a["patchDeltas"],        a["patchFdcIds"], id]];
 
+(* attach a per-entry uncertainty to an ingredient assoc, unless none was given
+   (Missing) -- absent key => the builder uses the meal-wide default *)
+addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u]]];
+
+(* a per-group uncertainty column, padded to Missing when omitted (length 0) so it
+   aligns with its ingredient group; length is guarded in specFromParams *)
+uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
+
 (* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
 specFromParams[a_] := Module[{errs = {}},
   If[Length[a["fdcIds"]] =!= Length[a["grams"]],
@@ -435,17 +449,26 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "all custom* arrays must be equal length"]];
   If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
+  (* per-entry uncertainty columns are OPTIONAL: each must be empty (use the
+     meal-wide default) or exactly its group's length *)
+  If[! MemberQ[{0, Length[a["fdcIds"]]}, Length[a["fdcUncertainties"]]],
+   AppendTo[errs, "fdcUncertainties must be empty or the same length as fdcIds"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customUncertainties"]]],
+   AppendTo[errs, "customUncertainties must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
      "uncertainty" -> a["uncertainty"], "collectionType" -> a["collectionType"],
      "ingredients" -> Join[
-       MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
-         {a["fdcIds"], a["grams"]}],
-       MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-           "nutrients" -> AssociationThread[#5 -> #6]|> &,
+       MapThread[
+         addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
+         {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
+       MapThread[
+         addUnc[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
+            "nutrients" -> AssociationThread[#5 -> #6]|>, #7] &,
          {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
-          a["customNutrientNames"], a["customNutrientValues"]}]]|>,
+          a["customNutrientNames"], a["customNutrientValues"],
+          uncCol[a["customUncertainties"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -490,7 +513,11 @@ foodnomsAPI = APIFunction[
     "customQuantities" -> opt[DelimitedSequence["Number", ";"], {}],
     "customUnits"      -> opt[DelimitedSequence["String", ";"], {}],
     "customNutrientNames"  -> opt[DelimitedSequence[DelimitedSequence["String", ","], ";"], {}],
-    "customNutrientValues" -> opt[DelimitedSequence[DelimitedSequence["Number", ","], ";"], {}]},
+    "customNutrientValues" -> opt[DelimitedSequence[DelimitedSequence["Number", ","], ";"], {}],
+    (* optional per-entry uncertainty (integer percent), aligned with each group;
+       empty -> the meal-wide `uncertainty` default applies to that group *)
+    "fdcUncertainties"    -> opt[DelimitedSequence["Number", ","], {}],
+    "customUncertainties" -> opt[DelimitedSequence["Number", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[FailureQ[spec],
       HTTPResponse[spec["err"], <|"StatusCode" -> 400,
@@ -570,8 +597,22 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    customNutrientValues=189,38  (';' separates foods; nested ','/';' for the blocks).
 
    Two scalar knobs: totalServingSize=<grams> sets the recipe yield (default = sum
-   of ingredient weights); uncertainty=<0..100 integer percent> sets the FoodNoms
-   uncertainty on every entry (e.g. uncertainty=30 for a ±30% estimate; default 0).
+   of ingredient weights); uncertainty=<0..100 integer percent> is the MEAL-WIDE
+   DEFAULT uncertainty (e.g. uncertainty=30 for a ±30% estimate; default 0).
+
+   PER-ENTRY uncertainty (for meals that mix tiers 0/10/30 in one sitting): give
+   fdcUncertainties (',' list, aligned with fdcIds/grams) and/or customUncertainties
+   (';' list, aligned with the custom* arrays). Each is OPTIONAL — empty means "use
+   the meal-wide default for that group"; otherwise it must match its group length.
+   A value of 0 omits the field for that entry (the FoodNoms "no estimate" tier). So
+   a single call now yields a correctly-tiered meal file — no kernel patching:
+
+     # one meal, two dishes weighed (10) + one raw fruit (0)
+     curl -s -o Lunch.foodnoms 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?\
+       name=Lunch&collectionType=2&customNames=Ma%20Po;Rice;Strawberries&customFoodIds=local:a;local:b;local:c&\
+       customQuantities=367;437;120&customUnits=gram;gram;gram&\
+       customNutrientNames=calories;calories;calories&customNutrientValues=114;130;32&\
+       customUncertainties=10;10;0'
 
    Totals + entries without downloading the file: set the Accept header to ask
    for the JSON view (decoded recipe + `totals` + per-ingredient `estKcal` +
