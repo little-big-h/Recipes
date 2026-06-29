@@ -58,7 +58,7 @@ These are unresolved and should not be unilaterally decided by Claude:
 
 - **Parent-directory file hygiene** (stale duplicates, orphans, autosaves, SVGs) — leave / archive / delete.
 - **Obsidian XHTML-header rendering** of the jQuery colour-coding snippets — never visually verified.
-- **Wolfram Cloud timeline endpoint** rendering — never visually spot-checked for the encoded URLs in current recipes.
+- ~~**Wolfram Cloud timeline endpoint** rendering — never visually spot-checked.~~ **Resolved 2026-06-28:** spot-checked via curl → SVG → PNG; the endpoint renders correctly. Caveat found: **labels must be ASCII-only** (a `°`/`é`/`–`/emoji yields a valid-but-empty SVG, HTTP 200). See the ASCII-only warning in `docs/RECIPE_FORMAT.md` → Timeline.
 - **Ingredient nutrition data source** — no master `n100` Wolfram library has been located in the project; computation workflow for new recipes is unconfirmed (likely "Holger looks up values in FoodNoms, Claude computes totals in Wolfram").
 - **Post-Workout Cream** (Holger solo recipe) — exists in earlier conversational memory, not on disk anywhere. Whether to capture as a Recipes/ file is undecided.
 - **Pantry/staples list** — recurring ingredients (white miso, liquid aminos, nutritional yeast, shiitake powder, capers, amaranth, defatted peanut flour, whole spices) are not collated.

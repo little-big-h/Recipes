@@ -220,6 +220,16 @@ Track order = top-to-bottom row order = **order of first device use**.
 
 URL-encode each JSON value before inserting into the query string.
 
+> ⚠ **Labels must be ASCII-only.** A non-ASCII character in any track/step/sync
+> label (`°`, `é`, `–` en-dash, `×`, curly quotes, emoji) makes the endpoint
+> return a **valid-but-empty SVG** — title and axis render, but every bar/label
+> silently vanishes, with **HTTP 200 and no error**. Write `200C` not `200°C`,
+> `saute` not `sauté`, `-` not `–`. (Verified 2026-06-28: this was the cause
+> behind the previously-unchecked endpoint render — the endpoint itself is fine,
+> the failure mode is non-ASCII input. To spot-check a render without a browser:
+> `curl -sG <endpoint> --data-urlencode "steps=…" --data-urlencode "syncs=…"`,
+> then convert the SVG to PNG and view it; an empty body = a non-ASCII label.)
+
 ### Device colour palette
 
 | Device | Hex |
