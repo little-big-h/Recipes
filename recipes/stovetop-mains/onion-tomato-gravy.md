@@ -25,7 +25,7 @@
 
 *Legend: 🧅 Vegetable · 🥑 Fat · 🍅🥫 Tomato · 🧄🫚 Aromatics · 🌰🌿🍛🫑 Spices · 🍃 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
 
-*Spice amounts are **estimates** (not weighed). 🧄 garlic powder + 🫚 ground ginger stand in for fresh (pantry run-down). **Turmeric omitted — not in stock;** the 🫑 Kashmiri paprika carries the colour, so no substitute needed. Spice nutrition is now **USDA SR Legacy** (full micronutrient panels) except 🍛 garam masala (a blend — no USDA generic, so a committed best-estimate) and 🥫 canned tomatoes, whose **macros are from the label** (19 kcal, salt 0.1 g/100 g) with micros estimated. Totals are for the **whole batch of sauce** (~1.2 kg cooked) — it's a base, so per-serving depends on what you build into it. Optional umami finishes (miso, shiitake) are in the design notes, not counted here.*
+*Spice amounts are **estimates** (not weighed). 🧄 garlic powder + 🫚 ground ginger stand in for fresh (pantry run-down). **Turmeric omitted — not in stock;** the 🫑 Kashmiri paprika carries the colour, so no substitute needed. Spice nutrition is now **USDA SR Legacy** (full micronutrient panels) except 🍛 garam masala (a blend — no USDA generic, so a committed best-estimate) and 🥫 canned tomatoes, whose **macros are from the label** (19 kcal, salt 0.1 g/100 g) with micros estimated. Totals are for the **whole batch of sauce** (~1.2 kg cooked) — it's a base, so per-serving depends on what you build into it. An optional shiitake-powder umami finish is in the design notes, not counted here.*
 
 ---
 
@@ -48,7 +48,7 @@
 5. **Tomatoes + simmer.** Add the hand-crushed 🥫 canned tomatoes; simmer **15–20 min**, reducing to a **thick, jammy** gravy — whole tomatoes are juicy, so reduce them down properly. Salt to taste.
 6. **Blend smooth.** Cool slightly, then blend until silky in the standalone blender (vent the lid for hot liquid). **That's the sauce.**
 
-> **Optional umami finish** (off heat, never boil after): whisk in **~20 g white miso** and/or **a pinch (~2–3 g) shiitake powder**. This base is glutamate-only, so a little shiitake *multiplies* its umami without obvious mushroom — the highest-leverage add (see Design notes).
+> **Optional umami finish** (off heat, never boil after): whisk in **a pinch (~2–3 g) shiitake powder**. This base is glutamate-only, so a little shiitake *multiplies* its umami without obvious mushroom — the highest-leverage add (see Design notes). *(White miso would do the same plus add body, but isn't in stock.)*
 
 **To use it:** fold in a protein/veg and simmer to meld — tinned chickpeas, air-fried tofu, paneer, butternut, or kofta — loosening with water to a pourable gravy; finish with cream/cottage cheese/coconut for makhani-style richness. Or reduce thicker for a **shakshuka base** (streak eggs through it). 🍃 coriander over; 🌶️ chilli + 🍋 lemon at the table.
 
@@ -102,12 +102,12 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 - **Microwave-then-sauté onions** (Holger's move). Pre-softening in the microwave collapses the onion cells, so they hit deep gold in roughly half the pan time and with less oil — a real shortcut for an onion-heavy base.
 - **Whole canned tomatoes, hand-crushed → reduced → blended.** Better fruit than passata and no calcium-chloride firming, so they melt silky. They're juicy, so **reduce hard** before blending (the watery-base failure mode).
 - **Blend-smooth = Lara-friendly.** A silky gravy with no recognisable pieces is exactly her texture, and a smooth base takes any add-in cleanly afterwards.
-- **Umami is glutamate-only here — and that's the lever.** Bhuna'd paste + tomato carry the glutamate, but there's **no GMP source**, so per the umami work it sits on the glutamate-only side. A pinch (~2–3 g) of **shiitake powder** off-heat *multiplies* it without obvious mushroom; **white miso** (~20 g off-heat) adds glutamate + kokumi/body. Both optional, both high-leverage.
+- **Umami is glutamate-only here — and that's the lever.** Bhuna'd paste + tomato carry the glutamate, but there's **no GMP source**, so per the umami work it sits on the glutamate-only side. A pinch (~2–3 g) of **shiitake powder** off-heat *multiplies* it without obvious mushroom — the high-leverage finish. (White miso would add glutamate + kokumi/body too, but it's not in stock.)
 - **It's a base, not a dish.** Stops at step 6 as a reusable smooth onion–tomato gravy — build it into a chickpea/tofu/paneer/butternut curry, a kofta gravy, or reduce it thicker as a shakshuka base.
 
 ---
 
 ## Cook log
 
-- **Planned — cooked 2026-06-30 (ratings pending).** First cook same day, around Holger's onion-tomato-gravy method (microwave-jumpstarted onions, bhuna'd paste, two tins of hand-crushed whole tomatoes blended smooth). Made as a **base sauce** — no protein or cream folded in this round. Open questions: reduction level on the juicy whole tomatoes before blending, and whether to add the optional shiitake-powder / miso umami finish. **Ratings to be added once collected** (rate as used, or on the dish it becomes).
+- **Planned — cooked 2026-06-30 (ratings pending).** First cook same day, around Holger's onion-tomato-gravy method (microwave-jumpstarted onions, bhuna'd paste, two tins of hand-crushed whole tomatoes blended smooth). Made as a **base sauce** — no protein or cream folded in this round. Open questions: reduction level on the juicy whole tomatoes before blending, and whether to add the optional shiitake-powder umami finish. **Ratings to be added once collected** (rate as used, or on the dish it becomes).
 </content>
