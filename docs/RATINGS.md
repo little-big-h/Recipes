@@ -126,6 +126,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Aubergine Parmigiana (Anja) | Italian |
 | Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | Indonesian-leaning (gado-gado) |
 | Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans | North African |
+| Smooth Onion–Tomato Gravy with Chickpeas | Indian |
 
 ---
 
@@ -164,6 +165,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Aubergine Parmigiana (Anja) | v1 | cooked | 2026-06-20 | [aubergine-parmigiana.md](../anjas-cooking/aubergine-parmigiana.md) |
 | Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | v1 | cooked | 2026-06-24 | [cold-buckwheat-asparagus-blackeyed-salad.md](../recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md) |
 | Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans | v1 | planned | — | [ras-el-hanout-spelt-butternut-beans.md](../recipes/grains/ras-el-hanout-spelt-butternut-beans.md) |
+| Smooth Onion–Tomato Gravy with Chickpeas | v1 | planned | — | [onion-tomato-gravy-chickpeas.md](../recipes/stovetop-mains/onion-tomato-gravy-chickpeas.md) |
 
 ---
 
