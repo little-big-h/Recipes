@@ -4,7 +4,7 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Smooth Onion–Tomato Gravy with Chickpeas](recipes/stovetop-mains/onion-tomato-gravy-chickpeas.md)** — 2026-06-30
+1. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
 2. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
 3. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
 4. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
