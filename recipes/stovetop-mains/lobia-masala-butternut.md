@@ -29,6 +29,14 @@
 
 ---
 
+## Timeline
+
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Ninja%22%3a%7b%22color%22%3a%22%235A8CD1%22%2c%22steps%22%3a%5b%5b0%2c46%2c%22Peas+5-6min+HP+%2b+release%22%5d%5d%7d%2c%22Air+fryer%22%3a%7b%22color%22%3a%22%233AB5B5%22%2c%22steps%22%3a%5b%5b46%2c66%2c%22Squash+batch+1%22%5d%2c%5b66%2c86%2c%22Squash+batch+2%22%5d%5d%7d%2c%22Wok%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b50%2c62%2c%22Sauce%3a+bloom%2c+bhuna%2c+simmer%22%5d%2c%5b62%2c68%2c%22Fold+in+peas%22%5d%2c%5b68%2c70%2c%22Miso+%2b+lemon+off+heat%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a46%2c%22color%22%3a%22%233A6F9D%22%2c%22label%22%3a%22Peas+done%22%7d%2c%7b%22t%22%3a86%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Ready%22%7d%5d)
+
+*Peas pressure-cook first (the Ninja is busy, ~46 min with heat-up + natural release), then the squash air-fries in two batches while the wok sauce comes together — bloom, bhuna, simmer, fold in the peas, miso + lemon off heat. Squash tops it the moment its second batch is done. ~86 min end to end.*
+
+---
+
 ## Method
 
 > **No soak.** Black-eyed peas cook tender unsoaked in minutes.

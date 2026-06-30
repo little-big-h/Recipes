@@ -8,25 +8,25 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🧅 | Onions (chopped, microwaved then sautéed) | 400 g | 160 | | [usda](https://fdc.nal.usda.gov/food-details/170000/nutrients) |
+| 🧅 | Onions (chopped, microwaved then sautéed) | 405 g | 162 | | [usda](https://fdc.nal.usda.gov/food-details/170000/nutrients) |
 | 🥑 | Avocado oil | 6 g | 53 | | local |
 | 🍅 | Tomato paste (bhuna'd) | 50 g | 41 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
-| 🧄 | Garlic powder | 4 g | 13 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
-| 🫚 | Ginger (ground) | 3 g | 10 | | local *(est.)* |
-| 🌰 | Cumin (ground) | 5 g | 19 | | local *(est.)* |
-| 🌿 | Coriander (ground) | 6 g | 18 | | local *(est.)* |
-| 🌼 | Turmeric | 3 g | 9 | | local *(est.)* |
-| 🍛 | Garam masala | 6 g | 21 | | local *(est.)* |
-| 🫑 | Kashmiri / sweet paprika | 4 g | 11 | | local *(est.)* |
+| 🧄 | Garlic powder | 4 g | 13 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) |
+| 🫚 | Ginger (ground) | 3 g | 10 | | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
+| 🌰 | Cumin (ground) | 5 g | 19 | | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) |
+| 🌿 | Coriander (ground) | 6 g | 18 | | [usda](https://fdc.nal.usda.gov/food-details/170922/nutrients) |
+| 🌼 | Turmeric | 3 g | 9 | | [usda](https://fdc.nal.usda.gov/food-details/172231/nutrients) |
+| 🍛 | Garam masala | 6 g | 21 | | local *(blend — no USDA generic)* |
+| 🫑 | Kashmiri / sweet paprika | 4 g | 11 | | [usda](https://fdc.nal.usda.gov/food-details/171329/nutrients) |
 | 🥫 | Whole canned tomatoes (hand-crushed) | 800 g | 152 | | label *(19 kcal/100 g)* |
 | 🍃 | Fresh coriander (garnish) | a handful | — | | — |
 | 🌶️ | Chilli (at table) | to taste | — | | — |
 | 🍋 | Lemon (at table) | to taste | — | | — |
-| | **Total** | **~1.3 kg input** | **~508** | | |
+| | **Total** | **~1.3 kg input** | **~510** | | |
 
 *Legend: 🧅 Vegetable · 🥑 Fat · 🍅🥫 Tomato · 🧄🫚 Aromatics · 🌰🌿🌼🍛🫑 Spices · 🍃 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
 
-*Spice amounts are **estimates** (not weighed). 🧄 garlic powder + 🫚 ground ginger stand in for fresh (pantry run-down). 🥫 canned-tomato **macros are from the label** (19 kcal, salt 0.1 g/100 g); its micros are estimated. Totals are for the **whole batch of sauce** (~1.2 kg cooked) — it's a base, so per-serving depends on what you build into it. Optional umami finishes (miso, shiitake) are in the design notes, not counted here.*
+*Spice amounts are **estimates** (not weighed). 🧄 garlic powder + 🫚 ground ginger stand in for fresh (pantry run-down). Spice nutrition is now **USDA SR Legacy** (full micronutrient panels) except 🍛 garam masala (a blend — no USDA generic, so a committed best-estimate) and 🥫 canned tomatoes, whose **macros are from the label** (19 kcal, salt 0.1 g/100 g) with micros estimated. Totals are for the **whole batch of sauce** (~1.2 kg cooked) — it's a base, so per-serving depends on what you build into it. Optional umami finishes (miso, shiitake) are in the design notes, not counted here.*
 
 ---
 
@@ -77,7 +77,7 @@ n100 = <|
   "cannedTom"   -> { 19,  1.1,  3.0, 3.0, 0.1, 0.02, 0.9, 0.10, 0.7,   25, 0.15,  9, 220, 0, 0, 13}
 |>;
 amounts = <|
-  "onion" -> 400, "avocadoOil" -> 6, "tomatoPaste" -> 50, "garlicPwd" -> 4,
+  "onion" -> 405, "avocadoOil" -> 6, "tomatoPaste" -> 50, "garlicPwd" -> 4,
   "gingerGrd" -> 3, "cumin" -> 5, "corianderG" -> 6, "turmeric" -> 3, "garam" -> 6,
   "paprika" -> 4, "cannedTom" -> 800
 |>;
@@ -86,16 +86,16 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 508 kcal | Iron | 17 mg |
-| Protein | 20 g | Calcium | 444 mg |
-| Carbohydrates | 88 g | Zinc | 3.4 mg |
+| Energy | 510 kcal | Iron | 17 mg |
+| Protein | 20 g | Calcium | 445 mg |
+| Carbohydrates | 89 g | Zinc | 3.4 mg |
 | — of which sugars | 48 g | Magnesium | 203 mg |
-| Fat | 11 g | Potassium | 3335 mg |
-| — of which saturates | 1 g | Vitamin D | 0.0 µg |
-| Fibre | 23 g | Vitamin B12 | 0.0 µg |
-| Salt | ~1.0 g | Folate | 196 µg |
+| Fat | 11 g | Potassium | 3343 mg |
+| — of which saturates | 2 g | Vitamin D | 0.0 µg |
+| Fibre | 24 g | Vitamin B12 | 0.0 µg |
+| Salt | ~1.0 g | Folate | 193 µg |
 
-*FoodNoms collection name (with creation stamp): **Smooth Onion–Tomato Gravy [30-06-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Smooth+Onion-Tomato+Gravy+%5b30-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=3&servings=4&totalServingSize=1200&fdcIds=170000%2c170459%2c171325&grams=400%2c50%2c4&customNames=Ginger+%28Ground%29%3bCumin+%28Ground%29%3bCoriander+%28Ground%29%3bTurmeric%3bGaram+Masala%3bPaprika%3bWhole+Canned+Tomatoes%3bAvocado+Oil&customFoodIds=local%3aGINGERGRD%3blocal%3aCUMIN%3blocal%3aCORIANDER%3blocal%3aTURMERIC%3blocal%3aGARAM%3blocal%3aPAPRIKA%3blocal%3aCANNEDTOM%3blocal%3aAVOCADOOIL&customQuantities=3%3b5%3b6%3b3%3b6%3b4%3b800%3b6&customUnits=gram%3bgram%3bgram%3bgram%3bgram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=335%2c8.98%2c71.6%2c3.4%2c4.24%2c2.6%2c14.1%2c28%2c19.8%2c114%2c3.6%2c214%2c1320%2c0%2c0%2c13%3b375%2c18%2c44%2c2.3%2c22%2c1.5%2c11%2c68%2c66%2c931%2c4.8%2c366%2c1788%2c0%2c0%2c10%3b298%2c12.4%2c55%2c0%2c17.8%2c1.0%2c41.9%2c40%2c16.3%2c709%2c4.7%2c330%2c1267%2c0%2c0%2c0%3b312%2c9.7%2c67%2c3.2%2c3.3%2c1.8%2c22.7%2c40%2c55%2c168%2c4.5%2c208%2c2080%2c0%2c0%2c20%3b350%2c12%2c50%2c3%2c12%2c2%2c25%2c80%2c30%2c400%2c3%2c150%2c1300%2c0%2c0%2c20%3b282%2c14%2c54%2c10%2c13%2c2.1%2c35%2c28%2c21%2c229%2c4.3%2c178%2c2280%2c0%2c0%2c49%3b19%2c1.1%2c3%2c3%2c0.1%2c0.02%2c0.9%2c40%2c0.7%2c25%2c0.15%2c9%2c220%2c0%2c0%2c13%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0)** — generated only when clicked; totals verified to this table (~508 kcal, HTTP 200).*
+*FoodNoms collection name (with creation stamp): **Smooth Onion–Tomato Gravy [30-06-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Smooth+Onion-Tomato+Gravy+%5b30-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=3&servings=4&totalServingSize=1205&fdcIds=170000%2c170459%2c171325%2c170923%2c170922%2c172231%2c171329%2c170926&grams=405%2c50%2c4%2c5%2c6%2c3%2c4%2c3&customNames=Garam+Masala%3bWhole+Canned+Tomatoes%3bAvocado+Oil&customFoodIds=local%3aGARAM%3blocal%3aCANNEDTOM%3blocal%3aAVOCADOOIL&customQuantities=6%3b800%3b6&customUnits=gram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=350%2c12%2c50%2c3%2c12%2c2%2c25%2c80%2c30%2c400%2c3%2c150%2c1300%2c0%2c0%2c20%3b19%2c1.1%2c3%2c3%2c0.1%2c0.02%2c0.9%2c40%2c0.7%2c25%2c0.15%2c9%2c220%2c0%2c0%2c13%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0)** — generated only when clicked; 5 spices now pinned to USDA SR Legacy (full micronutrient panels), only garam masala / canned tomatoes / avocado oil custom. Totals verified to this table (510 kcal, salt 0.97 g, potassium 3343 mg; HTTP 200, warnings []).*
 
 ---
 

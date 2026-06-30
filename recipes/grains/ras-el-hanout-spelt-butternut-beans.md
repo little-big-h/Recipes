@@ -34,16 +34,16 @@
 
 ## Timeline
 
-*Textual schedule rather than the rendered Wolfram endpoint — the Ninja runs three sequential jobs here (air-fry, then two pressure stages), and I haven't been able to visually verify the timeline endpoint render this session. Ask and I'll generate the encoded `RenderTimeline` URL.*
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Air+fryer%22%3a%7b%22color%22%3a%22%233AB5B5%22%2c%22steps%22%3a%5b%5b0%2c20%2c%22Squash+batch+1%22%5d%2c%5b20%2c40%2c%22Squash+batch+2%22%5d%5d%7d%2c%22Ninja%22%3a%7b%22color%22%3a%22%235A8CD1%22%2c%22steps%22%3a%5b%5b40%2c105%2c%22Beans+25min+HP+%2b+release%22%5d%2c%5b105%2c161%2c%22Spelt+HP+%2b+release%22%5d%5d%7d%2c%22Wok%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b120%2c135%2c%22Sauce%3a+bhuna+%2b+simmer%22%5d%2c%5b161%2c166%2c%22Fold-in%22%5d%2c%5b166%2c168%2c%22Miso%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a40%2c%22color%22%3a%22%233A9D9D%22%2c%22label%22%3a%22Beans+in%22%7d%2c%7b%22t%22%3a105%2c%22color%22%3a%22%233A6F9D%22%2c%22label%22%3a%22Spelt+in%22%7d%2c%7b%22t%22%3a168%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Ready%22%7d%5d)
+
+*Three sequential Ninja jobs are the long pole: air-fry the squash (two batches), then two pressure stages — beans (25 min HP + release), then spelt cooked in the reserved liquor. The wok sauce runs during the spelt cook; beans + spelt fold in, miso off heat, squash piled on top. ~168 min end to end. The squash can be air-fried at any free Ninja moment — it's folded in at the end and rewarms — so it doesn't have to be first.*
 
 | Phase | Ninja | Wok |
 |:------|:------|:----|
-| Squash | Air-fry butternut (200 °C, ~40 min, two batches), set aside | — |
+| Squash | Air-fry butternut (200C, ~40 min, two batches), set aside | — |
 | Beans | Kidney + pinto + stock cube, **25 min HP, natural release**, drain & reserve liquor | — |
-| Spelt | Spelt in reserved liquor + water, **~30–35 min HP, natural release** | bloom spices, bhuna paste, passata simmer |
+| Spelt | Spelt in reserved liquor + water, **~30-35 min HP, natural release** | bloom spices, bhuna paste, passata simmer |
 | Finish | — | fold beans + spelt, miso **off heat**, top with squash |
-
-*The squash can be air-fried at any free moment — it's folded in at the end and rewarms, so it doesn't have to be first. The two pressure stages are the long pole.*
 
 ---
 
