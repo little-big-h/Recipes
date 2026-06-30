@@ -192,12 +192,16 @@ shorthand. Use "at about 85 minutes" or "once stage 2 is underway
 
 ## Timeline
 
+**Every recipe's Timeline section embeds the rendered `RenderTimeline` image — always, not a textual-only table.** It renders at markdown view-time (the URL is the whole artifact; nothing is fetched or stored when you write it), so it costs essentially nothing to include. A textual schedule may sit *beneath* the image as a caption, but never *instead* of it.
+
 Rendered at markdown render-time via the Wolfram Cloud endpoint.
 No local SVG files. Embed as a markdown image:
 
 ```markdown
 ![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=<encoded>&syncs=<encoded>)
 ```
+
+Build the encoded URL with `curl -sG '<endpoint>' --data-urlencode "steps=<json>" --data-urlencode "syncs=<json>" -w '%{url_effective}\n' -o /dev/null` (lets curl percent-encode it), then paste the `url_effective` into the image embed. (`wolframcloud.com` is allowlisted, so a quick `curl` round-trip also lets you spot-check the render — ASCII-only labels, per the warning below.)
 
 ### Endpoint
 

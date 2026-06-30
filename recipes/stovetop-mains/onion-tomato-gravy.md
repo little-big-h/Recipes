@@ -32,17 +32,9 @@
 
 ## Timeline
 
-*Textual schedule — one wok plus the microwave and a standalone blender. (A Wolfram `RenderTimeline` visual can be generated on request; ASCII labels only.)*
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Microwave%22%3a%7b%22color%22%3a%22%238C8C8C%22%2c%22steps%22%3a%5b%5b0%2c6%2c%22Soften+onions%22%5d%5d%7d%2c%22Wok%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b6%2c16%2c%22Saute+onions+gold%22%5d%2c%5b16%2c18%2c%22Bhuna+paste%22%5d%2c%5b18%2c19%2c%22Bloom+spices%22%5d%2c%5b19%2c39%2c%22Simmer+tomatoes%22%5d%5d%7d%2c%22Blender%22%3a%7b%22color%22%3a%22%23B772B7%22%2c%22steps%22%3a%5b%5b39%2c43%2c%22Blend+smooth%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a19%2c%22color%22%3a%22%232E7D32%22%2c%22label%22%3a%22Tomatoes+in%22%7d%2c%7b%22t%22%3a39%2c%22color%22%3a%22%238E4D89%22%2c%22label%22%3a%22Blend%22%7d%2c%7b%22t%22%3a43%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Sauce+ready%22%7d%5d)
 
-| Minute | Microwave | Wok | Blender |
-|------:|:----------|:----|:--------|
-| 0–6 | Soften onions | — | — |
-| 6–16 | — | Sauté onions to golden | — |
-| 16–18 | — | Bhuna tomato paste | — |
-| 18–19 | — | Bloom aromatics + spices | — |
-| 19–39 | — | Add crushed tomatoes, simmer to jammy | — |
-| 39–43 | — | (cool slightly) | **Blend smooth** |
-| **~43** | | **Sauce ready** | |
+*Microwave-jumpstarted onions, then one wok (sauté → bhuna → bloom → simmer), then a quick blend. ~43 min to a finished sauce.*
 
 ---
 

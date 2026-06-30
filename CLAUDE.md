@@ -28,6 +28,7 @@ This file is read automatically at session start. **For full project context, re
 - **Currency: GBP (£).**
 - **Never use immediate (quick) release on the Ninja pressure cooker.** Natural or delayed only. See `docs/TECHNIQUES.md`.
 - **Every ingredient gets a unique emoji prefix** used consistently in the ingredient table, method, and notes. See `docs/RECIPE_FORMAT.md`.
+- **Always embed the rendered `RenderTimeline` image** in a recipe's Timeline section — never a textual-only timeline. It renders at page-view (the URL *is* the artifact), so it's effectively free. Labels must be **ASCII-only** (a `°`/`é`/emoji yields a blank chart). See `docs/RECIPE_FORMAT.md` → Timeline.
 - **Name every Claude-generated recipe with a `[DD-MM-YY]` creation-date suffix and a trailing ✴️** (marks it Claude-made), e.g. `Creamy Butternut & Soy Bean Soup [10-06-26] ✴️`. The stamp goes in the collection `name`. See `docs/FOODNOMS_FORMAT.md`.
 - **Keep the "🍽️ Latest recipes" list at the very top of `README.md` current.** Whenever you add a new recipe file under `recipes/` **or a new entry under `anjas-cooking/`**, prepend it to that list (newest first, with its creation date) and drop the oldest so it stays at **10**. It must be the first thing seen in the repo — Holger's standing request.
 
