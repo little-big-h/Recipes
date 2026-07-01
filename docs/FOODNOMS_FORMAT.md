@@ -353,26 +353,46 @@ contribute to the recipe as accounted.
   the *list of options*. A simple gram-based entry can use
   `"measure": { "unit": "gram", "value": 1, "traits": 0 }`.
 
-#### Serving-size convention (project)
+#### Serving size & the two standalone-food shapes
 
-**Every generated food should declare a real serving size**, not just the bare
-1-gram measure. For a serving of **S grams**, set:
+> **Key fact (learned the hard way):** FoodNoms reads a food's `nutrients` as
+> **per 100 `baseUnit`**, and treats **`baseAmount` as the serving size**. It is
+> *not* "nutrients per baseAmount." Getting this backwards (baseAmount 100 + the
+> serving stuffed into `quantity`) makes FoodNoms show *"Amounts Represent:
+> Serving Size"* and read the numbers as per-serving. **Nutrients always stay the
+> per-100 g values.**
+
+A standalone product food can be emitted in **two shapes** (pick per use):
+
+**1. Food entry — `emit=food` (contentType 1).** A logged-instance form. For a
+serving of **S** grams:
 
 ```jsonc
-"quantity": S,                                                    // default logged amount
-"measure":  { "descriptionQuantity": S, "value": 1, "unit": "gram", "traits": 0 },
-"measures": [ { "descriptionQuantity": S, "value": S, "traits": 1, "unit": "gram" } ]
+"baseAmount": S,   "quantity": 1,          // baseAmount IS the serving; 1 serving
+"measure":  { "unit": "gram", "descriptionQuantity": S, "value": S, "traits": 1 },
+"measures": [{ "unit": "gram", "descriptionQuantity": S, "value": S, "traits": 1 }]
 ```
 
-Pick S as the **natural pack/portion** where one exists — a tinned product → the
-**tin weight** (canned tomatoes = **400 g**). **If there's no natural portion,
-set `quantity` to `1` g** (a unit reference) — *not* 100. Nutrients stay **per
-`baseAmount` (100 g)** regardless; the serving only sets the default amount
-FoodNoms logs.
+**2. Food definition — `emit=fooddef` (contentType 3).** The reusable
+"save to your Foods library" form (`foods[]`, `isHidden:false`). Keeps the
+per-100 basis explicit:
 
-Via `BuildFoodNomsRecipe`: pass **`customServingSizes`** (grams, `;`-aligned) for
-a natural pack — it sets `quantity` + the `measures[]` serving. With no natural
-pack, omit it and pass **`customQuantities=1`** (the 1 g unit default).
+```jsonc
+"baseAmount": 100,                          // per 100 g, explicit
+"measures": [{ "unit": "gram", "descriptionQuantity": S, "value": S, "traits": 1 }]
+// no quantity / no singular measure / no uncertainty
+```
+
+**Prefer `emit=fooddef`** for a product you'll reuse — it's cleanest and states
+the per-100 g basis unambiguously. Nutrients are the per-100 g values in **both**.
+
+Pick **S** as the **natural pack/portion** — a tin → the **tin weight** (canned
+tomatoes = **400 g**). If there's no natural portion, omit the serving (a plain
+per-100 g food); for an entry that means `quantity:1` (a 1 g unit reference), not
+100.
+
+Via `BuildFoodNomsRecipe`: pass **`customServingSizes`** (grams, `;`-aligned) to
+set the serving; choose the shape with `emit=food` or `emit=fooddef`.
 
 #### Brand — use `brandOwner`
 

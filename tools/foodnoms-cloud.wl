@@ -188,10 +188,12 @@ usdaFoodEntry[block_, qty_, unit_, sortIdx_, unc_ : 0] := DeleteMissing @ <|
    "collectionSortIndex" -> sortIdx|>;
 
 (* pass-through entry for non-USDA (local:/ciqual:) foods: nutrients given verbatim.
-   A serving size (grams of one serving) is expressed the FoodNoms way: the entry
-   `quantity` becomes the serving, the primary `measure` tags its
-   descriptionQuantity, and a `measures[]` names the serving (traits 1 = default).
-   Absent -> the old 1-gram measure and the given quantity. *)
+   `nutrients` are ALWAYS per 100 baseUnit. A serving size S (grams of one serving)
+   is expressed the FoodNoms way -- baseAmount = S (the serving), quantity = 1 (one
+   serving), and the primary measure + measures[] name the S-gram serving
+   (traits 1 = default). This is what makes FoodNoms read the amounts as per-100 g
+   rather than per-serving. Absent -> baseAmount 100, a bare 1-gram measure, and
+   the given quantity (the recipe-ingredient shape). *)
 passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
   {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]],
    srv = Lookup[ing, "servingSize", Missing[]], hasSrv},
@@ -202,15 +204,15 @@ passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
    "source" -> Lookup[ing, "source", Missing[]],
    "secondarySource" -> Lookup[ing, "secondarySource", Missing[]],
    "version" -> 1,
-   "baseAmount" -> Lookup[ing, "baseAmount", 100],
+   "baseAmount" -> If[hasSrv, srv, Lookup[ing, "baseAmount", 100]],
    "baseUnit" -> unit,
    "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
-   "quantity" -> If[hasSrv, srv, ing["quantity"]],
+   "quantity" -> If[hasSrv, 1, ing["quantity"]],
    "measure" -> If[hasSrv,
-      <|"descriptionQuantity" -> srv, "value" -> 1, "unit" -> unit, "traits" -> 0|>,
+      <|"unit" -> unit, "descriptionQuantity" -> srv, "value" -> srv, "traits" -> 1|>,
       <|"unit" -> unit, "value" -> 1, "traits" -> 0|>],
    "measures" -> If[hasSrv,
-      {<|"descriptionQuantity" -> srv, "value" -> srv, "traits" -> 1, "unit" -> unit|>},
+      {<|"unit" -> unit, "descriptionQuantity" -> srv, "value" -> srv, "traits" -> 1|>},
       Missing[]],
    "nutrients" -> ing["nutrients"],
    "brandOwner" -> Lookup[ing, "brandOwner", Missing[]],
@@ -296,7 +298,7 @@ foodnomsTotals[in_] := Module[{r = If[Head[in] === ByteArray, foodnomsDecode[in]
 buildFoodNomsRecipe[spec_Association] := Module[
   {name, servings, ctype, ings, warnings = {}, entries = {}, aux = {}, totalSize,
    recipeJson, recipeCollection, auxRecs, emit, selected, notes,
-   selectedName, selectedJson, defaultUnc, fe, fjson, i = 0},
+   selectedName, selectedJson, defaultUnc, fe, fjson, fdef, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
   (* collectionType: 3 = recipe (default; carries the yield fields), 2 = meal
@@ -376,12 +378,10 @@ buildFoodNomsRecipe[spec_Association] := Module[
     #["name"] &];
 
   emit = Lookup[spec, "emit", "recipe"];
-  (* emit=food: a STANDALONE food in entry form (contentType 1, FOODNOMS_FORMAT
-     §4a) -- a one-item foodEntries[], NO collection. The first resolved entry
-     already carries baseAmount/baseUnit/nutrients (per 100) + quantity/measure/
-     uncertainty, i.e. the entry-form shape, so we just rewrap it without a
-     collection (dropping the collection-only collectionSortIndex). The filename
-     and foodID come from that food; warns if more than one food was supplied. *)
+  (* emit=food: a STANDALONE food in ENTRY form (contentType 1, FOODNOMS_FORMAT
+     §4a) -- a one-item foodEntries[], NO collection. With a serving size the
+     entry's baseAmount IS the serving (quantity 1); nutrients stay per 100.
+     Just rewrap the first resolved entry sans the collection-only sort index. *)
   If[emit === "food",
    fe = If[entries === {}, $Failed, KeyDrop[First[entries], "collectionSortIndex"]];
    If[Length[entries] > 1,
@@ -390,6 +390,26 @@ buildFoodNomsRecipe[spec_Association] := Module[
    If[fe === $Failed, AppendTo[warnings, "emit=food: no resolved food to emit"]];
    fjson = <|"version" -> 2, "contentType" -> 1,
       "foodEntries" -> If[fe === $Failed, {}, {fe}]|>;
+   Return[<|
+     "name" -> cleanFilename[If[fe === $Failed, "Food", Lookup[fe, "name", "Food"]]] <> ".foodnoms",
+     "bytes" -> foodnomsBytes[fjson], "json" -> fjson, "warnings" -> warnings|>]];
+  (* emit=fooddef: a STANDALONE food DEFINITION (contentType 3) -- a reusable
+     "save to your Foods library" entry: foods[] with baseAmount 100 (nutrients
+     unambiguously per 100), the serving carried in measures[], isHidden:false.
+     Unlike emit=food (an entry whose baseAmount = the serving), this keeps the
+     per-100 basis explicit. Drops the entry-only quantity/measure/uncertainty. *)
+  If[emit === "fooddef",
+   fe = If[entries === {}, $Failed, First[entries]];
+   If[Length[entries] > 1,
+    AppendTo[warnings, "emit=fooddef emits only the first food; " <>
+      ToString[Length[entries] - 1] <> " other(s) ignored"]];
+   If[fe === $Failed, AppendTo[warnings, "emit=fooddef: no resolved food to emit"]];
+   fdef = If[fe === $Failed, <||>,
+     Join[
+       KeyTake[fe, {"name", "foodID", "brandOwner", "baseUnit", "nutrients", "measures"}],
+       <|"baseAmount" -> 100, "version" -> 1, "traits" -> 0, "isHidden" -> False|>]];
+   fjson = <|"version" -> 2, "contentType" -> 3,
+      "foods" -> If[fe === $Failed, {}, {fdef}]|>;
    Return[<|
      "name" -> cleanFilename[If[fe === $Failed, "Food", Lookup[fe, "name", "Food"]]] <> ".foodnoms",
      "bytes" -> foodnomsBytes[fjson], "json" -> fjson, "warnings" -> warnings|>]];
@@ -570,7 +590,7 @@ specFromParams[a_] := Module[{errs = {}},
    behaviour, in the same commit. `?emit=version` (below) returns it, so a caller
    can compare the LIVE endpoint against this authored value and tell whether a
    redeploy is pending -- see the deploy section's version-check snippet. *)
-$fnVersion = 1;
+$fnVersion = 2;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -632,9 +652,11 @@ foodnomsAPI = APIFunction[
           "recipe" -> r["json"],
           "totals" -> foodnomsTotals[r["json"]],
           "estKcal" -> (Function[e, <|
-              "name" -> e["name"],
-              "kcal" -> Round[Lookup[e["nutrients"], "calories", 0] *
-                  e["quantity"] / e["baseAmount"]]|>] /@ r["json"]["foodEntries"]),
+              "name" -> Lookup[e, "name", ""],
+              "kcal" -> Round[Lookup[Lookup[e, "nutrients", <||>], "calories", 0] *
+                  Lookup[e, "quantity", Lookup[e, "baseAmount", 100]] /
+                  Lookup[e, "baseAmount", 100]]|>] /@
+             Lookup[r["json"], "foodEntries", Lookup[r["json"], "foods", {}]]),
           "warnings" -> r["warnings"]|>;
        HTTPResponse[ExportByteArray[body, "RawJSON"], <|"StatusCode" -> 200,
          "Headers" -> {"Content-Type" -> "application/json", "Vary" -> "Accept"}|>],
@@ -656,12 +678,13 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING ($fnVersion 1 -- brand + serving size + version hook,
-   2026-07-01): custom foods carry a brand (customBrands -> brandOwner) and a
-   serving size (customServingSizes -> the food's measure/measures/quantity), and
-   `?emit=version` now returns {"endpointVersion":$fnVersion}. The LIVE endpoint
-   lacks all of these until BuildFoodNomsRecipe is re-run as pirk0. (The
-   vitamin-D fix and customUrls/customNotes are already deployed.)
+   ⚠ REDEPLOY PENDING ($fnVersion 2 -- serving-size fix + emit=fooddef,
+   2026-07-01): serving-size foods now encode baseAmount = serving with nutrients
+   per 100 (was baseAmount 100 + serving in quantity, which FoodNoms read as
+   per-serving); and `emit=fooddef` emits a contentType-3 Foods-library
+   definition (baseAmount 100 + serving in measures[]). The LIVE endpoint
+   ($fnVersion 1: brand + serving + version hook + customUrls/notes + vitamin-D)
+   lacks these until BuildFoodNomsRecipe is re-run as pirk0.
 
    VERSION CHECK -- is the live endpoint current? Compare the live version to
    $fnVersion in this file:
