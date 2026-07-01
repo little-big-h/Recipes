@@ -187,9 +187,15 @@ usdaFoodEntry[block_, qty_, unit_, sortIdx_, unc_ : 0] := DeleteMissing @ <|
    "nutrients" -> block["nutrients"],
    "collectionSortIndex" -> sortIdx|>;
 
-(* pass-through entry for non-USDA (local:/ciqual:) foods: nutrients given verbatim *)
+(* pass-through entry for non-USDA (local:/ciqual:) foods: nutrients given verbatim.
+   A serving size (grams of one serving) is expressed the FoodNoms way: the entry
+   `quantity` becomes the serving, the primary `measure` tags its
+   descriptionQuantity, and a `measures[]` names the serving (traits 1 = default).
+   Absent -> the old 1-gram measure and the given quantity. *)
 passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
-  {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]]},
+  {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]],
+   srv = Lookup[ing, "servingSize", Missing[]], hasSrv},
+  hasSrv = NumberQ[srv] && srv > 0;
   DeleteMissing @ <|
    "name" -> Lookup[ing, "name", "Ingredient"],
    "foodID" -> ing["foodID"],
@@ -199,9 +205,15 @@ passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
    "baseAmount" -> Lookup[ing, "baseAmount", 100],
    "baseUnit" -> unit,
    "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
-   "quantity" -> ing["quantity"],
-   "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
+   "quantity" -> If[hasSrv, srv, ing["quantity"]],
+   "measure" -> If[hasSrv,
+      <|"descriptionQuantity" -> srv, "value" -> 1, "unit" -> unit, "traits" -> 0|>,
+      <|"unit" -> unit, "value" -> 1, "traits" -> 0|>],
+   "measures" -> If[hasSrv,
+      {<|"descriptionQuantity" -> srv, "value" -> srv, "traits" -> 1, "unit" -> unit|>},
+      Missing[]],
    "nutrients" -> ing["nutrients"],
+   "brandOwner" -> Lookup[ing, "brandOwner", Missing[]],
    "urlString" -> Lookup[ing, "urlString", Missing[]],
    "notes" -> Lookup[ing, "notes", Missing[]],
    "collectionSortIndex" -> sortIdx|>];
@@ -468,11 +480,15 @@ addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u
    aligns with its ingredient group; length is guarded in specFromParams *)
 uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
 
-(* attach an optional source url / note to a custom food; a blank string omits
-   the field (so a food carries its BWFO/product page in `urlString` + `notes`) *)
-addMeta[base_, url_, note_] := Module[{b = base},
+(* attach optional provenance to a custom food: source url + note (blank omits),
+   brand (-> brandOwner), and serving size in grams (-> the measure/measures/
+   quantity, built in passthroughFoodEntry). So a scraped product food carries its
+   page (urlString/notes), its shop/brand, and a real serving. *)
+addMeta[base_, url_, note_, brand_, serving_] := Module[{b = base},
   If[StringQ[url] && StringTrim[url] =!= "", b = Append[b, "urlString" -> url]];
   If[StringQ[note] && StringTrim[note] =!= "", b = Append[b, "notes" -> note]];
+  If[StringQ[brand] && StringTrim[brand] =!= "", b = Append[b, "brandOwner" -> brand]];
+  If[NumberQ[serving] && serving > 0, b = Append[b, "servingSize" -> serving]];
   b];
 
 (* a per-custom-food string column, padded to "" when omitted (length 0) *)
@@ -500,6 +516,10 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "customUrls must be empty or the same length as the custom* arrays"]];
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customNotes"]]],
    AppendTo[errs, "customNotes must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBrands"]]],
+   AppendTo[errs, "customBrands must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customServingSizes"]]],
+   AppendTo[errs, "customServingSizes must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
@@ -510,12 +530,14 @@ specFromParams[a_] := Module[{errs = {}},
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
          addUnc[addMeta[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-            "nutrients" -> AssociationThread[#5 -> #6]|>, #8, #9], #7] &,
+            "nutrients" -> AssociationThread[#5 -> #6]|>, #8, #9, #10, #11], #7] &,
          {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
           a["customNutrientNames"], a["customNutrientValues"],
           uncCol[a["customUncertainties"], Length[a["customNames"]]],
           strCol[a["customUrls"], Length[a["customNames"]]],
-          strCol[a["customNotes"], Length[a["customNames"]]]}]]|>,
+          strCol[a["customNotes"], Length[a["customNames"]]],
+          strCol[a["customBrands"], Length[a["customNames"]]],
+          uncCol[a["customServingSizes"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -571,7 +593,11 @@ foodnomsAPI = APIFunction[
        must not contain a ';' (it would split into an extra element and fail the
        length guard) -- use '.'/'-' in prose, not ';'. *)
     "customUrls"  -> opt[DelimitedSequence["String", ";"], {}],
-    "customNotes" -> opt[DelimitedSequence["String", ";"], {}]},
+    "customNotes" -> opt[DelimitedSequence["String", ";"], {}],
+    (* optional brand (-> brandOwner) + serving size in grams (-> the food's
+       measure/measures/quantity), aligned with the custom* arrays *)
+    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}],
+    "customServingSizes" -> opt[DelimitedSequence["Number", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[FailureQ[spec],
       HTTPResponse[spec["err"], <|"StatusCode" -> 400,
@@ -617,11 +643,12 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING (customUrls/customNotes, 2026-07-01): custom foods can now
-   carry a source url + note (customUrls/customNotes params -> passthroughFoodEntry
-   urlString/notes), so a scraped product food links back to its page. The LIVE
-   endpoint ignores these params until BuildFoodNomsRecipe is re-run as pirk0.
-   (The earlier vitamin-D fix is already deployed and verified.) *)
+   ⚠ REDEPLOY PENDING (brand + serving size, 2026-07-01): custom foods now carry
+   a brand (customBrands -> brandOwner) and a serving size in grams
+   (customServingSizes -> the food's measure/measures/quantity), on top of the
+   customUrls/customNotes added the same day. The LIVE endpoint ignores all four
+   until BuildFoodNomsRecipe is re-run as pirk0. (The vitamin-D fix and
+   customUrls/customNotes are already deployed.) *)
 
 CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],          Permissions -> "Public"]
 CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]

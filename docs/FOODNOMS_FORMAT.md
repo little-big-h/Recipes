@@ -353,6 +353,33 @@ contribute to the recipe as accounted.
   the *list of options*. A simple gram-based entry can use
   `"measure": { "unit": "gram", "value": 1, "traits": 0 }`.
 
+#### Serving-size convention (project)
+
+**Every generated food should declare a real serving size**, not just the bare
+1-gram measure. For a serving of **S grams**, set:
+
+```jsonc
+"quantity": S,                                                    // default logged amount
+"measure":  { "descriptionQuantity": S, "value": 1, "unit": "gram", "traits": 0 },
+"measures": [ { "descriptionQuantity": S, "value": S, "traits": 1, "unit": "gram" } ]
+```
+
+Pick S as the natural portion: a tinned product → the **tin/pack weight** (e.g.
+canned tomatoes = **400 g**); a per-100 g reference food → 100. Nutrients stay
+**per `baseAmount` (100 g)** regardless — the serving only sets the default
+amount FoodNoms logs.
+
+Via `BuildFoodNomsRecipe`, pass **`customServingSizes`** (grams, `;`-aligned with
+the `custom*` arrays).
+
+#### Brand — use `brandOwner`
+
+For a branded or shop product, set **`brandOwner`** to the shop/brand name (e.g.
+`"Buy Whole Foods Online"`) — it's the right home for provenance, cleaner than
+stuffing the shop into the name. Pass **`customBrands`** to the endpoint. Keep the
+product **URL** in `urlString` (via `customUrls`) — brand and link are separate
+fields, not either/or.
+
 ### `foodID` schemes
 
 | Pattern | Meaning | Companion fields |
