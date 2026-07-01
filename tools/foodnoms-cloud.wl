@@ -188,37 +188,34 @@ usdaFoodEntry[block_, qty_, unit_, sortIdx_, unc_ : 0] := DeleteMissing @ <|
    "collectionSortIndex" -> sortIdx|>;
 
 (* pass-through entry for non-USDA (local:/ciqual:) foods: nutrients given verbatim.
-   `nutrients` are ALWAYS per 100 baseUnit. A serving size S (grams of one serving)
-   is expressed the FoodNoms way -- baseAmount = S (the serving), quantity = 1 (one
-   serving), and the primary measure + measures[] name the S-gram serving
-   (traits 1 = default). This is what makes FoodNoms read the amounts as per-100 g
-   rather than per-serving. Absent -> baseAmount 100, a bare 1-gram measure, and
-   the given quantity (the recipe-ingredient shape). *)
+   `nutrients` are ALWAYS per 100 baseUnit; baseAmount 100, a bare 1-gram measure,
+   the given quantity (the recipe-ingredient shape). The standalone-food shaping
+   (100-unit serving) is applied later in the emit=food / emit=fooddef branches. *)
 passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
-  {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]],
-   srv = Lookup[ing, "servingSize", Missing[]], hasSrv},
-  hasSrv = NumberQ[srv] && srv > 0;
+  {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]]},
   DeleteMissing @ <|
    "name" -> Lookup[ing, "name", "Ingredient"],
    "foodID" -> ing["foodID"],
    "source" -> Lookup[ing, "source", Missing[]],
    "secondarySource" -> Lookup[ing, "secondarySource", Missing[]],
    "version" -> 1,
-   "baseAmount" -> If[hasSrv, srv, Lookup[ing, "baseAmount", 100]],
+   "baseAmount" -> Lookup[ing, "baseAmount", 100],
    "baseUnit" -> unit,
    "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
-   "quantity" -> If[hasSrv, 1, ing["quantity"]],
-   "measure" -> If[hasSrv,
-      <|"unit" -> unit, "descriptionQuantity" -> srv, "value" -> srv, "traits" -> 1|>,
-      <|"unit" -> unit, "value" -> 1, "traits" -> 0|>],
-   "measures" -> If[hasSrv,
-      {<|"unit" -> unit, "descriptionQuantity" -> srv, "value" -> srv, "traits" -> 1|>},
-      Missing[]],
+   "quantity" -> ing["quantity"],
+   "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> ing["nutrients"],
    "brandOwner" -> Lookup[ing, "brandOwner", Missing[]],
    "urlString" -> Lookup[ing, "urlString", Missing[]],
    "notes" -> Lookup[ing, "notes", Missing[]],
    "collectionSortIndex" -> sortIdx|>];
+
+(* the default serving for a standalone food: 100 baseUnit (traits 1). FoodNoms
+   forces "amounts represent = serving size" on import (even re-importing its own
+   export), so pinning the serving to 100 makes that read as per-100 -- the
+   numbers stay correct. Used by the emit=food / emit=fooddef branches. *)
+serving100[unit_] := <|"unit" -> unit, "descriptionQuantity" -> 100,
+   "value" -> 100, "traits" -> 1|>;
 
 (* the formal 3-tier weightless patch (FOODNOMS_FORMAT.md §11):
    returns the consuming-recipe per-gram entry + the two reusable provenance
@@ -379,25 +376,28 @@ buildFoodNomsRecipe[spec_Association] := Module[
 
   emit = Lookup[spec, "emit", "recipe"];
   (* emit=food: a STANDALONE food in ENTRY form (contentType 1, FOODNOMS_FORMAT
-     §4a) -- a one-item foodEntries[], NO collection. With a serving size the
-     entry's baseAmount IS the serving (quantity 1); nutrients stay per 100.
-     Just rewrap the first resolved entry sans the collection-only sort index. *)
+     §4a) -- a one-item foodEntries[], NO collection. baseAmount 100 (nutrients
+     per 100) and a pinned 100-unit serving (quantity 1), so FoodNoms' forced
+     "amounts represent = serving size" reads as per-100. *)
   If[emit === "food",
    fe = If[entries === {}, $Failed, KeyDrop[First[entries], "collectionSortIndex"]];
    If[Length[entries] > 1,
     AppendTo[warnings, "emit=food emits only the first food; " <>
       ToString[Length[entries] - 1] <> " other(s) ignored"]];
    If[fe === $Failed, AppendTo[warnings, "emit=food: no resolved food to emit"]];
+   fe = If[fe === $Failed, fe,
+     With[{u = Lookup[fe, "baseUnit", "gram"]},
+      Join[fe, <|"baseAmount" -> 100, "quantity" -> 1,
+        "measure" -> serving100[u], "measures" -> {serving100[u]}|>]]];
    fjson = <|"version" -> 2, "contentType" -> 1,
       "foodEntries" -> If[fe === $Failed, {}, {fe}]|>;
    Return[<|
      "name" -> cleanFilename[If[fe === $Failed, "Food", Lookup[fe, "name", "Food"]]] <> ".foodnoms",
      "bytes" -> foodnomsBytes[fjson], "json" -> fjson, "warnings" -> warnings|>]];
   (* emit=fooddef: a STANDALONE food DEFINITION (contentType 3) -- a reusable
-     "save to your Foods library" entry: foods[] with baseAmount 100 (nutrients
-     unambiguously per 100), the serving carried in measures[], isHidden:false.
-     Unlike emit=food (an entry whose baseAmount = the serving), this keeps the
-     per-100 basis explicit. Drops the entry-only quantity/measure/uncertainty. *)
+     "save to your Foods library" entry: foods[] with baseAmount 100, the pinned
+     100-unit serving in measures[], isHidden:false. Drops the entry-only
+     quantity/measure/uncertainty. *)
   If[emit === "fooddef",
    fe = If[entries === {}, $Failed, First[entries]];
    If[Length[entries] > 1,
@@ -406,8 +406,9 @@ buildFoodNomsRecipe[spec_Association] := Module[
    If[fe === $Failed, AppendTo[warnings, "emit=fooddef: no resolved food to emit"]];
    fdef = If[fe === $Failed, <||>,
      Join[
-       KeyTake[fe, {"name", "foodID", "brandOwner", "baseUnit", "nutrients", "measures"}],
-       <|"baseAmount" -> 100, "version" -> 1, "traits" -> 0, "isHidden" -> False|>]];
+       KeyTake[fe, {"name", "foodID", "brandOwner", "baseUnit", "nutrients"}],
+       <|"baseAmount" -> 100, "measures" -> {serving100[Lookup[fe, "baseUnit", "gram"]]},
+         "version" -> 1, "traits" -> 0, "isHidden" -> False|>]];
    fjson = <|"version" -> 2, "contentType" -> 3,
       "foods" -> If[fe === $Failed, {}, {fdef}]|>;
    Return[<|
@@ -500,15 +501,13 @@ addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u
    aligns with its ingredient group; length is guarded in specFromParams *)
 uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
 
-(* attach optional provenance to a custom food: source url + note (blank omits),
-   brand (-> brandOwner), and serving size in grams (-> the measure/measures/
-   quantity, built in passthroughFoodEntry). So a scraped product food carries its
-   page (urlString/notes), its shop/brand, and a real serving. *)
-addMeta[base_, url_, note_, brand_, serving_] := Module[{b = base},
+(* attach optional provenance to a custom food: source url + note (blank omits)
+   and brand (-> brandOwner). So a scraped product food carries its page
+   (urlString/notes) and its shop/brand. *)
+addMeta[base_, url_, note_, brand_] := Module[{b = base},
   If[StringQ[url] && StringTrim[url] =!= "", b = Append[b, "urlString" -> url]];
   If[StringQ[note] && StringTrim[note] =!= "", b = Append[b, "notes" -> note]];
   If[StringQ[brand] && StringTrim[brand] =!= "", b = Append[b, "brandOwner" -> brand]];
-  If[NumberQ[serving] && serving > 0, b = Append[b, "servingSize" -> serving]];
   b];
 
 (* a per-custom-food string column, padded to "" when omitted (length 0) *)
@@ -553,8 +552,6 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "customNotes must be empty or the same length as the custom* arrays"]];
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBrands"]]],
    AppendTo[errs, "customBrands must be empty or the same length as the custom* arrays"]];
-  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customServingSizes"]]],
-   AppendTo[errs, "customServingSizes must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
@@ -564,19 +561,18 @@ specFromParams[a_] := Module[{errs = {}},
          addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
-         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand, srv},
+         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand},
           With[{nutr = AssociationThread[nn -> nv]},
            addUnc[addMeta[<|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
               "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
-             url, note, brand, srv], unc]]],
+             url, note, brand], unc]]],
          {a["customNames"], strCol[a["customFoodIds"], Length[a["customNames"]]],
           a["customQuantities"], a["customUnits"],
           a["customNutrientNames"], a["customNutrientValues"],
           uncCol[a["customUncertainties"], Length[a["customNames"]]],
           strCol[a["customUrls"], Length[a["customNames"]]],
           strCol[a["customNotes"], Length[a["customNames"]]],
-          strCol[a["customBrands"], Length[a["customNames"]]],
-          uncCol[a["customServingSizes"], Length[a["customNames"]]]}]]|>,
+          strCol[a["customBrands"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -609,7 +605,7 @@ specFromParams[a_] := Module[{errs = {}},
    behaviour, in the same commit. `?emit=version` (below) returns it, so a caller
    can compare the LIVE endpoint against this authored value and tell whether a
    redeploy is pending -- see the deploy section's version-check snippet. *)
-$fnVersion = 3;
+$fnVersion = 4;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -641,10 +637,10 @@ foodnomsAPI = APIFunction[
        the text must not contain a ';' (it would split + fail the length guard). *)
     "customUrls"  -> opt[DelimitedSequence["String", ";"], {}],
     "customNotes" -> opt[DelimitedSequence["String", ";"], {}],
-    (* optional brand (-> brandOwner) + serving size in grams (-> the food's
-       measure/measures/quantity), aligned with the custom* arrays *)
-    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}],
-    "customServingSizes" -> opt[DelimitedSequence["Number", ";"], {}]},
+    (* optional brand (-> brandOwner), aligned with the custom* arrays. Serving
+       size is fixed at 100 baseUnit for standalone foods (see emit=food/fooddef),
+       so there's no serving-size param -- FoodNoms forces per-serving on import. *)
+    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[#["emit"] === "version",
       (* lightweight version probe (no ingredients needed): compare the returned
@@ -699,12 +695,13 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING ($fnVersion 3 -- stable auto foodIDs, 2026-07-01):
-   customFoodIds is now OPTIONAL -- a blank entry gets a stable local: UUID hashed
-   from name | brand | per-100g calories (foodIDfor), so the same product
-   reproducibly gets the same id. (v2 added the serving-size fix + emit=fooddef;
-   v1 brand + serving + version hook + customUrls/notes; vitamin-D before that.)
-   The LIVE endpoint lacks v2/v3 until BuildFoodNomsRecipe is re-run as pirk0.
+   ⚠ REDEPLOY PENDING ($fnVersion 4 -- serving fixed at 100, 2026-07-01):
+   FoodNoms forces "amounts represent = serving size" on import (even for its own
+   exports), so standalone foods (emit=food/fooddef) now pin the serving to 100
+   baseUnit -> per-serving == per-100. Dropped customServingSizes (the pack-weight
+   serving). (v3 stable auto foodIDs; v2 emit=fooddef + serving-shape; v1 brand +
+   version hook + customUrls/notes; vitamin-D before.) The LIVE endpoint lacks
+   v2-v4 until BuildFoodNomsRecipe is re-run as pirk0.
 
    VERSION CHECK -- is the live endpoint current? Compare the live version to
    $fnVersion in this file:

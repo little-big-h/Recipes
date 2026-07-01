@@ -162,9 +162,10 @@ Feed the parsed per-100 g macros into `BuildFoodNomsRecipe` as a **custom food**
 
 - **`customBrands`** → `brandOwner` = `"Buy Whole Foods Online"` (the shop — the
   provenance that FoodNoms keeps).
-- **`customServingSizes`** → the tin/pack weight in grams (canned tomatoes = 400)
-  as the serving; with no natural pack, omit it and pass `customQuantities=1`
-  (see FOODNOMS_FORMAT § *Serving-size convention*).
+- **Omit `customFoodIds`** → a stable UUID is auto-derived from name|brand|kcal.
+- **`emit=fooddef`** for a reusable Foods-library entry (recommended); the
+  serving is pinned to 100 g automatically (no serving-size param — FoodNoms
+  forces per-serving on import; see FOODNOMS_FORMAT § *Serving size*).
 - Keep the **product URL** here in this doc / the recipe file — **not** in the
   food. FoodNoms drops food-level `urlString`/`notes` on import (inert), so
   `customUrls`/`customNotes` don't survive a round-trip.
