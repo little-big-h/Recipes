@@ -76,8 +76,9 @@ Behavioural rather than purely sensory at times — patterns can shift. Treat as
 - **Big wok** (carbon steel) for sauté, simmer, finishing
 - **Large pans and pots** for general cooking
 - **Two bamboo steamers** for steaming separate components
-- **Microwave** (rarely used in recipes; mentioned for completeness)
+- **Microwave** (700 W; used as a fast cook-through / jumpstart station — e.g. onion softening, hasselback jacket potatoes)
 - **Standalone blender** for soups and sauces
+- **Oil sprayer / mister** — Holger's standard way to apply oil; ideal for getting a thin, even coat into awkward spots (e.g. down into hasselback cuts) with minimal oil
 
 No other significant kitchen equipment used in recipes.
 
