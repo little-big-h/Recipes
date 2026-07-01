@@ -78,12 +78,23 @@ fdcSugars[fn_List] := fdcRowAmt @ SelectFirst[fn,
     ! StringContainsQ[n, "added"]] &, <||>];
 
 (* fdcId -> per-100g block keyed by FoodNoms nutrient names *)
-fdcToFoodNoms[fdcId_] := Module[{data, fn, get},
+fdcToFoodNoms[fdcId_] := Module[{data, fn, get, vitD},
   data = fdcFood[fdcId];
   fn = Lookup[data, "foodNutrients", {}];
   (* match by exact nutrient name; unit defaults to "any" *)
   get[pat_, unit_ : _] := fdcRowAmt @ SelectFirst[fn,
     StringMatchQ[fdcRowName[#], pat] && MatchQ[fdcRowUnit[#], unit] &, <||>];
+  (* Vitamin D in micrograms. The old "Vitamin D (D2 + D3)" ~~ ___ pattern ALSO
+     matched "Vitamin D (D2 + D3), International Units" (IU), and SelectFirst
+     grabbed whichever row came first -- usually the IU one -- so IU was emitted
+     as ug: 40x too high (egg 82 IU -> "82 ug"; shiitake 154 IU -> "154 ug").
+     Take the ug row by EXACT name (the IU row's name has a longer suffix, so it
+     is excluded); fall back to IU/40 (1 ug == 40 IU, exact) only when the ug row
+     is absent, so IU-only foods still resolve to correct micrograms. *)
+  vitD = With[{ug = get["Vitamin D (D2 + D3)"]},
+    If[NumberQ[ug], ug,
+     With[{iu = get["Vitamin D (D2 + D3), International Units"]},
+      If[NumberQ[iu], iu/40., Missing[]]]]];
   <|
    "name" -> data["description"], "fdcId" -> fdcId, "dataType" -> data["dataType"],
    "baseAmount" -> 100, "baseUnit" -> "gram",
@@ -107,7 +118,7 @@ fdcToFoodNoms[fdcId_] := Module[{data, fn, get},
       "niacin" -> get["Niacin"], "thiamin" -> get["Thiamin"],
       "riboflavin" -> get["Riboflavin"], "vitaminB6" -> get["Vitamin B-6"],
       "pantothenicAcid" -> get["Pantothenic acid"], "folate" -> get["Folate, total"],
-      "vitaminA" -> get["Vitamin A, RAE"], "vitaminD" -> get["Vitamin D (D2 + D3)" ~~ ___],
+      "vitaminA" -> get["Vitamin A, RAE"], "vitaminD" -> vitD,
       "vitaminB12" -> get["Vitamin B-12"], "vitaminK" -> get["Vitamin K (phylloquinone)"],
       "iodine" -> get["Iodine, I"], "biotin" -> get["Biotin"]
      |>, _Missing]
@@ -578,7 +589,13 @@ resolveAPI = APIFunction[
 (* Evaluate the two CloudDeploy lines below in an authenticated Wolfram Cloud
    session (CloudConnect[]). Two endpoints, two concerns. They are real
    statements, not commented-out — running this file in an authenticated session
-   (re)deploys both. *)
+   (re)deploys both.
+
+   ⚠ REDEPLOY PENDING (vitamin-D fix, 2026-07-01): fdcToFoodNoms now reads the
+   micrograms vitamin-D row instead of the IU row (see the comment there). The
+   LIVE ResolveFDC / BuildFoodNomsRecipe still run the old code and report
+   vitamin D 40x too high for eggs/mushrooms/fortified foods until these two
+   CloudDeploy lines are re-run as pirk0. *)
 
 CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],          Permissions -> "Public"]
 CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]
