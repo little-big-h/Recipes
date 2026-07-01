@@ -210,12 +210,12 @@ passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
    "notes" -> Lookup[ing, "notes", Missing[]],
    "collectionSortIndex" -> sortIdx|>];
 
-(* the default serving for a standalone food: 100 baseUnit (traits 1). FoodNoms
-   forces "amounts represent = serving size" on import (even re-importing its own
-   export), so pinning the serving to 100 makes that read as per-100 -- the
-   numbers stay correct. Used by the emit=food / emit=fooddef branches. *)
-serving100[unit_] := <|"unit" -> unit, "descriptionQuantity" -> 100,
-   "value" -> 100, "traits" -> 1|>;
+(* the default serving for a standalone food: a 100-baseUnit metric weight
+   (value 100, traits 1) with NO descriptionQuantity -- i.e. the serving-size
+   label is left empty, just the 100 g/ml weight. FoodNoms forces "amounts
+   represent = serving size" on import, so pinning the weight to 100 keeps the
+   numbers reading as per-100. Used by the emit=food / emit=fooddef branches. *)
+serving100[unit_] := <|"unit" -> unit, "value" -> 100, "traits" -> 1|>;
 
 (* the formal 3-tier weightless patch (FOODNOMS_FORMAT.md §11):
    returns the consuming-recipe per-gram entry + the two reusable provenance
@@ -605,7 +605,7 @@ specFromParams[a_] := Module[{errs = {}},
    behaviour, in the same commit. `?emit=version` (below) returns it, so a caller
    can compare the LIVE endpoint against this authored value and tell whether a
    redeploy is pending -- see the deploy section's version-check snippet. *)
-$fnVersion = 4;
+$fnVersion = 5;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -695,13 +695,12 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING ($fnVersion 4 -- serving fixed at 100, 2026-07-01):
-   FoodNoms forces "amounts represent = serving size" on import (even for its own
-   exports), so standalone foods (emit=food/fooddef) now pin the serving to 100
-   baseUnit -> per-serving == per-100. Dropped customServingSizes (the pack-weight
-   serving). (v3 stable auto foodIDs; v2 emit=fooddef + serving-shape; v1 brand +
-   version hook + customUrls/notes; vitamin-D before.) The LIVE endpoint lacks
-   v2-v4 until BuildFoodNomsRecipe is re-run as pirk0.
+   ⚠ REDEPLOY PENDING ($fnVersion 5 -- serving weight 100, empty serving-size
+   label, 2026-07-01): the standalone-food serving is a 100-baseUnit metric weight
+   with NO descriptionQuantity (serving-size label left blank). (v4 pinned the
+   serving to 100; v3 stable auto foodIDs; v2 emit=fooddef; v1 brand + version
+   hook + customUrls/notes; vitamin-D before.) The LIVE endpoint lacks this until
+   BuildFoodNomsRecipe is re-run as pirk0.
 
    VERSION CHECK -- is the live endpoint current? Compare the live version to
    $fnVersion in this file:

@@ -366,12 +366,16 @@ contribute to the recipe as accounted.
 A standalone product food is emitted in **two shapes** (pick per use); both pin a
 **100-unit serving** (`traits:1`):
 
+The serving is a bare **100-unit metric weight** (`value:100`, `traits:1`) with
+**no `descriptionQuantity`** — i.e. the serving-size *label* is left empty, just
+the weight.
+
 **1. Food entry — `emit=food` (contentType 1).** A logged-instance form:
 
 ```jsonc
 "baseAmount": 100, "quantity": 1,
-"measure":  { "unit": "gram", "descriptionQuantity": 100, "value": 100, "traits": 1 },
-"measures": [{ "unit": "gram", "descriptionQuantity": 100, "value": 100, "traits": 1 }]
+"measure":  { "unit": "gram", "value": 100, "traits": 1 },
+"measures": [{ "unit": "gram", "value": 100, "traits": 1 }]
 ```
 
 **2. Food definition — `emit=fooddef` (contentType 3).** The reusable
@@ -379,14 +383,14 @@ A standalone product food is emitted in **two shapes** (pick per use); both pin 
 
 ```jsonc
 "baseAmount": 100,
-"measures": [{ "unit": "gram", "descriptionQuantity": 100, "value": 100, "traits": 1 }]
+"measures": [{ "unit": "gram", "value": 100, "traits": 1 }]
 // no quantity / no singular measure / no uncertainty
 ```
 
 **Prefer `emit=fooddef`** for a product you'll reuse. Nutrients are the per-100
 values in both; `"gram"` becomes `"milliliter"` for liquids (pass
-`customUnits=milliliter`). There is **no serving-size parameter** — it's fixed at
-100 by design.
+`customUnits=milliliter`). There is **no serving-size parameter** — the weight is
+fixed at 100 and the serving-size label left empty by design.
 
 #### Brand — use `brandOwner`
 
