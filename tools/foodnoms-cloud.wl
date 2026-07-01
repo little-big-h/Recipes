@@ -604,7 +604,14 @@ specFromParams[a_] := Module[{errs = {}},
 (* Deployed-version marker. BUMP BY 1 on every change that alters endpoint
    behaviour, in the same commit. `?emit=version` (below) returns it, so a caller
    can compare the LIVE endpoint against this authored value and tell whether a
-   redeploy is pending -- see the deploy section's version-check snippet. *)
+   redeploy is pending -- see the deploy section's version-check snippet.
+   Changelog:
+     v1  brand (brandOwner) + serving size + version hook + customUrls/notes
+     v2  serving-size fix + emit=fooddef (contentType-3 Foods-library food)
+     v3  stable auto foodIDs = hash(name|brand|per-100g kcal) when id omitted
+     v4  standalone serving pinned to 100 baseUnit (FoodNoms forces per-serving)
+     v5  serving = bare 100-unit metric weight; serving-size label left empty
+   (pre-versioning: vitamin-D read fixed to micrograms, not the IU row.) *)
 $fnVersion = 5;
 
 foodnomsAPI = APIFunction[

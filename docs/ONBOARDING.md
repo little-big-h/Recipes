@@ -122,12 +122,58 @@ recipes/{soups,grains,oven-mains,stovetop-mains,salads}/   recipe .md files
 examples/                 .foodnoms samples (the canonical format references)
 tools/
   ingredient-map.json     the resolution database (per-100 nutrients by foodID)
-  fdc-lookup.wl           Wolfram USDA-fetch helper
+  fdc-lookup.wl           Wolfram USDA-fetch helper (source of truth)
+  foodnoms-cloud.wl       DEPLOYED endpoint source: BuildFoodNomsRecipe + ResolveFDC
+                          ($fnVersion + changelog; redeploy = Holger runs CloudDeploy as pirk0)
+docs/BWFO_GRAPHQL.md      BuyWholeFoodsOnline product data via Magento GraphQL (curl+jq)
+Books/README.md           reference-book index (cite by page, like Nussinow)
 ```
 
 ---
 
-## 6. State of play (as of 2026-06-27)
+## 6. State of play
+
+### Update (2026-07-01) — endpoint is now directly reachable + testable
+
+- **`wolframcloud.com` is allowlisted now.** The older note below ("container egress
+  blocks wolframcloud, can't test the endpoint") is **obsolete** — you can `curl` the
+  `BuildFoodNomsRecipe` / `ResolveFDC` / `RenderTimeline` endpoints directly from the
+  container (use `dangerouslyDisableSandbox: true` on the Bash call). Verify every
+  generated file/link yourself: request the same URL with `-H 'Accept: application/json'`
+  (totals/warnings view), and decode the actual bytes with the `lzfse` Python one-liner
+  (§2) to inspect structure. This caught real bugs (a wrong FDC id; a 40× vitamin-D error).
+- **Endpoint has a version hook.** `curl '…/BuildFoodNomsRecipe?emit=version' -H 'Accept:
+  application/json'` → `{"endpointVersion":N}`. Compare N to `$fnVersion` in
+  `tools/foodnoms-cloud.wl`: equal ⇒ live endpoint is current; different (or a
+  recipe-shaped response) ⇒ **redeploy pending**. **Bump `$fnVersion` on every
+  behaviour change** (changelog is at the constant). The endpoint only redeploys when
+  **Holger runs the two `CloudDeploy` lines as `pirk0`** — you can't deploy; commit +
+  flag it and ask.
+- **Standalone product foods** (`emit=food` entry / `emit=fooddef` reusable Foods-library
+  food — prefer fooddef): per-100 g nutrients, `baseAmount:100`, a **fixed 100 g/ml
+  serving weight with an empty serving-size label**, `brandOwner` for the shop, and a
+  **stable foodID auto-hashed from name|brand|kcal** (omit `customFoodIds`). *Why fixed
+  100:* FoodNoms forces "Amounts Represent = Serving Size" on import (even its own
+  exports), so a pack-weight serving would misread; pinning 100 keeps per-serving ==
+  per-100. Food-level `urlString`/`notes` are **inert** (FoodNoms drops them) — keep
+  product URLs in the repo. Full spec + the two shapes in `FOODNOMS_FORMAT.md`.
+- **BuyWholeFoodsOnline product data:** pull macros/price/URL via their Magento GraphQL
+  API (`docs/BWFO_GRAPHQL.md` — `curl` + `jq`, **GET not POST**, browser UA). Ingredients
+  are **not** exposed. Reachable from the container.
+- **Reference books** live in `Books/` with an index (`Books/README.md`) — The Flavor
+  Equation, Salt Fat Acid Heat, The Food Lab, Modernist Cuisine Vol 2, Cooked. Cite by
+  page like the Nussinow tables.
+- **Playwright/Chromium** is preinstalled (headless browsing), but the agent proxy can
+  reject some sites (`ERR_CONNECTION_CLOSED`) — the GraphQL/`curl` path beat the browser
+  for BWFO. `poppler-utils`/`pypdf` gaps from the old note may or may not still apply;
+  `pypdf` worked this session for indexing the Books PDFs.
+
+*(The 2026-06-27 snapshot below is kept for history; where it conflicts with the above,
+the above wins.)*
+
+---
+
+### Snapshot (as of 2026-06-27)
 
 **⚠ Tooling changes this session — read before doing FoodNoms work:**
 
