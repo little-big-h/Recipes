@@ -50,6 +50,7 @@ Reference docs for specific dish families and project infrastructure:
 - `docs/USDA_FDC.md` — pulling authentic USDA nutrition via Wolfram → FoodNoms blocks; helper in `tools/fdc-lookup.wl`
 - `docs/RECIPE_NUTRITION_GENERATOR.md` — playbook: recipe `.md` → USDA → `.foodnoms` file + written-back Nutrition table
 - `docs/MEAL_LOGGING.md` — logging *eaten* food: weigh-by-difference (before/after photos) → `.foodnoms` meal file; uncertainty policy (10 % weighed / 30 % photo-only)
+- `Books/README.md` — index of reference booklets/ebooks (The Flavor Equation, Modernist Cuisine Vol 2, Cooked) with per-book TOC + page citations; consult and cite like the Nussinow tables
 
 Individual recipe files live under `recipes/`, grouped by dish type.
 
@@ -63,6 +64,9 @@ Individual recipe files live under `recipes/`, grouped by dish type.
 Recipes/
 ├── README.md                                  This file
 ├── CLAUDE.md                                  Hard rules (auto-loaded by Claude Code)
+│
+├── Books/                                     Reference booklets/ebooks (PDFs) + index
+│   └── README.md                              Per-book TOC + page citations (consult like Nussinow)
 │
 ├── docs/                                      Project documentation
 │   ├── CONTEXT.md                             Family, equipment, conventions
