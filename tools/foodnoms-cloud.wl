@@ -514,15 +514,30 @@ addMeta[base_, url_, note_, brand_, serving_] := Module[{b = base},
 (* a per-custom-food string column, padded to "" when omitted (length 0) *)
 strCol[col_, n_] := If[Length[col] === n, col, ConstantArray["", n]];
 
+(* foodID for a custom food: the caller's id if given, else a STABLE local: UUID
+   derived by hashing name | brand | caloric density (per-100g calories). Same
+   product -> same id across calls, so callers can omit customFoodIds entirely.
+   name/brand are lower-cased + trimmed so trivial casing/spacing doesn't fork it. *)
+foodIDfor[given_, name_, brand_, nutr_] :=
+  If[StringQ[given] && StringTrim[given] =!= "",
+   given,
+   mkLocalID @ StringRiffle[{
+      ToLowerCase @ StringTrim @ ToString[name],
+      ToLowerCase @ StringTrim @ ToString[brand],
+      ToString @ Lookup[nutr, "calories", ""]}, "|"]];
+
 (* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
 specFromParams[a_] := Module[{errs = {}},
   If[Length[a["fdcIds"]] =!= Length[a["grams"]],
    AppendTo[errs, "fdcIds and grams must be equal length"]];
   If[! Equal @@ Length /@ {a["patchFdcIds"], a["patchNutrientNames"], a["patchDeltas"]},
    AppendTo[errs, "patchFdcIds/patchNutrientNames/patchDeltas must be equal length"]];
-  If[! Equal @@ Length /@ {a["customNames"], a["customFoodIds"], a["customQuantities"],
+  If[! Equal @@ Length /@ {a["customNames"], a["customQuantities"],
        a["customUnits"], a["customNutrientNames"], a["customNutrientValues"]},
    AppendTo[errs, "all custom* arrays must be equal length"]];
+  (* customFoodIds is OPTIONAL: empty -> every id auto-derived from name|brand|kcal *)
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customFoodIds"]]],
+   AppendTo[errs, "customFoodIds must be empty (auto-derived) or the same length as the custom* arrays"]];
   If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
   (* per-entry uncertainty columns are OPTIONAL: each must be empty (use the
@@ -549,9 +564,13 @@ specFromParams[a_] := Module[{errs = {}},
          addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
-         addUnc[addMeta[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-            "nutrients" -> AssociationThread[#5 -> #6]|>, #8, #9, #10, #11], #7] &,
-         {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
+         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand, srv},
+          With[{nutr = AssociationThread[nn -> nv]},
+           addUnc[addMeta[<|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
+              "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
+             url, note, brand, srv], unc]]],
+         {a["customNames"], strCol[a["customFoodIds"], Length[a["customNames"]]],
+          a["customQuantities"], a["customUnits"],
           a["customNutrientNames"], a["customNutrientValues"],
           uncCol[a["customUncertainties"], Length[a["customNames"]]],
           strCol[a["customUrls"], Length[a["customNames"]]],
@@ -590,7 +609,7 @@ specFromParams[a_] := Module[{errs = {}},
    behaviour, in the same commit. `?emit=version` (below) returns it, so a caller
    can compare the LIVE endpoint against this authored value and tell whether a
    redeploy is pending -- see the deploy section's version-check snippet. *)
-$fnVersion = 2;
+$fnVersion = 3;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -604,6 +623,8 @@ foodnomsAPI = APIFunction[
     "patchNutrientNames" -> opt[DelimitedSequence["String",  ","], {}],
     "patchDeltas"        -> opt[DelimitedSequence["Number",  ","], {}],
     "customNames"      -> opt[DelimitedSequence["String", ";"], {}],
+    (* optional: omit entirely, or leave an entry blank, to auto-derive a stable
+       local: UUID from name|brand|kcal (foodIDfor). Provide only to pin an id. *)
     "customFoodIds"    -> opt[DelimitedSequence["String", ";"], {}],
     "customQuantities" -> opt[DelimitedSequence["Number", ";"], {}],
     "customUnits"      -> opt[DelimitedSequence["String", ";"], {}],
@@ -678,13 +699,12 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING ($fnVersion 2 -- serving-size fix + emit=fooddef,
-   2026-07-01): serving-size foods now encode baseAmount = serving with nutrients
-   per 100 (was baseAmount 100 + serving in quantity, which FoodNoms read as
-   per-serving); and `emit=fooddef` emits a contentType-3 Foods-library
-   definition (baseAmount 100 + serving in measures[]). The LIVE endpoint
-   ($fnVersion 1: brand + serving + version hook + customUrls/notes + vitamin-D)
-   lacks these until BuildFoodNomsRecipe is re-run as pirk0.
+   ⚠ REDEPLOY PENDING ($fnVersion 3 -- stable auto foodIDs, 2026-07-01):
+   customFoodIds is now OPTIONAL -- a blank entry gets a stable local: UUID hashed
+   from name | brand | per-100g calories (foodIDfor), so the same product
+   reproducibly gets the same id. (v2 added the serving-size fix + emit=fooddef;
+   v1 brand + serving + version hook + customUrls/notes; vitamin-D before that.)
+   The LIVE endpoint lacks v2/v3 until BuildFoodNomsRecipe is re-run as pirk0.
 
    VERSION CHECK -- is the live endpoint current? Compare the live version to
    $fnVersion in this file:

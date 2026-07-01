@@ -411,7 +411,7 @@ stuffing the shop into the name. Pass **`customBrands`** to the endpoint.
 
 | Pattern | Meaning | Companion fields |
 |---------|---------|------------------|
-| `local:<UUID>` | User custom/local food. Use this for anything you invent. | — |
+| `local:<UUID>` | User custom/local food. Use this for anything you invent. **Via `BuildFoodNomsRecipe`, omit `customFoodIds` (or leave an entry blank) to auto-derive a stable id** = SHA-256 of `name \| brand \| per-100g-kcal`, so the same product reproducibly gets the same UUID across calls. | — |
 | `foodnoms:usda:<id>` | USDA database food. | `source:"usda"`, `secondarySource` ∈ `sr_legacy_food` / `survey_fndds_food` / `foundation_food`, numeric `versionID` |
 | `foodnoms:ciqual:<id>` | French CIQUAL database. | `source:"ciqual"`, `secondarySource:"ciqual"` |
 | `foodnoms:openai:<UUID>` | AI-estimated food. | `source:"fn"`, `secondarySource:"openai"` |
