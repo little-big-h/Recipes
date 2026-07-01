@@ -364,21 +364,28 @@ contribute to the recipe as accounted.
 "measures": [ { "descriptionQuantity": S, "value": S, "traits": 1, "unit": "gram" } ]
 ```
 
-Pick S as the natural portion: a tinned product → the **tin/pack weight** (e.g.
-canned tomatoes = **400 g**); a per-100 g reference food → 100. Nutrients stay
-**per `baseAmount` (100 g)** regardless — the serving only sets the default
-amount FoodNoms logs.
+Pick S as the **natural pack/portion** where one exists — a tinned product → the
+**tin weight** (canned tomatoes = **400 g**). **If there's no natural portion,
+set `quantity` to `1` g** (a unit reference) — *not* 100. Nutrients stay **per
+`baseAmount` (100 g)** regardless; the serving only sets the default amount
+FoodNoms logs.
 
-Via `BuildFoodNomsRecipe`, pass **`customServingSizes`** (grams, `;`-aligned with
-the `custom*` arrays).
+Via `BuildFoodNomsRecipe`: pass **`customServingSizes`** (grams, `;`-aligned) for
+a natural pack — it sets `quantity` + the `measures[]` serving. With no natural
+pack, omit it and pass **`customQuantities=1`** (the 1 g unit default).
 
 #### Brand — use `brandOwner`
 
 For a branded or shop product, set **`brandOwner`** to the shop/brand name (e.g.
 `"Buy Whole Foods Online"`) — it's the right home for provenance, cleaner than
-stuffing the shop into the name. Pass **`customBrands`** to the endpoint. Keep the
-product **URL** in `urlString` (via `customUrls`) — brand and link are separate
-fields, not either/or.
+stuffing the shop into the name. Pass **`customBrands`** to the endpoint.
+
+> **`urlString`/`notes` are inert on individual foods.** FoodNoms **drops** them
+> when a standalone food is imported (verified via round-trip) — they don't harm,
+> but they don't survive, so don't rely on them to carry a food's product link.
+> They *do* work on a **recipe collection** (`notes`). For a single product food,
+> `brandOwner` is the provenance you keep; hold the product URL in the repo
+> (e.g. `docs/BWFO_GRAPHQL.md` / the recipe file), not in the food.
 
 ### `foodID` schemes
 

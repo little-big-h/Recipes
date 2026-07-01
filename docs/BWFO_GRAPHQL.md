@@ -158,13 +158,15 @@ more than retrying harder.
 ## → FoodNoms
 
 Feed the parsed per-100 g macros into `BuildFoodNomsRecipe` as a **custom food**
-(estimate micros from the nearest USDA generic, per project policy). Carry the
-product's provenance in the dedicated fields:
+(estimate micros from the nearest USDA generic, per project policy):
 
-- **`customBrands`** → `brandOwner` = `"Buy Whole Foods Online"` (the shop).
+- **`customBrands`** → `brandOwner` = `"Buy Whole Foods Online"` (the shop — the
+  provenance that FoodNoms keeps).
 - **`customServingSizes`** → the tin/pack weight in grams (canned tomatoes = 400)
-  as the serving size (see FOODNOMS_FORMAT § *Serving-size convention*).
-- **`customUrls`** → `urlString` = the product page; optional **`customNotes`**
-  for a free-text provenance note (no `;` in the text — it's the delimiter).
+  as the serving; with no natural pack, omit it and pass `customQuantities=1`
+  (see FOODNOMS_FORMAT § *Serving-size convention*).
+- Keep the **product URL** here in this doc / the recipe file — **not** in the
+  food. FoodNoms drops food-level `urlString`/`notes` on import (inert), so
+  `customUrls`/`customNotes` don't survive a round-trip.
 
 See `docs/FOODNOMS_FORMAT.md` and `docs/RECIPE_NUTRITION_GENERATOR.md`.

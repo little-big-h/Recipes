@@ -566,6 +566,12 @@ specFromParams[a_] := Module[{errs = {}},
    cleanFilename strips the [date] stamp + emoji and spells '&' as 'and' for the
    FILENAME only -- the in-file collection name keeps the full "...[DD-MM-YY] ✴️"
    stamp. *)
+(* Deployed-version marker. BUMP BY 1 on every change that alters endpoint
+   behaviour, in the same commit. `?emit=version` (below) returns it, so a caller
+   can compare the LIVE endpoint against this authored value and tell whether a
+   redeploy is pending -- see the deploy section's version-check snippet. *)
+$fnVersion = 1;
+
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
     "emit" -> opt["String", "recipe"],
@@ -587,11 +593,11 @@ foodnomsAPI = APIFunction[
        empty -> the meal-wide `uncertainty` default applies to that group *)
     "fdcUncertainties"    -> opt[DelimitedSequence["Number", ","], {}],
     "customUncertainties" -> opt[DelimitedSequence["Number", ";"], {}],
-    (* optional per-custom-food provenance: source url + free-text note, aligned
-       with the custom* arrays; a food's product page rides here (urlString/notes).
-       NB these are ';'-split like every custom* column, so the note text itself
-       must not contain a ';' (it would split into an extra element and fail the
-       length guard) -- use '.'/'-' in prose, not ';'. *)
+    (* optional per-custom-food urlString/notes, aligned with the custom* arrays.
+       NB (1) FoodNoms DROPS urlString/notes on a standalone food import -- they
+       are inert (harmless, but don't survive); use brandOwner for provenance and
+       keep the URL in the repo. NB (2) ';'-split like every custom* column, so
+       the text must not contain a ';' (it would split + fail the length guard). *)
     "customUrls"  -> opt[DelimitedSequence["String", ";"], {}],
     "customNotes" -> opt[DelimitedSequence["String", ";"], {}],
     (* optional brand (-> brandOwner) + serving size in grams (-> the food's
@@ -599,7 +605,14 @@ foodnomsAPI = APIFunction[
     "customBrands"       -> opt[DelimitedSequence["String", ";"], {}],
     "customServingSizes" -> opt[DelimitedSequence["Number", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
-     If[FailureQ[spec],
+     If[#["emit"] === "version",
+      (* lightweight version probe (no ingredients needed): compare the returned
+         endpointVersion against $fnVersion in this file to tell if the live
+         endpoint is current. *)
+      HTTPResponse[ExportByteArray[<|"endpointVersion" -> $fnVersion|>, "RawJSON"],
+        <|"StatusCode" -> 200,
+          "Headers" -> {"Content-Type" -> "application/json", "Vary" -> "Accept"}|>],
+      If[FailureQ[spec],
       HTTPResponse[spec["err"], <|"StatusCode" -> 400,
         "Headers" -> {"Content-Type" -> "text/plain", "Vary" -> "Accept"}|>],
       r = buildFoodNomsRecipe[spec];
@@ -628,7 +641,7 @@ foodnomsAPI = APIFunction[
        (* default: the raw .foodnoms bytes (unchanged) *)
        HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
           "Content-Type" -> "application/octet-stream", "Vary" -> "Accept",
-          "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]]] &];
+          "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]]]] &];
 
 (* the resolution endpoint (search only — returns candidates to judge) *)
 resolveAPI = APIFunction[
@@ -643,12 +656,23 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING (brand + serving size, 2026-07-01): custom foods now carry
-   a brand (customBrands -> brandOwner) and a serving size in grams
-   (customServingSizes -> the food's measure/measures/quantity), on top of the
-   customUrls/customNotes added the same day. The LIVE endpoint ignores all four
-   until BuildFoodNomsRecipe is re-run as pirk0. (The vitamin-D fix and
-   customUrls/customNotes are already deployed.) *)
+   ⚠ REDEPLOY PENDING ($fnVersion 1 -- brand + serving size + version hook,
+   2026-07-01): custom foods carry a brand (customBrands -> brandOwner) and a
+   serving size (customServingSizes -> the food's measure/measures/quantity), and
+   `?emit=version` now returns {"endpointVersion":$fnVersion}. The LIVE endpoint
+   lacks all of these until BuildFoodNomsRecipe is re-run as pirk0. (The
+   vitamin-D fix and customUrls/customNotes are already deployed.)
+
+   VERSION CHECK -- is the live endpoint current? Compare the live version to
+   $fnVersion in this file:
+
+     curl -s 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?emit=version' \
+       -H 'Accept: application/json'
+     -> {"endpointVersion":1}   (matches $fnVersion => deployed is current)
+
+   A non-JSON / recipe-shaped response means the deployed build predates the
+   version hook (redeploy needed). Bump $fnVersion whenever endpoint behaviour
+   changes so this check stays meaningful. *)
 
 CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],          Permissions -> "Public"]
 CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]
