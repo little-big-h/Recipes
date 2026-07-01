@@ -1,0 +1,91 @@
+# Super-Quick Hasselback Jacket Potatoes
+
+*A ~25-minute jacket potato: **hasselback-cut raw with a knife**, **microwaved through** so the dense centre cooks in minutes (the slow part of a 60-90 min oven bake), then **air-fried at 200C** so the fanned slices crisp into golden ribs. Just potato, oil and salt — nothing bought, kid-safe, and mild. Toppings at the table so everyone builds their own. Family of five, one potato each.*
+
+---
+
+## Ingredients
+
+| Type | Ingredient | Planned | Est. kcal | Actual used | Source |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🥔 | Baking potatoes (floury; skin on, scrubbed) | 1300 g (5 x ~260 g) | 1001 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
+| 🥑 | Avocado oil (brushed into the cuts) | 15 g | 133 | | local |
+| 🧂 | Salt | 5 g | 0 | | — |
+| 🧀 | Nutritional yeast (at table, optional) | to taste | — | | — |
+| 🌿 | Chives / spring onion (garnish, optional) | to taste | — | | — |
+| | **Total** | **~1.32 kg** | **~1134** | | |
+
+*Legend: 🥔 Vegetable · 🥑 Fat · 🧂 Seasoning · 🧀 Umami (at table) · 🌿 Herb (at table)*
+
+*Only two ingredients carry weight: 🥔 potato (USDA SR Legacy 170026, raw flesh-and-skin — weighed **raw**; cooking drives off water so the cooked yield is lower, ~1.05-1.1 kg, but the absolute macro/mineral totals are unchanged) and 🥑 avocado oil (canonical block). 🧂 salt is 0 kcal. Toppings are at-table, uncounted. Totals are for the **whole tray of five potatoes**.*
+
+---
+
+## Timeline
+
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Knife%22%3a%7b%22color%22%3a%22%23A0895A%22%2c%22steps%22%3a%5b%5b0%2c4%2c%22Hasselback+cut+x5%22%5d%2c%5b11%2c13%2c%22Oil+%2b+salt+in+cuts%22%5d%5d%7d%2c%22Microwave%22%3a%7b%22color%22%3a%22%238C8C8C%22%2c%22steps%22%3a%5b%5b4%2c11%2c%22Cook+through+7min%22%5d%5d%7d%2c%22Air+fryer%22%3a%7b%22color%22%3a%22%233AB5B5%22%2c%22steps%22%3a%5b%5b13%2c27%2c%22200C+crisp+%2b+fan+out%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a4%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Cut+done%22%7d%2c%7b%22t%22%3a11%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Microwaved%22%7d%2c%7b%22t%22%3a27%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Ready%22%7d%5d)
+
+*Knife (cut), microwave (cook through), air fryer (crisp) — three tools, back to back, ~27 min end to end. The microwave does the cooking; the air fryer only has to crisp, which is why this beats a 60-90 min oven jacket.*
+
+---
+
+## Method
+
+> **Depth-stop for the cut.** Lay each potato between two chopsticks (or wooden-spoon handles) so the knife hits them and can't slice all the way through — the base stays intact and the potato fans instead of falling apart. **Floury baking potatoes** (russet, Maris Piper, King Edward) crisp and fluff best; waxy salad potatoes stay dense and won't fan.
+
+1. **Hasselback cut — raw.** Scrub the 🥔 potatoes (skin on). Sitting each between the chopsticks, slice straight down at ~3-4 mm intervals along its length, the blade stopping on the chopsticks so the bottom stays joined. Cutting **raw** matters — a firm potato slices into clean, defined ribs; a softened one tears. ~2-3 min for all five.
+2. **Microwave to cook through.** Arrange the cut potatoes in a ring on a plate; microwave on full power **~7 min for ~1.3 kg** (roughly 90 sec per 250 g potato), until a knife slides into the centre with no resistance. The open cuts cook faster than a whole jacket and start to fan. Give very large/firm ones another 1-2 min. Rest 1 min — residual steam finishes the middle.
+3. **Oil and salt into the cuts.** Drizzle or brush ~3 g 🥑 avocado oil per potato (**15 g total**) over the top and **down into the cuts**, gently fanning the slices apart so the oil reaches the edges — that contact is what crisps them. 🧂 Salt generously (~1 g each).
+4. **Air-fry to crisp.** Ninja air-fryer basket, **200C, ~12-15 min**, until the slice edges are golden and crisp and the fans have opened. No shaking — they hold shape. Single layer; do two batches if all five won't fit.
+5. **Serve.** Straight from the basket, fans up. Put toppings on the table so everyone customises — 🧀 nutritional yeast, 🌿 chives/spring onion, butter, cottage cheese, or warmed beans. Keep sour or smoked toppings (sour cream, smoked paprika) at the table and off Lara's.
+
+---
+
+## Nutrition
+
+*Whole tray of five potatoes: **1300 g potato + 15 g avocado oil + 5 g salt**. **USDA-derived, not FoodNoms-verified** — potato from authentic USDA SR Legacy per-100 g values (FDC 170026), oil from the canonical block, summed in Wolfram. Micros are committed best-estimates (final). A clean high-carb, high-potassium, high-fibre plate with almost no fat: **~227 g carbs, 27 g protein, 27 g fibre, 5.5 g potassium** across the five, ~16 g fat all from the crisping oil. Salt ~5.2 g is a taste lever — bump it at step 3 (positive for Holger's electrolytes; comfortable for the kids too). Potato weighed raw; cooked yield is lower but absolute totals hold.*
+
+```wolfram
+(* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
+            iron, calcium, zinc, magnesium, potassium, vitD, B12, folate}
+   Per 100 g. *)
+n100 = <|
+  "potato"  -> {77, 2.05, 17.49, 0.82, 0.09, 0.025, 2.1, 0.015, 0.81, 12, 0.3, 23, 425, 0, 0, 15}, (* USDA 170026 *)
+  "avocado" -> {884, 0, 0, 0, 100, 11.6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  "salt"    -> {0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0}
+|>;
+amounts = <| "potato" -> 1300, "avocado" -> 15, "salt" -> 5 |>;
+totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
+```
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | 1134 kcal | Iron | 10.5 mg |
+| Protein | 27 g | Calcium | 156 mg |
+| Carbohydrates | 227 g | Zinc | 3.9 mg |
+| — of which sugars | 11 g | Magnesium | 299 mg |
+| Fat | 16 g | Potassium | 5525 mg |
+| — of which saturates | 2 g | Vitamin D | 0.0 µg |
+| Fibre | 27 g | Vitamin B12 | 0.0 µg |
+| Salt | ~5.2 g | Folate | 195 µg |
+
+*FoodNoms collection: **Super-Quick Hasselback Jacket Potatoes [01-07-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Super-Quick+Hasselback+Jacket+Potatoes+%5b01-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=1080&fdcIds=170026&grams=1300&customNames=Avocado+Oil%3bSalt&customFoodIds=local%3aB2C3D4E5-0001-4000-8000-000000000001%3blocal%3aB2C3D4E5-0002-4000-8000-000000000002&customQuantities=15%3b5&customUnits=gram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b0%2c0%2c0%2c0%2c0%2c0%2c0%2c40000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0)** — generated only when clicked; totals round-trip-verified against this table (HTTP 200, JSON view).*
+
+---
+
+## Design notes
+
+- **Microwave cooks, air fryer crisps — that's the whole trick.** A traditional oven jacket spends 60-90 min mostly getting heat into the dense centre. The microwave does that in ~7 min; the air fryer is then left with the one job it's fast at — crisping the outside (~12-15 min). Total ~25 min instead of ~75.
+- **Cut raw, not after microwaving.** A raw potato is firm and slices into clean, defined hasselback ribs; a microwaved one is soft and tears when you cut it. The chopstick depth-stop keeps the base joined. Cutting first also *speeds the microwave* (more surface) and pre-opens the fans so oil gets in.
+- **Oil into the cuts, not just on top.** The crisp comes from hot air hitting oiled slice edges. Brushing down into the fanned cuts is what turns a plain jacket into crispy-frilled hasselback — the reason to bother with the knife at all.
+- **Floury over waxy.** Baking potatoes (russet / Maris Piper / King Edward) go fluffy inside and crisp at the edges. Waxy salad potatoes stay dense and won't fan or crisp.
+- **Fat is 3 g per potato** (15 g across five) — enough to crisp the ribs, in line with Holger's low-fat default. For a solo potato, 3 g total keeps it at his ≤3 g/dish.
+- **Pantry run-down + kids.** Base is just oil + salt — nothing bought, nothing fermented, no heat: green for Jannes and Lara. All flavour is at-table and per-person (nutritional yeast is in stock; butter/cottage cheese/beans/chives as available), so acidic or smoked toppings stay off Lara's plate by choice, not by cooking two versions.
+
+---
+
+## Cook log
+
+- **Planned — designed 2026-07-01, not yet cooked.** Built as the fast weeknight answer to a jacket potato. Open questions to confirm on the first cook: exact microwave time per potato (scales with oven wattage — 7 min is calibrated for ~1.3 kg at full power), and whether 200C / ~14 min gives enough crisp on the fanned edges or wants a hotter finish (some air fryers reach 220C). **Ratings to be added once cooked.**
+</content>
+</invoke>

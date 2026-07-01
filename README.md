@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
-2. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
-3. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
-4. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
-5. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
-6. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
-7. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
-8. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
-9. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
-10. **[Creamy Butternut & Soy Bean Soup (Dashi-Soaked Beans)](recipes/soups/butternut-soybean-soup.md)** — 2026-06-10
+1. **[Super-Quick Hasselback Jacket Potatoes](recipes/oven-mains/hasselback-jacket-potatoes.md)** — 2026-07-01
+2. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
+3. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
+4. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
+5. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
+6. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
+7. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
+8. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
+9. **[Chickpea, Cauliflower & Spinach Tikka Curry (Kids' Pasta Bowl)](recipes/stovetop-mains/chickpea-cauliflower-tikka-curry.md)** — 2026-06-12
+10. **[Peanut–Kecap Asparagus & Sprout Bowl (Gado-Gado-Style)](recipes/salads/peanut-kecap-asparagus-bowl.md)** — 2026-06-11
 
 ---
 
