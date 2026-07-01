@@ -88,15 +88,29 @@ fdcId in `patchFdcIds` with the nutrient/delta); **custom** (a `custom*` column 
 nutrition supplied directly, for non-USDA foods). Mis-aligned column lengths → **HTTP
 400** naming the offending arrays.
 
-**Response: the raw `.foodnoms` bytes** (`application/octet-stream`), *not* a JSON
-envelope — so a browser GET or `curl -o recipe.foodnoms …` writes the file directly.
-What an envelope would have carried lives in the file instead:
-- **`totals`** — not returned; the file is self-describing. Read back with
-  `foodnomsTotals[ByteArray[BinaryReadList["recipe.foodnoms"]]]` (16 slots + `salt`), then
-  do the Step 5 write-back. `foodnomsDecode` returns the JSON to inspect.
-- **`warnings` + the companion-file menu** — written into the recipe collection's
-  **`notes`** (visible in FoodNoms and via `foodnomsDecode`). Unknown `emit`, unmapped
-  dataType, or skipped ingredient surface there.
+**Response — content-negotiated on the `Accept` header** (same URL, two views of the
+one recipe resource):
+
+- **`Accept: application/json` → the JSON view (preferred for the write-back).** Returns
+  `{filename, recipe, totals (16 slots + salt), estKcal[], warnings}` as plain JSON — no
+  `bvx-` wrapper. This is the fast path for **Step 5**: `totals` is computed for you (no
+  client-side LZFSE decode), `estKcal[]` reconciles the Ingredients column, and
+  `recipe.foodEntries[].name` lets you **verify each USDA id resolved to the right food**
+  (a raw-vs-cooked / wrong-bean mismatch shows up here immediately). `warnings` is surfaced
+  as a top-level array.
+  ```bash
+  curl -s -H 'Accept: application/json' \
+    'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Soup&fdcIds=169295&grams=500'
+  ```
+- **Default (no/other `Accept`, e.g. a browser or `curl -o`) → the raw `.foodnoms` bytes**
+  (`application/octet-stream`), so a GET on the URL or `curl -o recipe.foodnoms …` still
+  writes the file directly. `Vary: Accept` is set so caches don't cross the two views.
+
+For a `.foodnoms` you only have **on disk** (no rebuild), still read totals back with
+`foodnomsTotals[ByteArray[BinaryReadList["recipe.foodnoms"]]]` (16 slots + `salt`);
+`foodnomsDecode` returns the JSON to inspect. **`warnings` + the companion-file menu** are
+*also* written into the recipe collection's **`notes`** (visible in FoodNoms and via
+`foodnomsDecode`) — unknown `emit`, unmapped dataType, or a skipped ingredient surface there.
 
 #### Emitting each file
 
@@ -288,8 +302,11 @@ Write back into the recipe `.md`:
 
 ## Step 6 — Verify
 
-- **Round-trip** the `.foodnoms`: `json.loads(lzfse.decompress(...))` and confirm
-  entries/quantities.
+- **Round-trip** the build: re-request with `Accept: application/json` and confirm
+  `recipe.foodEntries[]` names/quantities and that each USDA id resolved to the intended
+  food (raw vs cooked, right variety). No decode needed — this is the JSON view. (For a
+  file already on disk, `foodnomsDecode[ByteArray[BinaryReadList[…]]]` in Wolfram is the
+  decode path; never `lzfse`/Python.)
 - **Cross-checks:** summed entry `calories` ≈ Nutrition Energy;
   `totalServingSize` ≈ Σ ingredient mass; `Est. kcal` column sum == Total row ==
   Nutrition Energy.

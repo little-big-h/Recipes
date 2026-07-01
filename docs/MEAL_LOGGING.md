@@ -21,9 +21,9 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 2. **Scale** a per-100 g nutrition estimate for that dish to the eaten grams.
 3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams. **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
 
-> **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty still has to be patched in the kernel (see Uncertainty policy below) since the query param is meal-wide.
+> **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty tiers (0/10/30) are now set **inline** via the `customUncertainties` / `fdcUncertainties` columns (aligned with each ingredient group), so a single call yields a correctly-tiered meal file — no kernel patching. See Uncertainty policy below.
 
-> **Egress.** `wolframcloud.com` is **not** in the repo container's network allowlist, so `curl`-ing the endpoint from here fails. To deliver an actual file, build the bytes in the Wolfram kernel and bridge them out as base64 (`BaseEncode`), then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
+> **Egress.** `wolframcloud.com` **is now in** the container's network allowlist (added 2026-06-27), so the simplest path is to **`curl` the endpoint directly**: `curl -o meal.foodnoms '…/BuildFoodNomsRecipe?…'` for the raw file bytes, or add `-H 'Accept: application/json'` to get the decoded entries + computed totals back (verify resolution + totals without cracking the `bvx-` container — see `RECIPE_NUTRITION_GENERATOR.md`). *Fallback* (rare) — only for a kernel-only session or if egress is ever withdrawn: build the bytes in Wolfram, bridge them out with `BaseEncode[byteArray]`, then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
 
 ---
 
@@ -37,7 +37,7 @@ Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.m
 | **Weighed prepared/cooked dish** | **10** | Portion exact; only the per-gram composition (oil, sauce, recipe) is estimated. |
 | **Photo only, no scale** | **30** | Both the portion *and* the composition are guessed from the image. |
 
-**Set uncertainty per entry, not per meal** — a single sitting can mix tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato + mushroom 10). The endpoint's `uncertainty` query param applies one value to *all* entries, so when tiers differ: build with the common value (or `0`), then **patch each `foodEntries[]` item's `uncertainty` in the kernel** before re-emitting the `bvx-` bytes (`Append[entry, "uncertainty" -> n]`; omit the field entirely for the 0 tier).
+**Set uncertainty per entry, not per meal** — a single sitting can mix tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato + mushroom 10). The scalar `uncertainty` query param is the meal-wide *default*; when tiers differ, pass a **per-entry column** instead — `customUncertainties` (a `;`-list aligned with the `custom*` arrays; meals are all custom entries) and/or `fdcUncertainties` (a `,`-list aligned with `fdcIds`). One value per dish, **`0` omits the field** (the no-estimate tier); an empty column ⇒ the meal-wide default applies. So mixed tiers are **one curl, no kernel round-trip** — e.g. `customUncertainties=10;10;0` for two weighed dishes + a raw fruit.
 
 **The weights are the certain part; the composition is the estimate.** Even a perfectly-weighed 367 g of Ma Po has unknown oil content — that's what the 10 % covers, not the gram count. The 0 tier is the case where there's no composition guess either.
 

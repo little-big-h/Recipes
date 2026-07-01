@@ -28,6 +28,8 @@ This file is read automatically at session start. **For full project context, re
 - **Currency: GBP (£).**
 - **Never use immediate (quick) release on the Ninja pressure cooker.** Natural or delayed only. See `docs/TECHNIQUES.md`.
 - **Every ingredient gets a unique emoji prefix** used consistently in the ingredient table, method, and notes. See `docs/RECIPE_FORMAT.md`.
+- **Always embed the rendered `RenderTimeline` image** in a recipe's Timeline section — never a textual-only timeline. It renders at page-view (the URL *is* the artifact), so it's effectively free. Labels must be **ASCII-only** (a `°`/`é`/emoji yields a blank chart). See `docs/RECIPE_FORMAT.md` → Timeline.
+- **Always embed a FoodNoms download link** (`BuildFoodNomsRecipe` URL) in a recipe's Nutrition section — just like the timeline image, the `.foodnoms` file is only generated when the link is clicked, so the URL *is* the artifact and it's effectively free. Verify it first via the JSON view (`-H 'Accept: application/json'`, HTTP 200, totals matching the Nutrition table). See `docs/RECIPE_FORMAT.md` → Nutrition.
 - **Name every Claude-generated recipe with a `[DD-MM-YY]` creation-date suffix and a trailing ✴️** (marks it Claude-made), e.g. `Creamy Butternut & Soy Bean Soup [10-06-26] ✴️`. The stamp goes in the collection `name`. See `docs/FOODNOMS_FORMAT.md`.
 - **Keep the "🍽️ Latest recipes" list at the very top of `README.md` current.** Whenever you add a new recipe file under `recipes/` **or a new entry under `anjas-cooking/`**, prepend it to that list (newest first, with its creation date) and drop the oldest so it stays at **10**. It must be the first thing seen in the repo — Holger's standing request.
 
@@ -58,7 +60,7 @@ These are unresolved and should not be unilaterally decided by Claude:
 
 - **Parent-directory file hygiene** (stale duplicates, orphans, autosaves, SVGs) — leave / archive / delete.
 - **Obsidian XHTML-header rendering** of the jQuery colour-coding snippets — never visually verified.
-- **Wolfram Cloud timeline endpoint** rendering — never visually spot-checked for the encoded URLs in current recipes.
+- ~~**Wolfram Cloud timeline endpoint** rendering — never visually spot-checked.~~ **Resolved 2026-06-28:** spot-checked via curl → SVG → PNG; the endpoint renders correctly. Caveat found: **labels must be ASCII-only** (a `°`/`é`/`–`/emoji yields a valid-but-empty SVG, HTTP 200). See the ASCII-only warning in `docs/RECIPE_FORMAT.md` → Timeline.
 - **Ingredient nutrition data source** — no master `n100` Wolfram library has been located in the project; computation workflow for new recipes is unconfirmed (likely "Holger looks up values in FoodNoms, Claude computes totals in Wolfram").
 - **Post-Workout Cream** (Holger solo recipe) — exists in earlier conversational memory, not on disk anywhere. Whether to capture as a Recipes/ file is undecided.
 - **Pantry/staples list** — recurring ingredients (white miso, liquid aminos, nutritional yeast, shiitake powder, capers, amaranth, defatted peanut flour, whole spices) are not collated.

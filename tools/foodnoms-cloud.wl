@@ -161,21 +161,23 @@ $totalsSlots = {"calories", "protein", "carbs", "sugars", "fat", "fatSaturated",
    "fiber", "sodium", "iron", "calcium", "zinc", "magnesium", "potassium",
    "vitaminD", "vitaminB12", "folate"};
 
-(* standard per-100 g USDA ingredient entry *)
-usdaFoodEntry[block_, qty_, unit_, sortIdx_] := DeleteMissing @ <|
+(* standard per-100 g USDA ingredient entry. `unc` is this entry's uncertainty
+   (integer percent); 0 -> omit the field entirely (the FoodNoms "no estimate"
+   tier), per the meal-logging uncertainty policy. *)
+usdaFoodEntry[block_, qty_, unit_, sortIdx_, unc_ : 0] := DeleteMissing @ <|
    "name" -> block["name"],
    "foodID" -> "foodnoms:usda:" <> ToString[block["fdcId"]],
    "source" -> "usda",
    "secondarySource" -> fdcSecondarySource[block["dataType"]],
    "version" -> 1, "baseAmount" -> 100, "baseUnit" -> unit,
-   "traits" -> 0, "uncertainty" -> 0,
+   "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
    "quantity" -> qty,
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> block["nutrients"],
    "collectionSortIndex" -> sortIdx|>;
 
 (* pass-through entry for non-USDA (local:/ciqual:) foods: nutrients given verbatim *)
-passthroughFoodEntry[ing_, sortIdx_] := Module[
+passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
   {unit = Lookup[ing, "unit", Lookup[ing, "baseUnit", "gram"]]},
   DeleteMissing @ <|
    "name" -> Lookup[ing, "name", "Ingredient"],
@@ -185,7 +187,7 @@ passthroughFoodEntry[ing_, sortIdx_] := Module[
    "version" -> 1,
    "baseAmount" -> Lookup[ing, "baseAmount", 100],
    "baseUnit" -> unit,
-   "traits" -> 0, "uncertainty" -> 0,
+   "traits" -> 0, "uncertainty" -> If[TrueQ[unc > 0], Round[unc], Missing[]],
    "quantity" -> ing["quantity"],
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> ing["nutrients"],
@@ -269,23 +271,29 @@ foodnomsTotals[in_] := Module[{r = If[Head[in] === ByteArray, foodnomsDecode[in]
 buildFoodNomsRecipe[spec_Association] := Module[
   {name, servings, ctype, ings, warnings = {}, entries = {}, aux = {}, totalSize,
    recipeJson, recipeCollection, auxRecs, emit, selected, notes,
-   selectedName, selectedJson, i = 0},
+   selectedName, selectedJson, defaultUnc, fe, fjson, i = 0},
   name = Lookup[spec, "name", "Untitled Recipe"];
   servings = Lookup[spec, "servings", 1];
   (* collectionType: 3 = recipe (default; carries the yield fields), 2 = meal
      (a list of foods eaten, no yield). See FOODNOMS_FORMAT.md 5 vs 6. *)
   ctype = Lookup[spec, "collectionType", 3];
   ings = Lookup[spec, "ingredients", {}];
+  (* FoodNoms 'uncertainty' is an INTEGER percent 0-100 (verified from a FoodNoms
+     export: 30% serialises as 30, NOT 0.3). The meal-wide `uncertainty` is the
+     DEFAULT; each ingredient may carry its own (per-entry tiers 0/10/30, set via
+     the fdcUncertainties / customUncertainties columns). 0 -> field omitted. *)
+  defaultUnc = Round @ Lookup[spec, "uncertainty", 0];
 
   Do[
-    Module[{ing = rawIng, fdcId, block, patch, qty, unit, note, trio},
+    Module[{ing = rawIng, fdcId, block, patch, qty, unit, note, trio, thisUnc},
      qty = Lookup[ing, "quantity", 0];
      unit = Lookup[ing, "unit", "gram"];
      patch = Lookup[ing, "patch", <||>];
+     thisUnc = Lookup[ing, "uncertainty", defaultUnc];
      Which[
       (* pass-through: explicit foodID + nutrients given verbatim *)
       KeyExistsQ[ing, "nutrients"] && KeyExistsQ[ing, "foodID"],
-        AppendTo[entries, passthroughFoodEntry[ing, i]],
+        AppendTo[entries, passthroughFoodEntry[ing, i, thisUnc]],
       (* USDA-resolved by a known fdcId (with or without a patch).
          NB: no fuzzy name search here — resolution is a separate concern
          (the ResolveFDC endpoint). An ingredient must arrive already resolved. *)
@@ -301,7 +309,8 @@ buildFoodNomsRecipe[spec_Association] := Module[
             StringRiffle[KeyValueMap[#1 <> " +" <> ToString[#2] &, patch], ", "] <> "."];
          trio = patchTrio[block, patch, qty, note,
            Lookup[ing, "patchFoodID", Missing[]], Lookup[ing, "patchedFoodID", Missing[]], i];
-         AppendTo[entries, trio["entry"]];
+         AppendTo[entries, If[TrueQ[thisUnc > 0],
+            Append[trio["entry"], "uncertainty" -> Round[thisUnc]], trio["entry"]]];
          AppendTo[aux, trio["patchFood"]];
          AppendTo[aux, trio["patchedFood"]];
          If[trio["missing"] =!= {},
@@ -309,7 +318,7 @@ buildFoodNomsRecipe[spec_Association] := Module[
            block["name"] <> ": patch created previously-missing key(s) " <>
             ToString[trio["missing"]]]],
          (* else: plain USDA entry *)
-         AppendTo[entries, usdaFoodEntry[block, qty, unit, i]]],
+         AppendTo[entries, usdaFoodEntry[block, qty, unit, i, thisUnc]]],
       (* unresolved: neither a known fdcId nor a pass-through food — skip, don't guess *)
       True,
         AppendTo[warnings,
@@ -319,11 +328,8 @@ buildFoodNomsRecipe[spec_Association] := Module[
     i++,
     {rawIng, ings}];
 
-  (* FoodNoms 'uncertainty' is an INTEGER percent 0-100 (verified from a FoodNoms
-     export: 30% serialises as 30, NOT 0.3). Round to int; default 0 = none. *)
-  With[{unc = Round @ Lookup[spec, "uncertainty", 0]},
-    If[unc =!= 0, entries = (Append[#, "uncertainty" -> unc] &) /@ entries]];
-
+  (* uncertainty is now applied PER ENTRY in the loop above (each entry's own
+     tier, or defaultUnc) -- no blanket post-pass. *)
   totalSize = Lookup[spec, "totalServingSize",
     Total[Lookup[#, "quantity", 0] & /@ entries]];
 
@@ -345,6 +351,23 @@ buildFoodNomsRecipe[spec_Association] := Module[
     #["name"] &];
 
   emit = Lookup[spec, "emit", "recipe"];
+  (* emit=food: a STANDALONE food in entry form (contentType 1, FOODNOMS_FORMAT
+     §4a) -- a one-item foodEntries[], NO collection. The first resolved entry
+     already carries baseAmount/baseUnit/nutrients (per 100) + quantity/measure/
+     uncertainty, i.e. the entry-form shape, so we just rewrap it without a
+     collection (dropping the collection-only collectionSortIndex). The filename
+     and foodID come from that food; warns if more than one food was supplied. *)
+  If[emit === "food",
+   fe = If[entries === {}, $Failed, KeyDrop[First[entries], "collectionSortIndex"]];
+   If[Length[entries] > 1,
+    AppendTo[warnings, "emit=food emits only the first food; " <>
+      ToString[Length[entries] - 1] <> " other(s) ignored"]];
+   If[fe === $Failed, AppendTo[warnings, "emit=food: no resolved food to emit"]];
+   fjson = <|"version" -> 2, "contentType" -> 1,
+      "foodEntries" -> If[fe === $Failed, {}, {fe}]|>;
+   Return[<|
+     "name" -> cleanFilename[If[fe === $Failed, "Food", Lookup[fe, "name", "Food"]]] <> ".foodnoms",
+     "bytes" -> foodnomsBytes[fjson], "json" -> fjson, "warnings" -> warnings|>]];
   selected = If[emit === "recipe", "recipe",
     SelectFirst[auxRecs, #["name"] === emit &, $Failed]];
   If[selected === $Failed,
@@ -375,7 +398,7 @@ buildFoodNomsRecipe[spec_Association] := Module[
     {name, recipeJson}, {selected["name"], selected["json"]}];
 
   <|"name" -> cleanFilename[selectedName] <> ".foodnoms", "bytes" -> foodnomsBytes[selectedJson],
-    "json" -> selectedJson|>];
+    "json" -> selectedJson, "warnings" -> warnings|>];
 
 
 (* ============ B2. Resolution: ingredient name -> USDA candidates =========
@@ -424,6 +447,14 @@ patchFor[id_, a_] := AssociationThread[
    Pick[a["patchNutrientNames"], a["patchFdcIds"], id] ->
    Pick[a["patchDeltas"],        a["patchFdcIds"], id]];
 
+(* attach a per-entry uncertainty to an ingredient assoc, unless none was given
+   (Missing) -- absent key => the builder uses the meal-wide default *)
+addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u]]];
+
+(* a per-group uncertainty column, padded to Missing when omitted (length 0) so it
+   aligns with its ingredient group; length is guarded in specFromParams *)
+uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
+
 (* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
 specFromParams[a_] := Module[{errs = {}},
   If[Length[a["fdcIds"]] =!= Length[a["grams"]],
@@ -435,26 +466,54 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "all custom* arrays must be equal length"]];
   If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
+  (* per-entry uncertainty columns are OPTIONAL: each must be empty (use the
+     meal-wide default) or exactly its group's length *)
+  If[! MemberQ[{0, Length[a["fdcIds"]]}, Length[a["fdcUncertainties"]]],
+   AppendTo[errs, "fdcUncertainties must be empty or the same length as fdcIds"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customUncertainties"]]],
+   AppendTo[errs, "customUncertainties must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
      "uncertainty" -> a["uncertainty"], "collectionType" -> a["collectionType"],
      "ingredients" -> Join[
-       MapThread[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|> &,
-         {a["fdcIds"], a["grams"]}],
-       MapThread[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-           "nutrients" -> AssociationThread[#5 -> #6]|> &,
+       MapThread[
+         addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
+         {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
+       MapThread[
+         addUnc[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
+            "nutrients" -> AssociationThread[#5 -> #6]|>, #7] &,
          {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
-          a["customNutrientNames"], a["customNutrientValues"]}]]|>,
+          a["customNutrientNames"], a["customNutrientValues"],
+          uncCol[a["customUncertainties"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
 
-(* The response body IS the raw .foodnoms bytes (application/octet-stream) -- no
-   envelope -- so a browser GET on a query-string URL, or `curl -o`, lands the
-   file directly. Filename via Content-Disposition (RFC 5987); cleanFilename
-   strips the [date] stamp + emoji and spells '&' as 'and' for the FILENAME only
-   -- the in-file collection name keeps the full "...[DD-MM-YY] ✴️" stamp. *)
+(* CONTENT NEGOTIATION on the `Accept` request header -- ONE resource, two
+   representations of the same recipe, same URL:
+
+     Accept: application/json   -> a plain JSON view: the decoded recipe
+                                   (foodCollections + foodEntries, no 'bvx-'
+                                   wrapper) PLUS computed `totals` (16 slots +
+                                   salt), per-ingredient `estKcal`, and
+                                   `warnings`. Lets a caller read totals and the
+                                   resolved entry descriptions WITHOUT decoding
+                                   the LZFSE container client-side.
+     anything else (the default,
+       incl. browsers' text/html
+       and application/octet-stream)
+                                -> the raw .foodnoms bytes, exactly as before, so
+                                   a browser GET or `curl -o` still lands the file
+                                   (the clickable download link is unaffected).
+
+   `Vary: Accept` is set on every response so a shared cache never serves the
+   JSON view to a client that asked for the file (or vice-versa). The request
+   header is read with HTTPRequestData (guarded -- falls back to the bytes view
+   if headers are unavailable). Filename via Content-Disposition (RFC 5987);
+   cleanFilename strips the [date] stamp + emoji and spells '&' as 'and' for the
+   FILENAME only -- the in-file collection name keeps the full "...[DD-MM-YY] ✴️"
+   stamp. *)
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
     "emit" -> opt["String", "recipe"],
@@ -471,14 +530,42 @@ foodnomsAPI = APIFunction[
     "customQuantities" -> opt[DelimitedSequence["Number", ";"], {}],
     "customUnits"      -> opt[DelimitedSequence["String", ";"], {}],
     "customNutrientNames"  -> opt[DelimitedSequence[DelimitedSequence["String", ","], ";"], {}],
-    "customNutrientValues" -> opt[DelimitedSequence[DelimitedSequence["Number", ","], ";"], {}]},
-   Module[{spec = specFromParams[#], r},
+    "customNutrientValues" -> opt[DelimitedSequence[DelimitedSequence["Number", ","], ";"], {}],
+    (* optional per-entry uncertainty (integer percent), aligned with each group;
+       empty -> the meal-wide `uncertainty` default applies to that group *)
+    "fdcUncertainties"    -> opt[DelimitedSequence["Number", ","], {}],
+    "customUncertainties" -> opt[DelimitedSequence["Number", ";"], {}]},
+   Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[FailureQ[spec],
-      HTTPResponse[spec["err"], <|"StatusCode" -> 400, "Headers" -> {"Content-Type" -> "text/plain"}|>],
+      HTTPResponse[spec["err"], <|"StatusCode" -> 400,
+        "Headers" -> {"Content-Type" -> "text/plain", "Vary" -> "Accept"}|>],
       r = buildFoodNomsRecipe[spec];
-      HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
-         "Content-Type" -> "application/octet-stream",
-         "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]] &];
+      (* the request's Accept header, lower-cased; guarded -- if the header isn't
+         reachable we default to "*/*" (the bytes view). *)
+      accept = Quiet @ Check[
+        ToLowerCase @ Lookup[
+          Association @ Cases[HTTPRequestData["Headers"], (k_ -> v_) :> (ToLowerCase[k] -> v)],
+          "accept", "*/*"],
+        "*/*"];
+      wantJson = StringContainsQ[accept, "application/json"];
+      If[wantJson,
+       (* JSON view: decoded recipe + computed totals + per-ingredient est. kcal
+          + warnings. Same numbers the bytes view encodes, no LZFSE wrapper. *)
+       body = <|
+          "filename" -> r["name"],
+          "recipe" -> r["json"],
+          "totals" -> foodnomsTotals[r["json"]],
+          "estKcal" -> (Function[e, <|
+              "name" -> e["name"],
+              "kcal" -> Round[Lookup[e["nutrients"], "calories", 0] *
+                  e["quantity"] / e["baseAmount"]]|>] /@ r["json"]["foodEntries"]),
+          "warnings" -> r["warnings"]|>;
+       HTTPResponse[ExportByteArray[body, "RawJSON"], <|"StatusCode" -> 200,
+         "Headers" -> {"Content-Type" -> "application/json", "Vary" -> "Accept"}|>],
+       (* default: the raw .foodnoms bytes (unchanged) *)
+       HTTPResponse[r["bytes"], <|"StatusCode" -> 200, "Headers" -> {
+          "Content-Type" -> "application/octet-stream", "Vary" -> "Accept",
+          "Content-Disposition" -> "attachment; filename*=UTF-8''" <> URLEncode[r["name"]]}|>]]]] &];
 
 (* the resolution endpoint (search only — returns candidates to judge) *)
 resolveAPI = APIFunction[
@@ -512,7 +599,8 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    2) BuildFoodNomsRecipe — resolved ingredients -> ONE raw .foodnoms file. The
       body IS the file, so a browser GET or `curl -o` lands it directly. One call,
       one file; keep all params identical and vary only `emit` ("recipe" default,
-      or a companion-food name listed in the recipe's notes):
+      "food" for a standalone food — see below, or a companion-food name listed in
+      the recipe's notes):
 
      # recipe (default): one USDA ingredient (fdcId 169295, 500 g) patched +200 sodium/100g
      curl -s -o Soup.foodnoms \
@@ -527,12 +615,50 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    customNutrientValues=189,38  (';' separates foods; nested ','/';' for the blocks).
 
    Two scalar knobs: totalServingSize=<grams> sets the recipe yield (default = sum
-   of ingredient weights); uncertainty=<0..100 integer percent> sets the FoodNoms
-   uncertainty on every entry (e.g. uncertainty=30 for a ±30% estimate; default 0).
+   of ingredient weights); uncertainty=<0..100 integer percent> is the MEAL-WIDE
+   DEFAULT uncertainty (e.g. uncertainty=30 for a ±30% estimate; default 0).
 
-   No envelope: warnings + the companion-file menu live in the recipe collection's
-   `notes`; totals are read back from the file with
-   foodnomsTotals[ByteArray[BinaryReadList["Soup.foodnoms"]]] (foodnomsDecode for
-   the JSON). Unknown emit -> recipe (noted); patch-free recipe -> only the recipe
-   file. Mis-aligned column lengths -> HTTP 400 with the offending arrays. *)
+   PER-ENTRY uncertainty (for meals that mix tiers 0/10/30 in one sitting): give
+   fdcUncertainties (',' list, aligned with fdcIds/grams) and/or customUncertainties
+   (';' list, aligned with the custom* arrays). Each is OPTIONAL — empty means "use
+   the meal-wide default for that group"; otherwise it must match its group length.
+   A value of 0 omits the field for that entry (the FoodNoms "no estimate" tier). So
+   a single call now yields a correctly-tiered meal file — no kernel patching:
+
+     # one meal, two dishes weighed (10) + one raw fruit (0)
+     curl -s -o Lunch.foodnoms 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?\
+       name=Lunch&collectionType=2&customNames=Ma%20Po;Rice;Strawberries&customFoodIds=local:a;local:b;local:c&\
+       customQuantities=367;437;120&customUnits=gram;gram;gram&\
+       customNutrientNames=calories;calories;calories&customNutrientValues=114;130;32&\
+       customUncertainties=10;10;0'
+
+   STANDALONE FOOD (emit=food): a reusable FoodNoms food in entry form (contentType
+   1, no collection) -- for logging a labelled product by any weight. Pass exactly
+   ONE food (a USDA fdcId, or a custom food from a label) + emit=food; the first
+   resolved entry is rewrapped as the food (filename + foodID come from it). Macros
+   from the label, micros estimated and passed as custom nutrients:
+
+     # custom food from a UK label (per 100 g); micros estimated
+     curl -s -o 'Wasabi Peas.foodnoms' 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?\
+       emit=food&customNames=Wasabi%20Peas&customFoodIds=local:WASABIPEAS&customQuantities=100&customUnits=gram&\
+       customNutrientNames=calories,protein,carbs,sugars,fat,fatSaturated,fiber,sodium,iron,calcium,zinc,magnesium,potassium,vitaminD,vitaminB12,folate&\
+       customNutrientValues=433,12,50,4,18,1.4,16,680,2.4,50,1.5,55,470,0,0,125'
+
+     # or straight from a USDA generic: emit=food&fdcIds=168389&grams=100
+
+   Totals + entries without downloading the file: set the Accept header to ask
+   for the JSON view (decoded recipe + `totals` + per-ingredient `estKcal` +
+   `warnings`) instead of the bytes -- same URL, content-negotiated:
+
+     curl -s -H 'Accept: application/json' \
+       'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=My%20Soup&fdcIds=169295&grams=500'
+     -> {"filename":"My Soup.foodnoms","recipe":{...},"totals":{...,"salt":...},
+         "estKcal":[{"name":...,"kcal":...},...],"warnings":[...]}
+
+   Default (no/other Accept, e.g. a browser or `curl -o`) still returns the raw
+   .foodnoms bytes. Either way warnings + the companion-file menu also live in the
+   recipe collection's `notes`; foodnomsTotals[ByteArray[BinaryReadList[
+   "Soup.foodnoms"]]] (foodnomsDecode for the JSON) still reads totals back from a
+   saved file. Unknown emit -> recipe (noted); patch-free recipe -> only the
+   recipe file. Mis-aligned column lengths -> HTTP 400 with the offending arrays. *)
 

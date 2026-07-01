@@ -157,6 +157,33 @@ amounts = <| "ingredient" -> grams, ... |>;
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 ```
 
+### FoodNoms download link (always embed)
+
+**Every recipe's Nutrition section embeds a FoodNoms download link** — a
+`BuildFoodNomsRecipe` URL that produces the `.foodnoms` collection. Like the
+timeline image, the file is only generated **when the link is clicked**, so the
+URL *is* the whole artifact; writing it into the page costs essentially nothing
+(once you already have the ingredient nutrition data in hand).
+
+Embed it as a one-line note beneath the nutrition table, carrying the
+collection name with its `[DD-MM-YY] ✴️` stamp:
+
+```markdown
+*FoodNoms collection: **Recipe Name [DD-MM-YY] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=…)** — generated only when clicked; totals verified to this table.*
+```
+
+Build the URL with `curl -sG '<endpoint>' --data-urlencode "name=…" …` (lets
+curl percent-encode each value), preferring `fdcIds=` for ingredients with a
+pinned USDA id and `custom…` columns for the rest (per-100 g vectors in the
+canonical 16-nutrient order, **salt at slot 8 expressed as sodium mg** —
+`sodium_mg = salt_g × 400`).
+
+> ⚠ **Verify before committing.** Re-request the same URL with
+> `-H 'Accept: application/json'` and confirm **HTTP 200** and that the returned
+> totals (calories, protein, fiber, potassium, salt…) match the Nutrition
+> table. This JSON view is what catches a wrong `fdcId` (an id that resolves to
+> a different food) or an omitted ingredient — both have slipped through before.
+
 ---
 
 ## Method
@@ -192,12 +219,16 @@ shorthand. Use "at about 85 minutes" or "once stage 2 is underway
 
 ## Timeline
 
+**Every recipe's Timeline section embeds the rendered `RenderTimeline` image — always, not a textual-only table.** It renders at markdown view-time (the URL is the whole artifact; nothing is fetched or stored when you write it), so it costs essentially nothing to include. A textual schedule may sit *beneath* the image as a caption, but never *instead* of it.
+
 Rendered at markdown render-time via the Wolfram Cloud endpoint.
 No local SVG files. Embed as a markdown image:
 
 ```markdown
 ![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=<encoded>&syncs=<encoded>)
 ```
+
+Build the encoded URL with `curl -sG '<endpoint>' --data-urlencode "steps=<json>" --data-urlencode "syncs=<json>" -w '%{url_effective}\n' -o /dev/null` (lets curl percent-encode it), then paste the `url_effective` into the image embed. (`wolframcloud.com` is allowlisted, so a quick `curl` round-trip also lets you spot-check the render — ASCII-only labels, per the warning below.)
 
 ### Endpoint
 
@@ -219,6 +250,16 @@ Track order = top-to-bottom row order = **order of first device use**.
 ```
 
 URL-encode each JSON value before inserting into the query string.
+
+> ⚠ **Labels must be ASCII-only.** A non-ASCII character in any track/step/sync
+> label (`°`, `é`, `–` en-dash, `×`, curly quotes, emoji) makes the endpoint
+> return a **valid-but-empty SVG** — title and axis render, but every bar/label
+> silently vanishes, with **HTTP 200 and no error**. Write `200C` not `200°C`,
+> `saute` not `sauté`, `-` not `–`. (Verified 2026-06-28: this was the cause
+> behind the previously-unchecked endpoint render — the endpoint itself is fine,
+> the failure mode is non-ASCII input. To spot-check a render without a browser:
+> `curl -sG <endpoint> --data-urlencode "steps=…" --data-urlencode "syncs=…"`,
+> then convert the SVG to PNG and view it; an empty body = a non-ASCII label.)
 
 ### Device colour palette
 

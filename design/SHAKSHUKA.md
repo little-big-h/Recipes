@@ -4,7 +4,7 @@ Single-serving breakfast variations. Not full-format recipes because the cooking
 
 Holger's standard daily breakfast is one of two structures:
 
-1. **Shakshuka-style**: passata + spinach + eggs poached in the sauce
+1. **Shakshuka-style**: passata (or hand-crushed whole tomatoes) + spinach + eggs **set into streaks** through the sauce (Holger's house method — *not* poached whole on top; see Structure 1)
 2. **Sauerkraut hash**: sauerkraut + spices + eggs poached on top
 
 Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finishing.
@@ -94,10 +94,13 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 1. **Spice preparation** per profile (often the night before for soaked components)
 2. **Bloom aromatics** in oil 30–60 sec
 3. **Bloom ground spices and pastes** 30–60 sec
-4. **Deglaze with passata + any pre-soaked components**
+4. **Deglaze with passata (or hand-crushed whole tomatoes) + any pre-soaked components**
 5. **Wilt spinach** 1–2 min
-6. **Crack eggs into wells**, cover, cook until set (~5–7 min)
-7. **Finish** per profile (herbs, sprinkles, at-table options)
+6. **Salt the sauce** to taste here — once the eggs are in you can't adjust it
+7. **Eggs — streaked, not poached on top** (Holger's house method): crack the eggs onto the simmering sauce, let them set **undisturbed ~2 min**, then **fold gently once or twice to pull streaks** through the sauce. Take it **off the heat while still soft** — carryover finishes them; if they look done in the pan they'll be rubbery. Fold, don't scramble: ribbons of set white/yolk through the red, not a uniform scramble. *This egg step is the constant across every shakshuka profile below — where an older profile sketch still reads "eggs in wells / cover," follow this instead. (The **sauerkraut hash**, Structure 2, is the exception: its eggs are genuinely poached on top.)*
+8. **Finish** per profile (herbs, sprinkles, at-table options)
+
+> **Tomato base — passata or whole tomatoes.** A tin of **whole peeled tomatoes, hand-crushed** (juice included) makes a better base than passata: riper fruit, no calcium-chloride firming agent, melts silkier. Simmer to thicken — but because the eggs are **stirred through** (not poached on top) the base only needs to be *not-watery*, **not jammy**; over-reduced base + set egg goes dry. A 400 g tin, crushed and reduced, stands in for the 400 g passata of one serving. The acid-stall rule still applies (keep tomatoes out of any bean/grain cook-water); a longer simmer + the umami finish (miso/aminos/nooch per profile) tames the brighter acidity of fresh-tasting whole tomatoes.
 
 ---
 
