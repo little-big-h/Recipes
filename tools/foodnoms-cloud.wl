@@ -566,7 +566,10 @@ foodnomsAPI = APIFunction[
     "fdcUncertainties"    -> opt[DelimitedSequence["Number", ","], {}],
     "customUncertainties" -> opt[DelimitedSequence["Number", ";"], {}],
     (* optional per-custom-food provenance: source url + free-text note, aligned
-       with the custom* arrays; a food's product page rides here (urlString/notes) *)
+       with the custom* arrays; a food's product page rides here (urlString/notes).
+       NB these are ';'-split like every custom* column, so the note text itself
+       must not contain a ';' (it would split into an extra element and fail the
+       length guard) -- use '.'/'-' in prose, not ';'. *)
     "customUrls"  -> opt[DelimitedSequence["String", ";"], {}],
     "customNotes" -> opt[DelimitedSequence["String", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
