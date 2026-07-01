@@ -202,6 +202,8 @@ passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
    "quantity" -> ing["quantity"],
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> ing["nutrients"],
+   "urlString" -> Lookup[ing, "urlString", Missing[]],
+   "notes" -> Lookup[ing, "notes", Missing[]],
    "collectionSortIndex" -> sortIdx|>];
 
 (* the formal 3-tier weightless patch (FOODNOMS_FORMAT.md §11):
@@ -466,6 +468,16 @@ addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u
    aligns with its ingredient group; length is guarded in specFromParams *)
 uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
 
+(* attach an optional source url / note to a custom food; a blank string omits
+   the field (so a food carries its BWFO/product page in `urlString` + `notes`) *)
+addMeta[base_, url_, note_] := Module[{b = base},
+  If[StringQ[url] && StringTrim[url] =!= "", b = Append[b, "urlString" -> url]];
+  If[StringQ[note] && StringTrim[note] =!= "", b = Append[b, "notes" -> note]];
+  b];
+
+(* a per-custom-food string column, padded to "" when omitted (length 0) *)
+strCol[col_, n_] := If[Length[col] === n, col, ConstantArray["", n]];
+
 (* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
 specFromParams[a_] := Module[{errs = {}},
   If[Length[a["fdcIds"]] =!= Length[a["grams"]],
@@ -483,6 +495,11 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "fdcUncertainties must be empty or the same length as fdcIds"]];
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customUncertainties"]]],
    AppendTo[errs, "customUncertainties must be empty or the same length as the custom* arrays"]];
+  (* optional per-custom-food source url / note columns: empty or aligned *)
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customUrls"]]],
+   AppendTo[errs, "customUrls must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customNotes"]]],
+   AppendTo[errs, "customNotes must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
@@ -492,11 +509,13 @@ specFromParams[a_] := Module[{errs = {}},
          addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
-         addUnc[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
-            "nutrients" -> AssociationThread[#5 -> #6]|>, #7] &,
+         addUnc[addMeta[<|"name" -> #1, "foodID" -> #2, "quantity" -> #3, "unit" -> #4,
+            "nutrients" -> AssociationThread[#5 -> #6]|>, #8, #9], #7] &,
          {a["customNames"], a["customFoodIds"], a["customQuantities"], a["customUnits"],
           a["customNutrientNames"], a["customNutrientValues"],
-          uncCol[a["customUncertainties"], Length[a["customNames"]]]}]]|>,
+          uncCol[a["customUncertainties"], Length[a["customNames"]]],
+          strCol[a["customUrls"], Length[a["customNames"]]],
+          strCol[a["customNotes"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -545,7 +564,11 @@ foodnomsAPI = APIFunction[
     (* optional per-entry uncertainty (integer percent), aligned with each group;
        empty -> the meal-wide `uncertainty` default applies to that group *)
     "fdcUncertainties"    -> opt[DelimitedSequence["Number", ","], {}],
-    "customUncertainties" -> opt[DelimitedSequence["Number", ";"], {}]},
+    "customUncertainties" -> opt[DelimitedSequence["Number", ";"], {}],
+    (* optional per-custom-food provenance: source url + free-text note, aligned
+       with the custom* arrays; a food's product page rides here (urlString/notes) *)
+    "customUrls"  -> opt[DelimitedSequence["String", ";"], {}],
+    "customNotes" -> opt[DelimitedSequence["String", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[FailureQ[spec],
       HTTPResponse[spec["err"], <|"StatusCode" -> 400,
@@ -591,11 +614,11 @@ resolveAPI = APIFunction[
    statements, not commented-out — running this file in an authenticated session
    (re)deploys both.
 
-   ⚠ REDEPLOY PENDING (vitamin-D fix, 2026-07-01): fdcToFoodNoms now reads the
-   micrograms vitamin-D row instead of the IU row (see the comment there). The
-   LIVE ResolveFDC / BuildFoodNomsRecipe still run the old code and report
-   vitamin D 40x too high for eggs/mushrooms/fortified foods until these two
-   CloudDeploy lines are re-run as pirk0. *)
+   ⚠ REDEPLOY PENDING (customUrls/customNotes, 2026-07-01): custom foods can now
+   carry a source url + note (customUrls/customNotes params -> passthroughFoodEntry
+   urlString/notes), so a scraped product food links back to its page. The LIVE
+   endpoint ignores these params until BuildFoodNomsRecipe is re-run as pirk0.
+   (The earlier vitamin-D fix is already deployed and verified.) *)
 
 CloudDeploy[resolveAPI,  CloudObject["ResolveFDC"],          Permissions -> "Public"]
 CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]

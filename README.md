@@ -48,6 +48,7 @@ Reference docs for specific dish families and project infrastructure:
 - `docs/IDEAS.md` — recipe-idea backlog: external recipes to adapt + flavour directions to try, before they're speced or cooked
 - `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (LZFSE-compressed JSON); samples in `examples/`
 - `docs/USDA_FDC.md` — pulling authentic USDA nutrition via Wolfram → FoodNoms blocks; helper in `tools/fdc-lookup.wl`
+- `docs/BWFO_GRAPHQL.md` — pulling BuyWholeFoodsOnline product macros/price/URL via their Magento GraphQL API (curl + jq, GET not POST); ingredients aren't exposed
 - `docs/RECIPE_NUTRITION_GENERATOR.md` — playbook: recipe `.md` → USDA → `.foodnoms` file + written-back Nutrition table
 - `docs/MEAL_LOGGING.md` — logging *eaten* food: weigh-by-difference (before/after photos) → `.foodnoms` meal file; uncertainty policy (10 % weighed / 30 % photo-only)
 - `Books/README.md` — index of reference booklets/ebooks (The Flavor Equation, Salt Fat Acid Heat, The Food Lab, Modernist Cuisine Vol 2, Cooked) with per-book TOC + page citations; consult and cite like the Nussinow tables
@@ -77,6 +78,7 @@ Recipes/
 │   ├── EXPERIMENTS.md                         Hypothesis tests and ablation protocols
 │   ├── FOODNOMS_FORMAT.md                     .foodnoms file format spec
 │   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms (via Wolfram)
+│   ├── BWFO_GRAPHQL.md                         BuyWholeFoodsOnline product data via GraphQL (curl)
 │   ├── RECIPE_NUTRITION_GENERATOR.md          Recipe -> USDA -> .foodnoms + Nutrition table
 │   └── Nussinow_Cooking_Times.md              Pressure-cooking reference
 │
