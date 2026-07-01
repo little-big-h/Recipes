@@ -109,6 +109,61 @@ bread/kraut are the takeaways.
 
 ---
 
+## 4. Salt, Fat, Acid, Heat — Samin Nosrat (illustrated booklet)
+
+*`Digital Booklet - Salt Fat Acid Heat …Unabridged.pdf`* · 25 pages · cite by **booklet page**.
+
+The audiobook's illustrated companion — Nosrat's **four-element** framework
+(**Salt · Fat · Acid · Heat**) as charts + a few recipes. A second flavour lens
+alongside the Flavor Equation; where Sharma splits savoriness/brightness/etc.,
+Nosrat organises the whole craft under four levers. (The booklet's body prose is
+rendered in a custom font that extracts as garbled text — navigate by the chart
+titles below, which are clean.)
+
+**SALT:** Several salt structures (p2) · How should I season my chicken? (p3) ·
+**Salting calendar (p4)** · **Basic salting guidelines (p5)** · Caesar salad (p6) · **Sources of salt (p8)**.
+**FAT:** **Sources of fat (p9)** · Doughs & batters (p12) · Powers of pie (p13).
+**ACID:** **Sources of acid (p14)** · **The pH of almost everything in Samin's kitchen (p15)** ·
+The world of acid (p16) · Pasta alle vongole (p17).
+**HEAT / flavour:** **Sources of umami (p19)** · Plants, above & below (p20) · Braise (p22) ·
+What should I cook? (p24) · **The world of flavour (p25)**.
+
+**Reach for it when:** reasoning about salt (Holger's salt-as-positive framing —
+the salting-calendar/guidelines and sources-of-salt pages), acid balance (the
+**pH-of-everything** and world-of-acid pages pair with the tamarind/lemon/sumac
+work), or umami (sources-of-umami, p19). Complements the Flavor Equation — same
+territory, blunter four-lever model.
+
+---
+
+## 5. The Food Lab: Better Home Cooking Through Science — J. Kenji López-Alt
+
+*`M0533_FoodLab_BonusPDF-reduced.pdf`* · 452 pages · cite by **PDF page** (see caveat).
+
+A large science-of-home-cooking reference (bonus PDF). **Caveats:** the embedded
+outline is junk ("Blank Page" ×19) and the printed contents list shows **chapter
+numbers, not page numbers**; the OCR text is rough. Cite by the **PDF-page
+chapter openers** below (located by title search), and expect to skim around them.
+
+| Chapter | PDF opener | Relevance here |
+|:--|:--:|:--|
+| Eggs, Dairy & the Science of **Breakfast** | p12 | **egg science** — directly the shakshuka streaked-egg method, doneness & carryover |
+| Soups, Stews & the Science of **Stock** | p58 | stock/soup science |
+| Steaks…Fish & the Science of Fast-Cooking Foods | ~p100 | mostly meat — low relevance |
+| Blanching, Searing, Braising, Roasting & the Science of **Vegetables** | p160 | **veg technique** — searing/braising/roasting science |
+| Balls, Loaves, Burgers & the Science of **Ground Meat** | p213 | meat, but **patty-binding science transfers to Anja's veggie burgers** |
+| Chickens…Prime Rib & the Science of Roasts | p258 | meat — low relevance |
+| **Tomato Sauce**, Macaroni & the Science of Pasta | p317 | **tomato-sauce science** — the onion-tomato gravy, shakshuka base |
+| Greens, **Emulsions** & the Science of Salads | p369 | dressings/emulsion science; Gado-Gado-style salads |
+| Batter, Breadings & the Science of **Frying** | p422 | frying/coating (air-fryer analog) |
+
+**Reach for it when:** you want deep technique science on eggs/breakfast, tomato
+sauce, vegetables, emulsions or frying. Kenji is meat-forward (four chapters are
+animal proteins, of limited use for this family), but the egg, veg, tomato-sauce,
+emulsion and frying chapters are gold and map straight onto what we cook.
+
+---
+
 *Adding a book here: drop the PDF in `Books/`, then add an entry above — title,
 author, file, page-citation convention, a structural map (TOC with page
 numbers), and a "reach for it when" note tied to this project.*
