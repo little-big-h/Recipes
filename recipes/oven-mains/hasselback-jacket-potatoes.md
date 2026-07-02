@@ -91,8 +91,4 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 
 ## Cook log
 
-- **Planned — redesigned 2026-07-02 for a synchronized four-potato batch, not yet cooked.** Originally designed 2026-07-01 as a 5-potato staggered pipeline (see remark in `docs/RATINGS.md`); rescaled to 4 potatoes and restructured so both microwave pairs run before a single combined air-fry batch, trading pipeline throughput for a simultaneous finish. Paired with the new **Creamy Tomato, Coconut & Spinach Sauce** as a topping. Design targets to confirm on the first cook:
-  - **Basket capacity for four** — the load-bearing assumption of this version; if it doesn't hold, fall back to two batches started together rather than staggered.
-  - **Air-fry time for a 4-potato single batch** — ~7 min is an estimate (up from the ~6 min 2-potato batch); watch for the real crisp point.
-  - **Microwave pair time** — ~5.5-6 min full power for two 220 g potatoes carries over from the original design; the knife test sets the real number.
-  - **Ratings to be added once cooked.**
+- **Cooked 2026-07-02** — first cook of the redesigned synchronized four-potato batch (rescaled 2026-07-02 from the original 2026-07-01 5-potato staggered pipeline; see remark 45 in `docs/RATINGS.md`), served topped with the new **[Creamy Tomato, Coconut & Spinach Sauce](../stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)**. Design targets from the redesign (basket-fits-four, ~7 min single-batch air-fry time, microwave pair timing) weren't individually reported back — treat as still open until specifically confirmed. **Jannes 8.0** — notable since he's "not a big fan of potatoes" by his own account and self-reported a plain-potato baseline of 7.8; the sauce topping is what pushed it to 8.0 (remark 50, `docs/RATINGS.md`). No other family ratings collected for the potatoes specifically this round (see the sauce's own cook log for its ratings).

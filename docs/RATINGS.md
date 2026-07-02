@@ -92,7 +92,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Julina | 13yo. Most open-minded eater in the family. Not keen on **nutty/peanut dressings** — skipped the cold-salad peanut dressing (2026-06-25), still scored it 8.9 |
 | Anja | Adventurous. Historically highest scorer. Variance signal — drops indicate specific issues |
 | Holger | Recipe developer. Vegetarian, marathon training |
-| Jannes | 8yo. Heat-sensitive. Dislikes cauliflower (overridden when sauced — obs 19). Dislikes **rocket / peppery salad leaves** (dropped the cold salad 6.9→8.0 once removed, 2026-06-25). Prefers milder profiles — fermented depth (red miso) underwhelmed him |
+| Jannes | 8yo. Heat-sensitive. Dislikes cauliflower (overridden when sauced — obs 19). Dislikes **rocket / peppery salad leaves** (dropped the cold salad 6.9→8.0 once removed, 2026-06-25). Prefers milder profiles — fermented depth (red miso) underwhelmed him. **Not a big fan of potatoes** (self-reported, 2026-07-02) — but a good topping/sauce can lift his score anyway: the Hasselback Jacket Potatoes went from his hypothetical plain baseline of 7.8 to 8.0 once topped with the Coconut-Tomato-Spinach Sauce (remark 50). Consistent with the cauliflower pattern (obs 19) — sauce/topping quality seems to matter more to him than the base ingredient itself |
 
 ---
 
@@ -168,7 +168,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | v1 | cooked | 2026-06-24 | [cold-buckwheat-asparagus-blackeyed-salad.md](../recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md) |
 | Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans | v1 | planned | — | [ras-el-hanout-spelt-butternut-beans.md](../recipes/grains/ras-el-hanout-spelt-butternut-beans.md) |
 | Smooth Onion–Tomato Gravy | v1 | planned | — | [onion-tomato-gravy.md](../recipes/stovetop-mains/onion-tomato-gravy.md) |
-| Super-Quick Hasselback Jacket Potatoes | v1 | planned | — | [hasselback-jacket-potatoes.md](../recipes/oven-mains/hasselback-jacket-potatoes.md) |
+| Super-Quick Hasselback Jacket Potatoes | v1 | cooked | 2026-07-02 | [hasselback-jacket-potatoes.md](../recipes/oven-mains/hasselback-jacket-potatoes.md) |
 | Creamy Tomato, Coconut & Spinach Sauce | v1 | cooked | 2026-07-02 | [creamy-tomato-coconut-spinach-sauce.md](../recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md) |
 
 ---
@@ -229,6 +229,10 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | v1 | Holger | 8.5 |
 | Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | v1 | Jannes | 8.0 |
 | Cold Buckwheat, Asparagus & Black-Eyed Bean Salad | v1 | Lara | 7.2 |
+| Super-Quick Hasselback Jacket Potatoes | v1 | Jannes | 8.0 |
+| Creamy Tomato, Coconut & Spinach Sauce | v1 | Holger | 8.5 |
+| Creamy Tomato, Coconut & Spinach Sauce | v1 | Anja | 9.0 |
+| Creamy Tomato, Coconut & Spinach Sauce | v1 | Julina | 9.1 |
 
 *Nordic cold soup (v1) ratings were qualitative; see remarks. `cooked-historical` dishes have aggregate-only or no ratings — see remarks.*
 
@@ -314,3 +318,6 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | 46 | Creamy Tomato, Coconut & Spinach Sauce | v1 | **New dish, designed 2026-07-02** as a topping paired with the same day's Hasselback Jacket Potatoes cook, from four ingredients Holger proposed (tomato paste, light coconut milk, silken tofu, fresh spinach). Structural cousin of the Smooth Onion–Tomato Gravy (same bhuna-the-paste instinct) but coconut-creamy/tofu-thickened instead of blended whole tomatoes — filed as its own recipe, not a gravy variant. ~11 min active time, designed to run in parallel with the potatoes' ~23 min pipeline rather than add to it. Split heat-handling per `TECHNIQUES.md`: paste gets real heat (bhuna), coconut milk a gentle simmer, silken tofu off-heat only. |
 | 47 | Creamy Tomato, Coconut & Spinach Sauce | v1 | **Cooked 2026-07-02, deviated from plan on nearly every quantity.** Actual: tomato paste 122 g (plan 60 g), garlic powder 6 g (plan 3 g), silken tofu 300 g (plan 150 g), coconut milk 400 ml/1 can (plan 250 ml) — and ground ginger was dropped entirely in favour of 4 g cumin + 4 g coriander. Net effect: a bigger, richer batch, with fat/saturates now a meaningfully bigger share of the meal. Status promoted to `cooked`, 2026-07-02; ratings not yet collected. |
 | 48 | Creamy Tomato, Coconut & Spinach Sauce | v1 | **Follow-up (2026-07-02): 15 g nutritional yeast added (not in the original plan or remark 47), and total yield reported as 1159 g.** Spinach weight wasn't in the initial report — summing every other known ingredient (856 g) against the 1159 g yield implied ~300 g spinach, matching the ~2x scaling already seen on tofu/tomato paste/garlic. **Holger then confirmed 300 g spinach and the 400 ml coconut milk can size directly** — the mass-balance deduction landed within 3 g of the real figure, a useful worked example of the technique for future unreported-quantity cases. Final as-cooked totals, all quantities now confirmed except oil/salt (still assumed as planned): 841 kcal / 1159 g, vs. the original plan's 445 kcal / ~620 g. |
+| 49 | Creamy Tomato, Coconut & Spinach Sauce | v1 | **A big hit on first cook (2026-07-02) — highest-scoring new dish in a while.** Holger 8.5, Anja 9.0, Julina 9.1 — all three well above the family's usual "good dish" band. **Holger's v2 idea: more spinach, plus a cornflour thickener for extra creaminess** — the base is currently coconut milk + blended tofu for body, no starch thickener, so cornflour would be a genuinely new lever rather than more of what's already there. Worth a controlled single-variable test (cornflour amount) per the project's iteration philosophy, once a v2 file is warranted. |
+| 50 | Super-Quick Hasselback Jacket Potatoes, Jannes | v1 | **The Coconut-Tomato-Spinach Sauce lifted Jannes's Hasselback score from a self-reported plain baseline of 7.8 to 8.0 (2026-07-02).** He's "not a big fan of potatoes" by his own account, so this is a topping/sauce effect, not a potato-recipe effect — consistent with the cauliflower pattern (obs 19, remark 39: a bold sauce overrides his lukewarm-on-the-base-ingredient default). Logged as his score for the Hasselback Jacket Potatoes v1 iteration (the dish as actually served, topped); the 7.8 baseline is self-reported context, not a separate scored iteration. |
+| 51 | Creamy Tomato, Coconut & Spinach Sauce, Lara | v1 | **Watch item, not yet tested:** this sauce's actual cook used 4 g ground cumin (swapped in for the planned ginger), and Lara has a suspected assertive-cumin sensitivity (remark from 2026-06-06 — she called the doubled-cumin Pinto soup v2 "spicy" with no chilli heat present). No Lara rating was collected for this cook. If she rates this sauce and reacts similarly, cumin dose is the first thing to check; if she's fine with it, that's useful counter-evidence against the earlier suspicion (which was itself not fully confirmed — see the original remark's hedging). |
