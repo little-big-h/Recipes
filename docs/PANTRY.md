@@ -32,6 +32,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 
 ### Spices and pastes
 
+- **Mild curry powder** (organic; turmeric, coriander, fennel, black pepper, yellow mustard, cumin) — **no chilli, no paprika**, so it's the most scorch-forgiving of the stocked spice mixes under high dry heat (air-frying, etc. — the acrid-burn failure mode comes from paprika/chilli sugars and capsaicin, both absent here). Label nutrition: 312 kcal, 12.4 g protein, 56 g carbs, 13.4 g fat, 28.7 g fibre, 1.2 g salt per 100 g; see `docs/INGREDIENT_MAP.md` for the full committed-estimate micro panel. Used in the shakshuka line (`design/SHAKSHUKA.md`) and the coconut-tomato veg curry — both previously called it "medium curry powder"; corrected to **mild**, its actual label name.
 - **Tikka masala** (and Madras — pick one per Indian recipe, not both)
 - **Smoked paprika** ⚠ Lara concern — keep in stock but treat as a flagged ingredient
 - **Sweet paprika**

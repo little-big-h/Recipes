@@ -35,6 +35,20 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml. Holger's standard — use it
 > whenever a recipe just says "milk" unless it specifies whole/skimmed.
 
+> **Mild curry powder.** The stocked jar (organic; turmeric, coriander, fennel,
+> black pepper, yellow mustard, cumin — **no chilli, no paprika**, which is why
+> it's the safest of the stocked spice mixes against high-heat scorching, e.g.
+> air-frying). Its own label gives macros + salt: **312 kcal, 12.4 g protein,
+> 56 g carbs, 13.4 g fat, 28.7 g fibre, 1.2 g salt per 100 g**. Micros aren't on
+> the label — **committed estimate**, scaled from USDA SR Legacy `170924`
+> "Spices, curry powder" (a generic blend average; its carbs/fat land close to
+> this label, energy ratio 312/325 ≈ 0.96) by that energy ratio: sugars ~2.6 g,
+> saturates ~1.6 g, iron ~18.3 mg, calcium ~504 mg, zinc ~4.5 mg, magnesium
+> ~245 mg, potassium ~1123 mg, folate ~54 µg (vitamin D/B12 negligible, per the
+> generic). Used in the shakshuka line (`design/SHAKSHUKA.md`) and the coconut-
+> tomato veg curry — both previously mislabeled "medium curry powder"; the real
+> product is **mild**. See `docs/PANTRY.md` for the stocked-item note.
+
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|
 | Ancho Chile (Dried) | `foodnoms:usda:169396` | gram | 281.0 | [usda](https://fdc.nal.usda.gov/food-details/169396/nutrients) |
@@ -78,6 +92,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Lemongrass Paste | `foodnoms:fn:12201ed0-e2ef-4495-884f-0e5016e3630a` | gram | 47.0 | fn |
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | [usda](https://fdc.nal.usda.gov/food-details/2709850/nutrients) |
 | Milk (Semi-Skimmed) — **default for "milk"** | `local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D` | milliliter | 47.0 | milk.co.uk |
+| Mild Curry Powder (turmeric/coriander/fennel/pepper/mustard/cumin — no chilli) | `local:F4C1A2B3-6D5E-4F8A-9B7C-3E2D1A0F5C6B` | gram | 312.0 | label (macros) + usda micros |
 | Miso | `foodnoms:usda:2707439` | gram | 198.0 | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
 | MORI-NU (Tofu, Silken, Firm) | `foodnoms:usda:172461` | gram | 62.0 | [usda](https://fdc.nal.usda.gov/food-details/172461/nutrients) |
 | Mung Bean Sprouts | `foodnoms:usda:169957` | gram | 30.0 | [usda](https://fdc.nal.usda.gov/food-details/169957/nutrients) |

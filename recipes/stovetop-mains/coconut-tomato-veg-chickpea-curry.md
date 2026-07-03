@@ -1,6 +1,6 @@
 # Creamy Coconut–Tomato Veg & Chickpea Curry
 
-*A mild, family creamy curry: a deep **browned-onion base** (microwave-and-blend shortcut, then bhuna'd), spiced with the stocked medium curry powder, with **tomato purée + light coconut milk + blended silken tofu** for a fat-light cream. Air-fried cauliflower folded in for caramelised texture, chickpeas for protein, potatoes for carbs. Built deliberately to **dodge the Ninja scorch trap** — the sweet onion-tomato base never goes under pressure (potatoes are microwave par-cooked and finished in the sauce). Mild in the pot; chilli + lime at the table for the adults. Family of five.*
+*A mild, family creamy curry: a deep **browned-onion base** (microwave-and-blend shortcut, then bhuna'd), spiced with the stocked mild curry powder, with **tomato purée + light coconut milk + blended silken tofu** for a fat-light cream. Air-fried cauliflower folded in for caramelised texture, chickpeas for protein, potatoes for carbs. Built deliberately to **dodge the Ninja scorch trap** — the sweet onion-tomato base never goes under pressure (potatoes are microwave par-cooked and finished in the sauce). Mild in the pot; chilli + lime at the table for the adults. Family of five.*
 
 ---
 
@@ -11,7 +11,7 @@
 | 🟡 | 🧅 Onion (microwave + blend → bhuna) | 200 g | 80 | **306 g** | [usda](https://fdc.nal.usda.gov/food-details/170000/nutrients) |
 | 🟡 | 🧄 Garlic | 12 g | 18 | | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟡 | 🫚 Ginger (fresh) | 15 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
-| 🟠 | 🍛 Medium curry powder (mild) | 25 g | 78 | | local *(label)* |
+| 🟠 | 🍛 Mild curry powder | 25 g | 78 | | local *(label)* |
 | 🟢 | 🍅 Tomato purée (double concentrate) | 60 g | 49 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
 | 🟣 | 🥥 Light coconut milk (Biona 9%) | 400 ml | 360 | | label |
 | 🟤 | 🍮 Silken tofu (Clearspring, blended) | 300 g | 183 | | label |
