@@ -207,7 +207,7 @@ Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt
 
 ## Profile: [Curry-Powder (South Indian, fennel-forward)][s-curry]
 
-A second Indian profile, distinct from the tikka one: built on a stocked **organic "medium curry" powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli, so heat is added). Fennel-led and sweet-aromatic, built **hot** — a dried-chilli soak blended in, since Holger likes it that way. Solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-18.
+A second Indian profile, distinct from the tikka one: built on a stocked **organic mild curry powder** (turmeric, coriander, **fennel**, black pepper, yellow mustard, cumin — no chilli, so heat is added). Fennel-led and sweet-aromatic, built **hot** — a dried-chilli soak blended in, since Holger likes it that way. Solo; a pantry run-down for the jar. Designed 2026-06-16; first cook 2026-06-18. *(Corrected from "medium curry powder" — the jar's real label says mild; see `docs/INGREDIENT_MAP.md`.)*
 
 ### Single-serving build (2 eggs) — hot
 
@@ -217,7 +217,7 @@ A second Indian profile, distinct from the tikka one: built on a stocked **organ
 
 | Ingredient | Weight |
 |:-----------|-------:|
-| 🍛 Medium curry powder | 10 g |
+| 🍛 Mild curry powder | 10 g |
 | 🧄 Garlic powder | 2 g |
 | 🫚 Dried ginger | 1.5 g |
 | 🌰 Toasted cumin, ground | 2 g |
