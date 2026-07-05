@@ -4,7 +4,7 @@ Single-serving breakfast variations. Not full-format recipes because the cooking
 
 Holger's standard daily breakfast is one of two structures:
 
-1. **Shakshuka-style**: passata (or hand-crushed whole tomatoes) + spinach + eggs **set into streaks** through the sauce (Holger's house method — *not* poached whole on top; see Structure 1)
+1. **Shakshuka-style**: whole canned tomatoes, hand-crushed + spinach + eggs **set into streaks** through the sauce (Holger's house method — *not* poached whole on top; see Structure 1)
 2. **Sauerkraut hash**: sauerkraut + spices + eggs poached on top
 
 Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finishing.
@@ -15,12 +15,12 @@ Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finish
 
 ## Profile reference matrix
 
-Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = whole dried chillies; *tbl* = added at the table; `—` = not used). The base (🥫 passata + 🥬 spinach + 🥚 eggs + 🥑 oil) is shared across all profiles. Every shakshuka **build** in this doc is a column — the **sauerkraut hash** is a different structure (see *Structure 2* below), so it isn't here.
+Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = whole dried chillies; *tbl* = added at the table; `—` = not used). The base (🥫 canned tomatoes + 🥬 spinach + 🥚 eggs + 🥑 oil) is shared across all profiles. Every shakshuka **build** in this doc is a column — the **sauerkraut hash** is a different structure (see *Structure 2* below), so it isn't here.
 
 | Component | [Indian][s-indian] | [Ind. bold][s-bold] | [Curry-Pwd][s-curry] | [N.African][s-nafr] | [Mex. kid][s-mexkid] | [Mex. chip][s-mexchip] | [Mex. mole][s-mexmole] | [Japanese][s-japanese] | [M.East][s-meast] | [Korean][s-korean] | [Thai][s-thai] |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | **Base** | | | | | | | | | | | |
-| 🥫 Passata | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 |
+| 🥫 Canned tomatoes | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 |
 | 🥬 Spinach | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
 | 🥚 Eggs | 2–3 | 2–3 | 2 | 2 | 2–3 | 2 | 2 | 2–3 | 2–3 | 2–3 | 2–3 |
 | 🥑 Avocado oil | 3 | 3 | 3 | 3 | 7 | 3 | 3 | — | 3 | — | 3 |
@@ -74,9 +74,10 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 
 \* 🍛 **Indian** — Tikka *or* Madras, not both; the **bold** Indian runs tikka at 9 g.
 ⚠ **Solo-only:** 🌶️ smoked paprika (Lara dislikes *smoke* — sweet paprika is fine) and 🍶 red miso (Jannes dislikes the fermented funk; white miso is the family default).
-- 🥕 **Mexican kid** drops to **300 g passata + 50 g grated carrot** (sweetness softens the heat for Jannes/Anja) and keeps all chilli at the table.
+- 🥕 **Mexican kid** drops to **300 g canned tomatoes + 50 g grated carrot** (sweetness softens the heat for Jannes/Anja) and keeps all chilli at the table.
 - 🍅 **Mexican mole** is the one tomato-base build with **no bhuna** — its umami is 🫗 aminos + 🧀 nooch + 🍄 shiitake (glutamate × guanylate). Every other tomato-base profile bhunas the paste.
 - 🥥 The coconut-milk splash (Indian, Curry-Powder) is an optional creamy / acid-cut finish, not core.
+- 🟡 **Yellow Thai (Mae Ploy)** and the **Thai green** are **paste-led profiles**; the Yellow Thai (added 2026-07-05, a Mae Ploy run-down) is documented **in full below** but not tabulated here — it introduces its own curry paste + an overnight bird's-eye chilli soak that don't map onto the shared spice rows.
 
 ---
 
@@ -84,7 +85,7 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 
 | Ingredient | Single-serving |
 |:-----------|---------------:|
-| Passata | 400 g |
+| Whole canned tomatoes (hand-crushed) | 400 g (1 tin) |
 | Spinach | 100 g |
 | Eggs | 2–3 |
 | Avocado oil | 3 g |
@@ -94,13 +95,13 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 1. **Spice preparation** per profile (often the night before for soaked components)
 2. **Bloom aromatics** in oil 30–60 sec
 3. **Bloom ground spices and pastes** 30–60 sec
-4. **Deglaze with passata (or hand-crushed whole tomatoes) + any pre-soaked components**
+4. **Deglaze with the hand-crushed canned tomatoes + any pre-soaked components**
 5. **Wilt spinach** 1–2 min
 6. **Salt the sauce** to taste here — once the eggs are in you can't adjust it
 7. **Eggs — streaked, not poached on top** (Holger's house method): crack the eggs onto the simmering sauce, let them set **undisturbed ~2 min**, then **fold gently once or twice to pull streaks** through the sauce. Take it **off the heat while still soft** — carryover finishes them; if they look done in the pan they'll be rubbery. Fold, don't scramble: ribbons of set white/yolk through the red, not a uniform scramble. *This egg step is the constant across every shakshuka profile below — where an older profile sketch still reads "eggs in wells / cover," follow this instead. (The **sauerkraut hash**, Structure 2, is the exception: its eggs are genuinely poached on top.)*
 8. **Finish** per profile (herbs, sprinkles, at-table options)
 
-> **Tomato base — passata or whole tomatoes.** A tin of **whole peeled tomatoes, hand-crushed** (juice included) makes a better base than passata: riper fruit, no calcium-chloride firming agent, melts silkier. Simmer to thicken — but because the eggs are **stirred through** (not poached on top) the base only needs to be *not-watery*, **not jammy**; over-reduced base + set egg goes dry. A 400 g tin, crushed and reduced, stands in for the 400 g passata of one serving. The acid-stall rule still applies (keep tomatoes out of any bean/grain cook-water); a longer simmer + the umami finish (miso/aminos/nooch per profile) tames the brighter acidity of fresh-tasting whole tomatoes.
+> **Tomato base — whole canned tomatoes (the standard).** Holger no longer uses passata; every profile's base is now a **400 g tin of whole peeled tomatoes, hand-crushed** (juice included) — riper fruit than passata, no calcium-chloride firming agent, melts silkier. Canonical tin: **[BWFO Organic Whole Peeled Tomatoes](https://www.buywholefoodsonline.co.uk/organic-whole-peeled-tomatoes.html)** — label **19 kcal/100 g = 76 kcal/400 g** (0.1 g fat, 3 g carb (3 g sugars), 0.9 g fibre, 1.1 g protein, salt 0.1 g); micros estimated from USDA canned-tomato generic 170138. (Older per-cook nutrition blocks below may cite whatever tin they used at the time — e.g. a 19 kcal "chopped" record or a 100 kcal/400 g standard; new builds use this one.) Simmer to thicken — but because the eggs are **stirred through** (not poached on top) the base only needs to be *not-watery*, **not jammy**; over-reduced base + set egg goes dry. The acid-stall rule still applies (keep tomatoes out of any bean/grain cook-water); a longer simmer + the umami finish (miso/aminos/nooch per profile) tames the brighter acidity of fresh-tasting whole tomatoes.
 
 ---
 
@@ -134,7 +135,7 @@ The Indian profile received the most substantial technique upgrade after the sou
 | Toasted mustard seeds, ground (earthy backbone — Holger's preference) | 3–4 g |
 | Dried ginger powder | 1 g |
 | Tikka masala blend | 6 g |
-| Tomato paste (bloom ~1 min before the passata — **the umami anchor**) | 1 tbsp (~15 g) |
+| Tomato paste (bloom ~1 min before the canned tomatoes — **the umami anchor**) | 1 tbsp (~15 g) |
 
 **Finishing:**
 
@@ -148,7 +149,7 @@ The Indian profile received the most substantial technique upgrade after the sou
 2. Add cumin + ground mustard + ginger + tikka masala — bloom 30 sec, watch heat
 3. Add tomato paste, fry ~1 min until it darkens (builds umami)
 4. Tip in the chili soak (whole contents)
-5. Add passata, simmer 5 min
+5. Add canned tomatoes, simmer 5 min
 6. Wilt spinach
 7. Wells, eggs, cover
 
@@ -163,7 +164,7 @@ The Indian profile received the most substantial technique upgrade after the sou
 A garlic-powder build with **no umami anchor** (soy/miso/aminos correctly skipped as off-cuisine, but nothing put in their place) came out **flat**. Holger over-salted chasing the missing savouriness, then had to rescue it with sumac. **That salt → acid-rescue spiral is the signature of an umami deficit, not a salt one — salt can't supply umami.**
 
 The umami must come **in-cuisine**, not from soy and not from salt:
-- **Bloom tomato paste (bhuna)** — 1 tbsp fried with the spices before the passata. The easiest, most authentic fix; now in the build above.
+- **Bloom tomato paste (bhuna)** — 1 tbsp fried with the spices before the canned tomatoes. The easiest, most authentic fix; now in the build above.
 - **Browned onion base** — the real Indian umami engine (more effort; the profile drops onion for speed).
 - **Kasoori methi** (dried fenugreek), a pinch at the end — signature tikka depth.
 - **Yoghurt / coconut-milk** finish for lactic roundness.
@@ -193,7 +194,7 @@ A dialled-up solo version (first cook 2026-06-16). Spices ~1.5× the canonical a
 | 🌶️ Sweet (or Kashmiri) paprika | 3 g | — |
 | 🍅 Tomato paste (bhuna anchor) | 22 g | ~15 g |
 
-Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt), passata 400 g, spinach 100 g, 2 eggs; sumac + coriander to finish. Garlic powder goes straight into the bloom (no pounding). **Hold the line even bold:** tikka (9) stays above cumin/mustard (4) so it reads *tikka*, not cumin; bold = spice + the tomato-paste bhuna, **not** more salt; no nooch (muddies the spice clarity here).
+Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt), canned tomatoes 400 g, spinach 100 g, 2 eggs; sumac + coriander to finish. Garlic powder goes straight into the bloom (no pounding). **Hold the line even bold:** tikka (9) stays above cumin/mustard (4) so it reads *tikka*, not cumin; bold = spice + the tomato-paste bhuna, **not** more salt; no nooch (muddies the spice clarity here).
 
 **Nutrition (whole serving):** ~375 kcal · 26 g protein · 41 g carbs (22 g sugars) · 14 g fat · 13 g fibre · salt 2.8 g. Micros: K 1902 mg, Ca 297 mg, Mg 188 mg, Fe 11 mg, folate 287 µg, vit D ~2 µg. Chopped tomatoes at the **as-used 100 kcal / 400 g can** (25 kcal/100 g, not the lean organic record). USDA-derived + labels, not FoodNoms-verified; micros are committed estimates.
 
@@ -224,7 +225,7 @@ A second Indian profile, distinct from the tikka one: built on a stocked **organ
 | 🍅 Tomato paste | 20 g |
 | 🥑 Avocado oil | 3 g |
 
-**Build:** 🥫 passata 400 g · 🧂 salt ~1.5 g · 🥬 spinach 100 g · 🥚 2 eggs · 🌿 fresh coriander · 🍋 lemon to finish. *(Optional: 🫙 garam masala 2 g in the masala for a warm clove/cardamom finish; fresh 🌶️ chilli at the table to push the heat; 🥥 coconut-milk swirl 40–50 g — adds fat.)*
+**Build:** 🥫 canned tomatoes 400 g · 🧂 salt ~1.5 g · 🥬 spinach 100 g · 🥚 2 eggs · 🌿 fresh coriander · 🍋 lemon to finish. *(Optional: 🫙 garam masala 2 g in the masala for a warm clove/cardamom finish; fresh 🌶️ chilli at the table to push the heat; 🥥 coconut-milk swirl 40–50 g — adds fat.)*
 
 ### Method
 
@@ -232,7 +233,7 @@ A second Indian profile, distinct from the tikka one: built on a stocked **organ
 2. Work the 🍛 curry powder + 🧄 garlic powder + 🫚 ginger + 🌰 cumin into the 🍅 tomato paste + 🥑 oil → a wet masala (scorch-proof; turmeric/mustard/cumin burn fast bloomed naked).
 3. Fry the masala on **medium** until it darkens from bright red to brick (a few min). With only 3 g oil it *will* stick — that's normal, and the stuck fond is concentrated flavour: when it catches, **splash in a little water (or the chilli-soak liquid), scrape the fond up, and let it cook down again; repeat 2–3×**. Each deglaze builds umami and removes the burn risk. Done when it's darkened and smells deep-cooked, not sharp-raw-tomato.
 4. Stir in the 🌶️ chilli paste, fry ~30 sec.
-5. Add 🥫 passata + 🧂 salt, simmer 5 min.
+5. Add 🥫 canned tomatoes + 🧂 salt, simmer 5 min.
 6. Wilt 🥬 spinach 1–2 min.
 7. Two 🥚 egg wells, cover ~5–7 min.
 8. Finish: 🌿 coriander, a squeeze of 🍋 lemon. (Fresh chilli / garam / coconut to taste.)
@@ -273,7 +274,7 @@ Developed for Anja and Jannes (heat-sensitive). Built around toasted cumin, oreg
 | Tomato paste | 8 g |
 | Liquid aminos | 3 g |
 | Oil | 7 g |
-| Passata | 300 g |
+| Canned tomatoes | 300 g |
 | Grated carrot | 50 g |
 | Spinach | 100 g |
 | Black beans, cooked (optional) | 60 g |
@@ -288,7 +289,7 @@ Developed for Anja and Jannes (heat-sensitive). Built around toasted cumin, oreg
 1. Bloom garlic in oil 30 sec
 2. Add cumin, oregano, tomato paste — bloom 1 min until paste darkens slightly
 3. Add grated carrot, sauté 2–3 min
-4. Add passata + aminos, simmer 5 min
+4. Add canned tomatoes + aminos, simmer 5 min
 5. Stir in black beans (if using), warm through
 6. Wilt spinach
 7. Wells, eggs, cover
@@ -332,14 +333,14 @@ The adult/solo counterpart to the kid-safe Mexican above. Where that build strip
 | Smoked paprika (pimentón) | 6 g |
 | Dried oregano (regular — Mexican unavailable) | 2 g *(optional, if in stock)* |
 
-**Build:** tomato purée 20 g (double-concentrate — bloomed with the spices, see method) · passata 400 g · coconut aminos 15 g · nutritional yeast 5 g (sprinkled at the end, cotija-style) · spinach 100 g · 2 eggs · fresh coriander · lime at the table.
+**Build:** tomato purée 20 g (double-concentrate — bloomed with the spices, see method) · canned tomatoes 400 g · coconut aminos 15 g · nutritional yeast 5 g (sprinkled at the end, cotija-style) · spinach 100 g · 2 eggs · fresh coriander · lime at the table.
 
 ### Method
 
 1. Soak chipotle + ancho flakes in the just-boiled salted water 10–15 min; blend with the soak water into a smoky paste.
 2. Bloom garlic powder + ground cumin + coriander + smoked paprika (+ oregano) in the oil 30–60 sec — **brief**; paprika scorches bitter fast, so keep it moving.
 3. Add the tomato purée, fry ~1 min until it darkens (the *bhuna* that builds depth), then the chilli paste, another 30–60 sec.
-4. Add passata + aminos, simmer 5 min.
+4. Add canned tomatoes + aminos, simmer 5 min.
 5. Wilt spinach 1–2 min.
 6. Two egg wells, cover, ~5–7 min until the whites set.
 7. Off heat: sprinkle the 5 g nooch (cotija-style). Coriander; lime at the table.
@@ -383,12 +384,12 @@ A **mole/adobo** lean on the chipotle-forward Mexican profile: smoky chipotle + 
 | 🍄 Shiitake powder (the umami engine) | 5 g |
 | 🌿 Dried oregano (optional) | 2 g |
 
-**Build:** 🥫 passata 400 g (no paste — **simmer a few minutes longer** to cook off the raw-tin edge) · 🥬 spinach 100 g · 🥚 2 eggs in wells. **Off heat:** 🫗 coconut aminos 15 g + 🧀 nutritional yeast 6 g (cotija-style). 🍋 lime at the table.
+**Build:** 🥫 canned tomatoes 400 g (no paste — **simmer a few minutes longer** to cook off the raw-tin edge) · 🥬 spinach 100 g · 🥚 2 eggs in wells. **Off heat:** 🫗 coconut aminos 15 g + 🧀 nutritional yeast 6 g (cotija-style). 🍋 lime at the table.
 
 ### Design notes
 
 - **Mole logic, not fusion.** Chipotle + cinnamon + cacao is the chile-chocolate-warm-spice triad of mole/adobo; ancho bridges the smoke and the dried-fruit sweetness. Authentic Mexican, not a stretch.
-- **No bhuna — umami by condiment trio (replacing the anchor, not omitting it).** Coconut aminos + nooch supply *glutamate*; **shiitake powder supplies *guanylate*** — and glutamate × guanylate is the multiplicative synergy (dashi's secret) that makes the dish punch without the Maillard anchor. Shiitake is **load-bearing** here, used generously (run-down constraint waived for this cook). What's traded away is the bhuna's roasted/cooked-tomato depth — compensated by the **longer passata simmer**, the **smoked paprika**, and the **cacao's roasted bitterness**.
+- **No bhuna — umami by condiment trio (replacing the anchor, not omitting it).** Coconut aminos + nooch supply *glutamate*; **shiitake powder supplies *guanylate*** — and glutamate × guanylate is the multiplicative synergy (dashi's secret) that makes the dish punch without the Maillard anchor. Shiitake is **load-bearing** here, used generously (run-down constraint waived for this cook). What's traded away is the bhuna's roasted/cooked-tomato depth — compensated by the **longer tomato simmer**, the **smoked paprika**, and the **cacao's roasted bitterness**.
 - **This is the inverse of the 2026-06-06 flat-Indian failure** (which had *nothing* in the soy's place and went flat → over-salting). Here the umami is genuinely present, so the salt-chasing trap doesn't apply — **taste before adding salt** (aminos + nooch + 1 g soak salt already land it ~2.4 g).
 - **Restraint on cinnamon + cacao.** Both support, never lead — a smoky-savoury breakfast with warm depth, not a sweet one. Whisper amounts; the lime finish cuts the richness they add.
 
@@ -430,15 +431,15 @@ Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli 
 | 🫗 Liquid aminos | 10 g |
 | 🧀 Nutritional yeast | 15 g |
 
-*Originally dialled to 1.5× (2026-06), then **bolded again 2026-06-16** — harissa 4.5→8 g and ancho 3→6 g (the chilli/heat side was timid against 400 g passata); cumin + mustard held at 3 g; cinnamon held a whisper (~1 g — more reads dessert-ward against eggs). Base (🥫 passata 400 g, 🥬 spinach 100 g, 🥚 2 eggs ≈ 100 g, 🥑 avocado oil 3 g) and condiments (🫗 aminos 10 g, 🧀 nooch 15 g) unchanged. Whole single serving: **396 kcal, 30 g protein, 13 g fibre, salt 2.82 g**. Macros/salt from labels + USDA (FoodNoms-verify on the cook); **micros are committed best-estimates** (K ~1563, Ca ~257, Mg ~157, Fe ~8.6 mg, folate ~281 µg) — FoodNoms can't verify micronutrients, so they stand as final, not pending. The harissa spice mix is ~20 % salt (19.59 g/100 g) — at 8 g it's the biggest sodium source (~1.57 g salt). That's welcome, not a problem: Holger's solo breakfast, replacing heavy training-sweat electrolyte losses.*
+*Originally dialled to 1.5× (2026-06), then **bolded again 2026-06-16** — harissa 4.5→8 g and ancho 3→6 g (the chilli/heat side was timid against 400 g canned tomatoes); cumin + mustard held at 3 g; cinnamon held a whisper (~1 g — more reads dessert-ward against eggs). Base (🥫 canned tomatoes 400 g, 🥬 spinach 100 g, 🥚 2 eggs ≈ 100 g, 🥑 avocado oil 3 g) and condiments (🫗 aminos 10 g, 🧀 nooch 15 g) unchanged. Whole single serving: **396 kcal, 30 g protein, 13 g fibre, salt 2.82 g**. Macros/salt from labels + USDA (FoodNoms-verify on the cook); **micros are committed best-estimates** (K ~1563, Ca ~257, Mg ~157, Fe ~8.6 mg, folate ~281 µg) — FoodNoms can't verify micronutrients, so they stand as final, not pending. The harissa spice mix is ~20 % salt (19.59 g/100 g) — at 8 g it's the biggest sodium source (~1.57 g salt). That's welcome, not a problem: Holger's solo breakfast, replacing heavy training-sweat electrolyte losses.*
 
 **⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=North+African+Shakshuka+%28Bold%29+%5B16-06-26%5D+%E2%9C%B4%EF%B8%8F&servings=1&fdcIds=168462%2C171287%2C171320%2C170929%2C169396&grams=100%2C100%2C1%2C3%2C6&customNames=Organic+Chopped+Tomatoes+%28Tinned%29%3BOil+%28Avocado%29%3BCumin+Seeds%3BHarissa+Spice+Mix%3BOrganic+Coconut+Aminos%3BNutritional+Yeast+Flakes&customFoodIds=local%3A0B0EBB36-4389-4601-BFF1-AD27B2DFD124%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Bfoodnoms%3Aopenai%3Ae276b2c8-e28b-4bd5-939c-95d42714ab92%3Blocal%3AA2A80202-62A6-4F50-9DF6-5265FFFEFE69%3Blocal%3A2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3Blocal%3AA79EC48D-C9A5-43A9-9F24-C57821BECF60&customQuantities=400%3B3%3B3%3B8%3B10%3B15&customUnits=gram%3Bgram%3Bgram%3Bgram%3Bmilliliter%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=19%2C1.1%2C3.9%2C3.0%2C0.1%2C0.04%2C0.9%2C40%2C0.772%2C20.188%2C0.16%2C11.875%2C173.969%2C0%2C0%2C7.719%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B375%2C18.75%2C42.5%2C1.25%2C18.75%2C1.75%2C17.5%2C200%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B259%2C6%2C64.44%2C0%2C10.78%2C1.28%2C20.06%2C7836%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B84%2C1%2C21%2C20%2C1%2C1%2C1%2C1000%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B349%2C47%2C39%2C1%2C5%2C1%2C20%2C80%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0) · uses the lean 19 kcal/100 g tin; +24 kcal on a 100 kcal/400 g standard tin.
 
-**Method sketch:** bloom 🌰 cumin + 🪵 cinnamon + 🌭 mustard in 🥑 oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add 🫙 harissa + 🫑 ancho, deglaze with 🥫 passata, wilt 🥬 spinach, crack the 🥚 eggs into wells. Otherwise standard shakshuka.
+**Method sketch:** bloom 🌰 cumin + 🪵 cinnamon + 🌭 mustard in 🥑 oil (30–60 sec — cinnamon and ground spices scorch, keep it moving), add 🫙 harissa + 🫑 ancho, deglaze with 🥫 canned tomatoes, wilt 🥬 spinach, crack the 🥚 eggs into wells. Otherwise standard shakshuka.
 
 **Refinement — soak the chillies + fennel seeds (2026-06-20).** Two upgrades, folded in on the next cook:
 
-- **Soak the ancho flakes + whole dried chillies** rather than blooming them dry — borrow the Mexican-chipotle move: ancho (6 g) + the 1–2 dried chillies in **~60–70 g just-boiled water + a pinch of salt, 10–15 min** (while you toast the cumin/mustard), then **blend to a paste with the soak water in** (half the flavour's in it). Add the paste *after* the dry bloom of harissa/cumin/mustard/cinnamon, fry 30–60 sec, then the passata. A 5-min simmer won't soften leathery whole chillies and the ancho flakes can scorch bitter in the dry bloom — soaking gives a smoother, fully-integrated sauce.
+- **Soak the ancho flakes + whole dried chillies** rather than blooming them dry — borrow the Mexican-chipotle move: ancho (6 g) + the 1–2 dried chillies in **~60–70 g just-boiled water + a pinch of salt, 10–15 min** (while you toast the cumin/mustard), then **blend to a paste with the soak water in** (half the flavour's in it). Add the paste *after* the dry bloom of harissa/cumin/mustard/cinnamon, fry 30–60 sec, then the canned tomatoes. A 5-min simmer won't soften leathery whole chillies and the ancho flakes can scorch bitter in the dry bloom — soaking gives a smoother, fully-integrated sauce.
 - **Toasted fennel seeds, ~2 g, ground** with the cumin + mustard — fennel is squarely Maghrebi/Tunisian and sits right in the cumin-cinnamon-fennel sweet-aromatic register; a clear sweet-anise note that doesn't fight the harissa (keep it modest against eggs). *(Anja's leftover fennel, already toasted — a run-down.)*
 - **Mustard nudged 3 → 4 g** as a run-down (still well under the 8 g harissa, so the balance holds — toasted-ground mustard is the earthy backbone).
 
@@ -471,8 +472,8 @@ Redesigned from PDF spec. **Miso is the star** — red miso for umami depth, das
 | Garlic | 4 g (1 clove) or 1–2 g dried powder | pounded or minced; powder confirmed working |
 | Dried chili | 1 pc | |
 | Mirin | 10 ml | rounds tomato acidity; added after water-sweat — Shaoxing confirmed as working substitute |
-| Passata | 400 g | |
-| Dashi soy | 8–10 ml | add with passata; start at 8 ml |
+| Canned tomatoes | 400 g | |
+| Dashi soy | 8–10 ml | add with canned tomatoes; start at 8 ml |
 | Spinach | 100 g | |
 | Eggs | 2–3 | |
 | Red miso (aka) | 10 g | whisked into ~20 ml warm water, added off heat |
@@ -486,7 +487,7 @@ Redesigned from PDF spec. **Miso is the star** — red miso for umami depth, das
 
 1. Cold pan, medium heat. Add garlic, dried chili, and a 20–30 ml splash of water. Steam-sweat 30–45 sec until garlic softens.
 2. Add mirin, let sizzle 20–30 sec to cook off the alcohol.
-3. Add passata + dashi soy. Stir, simmer 5 min.
+3. Add canned tomatoes + dashi soy. Stir, simmer 5 min.
 4. Wilt spinach 1–2 min.
 5. Wells, eggs, cover — ~5–7 min until whites set. Remove from heat.
 6. Off heat: stir in miso slurry.
@@ -522,7 +523,7 @@ Per PDF spec — distinct from the sauerkraut hash Levantine variant. Spice-ligh
 | Liquid aminos | 10 g |
 | Nutritional yeast | 15 g |
 
-**Method sketch:** garlic in oil (default for shakshuka), passata + sumac, simmer, spinach, eggs. Scatter za'atar over the finished dish (don't bloom — that's a finishing condiment).
+**Method sketch:** garlic in oil (default for shakshuka), canned tomatoes + sumac, simmer, spinach, eggs. Scatter za'atar over the finished dish (don't bloom — that's a finishing condiment).
 
 **Note:** simplest profile in the matrix. Sumac provides acid, za'atar carries the herb/seed character. Distinct from the Indian profile despite both being Middle East/Asia-adjacent.
 
@@ -544,7 +545,7 @@ Gochujang-based, with sesame and rice vinegar. Distinctive flavour direction not
 | Rice vinegar | 5 ml |
 | Liquid aminos | 10 g |
 
-**Method sketch:** sauté ginger in sesame oil briefly. Add gochujang, stir 30 sec. Add passata, deglaze. Simmer. Wilt spinach. Eggs, cover. Drizzle rice vinegar at the end (off heat — keeps brightness intact).
+**Method sketch:** sauté ginger in sesame oil briefly. Add gochujang, stir 30 sec. Add canned tomatoes, deglaze. Simmer. Wilt spinach. Eggs, cover. Drizzle rice vinegar at the end (off heat — keeps brightness intact).
 
 **Notes:**
 - Gochujang is sweet-spicy-fermented; depending on brand, can be quite hot. Start at 10g for kid-friendly testing
@@ -568,7 +569,7 @@ Not in the source PDF but retained as a useful direction. Built around fresh aro
 | 🫚 Fresh ginger or dried ginger powder | 3 g fresh / 0.5 g dried |
 | 🍄 Shiitake powder | 4 g |
 | 🫗 Liquid aminos | 15 g |
-| 🥫 Passata | 400 g |
+| 🥫 Canned tomatoes | 400 g |
 | 🥬 Spinach | 100 g |
 | 🥚 Eggs | 2–3 |
 | 🌿 Thai basil or coriander | generous |
@@ -580,15 +581,67 @@ Bright, herbal, slightly fiery. ⚠️ Lara may find this too heat-forward; buil
 
 The original build leaned on **10 ml aminos alone for savouriness — and it doesn't dent it.** Two reasons: (1) coconut aminos is a *mild, sweet, glutamate-only* source, and glutamate on its own reads flat/linear; (2) **vegetarian green curry paste lacks the shrimp paste (kapi) + fish sauce** that carry a real green curry's umami backbone, so the dish is fragrant up top but hollow underneath. The fixes:
 
-- **🍄 Shiitake powder 4 g — the key add.** It supplies **guanylate**, and glutamate × guanylate is the multiplicative dashi synergy (same lever as the no-bhuna Mexican mole). Dried shiitake is in-cuisine for Thai veg cooking; biggest depth gain per gram, no fat, no clash — it stands in for the missing kapi/fish-sauce backbone. **Stir it in *with the passata*, not the dry paste-fry** — fine powder scorches bitter in the hot low-oil pan (the soy-soup bitter-dashi failure, obs 18 in `RATINGS.md`), and its guanylate is water-soluble so it does its work dissolved in the simmer, not dry-toasted. (NB: the Mexican mole blooms its shiitake — it has more oil and a gentler bloom; the Thai paste-fry is hotter/drier, so go liquid-phase here.)
-- **Crack the paste — the technique fix (the bigger miss).** A real green curry *fries the paste in coconut cream/oil until it darkens and the oil splits* — that Maillard step is the Thai bhuna. Bloom 🍲 green paste + 🌾 lemongrass + 🫚 galangal in the 3 g oil (or a spoon of coconut cream) until fragrant and a shade darker **before** adding the passata; don't just stir the paste into the sauce.
+- **🍄 Shiitake powder 4 g — the key add.** It supplies **guanylate**, and glutamate × guanylate is the multiplicative dashi synergy (same lever as the no-bhuna Mexican mole). Dried shiitake is in-cuisine for Thai veg cooking; biggest depth gain per gram, no fat, no clash — it stands in for the missing kapi/fish-sauce backbone. **Stir it in *with the canned tomatoes*, not the dry paste-fry** — fine powder scorches bitter in the hot low-oil pan (the soy-soup bitter-dashi failure, obs 18 in `RATINGS.md`), and its guanylate is water-soluble so it does its work dissolved in the simmer, not dry-toasted. (NB: the Mexican mole blooms its shiitake — it has more oil and a gentler bloom; the Thai paste-fry is hotter/drier, so go liquid-phase here.)
+- **Crack the paste — the technique fix (the bigger miss).** A real green curry *fries the paste in coconut cream/oil until it darkens and the oil splits* — that Maillard step is the Thai bhuna. Bloom 🍲 green paste + 🌾 lemongrass + 🫚 galangal in the 3 g oil (or a spoon of coconut cream) until fragrant and a shade darker **before** adding the canned tomatoes; don't just stir the paste into the sauce.
 - **🫗 Aminos 10 → 15 ml** — more glutamate to feed the shiitake synergy.
 - **🥥 Coconut-milk splash (30–40 g, optional, off heat)** — not umami, but the round Thai-curry *body* the dish otherwise lacks; authentic. Costs a little fat, so optional given the low-fat lean.
 - **Avoid** nutritional yeast / white miso here — both add umami but read cheesy/fermented-Japanese against coconut-green and would muddy it.
 
-**Cook log — 2026-06-25: 8.4.** First cook of the Thai green, with the umami fixes in (🍄 shiitake 4 g stirred in *with the passata*, paste fried hard, 🫗 aminos 15 ml). Landed well — **the depth gap is closed**; sits just under the bold North African (8.6) and Mexican chipotle (8.5), above the mole (8.0). Whole serving ~337 kcal · 21 g protein · 33 g carbs · 15 g fat · 8 g fibre · salt 3.2 g (USDA + label/estimates, not FoodNoms-verified). *Open: which fix carried it — the shiitake or the paste-fry — and whether the coconut-milk splash was used.*
+**Cook log — 2026-06-25: 8.4.** First cook of the Thai green, with the umami fixes in (🍄 shiitake 4 g stirred in *with the canned tomatoes*, paste fried hard, 🫗 aminos 15 ml). Landed well — **the depth gap is closed**; sits just under the bold North African (8.6) and Mexican chipotle (8.5), above the mole (8.0). Whole serving ~337 kcal · 21 g protein · 33 g carbs · 15 g fat · 8 g fibre · salt 3.2 g (USDA + label/estimates, not FoodNoms-verified). *Open: which fix carried it — the shiitake or the paste-fry — and whether the coconut-milk splash was used.*
 
 **Spice-line calories** — ~52.3 kcal: 🍲 green curry paste 13.6 · 🫗 aminos 12.6 · 🍄 shiitake 11.8 · 🫚 galangal 7.2† · 🌾 lemongrass 4.7 · 🫚 ginger 2.4. *(† generic galangal density; the FoodNoms line totals ~68 kcal off its own `local:` paste records — the commercial green-curry/galangal pastes carry added oil — left unreconciled.)*
+
+---
+
+## Profile: [Yellow Thai — Mae Ploy (solo)][s-yellowthai]
+
+Built around **Mae Ploy vegan yellow curry paste** — a pantry run-down (Holger has a lot to use). The paste *is* the profile: its ingredient list (garlic, lemongrass, iodized salt, shallot, galangal, dried red chilli, coriander seed, makrut lime peel, curry powder, cumin, cinnamon, turmeric, cardamom, nutmeg) already **is** a yellow-curry masala, so it needs no separate spice bloom — just a hard fry to wake it up. Adult/solo (built-in heat + galangal → the Lara caution applies; Jannes heat-sensitive). Designed 2026-07-05.
+
+**No coconut milk** (Holger's hard no — saturated fat). Coconut milk normally rounds the tomato acidity in a Thai curry; here that job is rebuilt with a harder paste-fry + a longer simmer + shiitake, at the cost of some silkiness (coconut's genuine contribution, not fully replaceable low-fat).
+
+### Single-serving build (2–3 eggs)
+
+**Chilli soak (overnight):** 🌶️ 2–3 dried bird's-eye chillies, covered in just-boiled water, left **overnight** → next morning blend to a paste with a splash of the soak water. *(Overnight, not the 10–15 min morning soak the other profiles use — bird's-eye are small and leathery and want the long hydration; the soak water carries heat, so keep it in.)*
+
+**Paste bloom** — fry hard in 🥑 3 g avocado oil, **3–4 min** until darkened and toasted (this is the Thai *bhuna*, and with no coconut fat to hide behind it's load-bearing — don't rush it):
+
+| Ingredient | Weight |
+|:-----------|-------:|
+| 🟡 Mae Ploy vegan yellow curry paste | 20 g |
+| 🫚 Ginger paste | 5 g |
+| 🌶️ Bird's-eye chilli paste (from the soak) | 2–3 chillies |
+
+**Build:** 🥫 whole canned tomatoes 400 g (hand-crushed) · 🍄 shiitake powder 4 g · 🫗 liquid / coconut aminos 5–8 g (go light — the paste is ~14 % salt) · 🥬 spinach 100 g · 🥚 2–3 eggs, streaked · 🌿 coriander / Thai basil + 🍋 lime at the table. **No added salt.**
+
+### Method
+
+1. **Night before:** soak the 🌶️ bird's-eye chillies in just-boiled water, covered, overnight.
+2. Blend the softened chillies to a paste with a splash of their soak water.
+3. Bloom 🟡 Mae Ploy + 🫚 ginger paste in the 🥑 oil, **3–4 min**, until it darkens and smells toasted — this replaces the coconut-fat rounding, so give it the time.
+4. Stir in the 🌶️ chilli paste, fry ~1 min (frying it in rounds and integrates the heat rather than leaving it sitting on top).
+5. Add the 🥫 crushed tomatoes; simmer **12–15 min** (longer than the standard 5 — the reduction is now the main acid-tamer with no coconut milk). Stir the 🍄 shiitake powder in *with the tomatoes* (dissolved in the simmer, **not** dry-fried — fine powder scorches bitter in a hot low-oil pan, and its guanylate is water-soluble). Add the 🫗 aminos.
+6. Wilt 🥬 spinach 1–2 min.
+7. 🥚 Eggs — streaked, not poached (house method): crack in, set ~2 min, fold once or twice, off heat while soft.
+8. Finish: 🌿 coriander / Thai basil; 🍋 lime + extra 🌶️ chilli at the table.
+
+### Design notes
+
+- **The paste carries the whole spice profile — no separate bloom.** Mae Ploy already contains lemongrass, galangal, makrut, coriander, cumin, cinnamon, turmeric, cardamom, nutmeg + garlic/shallot/chilli/salt. **Turmeric is covered** — no separate turmeric needed. **Mustard is a non-issue** (Holger's out of it, and Thai cooking doesn't use it).
+- **Umami must be in-cuisine — fried paste + shiitake, not soy/nooch.** Same rule as the Thai green: the hard paste-fry (Maillard) is the backbone; 🍄 shiitake supplies guanylate for the glutamate × guanylate dashi synergy; aminos adds a little glutamate. Avoid nooch / miso here (reads cheesy / Japanese against the yellow-curry aromatics).
+- **Coconut milk out — rebuilt, not replaced.** The harder fry + the 12–15 min simmer + shiitake carry the roundness coconut milk gave; what's genuinely lost is silkiness. There's no clean low-fat substitute for that — a splash of extra aminos or the chilli-soak water is the closest, not a fat.
+- **Ginger paste, not fresh** — a run-down; 5 g into the bloom (slightly more than the 3 g fresh in the Thai green, since jarred paste is milder gram-for-gram, and it melts in rather than staying fibrous).
+- **Chilli soaked-and-cooked-in = pervasive heat, no dial-back.** Building the chilli into the sauce (vs at-table) commits the whole dish to heat — fine for a solo/adult profile, but it means you can't serve it down to the family. For a flexible version, keep one chilli in the pot and the rest as a table condiment.
+- **Salt: the paste is the whole budget.** Mae Ploy is ~14.3 g salt/100 g; at 20 g that's **~2.9 g salt from the paste alone** — so no added salt, and go light on the aminos. Whole serving lands ~4.0 g salt: welcome for a training-sweat breakfast, but the high end of the profile range — drop the paste to 15 g (~2.1 g from paste, ~3.4 g total) if you want less.
+
+### Nutrition (whole serving)
+
+*USDA-derived + the Mae Ploy tub label; micros are committed best-estimates. Tomatoes from Holger's actual tin — **BWFO Organic Whole Peeled Tomatoes** (label per 100 g: 19 kcal, 1.1 g protein, 3 g carb (3 g sugars), 0.1 g fat, 0.9 g fibre, salt 0.1 g → 76 kcal / 400 g); its micros borrowed from USDA canned-tomato generic (170138).*
+
+**~326 kcal · 22 g protein · 25 g carbs (16 g sugars) · 14 g fat (3.7 g sat) · 9 g fibre · salt 4.0 g.** Micros: K 1640 mg, Ca 297 mg, Mg 144 mg, Fe 7.4 mg, Zn 2.7 mg, folate 281 µg, vit D ~2 µg, B12 0.9 µg.
+
+**Spice-line calories** — ~58.0 kcal: 🟡 Mae Ploy 30.6 · 🍄 shiitake 11.8 · 🌶️ bird's-eye chilli 6.5 · 🫗 aminos 5.0 · 🫚 ginger paste 4.0.
+
+**⬇ Download** (`BuildFoodNomsRecipe`, itemised, returns the file directly): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Yellow+Thai+Shakshuka+%5b05-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=1&fdcIds=168462%2c168570%2c168436&grams=100%2c2%2c4&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bMae+Ploy+Vegan+Yellow+Curry+Paste%3bGinger+Paste%3bOrganic+Coconut+Aminos&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a4887791E-173B-2021-0D20-7ED4A94447AD%3blocal%3a79A40158-6235-5A6F-4B21-DA72BB4E385F%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5&customQuantities=400%3b100%3b3%3b20%3b5%3b6&customUnits=gram%3bgram%3bgram%3bgram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b153%2c5.3%2c11%2c5.6%2c1.9%2c0.3%2c12%2c5720%2c2%2c40%2c0.5%2c20%2c300%2c0%2c0%2c0%3b80%2c1.82%2c17.77%2c1.7%2c0.75%2c0.203%2c2%2c13%2c0.6%2c16%2c0.34%2c43%2c415%2c0%2c0%2c11%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0) · Mae Ploy from its tub label (per 100 g: 153 kcal · 5.3 g protein · 11 g carb (5.6 g sugars) · 1.9 g fat (0.3 g sat) · 12 g fibre · salt 14.3 g); bird's-eye → USDA "Peppers, hot chile, sun-dried" (168570); shiitake → "Mushrooms, shiitake, dried" (168436); tomatoes = **BWFO Organic Whole Peeled Tomatoes** (label macros, [product page](https://www.buywholefoodsonline.co.uk/organic-whole-peeled-tomatoes.html); micros from USDA canned-tomato generic 170138), 19 kcal/100 g = 76 kcal / 400 g tin.
 
 ---
 
@@ -687,7 +740,7 @@ The Indian shakshuka required substantial morning prep (toasting cumin, grinding
 
 ### Using a cube
 
-Drop one frozen cube directly into the hot pan. It blooms as it thaws — steam-blooms rather than oil-blooms, but for shakshuka the cube ultimately cooks into the passata so it works fine.
+Drop one frozen cube directly into the hot pan. It blooms as it thaws — steam-blooms rather than oil-blooms, but for shakshuka the cube ultimately cooks into the canned tomatoes so it works fine.
 
 ### Tikka masala stays separate
 
@@ -712,6 +765,7 @@ Compare a cube-based shakshuka against a freshly-pounded portion: day 1 (immedia
 | Anja + Jannes (kids+heat-sensitive) | Mexican (no in-pan chili version) |
 | Holger solo, want smoke + heat | Mexican — chipotle-forward (solo) |
 | Bold, want fresh herbs | Thai green |
+| Solo, Thai + a paste to run down | Yellow Thai (Mae Ploy) ⚠️ built-in heat — adult only |
 | Want something distinctly different | Korean (gochujang) |
 | Holger solo, want comfort | Sauerkraut hash, Levantine (za'atar + sumac + tahini) |
 | Simplest, fastest | Middle Eastern shakshuka (za'atar + sumac, 4-ingredient flavouring) |
@@ -736,3 +790,4 @@ One **meal** file per profile (collectionType 2; **committed values, no ±band**
 [s-meast]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Middle%20Eastern%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20za%27atar%2C%20sumac%2C%20aminos%2C%20nooch%2C%20garlic&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A7EF683B8-ABB1-B354-1FD3-723E9600E44D&customQuantities=100%3B3%3B37&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B251.108%2C21.904%2C36.412%2C7.541%2C4.838%2C1.064%2C14.011000000000001%2C644.811%2C2.454%2C97.946%2C0.652%2C35.135%2C200.108%2C0.0%2C0.0%2C0.324
 [s-korean]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Korean%20Gochujang%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20gochujang%2C%20ginger%2C%20sesame%20oil%2C%20rice%20vinegar%2C%20aminos&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Blocal%3A9095E184-5C3E-BFE0-A3A2-293AE7AA745F&customQuantities=100%3B43&customUnits=gram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B216.047%2C2.327%2C24.294%2C12.700000000000001%2C12.698%2C2.015%2C1.651%2C1073%2C0.7000000000000001%2C13.674%2C0.23800000000000002%2C18.581%2C147.674%2C0.0%2C0.0%2C2.047
 [s-thai]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Thai%20Green%20Shakshuka%20%5B25-06-26%5D%20%E2%9C%B4%EF%B8%8F&collectionType=2&fdcIds=170501%2C168462&grams=400%2C100&customNames=Egg%20%28Whole%2C%20Raw%2C%20Fresh%29%3BOil%20%28Avocado%29%3BSpices%20%26%20Seasonings%20%E2%80%94%20green%20curry%20paste%2C%20lemongrass%2C%20galangal%2C%20ginger%2C%20shiitake%2C%20aminos&customFoodIds=foodnoms%3A01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Blocal%3A1A53030F-E11F-652D-0EBE-B16935A054D9&customQuantities=100%3B3%3B60&customUnits=gram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2CvitaminB12%2Cfolate&customNutrientValues=143%2C12.56%2C0.72%2C0.37%2C9.51%2C3.126%2C0%2C142%2C1.75%2C56%2C1.29%2C12%2C138%2C2%2C0.89%2C47%3B884%2C0%2C0%2C0%2C100%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B113.4%2C2.096%2C21.897%2C9.232%2C2.32%2C1.002%2C3.05%2C1471.517%2C1.111%2C20.867%2C0.784%2C26.95%2C251.35%2C10.267%2C0%2C11.417
+[s-yellowthai]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Yellow+Thai+Shakshuka+%5b05-07-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bSpices+%26+Seasonings+%e2%80%94+Mae+Ploy+yellow+paste%2c+ginger%2c+birds-eye+chilli%2c+shiitake%2c+aminos&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3aC82998B2-2583-A253-0711-16E81F30BAAA&customQuantities=400%3b100%3b3%3b37&customUnits=gram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b156.649%2c4.881%2c23.677%2c8.958%2c1.712%2c0.42%2c9.714%2c3262.135%2c1.675%2c27.405%2c1.199%2c35.649%2c485.162%2c0.422%2c0%2c21.865
