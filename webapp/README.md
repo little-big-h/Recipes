@@ -29,8 +29,7 @@ It just keeps the URL from being casually browsable.
 node scripts/generate-password-hash.mjs "your new password"
 ```
 
-Paste the printed hash into `js/config.js` as `PASSWORD_HASH`. The default
-password is `recipes` — change it before sharing the URL.
+Paste the printed hash into `js/config.js` as `PASSWORD_HASH`.
 
 ## One-time setup to publish
 
