@@ -88,6 +88,116 @@ function slugify(relPath) {
   return relPath.replace(/\//g, '--').replace(/\.md$/, '');
 }
 
+const REF_DEF_RE = /^\[([^\]]+)\]:\s*(\S+)\s*$/;
+
+function extractRefDefs(content) {
+  const refs = {};
+  for (const line of content.split('\n')) {
+    const m = line.match(REF_DEF_RE);
+    if (m) refs[m[1]] = m[2];
+  }
+  return refs;
+}
+
+function cleanHeading(heading) {
+  return heading
+    .replace(/^Profile:\s*/, '')
+    .replace(/\[([^\]]+)\]\[[^\]]+\]/g, '$1')
+    .trim();
+}
+
+function slug(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+function extractFirstParagraph(bodyLines) {
+  const para = [];
+  for (const line of bodyLines) {
+    const trimmed = line.trim();
+    if (trimmed === '') {
+      if (para.length) break;
+      continue;
+    }
+    const isNonParagraphStarter =
+      /^#{1,6}\s/.test(trimmed) || trimmed.startsWith('|') || trimmed.startsWith('>') || trimmed === '---';
+    if (isNonParagraphStarter) {
+      if (para.length) break;
+      continue; // skip leading non-paragraph lines (e.g. a table right after the heading)
+    }
+    para.push(trimmed);
+  }
+  return para.length ? para.join(' ') : null;
+}
+
+// design/SHAKSHUKA.md is a single hand-curated file covering many breakfast
+// profiles in one doc (deliberately not split into per-recipe files — see
+// the file itself). Each "## " section becomes its own browsable card under
+// a "Shakshuka" category, without altering the source file. Profile headings
+// use markdown reference-style links ("[Indian / Tikka][s-indian]") whose
+// targets are FoodNoms download URLs defined at the bottom of the file —
+// every generated section file gets the full set of those definitions
+// appended so those links (and the FoodNoms nav button) resolve regardless
+// of which section is being viewed.
+function buildShakshukaEntries() {
+  const absPath = join(REPO_ROOT, 'design/SHAKSHUKA.md');
+  let content;
+  try {
+    content = readFileSync(absPath, 'utf8');
+  } catch {
+    return [];
+  }
+
+  const refs = extractRefDefs(content);
+  const refDefBlock = Object.entries(refs)
+    .map(([key, url]) => `[${key}]: ${url}`)
+    .join('\n');
+
+  const sections = [];
+  let current = null;
+  for (const line of content.split('\n')) {
+    const m = line.match(/^##\s+(.+?)\s*$/);
+    if (m) {
+      if (current) sections.push(current);
+      current = { heading: m[1], lines: [line] };
+    } else if (current) {
+      current.lines.push(line);
+    }
+  }
+  if (current) sections.push(current);
+
+  const lastModified = gitLastModified('design/SHAKSHUKA.md');
+  const destDir = join(CONTENT_DIR, 'design', 'shakshuka');
+  mkdirSync(destDir, { recursive: true });
+
+  return sections.map((section) => {
+    const title = cleanHeading(section.heading);
+    const fileName = `${slug(title)}.md`;
+    const bodyText = section.lines.join('\n').trim();
+    writeFileSync(join(destDir, fileName), `${bodyText}\n\n${refDefBlock}\n`, 'utf8');
+
+    const refMatch = section.heading.match(/\[[^\]]+\]\[([^\]]+)\]/);
+    const foodNomsUrl = refMatch ? refs[refMatch[1]] || null : null;
+
+    return {
+      id: `shakshuka--${slug(title)}`,
+      title,
+      subtitle: extractFirstParagraph(section.lines.slice(1)),
+      category: 'Shakshuka',
+      path: `content/design/shakshuka/${fileName}`,
+      hasTimeline: bodyText.includes('RenderTimeline'),
+      foodNomsUrl,
+      kcal: null,
+      proteinG: null,
+      dateStamp: null,
+      isClaudeMade: false,
+      lastModified,
+    };
+  });
+}
+
 function build() {
   rmSync(CONTENT_DIR, { recursive: true, force: true });
   mkdirSync(CONTENT_DIR, { recursive: true });
@@ -138,18 +248,28 @@ function build() {
     }
   }
 
+  const categories = [...new Set(SOURCES.map((s) => s.category))];
+
+  const shakshukaEntries = buildShakshukaEntries();
+  if (shakshukaEntries.length) {
+    entries.push(...shakshukaEntries);
+    categories.push('Shakshuka');
+  }
+
   entries.sort((a, b) => (b.lastModified || '').localeCompare(a.lastModified || ''));
 
   const index = {
     generatedAt: new Date().toISOString(),
     count: entries.length,
-    categories: [...new Set(SOURCES.map((s) => s.category))],
+    categories,
     recipes: entries,
   };
 
   writeFileSync(join(DATA_DIR, 'recipes-index.json'), JSON.stringify(index, null, 2), 'utf8');
 
-  console.log(`Indexed ${entries.length} recipes across ${index.categories.length} categories.`);
+  console.log(
+    `Indexed ${entries.length} recipes across ${index.categories.length} categories (incl. ${shakshukaEntries.length} Shakshuka sections).`
+  );
 }
 
 build();

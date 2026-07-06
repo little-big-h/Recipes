@@ -35,6 +35,19 @@ function renderInline(raw, opts = {}) {
     return `<a href="${url}">${text}</a>`;
   });
 
+  // reference-style links [text][ref], resolved against link reference
+  // definitions ("[ref]: url") collected from the document by renderMarkdown
+  if (opts.refs) {
+    s = s.replace(/\[([^\]]+)\]\[([^\]]+)\]/g, (whole, text, ref) => {
+      const url = opts.refs[ref];
+      if (!url) return text;
+      const external = /^https?:\/\//.test(url);
+      return external
+        ? `<a href="${url}" target="_blank" rel="noopener">${text}</a>`
+        : `<a href="${url}">${text}</a>`;
+    });
+  }
+
   // bold
   s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   // italic (single asterisk, after bold is consumed)
@@ -67,9 +80,26 @@ function alignFromSeparator(cell) {
   return '';
 }
 
+const REF_DEF_RE = /^\[([^\]]+)\]:\s*(\S+)\s*$/;
+
 export function renderMarkdown(md, opts = {}) {
-  const inline = (raw) => renderInline(raw, opts);
-  const lines = md.replace(/\r\n/g, '\n').split('\n');
+  // Link reference definitions ("[ref]: url") can appear anywhere in the
+  // document — collect them up front and drop those lines from the block
+  // parse (they're plumbing, not visible content) so [text][ref] links
+  // anywhere in the document can resolve, regardless of definition order.
+  const refs = { ...(opts.refs || {}) };
+  const lines = md
+    .replace(/\r\n/g, '\n')
+    .split('\n')
+    .map((line) => {
+      const m = line.match(REF_DEF_RE);
+      if (!m) return line;
+      refs[m[1]] = m[2];
+      return ''; // blank it out rather than remove, so paragraph breaks stay intact
+    });
+
+  const mergedOpts = { ...opts, refs };
+  const inline = (raw) => renderInline(raw, mergedOpts);
   const out = [];
   let i = 0;
 
