@@ -134,16 +134,28 @@ export function renderMarkdown(md, opts = {}) {
         const header = parseTableRow(tableLines[0]);
         const aligns = parseTableRow(tableLines[1]).map(alignFromSeparator);
         const bodyRows = tableLines.slice(2).map(parseTableRow);
+        // The ingredients table's "Type" column (docs/RECIPE_FORMAT.md) holds
+        // only a single circle emoji — give it a narrow fixed width so the
+        // rest of the columns share the space that would otherwise be
+        // wasted on it, instead of every column getting an equal slice.
+        const narrow = header.map((h) => h.trim().toLowerCase() === 'type');
+
+        const cellAttrs = (idx) => {
+          const styles = [];
+          if (aligns[idx]) styles.push(`text-align:${aligns[idx]}`);
+          // px, not em: em is relative to each cell's own font-size, which
+          // differs between th and td, so the two would disagree on width.
+          if (narrow[idx]) styles.push('width:40px; white-space:nowrap');
+          return styles.length ? ` style="${styles.join(';')}"` : '';
+        };
 
         const thead = `<thead><tr>${header
-          .map((h, idx) => `<th${aligns[idx] ? ` style="text-align:${aligns[idx]}"` : ''}>${inline(h)}</th>`)
+          .map((h, idx) => `<th${cellAttrs(idx)}>${inline(h)}</th>`)
           .join('')}</tr></thead>`;
         const tbody = `<tbody>${bodyRows
           .map(
             (row) =>
-              `<tr>${row
-                .map((c, idx) => `<td${aligns[idx] ? ` style="text-align:${aligns[idx]}"` : ''}>${inline(c)}</td>`)
-                .join('')}</tr>`
+              `<tr>${row.map((c, idx) => `<td${cellAttrs(idx)}>${inline(c)}</td>`).join('')}</tr>`
           )
           .join('')}</tbody>`;
         out.push(`<div class="table-scroll"><table>${thead}${tbody}</table></div>`);

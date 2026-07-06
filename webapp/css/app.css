@@ -451,6 +451,9 @@ button {
 }
 
 .recipe-content .table-scroll {
+  /* table-layout: fixed below means tables always shrink to the viewport
+     width instead of overflowing — this is a safety net, not the primary
+     mechanism, for any cell content pathological enough to defeat wrapping. */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 10px 0;
@@ -458,28 +461,25 @@ button {
 
 .recipe-content table {
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
-  font-size: 14px;
+  font-size: 12.5px;
 }
 
 .recipe-content th, .recipe-content td {
   border-bottom: 1px solid var(--border);
-  padding: 7px 8px;
+  padding: 6px 5px;
   text-align: left;
-  white-space: normal;
-  min-width: 3.5em;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .recipe-content th {
   color: var(--text-muted);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10.5px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
-}
-
-.recipe-content td:nth-child(2), .recipe-content th:nth-child(2) {
-  min-width: 9em;
 }
 
 .loading, .load-error {
