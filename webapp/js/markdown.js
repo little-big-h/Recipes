@@ -10,7 +10,7 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-function renderInline(raw) {
+function renderInline(raw, opts = {}) {
   let s = escapeHtml(raw);
 
   // inline code
@@ -24,8 +24,15 @@ function renderInline(raw) {
   // links [text](url)
   s = s.replace(/\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g, (_, text, url) => {
     const external = /^https?:\/\//.test(url);
-    const attrs = external ? ' target="_blank" rel="noopener"' : '';
-    return `<a href="${url}"${attrs}>${text}</a>`;
+    if (external) return `<a href="${url}" target="_blank" rel="noopener">${text}</a>`;
+    if (opts.resolveLink) {
+      const resolved = opts.resolveLink(url);
+      // Relative links point at repo paths that only make sense checked out
+      // locally (e.g. docs/ isn't published) — if it doesn't resolve to a
+      // known in-app route, drop the link rather than leave a dead one.
+      return resolved ? `<a href="${resolved}">${text}</a>` : text;
+    }
+    return `<a href="${url}">${text}</a>`;
   });
 
   // bold
@@ -60,7 +67,8 @@ function alignFromSeparator(cell) {
   return '';
 }
 
-export function renderMarkdown(md) {
+export function renderMarkdown(md, opts = {}) {
+  const inline = (raw) => renderInline(raw, opts);
   const lines = md.replace(/\r\n/g, '\n').split('\n');
   const out = [];
   let i = 0;
@@ -90,7 +98,7 @@ export function renderMarkdown(md) {
     let m = line.match(/^(#{1,6})\s+(.*)$/);
     if (m) {
       const level = m[1].length;
-      out.push(`<h${level}>${renderInline(m[2].trim())}</h${level}>`);
+      out.push(`<h${level}>${inline(m[2].trim())}</h${level}>`);
       i++;
       continue;
     }
@@ -111,7 +119,7 @@ export function renderMarkdown(md) {
         i++;
       }
       const text = quoted.join(' ').trim();
-      out.push(`<blockquote><p>${renderInline(text)}</p></blockquote>`);
+      out.push(`<blockquote><p>${inline(text)}</p></blockquote>`);
       continue;
     }
 
@@ -128,13 +136,13 @@ export function renderMarkdown(md) {
         const bodyRows = tableLines.slice(2).map(parseTableRow);
 
         const thead = `<thead><tr>${header
-          .map((h, idx) => `<th${aligns[idx] ? ` style="text-align:${aligns[idx]}"` : ''}>${renderInline(h)}</th>`)
+          .map((h, idx) => `<th${aligns[idx] ? ` style="text-align:${aligns[idx]}"` : ''}>${inline(h)}</th>`)
           .join('')}</tr></thead>`;
         const tbody = `<tbody>${bodyRows
           .map(
             (row) =>
               `<tr>${row
-                .map((c, idx) => `<td${aligns[idx] ? ` style="text-align:${aligns[idx]}"` : ''}>${renderInline(c)}</td>`)
+                .map((c, idx) => `<td${aligns[idx] ? ` style="text-align:${aligns[idx]}"` : ''}>${inline(c)}</td>`)
                 .join('')}</tr>`
           )
           .join('')}</tbody>`;
@@ -163,7 +171,7 @@ export function renderMarkdown(md) {
           break;
         }
       }
-      out.push(`<ol>${items.map((it) => `<li>${renderInline(it)}</li>`).join('')}</ol>`);
+      out.push(`<ol>${items.map((it) => `<li>${inline(it)}</li>`).join('')}</ol>`);
       continue;
     }
 
@@ -187,7 +195,7 @@ export function renderMarkdown(md) {
           break;
         }
       }
-      out.push(`<ul>${items.map((it) => `<li>${renderInline(it)}</li>`).join('')}</ul>`);
+      out.push(`<ul>${items.map((it) => `<li>${inline(it)}</li>`).join('')}</ul>`);
       continue;
     }
 
@@ -207,7 +215,7 @@ export function renderMarkdown(md) {
       i++;
     }
     if (para.length) {
-      out.push(`<p>${renderInline(para.join(' '))}</p>`);
+      out.push(`<p>${inline(para.join(' '))}</p>`);
     }
   }
 

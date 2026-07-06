@@ -65,6 +65,11 @@ function extractNutrient(content, label) {
   return { value: parseFloat(m[1].replace(/,/g, '')), unit: m[2] };
 }
 
+function extractFoodNomsUrl(content) {
+  const m = content.match(/\((https:\/\/www\.wolframcloud\.com\/obj\/[^)\s]*BuildFoodNomsRecipe\?[^)\s]+)\)/);
+  return m ? m[1] : null;
+}
+
 function gitLastModified(relPath) {
   try {
     const out = execSync(`git log -1 --format=%cI -- "${relPath}"`, {
@@ -109,6 +114,7 @@ function build() {
       const { dateStamp, isClaudeMade } = extractDateStamp(title);
       const energy = extractNutrient(content, 'Energy');
       const protein = extractNutrient(content, 'Protein');
+      const foodNomsUrl = extractFoodNomsUrl(content);
 
       const contentRelPath = relPath;
       const destPath = join(CONTENT_DIR, contentRelPath);
@@ -122,7 +128,7 @@ function build() {
         category: source.category,
         path: `content/${contentRelPath}`,
         hasTimeline: content.includes('RenderTimeline'),
-        hasFoodNoms: content.includes('BuildFoodNomsRecipe'),
+        foodNomsUrl,
         kcal: energy ? Math.round(energy.value) : null,
         proteinG: protein ? protein.value : null,
         dateStamp,

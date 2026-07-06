@@ -81,6 +81,30 @@ function truncate(text, max) {
   return text.length > max ? `${text.slice(0, max).trim()}…` : text;
 }
 
+// Recipe markdown links reference sibling files relative to the SOURCE repo
+// path (e.g. "../oven-mains/hasselback-jacket-potatoes.md"), not relative to
+// index.html. Resolve them against the current recipe's directory and map
+// to an in-app route when the target is a known recipe; otherwise the link
+// can't be honored (e.g. it points at docs/ which isn't published), so drop
+// it rather than leave a dead link.
+function resolveRecipeLink(href, currentRecipe, index) {
+  if (!href.endsWith('.md')) return null;
+
+  const sourcePath = currentRecipe.path.replace(/^content\//, '');
+  const baseDir = sourcePath.split('/').slice(0, -1);
+  const stack = [...baseDir];
+
+  for (const part of href.split('/')) {
+    if (part === '' || part === '.') continue;
+    if (part === '..') stack.pop();
+    else stack.push(part);
+  }
+
+  const resolvedPath = `content/${stack.join('/')}`;
+  const match = index.recipes.find((r) => r.path === resolvedPath);
+  return match ? `#/recipe/${match.id}` : null;
+}
+
 function renderChips() {
   const chipsEl = document.getElementById('category-chips');
   const cats = ['All', 'Favorites', ...state.index.categories];
@@ -139,11 +163,32 @@ function renderList() {
   });
 }
 
+function setHeaderMode(mode, recipe) {
+  const navTitle = document.getElementById('nav-title');
+  const backBtn = document.getElementById('back-btn');
+  const lockBtn = document.getElementById('lock-btn');
+  const favBtn = document.getElementById('fav-btn');
+  const shareBtn = document.getElementById('share-btn');
+  const foodnomsBtn = document.getElementById('foodnoms-btn');
+  const searchRow = document.getElementById('search-row');
+  const chips = document.getElementById('category-chips');
+
+  const inDetail = mode === 'detail';
+
+  navTitle.textContent = inDetail ? recipe.title : '🍽️ Family Recipes';
+  backBtn.hidden = !inDetail;
+  lockBtn.hidden = inDetail;
+  favBtn.hidden = !inDetail;
+  shareBtn.hidden = !inDetail;
+  foodnomsBtn.hidden = !inDetail || !recipe.foodNomsUrl;
+  if (inDetail && recipe.foodNomsUrl) foodnomsBtn.href = recipe.foodNomsUrl;
+  searchRow.hidden = inDetail;
+  chips.hidden = inDetail;
+}
+
 async function showDetail(id) {
   const recipe = state.index.recipes.find((r) => r.id === id);
   const listView = document.getElementById('recipe-list');
-  const toolbar = document.querySelector('.toolbar');
-  const chips = document.getElementById('category-chips');
   const emptyEl = document.getElementById('empty-state');
   const detail = document.getElementById('recipe-detail');
   const contentEl = document.getElementById('recipe-content');
@@ -151,17 +196,17 @@ async function showDetail(id) {
   const shareBtn = document.getElementById('share-btn');
 
   listView.hidden = true;
-  toolbar.hidden = true;
-  chips.hidden = true;
   emptyEl.hidden = true;
   detail.hidden = false;
   window.scrollTo(0, 0);
 
   if (!recipe) {
+    setHeaderMode('list');
     contentEl.innerHTML = '<p class="load-error">Recipe not found.</p>';
     return;
   }
 
+  setHeaderMode('detail', recipe);
   contentEl.innerHTML = '<p class="loading">Loading…</p>';
   favBtn.textContent = isFavorite(recipe.id) ? '★' : '☆';
   favBtn.onclick = () => {
@@ -173,7 +218,9 @@ async function showDetail(id) {
     const res = await fetch(recipe.path, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const md = await res.text();
-    contentEl.innerHTML = renderMarkdown(md);
+    contentEl.innerHTML = renderMarkdown(md, {
+      resolveLink: (href) => resolveRecipeLink(href, recipe, state.index),
+    });
     pushRecent(recipe.id);
   } catch (err) {
     contentEl.innerHTML = `<p class="load-error">Couldn't load this recipe (${err.message}). Check your connection and try again.</p>`;
@@ -182,9 +229,8 @@ async function showDetail(id) {
 
 function hideDetail() {
   document.getElementById('recipe-list').hidden = false;
-  document.querySelector('.toolbar').hidden = false;
-  document.getElementById('category-chips').hidden = false;
   document.getElementById('recipe-detail').hidden = true;
+  setHeaderMode('list');
   renderList();
 }
 

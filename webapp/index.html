@@ -22,35 +22,36 @@
 <div id="app"></div>
 
 <template id="tpl-shell">
-  <header class="topbar">
-    <h1>🍽️ Family Recipes</h1>
-    <button id="lock-btn" class="icon-btn" title="Lock app" aria-label="Lock app">🔒</button>
-  </header>
-
-  <div class="toolbar">
-    <div class="search-wrap">
-      <input id="search-input" type="search" placeholder="Search recipes or ingredients"
-             autocapitalize="off" autocorrect="off" enterkeyhint="search">
+  <div class="app-header" id="app-header">
+    <div class="nav-row">
+      <button id="back-btn" class="icon-btn nav-back" aria-label="Back to recipes" hidden>‹ Recipes</button>
+      <h1 id="nav-title">🍽️ Family Recipes</h1>
+      <div class="nav-actions">
+        <a id="foodnoms-btn" class="icon-btn" aria-label="Download FoodNoms file" href="#" target="_blank" rel="noopener" hidden>⬇︎</a>
+        <button id="fav-btn" class="icon-btn" aria-label="Toggle favorite" hidden>☆</button>
+        <button id="share-btn" class="icon-btn" aria-label="Share recipe" hidden>⤴︎</button>
+        <button id="lock-btn" class="icon-btn" aria-label="Lock app">🔒</button>
+      </div>
     </div>
-    <select id="sort-select" aria-label="Sort recipes">
-      <option value="newest">Newest</option>
-      <option value="az">A–Z</option>
-    </select>
-  </div>
 
-  <nav class="chips" id="category-chips" aria-label="Filter by category"></nav>
+    <div class="search-row" id="search-row">
+      <div class="search-wrap">
+        <input id="search-input" type="search" placeholder="Search recipes or ingredients"
+               autocapitalize="off" autocorrect="off" enterkeyhint="search">
+      </div>
+      <select id="sort-select" aria-label="Sort recipes">
+        <option value="newest">Newest</option>
+        <option value="az">A–Z</option>
+      </select>
+    </div>
+
+    <nav class="chips" id="category-chips" aria-label="Filter by category"></nav>
+  </div>
 
   <main id="recipe-list" class="recipe-list"></main>
   <p class="empty-state" id="empty-state" hidden>No recipes match — try a different search or category.</p>
 
   <section id="recipe-detail" class="recipe-detail" hidden>
-    <div class="detail-toolbar">
-      <button id="back-btn" class="icon-btn" aria-label="Back">‹ Back</button>
-      <div class="detail-actions">
-        <button id="fav-btn" class="icon-btn" aria-label="Toggle favorite">☆</button>
-        <button id="share-btn" class="icon-btn" aria-label="Share recipe">⤴︎</button>
-      </div>
-    </div>
     <article id="recipe-content" class="recipe-content"></article>
   </section>
 </template>

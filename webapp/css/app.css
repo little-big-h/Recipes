@@ -145,24 +145,51 @@ button {
 }
 
 /* ---------- App shell ---------- */
+/* One sticky header block containing the nav row, search row and chips —
+   deliberately a single sticky context so child rows never need hand-tuned
+   pixel offsets (that was the cause of the overlap/gap bugs). */
 
-.topbar {
+.app-header {
   position: sticky;
   top: 0;
   z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: calc(10px + var(--safe-top)) 16px 10px;
+  padding-top: var(--safe-top);
   background: color-mix(in srgb, var(--bg) 92%, transparent);
   backdrop-filter: saturate(180%) blur(14px);
   -webkit-backdrop-filter: saturate(180%) blur(14px);
   border-bottom: 1px solid var(--border);
 }
 
-.topbar h1 {
-  font-size: 20px;
+.nav-row {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px 6px 6px 12px;
+  gap: 4px;
+}
+
+#nav-title {
+  flex: 1;
+  min-width: 0;
+  font-size: 17px;
+  font-weight: 600;
   margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nav-back {
+  flex: 0 0 auto;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.nav-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .icon-btn {
@@ -170,27 +197,26 @@ button {
   appearance: none;
   background: none;
   border: none;
+  text-decoration: none;
   font-size: 20px;
   padding: 6px 8px;
   min-width: 44px;
   min-height: 44px;
   line-height: 1;
   border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-btn:active {
   background: var(--chip-bg);
 }
 
-.toolbar {
-  position: sticky;
-  top: calc(44px + var(--safe-top));
-  z-index: 9;
+.search-row {
   display: flex;
   gap: 8px;
-  padding: 8px 16px;
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
+  padding: 4px 16px 8px;
 }
 
 .search-wrap {
@@ -340,25 +366,6 @@ button {
 
 .recipe-detail {
   padding-bottom: calc(24px + var(--safe-bottom));
-}
-
-.detail-toolbar {
-  position: sticky;
-  top: calc(44px + var(--safe-top));
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: calc(10px + var(--safe-top)) 12px 10px;
-  background: color-mix(in srgb, var(--bg) 92%, transparent);
-  backdrop-filter: saturate(180%) blur(14px);
-  -webkit-backdrop-filter: saturate(180%) blur(14px);
-  border-bottom: 1px solid var(--border);
-}
-
-.detail-actions {
-  display: flex;
-  gap: 4px;
 }
 
 .recipe-content {
