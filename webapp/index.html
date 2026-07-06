@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Family Recipes</title>
+<meta name="description" content="Browse the family recipe collection on iPhone and iPad.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- iOS home-screen / standalone app behaviour -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recipes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#D96C3F">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32">
+<link rel="manifest" href="manifest.webmanifest">
+
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app"></div>
+
+<template id="tpl-shell">
+  <header class="topbar">
+    <h1>🍽️ Family Recipes</h1>
+    <button id="lock-btn" class="icon-btn" title="Lock app" aria-label="Lock app">🔒</button>
+  </header>
+
+  <div class="toolbar">
+    <div class="search-wrap">
+      <input id="search-input" type="search" placeholder="Search recipes or ingredients"
+             autocapitalize="off" autocorrect="off" enterkeyhint="search">
+    </div>
+    <select id="sort-select" aria-label="Sort recipes">
+      <option value="newest">Newest</option>
+      <option value="az">A–Z</option>
+    </select>
+  </div>
+
+  <nav class="chips" id="category-chips" aria-label="Filter by category"></nav>
+
+  <main id="recipe-list" class="recipe-list"></main>
+  <p class="empty-state" id="empty-state" hidden>No recipes match — try a different search or category.</p>
+
+  <section id="recipe-detail" class="recipe-detail" hidden>
+    <div class="detail-toolbar">
+      <button id="back-btn" class="icon-btn" aria-label="Back">‹ Back</button>
+      <div class="detail-actions">
+        <button id="fav-btn" class="icon-btn" aria-label="Toggle favorite">☆</button>
+        <button id="share-btn" class="icon-btn" aria-label="Share recipe">⤴︎</button>
+      </div>
+    </div>
+    <article id="recipe-content" class="recipe-content"></article>
+  </section>
+</template>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

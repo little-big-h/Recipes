@@ -1,0 +1,49 @@
+name: Deploy Recipes web app to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'webapp/**'
+      - 'recipes/**'
+      - 'anjas-cooking/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # needed so build-index.mjs can read per-file git history
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build recipe index + content mirror
+        run: node webapp/scripts/build-index.mjs
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: webapp
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

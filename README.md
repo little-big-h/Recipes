@@ -23,6 +23,10 @@ Holger Pirk's home kitchen, vegetarian, family of five.
 This directory contains everything needed for a Claude Code instance to continue
 recipe development without prior conversation history.
 
+**📱 iPhone/iPad web app:** `webapp/` — a mobile-first, installable, password-gated
+browser for these recipes (search, categories, favorites, offline support).
+See `webapp/README.md` for local testing and one-time GitHub Pages setup.
+
 ---
 
 ## How to navigate this project
