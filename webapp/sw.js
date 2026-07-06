@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'recipes-v2';
+const CACHE_VERSION = 'recipes-v3';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
@@ -11,6 +11,7 @@ const SHELL_FILES = [
   'js/auth.js',
   'js/config.js',
   'js/markdown.js',
+  'js/pull-to-refresh.js',
   'manifest.webmanifest',
   'icons/icon-192.png',
   'icons/icon-512.png',

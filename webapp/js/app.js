@@ -1,5 +1,6 @@
 import { isUnlocked, mountLockScreen, lock } from './auth.js';
 import { renderMarkdown } from './markdown.js';
+import { initPullToRefresh } from './pull-to-refresh.js';
 
 const root = document.getElementById('app');
 
@@ -258,6 +259,28 @@ function route() {
   }
 }
 
+async function refreshData() {
+  try {
+    state.index = await loadIndex();
+  } catch {
+    return; // keep showing whatever's already on screen rather than erroring out
+  }
+
+  renderChips();
+
+  const m = window.location.hash.match(/^#\/recipe\/(.+)$/);
+  if (m) {
+    await showDetail(decodeURIComponent(m[1]));
+  } else {
+    renderList();
+  }
+
+  if ('serviceWorker' in navigator) {
+    const reg = await navigator.serviceWorker.getRegistration();
+    reg?.update();
+  }
+}
+
 function debounce(fn, ms) {
   let t;
   return (...args) => {
@@ -308,6 +331,8 @@ async function initApp() {
   });
 
   window.addEventListener('hashchange', route);
+
+  initPullToRefresh(refreshData);
 }
 
 function boot() {
