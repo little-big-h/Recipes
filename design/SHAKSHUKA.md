@@ -578,6 +578,7 @@ Not in the source PDF but retained as a useful direction. Built around fresh aro
 | 🥚 Eggs | 2–3 |
 | 🌿 Thai basil or coriander | generous |
 | 🥥 Coconut milk (optional) | 30–40 g |
+| 🥭 Tamarind paste (off heat, to taste) | ~6 g |
 
 Bright, herbal, slightly fiery. ⚠️ Lara may find this too heat-forward; build conservatively for her.
 
@@ -594,6 +595,15 @@ The original build leaned on **10 ml aminos alone for savouriness — and it doe
 **Cook log — 2026-06-25: 8.4.** First cook of the Thai green, with the umami fixes in (🍄 shiitake 4 g stirred in *with the canned tomatoes*, paste fried hard, 🫗 aminos 15 ml). Landed well — **the depth gap is closed**; sits just under the bold North African (8.6) and Mexican chipotle (8.5), above the mole (8.0). Whole serving ~337 kcal · 21 g protein · 29 g carbs · 15 g fat · 8 g fibre · salt 3.2 g (USDA + label/estimates, not FoodNoms-verified). *Open: which fix carried it — the shiitake or the paste-fry — and whether the coconut-milk splash was used.*
 
 **Spice-line calories** — ~52.3 kcal: 🍲 green curry paste 13.6 · 🫗 aminos 12.6 · 🍄 shiitake 11.8 · 🫚 galangal 7.2† · 🌾 lemongrass 4.7 · 🫚 ginger 2.4. *(† generic galangal density; the FoodNoms line totals ~68 kcal off its own `local:` paste records — the commercial green-curry/galangal pastes carry added oil — left unreconciled.)*
+
+### Souring agent — tamarind (added 2026-07-06, untested)
+
+**🥭 Tamarind paste, ~6 g, off heat.** A real Thai curry balances sweet/sour/salty/spicy; this build had sweet (coconut, optional), salty/umami (aminos + shiitake) and spicy (green paste) but nothing sour — lime was the only lever, and that's a family-dinner at-table move (`thai-yellow-butternut-curry.md`), not needed here since this is Holger solo. Tamarind fills the gap directly in the pot. Already stocked (`docs/PANTRY.md`), no new purchase.
+
+- **Off heat, like the corn soups.** Every other tamarind use in the project (`creamy-corn-soup-indian.md`, `-mexican.md`, `butternut-butterbean-soup.md`) adds it off heat, not simmered — keeps the sour bright rather than cooking it flat, and lets you taste and adjust the final acidity directly.
+- **Start small — it's concentrated and it's easy to overshoot** (USDA raw tamarind: 239 kcal, 38.8 g sugar, 62.5 g carbs per 100 g — mostly sugar-acid, no dilution to hide behind). ~6 g adds ~14 kcal — a rounding error against the ~337 kcal base, so calorie-wise it's free; the only real risk is over-souring.
+- **Watch it against the coconut-milk splash** — tamarind's sour-sweet profile and coconut's sweet-fat both want to be the round note; if using both, taste after the tamarind goes in before deciding whether the coconut splash is still needed.
+- Not yet cooked with this addition — next cook should confirm the dose and whether it reads as an improvement or as competing with the shiitake umami.
 
 ---
 
