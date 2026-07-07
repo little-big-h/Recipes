@@ -129,6 +129,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Smooth Onion–Tomato Gravy | Indian |
 | Creamy Tomato, Coconut & Spinach Sauce | Indian-leaning |
 | Super-Quick Hasselback Jacket Potatoes | European |
+| Creamy Yellow Curry Soy Bean & Corn Soup | Fusion (Thai + West African) |
 
 ---
 
@@ -171,6 +172,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Super-Quick Hasselback Jacket Potatoes | v1 | cooked | 2026-07-02 | [hasselback-jacket-potatoes.md](../recipes/oven-mains/hasselback-jacket-potatoes.md) |
 | Creamy Tomato, Coconut & Spinach Sauce | v1 | cooked | 2026-07-02 | [creamy-tomato-coconut-spinach-sauce.md](../recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md) |
 | Creamy Tomato, Coconut & Spinach Sauce | v2 | planned | — | [creamy-tomato-coconut-spinach-sauce-v2.md](../recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md) |
+| Creamy Yellow Curry Soy Bean & Corn Soup | v1 | planned | — | [creamy-soybean-corn-yellow-curry-soup.md](../recipes/soups/creamy-soybean-corn-yellow-curry-soup.md) |
 
 ---
 

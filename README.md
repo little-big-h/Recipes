@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Creamy Tomato, Coconut & Spinach Sauce v2](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md)** — 2026-07-02
-2. **[Creamy Tomato, Coconut & Spinach Sauce](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)** — 2026-07-02
-3. **[Super-Quick Hasselback Jacket Potatoes](recipes/oven-mains/hasselback-jacket-potatoes.md)** — 2026-07-01
-4. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
-5. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
-6. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
-7. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
-8. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
-9. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
-10. **[Vegetable & Potato Soup (Anja)](anjas-cooking/vegetable-potato-soup.md)** — 2026-06-15
+1. **[Creamy Yellow Curry Soy Bean & Corn Soup](recipes/soups/creamy-soybean-corn-yellow-curry-soup.md)** — 2026-07-07
+2. **[Creamy Tomato, Coconut & Spinach Sauce v2](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md)** — 2026-07-02
+3. **[Creamy Tomato, Coconut & Spinach Sauce](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)** — 2026-07-02
+4. **[Super-Quick Hasselback Jacket Potatoes](recipes/oven-mains/hasselback-jacket-potatoes.md)** — 2026-07-01
+5. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
+6. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
+7. **[Cold Buckwheat, Asparagus & Black-Eyed Bean Salad (Gado-Gado-Style)](recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md)** — 2026-06-24
+8. **[Aubergine Parmigiana (Anja)](anjas-cooking/aubergine-parmigiana.md)** — 2026-06-20
+9. **[Creamy Coconut–Tomato Veg & Chickpea Curry](recipes/stovetop-mains/coconut-tomato-veg-chickpea-curry.md)** — 2026-06-18
+10. **[Lobia Masala with Air-Fried Butternut](recipes/stovetop-mains/lobia-masala-butternut.md)** — 2026-06-16
 
 ---
 
@@ -96,6 +96,7 @@ Recipes/
 │
 └── recipes/
     ├── soups/
+    │   ├── creamy-soybean-corn-yellow-curry-soup.md  Soy bean puree, corn, yellow curry, peanut, tamarind
     │   ├── creamy-shiitake-soup-thai.md       Cooked v1 — 7.96 avg
     │   ├── creamy-shiitake-soup-thai-v2.md    Planned redesign
     │   ├── creamy-corn-soup-nordic.md         Cooked v1 — qualitative ratings only
