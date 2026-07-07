@@ -287,13 +287,22 @@ function classifySectionTitle(titleHtml) {
   // ("Single-serving build", "Base (constant across profiles)") rather than
   // the recipe-file vocabulary — matched loosely so they still land in the
   // right bucket instead of always falling through to "other".
-  if (/ingredient/.test(t) || /single-serving build/.test(t) || /^build\b/.test(t) || /^base\b/.test(t)) {
+  if (
+    /ingredient/.test(t) ||
+    /single-serving build/.test(t) ||
+    /^build\b/.test(t) ||
+    /^base\b/.test(t) ||
+    /^design\s*\(/.test(t) // e.g. "Design (10 portions)" over a batch/quantity table
+  ) {
     return 'ingredients';
   }
   if (/timeline/.test(t)) return 'timeline';
   if (/^method\b/.test(t)) return 'method';
   if (/nutrition/.test(t)) return 'nutrition';
-  if (/design/.test(t)) return 'design-notes';
+  // Narrower than a bare /design/ match: Shakshuka's bulk-paste-project card
+  // has a "Design (10 portions)" heading over an actual ingredients table,
+  // which a loose match would misclassify as design notes.
+  if (/^design\s*notes?\b/.test(t)) return 'design-notes';
   if (/cook log/.test(t) || /^log\b/.test(t)) return 'cook-log';
   return 'other';
 }
@@ -337,8 +346,9 @@ function assembleSections(blocks) {
   let i = 0;
 
   const titleMatch = blocks.length ? blocks[0].match(HEADING_BLOCK_RE) : null;
+  // The title is already shown in the app's nav bar — don't repeat it in
+  // the body, just use it to work out the section-heading level.
   if (titleMatch) {
-    out.push(blocks[0]);
     i = 1;
   }
 
@@ -365,10 +375,23 @@ function assembleSections(blocks) {
     return [...out, ...groups[0].blocks].join('\n');
   }
 
+  // A few cards (e.g. Shakshuka's "Structure 1" base) put a bare ingredients
+  // table directly under the title with no heading of its own. Pull any
+  // such table out of the intro/Notes group into its own Ingredients
+  // section instead of letting it get buried inside a collapsed "Notes".
+  const introGroup = groups[0];
+  if (introGroup && introGroup.title === null) {
+    const tableBlocks = introGroup.blocks.filter((b) => b.startsWith('<div class="table-scroll">'));
+    if (tableBlocks.length) {
+      introGroup.blocks = introGroup.blocks.filter((b) => !b.startsWith('<div class="table-scroll">'));
+      groups.push({ title: 'Ingredients', blocks: tableBlocks, forcedBucket: 'ingredients' });
+    }
+  }
+
   const bucketed = groups.map((group, idx) => ({
     ...group,
     idx,
-    bucket: group.title === null ? 'notes' : classifySectionTitle(group.title),
+    bucket: group.forcedBucket || (group.title === null ? 'notes' : classifySectionTitle(group.title)),
   }));
   bucketed.sort((a, b) => (BUCKET_ORDER[a.bucket] ?? BUCKET_ORDER.other) - (BUCKET_ORDER[b.bucket] ?? BUCKET_ORDER.other) || a.idx - b.idx);
 
