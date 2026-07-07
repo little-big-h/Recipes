@@ -172,30 +172,37 @@ function buildShakshukaEntries() {
   const destDir = join(CONTENT_DIR, 'design', 'shakshuka');
   mkdirSync(destDir, { recursive: true });
 
-  return sections.map((section) => {
-    const title = cleanHeading(section.heading);
-    const fileName = `${slug(title)}.md`;
-    const bodyText = section.lines.join('\n').trim();
-    writeFileSync(join(destDir, fileName), `${bodyText}\n\n${refDefBlock}\n`, 'utf8');
+  // Not useful as its own app card — a 12-column comparison table reads
+  // fine in the source file but is unreadable once squeezed onto a phone
+  // screen. The source file itself is untouched; this only skips the card.
+  const EXCLUDED_SECTIONS = new Set(['Profile reference matrix']);
 
-    const refMatch = section.heading.match(/\[[^\]]+\]\[([^\]]+)\]/);
-    const foodNomsUrl = refMatch ? refs[refMatch[1]] || null : null;
+  return sections
+    .filter((section) => !EXCLUDED_SECTIONS.has(cleanHeading(section.heading)))
+    .map((section) => {
+      const title = cleanHeading(section.heading);
+      const fileName = `${slug(title)}.md`;
+      const bodyText = section.lines.join('\n').trim();
+      writeFileSync(join(destDir, fileName), `${bodyText}\n\n${refDefBlock}\n`, 'utf8');
 
-    return {
-      id: `shakshuka--${slug(title)}`,
-      title,
-      subtitle: extractFirstParagraph(section.lines.slice(1)),
-      category: 'Shakshuka',
-      path: `content/design/shakshuka/${fileName}`,
-      hasTimeline: bodyText.includes('RenderTimeline'),
-      foodNomsUrl,
-      kcal: null,
-      proteinG: null,
-      dateStamp: null,
-      isClaudeMade: false,
-      lastModified,
-    };
-  });
+      const refMatch = section.heading.match(/\[[^\]]+\]\[([^\]]+)\]/);
+      const foodNomsUrl = refMatch ? refs[refMatch[1]] || null : null;
+
+      return {
+        id: `shakshuka--${slug(title)}`,
+        title,
+        subtitle: extractFirstParagraph(section.lines.slice(1)),
+        category: 'Shakshuka',
+        path: `content/design/shakshuka/${fileName}`,
+        hasTimeline: bodyText.includes('RenderTimeline'),
+        foodNomsUrl,
+        kcal: null,
+        proteinG: null,
+        dateStamp: null,
+        isClaudeMade: false,
+        lastModified,
+      };
+    });
 }
 
 function build() {

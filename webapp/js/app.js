@@ -332,6 +332,15 @@ async function initApp() {
 
   window.addEventListener('hashchange', route);
 
+  document.getElementById('recipe-content').addEventListener('click', (e) => {
+    const btn = e.target.closest('.md-toggle');
+    if (!btn) return;
+    const section = btn.closest('.md-section');
+    const collapsed = section.classList.toggle('collapsed');
+    btn.textContent = collapsed ? 'Show' : 'Hide';
+    btn.setAttribute('aria-expanded', String(!collapsed));
+  });
+
   initPullToRefresh(refreshData);
 }
 

@@ -433,6 +433,56 @@ button {
   color: var(--accent-dark);
 }
 
+.md-section {
+  margin: 22px 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--border);
+}
+
+.md-section:last-child {
+  border-bottom: none;
+}
+
+.md-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.recipe-content .md-section-header h2 {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.md-toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: var(--chip-bg);
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  flex: 0 0 auto;
+  min-height: 32px;
+}
+
+.md-toggle:active {
+  background: var(--border);
+}
+
+.md-section-body {
+  margin-top: 4px;
+  padding-bottom: 18px;
+}
+
+.md-section.collapsed .md-section-body {
+  display: none;
+}
+
 .recipe-content p {
   margin: 10px 0;
 }

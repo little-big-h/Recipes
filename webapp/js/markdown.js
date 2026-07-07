@@ -261,5 +261,70 @@ export function renderMarkdown(md, opts = {}) {
     }
   }
 
+  return assembleSections(out);
+}
+
+const H1_BLOCK_RE = /^<h1>([\s\S]*)<\/h1>$/;
+const H2_BLOCK_RE = /^<h2>([\s\S]*)<\/h2>$/;
+
+let sectionSeq = 0;
+
+// Wraps one "## " heading's worth of content (or, for title === null, the
+// intro content before the first "## ") in a collapsible <section> with a
+// show/hide toggle. Returns '' for an empty body so callers can skip it.
+function wrapSection(title, bodyBlocks, collapsedByDefault) {
+  const body = bodyBlocks.filter((b) => b !== '<hr>').join('\n');
+  if (!body.trim()) return '';
+  sectionSeq += 1;
+  const bodyId = `md-section-body-${sectionSeq}`;
+  return [
+    `<section class="md-section${collapsedByDefault ? ' collapsed' : ''}">`,
+    `<div class="md-section-header">`,
+    `<h2 class="md-section-title">${title}</h2>`,
+    `<button type="button" class="md-toggle" aria-expanded="${!collapsedByDefault}" aria-controls="${bodyId}">${
+      collapsedByDefault ? 'Show' : 'Hide'
+    }</button>`,
+    `</div>`,
+    `<div class="md-section-body" id="${bodyId}">`,
+    body,
+    `</div>`,
+    `</section>`,
+  ].join('\n');
+}
+
+// Groups the flat block list into collapsible sections at each "## "
+// heading. The H1 title (if present) stays outside any section — it's the
+// page title, not a collapsible part of the content. Anything between the
+// H1 and the first "## " (a subtitle, "changes from v1"-style blockquotes,
+// etc.) becomes its own "Notes" section, collapsed by default since it's
+// context rather than something you need open every time; every other
+// section starts expanded.
+function assembleSections(blocks) {
+  const out = [];
+  let i = 0;
+
+  if (blocks.length && H1_BLOCK_RE.test(blocks[0])) {
+    out.push(blocks[0]);
+    i = 1;
+  }
+
+  const groups = [];
+  let current = { title: null, blocks: [] };
+  for (; i < blocks.length; i++) {
+    const m = blocks[i].match(H2_BLOCK_RE);
+    if (m) {
+      groups.push(current);
+      current = { title: m[1], blocks: [] };
+    } else {
+      current.blocks.push(blocks[i]);
+    }
+  }
+  groups.push(current);
+
+  for (const group of groups) {
+    const html = wrapSection(group.title === null ? 'Notes' : group.title, group.blocks, group.title === null);
+    if (html) out.push(html);
+  }
+
   return out.join('\n');
 }
