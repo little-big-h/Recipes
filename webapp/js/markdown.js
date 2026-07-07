@@ -264,14 +264,46 @@ export function renderMarkdown(md, opts = {}) {
   return assembleSections(out);
 }
 
-const H1_BLOCK_RE = /^<h1>([\s\S]*)<\/h1>$/;
-const H2_BLOCK_RE = /^<h2>([\s\S]*)<\/h2>$/;
+const HEADING_BLOCK_RE = /^<h([1-6])>([\s\S]*)<\/h\1>$/;
+
+// Canonical display order (docs/RECIPE_FORMAT.md's section list), applied
+// regardless of the order sections appear in the source file. "notes" is
+// always the synthetic intro section; anything that doesn't match a known
+// bucket falls into "other", in original relative order.
+const BUCKET_ORDER = {
+  notes: 0,
+  ingredients: 1,
+  timeline: 2,
+  method: 3,
+  nutrition: 4,
+  'design-notes': 5,
+  'cook-log': 6,
+  other: 7,
+};
+
+function classifySectionTitle(titleHtml) {
+  const t = titleHtml.replace(/<[^>]+>/g, '').toLowerCase();
+  // Shakshuka profiles (design/SHAKSHUKA.md) use their own subsection names
+  // ("Single-serving build", "Base (constant across profiles)") rather than
+  // the recipe-file vocabulary — matched loosely so they still land in the
+  // right bucket instead of always falling through to "other".
+  if (/ingredient/.test(t) || /single-serving build/.test(t) || /^build\b/.test(t) || /^base\b/.test(t)) {
+    return 'ingredients';
+  }
+  if (/timeline/.test(t)) return 'timeline';
+  if (/^method\b/.test(t)) return 'method';
+  if (/nutrition/.test(t)) return 'nutrition';
+  if (/design/.test(t)) return 'design-notes';
+  if (/cook log/.test(t) || /^log\b/.test(t)) return 'cook-log';
+  return 'other';
+}
 
 let sectionSeq = 0;
 
-// Wraps one "## " heading's worth of content (or, for title === null, the
-// intro content before the first "## ") in a collapsible <section> with a
-// show/hide toggle. Returns '' for an empty body so callers can skip it.
+// Wraps one heading's worth of content (or, for title === null, the intro
+// content before the first section-level heading) in a collapsible
+// <section> with a show/hide toggle. Returns '' for an empty body so
+// callers can skip it.
 function wrapSection(title, bodyBlocks, collapsedByDefault) {
   const body = bodyBlocks.filter((b) => b !== '<hr>').join('\n');
   if (!body.trim()) return '';
@@ -292,26 +324,31 @@ function wrapSection(title, bodyBlocks, collapsedByDefault) {
   ].join('\n');
 }
 
-// Groups the flat block list into collapsible sections at each "## "
-// heading. The H1 title (if present) stays outside any section — it's the
-// page title, not a collapsible part of the content. Anything between the
-// H1 and the first "## " (a subtitle, "changes from v1"-style blockquotes,
-// etc.) becomes its own "Notes" section, collapsed by default since it's
-// context rather than something you need open every time; every other
-// section starts expanded.
+// Groups the flat block list into collapsible sections, reordered into the
+// canonical Notes/Ingredients/Timeline/Method/Nutrition/Design notes/Cook
+// log/Other sequence. The document's own title heading — whatever level it
+// happens to be (H1 for a normal recipe, H2 for a Shakshuka profile card
+// whose body then uses H3 for its own subsections) — stays outside any
+// section, exactly like the H1 in a normal recipe: it's the title, not a
+// collapsible part of the content. The next heading level down is treated
+// as the section boundary; anything deeper stays nested inside its section.
 function assembleSections(blocks) {
   const out = [];
   let i = 0;
 
-  if (blocks.length && H1_BLOCK_RE.test(blocks[0])) {
+  const titleMatch = blocks.length ? blocks[0].match(HEADING_BLOCK_RE) : null;
+  if (titleMatch) {
     out.push(blocks[0]);
     i = 1;
   }
 
+  const sectionLevel = titleMatch ? Number(titleMatch[1]) + 1 : null;
+  const sectionRe = sectionLevel ? new RegExp(`^<h${sectionLevel}>([\\s\\S]*)<\\/h${sectionLevel}>$`) : null;
+
   const groups = [];
   let current = { title: null, blocks: [] };
   for (; i < blocks.length; i++) {
-    const m = blocks[i].match(H2_BLOCK_RE);
+    const m = sectionRe ? blocks[i].match(sectionRe) : null;
     if (m) {
       groups.push(current);
       current = { title: m[1], blocks: [] };
@@ -321,8 +358,23 @@ function assembleSections(blocks) {
   }
   groups.push(current);
 
-  for (const group of groups) {
-    const html = wrapSection(group.title === null ? 'Notes' : group.title, group.blocks, group.title === null);
+  // No section-level heading ever appeared — nothing to split or reorder,
+  // so render the remaining content plainly rather than wrap it as if it
+  // were a distinct, labelled part of the document.
+  if (groups.length === 1 && groups[0].title === null) {
+    return [...out, ...groups[0].blocks].join('\n');
+  }
+
+  const bucketed = groups.map((group, idx) => ({
+    ...group,
+    idx,
+    bucket: group.title === null ? 'notes' : classifySectionTitle(group.title),
+  }));
+  bucketed.sort((a, b) => (BUCKET_ORDER[a.bucket] ?? BUCKET_ORDER.other) - (BUCKET_ORDER[b.bucket] ?? BUCKET_ORDER.other) || a.idx - b.idx);
+
+  for (const group of bucketed) {
+    const title = group.title === null ? 'Notes' : group.title;
+    const html = wrapSection(title, group.blocks, group.bucket === 'notes');
     if (html) out.push(html);
   }
 
