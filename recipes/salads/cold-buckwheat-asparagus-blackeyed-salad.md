@@ -8,24 +8,24 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🌾 | 🌾 Buckwheat / kasha (dry, pre-toasted) | 250 g | 858 | 250 g (210 toasted + 40 untoasted) | local *(est.)* |
-| 🫛 | 🫛 Asparagus (blanched, chilled) | 500 g | 100 | 900 g | [usda](https://fdc.nal.usda.gov/food-details/168389/nutrients) |
-| 🫘 | 🫘 Black-eyed beans (dried → pressure-cooked) | 300 g | 1008 | 300 g (+1 Knorr stock cube) | [usda](https://fdc.nal.usda.gov/food-details/173758/nutrients) |
-| 🥚 | 🥚 Eggs (hard-boiled, halved) | 6 (~330 g) | 512 | 330 g | local |
-| 🫑 | 🫑 Bell peppers (**raw**, diced) | 300 g | 84 | 365 g | local *(est.)* |
-| 🌽 | 🌽 Sweetcorn (canned, **charred**) | 200 g | 160 | 0 — at table | local *(est.)* |
-| 🥬 | 🥬 Italian-style salad leaves | — | — | 140 g (24) | label (17 kcal/100 g) |
-| 🥜 | 🥜 Defatted peanut flour (dressing) | 60 g | 228 | | label (Buy Whole Foods) |
-| 🫗 | 🫗 Sweet-chilli coconut aminos (Biona) | 45 g | 54 | | label |
-| 🍇 | 🍇 Pomegranate molasses | 15 g | 42 | → 10 ml balsamic (sub, ~21 kcal) | local *(est.)* |
-| 🧄 | 🧄 Garlic + ginger | 12 g | 14 | | local *(est.)* |
-| 🥛 | 🥛 Natural yoghurt (kids' dressing cut) | 150 g | 90 | | local *(est.)* |
-| 🌰 | 🌰 Toasted peanuts (topping) | 25 g | 147 | | local *(est.)* |
-| 🍋 | 🍋 Lime (at table) | to taste | — | | — |
-| 🌿 | 🌿 Coriander / mint | a handful | — | | — |
+| 🟢 | 🌾 Buckwheat / kasha (dry, pre-toasted) | 250 g | 858 | 250 g (210 toasted + 40 untoasted) | local *(est.)* |
+| 🟢 | 🫛 Asparagus (blanched, chilled) | 500 g | 100 | 900 g | [usda](https://fdc.nal.usda.gov/food-details/168389/nutrients) |
+| 🟤 | 🫘 Black-eyed beans (dried → pressure-cooked) | 300 g | 1008 | 300 g (+1 Knorr stock cube) | [usda](https://fdc.nal.usda.gov/food-details/173758/nutrients) |
+| 🟤 | 🥚 Eggs (hard-boiled, halved) | 6 (~330 g) | 512 | 330 g | local |
+| 🟢 | 🫑 Bell peppers (**raw**, diced) | 300 g | 84 | 365 g | local *(est.)* |
+| 🟢 | 🌽 Sweetcorn (canned, **charred**) | 200 g | 160 | 0 — at table | local *(est.)* |
+| 🟢 | 🥬 Italian-style salad leaves | — | — | 140 g (24) | label (17 kcal/100 g) |
+| 🟤 | 🥜 Defatted peanut flour (dressing) | 60 g | 228 | | label (Buy Whole Foods) |
+| 🟣 | 🫗 Sweet-chilli coconut aminos (Biona) | 45 g | 54 | | label |
+| ⚪ | 🍇 Pomegranate molasses | 15 g | 42 | → 10 ml balsamic (sub, ~21 kcal) | local *(est.)* |
+| 🟡 | 🧄 Garlic + ginger | 12 g | 14 | | local *(est.)* |
+| 🟤 | 🥛 Natural yoghurt (kids' dressing cut) | 150 g | 90 | | local *(est.)* |
+| 🟤 | 🌰 Toasted peanuts (topping) | 25 g | 147 | | local *(est.)* |
+| ⚪ | 🍋 Lime (at table) | to taste | — | | — |
+| 🟢 | 🌿 Coriander / mint | a handful | — | | — |
 | | **Total** | **~2.2 kg input** | **~3297** | | |
 
-*Legend: 🌾 Grain · 🫛🫑🌽 Vegetable · 🫘 Pulse · 🥚 Egg · 🥜🌰 Peanut · 🫗 Seasoning · 🍇 Acid/sweet · 🧄 Aromatics · 🥛 Dairy · 🍋 Acid · 🌿 Herb*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 *The dressing is **oil-free** — 🥜 defatted peanut flour does the body, the 🫗 sweet-chilli aminos and 🍇 pom molasses the flavour. Most amounts are estimates (no shop, mid run-down); the 🫛 asparagus/🫘 beans/🥚 eggs are the bulk and reasonably firm.*
 
