@@ -13,6 +13,7 @@ const state = {
   query: '',
   category: 'All',
   sort: 'newest',
+  currentRecipe: null,
 };
 
 function readList(key) {
@@ -168,9 +169,7 @@ function setHeaderMode(mode, recipe) {
   const navTitle = document.getElementById('nav-title');
   const backBtn = document.getElementById('back-btn');
   const lockBtn = document.getElementById('lock-btn');
-  const favBtn = document.getElementById('fav-btn');
-  const shareBtn = document.getElementById('share-btn');
-  const foodnomsBtn = document.getElementById('foodnoms-btn');
+  const moreBtn = document.getElementById('more-btn');
   const searchRow = document.getElementById('search-row');
   const chips = document.getElementById('category-chips');
 
@@ -179,10 +178,7 @@ function setHeaderMode(mode, recipe) {
   navTitle.textContent = inDetail ? recipe.title : '🍽️ Family Recipes';
   backBtn.hidden = !inDetail;
   lockBtn.hidden = inDetail;
-  favBtn.hidden = !inDetail;
-  shareBtn.hidden = !inDetail;
-  foodnomsBtn.hidden = !inDetail || !recipe.foodNomsUrl;
-  if (inDetail && recipe.foodNomsUrl) foodnomsBtn.href = recipe.foodNomsUrl;
+  moreBtn.hidden = !inDetail;
   searchRow.hidden = inDetail;
   chips.hidden = inDetail;
 }
@@ -193,9 +189,8 @@ async function showDetail(id) {
   const emptyEl = document.getElementById('empty-state');
   const detail = document.getElementById('recipe-detail');
   const contentEl = document.getElementById('recipe-content');
-  const favBtn = document.getElementById('fav-btn');
-  const shareBtn = document.getElementById('share-btn');
 
+  state.currentRecipe = recipe || null;
   listView.hidden = true;
   emptyEl.hidden = true;
   detail.hidden = false;
@@ -209,11 +204,6 @@ async function showDetail(id) {
 
   setHeaderMode('detail', recipe);
   contentEl.innerHTML = '<p class="loading">Loading…</p>';
-  favBtn.textContent = isFavorite(recipe.id) ? '★' : '☆';
-  favBtn.onclick = () => {
-    favBtn.textContent = toggleFavorite(recipe.id) ? '★' : '☆';
-  };
-  shareBtn.onclick = () => shareRecipe(recipe);
 
   try {
     const res = await fetch(recipe.path, { cache: 'no-cache' });
@@ -341,7 +331,43 @@ async function initApp() {
     btn.setAttribute('aria-expanded', String(!collapsed));
   });
 
+  setupMoreMenu();
+
   initPullToRefresh(refreshData);
+}
+
+function setupMoreMenu() {
+  const moreMenu = document.getElementById('more-menu');
+  const menuFoodnoms = document.getElementById('menu-foodnoms');
+  const menuFav = document.getElementById('menu-fav');
+  const menuShare = document.getElementById('menu-share');
+
+  const closeMenu = () => {
+    moreMenu.hidden = true;
+  };
+
+  document.getElementById('more-btn').addEventListener('click', () => {
+    const recipe = state.currentRecipe;
+    if (!recipe) return;
+    menuFoodnoms.hidden = !recipe.foodNomsUrl;
+    if (recipe.foodNomsUrl) menuFoodnoms.href = recipe.foodNomsUrl;
+    menuFav.textContent = isFavorite(recipe.id) ? '★ Remove from Favorites' : '☆ Add to Favorites';
+    moreMenu.hidden = false;
+  });
+
+  document.getElementById('more-menu-backdrop').addEventListener('click', closeMenu);
+  document.getElementById('menu-cancel').addEventListener('click', closeMenu);
+  menuFoodnoms.addEventListener('click', closeMenu);
+
+  menuFav.addEventListener('click', () => {
+    if (state.currentRecipe) toggleFavorite(state.currentRecipe.id);
+    closeMenu();
+  });
+
+  menuShare.addEventListener('click', () => {
+    if (state.currentRecipe) shareRecipe(state.currentRecipe);
+    closeMenu();
+  });
 }
 
 function boot() {
