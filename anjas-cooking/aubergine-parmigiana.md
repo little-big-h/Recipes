@@ -19,11 +19,11 @@
 | **Total (input)** | **2973 g** | **1132** | |
 | **Cooked yield** | **1896 g** | **1132** | |
 
-*Input 2973 g cooks down to **1896 g** — a third of the mass is water off the aubergine in the oven. Energy and nutrients are unchanged (only water leaves), so the cooked dish is just denser. 🧀 Parmesan isn't strictly vegetarian; it's Anja's call.*
+*Input 2973 g cooks down to **1896 g** — a third of the mass is water off the 🍆 aubergine in the oven. Energy and nutrients are unchanged (only water leaves), so the cooked dish is just denser. 🧀 Parmesan isn't strictly vegetarian; it's Anja's call.*
 
 ## Nutrition
 
-*Whole dish (1896 g cooked). USDA-derived + labels (Cirio tin, BWF nutritional yeast, balsamic estimate); micros are committed best-estimates. Very high fibre (~71 g) — almost all the 1.5 kg of aubergine. Salt 5.3 g, mostly the canned tomatoes + parmesan. The 112 g sugars are the natural sugars of 1.2 kg tinned tomato + 1.5 kg aubergine, not added.*
+*Whole dish (1896 g cooked). USDA-derived + labels (🥫 Cirio tin, ✨ BWF nutritional yeast, 🍇 balsamic estimate); micros are committed best-estimates. Very high fibre (~71 g) — almost all the 1.5 kg of 🍆 aubergine. Salt 5.3 g, mostly the 🥫 canned tomatoes + 🧀 parmesan. The 112 g sugars are the natural sugars of 1.2 kg 🥫 tinned tomato + 1.5 kg 🍆 aubergine, not added.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|

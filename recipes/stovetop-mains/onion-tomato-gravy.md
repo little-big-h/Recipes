@@ -8,19 +8,19 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🧅 | Onions (chopped, microwaved then sautéed) | 405 g | 162 | | [usda](https://fdc.nal.usda.gov/food-details/170000/nutrients) |
-| 🥑 | Avocado oil | 6 g | 53 | | local |
-| 🍅 | Tomato paste (bhuna'd) | 50 g | 41 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
-| 🧄 | Garlic powder | 4 g | 13 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) |
-| 🫚 | Ginger (ground) | 3 g | 10 | | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
-| 🌰 | Cumin (ground) | 5 g | 19 | | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) |
-| 🌿 | Coriander (ground) | 6 g | 18 | | [usda](https://fdc.nal.usda.gov/food-details/170922/nutrients) |
-| 🍛 | Garam masala | 6 g | 21 | | local *(blend — no USDA generic)* |
-| 🫑 | Kashmiri / sweet paprika | 4 g | 11 | | [usda](https://fdc.nal.usda.gov/food-details/171329/nutrients) |
-| 🥫 | Whole canned tomatoes (hand-crushed) | 800 g | 152 | | label *(19 kcal/100 g)* |
-| 🍃 | Fresh coriander (garnish) | a handful | — | | — |
-| 🌶️ | Chilli (at table) | to taste | — | | — |
-| 🍋 | Lemon (at table) | to taste | — | | — |
+| 🧅 | 🧅 Onions (chopped, microwaved then sautéed) | 405 g | 162 | | [usda](https://fdc.nal.usda.gov/food-details/170000/nutrients) |
+| 🥑 | 🥑 Avocado oil | 6 g | 53 | | local |
+| 🍅 | 🍅 Tomato paste (bhuna'd) | 50 g | 41 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
+| 🧄 | 🧄 Garlic powder | 4 g | 13 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) |
+| 🫚 | 🫚 Ginger (ground) | 3 g | 10 | | [usda](https://fdc.nal.usda.gov/food-details/170926/nutrients) |
+| 🌰 | 🌰 Cumin (ground) | 5 g | 19 | | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) |
+| 🌿 | 🌿 Coriander (ground) | 6 g | 18 | | [usda](https://fdc.nal.usda.gov/food-details/170922/nutrients) |
+| 🍛 | 🍛 Garam masala | 6 g | 21 | | local *(blend — no USDA generic)* |
+| 🫑 | 🫑 Kashmiri / sweet paprika | 4 g | 11 | | [usda](https://fdc.nal.usda.gov/food-details/171329/nutrients) |
+| 🥫 | 🥫 Whole canned tomatoes (hand-crushed) | 800 g | 152 | | label *(19 kcal/100 g)* |
+| 🍃 | 🍃 Fresh coriander (garnish) | a handful | — | | — |
+| 🌶️ | 🌶️ Chilli (at table) | to taste | — | | — |
+| 🍋 | 🍋 Lemon (at table) | to taste | — | | — |
 | | **Total** | **~1.3 kg input** | **~500** | | |
 
 *Legend: 🧅 Vegetable · 🥑 Fat · 🍅🥫 Tomato · 🧄🫚 Aromatics · 🌰🌿🍛🫑 Spices · 🍃 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*

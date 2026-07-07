@@ -16,7 +16,7 @@
 
 ## Nutrition
 
-*Whole pot (4800 g). USDA-derived + Knorr label; micros are committed best-estimates. The 40 g of stock cubes carry ~13 g of the salt.*
+*Whole pot (4800 g). USDA-derived + 🧊 Knorr label; micros are committed best-estimates. The 40 g of 🧊 stock cubes carry ~13 g of the salt.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
