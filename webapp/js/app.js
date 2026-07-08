@@ -1,4 +1,4 @@
-import { isUnlocked, mountLockScreen, lock } from './auth.js';
+import { isUnlocked, mountLockScreen } from './auth.js';
 import { renderMarkdown } from './markdown.js';
 import { initPullToRefresh } from './pull-to-refresh.js';
 
@@ -168,7 +168,7 @@ function renderList() {
 function setHeaderMode(mode, recipe) {
   const navTitle = document.getElementById('nav-title');
   const backBtn = document.getElementById('back-btn');
-  const lockBtn = document.getElementById('lock-btn');
+  const refreshBtn = document.getElementById('refresh-btn');
   const moreBtn = document.getElementById('more-btn');
   const searchRow = document.getElementById('search-row');
   const chips = document.getElementById('category-chips');
@@ -177,7 +177,7 @@ function setHeaderMode(mode, recipe) {
 
   navTitle.textContent = inDetail ? recipe.title : '🍽️ Family Recipes';
   backBtn.hidden = !inDetail;
-  lockBtn.hidden = inDetail;
+  refreshBtn.hidden = inDetail;
   moreBtn.hidden = !inDetail;
   searchRow.hidden = inDetail;
   chips.hidden = inDetail;
@@ -312,13 +312,7 @@ async function initApp() {
     window.location.hash = '';
   });
 
-  document.getElementById('lock-btn').addEventListener('click', () => {
-    if (confirm('Lock the app? You will need the password again.')) {
-      lock();
-      window.location.hash = '';
-      window.location.reload();
-    }
-  });
+  document.getElementById('refresh-btn').addEventListener('click', refreshData);
 
   window.addEventListener('hashchange', route);
 

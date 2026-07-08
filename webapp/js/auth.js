@@ -14,10 +14,6 @@ export function isUnlocked() {
   return localStorage.getItem(UNLOCK_KEY) === '1';
 }
 
-export function lock() {
-  localStorage.removeItem(UNLOCK_KEY);
-}
-
 export function mountLockScreen(root, onUnlock) {
   root.innerHTML = `
     <div class="lock-screen">
