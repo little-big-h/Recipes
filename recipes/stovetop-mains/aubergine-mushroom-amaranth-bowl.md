@@ -1,6 +1,6 @@
 # Aubergine, Mushroom & Amaranth Bowl
 
-*A leftovers-forward bowl for two: salted, air-fried **aubergine** and dry-pan-seared **mushrooms** tossed with reheated **leftover cooked amaranth** and **leftover air-fried tofu**, dressed in a **white miso + capers** sauce (the same umami-acid pairing that made the historical Aubergine · Passata · Amaranth dish score 8.6/10). An optional pinch of shiitake powder stacks a second umami source on top — glutamate (miso) × guanylate (shiitake) multiply rather than add. Built around amaranth nobody else in the family much likes, so it's a Holger + Anja plate, not a full family dish. Generous for two.*
+*A leftovers-forward bowl for two: salted, air-fried **aubergine** and separately air-fried **mushrooms** tossed with reheated **leftover cooked amaranth** and **leftover air-fried tofu**, dressed in a **white miso + capers** sauce (the same umami-acid pairing that made the historical Aubergine · Passata · Amaranth dish score 8.6/10). An optional pinch of shiitake powder stacks a second umami source on top — glutamate (miso) × guanylate (shiitake) multiply rather than add. Built around amaranth nobody else in the family much likes, so it's a Holger + Anja plate, not a full family dish. Generous for two.*
 
 ---
 
@@ -9,10 +9,10 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🟢 | 🍆 Aubergine (salted, rested, air-fried) | 550 g | 138 | | [usda](https://fdc.nal.usda.gov/food-details/169228/nutrients) |
-| 🟢 | 🍄 Mushrooms (crimini / chestnut, pan-seared) | 275 g | 61 | | [usda](https://fdc.nal.usda.gov/food-details/168434/nutrients) |
+| 🟢 | 🍄 Mushrooms (crimini / chestnut, air-fried) | 275 g | 61 | | [usda](https://fdc.nal.usda.gov/food-details/168434/nutrients) |
 | 🟤 | 🧊 Firm tofu, air-fried (leftover) | 280 g | 403 | | [usda](https://fdc.nal.usda.gov/food-details/172475/nutrients) |
 | 🟢 | 🌾 Amaranth, cooked (leftover) | 350 g | 357 | | [usda](https://fdc.nal.usda.gov/food-details/170683/nutrients) |
-| 🟣 | 🥑 Avocado oil (aubergine toss + mushroom sear) | 8 g | 71 | | local |
+| 🟣 | 🥑 Avocado oil (aubergine toss + mushroom toss) | 8 g | 71 | | local |
 | 🟣 | 🧂 Salt (for the aubergine rest — mostly discarded) | generous | 0 | | — |
 | 🟣 | 🍶 White miso (whisked into hot water, off heat) | 20 g | 40 | | [usda](https://fdc.nal.usda.gov/food-details/172442/nutrients) |
 | 🟣 | 🍂 Shiitake powder (optional, extra umami) | 3 g | 9 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
@@ -27,9 +27,9 @@
 
 ## Timeline
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Prep%22%3a%7b%22color%22%3a%22%23D17A3A%22%2c%22steps%22%3a%5b%5b0%2c3%2c%22Cut%2bsalt+aubergine%22%5d%2c%5b3%2c20%2c%22Salt+rest%22%5d%2c%5b20%2c22%2c%22Pat+dry%2boil%22%5d%2c%5b38%2c39%2c%22Whisk+miso%22%5d%2c%5b40%2c41%2c%22Toss+all%2bcapers%22%5d%5d%7d%2c%22Air+fryer%22%3a%7b%22color%22%3a%22%233AB5B5%22%2c%22steps%22%3a%5b%5b22%2c40%2c%22Aubergine+200C%22%5d%5d%7d%2c%22Pan%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b22%2c32%2c%22Sear+mushrooms%22%5d%2c%5b32%2c37%2c%22Reheat+amaranth%2btofu%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a20%2c%22color%22%3a%22%23A85A2E%22%2c%22label%22%3a%22Rest+done%22%7d%2c%7b%22t%22%3a40%2c%22color%22%3a%22%232E8B8B%22%2c%22label%22%3a%22Aubergine+done%22%7d%2c%7b%22t%22%3a41%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Ready%22%7d%5d)
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Prep%22%3a%7b%22color%22%3a%22%23D17A3A%22%2c%22steps%22%3a%5b%5b0%2c3%2c%22Cut%2bsalt+aubergine%22%5d%2c%5b3%2c20%2c%22Salt+rest%22%5d%2c%5b20%2c22%2c%22Pat+dry%2boil%22%5d%2c%5b38%2c39%2c%22Whisk+miso%22%5d%2c%5b40%2c41%2c%22Toss+all%2bcapers%22%5d%5d%7d%2c%22Air+fryer%22%3a%7b%22color%22%3a%22%233AB5B5%22%2c%22steps%22%3a%5b%5b3%2c13%2c%22Mushrooms+200C%22%5d%2c%5b22%2c40%2c%22Aubergine+200C%22%5d%5d%7d%2c%22Pan%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b33%2c38%2c%22Reheat+amaranth%2btofu%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a13%2c%22color%22%3a%22%232E8B8B%22%2c%22label%22%3a%22Mushrooms+done%22%7d%2c%7b%22t%22%3a20%2c%22color%22%3a%22%23A85A2E%22%2c%22label%22%3a%22Rest+done%22%7d%2c%7b%22t%22%3a40%2c%22color%22%3a%22%232E8B8B%22%2c%22label%22%3a%22Aubergine+done%22%7d%2c%7b%22t%22%3a41%2c%22color%22%3a%22%23595959%22%2c%22label%22%3a%22Ready%22%7d%5d)
 
-*The salt rest (17 min) is the long pole, but it's dead time you can use — the mushroom sear and amaranth/tofu reheat happen on the stovetop while the aubergine air-fries, so nothing is idle once the rest is done. ~41 min end to end.*
+*The salt rest (17 min) is dead time for the air fryer, so the mushrooms go in during it — a quick 10 min batch, well clear of the aubergine's t=22 start. Amaranth and tofu reheat on the stovetop late (33-38 min), timed to still be hot when the aubergine finishes. Same ~41 min end to end as the pan-sear version — the mushroom batch just slots into time that was already idle.*
 
 ---
 
@@ -38,10 +38,10 @@
 > **Salt the aubergine first — the one step that matters.** Aubergine is notoriously oil-thirsty and goes spongy in the air fryer if cooked straight from raw. Salting and resting draws out the bitter moisture; patting dry before oiling is what lets it actually crisp instead of steam.
 
 1. **Cut and salt the 🍆 aubergine.** Cube it, salt generously, spread on a rack or paper towel. Rest **15–20 min**.
-2. **Pat dry, toss with oil.** Pat the 🍆 aubergine thoroughly dry, then toss with ~5 g 🥑 avocado oil.
-3. **Air-fry the aubergine.** **200 °C, ~18 min**, shaking once, until well browned. Start the pan work as soon as this goes in.
-4. **Sear the 🍄 mushrooms.** Dry hot pan (no oil yet), let them release and cook off their water, **~8–10 min**, until they start to brown at the edges. A splash (~3 g) 🥑 avocado oil at the end helps the final browning. *Searing dry first, not air-frying alongside the aubergine, keeps the mushroom's water from steaming the aubergine's crisp.*
-5. **Reheat the 🧊 tofu and 🌾 amaranth.** Straight in the same pan once the mushrooms are done, **~5 min**, just to heat through.
+2. **Air-fry the 🍄 mushrooms — while the aubergine rests.** Toss with a little 🥑 avocado oil and a pinch of salt. **200 °C, ~9–10 min**, shaking once. The air fryer's otherwise idle during the aubergine's rest, so this costs no extra time. Set aside once done.
+3. **Pat dry, toss with oil.** Once rested, pat the 🍆 aubergine thoroughly dry, then toss with ~5 g 🥑 avocado oil.
+4. **Air-fry the aubergine.** **200 °C, ~18 min**, shaking once, until well browned. *Same temperature as the mushrooms — high heat is what you want for both: it drives off the mushrooms' surface moisture fast enough to brown rather than stew, and it's what crisps the aubergine's oiled edges.*
+5. **Reheat the 🧊 tofu and 🌾 amaranth.** On the stovetop, timed to finish just before the aubergine does (start with **~5–7 min** left on the aubergine), just to heat through.
 6. **Whisk the 🍶 miso.** Off heat, in a splash of hot water, until smooth. Stir in the 🍂 shiitake powder here too, if using.
 7. **Combine.** Toss the air-fried 🍆 aubergine, 🍄 mushrooms, 🧊 tofu and 🌾 amaranth together, pour over the 🍶 miso (+ 🍂 shiitake) mixture, scatter the 🫒 capers through. Taste — the capers carry the acid this bowl needs; add more to taste.
 
@@ -91,7 +91,8 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 
 - **The aubergine-passata-amaranth precedent.** This dish's flavour DNA is lifted straight from the family's historical 8.6/10 dish: aubergine + amaranth + white miso + capers. That recipe braises everything for ~100 min; this is the fast version, using leftovers to skip the two slowest components (the grain and the protein are already done).
 - **Salt-rest is the one aubergine-specific step.** Everything else in the household's usual air-fry rotation (cauliflower, squash) goes in raw-tossed; aubergine's high water/oil-absorption means skipping the salt rest here specifically leads to a soggy, oil-heavy result.
-- **Mushrooms seared separately, not air-fried alongside the aubergine.** Mushrooms dump a lot of water as they cook; sharing a basket with the aubergine would steam both rather than crisp either. Searing them dry in a pan first (same move as clearing water before a proper sauté) sidesteps that entirely, and it runs in parallel with the aubergine's air-fry time rather than adding to the total.
+- **Mushrooms air-fried separately, not alongside the aubergine.** Mushrooms dump a lot of water as they cook; sharing a basket with the aubergine would steam both rather than crisp either. Running them as their own batch — during the aubergine's otherwise-idle salt-rest window — sidesteps the crowding problem without costing any extra time.
+- **Don't lower the heat for mushrooms — they want it hot, not gentle.** The instinct to turn the temperature down (as you would for a scorch-prone dry spice) is backwards here: mushrooms are ~92% water, and at low heat they just release liquid and stew in it rather than brown. High heat evaporates that liquid fast enough for actual Maillard browning to start — the same reason a crowded, lukewarm pan gives soggy mushrooms and a hot one gives seared ones. 200 °C, matching the aubergine, is the right call.
 - **Umami stacking, not just seasoning.** White miso is glutamate; shiitake powder is guanylate — pairing them multiplies rather than adds (the same lever behind the project's kombu-shiitake dashi and the Thai green shakshuka's shiitake fix). Capers supply the acid the family's original 8.6/10 version also leaned on — this bowl needs an acid note or it reads flat against the earthy amaranth and meaty mushroom.
 - **Two-person, not five.** Built around amaranth that "nobody other than Holger seems to like," so this is a Holger + Anja plate rather than a full family dish — no need to design around Lara/Jannes/Julina preferences here.
 - **Pantry fit.** Miso, capers, shiitake powder and oil are all standing pantry stock — only the aubergine and mushrooms need buying, and both are plain fresh produce, not spices/pastes, so this doesn't cut against the pantry run-down.
@@ -100,5 +101,5 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 
 ## Cook log
 
-- **Planned — designed 2026-07-08, not yet cooked.** Built in conversation around leftover cooked amaranth and leftover air-fried tofu. Open questions for the first cook: whether 18 min at 200 °C is enough for the aubergine given the basket load, and whether the shiitake powder addition is worth the extra step or gets lost against the miso and capers. **Ratings to be added once cooked (Holger + Anja).**
+- **Planned — designed 2026-07-08, not yet cooked.** Built in conversation around leftover cooked amaranth and leftover air-fried tofu; revised same day to air-fry the mushrooms (previously pan-seared) after Holger's own air-fried-mushroom experience worked well elsewhere. Open questions for the first cook: whether 18 min at 200 °C is enough for the aubergine given the basket load, whether ~9–10 min gets the mushrooms properly browned rather than just dried out, and whether the shiitake powder addition is worth the extra step or gets lost against the miso and capers. **Ratings to be added once cooked (Holger + Anja).**
 </content>
