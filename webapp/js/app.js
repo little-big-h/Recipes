@@ -332,6 +332,7 @@ async function initApp() {
 
 function setupMoreMenu() {
   const moreMenu = document.getElementById('more-menu');
+  const menuRefresh = document.getElementById('menu-refresh');
   const menuFoodnoms = document.getElementById('menu-foodnoms');
   const menuFav = document.getElementById('menu-fav');
   const menuShare = document.getElementById('menu-share');
@@ -352,6 +353,11 @@ function setupMoreMenu() {
   document.getElementById('more-menu-backdrop').addEventListener('click', closeMenu);
   document.getElementById('menu-cancel').addEventListener('click', closeMenu);
   menuFoodnoms.addEventListener('click', closeMenu);
+
+  menuRefresh.addEventListener('click', () => {
+    if (state.currentRecipe) showDetail(state.currentRecipe.id);
+    closeMenu();
+  });
 
   menuFav.addEventListener('click', () => {
     if (state.currentRecipe) toggleFavorite(state.currentRecipe.id);
