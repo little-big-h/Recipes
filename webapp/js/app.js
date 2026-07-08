@@ -330,12 +330,29 @@ async function initApp() {
   initPullToRefresh(refreshData);
 }
 
+// Installed (home-screen/Dock) web apps open target="_blank" links in a
+// constrained in-app-browser overlay instead of a real Safari tab, and that
+// overlay doesn't reliably hand off file downloads like the .foodnoms file
+// — the link just silently fails. A plain top-level navigation (no target)
+// is the one path that reliably triggers Safari's native download handling
+// even from a standalone shell, so drop target/rel there; a real browser
+// tab keeps target="_blank" so the download doesn't navigate away from the
+// recipe.
+function isStandaloneApp() {
+  return window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+}
+
 function setupMoreMenu() {
   const moreMenu = document.getElementById('more-menu');
   const menuRefresh = document.getElementById('menu-refresh');
   const menuFoodnoms = document.getElementById('menu-foodnoms');
   const menuFav = document.getElementById('menu-fav');
   const menuShare = document.getElementById('menu-share');
+
+  if (isStandaloneApp()) {
+    menuFoodnoms.removeAttribute('target');
+    menuFoodnoms.removeAttribute('rel');
+  }
 
   const closeMenu = () => {
     moreMenu.hidden = true;
