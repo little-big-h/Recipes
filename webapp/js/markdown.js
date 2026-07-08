@@ -307,6 +307,44 @@ function classifySectionTitle(titleHtml) {
   return 'other';
 }
 
+// A "**Build:** 🥫 canned tomatoes 400 g · ..." paragraph — Shakshuka's
+// inline stand-in for an ingredients table.
+function isBuildParagraph(block) {
+  return /^<p><strong>Build:?<\/strong>/.test(block);
+}
+
+// A paragraph that's ENTIRELY one bold or italic span — a bare label like
+// "**Mortar (morning):**" captioning the table right after it, or a
+// recipe-file legend/totals caption like "*Legend: 🟢 Vegetables ...*".
+// Kept alongside the ingredients table it belongs to. A paragraph that
+// mixes a bold lead-in with ordinary prose after it (e.g. "**Chilli soak
+// (overnight):** 2-3 dried chillies, covered in water, left overnight...")
+// does NOT match this — that's prep instruction, not a caption.
+function isPureEmphasisParagraph(block) {
+  return /^<p><strong>[\s\S]*<\/strong><\/p>$/.test(block) || /^<p><em>[\s\S]*<\/em><\/p>$/.test(block);
+}
+
+// Shakshuka's "Single-serving build" sections (design/SHAKSHUKA.md) mix
+// prep-instruction prose ("Chilli soak: soak X overnight...") with the
+// actual ingredient data (a table, or an inline "**Build:** ..." list) in
+// one block, which doesn't read as a clean ingredients list the way a
+// recipe-file "## Ingredients" table does. Split the two apart: tables,
+// Build paragraphs, and short captions stay as the ingredients content;
+// everything else (prep prose, blockquotes, lists) is prep/technique detail
+// that belongs with Method instead.
+function splitIngredientContent(blocks) {
+  const ingredientBlocks = [];
+  const proseBlocks = [];
+  for (const block of blocks) {
+    if (block.startsWith('<div class="table-scroll">') || isBuildParagraph(block) || isPureEmphasisParagraph(block)) {
+      ingredientBlocks.push(block);
+    } else {
+      proseBlocks.push(block);
+    }
+  }
+  return { ingredientBlocks, proseBlocks };
+}
+
 let sectionSeq = 0;
 
 // Wraps one heading's worth of content (or, for title === null, the intro
@@ -381,10 +419,38 @@ function assembleSections(blocks) {
   // section instead of letting it get buried inside a collapsed "Notes".
   const introGroup = groups[0];
   if (introGroup && introGroup.title === null) {
-    const tableBlocks = introGroup.blocks.filter((b) => b.startsWith('<div class="table-scroll">'));
+    // Only tables that look like an ingredients table (an "Ingredient"
+    // column) — some profiles (e.g. Japanese) put a cook-log rating table
+    // in this same spot, which isn't ingredient data and shouldn't be
+    // pulled out as if it were.
+    const isIngredientTable = (b) => b.startsWith('<div class="table-scroll">') && /<th[^>]*>Ingredient</i.test(b);
+    const tableBlocks = introGroup.blocks.filter(isIngredientTable);
     if (tableBlocks.length) {
-      introGroup.blocks = introGroup.blocks.filter((b) => !b.startsWith('<div class="table-scroll">'));
+      introGroup.blocks = introGroup.blocks.filter((b) => !isIngredientTable(b));
       groups.push({ title: 'Ingredients', blocks: tableBlocks, forcedBucket: 'ingredients' });
+    }
+  }
+
+  // Peel prep-instruction prose out of any ingredients-bucketed section
+  // (see splitIngredientContent) and hand it to Method, leaving a clean,
+  // consistently-titled "Ingredients" section — a no-op for recipe files,
+  // which are already just a table plus its legend/totals captions.
+  const movedToMethod = [];
+  for (const group of groups) {
+    if (group.title === null || classifySectionTitle(group.title) !== 'ingredients') continue;
+    const { ingredientBlocks, proseBlocks } = splitIngredientContent(group.blocks);
+    group.title = 'Ingredients';
+    if (proseBlocks.length) {
+      group.blocks = ingredientBlocks;
+      movedToMethod.push(...proseBlocks);
+    }
+  }
+  if (movedToMethod.length) {
+    const methodGroup = groups.find((g) => g.title !== null && classifySectionTitle(g.title) === 'method');
+    if (methodGroup) {
+      methodGroup.blocks = [...movedToMethod, ...methodGroup.blocks];
+    } else {
+      groups.push({ title: 'Method', blocks: movedToMethod });
     }
   }
 
