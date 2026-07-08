@@ -9,7 +9,7 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🟢 | 🍆 Aubergine (salted, rested, air-fried) | 550 g | 138 | **678 g** | [usda](https://fdc.nal.usda.gov/food-details/169228/nutrients) |
-| 🟢 | 🍄 Mushrooms (crimini / chestnut, air-fried) | 275 g | 61 | | [usda](https://fdc.nal.usda.gov/food-details/168434/nutrients) |
+| 🟢 | 🍄 Mushrooms (crimini / chestnut, air-fried — used British button) | 275 g | 61 | **418 g** | [usda](https://fdc.nal.usda.gov/food-details/168434/nutrients) |
 | 🟤 | 🧊 Firm tofu, air-fried (leftover) | 280 g | 403 | | [usda](https://fdc.nal.usda.gov/food-details/172475/nutrients) |
 | 🟢 | 🌾 Amaranth, cooked (leftover) | 350 g | 357 | | [usda](https://fdc.nal.usda.gov/food-details/170683/nutrients) |
 | 🟣 | 🥑 Avocado oil (aubergine toss + mushroom toss) | 8 g | 71 | | local |
