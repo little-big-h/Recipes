@@ -38,7 +38,7 @@
 > **Salt the aubergine first — the one step that matters.** Aubergine is notoriously oil-thirsty and goes spongy in the air fryer if cooked straight from raw. Salting and resting draws out the bitter moisture; patting dry before oiling is what lets it actually crisp instead of steam.
 
 1. **Cut and salt the 🍆 aubergine.** Cube it, salt generously, spread on a rack or paper towel. Rest **15–20 min**.
-2. **Air-fry the 🍄 mushrooms — while the aubergine rests.** Toss with a little 🥑 avocado oil and a pinch of salt. **200 °C, ~9–10 min**, shaking once. The air fryer's otherwise idle during the aubergine's rest, so this costs no extra time. Set aside once done.
+2. **Air-fry the 🍄 mushrooms — while the aubergine rests.** Toss with ~3 g 🥑 avocado oil and a pinch of salt. **200 °C, ~9–10 min**, shaking once. The air fryer's otherwise idle during the aubergine's rest, so this costs no extra time. Set aside once done.
 3. **Pat dry, toss with oil.** Once rested, pat the 🍆 aubergine thoroughly dry, then toss with ~5 g 🥑 avocado oil.
 4. **Air-fry the aubergine.** **200 °C, ~18 min**, shaking once, until well browned. *Same temperature as the mushrooms — high heat is what you want for both: it drives off the mushrooms' surface moisture fast enough to brown rather than stew, and it's what crisps the aubergine's oiled edges.*
 5. **Reheat the 🧊 tofu and 🌾 amaranth.** On the stovetop, timed to finish just before the aubergine does (start with **~5–7 min** left on the aubergine), just to heat through.
