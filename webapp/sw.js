@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'recipes-v3';
+const CACHE_VERSION = 'recipes-v4';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
@@ -62,18 +62,6 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-async function staleWhileRevalidate(request, cacheName) {
-  const cache = await caches.open(cacheName);
-  const cached = await cache.match(request);
-  const networkPromise = fetch(request)
-    .then((res) => {
-      if (res && res.ok) cache.put(request, res.clone());
-      return res;
-    })
-    .catch(() => null);
-  return cached || (await networkPromise) || Response.error();
-}
-
 async function networkFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
   try {
@@ -94,10 +82,13 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
 
   if (url.origin === self.location.origin) {
-    if (url.pathname.endsWith('/data/recipes-index.json')) {
-      event.respondWith(staleWhileRevalidate(request, CONTENT_CACHE));
-    } else if (url.pathname.includes('/content/')) {
-      event.respondWith(staleWhileRevalidate(request, CONTENT_CACHE));
+    if (url.pathname.endsWith('/data/recipes-index.json') || url.pathname.includes('/content/')) {
+      // Network-first, not stale-while-revalidate: the app has explicit
+      // "Refresh" actions (list and per-recipe) whose whole point is to show
+      // the latest content on click — stale-while-revalidate would instead
+      // serve the cached copy immediately and only update it in the
+      // background for the *next* load, silently defeating those buttons.
+      event.respondWith(networkFirst(request, CONTENT_CACHE));
     } else {
       event.respondWith(networkFirst(request, SHELL_CACHE));
     }
