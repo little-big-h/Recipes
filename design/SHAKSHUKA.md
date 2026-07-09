@@ -114,37 +114,26 @@ The Indian profile received the most substantial technique upgrade after the sou
 
 ### Single-serving build (upgraded — current canonical)
 
-**Chili soak (overnight, or 10–15 min in the morning):**
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| Dried chilies, scissored (plain/Kashmiri-style — not chipotle/ancho) | 2 (~2g) | chili soak |
+| Just-boiled water | 50 g | chili soak |
+| Salt | 1 g | chili soak |
+| Garlic, pounded to paste | 8 g (2 cloves) | mortar, morning |
+| Toasted cumin seeds, ground morning-of | 3 g | spice bloom, after garlic |
+| Toasted mustard seeds, ground (earthy backbone — Holger's preference) | 3–4 g | spice bloom |
+| Dried ginger powder | 1 g | spice bloom |
+| Tikka masala blend | 6 g | spice bloom |
+| Tomato paste (the umami anchor) | 1 tbsp (~15 g) | bloom ~1 min before the canned tomatoes |
+| Whole canned tomatoes (hand-crushed) | 400 g (1 tin) | base |
+| Spinach | 100 g | base |
+| Eggs | 2–3 | base |
+| Avocado oil | 3 g | base |
+| Fresh coriander | generous | finish |
+| Sumac | pinch | at the table — adds tartness without wetness |
+| Coconut milk (optional) | 40–50 g | at the table — creaminess and acid-cut, replacing yoghurt |
 
-| Ingredient | Weight |
-|:-----------|-------:|
-| Dried chilies, scissored (plain/Kashmiri-style — not chipotle/ancho) | 2 (~2g) |
-| Just-boiled water | 50 g |
-| Salt | 1 g |
-
-> No overnight needed — just-boiled water rehydrates scissored chilies to pliable in **10–15 min**, done while you toast the spices and pound the garlic. Use a plain dried red (Kashmiri = colour + mild heat); bird's eye works but is hotter, and the tikka blend already carries chilli, so this is just for extra heat. Mustard has moved to the bloom (toasted + ground — see below).
-
-**Mortar (morning):**
-
-| Ingredient | Weight |
-|:-----------|-------:|
-| Garlic, pounded to paste | 8 g (2 cloves) |
-
-**Spice bloom (after garlic):**
-
-| Ingredient | Weight |
-|:-----------|-------:|
-| Toasted cumin seeds, ground morning-of | 3 g |
-| Toasted mustard seeds, ground (earthy backbone — Holger's preference) | 3–4 g |
-| Dried ginger powder | 1 g |
-| Tikka masala blend | 6 g |
-| Tomato paste (bloom ~1 min before the canned tomatoes — **the umami anchor**) | 1 tbsp (~15 g) |
-
-**Finishing:**
-
-- Fresh coriander, generous
-- Sumac, pinch, at the table (worked well in trial — adds tartness without wetness)
-- Optionally: coconut milk splash (40–50g) for creaminess and acid-cut, replacing yoghurt
+> No overnight needed — just-boiled water rehydrates scissored chilies to pliable in **10–15 min**, done while you toast the spices and pound the garlic. Use a plain dried red (Kashmiri = colour + mild heat); bird's eye works but is hotter, and the tikka blend already carries chilli, so this is just for extra heat. Mustard is toasted and ground into the bloom.
 
 ### Method order specific to Indian profile
 
@@ -187,17 +176,26 @@ The earthy backbone of this profile (Holger's preference). Toast the seeds until
 
 A dialled-up solo version (first cook 2026-06-16). Spices ~1.5× the canonical and **tikka-forward**, fresh garlic swapped for powder, plus **sweet paprika** for colour and pepper body (the tikka blend already carries some, so this is a bold push, not a staple — Kashmiri if you have it; **not** smoked, which would drag it Spanish/Mexican).
 
-| Bloom | Bold | Canonical |
-|:------|----:|----------:|
-| 🧄 Garlic powder | 2 g | (8 g fresh) |
-| 🌰 Toasted cumin, ground | 4 g | 3 g |
-| 🌑 Toasted mustard, ground | 4 g | 3–4 g |
-| 🫚 Dried ginger | 1.5 g | 1 g |
-| 🍛 Tikka masala | 9 g | 6 g |
-| 🌶️ Sweet (or Kashmiri) paprika | 3 g | — |
-| 🍅 Tomato paste (bhuna anchor) | 22 g | ~15 g |
+| Ingredient | Bold | Canonical | Notes |
+|:-----------|----:|----------:|:------|
+| 🌶️ Dried Kashmiri chillies, scissored | 2–3 | 2 | chilli soak |
+| 💧 Just-boiled water | 50 g | 50 g | chilli soak |
+| 🧂 Salt | 1 g | 1 g | chilli soak |
+| 🧄 Garlic powder | 2 g | (8 g fresh) | bloom — straight in, no pounding |
+| 🌰 Toasted cumin, ground | 4 g | 3 g | bloom |
+| 🌑 Toasted mustard, ground | 4 g | 3–4 g | bloom |
+| 🫚 Dried ginger | 1.5 g | 1 g | bloom |
+| 🍛 Tikka masala | 9 g | 6 g | bloom |
+| 🌶️ Sweet (or Kashmiri) paprika | 3 g | — | bloom |
+| 🍅 Tomato paste | 22 g | ~15 g | bloom — bhuna anchor |
+| 🥫 Canned tomatoes | 400 g | 400 g | base |
+| 🥬 Spinach | 100 g | 100 g | base |
+| 🥚 Eggs | 2 | 2–3 | base |
+| 🥑 Avocado oil | 3 g | 3 g | base |
+| 🌿 Fresh coriander | generous | generous | finish |
+| 🍇 Sumac | pinch | pinch | at the table |
 
-Base + soak unchanged: chilli soak (2–3 dried Kashmiri + 50 g water + 1 g salt), canned tomatoes 400 g, spinach 100 g, 2 eggs; sumac + coriander to finish. Garlic powder goes straight into the bloom (no pounding). **Hold the line even bold:** tikka (9) stays above cumin/mustard (4) so it reads *tikka*, not cumin; bold = spice + the tomato-paste bhuna, **not** more salt; no nooch (muddies the spice clarity here).
+**Hold the line even bold:** tikka (9) stays above cumin/mustard (4) so it reads *tikka*, not cumin; bold = spice + the tomato-paste bhuna, **not** more salt; no nooch (muddies the spice clarity here).
 
 **Nutrition (whole serving):** ~377 kcal · 25 g protein · 33 g carbs (18 g sugars) · 17 g fat (4 g sat) · 12 g fibre · salt 2.85 g. Micros: K 2042 mg, Ca 385 mg, Mg 195 mg, Fe 12.9 mg, Zn 3.3 mg, folate 289 µg, vit D ~2 µg. Tomatoes = **BWFO Organic Whole Peeled Tomatoes** (19 kcal/100 g). USDA-derived + labels, not FoodNoms-verified; micros are committed estimates.
 
@@ -215,20 +213,26 @@ A second Indian profile, distinct from the tikka one: built on a stocked **organ
 
 ### Single-serving build (2 eggs) — hot
 
-**Chilli soak** (10–15 min): 🌶️ regular dried red chillies ~3 g (2–3) + just-boiled water ~50 g + pinch salt → blend to a paste (soak water in). Go generous — Holger likes it hot.
-
-**Wet masala** (mix to a paste, then bhuna):
-
-| Ingredient | Weight |
-|:-----------|-------:|
-| 🍛 Mild curry powder | 10 g |
-| 🧄 Garlic powder | 2 g |
-| 🫚 Dried ginger | 1.5 g |
-| 🌰 Toasted cumin, ground | 2 g |
-| 🍅 Tomato paste | 20 g |
-| 🥑 Avocado oil | 3 g |
-
-**Build:** 🥫 canned tomatoes 400 g · 🧂 salt ~1.5 g · 🥬 spinach 100 g · 🥚 2 eggs · 🌿 fresh coriander · 🍋 lemon to finish. *(Optional: 🫙 garam masala 2 g in the masala for a warm clove/cardamom finish; fresh 🌶️ chilli at the table to push the heat; 🥥 coconut-milk swirl 40–50 g — adds fat.)*
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| 🌶️ Regular dried red chillies | ~3 g (2–3) | chilli soak, 10–15 min — go generous, Holger likes it hot |
+| 💧 Just-boiled water | ~50 g | chilli soak |
+| 🧂 Salt (in soak) | pinch | chilli soak |
+| 🍛 Mild curry powder | 10 g | wet masala — mix to a paste, then bhuna |
+| 🧄 Garlic powder | 2 g | wet masala |
+| 🫚 Dried ginger | 1.5 g | wet masala |
+| 🌰 Toasted cumin, ground | 2 g | wet masala |
+| 🍅 Tomato paste | 20 g | wet masala |
+| 🥑 Avocado oil | 3 g | wet masala |
+| 🥫 Canned tomatoes | 400 g | base |
+| 🧂 Salt (seasoning) | ~1.5 g | base |
+| 🥬 Spinach | 100 g | base |
+| 🥚 Eggs | 2 | base |
+| 🌿 Fresh coriander | generous | finish |
+| 🍋 Lemon | to finish | finish |
+| 🫙 Garam masala (optional) | 2 g | in the masala — warm clove/cardamom finish |
+| 🌶️ Fresh chilli (optional) | to taste | at the table — pushes the heat |
+| 🥥 Coconut-milk swirl (optional) | 40–50 g | at the table — adds fat |
 
 ### Method
 
@@ -315,28 +319,28 @@ The adult/solo counterpart to the kid-safe Mexican above. Where that build strip
 
 ### Single-serving build (2 eggs)
 
-**Chilli soak (10–15 min, while you toast the spices):**
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| Whole dried chipotle, scissored (seeds in for full heat; deseed to dial back) | 1 (~8 g) | chilli soak, 10–15 min while you toast the spices |
+| Ancho flakes | 8 g | chilli soak |
+| Just-boiled water | ~70 g | chilli soak — the soak water goes in too, half the flavour is in it |
+| Salt | 1 g | chilli soak |
+| Avocado oil | ≤3 g | bloom |
+| Garlic powder | 1.5 g | bloom |
+| Toasted cumin seeds, ground | 2 g | bloom |
+| Ground coriander | 2 g | bloom |
+| Smoked paprika (pimentón) | 6 g | bloom |
+| Dried oregano (regular — Mexican unavailable, optional) | 2 g | bloom, if in stock |
+| Tomato purée (double-concentrate) | 20 g | bloomed with the spices — see method |
+| Canned tomatoes | 400 g | base |
+| Coconut aminos | 15 g | base |
+| Nutritional yeast | 5 g | sprinkled at the end, cotija-style |
+| Spinach | 100 g | base |
+| Eggs | 2 | base |
+| Fresh coriander | generous | finish |
+| Lime | to taste | at the table |
 
-| Ingredient | Weight |
-|:-----------|-------:|
-| Whole dried chipotle, scissored (seeds in for full heat; deseed to dial back) | 1 (~8 g) |
-| Ancho flakes | 8 g |
-| Just-boiled water | ~70 g |
-| Salt | 1 g |
-
-→ Soak both together, then blend (or mince fine) into a smoky paste — **the soak water goes in too** (half the flavour is in it).
-
-**Bloom** (≤3 g avocado oil):
-
-| Ingredient | Weight |
-|:-----------|-------:|
-| Garlic powder | 1.5 g |
-| Toasted cumin seeds, ground | 2 g |
-| Ground coriander | 2 g |
-| Smoked paprika (pimentón) | 6 g |
-| Dried oregano (regular — Mexican unavailable) | 2 g *(optional, if in stock)* |
-
-**Build:** tomato purée 20 g (double-concentrate — bloomed with the spices, see method) · canned tomatoes 400 g · coconut aminos 15 g · nutritional yeast 5 g (sprinkled at the end, cotija-style) · spinach 100 g · 2 eggs · fresh coriander · lime at the table.
+Soak the chipotle and ancho together, then blend (or mince fine) into a smoky paste.
 
 ### Method
 
@@ -373,21 +377,26 @@ A **mole/adobo** lean on the chipotle-forward Mexican profile: smoky chipotle + 
 
 ### Single-serving build (2 eggs)
 
-**Chilli soak (10–15 min):** whole 🌶️ chipotle ~8 g + 🫑 ancho flakes 8 g + just-boiled water ~70 g + 🧂 salt 1 g → blend with the soak water into a smoky paste.
-
-**Bloom** (≤3 g 🥑 oil — brief; paprika, cinnamon and cacao all scorch):
-
-| Ingredient | Weight |
-|:-----------|-------:|
-| 🧄 Garlic powder | 1.5 g |
-| 🌰 Toasted cumin | 2 g |
-| 🌶️ Smoked paprika | 6 g |
-| 🪵 Cinnamon (a whisper) | 1 g |
-| ⚫ Cacao nibs, ground (the mole bridge) | 3 g |
-| 🍄 Shiitake powder (the umami engine) | 5 g |
-| 🌿 Dried oregano (optional) | 2 g |
-
-**Build:** 🥫 canned tomatoes 400 g (no paste — **simmer a few minutes longer** to cook off the raw-tin edge) · 🥬 spinach 100 g · 🥚 2 eggs in wells. **Off heat:** 🫗 coconut aminos 15 g + 🧀 nutritional yeast 6 g (cotija-style). 🍋 lime at the table.
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| 🌶️ Whole chipotle | ~8 g | chilli soak, 10–15 min |
+| 🫑 Ancho flakes | 8 g | chilli soak |
+| 💧 Just-boiled water | ~70 g | chilli soak — blend with the soak water into a smoky paste |
+| 🧂 Salt | 1 g | chilli soak |
+| 🥑 Avocado oil | ≤3 g | bloom — brief, paprika/cinnamon/cacao all scorch |
+| 🧄 Garlic powder | 1.5 g | bloom |
+| 🌰 Toasted cumin | 2 g | bloom |
+| 🌶️ Smoked paprika | 6 g | bloom |
+| 🪵 Cinnamon (a whisper) | 1 g | bloom |
+| ⚫ Cacao nibs, ground (the mole bridge) | 3 g | bloom |
+| 🍄 Shiitake powder (the umami engine) | 5 g | bloom |
+| 🌿 Dried oregano (optional) | 2 g | bloom |
+| 🥫 Canned tomatoes | 400 g | base — no paste, simmer a few minutes longer to cook off the raw-tin edge |
+| 🥬 Spinach | 100 g | base |
+| 🥚 Eggs | 2 | base, in wells |
+| 🫗 Coconut aminos | 15 g | off heat |
+| 🧀 Nutritional yeast | 6 g | off heat, cotija-style |
+| 🍋 Lime | to taste | at the table |
 
 ### Design notes
 
@@ -433,6 +442,10 @@ Built out with a method (below). **Bolded 2026-06-16** (Holger found the chilli 
 | 🌶️ Dried chili | 1–2 pc |
 | 🫗 Liquid aminos | 10 g |
 | 🧀 Nutritional yeast | 15 g |
+| 🥫 Canned tomatoes | 400 g |
+| 🥬 Spinach | 100 g |
+| 🥚 Eggs | 2 |
+| 🥑 Avocado oil | 3 g |
 
 *Originally dialled to 1.5× (2026-06), then **bolded again 2026-06-16** — harissa 4.5→8 g and ancho 3→6 g (the chilli/heat side was timid against 400 g canned tomatoes); cumin + mustard held at 3 g; cinnamon held a whisper (~1 g — more reads dessert-ward against eggs). Base (🥫 canned tomatoes 400 g, 🥬 spinach 100 g, 🥚 2 eggs ≈ 100 g, 🥑 avocado oil 3 g) and condiments (🫗 aminos 10 g, 🧀 nooch 15 g) unchanged. Whole single serving: **396 kcal, 30 g protein, 13 g fibre, salt 2.82 g**. Macros/salt from labels + USDA (FoodNoms-verify on the cook); **micros are committed best-estimates** (K ~1631, Ca ~309, Mg ~149, Fe ~7.8 mg, folate ~282 µg) — FoodNoms can't verify micronutrients, so they stand as final, not pending. The harissa spice mix is ~20 % salt (19.59 g/100 g) — at 8 g it's the biggest sodium source (~1.57 g salt). That's welcome, not a problem: Holger's solo breakfast, replacing heavy training-sweat electrolyte losses.*
 
@@ -521,10 +534,15 @@ Per PDF spec — distinct from the sauerkraut hash Levantine variant. Spice-ligh
 
 | Ingredient | Weight |
 |:-----------|-------:|
-| Za'atar | 5 g |
+| Garlic (default shakshuka aromatic) | to taste |
+| Avocado oil | 3 g |
+| Canned tomatoes | 400 g |
 | Sumac | 3 g |
+| Spinach | 100 g |
+| Eggs | 2–3 |
 | Liquid aminos | 10 g |
 | Nutritional yeast | 15 g |
+| Za'atar (scatter over the finished dish — don't bloom) | 5 g |
 
 **Method sketch:** garlic in oil (default for shakshuka), canned tomatoes + sumac, simmer, spinach, eggs. Scatter za'atar over the finished dish (don't bloom — that's a finishing condiment).
 
@@ -542,11 +560,15 @@ Gochujang-based, with sesame and rice vinegar. Distinctive flavour direction not
 
 | Ingredient | Weight |
 |:-----------|-------:|
-| Gochujang | 15 g |
 | Fresh ginger | 8 g |
 | Sesame oil | 5 ml |
-| Rice vinegar | 5 ml |
+| Gochujang | 15 g |
+| Canned tomatoes | 400 g |
 | Liquid aminos | 10 g |
+| Spinach | 100 g |
+| Eggs | 2–3 |
+| Rice vinegar (drizzle off heat, at the end; move to table for Lara) | 5 ml |
+| Nori (gim), torn, at the table | ~2 g |
 
 **Method sketch:** sauté ginger in sesame oil briefly. Add gochujang, stir 30 sec. Add canned tomatoes, deglaze. Simmer. Wilt spinach. Eggs, cover. Drizzle rice vinegar at the end (off heat — keeps brightness intact).
 
@@ -615,17 +637,24 @@ Built around **Mae Ploy vegan yellow curry paste** — a pantry run-down (Holger
 
 ### Single-serving build (2–3 eggs)
 
-**Chilli soak (overnight):** 🌶️ 2–3 dried bird's-eye chillies, covered in just-boiled water, left **overnight** → next morning blend to a paste with a splash of the soak water. *(Overnight, not the 10–15 min morning soak the other profiles use — bird's-eye are small and leathery and want the long hydration; the soak water carries heat, so keep it in.)*
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| 🌶️ Dried bird's-eye chillies | 2–3 | chilli soak, overnight — small and leathery, want the long hydration |
+| 💧 Just-boiled water | to cover | chilli soak — keep the soak water in, it carries heat |
+| 🥑 Avocado oil | 3 g | paste bloom |
+| 🟡 Mae Ploy vegan yellow curry paste | 20 g | paste bloom — fry hard 3–4 min until darkened and toasted (the Thai bhuna) |
+| 🫚 Ginger paste | 5 g | paste bloom |
+| 🌶️ Bird's-eye chilli paste (from the soak) | 2–3 chillies | stirred in after the paste bloom |
+| 🥫 Whole canned tomatoes (hand-crushed) | 400 g | base |
+| 🍄 Shiitake powder | 4 g | stirred in with the tomatoes, not dry-fried |
+| 🥜 Defatted peanut flour | 5–8 g | whisked in early in the simmer — body + nutty roundness in place of the coconut milk |
+| 🫗 Liquid / coconut aminos | 5–8 g | go light — the paste is ~14% salt |
+| 🥬 Spinach | 100 g | base |
+| 🥚 Eggs, streaked | 2–3 | base |
+| 🌿 Coriander / Thai basil | to taste | at the table |
+| 🍋 Lime | to taste | at the table |
 
-**Paste bloom** — fry hard in 🥑 3 g avocado oil, **3–4 min** until darkened and toasted (this is the Thai *bhuna*, and with no coconut fat to hide behind it's load-bearing — don't rush it):
-
-| Ingredient | Weight |
-|:-----------|-------:|
-| 🟡 Mae Ploy vegan yellow curry paste | 20 g |
-| 🫚 Ginger paste | 5 g |
-| 🌶️ Bird's-eye chilli paste (from the soak) | 2–3 chillies |
-
-**Build:** 🥫 whole canned tomatoes 400 g (hand-crushed) · 🍄 shiitake powder 4 g · 🥜 defatted peanut flour 5–8 g (body + nutty roundness in place of the coconut milk — see below) · 🫗 liquid / coconut aminos 5–8 g (go light — the paste is ~14 % salt) · 🥬 spinach 100 g · 🥚 2–3 eggs, streaked · 🌿 coriander / Thai basil + 🍋 lime at the table. **No added salt.**
+**No added salt** — the Mae Ploy paste is the whole salt budget (see Design notes below).
 
 ### Method
 
