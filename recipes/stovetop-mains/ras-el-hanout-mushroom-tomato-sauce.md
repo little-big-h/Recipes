@@ -12,7 +12,7 @@
 | 🟡 | 🧄 Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) |
 | 🟠 | 🍛 Ras el hanout | 18 g | 54 | | local *(est.)* |
 | 🟣 | 🥑 Avocado oil (bloom only) | 3 g | 27 | | local |
-| 🟢 | 🥫 Canned tomatoes (BWFO) | 800 g | 152 | | local *(est. — generic canned-tomato reference, not the specific BWFO product)* |
+| 🟢 | 🥫 Canned tomatoes (BWFO Organic Chopped Tomatoes, 400 g × 2) | 800 g | 152 | | [BWFO](https://www.buywholefoodsonline.co.uk/organic-chopped-tomatoes-400g-dented-tin.html) *(verified via GraphQL)* |
 | 🟣 | 🍶 Red miso (whisked into hot water, off heat) | 25 g | 50 | | local *(est. — see Nutrition)* |
 | 🟣 | 🫒 Capers (stirred in at the end) | 30 g | 7 | | [usda](https://fdc.nal.usda.gov/food-details/172238/nutrients) |
 | ⚪ | 🪻 Pickled onions (mostly at finish/table) | 80 g | 32 | | local *(est.)* |
@@ -23,7 +23,7 @@
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🟣 Seasoning · 🟤 Protein · ⚪ Acid*
 
-*Total is for the **sauce + mushrooms only** — 🧊 tofu and 🌾 barley are sides with no fixed quantity, so they're not costed here (see Nutrition). 🥫 canned tomatoes use a generic reference (19 kcal/100 g, matching the household's established block) since the specific BWFO product wasn't pinned down — swap in the real label figures if you have them. 🪻 pickled onions and 🍛 ras el hanout are committed estimates (no clean USDA match for either).*
+*Total is for the **sauce + mushrooms only** — 🧊 tofu and 🌾 barley are sides with no fixed quantity, so they're not costed here (see Nutrition). 🥫 canned tomatoes are **real BWFO label data** (19 kcal/100 g), pulled live via the project's GraphQL tooling (`docs/BWFO_GRAPHQL.md`) rather than assumed — see Nutrition for the product match. 🪻 pickled onions and 🍛 ras el hanout are committed estimates (no clean USDA match for either).*
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## Nutrition
 
-*Whole batch of sauce + mushrooms (excludes tofu and barley — no fixed quantity given, so not costed): **400 g mushrooms + 800 g tomatoes + 18 g ras el hanout + 6 g garlic powder + 3 g oil + 25 g red miso + 30 g capers + 80 g pickled onions**. **Estimates, not FoodNoms-verified** — mushrooms, garlic powder and capers from authentic USDA SR Legacy per-100 g values; oil is the canonical local block. **Three committed estimates**: canned tomatoes reuse the household's established generic block (19 kcal/100 g) rather than the specific BWFO product; red miso reuses the aubergine-bowl estimate (white-miso backbone + ~13 g/100 g salt per `docs/TECHNIQUES.md`); pickled onion is built from raw onion (USDA) with a light pickling adjustment (a touch more sugar, salt bumped to ~0.8 g/100 g) since no clean USDA pickled-onion record exists. Low-fat (~9 g, almost all inherent to the oil-free mushrooms + the 3 g bloom) — the substance here is vegetables and umami, not fat or protein (protein comes from the tofu side, uncounted). **Salt runs ~7.4 g for the sauce alone** — capers and red miso are both genuinely salty, so taste before adding more; the tofu/barley sides will dilute this once plated.*
+*Whole batch of sauce + mushrooms (excludes tofu and barley — no fixed quantity given, so not costed): **400 g mushrooms + 800 g tomatoes + 18 g ras el hanout + 6 g garlic powder + 3 g oil + 25 g red miso + 30 g capers + 80 g pickled onions**. **Not FoodNoms-verified**, but the tomatoes are genuinely verified against BWFO's own product data — queried live via the project's GraphQL tooling (`docs/BWFO_GRAPHQL.md`): **Organic Chopped Tomatoes, 400 g (Dented Tin)** (`sku SKU949913`) at 19 kcal, 0.1 g fat, 3 g carbs, 3 g sugars, 0.9 g fibre, 1.1 g protein, 0.1 g salt per 100 g — 800 g is exactly two tins. (BWFO's Organic Whole Peeled Tomatoes carries identical macros, so it doesn't matter which of the two you actually used.) Mushrooms, garlic powder and capers are from authentic USDA SR Legacy per-100 g values; oil is the canonical local block. **Two remaining committed estimates**: red miso reuses the aubergine-bowl estimate (white-miso backbone + ~13 g/100 g salt per `docs/TECHNIQUES.md`); pickled onion is built from raw onion (USDA) with a light pickling adjustment (a touch more sugar, salt bumped to ~0.8 g/100 g) since no clean USDA pickled-onion record exists. Low-fat (~9 g, almost all inherent to the oil-free mushrooms + the 3 g bloom) — the substance here is vegetables and umami, not fat or protein (protein comes from the tofu side, uncounted). **Salt runs ~7.4 g for the sauce alone** — capers and red miso are both genuinely salty, so taste before adding more; the tofu/barley sides will dilute this once plated.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -59,7 +59,7 @@
    Per 100 g. *)
 n100 = <|
   "mushroom"     -> {22, 3.09, 3.26, 1.98, 0.34, 0.05, 1.0, 0.0125, 0.5, 3, 0.52, 9, 318, 0, 0, 16}, (* USDA 169251, white button *)
-  "tomatoes"     -> {19, 1.1, 3.0, 3.0, 0.1, 0.02, 0.9, 0.10, 0.7, 25, 0.15, 9, 220, 0, 0, 13}, (* est. generic canned tomato block *)
+  "tomatoes"     -> {19, 1.1, 3.0, 3.0, 0.1, 0.02, 0.9, 0.10, 0.7, 25, 0.15, 9, 220, 0, 0, 13}, (* BWFO Organic Chopped Tomatoes 400g, sku SKU949913 -- verified live via GraphQL; micros still USDA-estimated, label doesn't give them *)
   "rasElHanout"  -> {300, 12.0, 50.0, 3.0, 8.0, 1.0, 12.0, 5.00, 30.0, 250, 3.0, 90, 1000, 0, 0, 20}, (* committed est., project canonical block *)
   "garlicPwd"    -> {331, 16.55, 72.73, 2.43, 0.73, 0.249, 9.0, 0.15, 5.65, 79, 2.99, 77, 1193, 0, 0, 47}, (* USDA 171325 *)
   "avocadoOil"   -> {884, 0, 0, 0, 100, 11.6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -96,10 +96,11 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
 - **No oil on the mushrooms.** Browning is gated by evaporating the mushroom's own water first, not by oil — oil mostly helps with non-stick and staying supple for standalone eating. Since these are headed into a simmered sauce (which re-adds moisture and softens them further anyway), oil's doing little useful work here. Flat slices instead of quarters compensate by maximising surface area for faster, more even browning.
 - **Pickled onions held back, not simmered in.** Simmering would soften and mute them; scattering them on mostly-raw at the end keeps the sharp, vinegary contrast against the deep, warm-spiced sauce — the same logic as keeping capers added late rather than cooked down.
 - **Sauce scoped separately from tofu/barley.** Unlike the aubergine-mushroom-amaranth bowl (which combines everything into one tossed dish), this one is a sauce spooned over sides prepared independently — so the nutrition table only covers what's actually costed here.
+- **Tomatoes verified, not guessed.** The first pass of this recipe defaulted to a reused generic canned-tomato figure rather than actually querying BWFO for the real product — a shortcut, not a real lookup. A live GraphQL query (`docs/BWFO_GRAPHQL.md`) found the exact match: 800 g is precisely two of BWFO's 400 g Organic Chopped Tomatoes tins, and the numbers already in use turned out to be correct. Worth querying the real product up front next time rather than assuming a generic block is close enough.
 
 ---
 
 ## Cook log
 
-- **Planned — designed 2026-07-09, cooking today.** Built in conversation around 800 g BWFO canned tomatoes and 400 g button mushrooms on hand. Open questions for this cook: whether 18 g ras el hanout and 25 g red miso read right at this batch size (both are scaled estimates, not yet taste-checked), whether the mushroom slices hold together through the simmer or break down too far, and how much of the salt (~7.4 g in the sauce) actually lands on the plate once diluted by the tofu and barley. **Ratings to be added once cooked (Holger + Anja).**
+- **Planned — designed 2026-07-09, cooking today.** Built in conversation around 800 g BWFO canned tomatoes and 400 g button mushrooms on hand; tomato nutrition confirmed against the real BWFO product via live GraphQL query (matches the household's pre-existing generic figure exactly, so no numbers changed — just the provenance). Open questions for this cook: whether 18 g ras el hanout and 25 g red miso read right at this batch size (both are scaled estimates, not yet taste-checked), whether the mushroom slices hold together through the simmer or break down too far, and how much of the salt (~7.4 g in the sauce) actually lands on the plate once diluted by the tofu and barley. **Ratings to be added once cooked (Holger + Anja).**
 </content>
