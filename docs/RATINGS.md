@@ -131,6 +131,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Super-Quick Hasselback Jacket Potatoes | European |
 | Creamy Yellow Curry Soy Bean & Corn Soup | Fusion (Thai + West African) |
 | Aubergine, Mushroom & Amaranth Bowl | Fusion (Mediterranean + Japanese) |
+| Ras el Hanout Mushroom & Tomato Sauce | Fusion (North African + Japanese) |
 
 ---
 
@@ -175,6 +176,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Creamy Tomato, Coconut & Spinach Sauce | v2 | planned | — | [creamy-tomato-coconut-spinach-sauce-v2.md](../recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md) |
 | Creamy Yellow Curry Soy Bean & Corn Soup | v1 | planned | — | [creamy-soybean-corn-yellow-curry-soup.md](../recipes/soups/creamy-soybean-corn-yellow-curry-soup.md) |
 | Aubergine, Mushroom & Amaranth Bowl | v1 | planned | — | [aubergine-mushroom-amaranth-bowl.md](../recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md) |
+| Ras el Hanout Mushroom & Tomato Sauce | v1 | planned | — | [ras-el-hanout-mushroom-tomato-sauce.md](../recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md) |
 
 ---
 
