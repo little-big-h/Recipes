@@ -35,6 +35,15 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml. Holger's standard — use it
 > whenever a recipe just says "milk" unless it specifies whole/skimmed.
 
+> **BWFO Seitan Flour (vital wheat gluten).** SKU `CONFSKU946580` — live-verified via
+> GraphQL: **370 kcal, 1.9 g fat, 0.3 g saturates, 15 g carbs, 0.6 g fibre, 75 g protein,
+> salt `<0.1` (treated as 0)** per 100 g, straight from the label. Micros aren't on the
+> label — **committed estimate**, borrowed from USDA SR Legacy `168147` "Vital wheat
+> gluten" (an almost exact macro match: 370 kcal, 75.16 g protein, 1.85 g fat, 13.79 g
+> carb): iron 5.2 mg, calcium 142 mg, zinc 0.85 mg, magnesium 25 mg, potassium 100 mg
+> (folate/vitamin D/B12 negligible, per the generic). Used in
+> `pressure-steamed-seitan-sausage.md`.
+
 > **Mild curry powder.** The stocked jar (organic; turmeric, coriander, fennel,
 > black pepper, yellow mustard, cumin — **no chilli, no paprika**, which is why
 > it's the safest of the stocked spice mixes against high-heat scorching, e.g.
@@ -120,6 +129,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Spinach (Raw) | `foodnoms:usda:168462` | gram | 23.0 | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | Spring Onion | `local:EFC1C598-5279-4952-8CB9-922499A0BF10` | serving | 480.0 | local |
 | Rice Wine (Cooking) | `local:1D392317-7844-41F9-8260-701F147AC6C1` | milliliter | 120.0 | local (estimate) |
+| Seitan Flour (Vital Wheat Gluten, BWFO) | `local:BAA2E5C2-08FC-ECED-501D-4C4933398839` | gram | 370.0 | label (macros) + usda micros |
 | Tamarind | `foodnoms:usda:2709269` | gram | 239.0 | [usda](https://fdc.nal.usda.gov/food-details/2709269/nutrients) |
 | Toasted Sesame Oil | `local:6A4AE1C2-7310-4968-9B44-EC519652DFE2` | gram | 884.0 | local |
 | Tomatoes (Crushed, Canned, No Added Salt) — breakfast passata | `foodnoms:usda:170501` | gram | 32.0 | [usda](https://fdc.nal.usda.gov/food-details/170501/nutrients) |
