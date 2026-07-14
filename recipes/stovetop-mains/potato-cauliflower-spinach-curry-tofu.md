@@ -10,7 +10,7 @@
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🟢 | 🥔 Potato (air-fried) | 600 g | 462 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
 | 🟣 | 🥑 Avocado oil (potato + cauliflower toss, bhuna, tofu) | 18 g | 159 | | local |
-| 🟡 | 🧅 Onion (microwave-jumpstart, bhuna'd in the wok) | 300 g | 114 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟡 | 🧅 Onion (microwave-jumpstart, bhuna'd in the wok) | 300 g | 114 | **411.5 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟠 | 🍛 Mild curry powder (added late, bloomed) | 30 g | 94 | | local *(label + est.)* |
 | 🟢 | 🍅 Tomato purée (bhuna'd until it darkens) | 50 g | 52 | | [usda](https://fdc.nal.usda.gov/food-details/2685580/nutrients) |
 | 🟣 | 🥥 Light coconut milk (Biona) | 400 ml | 360 | | local |
