@@ -106,6 +106,18 @@ Each item's `nutritional_tab` is a list of `{label, value, code}`, **all per
 `https://www.buywholefoodsonline.co.uk/{url_key}.html`. Some items (herbs,
 non-food) have an **empty `nutritional_tab`** — expected, not an error.
 
+> ⚠ **`lb_carbohydrates` does NOT include fibre — fold it in before this reaches
+> FoodNoms.** UK/EU labels (which is what this API returns) report `lb_carbohydrates`
+> and `lb_fibre` as two independent lines; FoodNoms expects the **US FDA convention**,
+> where fibre is a *subset* of the carbs total. Passing the raw UK figures straight
+> through makes FoodNoms reject the food (`fiber + sugars` exceeds `carbs`) whenever
+> fibre is non-trivial relative to carbs — bitten twice already (BWFO dried onion
+> flakes: 35.3 g carbs / 36.5 g fibre; BWFO cacao nibs: 6 g carbs / 23.4 g fibre).
+> **Always compute `carbs_for_foodnoms = lb_carbohydrates + lb_fibre`** before
+> building the `customNutrientValues` — sugars stays as-is (already a subset either
+> way). Do this for every BWFO ingredient with a fibre value worth mentioning, not
+> just the ones that happen to trip the validator obviously.
+
 **Ingredients are NOT exposed.** There is no ingredients field; `description.html`
 / `short_description.html` are marketing copy only (verified on the tinned
 tomatoes). If a recipe needs the ingredient list, take it from the physical
