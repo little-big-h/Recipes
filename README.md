@@ -4,7 +4,7 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Potato, Cauliflower & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-cauliflower-spinach-curry-tofu.md)** — 2026-07-14
+1. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
 2. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
 3. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
 4. **[Aubergine, Mushroom & Amaranth Bowl](recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md)** — 2026-07-08
