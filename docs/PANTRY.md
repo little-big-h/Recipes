@@ -101,6 +101,7 @@ These come in for a specific recipe iteration and may or may not be re-stocked:
 - **Shiitake (dried)** — used in Thai shiitake soup; restocked when the lineage is active
 - **Banana blossom** — historical use; not always in stock
 - **Specific dried chilies** (scotch bonnet, etc.) — bought for specific cooks
+- **BWFO Seitan Flour (vital wheat gluten)** ⚠ run-down use-up priority — large stock on hand, along with excess **onions**, **corn flour** and **rice flour**. See `recipes/oven-mains/pressure-steamed-seitan-sausage.md` (dough + crisp-dredge use of all four at once). See `docs/INGREDIENT_MAP.md` for nutrition.
 
 ---
 

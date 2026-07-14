@@ -8,14 +8,14 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🥔 | 🥔 Baking potatoes (floury; skin on, scrubbed) | 880 g (4 x ~220 g) | 678 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
-| 🥑 | 🥑 Avocado oil (sprayed into the cuts) | 12 g | 106 | | local |
-| 🧂 | 🧂 Salt | 4 g | 0 | | — |
-| 🧀 | 🧀 Nutritional yeast (at table, optional) | to taste | — | | — |
-| 🌿 | 🌿 Chives / spring onion (garnish, optional) | to taste | — | | — |
+| 🟢 | 🥔 Baking potatoes (floury; skin on, scrubbed) | 880 g (4 x ~220 g) | 678 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
+| 🟣 | 🥑 Avocado oil (sprayed into the cuts) | 12 g | 106 | | local |
+| 🟣 | 🧂 Salt | 4 g | 0 | | — |
+| 🟣 | 🧀 Nutritional yeast (at table, optional) | to taste | — | | — |
+| 🟡 | 🌿 Chives / spring onion (garnish, optional) | to taste | — | | — |
 | | **Total** | **~896 g** | **~784** | | |
 
-*Legend: 🥔 Vegetable · 🥑 Fat · 🧂 Seasoning · 🧀 Umami (at table) · 🌿 Herb (at table)*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟣 Seasoning*
 
 *Only two ingredients carry weight: 🥔 potato (USDA SR Legacy 170026, raw flesh-and-skin — weighed **raw**; cooking drives off water so the cooked yield is lower, ~0.72 kg, but the absolute macro/mineral totals are unchanged) and 🥑 avocado oil (canonical block; ~270C smoke point, which is what lets it take the 240C blast). 🧂 salt is 0 kcal. Toppings are at-table, uncounted. Totals are for the **whole tray of four potatoes**.*
 

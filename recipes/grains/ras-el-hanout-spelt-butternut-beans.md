@@ -8,25 +8,25 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🫘 | Kidney beans (dried, unsoaked) | 176 g | 593 | **176 g** | [usda](https://fdc.nal.usda.gov/food-details/173744/nutrients) *(est.)* |
-| 🫛 | Pinto beans (dried, unsoaked) | 194 g | 673 | **194 g** | local *(canonical raw pinto — no current FDC record)* |
-| 🧂 | Vegetable stock cube (in the bean water) | 1 cube | 20 | | local *(est.)* |
-| 💧 | Water (bean cook + spelt cook; bean liquor reserved) | ~1.5 L total | 0 | | |
-| 🌾 | Spelt berries (whole, unsoaked — cooked in bean liquor) | 300 g | 1014 | | local *(est.)* |
-| 🎃 | Butternut squash (peeled, air-fried) | 1307 g | 588 | **1307 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
-| 🥑 | Avocado oil (5 g squash · 3 g sauce) | 8 g | 71 | **8 g** | local |
-| 🧄 | Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
-| 🌰 | Cumin (ground) | 6 g | 22 | | local *(est.)* |
-| 🍛 | Ras el hanout | 15 g | 45 | **15 g** | local *(est.)* |
-| 🍅 | Tomato paste | 40 g | 33 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
-| 🥫 | Passata | 500 g | 142 | **500 g** | label *(142 kcal / 500 g)* |
-| 🍶 | White miso (off heat) | 30 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/172442/nutrients) |
-| 🌿 | Parsley (garnish) | a handful | — | | — |
-| 🌶️ | Harissa (at table) | to taste | — | | — |
-| 🍋 | Lemon (at table) | to taste | — | | — |
+| 🟤 | 🫘 Kidney beans (dried, unsoaked) | 176 g | 593 | **176 g** | [usda](https://fdc.nal.usda.gov/food-details/173744/nutrients) *(est.)* |
+| 🟤 | 🫛 Pinto beans (dried, unsoaked) | 194 g | 673 | **194 g** | local *(canonical raw pinto — no current FDC record)* |
+| 🔵 | 🧂 Vegetable stock cube (in the bean water) | 1 cube | 20 | | local *(est.)* |
+| 🔵 | 💧 Water (bean cook + spelt cook; bean liquor reserved) | ~1.5 L total | 0 | | |
+| 🟢 | 🌾 Spelt berries (whole, unsoaked — cooked in bean liquor) | 300 g | 1014 | | local *(est.)* |
+| 🟢 | 🎃 Butternut squash (peeled, air-fried) | 1307 g | 588 | **1307 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
+| 🟣 | 🥑 Avocado oil (5 g squash · 3 g sauce) | 8 g | 71 | **8 g** | local |
+| 🟡 | 🧄 Garlic powder | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/171325/nutrients) *(est.)* |
+| 🟠 | 🌰 Cumin (ground) | 6 g | 22 | | local *(est.)* |
+| 🟠 | 🍛 Ras el hanout | 15 g | 45 | **15 g** | local *(est.)* |
+| 🟢 | 🍅 Tomato paste | 40 g | 33 | | [usda](https://fdc.nal.usda.gov/food-details/170459/nutrients) |
+| 🟢 | 🥫 Passata | 500 g | 142 | **500 g** | label *(142 kcal / 500 g)* |
+| 🟣 | 🍶 White miso (off heat) | 30 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/172442/nutrients) |
+| 🟢 | 🌿 Parsley (garnish) | a handful | — | | — |
+| 🟠 | 🌶️ Harissa (at table) | to taste | — | | — |
+| ⚪ | 🍋 Lemon (at table) | to taste | — | | — |
 | | **Total** | **~3.7 kg input** *(incl. ~1.5 L water)* | **~3280** | | |
 
-*Legend: 🫘🫛 Pulse · 🧂 Stock · 💧 Stock · 🌾 Grain · 🎃 Vegetable · 🥑 Fat · 🧄🌰🍛 Spices / Aromatics · 🍅🥫 Tomato · 🍶 Seasoning · 🌿 Herb · 🌶️ Spice (at table) · 🍋 Acid (at table)*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 *Spice amounts (🧄🌰🍛) and 🥫 passata are **estimates** — spices weren't weighed (Claude-suggested) and the passata is a UK-passata generic (its salt is the main unknown). 🌾 spelt is mapped to a generic whole-spelt value, not a specific FDC entry. 💧 water is staged (beans first, then the reserved liquor + a top-up for the spelt) and carries 0 kcal. Totals are input weight; cooked yield is higher (the beans and spelt drink ~1.4 L between them).*
 
