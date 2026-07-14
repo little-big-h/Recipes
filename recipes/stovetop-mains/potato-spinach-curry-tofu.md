@@ -16,7 +16,7 @@
 | 🟣 | 🥥 Light coconut milk (Biona) | 400 ml | 360 | | local |
 | 🟢 | 🥬 Spinach (wilted in at the end) | 200 g | 46 | **237 g** | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | 🟤 | 🧊 Firm tofu (air-fried, side) | 400 g | 576 | | [usda](https://fdc.nal.usda.gov/food-details/172475/nutrients) |
-| | **Total** | **~2.0 kg** | **~1819** | | |
+| | **Total** | **~2.0 kg** | **~1819** | **2274 g cooked yield (curry only, excl. tofu)** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🟣 Seasoning · 🟤 Protein*
 
@@ -49,7 +49,7 @@
 
 ## Nutrition
 
-*Whole recipe (family of five), **planned** design values — potato and onion actuals are already logged in the Ingredients table above but this section still reflects the original plan; full reconciliation happens once all actuals and the cooked yield are known. **USDA-derived + label, not FoodNoms-verified** — computed in Wolfram; micros are committed best-estimates. **Very high calcium (~3.3 g)** — almost entirely the calcium-sulfate-set 🧊 tofu (683 mg/100 g). **Very high potassium (~6.5 g)** across potato, coconut milk, tomato purée, spinach and tofu together. **Salt is low (~1.1 g)** — nothing in the pot is salted beyond the curry powder, tomato purée and coconut milk's own trace sodium. Saturated fat (~39 g) is mostly the 🥥 coconut milk (400 ml at ~7.9 g sat/100 ml) — expected for a coconut-based curry, not an anomaly.*
+*Whole recipe (family of five), **as cooked**. Potato (1548 g), onion (411.5 g), oil (9 g) and spinach (237 g) are confirmed actuals; curry powder, tomato purée and coconut milk had no reported deviation, so stand as the original 30 g / 50 g / 400 ml. **The curry itself reduced from ~2686 g of raw input down to a reported 2274 g cooked yield** (~15% lost to evaporation during the simmer — expected, not a discrepancy; nutrient totals are unaffected by water loss). Tofu (400 g) is a separate air-fried side, not part of that pot yield, and its own actual weight was never reported — still the planned figure. **USDA-derived + label, not FoodNoms-verified** — computed in Wolfram; micros are committed best-estimates. **Very high calcium (~3.5 g)** — almost entirely the calcium-sulfate-set 🧊 tofu. **Very high potassium (~11.0 g)** and **carbohydrate (~361 g)** — both driven by the much-larger-than-planned 🥔 potato load. **Salt stays low (~1.3 g)** — nothing in the pot is salted beyond the curry powder, tomato purée and coconut milk's own trace sodium.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -65,22 +65,22 @@ n100 = <|
   "spinach" -> {23, 2.86, 3.63, 0.42, 0.39, 0.063, 2.2, 0.1975, 2.71, 99, 0.53, 79, 558, 0, 0, 194}, (* USDA 168462 *)
   "tofu" -> {144, 17.27, 2.78, 0, 8.72, 1.261, 2.3, 0.035, 2.66, 683, 1.57, 58, 237, 0, 0, 29} (* USDA 172475 *)
 |>;
-amounts = <| "potato" -> 600, "oil" -> 13, "onion" -> 300, "curryPowder" -> 30, "tomatoPuree" -> 50, "coconutMilk" -> 400, "spinach" -> 200, "tofu" -> 400 |>;
+amounts = <| "potato" -> 1548, "oil" -> 9, "onion" -> 411.5, "curryPowder" -> 30, "tomatoPuree" -> 50, "coconutMilk" -> 400, "spinach" -> 237, "tofu" -> 400 |>;
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
 
-*FoodNoms collection: **Potato & Spinach Curry with Air-Fried Tofu [14-07-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Potato+%26+Spinach+Curry+with+Air-Fried+Tofu+%5b14-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&fdcIds=170026%2c2709795%2c168462%2c172475%2c2685580&grams=600%2c300%2c200%2c400%2c50&customNames=Avocado+Oil%3bMild+Curry+Powder%3bLight+Coconut+Milk+%28Biona%29&customQuantities=13%3b30%3b400&customUnits=gram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b312%2c12.4%2c56%2c2.6%2c13.4%2c1.6%2c28.7%2c480%2c18.3%2c504%2c4.5%2c245%2c1123%2c0%2c0%2c54%3b90%2c0.7%2c2.3%2c0.9%2c9%2c7.9%2c0.57%2c4%2c0.5%2c16%2c0.3%2c18%2c150%2c0%2c0%2c0)** — generated only when clicked; totals verified to this table (HTTP 200, 1818.66 kcal). **Not yet rebuilt against actuals** — will be updated once the final spinach amount and cooked yield are known.*
+*FoodNoms collection: **Potato & Spinach Curry with Air-Fried Tofu [14-07-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Potato+%26+Spinach+Curry+with+Air-Fried+Tofu+%5b14-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=2674&fdcIds=170026%2c2709795%2c168462%2c172475%2c2685580&grams=1548%2c411.5%2c237%2c400%2c50&customNames=Avocado+Oil%3bMild+Curry+Powder%3bLight+Coconut+Milk+%28Biona%29&customQuantities=9%3b30%3b400&customUnits=gram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b312%2c12.4%2c56%2c2.6%2c13.4%2c1.6%2c28.7%2c480%2c18.3%2c504%2c4.5%2c245%2c1123%2c0%2c0%2c54%3b90%2c0.7%2c2.3%2c0.9%2c9%2c7.9%2c0.57%2c4%2c0.5%2c16%2c0.3%2c18%2c150%2c0%2c0%2c0)** — generated only when clicked; totals verified to this table (HTTP 200, 2564.14 kcal). `totalServingSize=2674` = 2274 g reported curry yield + 400 g tofu's still-planned weight, tracked separately since tofu isn't part of the pot's evaporation.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 1819 kcal | Iron | 30.7 mg |
-| Protein | 98 g | Calcium | 3287 mg |
-| Carbohydrates | 185 g | Zinc | 12.5 mg |
-| — of which sugars | 33 g | Magnesium | 725 mg |
-| Fat | 90 g | Potassium | 6550 mg |
+| Energy | 2564 kcal | Iron | 39.7 mg |
+| Protein | 120 g | Calcium | 3456 mg |
+| Carbohydrates | 361 g | Zinc | 15.7 mg |
+| — of which sugars | 48 g | Magnesium | 983 mg |
+| Fat | 87 g | Potassium | 10976 mg |
 | — of which saturates | 39 g | Vitamin D | 0.0 µg |
-| Fibre | 45 g | Vitamin B12 | 0.0 µg |
-| Salt | 1.1 g | Folate | 667 µg |
+| Fibre | 67 g | Vitamin B12 | 0.0 µg |
+| Salt | 1.3 g | Folate | 902 µg |
 
 ---
 
@@ -94,6 +94,6 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 - **No chilli in the pot** — mild by design, family-friendly. Heat can go at the table if wanted.
 - **Tofu genuinely separate, not folded into the sauce** — a plain air-fried side rather than simmered/blended in, so it stays firm and distinct rather than picking up the curry's moisture.
 - **Confirmed: the ML750 has enough basket capacity for the potato to air-fry as one batch**, not the cautious two-batch default used elsewhere in the project (hasselback potatoes, the soybean-corn soup) where capacity was never actually confirmed — resolves that open assumption, at least for a load this size.
-- **Quantities still mid-reconciliation.** Potato (1548 g) and onion (411.5 g) actuals are logged; curry powder, tomato purée and coconut milk are assumed as originally specified (30 g / 50 g / 400 ml) pending confirmation; spinach's actual amount and the dish's cooked yield are still to come. The Nutrition section and `.foodnoms` link above are the **planned** baseline (cauliflower removed, oil reduced accordingly) — will be rebuilt against full actuals once everything's in.
+- **Reconciled as cooked (2026-07-14).** Final actuals: potato 1548 g, onion 411.5 g, oil 9 g, spinach 237 g; curry powder/tomato purée/coconut milk had no reported change, so stand at the original 30 g / 50 g / 400 ml. Potato came in **2.6× the plan** and onion **1.4×** — the dish scaled up considerably from the original family-of-five estimate, mostly on the potato. Reported cooked yield: **2274 g** for the curry (tofu excluded, cooked separately and never itself weighed). Nutrition and the `.foodnoms` link are now built against these actuals.
 
 ---
