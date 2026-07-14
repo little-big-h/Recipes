@@ -17,62 +17,64 @@ Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finish
 
 Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = whole dried chillies; *tbl* = added at the table; `—` = not used). The base (🥫 canned tomatoes + 🥬 spinach + 🥚 eggs + 🥑 oil) is shared across all profiles. Every shakshuka **build** in this doc is a column — the **sauerkraut hash** is a different structure (see *Structure 2* below), so it isn't here.
 
-| Component | [Indian][s-indian] | [Ind. bold][s-bold] | [Curry-Pwd][s-curry] | [N.African][s-nafr] | [Mex. kid][s-mexkid] | [Mex. chip][s-mexchip] | [Mex. mole][s-mexmole] | [Japanese][s-japanese] | [M.East][s-meast] | [Korean][s-korean] | [Thai][s-thai] | [Y.Thai][s-yellowthai] |
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Base** | | | | | | | | | | | | |
-| 🥫 Canned tomatoes | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 | 400 |
-| 🥬 Spinach | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
-| 🥚 Eggs | 2–3 | 2–3 | 2 | 2 | 2–3 | 2 | 2 | 2–3 | 2–3 | 2–3 | 2–3 | 2–3 |
-| 🥑 Avocado oil | 3 | 3 | 3 | 3 | 7 | 3 | 3 | — | 3 | — | 3 | 3 |
-| **Spice blends / pastes** | | | | | | | | | | | | |
-| 🍛 Tikka masala\* | 6 | 9 | — | — | — | — | — | — | — | — | — | — |
-| 🍛 Curry powder | — | — | 10 | — | — | — | — | — | — | — | — | — |
-| 🫙 Harissa | — | — | — | 8 | — | — | — | — | — | — | — | — |
-| 🌶️ Gochujang | — | — | — | — | — | — | — | — | — | 15 | — | — |
-| 🌿 Za'atar | — | — | — | — | — | — | — | — | 5 | — | — | — |
-| 🍇 Sumac | tbl | tbl | — | — | tbl | — | — | — | 3 | — | — | — |
-| 🍶 Red miso ⚠ | — | — | — | — | — | — | — | 10 | — | — | — | — |
-| 🍲 Green curry paste | — | — | — | — | — | — | — | — | — | — | 20 | — |
-| 🟡 Mae Ploy yellow paste | — | — | — | — | — | — | — | — | — | — | — | 20 |
-| 🌾 Lemongrass paste | — | — | — | — | — | — | — | — | — | — | 10 | — |
-| 🫚 Galangal paste | — | — | — | — | — | — | — | — | — | — | 8 | — |
-| **Heat / chili** | | | | | | | | | | | | |
-| 🌶️ Chipotle (soaked) | — | — | — | — | — | 8 | 8 | — | — | — | — | — |
-| 🫑 Ancho flakes | — | — | — | 6 | — | 8 | 8 | — | — | — | — | — |
-| 🌶️ Dried chilli (soak) | 2 pc | 2–3 pc | ~3 | 1–2 pc | — | — | — | 1 pc | — | — | — | 2–3 pc |
-| 🌶️ Smoked paprika ⚠ | — | — | — | — | — | 6 | 6 | — | — | — | — | — |
-| 🌶️ Sweet / Kashmiri paprika | — | 3 | — | — | — | — | — | — | — | — | — | — |
-| 🌶️ Bird's-eye | — | — | — | — | tbl | — | — | — | — | — | — | soak† |
-| **Toasted whole spices** | | | | | | | | | | | | |
-| 🌰 Cumin | 3 | 4 | 2 | 3 | 2 | 2 | 2 | — | — | — | — | — |
-| 🌭 Mustard | 3–4 | 4 | — | 4 | — | — | — | — | — | — | — | — |
-| 🌿 Fennel | — | — | — | 2 | — | — | — | — | — | — | — | — |
-| 🪵 Cinnamon | — | — | — | 1 | — | — | 1 | — | — | — | — | — |
-| ⚫ Cacao nibs | — | — | — | — | — | — | 3 | — | — | — | — | — |
-| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | — | — | — | 4 | 4 |
-| 🌿 Coriander (ground) | — | — | — | — | — | 2 | — | — | — | — | — | — |
-| 🌿 Oregano | — | — | — | — | 2 | 2 | 2 | — | — | — | — | — |
-| **Aromatics** | | | | | | | | | | | | |
-| 🧄 Garlic (fresh) | 8 | — | — | — | 4 | — | — | 4 | — | — | — | — |
-| 🧄 Garlic powder | — | 2 | 2 | — | — | 1.5 | 1.5 | 1–2 | — | — | — | — |
-| 🫚 Fresh ginger | — | — | — | — | — | — | — | 8–10 | — | 8 | 3 | 5 (paste) |
-| 🫚 Dried ginger | 1 | 1.5 | 1.5 | — | — | — | — | 3–4 | — | — | — | — |
-| 🍅 Tomato paste (bhuna) | 15 | 22 | 20 | — | 8 | 20 | **none** | — | — | — | — | — |
-| 🥕 Grated carrot | — | — | — | — | 50 | — | — | — | — | — | — | — |
-| **Liquid finishers / umami** | | | | | | | | | | | | |
-| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | — | 10 | 10 | 15 | 5–8 |
-| 🧀 Nutritional yeast | — | — | — | 15 | 3 | 5 | 6 | — | 15 | — | — | — |
-| 🥜 Defatted peanut flour | — | — | — | — | — | — | — | — | — | — | — | 5–8 |
-| 🍶 Dashi soy | — | — | — | — | — | — | — | 8–10 | — | — | — | — |
-| 🍶 Mirin | — | — | — | — | — | — | — | 10 | — | — | — | — |
-| 🛢️ Sesame oil (finish) | — | — | — | — | — | — | — | 5 | — | 5 | — | — |
-| 🍋 Rice vinegar | — | — | — | — | — | — | — | — | — | 5 | — | — |
-| 🌶️ Shichimi | — | — | — | — | — | — | — | 4 | — | — | — | — |
-| 🥬 Nori | — | — | — | — | — | — | — | ~1.5 | — | ~2 | — | — |
-| 🧂 Salt (in soak) | 1 | 1 | 1.5 | — | — | 1 | 1 | — | — | — | — | — |
-| 🍋 Lemon / lime | — | — | lemon | — | — | lime | lime | — | — | — | — | lime |
-| 🥥 Coconut milk (opt) | 40–50 | — | 40–50 | — | — | — | — | — | — | — | — | — |
-| 🫙 Garam masala (opt) | — | — | 2 | — | — | — | — | — | — | — | — | — |
+| Component | [Indian][s-indian] | [Ind. bold][s-bold] | [Curry-Pwd][s-curry] | [N.African][s-nafr] | [Mex. kid][s-mexkid] | [Mex. chip][s-mexchip] | [Mex. mole][s-mexmole] | [Mex. carob][s-mexcarob] | [Japanese][s-japanese] | [M.East][s-meast] | [Korean][s-korean] | [Thai][s-thai] | [Y.Thai][s-yellowthai] |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| **Base** | | | | | | | | | | | | | |
+| 🥫 Canned tomatoes | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | 400 |
+| 🥬 Spinach | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
+| 🥚 Eggs | 2–3 | 2–3 | 2 | 2 | 2–3 | 2 | 2 | 2 | 2–3 | 2–3 | 2–3 | 2–3 | 2–3 |
+| 🥑 Avocado oil | 3 | 3 | 3 | 3 | 7 | 3 | 3 | 3 | — | 3 | — | 3 | 3 |
+| **Spice blends / pastes** | | | | | | | | | | | | | |
+| 🍛 Tikka masala\* | 6 | 9 | — | — | — | — | — | — | — | — | — | — | — |
+| 🍛 Curry powder | — | — | 10 | — | — | — | — | — | — | — | — | — | — |
+| 🫙 Harissa | — | — | — | 8 | — | — | — | — | — | — | — | — | — |
+| 🌶️ Gochujang | — | — | — | — | — | — | — | — | — | — | 15 | — | — |
+| 🌿 Za'atar | — | — | — | — | — | — | — | — | — | 5 | — | — | — |
+| 🍇 Sumac | tbl | tbl | — | — | tbl | — | — | — | — | 3 | — | — | — |
+| 🍶 Red miso ⚠ | — | — | — | — | — | — | — | — | 10 | — | — | — | — |
+| 🍲 Green curry paste | — | — | — | — | — | — | — | — | — | — | — | 20 | — |
+| 🟡 Mae Ploy yellow paste | — | — | — | — | — | — | — | — | — | — | — | — | 20 |
+| 🌾 Lemongrass paste | — | — | — | — | — | — | — | — | — | — | — | 10 | — |
+| 🫚 Galangal paste | — | — | — | — | — | — | — | — | — | — | — | 8 | — |
+| **Heat / chili** | | | | | | | | | | | | | |
+| 🌶️ Chipotle (soaked) | — | — | — | — | — | 8 | 8 | 8 | — | — | — | — | — |
+| 🫑 Ancho flakes | — | — | — | 6 | — | 8 | 8 | 8 | — | — | — | — | — |
+| 🌶️ Dried chilli (soak) | 2 pc | 2–3 pc | ~3 | 1–2 pc | — | — | — | — | 1 pc | — | — | — | 2–3 pc |
+| 🌶️ Smoked paprika ⚠ | — | — | — | — | — | 6 | 6 | 6 | — | — | — | — | — |
+| 🌶️ Sweet / Kashmiri paprika | — | 3 | — | — | — | — | — | — | — | — | — | — | — |
+| 🌶️ Bird's-eye | — | — | — | — | tbl | — | — | — | — | — | — | — | soak† |
+| **Toasted whole spices** | | | | | | | | | | | | | |
+| 🌰 Cumin | 3 | 4 | 2 | 3 | 2 | 2 | 2 | 2 | — | — | — | — | — |
+| 🌭 Mustard | 3–4 | 4 | — | 4 | — | — | — | — | — | — | — | — | — |
+| 🌿 Fennel | — | — | — | 2 | — | — | — | — | — | — | — | — | — |
+| 🪵 Cinnamon | — | — | — | 1 | — | — | 1 | — | — | — | — | — | — |
+| ⚫ Cacao nibs | — | — | — | — | — | — | 3 | — | — | — | — | — | — |
+| 🟤 Carob powder | — | — | — | — | — | — | — | 5 | — | — | — | — | — |
+| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | — | — | — | — | 4 | 4 |
+| 🌿 Coriander (ground) | — | — | — | — | — | 2 | — | — | — | — | — | — | — |
+| 🌿 Oregano | — | — | — | — | 2 | 2 | 2 | — | — | — | — | — | — |
+| **Aromatics** | | | | | | | | | | | | | |
+| 🧄 Garlic (fresh) | 8 | — | — | — | 4 | — | — | — | 4 | — | — | — | — |
+| 🧄 Garlic powder | — | 2 | 2 | — | — | 1.5 | 1.5 | 1.5 | 1–2 | — | — | — | — |
+| 🫚 Fresh ginger | — | — | — | — | — | — | — | — | 8–10 | — | 8 | 3 | 5 (paste) |
+| 🫚 Dried ginger | 1 | 1.5 | 1.5 | — | — | — | — | — | 3–4 | — | — | — | — |
+| 🍅 Tomato paste (bhuna) | 15 | 22 | 20 | — | 8 | 20 | **none** | **none** | — | — | — | — | — |
+| 🥕 Grated carrot | — | — | — | — | 50 | — | — | — | — | — | — | — | — |
+| **Liquid finishers / umami** | | | | | | | | | | | | | |
+| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | 15 | — | 10 | 10 | 15 | 5–8 |
+| 🧀 Nutritional yeast | — | — | — | 15 | 3 | 5 | 6 | 10 | — | 15 | — | — | — |
+| 🥜 Defatted peanut flour | — | — | — | — | — | — | — | — | — | — | — | — | 5–8 |
+| 🍶 Dashi soy | — | — | — | — | — | — | — | — | 8–10 | — | — | — | — |
+| 🍶 Mirin | — | — | — | — | — | — | — | — | 10 | — | — | — | — |
+| 🛢️ Sesame oil (finish) | — | — | — | — | — | — | — | — | 5 | — | 5 | — | — |
+| 🍋 Rice vinegar | — | — | — | — | — | — | — | — | — | — | 5 | — | — |
+| 🥭 Tamarind | — | — | — | — | — | — | — | 8 | — | — | — | — | — |
+| 🌶️ Shichimi | — | — | — | — | — | — | — | — | 4 | — | — | — | — |
+| 🥬 Nori | — | — | — | — | — | — | — | — | ~1.5 | — | ~2 | — | — |
+| 🧂 Salt (in soak) | 1 | 1 | 1.5 | — | — | 1 | 1 | 1 | — | — | — | — | — |
+| 🍋 Lemon / lime | — | — | lemon | — | — | lime | lime | — | — | — | — | — | lime |
+| 🥥 Coconut milk (opt) | 40–50 | — | 40–50 | — | — | — | — | — | — | — | — | — | — |
+| 🫙 Garam masala (opt) | — | — | 2 | — | — | — | — | — | — | — | — | — | — |
 
 \* 🍛 **Indian** — Tikka *or* Madras, not both; the **bold** Indian runs tikka at 9 g.
 † 🌶️ **Y.Thai bird's-eye** — 2–3 whole dried bird's-eye chillies, **soaked overnight**, blended and **cooked into** the sauce (not at the table) → pervasive built-in heat; see the profile.
@@ -81,6 +83,7 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 - 🍅 **Mexican mole** is the one tomato-base build with **no bhuna** — its umami is 🫗 aminos + 🧀 nooch + 🍄 shiitake (glutamate × guanylate). Every other tomato-base profile bhunas the paste.
 - 🥥 The coconut-milk splash (Indian, Curry-Powder) is an optional creamy / acid-cut finish, not core.
 - 🟡 **Yellow Thai (Mae Ploy)** — added 2026-07-05 (a Mae Ploy run-down); its umami is the fried paste + 🍄 shiitake, **no coconut milk** (sat-fat), 🫚 ginger *paste*, and the bird's-eye soak (†). Full build below.
+- 🟤 **Mexican carob-chipotle-tamarind** — designed 2026-07-14 as a redesign of the mole-chipotle build after its cocoa/cinnamon **"didn't register"** (cook log, 2026-06-23: 8.0, "a bit too much going on in the pan"). Swaps 🟤 carob for ⚫ cacao (sweeter, more forward, doesn't need a long simmer to develop), drops 🪵 cinnamon and 🌿 oregano entirely, cuts 🍄 shiitake to **none** (losing the glutamate × guanylate synergy — a real trade, not a free simplification), and adds 🥭 tamarind off heat as the sour note, replacing the at-table lime rather than sitting alongside it. Net: fewer competing notes than the build that was diagnosed as crowded, even with tamarind added. Untested — see the profile.
 
 ---
 
@@ -422,6 +425,51 @@ A **mole/adobo** lean on the chipotle-forward Mexican profile: smoky chipotle + 
 - **Accept mole needs time:** keep it simple-chipotle (the 8.5 build) and treat cocoa/cinnamon as a *separate* long-simmer project, not a quick-shakshuka add.
 
 Leaning toward the first: the problem was crowding, not the idea.
+
+---
+
+## Profile: [Mexican — Carob-Chipotle-Tamarind (solo)][s-mexcarob]
+
+A redesign of the mole-chipotle build addressing its diagnosed failure: cocoa and cinnamon **"didn't register,"** crowded out by the smoke and the shiitake umami. This version swaps **carob for cacao** (sweeter, more forward — doesn't need a long simmer to develop the way cacao's bitterness does), drops cinnamon and oregano entirely, cuts shiitake to **none**, and adds **tamarind** off heat as the sour note, replacing the at-table lime. Holger solo; designed 2026-07-14 for a 2026-07-15 cook. Run-down: carob, nutritional yeast.
+
+### Single-serving build (2 eggs)
+
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| 🌶️ Whole chipotle | 8 g | chilli soak, 10–15 min |
+| 🫑 Ancho flakes | 8 g | chilli soak |
+| 💧 Just-boiled water | ~70 g | chilli soak — blend with the soak water into a smoky paste |
+| 🧂 Salt | 1 g | chilli soak |
+| 🥑 Avocado oil | ≤3 g | bloom — brief, paprika/carob both scorch |
+| 🧄 Garlic powder | 1.5 g | bloom |
+| 🌰 Toasted cumin | 2 g | bloom |
+| 🌶️ Smoked paprika | 6 g | bloom |
+| 🟤 Carob powder (the mole bridge, replacing cacao) | 5 g | bloom |
+| 🥫 Canned tomatoes | 400 g | base — no paste, simmer a few minutes longer to cook off the raw-tin edge |
+| 🥬 Spinach | 100 g | base |
+| 🥚 Eggs | 2 | base, in wells |
+| 🫗 Coconut aminos | 15 g | off heat |
+| 🧀 Nutritional yeast (bumped from the mole build's 6 g) | 10 g | off heat, cotija-style — carrying more of the umami load now shiitake's gone |
+| 🥭 Tamarind paste | 8 g | off heat, replacing the at-table lime entirely |
+
+### Design notes
+
+- **Carob over cacao — solving the actual failure, not repeating it.** The mole build's cocoa "didn't register" in a 5–7 min shakshuka; cacao needs real development time to round out its bitterness, which a quick cook doesn't give it. Carob is naturally sweeter and more forward straight away, so it has a better shot at actually being tasted rather than getting lost again.
+- **Cinnamon and oregano cut, not reduced.** Both were non-essential even in the original build (oregano was already marked optional); cutting them follows the v1 diagnosis directly — "fewer, louder notes," not more competing ones.
+- **Shiitake cut entirely — a real trade-off, named honestly.** The mole build's umami came from a **glutamate × guanylate synergy**: coconut aminos + nutritional yeast supply glutamate, shiitake supplied guanylate, and the multiplicative combination is what gave it a dashi-like punch. Dropping shiitake loses the guanylate side completely — this reads as simpler, more straightforwardly savoury, not an equivalent replacement. Nutritional yeast is bumped 6→10 g to carry more of the glutamate load alone, but that's addition, not substitution for what shiitake was doing.
+- **Tamarind replaces the at-table lime, not stacked alongside it.** Added off heat, matching the technique already established for the Thai-green profile's tamarind addition — keeps the sourness bright rather than dulled by continued simmering, and lets the final acidity be tasted and adjusted directly. The mole build's crowding problem came from too many competing elements; adding tamarind on top of an unchanged lime finish would have repeated that mistake, so it takes over the acid role entirely instead of adding a fourth axis.
+- **Net note count vs. the diagnosed-as-crowded v1:** cinnamon and oregano out, shiitake out, tamarind in — a genuine simplification even with one new ingredient added.
+- **Pantry rundown, not just flavour design.** Carob and nutritional yeast both needed running down; this profile leans on both rather than treating the rundown as a constraint to work around.
+
+### Nutrition (whole serving)
+
+*Estimates, not FoodNoms-verified — USDA-derived + labels; micros are committed best-estimates.*
+
+**425 kcal · 28 g protein · 48 g carbs (25 g sugars) · 16 g fat (4 g sat) · 17 g fibre · salt 2.4 g.** Micros: K 2085 mg, Ca 352 mg, Mg 174 mg, Fe 11.1 mg, Zn 2.9 mg, folate 288 µg, B12 0.9 µg, vit D 2 µg. Sugar is higher than the mole build's (25 g vs 20 g) — carob and tamarind are both naturally sugar-forward, unlike cacao's near-zero sugar.
+
+**⬇ Download** (`BuildFoodNomsRecipe`): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Carob-Chipotle-Tamarind+Shakshuka+%5b15-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=1&totalServingSize=735&fdcIds=168462%2c171287%2c168570%2c169396%2c171325%2c170923%2c171329%2c2709269&grams=100%2c100%2c8%2c8%2c1.5%2c2%2c6%2c8&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bNutritional+Yeast+Flakes%3bCarob+Powder%3bSalt&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3aA79EC48D-C9A5-43A9-9F24-C57821BECF60%3blocal%3a9F3C2A1B-6D4E-4A87-B21C-3E7F5A8D9C40%3blocal%3aEE813529-2183-7C7A-B162-B5ACD9E08B96&customQuantities=400%3b3%3b15%3b10%3b5%3b1&customUnits=gram%3bgram%3bgram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b349%2c47%2c39%2c1%2c5%2c1%2c20%2c80%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b233%2c6.67%2c86.67%2c46.67%2c0%2c0%2c40%2c33%2c2.67%2c347%2c0%2c0%2c827%2c0%2c0%2c0%3b0%2c0%2c0%2c0%2c0%2c0%2c0%2c39300%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0) · chipotle → "Peppers, hot chile, sun-dried" (168570) as a proxy; carob powder from a generic branded label (no specific product registered yet).
+
+**Untested.** No cook log yet — this is the plan for tomorrow's breakfast.
 
 ---
 
@@ -830,6 +878,7 @@ One **meal** file per profile (collectionType 2; **committed values, no ±band**
 [s-mexkid]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Shakshuka+%28Kid-Safe%29+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462%2c170393%2c173735&grams=100%2c50%2c60&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+cumin%2c+oregano%2c+garlic%2c+tomato+paste%2c+nooch&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3aDD0C3183-A519-9630-3297-770B73B21159&customQuantities=300%3b100%3b7%3b3%3b19.0000&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b188.3680%2c13.4011%2c32.9912%2c6.1643%2c3.8878%2c0.5438%2c10.9058%2c61.3688%2c12.4717%2c319.3682%2c1.2980%2c89.8943%2c832.2102%2c0.0000%2c0.0000%2c31.6846
 [s-mexchip]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Chipotle+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+chipotle%2c+ancho%2c+smoked+paprika%2c+cumin%2c+coriander%2c+oregano%2c+tomato+paste%2c+nooch&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a6C0DB40D-EA91-F177-699E-0171D9D605A6&customQuantities=400%3b100%3b3%3b15%3b55.5000&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b220.7471%2c12.7576%2c41.5669%2c12.0722%2c5.1817%2c0.7155%2c16.8301%2c779.4239%2c11.2051%2c191.1439%2c1.5675%2c113.3602%2c1531.9904%2c0.0000%2c0.0000%2c46.9644
 [s-mexmole]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Mole-Chipotle+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+chipotle%2c+ancho%2c+smoked+paprika%2c+cumin%2c+cinnamon%2c+cacao%2c+shiitake%2c+oregano%2c+nooch&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a68A63FA3-53D1-1BE0-2C92-75F9C4CF42F8&customQuantities=400%3b100%3b3%3b15%3b43.5000&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b322.7701%2c16.5220%2c55.7705%2c9.8640%2c9.6741%2c2.8491%2c24.3879%2c962.5519%2c12.3227%2c203.1604%2c2.8847%2c128.7242%2c1521.0229%2c17.7006%2c0.0000%2c62.8855
+[s-mexcarob]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Mexican+Carob-Chipotle-Tamarind+Shakshuka+%5b15-07-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+chipotle%2c+ancho%2c+garlic+powder%2c+cumin%2c+smoked+paprika%2c+carob%2c+tamarind%2c+nooch&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a7C4A9E2D-3B81-4F6A-9D5E-1A8C6B3F2E90&customQuantities=400%3b100%3b3%3b15%3b49.5&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b289.808%2c17.183%2c56.871%2c19.241%2c5.856%2c0.839%2c21.962%2c870.6%2c8.880%2c131.909%2c1.220%2c86.051%2c1261.667%2c0%2c0%2c29.424
 [s-japanese]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Japanese+Miso+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bSpices+%26+Seasonings+%e2%80%94+miso%2c+mirin%2c+dashi+soy%2c+sesame+oil%2c+shichimi%2c+nori%2c+garlic%2c+ginger%2c+chilli&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3blocal%3a681994D3-E3F0-A68F-5D7F-102593B6499A&customQuantities=400%3b100%3b53.5&customUnits=gram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b230.533%2c5.188%2c25.274%2c8.884%2c11.419%2c1.651%2c3.945%2c1742.364%2c1.875%2c48.523%2c0.896%2c40.393%2c255.299%2c0%2c0.015%2c11.682
 [s-meast]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Middle+Eastern+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+za%27atar%2c+sumac%2c+nooch%2c+garlic&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a7EF683B8-ABB1-B354-1FD3-723E9600E44D&customQuantities=400%3b100%3b3%3b10%3b27.0000&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b312.9999%2c29.6462%2c42.1201%2c2.9266%2c6.2595%2c1.0877%2c18.8299%2c513.2595%2c3.3629%2c134.2223%2c0.8935%2c48.1480%2c274.2221%2c0.0000%2c0.0000%2c0.4440
 [s-korean]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Korean+Gochujang+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+gochujang%2c+ginger%2c+sesame+oil%2c+rice+vinegar&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a9095E184-5C3E-BFE0-A3A2-293AE7AA745F&customQuantities=400%3b100%3b10%3b33.0000&customUnits=gram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b256.0612%2c2.7291%2c25.2922%2c10.4879%2c16.2428%2c2.3226%2c1.8483%2c1095.1212%2c0.9121%2c17.8176%2c0.3101%2c24.2116%2c192.4237%2c0.0000%2c0.0000%2c2.6673
