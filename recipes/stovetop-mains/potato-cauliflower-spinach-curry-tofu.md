@@ -14,7 +14,7 @@
 | 🟠 | 🍛 Mild curry powder (added late, bloomed) | 30 g | 94 | | local *(label + est.)* |
 | 🟢 | 🍅 Tomato purée (bhuna'd until it darkens) | 50 g | 52 | | [usda](https://fdc.nal.usda.gov/food-details/2685580/nutrients) |
 | 🟣 | 🥥 Light coconut milk (Biona) | 400 ml | 360 | | local |
-| 🟢 | 🥦 Cauliflower (air-fried) | 500 g | 125 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
+| 🟢 | 🥦 Cauliflower (air-fried) | 500 g | 125 | **967.5 g** | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | 🟢 | 🥬 Spinach (wilted in at the end) | 200 g | 46 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | 🟤 | 🧊 Firm tofu (air-fried, side) | 400 g | 576 | | [usda](https://fdc.nal.usda.gov/food-details/172475/nutrients) |
 | | **Total** | **~2.50 kg** | **~1988** | | |
