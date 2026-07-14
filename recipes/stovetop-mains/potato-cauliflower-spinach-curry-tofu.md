@@ -8,7 +8,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟢 | 🥔 Potato (air-fried) | 600 g | 462 | | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
+| 🟢 | 🥔 Potato (air-fried) | 600 g | 462 | **1548 g** | [usda](https://fdc.nal.usda.gov/food-details/170026/nutrients) |
 | 🟣 | 🥑 Avocado oil (potato + cauliflower toss, bhuna, tofu) | 18 g | 159 | | local |
 | 🟡 | 🧅 Onion (microwave-jumpstart, bhuna'd in the wok) | 300 g | 114 | **411.5 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟠 | 🍛 Mild curry powder (added late, bloomed) | 30 g | 94 | | local *(label + est.)* |
