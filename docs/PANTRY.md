@@ -60,6 +60,8 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 - **Dried legumes** — black-eyed beans, butter beans, chickpeas, lentils, soybeans, pinto (rotated based on which recipes are in the queue). Pinto break down creamy when puréed — fat-free body for soups (see the Pinto–Butternut soup). Unsoaked: 20–25 min HP, natural release.
 - **Tinned beans** — kidney, butter, chickpea (for shortcut variants)
 - **Rice** — long-grain default
+- **Israeli (pearl) couscous** — toasted wheat pasta (Osem); chewier and lower-fibre than fine semolina couscous (~3.6 g/100 g), simmered 8–10 min not soaked. Used in the miso couscous bowl. Label: 364 kcal, 11 g protein, 78 g carb, 3.6 g fibre, 1.4 g fat, 0 salt per 100 g.
+- **3 Glocken "Die mag ich" alphabet egg-noodle soup pasta** (Suppen-Nudeln; German, durum wheat semolina + egg 10%; 250 g pack, cook 7–8 min; may contain traces of soya) — kid-friendly letter shapes for soups/broths. Label per 100 g (uncooked): **361 kcal, 13 g protein, 70 g carb, 3.0 g sugar, 3.0 g fibre, 2.5 g fat (0.5 g sat), salt 0.05 g**.
 
 ### Protein
 
