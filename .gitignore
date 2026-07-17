@@ -1,3 +1,4 @@
 # Generated at webapp build time (see webapp/scripts/build-index.mjs) — not committed
 webapp/content/
 webapp/data/recipes-index.json
+webapp/data/pantry-index.json

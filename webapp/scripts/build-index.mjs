@@ -205,6 +205,45 @@ function buildShakshukaEntries() {
     });
 }
 
+// docs/PANTRY_FOODS.md carries one entry per distinct ingredient-cell string
+// used across the recipe corpus, each ending in a fenced ```json:pantry-data```
+// block — the machine-readable half of the file (the prose above it is for
+// humans). Unlike recipes, this file is hand-curated nutrition data, not
+// regenerated from recipe content, so we only read it here.
+function buildPantryIndex() {
+  const absPath = join(REPO_ROOT, 'docs/PANTRY_FOODS.md');
+  let content;
+  try {
+    content = readFileSync(absPath, 'utf8');
+  } catch {
+    return null;
+  }
+
+  const foods = [];
+  const blockRe = /```json:pantry-data\n([\s\S]*?)\n```/g;
+  let m;
+  while ((m = blockRe.exec(content))) {
+    try {
+      foods.push(JSON.parse(m[1]));
+    } catch (err) {
+      console.warn(`Skipping malformed pantry-data block: ${err.message}`);
+    }
+  }
+
+  const displayName = (text) => text.replace(/\p{Extended_Pictographic}(️)?\s*/u, '').trim();
+  foods.sort((a, b) => displayName(a.text).localeCompare(displayName(b.text)));
+
+  const researchedCount = foods.filter((f) => f.status === 'researched' || f.status === 'compound').length;
+
+  return {
+    generatedAt: new Date().toISOString(),
+    count: foods.length,
+    researchedCount,
+    pendingCount: foods.length - researchedCount,
+    foods,
+  };
+}
+
 function build() {
   rmSync(CONTENT_DIR, { recursive: true, force: true });
   mkdirSync(CONTENT_DIR, { recursive: true });
@@ -277,6 +316,14 @@ function build() {
   console.log(
     `Indexed ${entries.length} recipes across ${index.categories.length} categories (incl. ${shakshukaEntries.length} Shakshuka sections).`
   );
+
+  const pantryIndex = buildPantryIndex();
+  if (pantryIndex) {
+    writeFileSync(join(DATA_DIR, 'pantry-index.json'), JSON.stringify(pantryIndex, null, 2), 'utf8');
+    console.log(
+      `Indexed ${pantryIndex.count} pantry foods (${pantryIndex.researchedCount} researched, ${pantryIndex.pendingCount} pending).`
+    );
+  }
 }
 
 build();

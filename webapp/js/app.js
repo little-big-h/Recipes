@@ -1,5 +1,5 @@
 import { isUnlocked, mountLockScreen } from './auth.js';
-import { renderMarkdown } from './markdown.js';
+import { renderMarkdown, renderInline } from './markdown.js';
 import { initPullToRefresh } from './pull-to-refresh.js';
 
 const root = document.getElementById('app');
@@ -14,6 +14,10 @@ const state = {
   category: 'All',
   sort: 'newest',
   currentRecipe: null,
+  pantryIndex: null,
+  pantryQuery: '',
+  currentFood: null,
+  view: 'recipes', // 'recipes' | 'pantry' — which top-level section is active
 };
 
 function readList(key) {
@@ -53,6 +57,12 @@ async function loadIndex() {
   return res.json();
 }
 
+async function loadPantryIndex() {
+  const res = await fetch('data/pantry-index.json', { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`Failed to load pantry index (${res.status})`);
+  return res.json();
+}
+
 function matchesQuery(recipe, query) {
   if (!query) return true;
   const haystack = `${recipe.title} ${recipe.subtitle || ''} ${recipe.category}`.toLowerCase();
@@ -76,6 +86,19 @@ function visibleRecipes() {
   }
 
   return list;
+}
+
+function matchesPantryQuery(food, query) {
+  if (!query) return true;
+  return food.text.toLowerCase().includes(query.toLowerCase());
+}
+
+function visiblePantryFoods() {
+  if (!state.pantryIndex) return [];
+  return state.pantryIndex.foods
+    .filter((f) => matchesPantryQuery(f, state.pantryQuery))
+    .slice()
+    .sort((a, b) => foodDisplayName(a.text).localeCompare(foodDisplayName(b.text)));
 }
 
 function truncate(text, max) {
@@ -165,44 +188,104 @@ function renderList() {
   });
 }
 
-function setHeaderMode(mode, recipe) {
+function foodEmoji(text) {
+  const m = text.match(/\p{Extended_Pictographic}(️)?/u);
+  return m ? m[0] : '🧺';
+}
+
+function foodDisplayName(text) {
+  return text.replace(/\p{Extended_Pictographic}(️)?\s*/u, '').trim();
+}
+
+function renderPantryList() {
+  const listEl = document.getElementById('pantry-list');
+  const emptyEl = document.getElementById('pantry-empty-state');
+  const foods = visiblePantryFoods();
+
+  emptyEl.hidden = foods.length !== 0;
+  listEl.innerHTML = foods
+    .map((f) => {
+      const meta = [];
+      if (f.status === 'pending') meta.push('profile pending');
+      else if (f.per100?.calories != null) meta.push(`${Math.round(f.per100.calories)} kcal / 100g`);
+      meta.push(`${f.recipes.length} recipe${f.recipes.length === 1 ? '' : 's'}`);
+      return `
+      <div class="recipe-card">
+        <button class="recipe-card-main" data-food-id="${f.id}">
+          <p class="recipe-card-title">${foodEmoji(f.text)} ${foodDisplayName(f.text)}</p>
+          <div class="recipe-card-meta">${meta.map((m) => `<span class="tag">${m}</span>`).join('')}</div>
+        </button>
+      </div>`;
+    })
+    .join('');
+
+  listEl.querySelectorAll('[data-food-id]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.location.hash = `#/pantry/${btn.dataset.foodId}`;
+    });
+  });
+}
+
+// view: 'recipes' | 'pantry' — which top-level section.
+// mode: 'list' | 'detail'.
+// item: the current recipe or pantry food when mode === 'detail'.
+function setHeaderMode(view, mode, item) {
   const navTitle = document.getElementById('nav-title');
   const backBtn = document.getElementById('back-btn');
+  const navMenuBtn = document.getElementById('nav-menu-btn');
   const refreshBtn = document.getElementById('refresh-btn');
   const moreBtn = document.getElementById('more-btn');
   const searchRow = document.getElementById('search-row');
+  const searchInput = document.getElementById('search-input');
+  const sortSelect = document.getElementById('sort-select');
   const chips = document.getElementById('category-chips');
 
   const inDetail = mode === 'detail';
+  const inPantry = view === 'pantry';
 
-  navTitle.textContent = inDetail ? recipe.title : '🍽️ Family Recipes';
+  if (inDetail) {
+    navTitle.textContent = inPantry ? foodDisplayName(item.text) : item.title;
+  } else {
+    navTitle.textContent = inPantry ? '🧺 Pantry' : '🍽️ Family Recipes';
+  }
+
   backBtn.hidden = !inDetail;
+  navMenuBtn.hidden = inDetail;
   refreshBtn.hidden = inDetail;
-  moreBtn.hidden = !inDetail;
+  moreBtn.hidden = !inDetail || inPantry;
   searchRow.hidden = inDetail;
-  chips.hidden = inDetail;
+  chips.hidden = inDetail || inPantry;
+  sortSelect.hidden = inPantry;
+  searchInput.placeholder = inPantry ? 'Search pantry' : 'Search recipes or ingredients';
+}
+
+function hideAllViews() {
+  document.getElementById('recipe-list').hidden = true;
+  document.getElementById('empty-state').hidden = true;
+  document.getElementById('recipe-detail').hidden = true;
+  document.getElementById('pantry-list').hidden = true;
+  document.getElementById('pantry-empty-state').hidden = true;
+  document.getElementById('pantry-detail').hidden = true;
 }
 
 async function showDetail(id) {
   const recipe = state.index.recipes.find((r) => r.id === id);
-  const listView = document.getElementById('recipe-list');
-  const emptyEl = document.getElementById('empty-state');
   const detail = document.getElementById('recipe-detail');
   const contentEl = document.getElementById('recipe-content');
 
+  state.view = 'recipes';
   state.currentRecipe = recipe || null;
-  listView.hidden = true;
-  emptyEl.hidden = true;
+  hideAllViews();
   detail.hidden = false;
   window.scrollTo(0, 0);
 
   if (!recipe) {
-    setHeaderMode('list');
+    setHeaderMode('recipes', 'list');
     contentEl.innerHTML = '<p class="load-error">Recipe not found.</p>';
     return;
   }
 
-  setHeaderMode('detail', recipe);
+  setHeaderMode('recipes', 'detail', recipe);
   contentEl.innerHTML = '<p class="loading">Loading…</p>';
 
   try {
@@ -219,10 +302,108 @@ async function showDetail(id) {
 }
 
 function hideDetail() {
+  state.view = 'recipes';
+  hideAllViews();
   document.getElementById('recipe-list').hidden = false;
-  document.getElementById('recipe-detail').hidden = true;
-  setHeaderMode('list');
+  setHeaderMode('recipes', 'list');
   renderList();
+}
+
+function nutrientTableHtml(per100) {
+  const ROWS = [
+    ['calories', 'Energy', 'kcal', 1],
+    ['protein', 'Protein', 'g', 1],
+    ['carbs', 'Carbohydrates', 'g', 1],
+    ['sugars', '— of which sugars', 'g', 1],
+    ['fat', 'Fat', 'g', 1],
+    ['fatSaturated', '— of which saturates', 'g', 1],
+    ['fiber', 'Fibre', 'g', 1],
+    ['sodium', 'Salt', 'g', 2.5 / 1000],
+  ];
+  const MICRO_ROWS = [
+    ['iron', 'Iron', 'mg', 1],
+    ['calcium', 'Calcium', 'mg', 1],
+    ['zinc', 'Zinc', 'mg', 1],
+    ['magnesium', 'Magnesium', 'mg', 1],
+    ['potassium', 'Potassium', 'mg', 1],
+    ['vitaminD', 'Vitamin D', 'µg', 1],
+    ['vitaminB12', 'Vitamin B12', 'µg', 1],
+    ['folate', 'Folate', 'µg', 1],
+  ];
+  const fmt = (v, mult) => {
+    const n = v * mult;
+    return Math.abs(n) < 10 ? Math.round(n * 100) / 100 : Math.round(n * 10) / 10;
+  };
+  const rows = ROWS.map(([key, label, unit, mult], i) => {
+    const macroVal = per100[key] != null ? `${fmt(per100[key], mult)} ${unit}` : '—';
+    const [mkey, mlabel, munit, mmult] = MICRO_ROWS[i];
+    const microVal = per100[mkey] != null ? `${fmt(per100[mkey], mmult)} ${munit}` : '—';
+    return `<tr><td>${label}</td><td>${macroVal}</td><td>${mlabel}</td><td>${microVal}</td></tr>`;
+  });
+  return `<div class="table-scroll"><table><thead><tr><th>Macro</th><th>Total</th><th>Micro</th><th>Total</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+}
+
+function pantryFoodNomsLinkHtml(url, label) {
+  const standalone = isStandaloneApp();
+  const attrs = standalone ? '' : ' target="_blank" rel="noopener"';
+  return `<p><a href="${url}"${attrs}>⬇︎ ${label || 'Download FoodNoms'}</a></p>`;
+}
+
+function pantryUsedInHtml(food) {
+  if (!food.recipes.length) return '';
+  const links = food.recipes
+    .map((r) => `<li><a href="#/recipe/${r.id}">${r.title}</a></li>`)
+    .join('');
+  return `<h2>Used in</h2><ul>${links}</ul>`;
+}
+
+async function showPantryDetail(id) {
+  const food = state.pantryIndex?.foods.find((f) => f.id === id) || null;
+  const detail = document.getElementById('pantry-detail');
+  const contentEl = document.getElementById('pantry-content');
+
+  state.view = 'pantry';
+  state.currentFood = food;
+  hideAllViews();
+  detail.hidden = false;
+  window.scrollTo(0, 0);
+
+  if (!food) {
+    setHeaderMode('pantry', 'list');
+    contentEl.innerHTML = '<p class="load-error">Pantry item not found.</p>';
+    return;
+  }
+
+  setHeaderMode('pantry', 'detail', food);
+
+  let html = `<h1>${foodEmoji(food.text)} ${foodDisplayName(food.text)}</h1>`;
+
+  if (food.status === 'pending') {
+    html += `<p class="load-error">Profile pending — nutrition research not yet done for this ingredient.</p>`;
+  } else if (food.status === 'compound') {
+    html += `<p><em>This ingredient cell names more than one food; both are shown below.</em></p>`;
+    for (const comp of food.components) {
+      html += `<h2>${comp.label}</h2>`;
+      if (comp.source) html += `<p><em>${renderInline(comp.source)}</em></p>`;
+      html += nutrientTableHtml(comp.per100);
+      html += pantryFoodNomsLinkHtml(comp.foodNomsUrl, `Download ${comp.label}`);
+    }
+  } else {
+    if (food.source) html += `<p><em>${renderInline(food.source)}</em></p>`;
+    html += nutrientTableHtml(food.per100);
+    html += pantryFoodNomsLinkHtml(food.foodNomsUrl);
+  }
+
+  html += pantryUsedInHtml(food);
+  contentEl.innerHTML = html;
+}
+
+function hidePantryDetail() {
+  state.view = 'pantry';
+  hideAllViews();
+  document.getElementById('pantry-list').hidden = false;
+  setHeaderMode('pantry', 'list');
+  renderPantryList();
 }
 
 async function shareRecipe(recipe) {
@@ -241,9 +422,15 @@ async function shareRecipe(recipe) {
 
 function route() {
   const hash = window.location.hash;
-  const m = hash.match(/^#\/recipe\/(.+)$/);
-  if (m) {
-    showDetail(decodeURIComponent(m[1]));
+  const recipeMatch = hash.match(/^#\/recipe\/(.+)$/);
+  const pantryItemMatch = hash.match(/^#\/pantry\/(.+)$/);
+
+  if (recipeMatch) {
+    showDetail(decodeURIComponent(recipeMatch[1]));
+  } else if (pantryItemMatch) {
+    showPantryDetail(decodeURIComponent(pantryItemMatch[1]));
+  } else if (hash === '#/pantry') {
+    hidePantryDetail();
   } else {
     hideDetail();
   }
@@ -251,19 +438,15 @@ function route() {
 
 async function refreshData() {
   try {
-    state.index = await loadIndex();
+    const [index, pantryIndex] = await Promise.all([loadIndex(), loadPantryIndex().catch(() => state.pantryIndex)]);
+    state.index = index;
+    state.pantryIndex = pantryIndex;
   } catch {
     return; // keep showing whatever's already on screen rather than erroring out
   }
 
   renderChips();
-
-  const m = window.location.hash.match(/^#\/recipe\/(.+)$/);
-  if (m) {
-    await showDetail(decodeURIComponent(m[1]));
-  } else {
-    renderList();
-  }
+  route();
 
   if ('serviceWorker' in navigator) {
     const reg = await navigator.serviceWorker.getRegistration();
@@ -291,15 +474,27 @@ async function initApp() {
     return;
   }
 
+  try {
+    state.pantryIndex = await loadPantryIndex();
+  } catch {
+    state.pantryIndex = { count: 0, researchedCount: 0, pendingCount: 0, foods: [] };
+  }
+
   renderChips();
   renderList();
+  renderPantryList();
   route();
 
   document.getElementById('search-input').addEventListener(
     'input',
     debounce((e) => {
-      state.query = e.target.value;
-      renderList();
+      if (state.view === 'pantry') {
+        state.pantryQuery = e.target.value;
+        renderPantryList();
+      } else {
+        state.query = e.target.value;
+        renderList();
+      }
     }, 150)
   );
 
@@ -309,25 +504,50 @@ async function initApp() {
   });
 
   document.getElementById('back-btn').addEventListener('click', () => {
-    window.location.hash = '';
+    window.location.hash = state.view === 'pantry' ? '#/pantry' : '';
   });
 
   document.getElementById('refresh-btn').addEventListener('click', refreshData);
 
   window.addEventListener('hashchange', route);
 
-  document.getElementById('recipe-content').addEventListener('click', (e) => {
-    const btn = e.target.closest('.md-toggle');
-    if (!btn) return;
-    const section = btn.closest('.md-section');
-    const collapsed = section.classList.toggle('collapsed');
-    btn.textContent = collapsed ? 'Show' : 'Hide';
-    btn.setAttribute('aria-expanded', String(!collapsed));
-  });
+  document.getElementById('recipe-content').addEventListener('click', handleSectionToggle);
+  document.getElementById('pantry-content').addEventListener('click', handleSectionToggle);
 
   setupMoreMenu();
+  setupNavMenu();
 
   initPullToRefresh(refreshData);
+}
+
+function handleSectionToggle(e) {
+  const btn = e.target.closest('.md-toggle');
+  if (!btn) return;
+  const section = btn.closest('.md-section');
+  const collapsed = section.classList.toggle('collapsed');
+  btn.textContent = collapsed ? 'Show' : 'Hide';
+  btn.setAttribute('aria-expanded', String(!collapsed));
+}
+
+function setupNavMenu() {
+  const navMenu = document.getElementById('nav-menu');
+  const closeMenu = () => {
+    navMenu.hidden = true;
+  };
+
+  document.getElementById('nav-menu-btn').addEventListener('click', () => {
+    navMenu.hidden = false;
+  });
+  document.getElementById('nav-menu-backdrop').addEventListener('click', closeMenu);
+  document.getElementById('nav-menu-cancel').addEventListener('click', closeMenu);
+  document.getElementById('nav-menu-recipes').addEventListener('click', () => {
+    closeMenu();
+    window.location.hash = '';
+  });
+  document.getElementById('nav-menu-pantry').addEventListener('click', () => {
+    closeMenu();
+    window.location.hash = '#/pantry';
+  });
 }
 
 // Installed (home-screen/Dock) web apps open target="_blank" links in a

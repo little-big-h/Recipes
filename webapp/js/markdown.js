@@ -10,7 +10,7 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-function renderInline(raw, opts = {}) {
+export function renderInline(raw, opts = {}) {
   let s = escapeHtml(raw);
 
   // inline code

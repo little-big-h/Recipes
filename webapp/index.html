@@ -24,11 +24,18 @@
 <template id="tpl-shell">
   <div class="app-header" id="app-header">
     <div class="nav-row">
-      <button id="back-btn" class="icon-btn nav-back" aria-label="Back to recipes" hidden>‹</button>
+      <button id="back-btn" class="icon-btn nav-back" aria-label="Back" hidden>‹</button>
+      <button id="nav-menu-btn" class="icon-btn" aria-label="Menu" hidden>
+        <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M1 1.5H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M1 8H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M1 14.5H14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </button>
       <h1 id="nav-title">🍽️ Family Recipes</h1>
       <div class="nav-actions">
         <button id="more-btn" class="icon-btn" aria-label="More actions" hidden>•••</button>
-        <button id="refresh-btn" class="icon-btn" aria-label="Refresh recipes">⟳</button>
+        <button id="refresh-btn" class="icon-btn" aria-label="Refresh">⟳</button>
       </div>
     </div>
 
@@ -55,9 +62,25 @@
   <main id="recipe-list" class="recipe-list"></main>
   <p class="empty-state" id="empty-state" hidden>No recipes match — try a different search or category.</p>
 
+  <main id="pantry-list" class="recipe-list" hidden></main>
+  <p class="empty-state" id="pantry-empty-state" hidden>No pantry items match — try a different search.</p>
+
   <section id="recipe-detail" class="recipe-detail" hidden>
     <article id="recipe-content" class="recipe-content"></article>
   </section>
+
+  <section id="pantry-detail" class="recipe-detail" hidden>
+    <article id="pantry-content" class="recipe-content"></article>
+  </section>
+
+  <div id="nav-menu" class="more-menu" hidden>
+    <div class="more-menu-backdrop" id="nav-menu-backdrop"></div>
+    <div class="more-menu-sheet">
+      <button type="button" id="nav-menu-recipes" class="more-menu-item">🍽️ Recipes</button>
+      <button type="button" id="nav-menu-pantry" class="more-menu-item">🧺 Pantry</button>
+      <button type="button" id="nav-menu-cancel" class="more-menu-item cancel">Cancel</button>
+    </div>
+  </div>
 
   <div id="more-menu" class="more-menu" hidden>
     <div class="more-menu-backdrop" id="more-menu-backdrop"></div>

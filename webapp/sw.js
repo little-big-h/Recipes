@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'recipes-v4';
+const CACHE_VERSION = 'recipes-v5';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
@@ -46,6 +46,16 @@ self.addEventListener('install', (event) => {
         // offline install or index missing — app shell still works
       }
 
+      try {
+        const pantryRes = await fetch('data/pantry-index.json', { cache: 'no-cache' });
+        if (pantryRes.ok) {
+          const contentCache = await caches.open(CONTENT_CACHE);
+          await contentCache.put('data/pantry-index.json', pantryRes);
+        }
+      } catch {
+        // offline install or pantry index missing — app shell still works
+      }
+
       self.skipWaiting();
     })()
   );
@@ -82,7 +92,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
 
   if (url.origin === self.location.origin) {
-    if (url.pathname.endsWith('/data/recipes-index.json') || url.pathname.includes('/content/')) {
+    if (url.pathname.endsWith('/data/recipes-index.json') || url.pathname.endsWith('/data/pantry-index.json') || url.pathname.includes('/content/')) {
       // Network-first, not stale-while-revalidate: the app has explicit
       // "Refresh" actions (list and per-recipe) whose whole point is to show
       // the latest content on click — stale-while-revalidate would instead
