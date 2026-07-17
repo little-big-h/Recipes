@@ -380,6 +380,7 @@ async function showPantryDetail(id) {
 
   if (food.status === 'pending') {
     html += `<p class="load-error">Profile pending — nutrition research not yet done for this ingredient.</p>`;
+    if (food.pendingReason) html += `<p><em>${renderInline(food.pendingReason)}</em></p>`;
   } else if (food.status === 'compound') {
     html += `<p><em>This ingredient cell names more than one food; both are shown below.</em></p>`;
     for (const comp of food.components) {
