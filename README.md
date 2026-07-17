@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
-2. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
-3. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
-4. **[Aubergine, Mushroom & Amaranth Bowl](recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md)** — 2026-07-08
-5. **[Creamy Yellow Curry Soy Bean & Corn Soup](recipes/soups/creamy-soybean-corn-yellow-curry-soup.md)** — 2026-07-07
-6. **[Creamy Tomato, Coconut & Spinach Sauce v2](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md)** — 2026-07-02
-7. **[Creamy Tomato, Coconut & Spinach Sauce](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)** — 2026-07-02
-8. **[Super-Quick Hasselback Jacket Potatoes](recipes/oven-mains/hasselback-jacket-potatoes.md)** — 2026-07-01
-9. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
-10. **[Ras el Hanout Spelt with Air-Fried Butternut & Mixed Beans](recipes/grains/ras-el-hanout-spelt-butternut-beans.md)** — 2026-06-27
+1. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
+2. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
+3. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
+4. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
+5. **[Aubergine, Mushroom & Amaranth Bowl](recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md)** — 2026-07-08
+6. **[Creamy Yellow Curry Soy Bean & Corn Soup](recipes/soups/creamy-soybean-corn-yellow-curry-soup.md)** — 2026-07-07
+7. **[Creamy Tomato, Coconut & Spinach Sauce v2](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md)** — 2026-07-02
+8. **[Creamy Tomato, Coconut & Spinach Sauce](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)** — 2026-07-02
+9. **[Super-Quick Hasselback Jacket Potatoes](recipes/oven-mains/hasselback-jacket-potatoes.md)** — 2026-07-01
+10. **[Smooth Onion–Tomato Gravy (base sauce)](recipes/stovetop-mains/onion-tomato-gravy.md)** — 2026-06-30
 
 ---
 
