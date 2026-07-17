@@ -208,7 +208,7 @@ function renderPantryList() {
       const meta = [];
       if (f.status === 'pending') meta.push('profile pending');
       else if (f.per100?.calories != null) meta.push(`${Math.round(f.per100.calories)} kcal / 100g`);
-      meta.push(`${f.recipes.length} recipe${f.recipes.length === 1 ? '' : 's'}`);
+      meta.push(f.recipes.length === 0 ? 'not yet used in a recipe' : `${f.recipes.length} recipe${f.recipes.length === 1 ? '' : 's'}`);
       return `
       <div class="recipe-card">
         <button class="recipe-card-main" data-food-id="${f.id}">
