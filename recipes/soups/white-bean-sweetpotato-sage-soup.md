@@ -16,15 +16,15 @@
 | 🟡 | 🧄 Garlic (~5 cloves) | 20 g | 29 | **20 g** | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
 | 🟠 | 🌿 Dried sage (bloomed in the oil) | 5 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/170935/nutrients) |
 | 🟠 | 🌱 Dried oregano (bloomed in the oil) | 3 g | 8 | | [usda](https://fdc.nal.usda.gov/food-details/171328/nutrients) |
-| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 60 g | 114 | | |
+| 🟣 | 🍶 White miso (whisk in off heat — never boil) | 60 g | 114 | **80 g** | |
 | 🟢 | 🎋 Asparagus (~2–3 cm chunks, seared separately) | 530 g | 106 | **455 g** | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
 | ⚪ | 🍋 Lemon wedges (at table) | 1–2 | — | | |
 | 🟠 | 🌶️ Chilli flakes (at table) | to taste | — | | |
-| | **Total** | **~4.1 kg** | **~3057** | | |
+| | **Total** | **~4.1 kg** | **~3057 planned / ~3231 as-cooked** | ~4.2 kg | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*Totals are approximate — the planned weight includes the ~1.4 L water; lemon and chilli are at-table. Est. kcal is per planned amount and is summed in the Total row. Scaled to the **1200 g of peeled sweet potato flesh** yielded by 1420 g unpeeled (assuming ~15 % peel loss); everything else scaled ×1.33 from the original 900 g-flesh design.*
+*Totals are approximate — the planned weight includes the ~1.4 L water; lemon and chilli are at-table. Est. kcal is per planned amount and is summed in the Total row; the Nutrition block below is the **as-cooked** version. Scaled to the ~1200 g of peeled sweet potato flesh expected from 1420 g unpeeled; as cooked the peeled flesh was **1245 g** (~12 % peel loss, a shade less than the 15 % estimate). Sage and oregano weren't re-weighed on the day — held at the planned 5 g / 3 g.*
 
 ---
 
@@ -60,7 +60,7 @@
 
 ## Nutrition
 
-*Total values for the whole recipe (~9 portions). **USDA-derived, not FoodNoms-verified** — computed in Wolfram from authentic USDA per-100 g values; replace macros/salt with FoodNoms totals when next cooked. Micros are committed best-estimates. Naturally creamy and **very low-fat (14 g total)** — the body is bean-and-sweet-potato starch, no cream or coconut. Protein ~152 g and fibre ~131 g across the pot (~17 g protein / ~15 g fibre per bowl). **Calcium is very high (~1884 mg)** — white beans are far more calcium-dense than butter beans (240 vs 81 mg/100 g), boosted further by the sage/oregano; good for the bone-health flag. **Salt ~5.5 g total is deliberately modest** (~0.6 g/bowl) — the miso carries it; season up at the pot or table if you want it punchier. Potassium is huge (~14.5 g) from the beans + sweet potato. Vitamin D and B12 negligible — supplement separately.*
+*Total values for the whole recipe (~9 portions), **as cooked** (actual weights). **USDA-derived, not FoodNoms-verified** — computed in Wolfram from authentic USDA per-100 g values; replace macros/salt with FoodNoms totals when reconciled on a cook. Micros are committed best-estimates. Naturally creamy and **low-fat (19 g total)** — the body is bean-and-sweet-potato starch, no cream or coconut; the fat is up a little from plan only because the oil went in at 8 g not 4 g. Protein ~158 g and fibre ~135 g across the pot (~18 g protein / ~15 g fibre per bowl). **Calcium is very high (~1943 mg)** — white beans are far more calcium-dense than butter beans (240 vs 81 mg/100 g), boosted further by the sage/oregano; good for the bone-health flag. **Salt ~6.8 g total** (~0.75 g/bowl) — all from the 80 g miso (bumped from the 60 g plan to give the big sweet base a firm savoury hand); moderate and well inside the family range. Potassium is huge (~15.0 g) from the beans + sweet potato. Vitamin D and B12 negligible — supplement separately.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -77,23 +77,23 @@ n100 = <|
   "miso"     -> {190, 11.0, 26.0, 6.3, 6.0, 1.0, 2.5, 6.0, 2.49, 57, 2.56, 48, 210, 0, 0.08, 19}, (* white miso, ~6% salt *)
   "asparagus"-> {20, 2.2, 3.88, 1.88, 0.12, 0.04, 2.1, 0.005, 2.14, 24, 0.54, 14, 202, 0, 0, 52} (* USDA 2709767 *)
 |>;
-amounts = <| "beans" -> 470, "sweetpot" -> 1200, "onion" -> 400, "garlic" -> 20, "oil" -> 4,
-             "sage" -> 5, "oregano" -> 3, "miso" -> 60, "asparagus" -> 530 |>;
+amounts = <| "beans" -> 489, "sweetpot" -> 1245, "onion" -> 436, "garlic" -> 20, "oil" -> 8,
+             "sage" -> 5, "oregano" -> 3, "miso" -> 80, "asparagus" -> 455 |>; (* as cooked *)
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
 
-*FoodNoms collection: **White Bean, Sweet Potato & Sage Soup [19-07-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=White+Bean%2c+Sweet+Potato+%26+Sage+Soup+%5b19-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=9&totalServingSize=4100&fdcIds=175202%2c168482%2c2709795%2c2709786%2c170935%2c171328%2c2709767&grams=470%2c1200%2c400%2c20%2c5%2c3%2c530&customNames=Avocado+Oil%3bWhite+Miso&customFoodIds=local%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a0CF95E20-08C5-4FFF-B889-E25F0B144CF9&customQuantities=4%3b60&customUnits=gram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b190%2c11%2c26%2c6.3%2c6%2c1%2c2.5%2c2400%2c2.49%2c57%2c2.56%2c48%2c210%2c0%2c0.08%2c19)** — generated only when clicked; totals verified to this table (HTTP 200, 3057 kcal).*
+*FoodNoms collection: **White Bean, Sweet Potato & Sage Soup [19-07-26] ✴️** (as cooked). **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=White+Bean%2c+Sweet+Potato+%26+Sage+Soup+%5b19-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=9&totalServingSize=4150&fdcIds=175202%2c168482%2c2709795%2c2709786%2c170935%2c171328%2c2709767&grams=489%2c1245%2c436%2c20%2c5%2c3%2c455&customNames=Avocado+Oil%3bWhite+Miso&customFoodIds=local%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a0CF95E20-08C5-4FFF-B889-E25F0B144CF9&customQuantities=8%3b80&customUnits=gram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b190%2c11%2c26%2c6.3%2c6%2c1%2c2.5%2c2400%2c2.49%2c57%2c2.56%2c48%2c210%2c0%2c0.08%2c19)** — generated only when clicked; totals verified to this table (HTTP 200, 3231 kcal).*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3057 kcal | Iron | 73 mg |
-| Protein | 152 g | Calcium | 1884 mg |
-| Carbohydrates | 606 g | Zinc | 27 mg |
-| — of which sugars | 97 g | Magnesium | 1367 mg |
-| Fat | 14 g | Potassium | 14533 mg |
-| — of which saturates | 3 g | Vitamin D | 0.0 µg |
-| Fibre | 131 g | Vitamin B12 | 0.0 µg |
-| Salt | 5.5 g | Folate | 2340 µg |
+| Energy | 3231 kcal | Iron | 74 mg |
+| Protein | 158 g | Calcium | 1943 mg |
+| Carbohydrates | 631 g | Zinc | 28 mg |
+| — of which sugars | 102 g | Magnesium | 1416 mg |
+| Fat | 19 g | Potassium | 14977 mg |
+| — of which saturates | 4 g | Vitamin D | 0.0 µg |
+| Fibre | 135 g | Vitamin B12 | 0.1 µg |
+| Salt | 6.8 g | Folate | 2390 µg |
 
 ---
 
@@ -106,12 +106,14 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 - **Roast the sweet potato, don't just boil it in.** Air-frying at 200 °C concentrates the sugars and adds a caramelised depth the simmer-in version misses — worth the extra step and the batching for a soup this size. Simmering it in with the beans is the faster fallback if you're pressed.
 - **Asparagus stays whole and goes in last.** Seared separately and folded through at the end so it keeps bite and bright colour against the smooth gold purée — it's the textural and visual contrast. Blending it in would waste it. Tips added late so they don't overcook.
 - **Beans cooked in plain water.** No salt, no acid in the pressure pot — both slow bean softening (documented in `../../docs/TECHNIQUES.md`). All seasoning goes in after, off the heat.
-- **Miso off the heat.** White miso whisked in after the pan comes off — boiling dulls it. White (not red) is the family default: milder and less salty, and it keeps Jannes happy (he's red-averse). Salt is deliberately modest at ~5.5 g across nine bowls; the sweet base can take more, so taste and lift it with extra miso or a pinch of salt at the pot.
+- **Miso off the heat.** White miso whisked in after the pan comes off — boiling dulls it. White (not red) is the family default: milder and less salty, and it keeps Jannes happy (he's red-averse). As cooked, 80 g miso puts salt at ~6.8 g across nine bowls (~0.75 g/bowl) — moderate; taste and lift further with a pinch of salt at the pot if the sweet base still wants it.
 - **Clears every family flag.** No chilli or heat in the pot (Jannes, Lara), no smoke, no cooked peppers, no in-pot acid (Lara) — lemon and chilli are at-table for the adults only. Sweet potato blended smooth also sidesteps Jannes's cool-ness on potatoes — it reads as a creamy soup, not a bowl of potato.
-- **Nutrition shape.** High protein (~152 g) and high fibre (~131 g) for the pot — ~17 g protein and ~15 g fibre per bowl. Calcium, potassium and folate are all very high (white beans + sweet potato + herbs).
+- **Nutrition shape.** High protein (~158 g) and high fibre (~135 g) for the pot — ~18 g protein and ~15 g fibre per bowl. Calcium, potassium and folate are all very high (white beans + sweet potato + herbs).
+- **Miso bumped to 80 g on the day.** The 60 g plan was cautious; the base is large (~3.4 kg) and sweet (sweet potato + white beans, no in-pot acid), so it wanted a firmer savoury hand — same lesson as the pinto–butternut soup's v1 blandness fix. 80 g white miso off the heat lands salt at ~6.8 g total (~0.75 g/bowl), moderate for a family pot.
 
 ---
 
 ## Cook log
 
-- **Designed 2026-07-19 — family dinner, scaled for leftovers.** Herby-European / sage lane chosen to run down dried sage + oregano (a lime-leaf Thai version was on the table but parked to its own future cook). **Two corrections from the first draft:** the beans are **white beans** (not butter beans — different USDA record, denser so +8 min cook), and the 1420 g of sweet potato is **unpeeled** (~1200 g flesh after ~15 % peel loss). Scaled to the 1200 g flesh (×1.33 from the 900 g design), everything else in proportion — a ~4.1 kg, ~9-portion pot. Not yet cooked or rated; nutrition is USDA-derived pending a FoodNoms reconciliation on the cook.
+- **Designed & cooked 2026-07-19 — family dinner, scaled for leftovers.** Herby-European / sage lane chosen to run down dried sage + oregano (a lime-leaf Thai version was on the table but parked to its own future cook). **Two corrections from the first draft:** the beans are **white beans** (not butter beans — different USDA record, denser so +8 min cook to 30 min HP), and the 1420 g of sweet potato is **unpeeled**. Scaled to the ~1200 g expected flesh (×1.33 from the 900 g design), everything else in proportion.
+- **As cooked** (actual weights): beans **489 g**, peeled sweet potato **1245 g** (~12 % peel loss), onion **436 g**, garlic **20 g**, avocado oil **8 g**, white miso **80 g** (up from 60 g plan for savoury depth), asparagus **455 g**; sage/oregano held at the planned 5 g / 3 g (not re-weighed). A ~4.2 kg, ~9-portion pot: **~3231 kcal / 631 g carb / 158 g protein / 135 g fibre / 19 g fat / salt 6.8 g / calcium 1943 mg**. Nutrition, Wolfram block and FoodNoms all reconciled to these actuals (USDA-derived, not FoodNoms-verified). **Family ratings pending.**
