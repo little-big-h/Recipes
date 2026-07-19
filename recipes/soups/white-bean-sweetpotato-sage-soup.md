@@ -17,7 +17,7 @@
 | 🟠 | 🌿 Dried sage (bloomed in the oil) | 5 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/170935/nutrients) |
 | 🟠 | 🌱 Dried oregano (bloomed in the oil) | 3 g | 8 | | [usda](https://fdc.nal.usda.gov/food-details/171328/nutrients) |
 | 🟣 | 🍶 White miso (whisk in off heat — never boil) | 60 g | 114 | | |
-| 🟢 | 🎋 Asparagus (~2–3 cm chunks, seared separately) | 530 g | 106 | | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
+| 🟢 | 🎋 Asparagus (~2–3 cm chunks, seared separately) | 530 g | 106 | **455 g** | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
 | ⚪ | 🍋 Lemon wedges (at table) | 1–2 | — | | |
 | 🟠 | 🌶️ Chilli flakes (at table) | to taste | — | | |
 | | **Total** | **~4.1 kg** | **~3057** | | |
