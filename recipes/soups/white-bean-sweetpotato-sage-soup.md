@@ -12,7 +12,7 @@
 | 🔵 | 💧 Water (pot + blend, to consistency) | ~1400 ml | 0 | | |
 | 🟢 | 🍠 Sweet potato (peeled flesh, ~3 cm dice; air-fried) | 1200 g | 1032 | | [usda](https://fdc.nal.usda.gov/food-details/168482/nutrients) |
 | 🟣 | 🥑 Avocado oil | 4 g | 35 | | |
-| 🟡 | 🧅 Onion | 400 g | 152 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟡 | 🧅 Onion | 400 g | 152 | **436 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟡 | 🧄 Garlic (~5 cloves) | 20 g | 29 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
 | 🟠 | 🌿 Dried sage (bloomed in the oil) | 5 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/170935/nutrients) |
 | 🟠 | 🌱 Dried oregano (bloomed in the oil) | 3 g | 8 | | [usda](https://fdc.nal.usda.gov/food-details/171328/nutrients) |
