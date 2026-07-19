@@ -4,7 +4,7 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Butterbean, Sweet Potato & Sage Soup](recipes/soups/butterbean-sweetpotato-sage-soup.md)** — 2026-07-19
+1. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
 2. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
 3. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
 4. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
