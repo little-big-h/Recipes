@@ -11,7 +11,7 @@
 | 🟤 | 🫘 Dried white beans (no soak; into the pot) | 470 g | 1565 | **489 g** | [usda](https://fdc.nal.usda.gov/food-details/175202/nutrients) |
 | 🔵 | 💧 Water (pot + blend, to consistency) | ~1400 ml | 0 | | |
 | 🟢 | 🍠 Sweet potato (peeled flesh, ~3 cm dice; air-fried) | 1200 g | 1032 | **1245 g** | [usda](https://fdc.nal.usda.gov/food-details/168482/nutrients) |
-| 🟣 | 🥑 Avocado oil | 4 g | 35 | | |
+| 🟣 | 🥑 Avocado oil | 4 g | 35 | **8 g** | |
 | 🟡 | 🧅 Onion | 400 g | 152 | **436 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟡 | 🧄 Garlic (~5 cloves) | 20 g | 29 | | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
 | 🟠 | 🌿 Dried sage (bloomed in the oil) | 5 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/170935/nutrients) |
