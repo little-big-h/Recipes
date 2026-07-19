@@ -8,7 +8,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟤 | 🫘 Dried white beans (no soak; into the pot) | 470 g | 1565 | | [usda](https://fdc.nal.usda.gov/food-details/175202/nutrients) |
+| 🟤 | 🫘 Dried white beans (no soak; into the pot) | 470 g | 1565 | **489 g** | [usda](https://fdc.nal.usda.gov/food-details/175202/nutrients) |
 | 🔵 | 💧 Water (pot + blend, to consistency) | ~1400 ml | 0 | | |
 | 🟢 | 🍠 Sweet potato (peeled flesh, ~3 cm dice; air-fried) | 1200 g | 1032 | | [usda](https://fdc.nal.usda.gov/food-details/168482/nutrients) |
 | 🟣 | 🥑 Avocado oil | 4 g | 35 | | |
