@@ -476,7 +476,7 @@ A redesign of the mole-chipotle build addressing its diagnosed failure: cocoa an
 
 ## Profile: [Mexican-Thai — Smoky Peanut (solo)][s-mexthai]
 
-A **Mexican/Thai hybrid** built on the observation that both parent cuisines are peanut cuisines — Mexican *encacahuatado* (peanut mole) and Thai satay/pad-thai — so **defatted peanut flour is the bridge**, not a foreign import. Chipotle carries the smoke (sole source — sweet paprika replaces the smoked paprika of the other Mexican builds, so no double-smoke); tamarind + peanut + aminos-free umami reads Thai; galangal + ginger paste tip the aromatics east. Umami is nooch + a whisper of shiitake (the glutamate × guanylate synergy), no tomato-paste bhuna. Holger solo; designed 2026-07-21 for a 2026-07-22 cook. Run-down: sweet paprika, nutritional yeast.
+A **Mexican/Thai hybrid** built on the observation that both parent cuisines are peanut cuisines — Mexican *encacahuatado* (peanut mole) and Thai satay/pad-thai — so **defatted peanut flour is the bridge**, not a foreign import. Chipotle carries the smoke (sole source — sweet paprika replaces the smoked paprika of the other Mexican builds, so no double-smoke); tamarind + peanut + aminos-free umami reads Thai; galangal + ginger paste tip the aromatics east. Umami is nooch + a whisper of dried-mushroom powder (the glutamate × guanylate synergy), no tomato-paste bhuna. Holger solo; designed 2026-07-21 for a 2026-07-22 cook. Run-down: sweet paprika, nutritional yeast, seven-mushroom blend.
 
 ### Single-serving build (2 eggs)
 
@@ -497,7 +497,7 @@ A **Mexican/Thai hybrid** built on the observation that both parent cuisines are
 | 🥬 Spinach | 100 g | base |
 | 🥚 Eggs | 2 | base, streaked |
 | 🧀 Nutritional yeast (glutamate) | 8 g | off heat — stir most in, reserve a pinch to sprinkle |
-| 🍄 Shiitake powder (guanylate half of the synergy) | 2 g | off heat |
+| 🍄 Seven-mushroom blend (guanylate half of the synergy — shiitake out) | 2–3 g | off heat |
 | 🥭 Tamarind paste | 10 g | off heat — keep it bright |
 | 🍋 Lime | at table | the only fresh-lift (no fresh coriander) — be generous |
 
@@ -521,11 +521,11 @@ Follows the constant shakshuka method (Structure 1), with:
 - **Oregano cut, tomato-paste bhuna cut.** Oregano anchors the *Mexican* read but has no place on the Thai side and fights the peanut/tamarind axis (the carob build already dropped it). Umami comes from nooch + shiitake (glutamate × guanylate) instead of a bhuna — the mole/carob lineage.
 - **Substitution consequences (all fresh forms were out):** garlic powder for fresh, ginger *paste* + galangal *paste* for fresh, ground coriander for fresh leaf. The real cost is the **lost fresh-coriander top-note** — so **lime at the table becomes the sole fresh-lift** and shouldn't be skipped or stinted. Ground coriander gives the seed note in the bloom but not the green lift.
 - **Galangal leads the aromatics** (more distinctively Thai than ginger — sharper, piney-citrus), with ginger paste as support; together they tip the dish east so it reads *hybrid* rather than "Mexican with peanut."
-- **Nooch needs the shiitake.** Nooch alone is flat glutamate; the 2 g shiitake supplies guanylate for the multiplicative synergy — invisible mass, real umami lift. Both are run-down items.
+- **Nooch needs the mushroom.** Nooch alone is flat glutamate; the ~2 g dried-mushroom powder supplies guanylate for the multiplicative synergy — invisible mass, real umami lift. Shiitake was out, so this cook uses a **seven-mushroom blend** — guanylate comes from *drying* the mushroom (not the species per se), and these blends carry shiitake/porcini, so the synergy holds; bonus forest-floor complexity that suits smoke + peanut. Nudge to 3 g if the blend reads milder than pure shiitake.
 
 ### Nutrition (whole serving)
 
-*Estimates, not FoodNoms-verified — USDA-derived + labels; micros are committed best-estimates. Chipotle valued as USDA "Peppers, hot chile, sun-dried" (168570) as a dried-smoked proxy; galangal paste a small committed estimate.*
+*Estimates, not FoodNoms-verified — USDA-derived + labels; micros are committed best-estimates. Chipotle valued as USDA "Peppers, hot chile, sun-dried" (168570) as a dried-smoked proxy; galangal paste a small committed estimate. The 🍄 seven-mushroom blend is valued at the dried-shiitake-powder record (nearest dried-mushroom proxy) — at 2 g the difference is within rounding, so the totals below are unchanged.*
 
 **456 kcal · 33 g protein · 45 g carbs (23 g sugars) · 18 g fat (4 g sat) · 16.5 g fibre · salt 2.1 g.** Micros: K 2240 mg, Ca 399 mg, Mg 221 mg, Fe 13.4 mg, Zn 4.4 mg, folate 343 µg. Higher energy/protein than the other Mexican builds — the peanut flour (46 kcal, ~5.7 g protein) and the fuller spice line account for it. Bump to 3 eggs for ~530 kcal if you want it closer to the ~700 target.
 
