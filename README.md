@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
-2. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
-3. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
-4. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
-5. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
-6. **[Aubergine, Mushroom & Amaranth Bowl](recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md)** — 2026-07-08
-7. **[Creamy Yellow Curry Soy Bean & Corn Soup](recipes/soups/creamy-soybean-corn-yellow-curry-soup.md)** — 2026-07-07
-8. **[Creamy Tomato, Coconut & Spinach Sauce v2](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md)** — 2026-07-02
-9. **[Creamy Tomato, Coconut & Spinach Sauce](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)** — 2026-07-02
-10. **[Super-Quick Hasselback Jacket Potatoes](recipes/oven-mains/hasselback-jacket-potatoes.md)** — 2026-07-01
+1. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
+2. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
+3. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
+4. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
+5. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
+6. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
+7. **[Aubergine, Mushroom & Amaranth Bowl](recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md)** — 2026-07-08
+8. **[Creamy Yellow Curry Soy Bean & Corn Soup](recipes/soups/creamy-soybean-corn-yellow-curry-soup.md)** — 2026-07-07
+9. **[Creamy Tomato, Coconut & Spinach Sauce v2](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce-v2.md)** — 2026-07-02
+10. **[Creamy Tomato, Coconut & Spinach Sauce](recipes/stovetop-mains/creamy-tomato-coconut-spinach-sauce.md)** — 2026-07-02
 
 ---
 
