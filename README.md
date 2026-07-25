@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
-2. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
-3. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
-4. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
-5. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
-6. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
-7. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
-8. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
-9. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
-10. **[Aubergine, Mushroom & Amaranth Bowl](recipes/stovetop-mains/aubergine-mushroom-amaranth-bowl.md)** — 2026-07-08
+1. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
+2. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
+3. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
+4. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
+5. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
+6. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
+7. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
+8. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
+9. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
+10. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
 
 ---
 
