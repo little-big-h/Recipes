@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
-2. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
-3. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
-4. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
-5. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
-6. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
-7. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
-8. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
-9. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
-10. **[Ras el Hanout Mushroom & Tomato Sauce](recipes/stovetop-mains/ras-el-hanout-mushroom-tomato-sauce.md)** — 2026-07-09
+1. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
+2. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
+3. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
+4. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
+5. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
+6. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
+7. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
+8. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
+9. **[Potato & Spinach Curry with Air-Fried Tofu](recipes/stovetop-mains/potato-spinach-curry-tofu.md)** — 2026-07-14
+10. **[Pressure-Steamed Seitan Sausage](recipes/oven-mains/pressure-steamed-seitan-sausage.md)** — 2026-07-11
 
 ---
 
