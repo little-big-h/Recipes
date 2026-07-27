@@ -27,7 +27,7 @@
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
-*Totals are approximate — the planned weight includes the ~60 ml paste water. Est. kcal is per planned amount and summed in the Total row. Baked yield ~1650 g in a 23 cm tin, cut into **8 slices** (~296 kcal each). **This is the low-fat crust revision** — crust oil cut 75 g → 35 g by replacing fat's binding and waterproofing functions rather than just removing it (see design notes).*
+*Totals are approximate — the planned weight includes the ~60 ml paste water. Est. kcal is per planned amount and summed in the Total row. Baked yield ~1650 g in a **25 cm × 4 cm** tin, cut into **8 slices** (~296 kcal each). **This is the low-fat crust revision** — crust oil cut 75 g → 35 g by replacing fat's binding and waterproofing functions rather than just removing it (see design notes).*
 
 ---
 
@@ -41,7 +41,9 @@
 
 ## Method
 
-> **Note:** Dice the 🎃 squash ~2 cm (skin off here — unlike the soup, this one isn't blended, so skin would read as tough flecks). Slice the 🧅 onion thin. You need a 23 cm loose-bottomed tin.
+> **Note:** Dice the 🎃 squash ~2 cm (skin off here — unlike the soup, this one isn't blended, so skin would read as tough flecks). Slice the 🧅 onion thin.
+>
+> ⚠ **Tin: 25 cm × 4 cm deep, loose-bottomed.** The filling comes to ~1220 ml once the squash has roasted down and the onion caramelised, and **a 23 × 3.5 cm tin holds only ~1080 ml — it will overflow.** 25 × 4 cm leaves comfortable headroom (~80 % full); 23 × 4.5 cm also works at a pinch (~84 %).
 
 1. **Toast the oat flour, and make the paste.** 🌾 Oat flour in a dry pan over medium, stirring, ~5 min until it smells nutty and darkens a shade — the single biggest flavour step; untoasted oat flour tastes pasty. Cool it. Then **whisk 25 g of the 🍚 glutinous rice flour into ~60 ml boiling 💧 water** until it thickens to a stiff, sticky paste, and leave it to cool. *(Pre-gelatinising the starch is what makes it adhesive — this paste is the crust's main binder, doing the job the missing fat would have done.)*
 
@@ -51,7 +53,13 @@
 
 4. **Make the crust — oil first, then paste, then milk.** Combine the toasted 🌾 oat flour, 🌱 quinoa flakes, 💪 vital wheat gluten, the remaining 15 g dry 🍚 glutinous rice flour and 2 g 🧂 salt. **Rub the 🥑 oil through the dry mix first**, until it looks like damp sand — coating the gluten in fat still matters, there's just less of it to go round. Work in the cooled 🍚 rice-flour paste, then add 🥛 milk (~45 ml) a splash at a time until it just comes together. Don't knead.
 
-5. **Press, rest, blind bake, then seal.** Press into the tin, up the sides. **Rest 10 min** — oat flour and 🌱 quinoa flakes both keep absorbing, and with less oil the dough is stiffer, so judge hydration *after* the rest and patch cracks then. Prick the base and **blind bake 180 °C, ~18 min** until dry and set. Then **brush the hot shell with beaten 🥚 egg and return it for 3 min** until the film sets glossy. *(This seal is not optional in the low-fat version — fat was the waterproofing, and without it the wet custard will soak straight into the crust.)*
+5. **Press, rest, blind bake with beans, then seal.** Press into the tin, up the sides. **Rest 10 min** — oat flour and 🌱 quinoa flakes both keep absorbing, and with less oil the dough is stiffer, so judge hydration *after* the rest and patch cracks then. Prick the base all over with a fork. Line with crumpled parchment and **fill with baking beans, banked right up the sides** — with 40 g of 💪 gluten in the dough the crust will otherwise **shrink down the walls** as the protein sets. **Blind bake 180 °C, 12 min → lift out beans and parchment → back in 6 min** so the base actually dries (leave the beans in throughout and it steams under them). Then **brush the hot shell with beaten 🥚 egg and return it for 3 min** until the film sets glossy. *(The seal is not optional in the low-fat version — fat was the waterproofing, and without it the wet custard soaks straight into the crust.)*
+
+![Blind-baking the shell](img/blind-bake.png)
+
+*Cross-section through the tin at each stage — grey = tin, gold band = crust. Panels 2→3 are the pair that matter: the beans hold the walls, then come **out** so the base can dry; panel 4's thin yellow line is the egg seal standing in for the fat that was removed.*
+
+> 🫘 **Short of beans?** A 25 cm tin wants **~700 g** to bank properly and retail packs are usually 500 g. Ceramic beans have no magic — they're just dense, dry weight. **Put the ceramic ones against the sides where the shrinkage happens and bulk out the middle with dried chickpeas, butter beans or rice** from the pantry. Keep them in a jar marked for baking afterwards; they dry out and won't cook properly again.
 
 6. **Blend the custard.** Blend the 🥚 eggs, 🥛 milk, 🧊 cottage cheese, remaining 20 g 🍚 glutinous rice flour, 🍶 white miso, 🧀 nutritional yeast, 🌿 sage, 2 g 🧂 salt and plenty of black pepper until completely smooth. **The 🧊 cottage cheese must be blended smooth — never leave visible curds** (the standing rule, same as for silken tofu).
 
@@ -103,6 +111,51 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 | — of which saturates | 18 g | Vitamin D | 4.0 µg |
 | Fibre | 34 g | Vitamin B12 | 3.9 µg |
 | Salt | 7.6 g | Folate | 543 µg |
+
+---
+
+## Diagram source
+
+*Wolfram source for `img/blind-bake.png` above — regenerate or export to vector with the final line.*
+
+```wolfram
+crust = RGBColor["#C08A3E"]; tin = GrayLevel[0.55]; bean = GrayLevel[0.45];
+parch = RGBColor["#E8E0CF"]; egg = RGBColor["#E8B33A"]; cust = RGBColor["#F0D48A"];
+squash = RGBColor["#D98A3A"]; onionC = RGBColor["#C9B79C"]; heat = RGBColor["#B5544F"];
+
+shell = {crust, Thickness[0.014], JoinForm["Round"], CapForm["Round"],
+   Line[{{-0.84, 0.62}, {-0.84, 0.08}, {0.84, 0.08}, {0.84, 0.62}}]};
+tinL = {tin, Thickness[0.006], JoinForm["Round"],
+   Line[{{-1, 0.68}, {-1, 0}, {1, 0}, {1, 0.68}}]};
+pricks = {crust, Thickness[0.004],
+   Sequence @@ Table[Line[{{x, 0.05}, {x, 0.14}}], {x, -0.6, 0.6, 0.24}]};
+beans = {parch, Thickness[0.005],
+   Line[{{-0.79, 0.66}, {-0.72, 0.16}, {0.72, 0.16}, {0.79, 0.66}}], bean,
+   Sequence @@ Flatten[Table[Disk[{x, y}, 0.05], {y, 0.24, 0.52, 0.14}, {x, -0.58, 0.58, 0.145}]]};
+arrows = {heat, Thickness[0.005],
+   Sequence @@ Table[Arrow[{{x, 0.52}, {x, 0.2}}], {x, -0.45, 0.45, 0.45}]};
+wash = {egg, Thickness[0.009], JoinForm["Round"], CapForm["Round"],
+   Line[{{-0.76, 0.6}, {-0.76, 0.155}, {0.76, 0.155}, {0.76, 0.6}}]};
+fill = {cust, Polygon[{{-0.78, 0.155}, {0.78, 0.155}, {0.78, 0.6}, {-0.78, 0.6}}], squash,
+   Sequence @@ Table[Disk[{x, y}, 0.07], {y, 0.28, 0.5, 0.22}, {x, -0.5, 0.5, 0.33}], onionC,
+   Sequence @@ Table[Disk[{x, 0.39}, 0.045], {x, -0.34, 0.34, 0.34}]};
+
+panels = {{1, "Press + prick", "raw shell - fork the base", pricks},
+   {2, "Beans in", "180C, 12 min - sides held", beans},
+   {3, "Beans OUT", "180C, 6 min - base dries", arrows},
+   {4, "Egg wash", "180C, 3 min - seals it", wash},
+   {5, "Fill + bake", "180C, 40 min", fill}};
+
+plot = Graphics[Table[With[{p = panels[[i]], dx = 2.75 (i - 1)},
+    Translate[{p[[4]], shell, tinL, Black,
+      Text[Style[ToString[p[[1]]] <> ".  " <> p[[2]], 15, Bold, FontFamily -> "Helvetica"], {0, 1.0}],
+      GrayLevel[0.35],
+      Text[Style[p[[3]], 11.5, FontFamily -> "Helvetica"], {0, -0.3}]}, {dx, 0}]], {i, 5}],
+   PlotRange -> {{-1.35, 2.75*4 + 1.35}, {-0.55, 1.25}},
+   ImageSize -> 1250, Background -> White, PlotRangePadding -> 0];
+
+Export["blind-bake.pdf", plot]
+```
 
 ---
 
