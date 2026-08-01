@@ -11,7 +11,7 @@
 | 🟢 | 🌾 Oat flour (dry-toasted first) | 165 g | 667 | | [usda](https://fdc.nal.usda.gov/food-details/169741/nutrients) |
 | 🟢 | 🌱 Quinoa flakes | 85 g | 313 | | [usda](https://fdc.nal.usda.gov/food-details/168874/nutrients) |
 | 🟤 | 💪 Vital wheat gluten (BWFO) | 55 g | 204 | | label |
-| 🟢 | 🍚 Glutinous rice flour (crust 55 g — 35 g as hot paste + custard 30 g) | 85 g | 315 | | [usda](https://fdc.nal.usda.gov/food-details/168883/nutrients) |
+| 🟢 | 🍚 Glutinous rice flour (35 g hot paste + 20 g dry in crust + 30 g in custard) | 85 g | 315 | | [usda](https://fdc.nal.usda.gov/food-details/168883/nutrients) |
 | 🟣 | 🥑 Avocado oil (rubbed into the crust) | 50 g | 442 | | local |
 | 🟣 | 🧂 Salt (2.5 g crust, 3 g filling) | 5.5 g | 0 | | |
 | 🔵 | 💧 Boiling water (for the rice-flour paste) | ~85 ml | 0 | | |
