@@ -43,7 +43,7 @@
 
 > **Note:** Dice the 🎃 squash ~2 cm (skin off here — unlike the soup, this one isn't blended, so skin would read as tough flecks). Slice the 🧅 onion thin.
 >
-> ⚠ **Tin: 28 cm × 4 cm deep, loose-bottomed.** At this scale the filling comes to ~1660 ml once the squash has roasted down and the onion caramelised. A 28 × 4 cm tin holds ~1920 ml usable — comfortable at ~87 % full. **A 25 × 4 cm tin (~1510 ml) will overflow**, and a 23 cm one badly so. If 28 cm is all you have in a shallower depth, put the excess custard in a ramekin rather than filling to the rim — a quiche that sets proud of the tin weeps over the edge.
+> ⚠ **Tin: 24 cm × 7 cm springform** (as cooked), or a 28 × 4 cm loose-bottomed tart tin. The filling comes to ~1660 ml once the squash has roasted down and the onion caramelised. A 24 × 7 cm springform holds ~2610 ml — only ~64 % full, no overflow risk. **A 25 × 4 cm tin (~1510 ml) will overflow**, and a 23 cm one badly so. **In the deep springform the filling stands ~4 cm rather than ~2.5 cm, so the bake is longer — see step 7.** Bring the crust up ~5 cm, just proud of the filling line, not the full 7. **Line the springform base with parchment and stand it on a tray**: the base is a press-fit, not a seal, and thin custard finds hairline cracks.
 
 1. **Toast the oat flour, and make the paste.** 🌾 Oat flour in a dry pan over medium, stirring, ~5 min until it smells nutty and darkens a shade — the single biggest flavour step; untoasted oat flour tastes pasty. Cool it. Then **whisk 35 g of the 🍚 glutinous rice flour into ~85 ml boiling 💧 water** until it thickens to a stiff, sticky paste, and leave it to cool. *(Pre-gelatinising the starch is what makes it adhesive — this paste is the crust's main binder, doing the job the missing fat would have done.)*
 
@@ -63,7 +63,7 @@
 
 6. **Blend the custard.** Blend the 🥚 eggs, 🥛 milk, 🧊 cottage cheese, remaining 30 g 🍚 glutinous rice flour, 🍶 white miso, 🧀 nutritional yeast, 🌿 sage, 3 g 🧂 salt and plenty of black pepper until completely smooth. **The 🧊 cottage cheese must be blended smooth — never leave visible curds** (the standing rule, same as for silken tofu).
 
-7. **Fill and bake.** Scatter the roasted 🎃 squash and caramelised 🧅 onion over the blind-baked crust, pour the custard over, and bake **180 °C, ~40 min** until just set with a faint wobble at the centre. It firms up as it cools.
+7. **Fill and bake.** Scatter the roasted 🎃 squash and caramelised 🧅 onion over the blind-baked crust, pour the custard over, and bake until just set with a faint wobble at the centre — a 5 cm circle that moves as a unit, not like liquid. **Shallow tart tin (~2.5 cm of filling): 180 °C, ~40 min. Deep 24 cm springform (~4 cm of filling): 170 °C, 55–65 min** — custard sets outside-in, so a deeper one needs longer, and the lower temperature stops the top colouring before the middle is done. It firms up further as it cools.
 
 8. **Rest 10 min before cutting** — a hot quiche slumps.
 
