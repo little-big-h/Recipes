@@ -1,6 +1,6 @@
 # Squash, Sage & Onion Quiche
 
-*A savoury quiche built entirely from the odd flours in the cupboard — no plain wheat flour, no cheese, no butter. The crust is **pressed, not rolled, and deliberately low-fat**: 🌾 toasted oat flour and 🌱 quinoa flakes for flavour and mechanical grip, 💪 vital wheat gluten for cohesion, and a **pre-gelatinised 🍚 glutinous rice flour paste** doing the binding that fat would normally do — then an 🥚 egg-wash seal in place of fat's waterproofing. The filling is 🎃 roasted squash and deeply 🧅 caramelised onion in an egg custard thickened with more 🍚 glutinous rice flour (which stops a wet squash custard weeping), with 🍶 white miso and 🧀 nutritional yeast standing in for the gruyère and blended 🧊 cottage cheese carrying the body. 🌿 Dried sage ties it together. No chilli, no smoke, no peppers, no in-pot acid — clears every family flag. **A pantry run-down cook: vital wheat gluten, oat flour, glutinous rice flour, quinoa flakes, onions, sage, nutritional yeast.***
+*A savoury quiche built entirely from the odd flours in the cupboard — no plain wheat flour, no cheese, no butter. The crust is **pressed, not rolled, and deliberately low-fat**: 🌾 toasted oat flour and 🌱 quinoa flakes for flavour and mechanical grip, 💪 vital wheat gluten for cohesion, and a **pre-gelatinised 🍚 glutinous rice flour paste** doing the binding that fat would normally do — then an 🥚 egg-wash seal in place of fat's waterproofing. The filling is 🎃 roasted squash and deeply 🧅 caramelised onion in an egg custard thickened with more 🍚 glutinous rice flour (which stops a wet squash custard weeping), with 🍶 white miso and a little 🍄 mushroom powder standing in for the gruyère and blended 🧊 cottage cheese carrying the body. 🌿 Dried sage ties it together. No chilli, no smoke, no peppers, no in-pot acid — clears every family flag. **A pantry run-down cook: vital wheat gluten, oat flour, glutinous rice flour, quinoa flakes, onions and sage.***
 
 ---
 
@@ -8,26 +8,26 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟢 | 🌾 Oat flour (dry-toasted first) | 165 g | 667 | | [usda](https://fdc.nal.usda.gov/food-details/169741/nutrients) |
-| 🟢 | 🌱 Quinoa flakes | 85 g | 313 | | [usda](https://fdc.nal.usda.gov/food-details/168874/nutrients) |
-| 🟤 | 💪 Vital wheat gluten (BWFO) | 55 g | 204 | | label |
-| 🟢 | 🍚 Glutinous rice flour (35 g hot paste + 20 g dry in crust + 30 g in custard) | 85 g | 315 | | [usda](https://fdc.nal.usda.gov/food-details/168883/nutrients) |
-| 🟣 | 🥑 Avocado oil (rubbed into the crust) | 50 g | 442 | | local |
-| 🟣 | 🧂 Salt (2.5 g crust, 3 g filling) | 5.5 g | 0 | | |
+| 🟢 | 🌾 Oat flour (dry-toasted first) | 165 g | 667 | **165 g** | [usda](https://fdc.nal.usda.gov/food-details/169741/nutrients) |
+| 🟢 | 🌱 Quinoa flakes | 85 g | 313 | **85 g** | [usda](https://fdc.nal.usda.gov/food-details/168874/nutrients) |
+| 🟤 | 💪 Vital wheat gluten (BWFO) | 55 g | 204 | **55 g** | label |
+| 🟢 | 🍚 Glutinous rice flour (35 g hot paste + 20 g dry in crust + 30 g in custard) | 85 g | 315 | **85 g** | [usda](https://fdc.nal.usda.gov/food-details/168883/nutrients) |
+| 🟣 | 🥑 Avocado oil (rubbed into the crust) | 50 g | 442 | **50 g** | local |
+| 🟣 | 🧂 Salt (2.5 g crust, 3 g filling) | 5.5 g | 0 | **5.5 g** | |
 | 🔵 | 💧 Boiling water (for the rice-flour paste) | ~85 ml | 0 | | |
 | 🟢 | 🎃 Butternut squash (diced, roasted) | 760 g | 342 | **760 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🟡 | 🧅 Onion (caramelised) | 366 g | 139 | **366 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟤 | 🥚 Eggs (5–6 medium; + 1 beaten for the seal — trace) | 275 g | 393 | | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
-| 🟣 | 🥛 Milk (semi-skimmed; 350 ml custard + 60 ml crust) | 410 ml | 193 | | local |
-| 🟤 | 🧊 Cottage cheese (blended smooth) | 205 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/173417/nutrients) |
-| 🟣 | 🍶 White miso | 20 g | 38 | | local |
-| 🟣 | 🧀 Nutritional yeast | 20 g | 70 | | local |
-| 🟠 | 🌿 Dried sage | 3 g | 9 | | [usda](https://fdc.nal.usda.gov/food-details/170935/nutrients) |
-| | **Total** | **~2.6 kg** | **~3271** | | |
+| 🟤 | 🥚 Eggs (5–6 medium; + 1 beaten for the seal — trace) | 275 g | 393 | **275 g** | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
+| 🟣 | 🥛 Milk (semi-skimmed; 350 ml custard + 60 ml crust) | 410 ml | 193 | **410 ml** | local |
+| 🟤 | 🧊 Cottage cheese (blended smooth) | 205 g | 148 | **205 g** | [usda](https://fdc.nal.usda.gov/food-details/173417/nutrients) |
+| 🟣 | 🍶 White miso (up from 20 g — covers the missing nooch) | 30 g | 57 | **30 g** | local |
+| 🟣 | 🍄 Seven-mushroom powder *(replaces 20 g 🧀 nutritional yeast — out of stock)* | 3.5 g | 10 | **3.5 g** | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
+| 🟠 | 🌿 Dried sage | 3 g | 9 | **3 g** | [usda](https://fdc.nal.usda.gov/food-details/170935/nutrients) |
+| | **Total** | **~2.6 kg** | **~3231** | **yield 2183 g** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning*
 
-*Totals are approximate — the planned weight includes the ~85 ml paste water. Est. kcal is per planned amount and summed in the Total row. Baked yield ~2250 g, cut into **10 slices** (~327 kcal each). Cooked in a **24 cm × 7 cm springform**; a 28 × 4 cm tart tin works equally well (see the tin note in Method). **Scaled ×1.38 from the original 550 g-squash build** to match the 760 g of squash actually on hand; see the cook log. **This is also the low-fat crust revision** — crust oil is 50 g where a butter-style shortcrust this size would take ~110 g, achieved by replacing fat's binding and waterproofing functions rather than just removing it (see design notes).*
+*Totals are approximate — the planned weight includes the ~85 ml paste water. Est. kcal is per planned amount and summed in the Total row. Baked yield **2183 g** as cooked, cut into **10 slices** (~323 kcal each). Cooked in a **24 cm × 7 cm springform**; a 28 × 4 cm tart tin works equally well (see the tin note in Method). **Scaled ×1.38 from the original 550 g-squash build** to match the 760 g of squash actually on hand; see the cook log. **This is also the low-fat crust revision** — crust oil is 50 g where a butter-style shortcrust this size would take ~110 g, achieved by replacing fat's binding and waterproofing functions rather than just removing it (see design notes).*
 
 ---
 
@@ -61,7 +61,7 @@
 
 > 🫘 **Short of beans?** Almost certainly, in this tin. A shallow 25 cm tart tin wants ~700 g; a **24 × 7 cm springform with the crust up 5 cm needs nearer 900 g–1 kg** to bank the walls properly, and retail packs are 500 g. Ceramic beans have no magic — they're just dense, dry weight. **Put the ceramic ones against the sides where the shrinkage happens and bulk out the middle with dried chickpeas, butter beans or rice** from the pantry. Keep them in a jar marked for baking afterwards; they dry out and won't cook properly again.
 
-6. **Blend the custard.** Blend the 🥚 eggs, 🥛 milk, 🧊 cottage cheese, remaining 30 g 🍚 glutinous rice flour, 🍶 white miso, 🧀 nutritional yeast, 🌿 sage, 3 g 🧂 salt and plenty of black pepper until completely smooth. **The 🧊 cottage cheese must be blended smooth — never leave visible curds** (the standing rule, same as for silken tofu).
+6. **Blend the custard.** Blend the 🥚 eggs, 🥛 milk, 🧊 cottage cheese, remaining 30 g 🍚 glutinous rice flour, 🍶 white miso, 🍄 mushroom powder, 🌿 sage, 3 g 🧂 salt and plenty of black pepper until completely smooth. **The 🧊 cottage cheese must be blended smooth — never leave visible curds** (the standing rule, same as for silken tofu).
 
 7. **Fill and bake.** Scatter the roasted 🎃 squash and caramelised 🧅 onion over the blind-baked crust, pour the custard over, and bake until just set with a faint wobble at the centre — a 5 cm circle that moves as a unit, not like liquid. **Shallow tart tin (~2.5 cm of filling): 180 °C, ~40 min. Deep 24 cm springform (~4 cm of filling): 170 °C, 55–65 min** — custard sets outside-in, so a deeper one needs longer, and the lower temperature stops the top colouring before the middle is done. It firms up further as it cools.
 
@@ -71,7 +71,7 @@
 
 ## Nutrition
 
-*Total values for the whole quiche (~2250 g baked, 10 slices → **~327 kcal / 18.1 g protein / 11.1 g fat / 1.0 g salt per slice**). **USDA-derived + labels, not FoodNoms-verified** — computed via the project's Wolfram endpoint; micros are committed best-estimates. **Scaled ×1.38 from the 550 g-squash build** to the 760 g actually used. **Fat ~111 g** is dominated by the 50 g of crust oil plus the eggs — at ~11 g/slice it is still roughly a third of a butter-shortcrust quiche. Protein is high at ~181 g (~18 g/slice) — 💪 gluten, 🥚 eggs, 🧊 cottage cheese and 🌱 quinoa flakes all contribute. Calcium ~1500 mg (🥛 milk + 🧊 cottage cheese + 🌿 sage). **Salt 10.4 g total** — only 5.5 g is added; the rest rides in on the 🧊 cottage cheese, 🍶 miso and 🥚 eggs, which is why the added salt stays restrained.*
+*Total values for the whole quiche — **as cooked** (2183 g baked, 10 slices → **~323 kcal / 17.3 g protein / 11.1 g fat / 1.1 g salt per slice**). **USDA-derived + labels, not FoodNoms-verified** — computed via the project's Wolfram endpoint; micros are committed best-estimates. **Scaled ×1.38 from the 550 g-squash build** to the 760 g actually used, and 🧀 nutritional yeast was **out of stock** — replaced by 🍶 miso 20 → 30 g plus 3.5 g 🍄 mushroom powder (glutamate + guanylate, the same synergy the nooch was providing). **Fat ~111 g** is the 50 g crust oil plus the eggs — ~11 g/slice, roughly a third of a butter-shortcrust quiche. Protein ~173 g (~17 g/slice) from 💪 gluten, 🥚 eggs, 🧊 cottage cheese and 🌱 quinoa flakes. Calcium ~1500 mg. **Salt 11 g total** (~1.1 g/slice) — 5.5 g added, the rest from 🧊 cottage cheese, 🍶 miso and 🥚 eggs; the extra 10 g of miso is why it edges up from 10.4 g.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -90,27 +90,27 @@ n100 = <|
   "milk"     -> {47, 3.6, 4.8, 4.8, 1.8, 1.1, 0, 0.1, 0.03, 124, 0.4, 11, 150, 0, 0.4, 9}, (* semi-skimmed, milk.co.uk *)
   "cottage"  -> {72, 12.39, 2.72, 2.72, 1.02, 0.645, 0, 1.015, 0.14, 61, 0.38, 5, 86, 0, 0.63, 12}, (* USDA 173417 *)
   "miso"     -> {190, 11.0, 26.0, 6.3, 6.0, 1.0, 2.5, 6.0, 2.49, 57, 2.56, 48, 210, 0, 0.08, 19}, (* white miso, local *)
-  "nooch"    -> {349, 47.0, 39.0, 1.0, 5.0, 1.0, 20.0, 0.2, 5, 30, 8, 100, 1200, 0, 0, 250}, (* local, BWFO *)
+  "mushroom" -> {296, 9.58, 75.37, 2.21, 0.99, 0.225, 11.5, 0.0325, 1.72, 11, 7.66, 132, 1534, 0, 0, 163}, (* USDA 168436 dried mushroom powder *)
   "sage"     -> {315, 10.63, 60.73, 1.71, 12.75, 7.03, 40.3, 0.028, 28.12, 1652, 4.7, 428, 1070, 0, 0, 274} (* USDA 170935 *)
 |>;
 amounts = <| "oatflour" -> 165, "quinoa" -> 85, "gluten" -> 55, "glutrice" -> 85, "oil" -> 50, "salt" -> 5.5,
              "squash" -> 760, "onion" -> 366, "eggs" -> 275, "milk" -> 410, "cottage" -> 205,
-             "miso" -> 20, "nooch" -> 20, "sage" -> 3 |>;
+             "miso" -> 30, "mushroom" -> 3.5, "sage" -> 3 |>;   (* as cooked: nooch out of stock *)
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
 
-*FoodNoms collection: **Squash, Sage & Onion Quiche [27-07-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Squash%2c+Sage+%26+Onion+Quiche+%5b27-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=10&totalServingSize=2250&fdcIds=169741%2c168874%2c168883%2c169295%2c2709795%2c171287%2c173417%2c170935&grams=165%2c85%2c85%2c760%2c366%2c275%2c205%2c3&customNames=Vital+Wheat+Gluten+%28BWFO%29%3bOil+%28Avocado%29%3bSalt%3bMilk+%28Semi-Skimmed%29%3bWhite+Miso%3bNutritional+Yeast+Flakes&customFoodIds=local%3aBAA2E5C2-08FC-ECED-501D-4C4933398839%3blocal%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a5A170000-0000-4000-8000-000000000001%3blocal%3a24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D%3blocal%3a0CF95E20-08C5-4FFF-B889-E25F0B144CF9%3blocal%3aA79EC48D-C9A5-43A9-9F24-C57821BECF60&customQuantities=55%3b50%3b5.5%3b410%3b20%3b20&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=370%2c75%2c15%2c0%2c1.9%2c0.3%2c0.6%2c0%2c5.2%2c142%2c0.85%2c25%2c100%2c0%2c0%2c0%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b0%2c0%2c0%2c0%2c0%2c0%2c0%2c40000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b47%2c3.6%2c4.8%2c4.8%2c1.8%2c1.1%2c0%2c40%2c0.03%2c124%2c0.4%2c11%2c150%2c0%2c0.4%2c9%3b190%2c11%2c26%2c6.3%2c6%2c1%2c2.5%2c2400%2c2.49%2c57%2c2.56%2c48%2c210%2c0%2c0.08%2c19%3b349%2c47%2c39%2c1%2c5%2c1%2c20%2c80%2c5%2c30%2c8%2c100%2c1200%2c0%2c0%2c250)** — generated only when clicked; totals verified to this table (HTTP 200, 3271 kcal, 14 entries).*
+*FoodNoms collection: **Squash, Sage & Onion Quiche [27-07-26] ✴️** (as cooked). **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Squash%2c+Sage+%26+Onion+Quiche+%5b27-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=10&totalServingSize=2183&fdcIds=169741%2c168874%2c168883%2c169295%2c2709795%2c171287%2c173417%2c170935%2c168436&grams=165%2c85%2c85%2c760%2c366%2c275%2c205%2c3%2c3.5&customNames=Vital+Wheat+Gluten+%28BWFO%29%3bOil+%28Avocado%29%3bSalt%3bMilk+%28Semi-Skimmed%29%3bWhite+Miso&customFoodIds=local%3aBAA2E5C2-08FC-ECED-501D-4C4933398839%3blocal%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a5A170000-0000-4000-8000-000000000001%3blocal%3a24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D%3blocal%3a0CF95E20-08C5-4FFF-B889-E25F0B144CF9&customQuantities=55%3b50%3b5.5%3b410%3b30&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=370%2c75%2c15%2c0%2c1.9%2c0.3%2c0.6%2c0%2c5.2%2c142%2c0.85%2c25%2c100%2c0%2c0%2c0%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b0%2c0%2c0%2c0%2c0%2c0%2c0%2c40000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b47%2c3.6%2c4.8%2c4.8%2c1.8%2c1.1%2c0%2c40%2c0.03%2c124%2c0.4%2c11%2c150%2c0%2c0.4%2c9%3b190%2c11%2c26%2c6.3%2c6%2c1%2c2.5%2c2400%2c2.49%2c57%2c2.56%2c48%2c210%2c0%2c0.08%2c19)** — generated only when clicked; totals verified to this table (HTTP 200, 3231 kcal, 14 entries).*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3271 kcal | Iron | 29 mg |
-| Protein | 181 g | Calcium | 1500 mg |
-| Carbohydrates | 403 g | Zinc | 19 mg |
-| — of which sugars | 67 g | Magnesium | 861 mg |
-| Fat | 111 g | Potassium | 5997 mg |
-| — of which saturates | 25 g | Vitamin D | 5.5 µg |
-| Fibre | 47 g | Vitamin B12 | 5.4 µg |
-| Salt | 10.4 g | Folate | 743 µg |
+| Energy | 3231 kcal | Iron | 28 mg |
+| Protein | 173 g | Calcium | 1500 mg |
+| Carbohydrates | 400 g | Zinc | 18 mg |
+| — of which sugars | 68 g | Magnesium | 850 mg |
+| Fat | 111 g | Potassium | 5832 mg |
+| — of which saturates | 25 g | Vitamin D | 5.6 µg |
+| Fibre | 43 g | Vitamin B12 | 5.4 µg |
+| Salt | 11.0 g | Folate | 700 µg |
 
 ---
 
@@ -168,7 +168,7 @@ Export["blind-bake.pdf", plot]
 - **Gluten belongs here, unlike in a sweet pie.** A sweet custard pie wants a short, tender crust and gluten wrecks it. A quiche crust has a different job — holding a wet custard for 40 minutes without going soggy — so a slightly firmer, more galette-like base is a feature. This is also the recipe's biggest **run-down win** on the BWFO gluten stock, and the low-fat revision leans on it harder (40 g).
 - **🍚 Glutinous rice flour does two different jobs.** In the crust (20 g) it's the binder that stops the oat flour collapsing into sand. In the custard (20 g) it's a **stabiliser against weeping** — squash is wet and squash custards split readily; the amylopectin sets silky rather than rubbery and is freeze–thaw stable. Held to 20 g in the filling: more and you get a faint mochi bounce, which reads wrong in savoury.
 - **Toast the oat flour.** Untoasted it tastes of wallpaper paste; toasted it's nutty and is the crust's main flavour. Its earthiness is a liability under a delicate sweet filling but an asset under roasted squash and onion — part of why savoury was the better call.
-- **No cheese, by necessity and design.** The house stocks no melting cheese, so the gruyère role is split three ways: 🍶 white miso for savoury depth, 🧀 nutritional yeast for the cheesy top note, and blended 🧊 cottage cheese for body and protein. **The cottage cheese must be blended smooth** — the standing family rule (visible curds are a Lara problem, same as silken tofu).
+- **No cheese, by necessity and design.** The house stocks no melting cheese, so the gruyère role is split three ways: 🍶 white miso for savoury depth, a cheesy top note (🧀 nutritional yeast by design — **3.5 g 🍄 mushroom powder as cooked**, the nooch having run out), and blended 🧊 cottage cheese for body and protein. **The cottage cheese must be blended smooth** — the standing family rule (visible curds are a Lara problem, same as silken tofu).
 - **Roast the squash, never boil it.** Same rule as the chickpea–butternut soup: roasting concentrates the sugar and, critically here, keeps water out of a custard that would otherwise weep. Skin comes off for this one (unlike the soup) since nothing is blended and skin would read as tough flecks.
 - **Salt restrained on purpose.** Only 4 g is added; 🧊 cottage cheese (~1.5 g), 🍶 miso and 🥚 eggs bring the total to 7.6 g (~1.0 g/slice). Season the custard by taste before it goes in — you can't adjust once it's baked.
 - **Clears every family flag.** No chilli, no smoke, no cooked peppers, no in-pot acid; creamy, mild and sweet-leaning from the squash and caramelised onion — the register that put Jannes at the top of his range on the chickpea–butternut soup. 🌿 Sage + squash + onion is the same autumnal trio as the white bean soup.
@@ -179,4 +179,4 @@ Export["blind-bake.pdf", plot]
 
 - **Designed 2026-07-26 — untested.** Built to use up the odd cupboard flours (1 kg oat flour, 1 kg glutinous rice flour, a large stock of BWFO vital wheat gluten) plus a squash, with no plain flour and no cheese in the house. Started as a sweet squash-custard pie; switched to savoury, which suited the ingredients better — the oat flour's earthiness became an asset and the vital wheat gluten went from unusable to genuinely helpful.
 - **Revised same day to the low-fat crust.** First draft carried 75 g of oil in the crust; cut to **35 g** (at the original scale) by substituting for fat's functions — pre-gelatinised rice-flour paste for binding, more gluten for cohesion, an egg-wash seal for waterproofing — plus quinoa flakes displacing oat flour for mechanical grip and protein. At the original 550 g-squash scale that took the quiche **2609 → 2366 kcal**, fat **120 → 79 g** (~15 → ~9.9 g/slice), protein **121 → 132 g**. The accepted cost is a firmer, less short crust.
-- **Cooked 2026-07-27 — scaled ×1.38 on the day** (this version). The squash on hand came to **760 g** against the 550 g planned, so everything except the already-measured 🧅 onion (**366 g** actual) was scaled to match. **The tin had to go up with it:** the filling reaches ~1660 ml, which overflows the 25 × 4 cm tin the previous version specced, hence **28 × 4 cm**. Whole quiche now **~3271 kcal / 181 g protein / 111 g fat / 47 g fibre / salt 10.4 g**, cut into **10 slices** at ~327 kcal each — per-slice figures barely move from the 8-slice version (327 vs 296 kcal, 11.1 vs 9.9 g fat), it is simply a bigger quiche. Remaining actuals (crust flours, oil, eggs, milk, cottage cheese, baked yield) not yet logged; nutrition is USDA-derived pending a FoodNoms reconciliation.
+- **Cooked 2026-07-27 — scaled ×1.38 on the day** (this version). The squash on hand came to **760 g** against the 550 g planned, so everything except the already-measured 🧅 onion (**366 g** actual) was scaled to match. **The tin changed with it:** the filling reaches ~1660 ml, which overflows the 25 × 4 cm tin the previous version specced — cooked instead in a **24 × 7 cm springform** (~64 % full), which made it a *deep* quiche (~4 cm of filling rather than ~2.5) and pushed the final bake to 170 °C for ~60 min. **🧀 Nutritional yeast ran out mid-build** and was replaced by taking 🍶 miso 20 → 30 g plus **3.5 g 🍄 seven-mushroom powder** — glutamate plus guanylate, reconstructing both halves of what the nooch was doing, at the cost of a slightly more fermented-and-earthy character than cheesy (arguably a better fit for sage and squash anyway). **Baked yield 2183 g** against ~2250 g estimated. As-cooked totals: **~3231 kcal / 400 g carb / 173 g protein / 111 g fat / 43 g fibre / salt 11 g**, cut into **10 slices** at ~323 kcal each. All ingredient actuals logged. USDA-derived + labels, not FoodNoms-verified. Not yet rated.
