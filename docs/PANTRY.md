@@ -80,6 +80,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 - **Avocado oil** — **default general-purpose cooking oil** (Holger's standard; neutral, high smoke point). Reach for this unless a recipe specifies otherwise. **Holger uses ≤3 g per dish** (limited-fat approach) — default to 3 g, not a tablespoon.
 - **Mild olive oil** — also stocked; interchangeable where a recipe says "olive oil."
 - **Sesame oil** — Japanese / Korean finishing
+- **Tahini** — confirmed in stock 2026-08-02. ~55 % fat, so treat as a flavour ingredient in gram quantities, not a sauce base, under the limited-fat approach. Levantine uses: carob + tahini (*dibs w'tahini*) is the canonical pairing — see the Levantine Bhuna shakshuka in `../design/SHAKSHUKA.md` — and it's the sesame partner to za'atar. ⚠ Seizes and can split in hot acidic liquid: slake with a spoonful of the hot sauce off heat before stirring in, then keep below a boil.
 - **Coconut milk** — standard reference: Biona Organic Light, 9% fat (see `TECHNIQUES.md`)
 
 ### Dairy
