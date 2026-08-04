@@ -17,65 +17,68 @@ Both built around ~700 kcal, 2–3 eggs, with profile-specific spices and finish
 
 Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = whole dried chillies; *tbl* = added at the table; `—` = not used). The base (🥫 canned tomatoes + 🥬 spinach + 🥚 eggs + 🥑 oil) is shared across all profiles. Every shakshuka **build** in this doc is a column — the **sauerkraut hash** is a different structure (see *Structure 2* below), so it isn't here.
 
-| Component | [Indian][s-indian] | [Ind. bold][s-bold] | [Curry-Pwd][s-curry] | [N.African][s-nafr] | [Mex. kid][s-mexkid] | [Mex. chip][s-mexchip] | [Mex. mole][s-mexmole] | [Mex. carob][s-mexcarob] | [Japanese][s-japanese] | [M.East][s-meast] | [Levant. bhuna][s-levbhuna] | [Korean][s-korean] | [Thai][s-thai] | [Y.Thai][s-yellowthai] |
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Base** | | | | | | | | | | | | | | |
-| 🥫 Canned tomatoes | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | 400 |
-| 🥬 Spinach | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
-| 🥚 Eggs | 2–3 | 2–3 | 2 | 2 | 2–3 | 2 | 2 | 2 | 2–3 | 2–3 | 3‡ | 2–3 | 2–3 | 2–3 |
-| 🥑 Avocado oil | 3 | 3 | 3 | 3 | 7 | 3 | 3 | 3 | — | 3 | 3 | — | 3 | 3 |
-| **Spice blends / pastes** | | | | | | | | | | | | | | |
-| 🍛 Tikka masala\* | 6 | 9 | — | — | — | — | — | — | — | — | — | — | — | — |
-| 🍛 Curry powder | — | — | 10 | — | — | — | — | — | — | — | — | — | — | — |
-| 🫙 Harissa | — | — | — | 8 | — | — | — | — | — | — | — | — | — | — |
-| 🌶️ Gochujang | — | — | — | — | — | — | — | — | — | — | — | 15 | — | — |
-| 🌿 Za'atar | — | — | — | — | — | — | — | — | — | 5 | 5 | — | — | — |
-| 🍇 Sumac | tbl | tbl | — | — | tbl | — | — | — | — | 3 | 2 + 2 tbl | — | — | — |
-| 🍶 Red miso ⚠ | — | — | — | — | — | — | — | — | 10 | — | — | — | — | — |
-| 🍲 Green curry paste | — | — | — | — | — | — | — | — | — | — | — | — | 20 | — |
-| 🟡 Mae Ploy yellow paste | — | — | — | — | — | — | — | — | — | — | — | — | — | 20 |
-| 🌾 Lemongrass paste | — | — | — | — | — | — | — | — | — | — | — | — | 10 | — |
-| 🫚 Galangal paste | — | — | — | — | — | — | — | — | — | — | — | — | 8 | — |
-| **Heat / chili** | | | | | | | | | | | | | | |
-| 🌶️ Chipotle (soaked) | — | — | — | — | — | 8 | 8 | 8 | — | — | 10 | — | — | — |
-| 🫑 Ancho flakes | — | — | — | 6 | — | 8 | 8 | 8 | — | — | — | — | — | — |
-| 🌶️ Dried chilli (soak) | 2 pc | 2–3 pc | ~3 | 1–2 pc | — | — | — | — | 1 pc | — | — | — | — | 2–3 pc |
-| 🌶️ Smoked paprika ⚠ | — | — | — | — | — | 6 | 6 | 6 | — | — | — | — | — | — |
-| 🌶️ Sweet / Kashmiri paprika | — | 3 | — | — | — | — | — | — | — | — | — | — | — | — |
-| 🌶️ Bird's-eye | — | — | — | — | tbl | — | — | — | — | — | — | — | — | soak† |
-| **Toasted whole spices** | | | | | | | | | | | | | | |
-| 🌰 Cumin | 3 | 4 | 2 | 3 | 2 | 2 | 2 | 2 | — | — | 2 | — | — | — |
-| 🌭 Mustard | 3–4 | 4 | — | 4 | — | — | — | — | — | — | — | — | — | — |
-| 🌿 Fennel | — | — | — | 2 | — | — | — | — | — | — | — | — | — | — |
-| 🪵 Cinnamon | — | — | — | 1 | — | — | 1 | — | — | — | — | — | — | — |
-| ⚫ Cacao nibs | — | — | — | — | — | — | 3 | — | — | — | — | — | — | — |
-| 🟤 Carob powder | — | — | — | — | — | — | — | 5 | — | — | 5 | — | — | — |
-| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | 2 | — | — | 2 | — | 4 | 4 |
-| 🌿 Coriander (ground) | — | — | — | — | — | 2 | — | — | — | — | — | — | — | — |
-| 🌿 Oregano | — | — | — | — | 2 | 2 | 2 | — | — | — | — | — | — | — |
-| **Aromatics** | | | | | | | | | | | | | | |
-| 🧄 Garlic (fresh) | 8 | — | — | — | 4 | — | — | — | 4 | — | — | — | — | — |
-| 🧄 Garlic powder | — | 2 | 2 | — | — | 1.5 | 1.5 | 1.5 | 1–2 | — | 1.5 | — | — | — |
-| 🫚 Fresh ginger | — | — | — | — | — | — | — | — | 8–10 | — | — | 8 | 3 | 5 (paste) |
-| 🫚 Dried ginger | 1 | 1.5 | 1.5 | — | — | — | — | — | 3–4 | — | — | — | — | — |
-| 🍅 Tomato paste (bhuna) | 15 | 22 | 20 | — | 8 | 20 | **none** | **none** | — | — | 20 | — | — | — |
-| 🥕 Grated carrot | — | — | — | — | 50 | — | — | — | — | — | — | — | — | — |
-| **Liquid finishers / umami** | | | | | | | | | | | | | | |
-| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | — | — | 10 | — | 10 | 15 | 5–8 |
-| 🧀 Nutritional yeast | — | — | — | 15 | 3 | 5 | 6 | 8 | — | 15 | — | — | — | — |
-| 🥣 Tahini | — | — | — | — | — | — | — | — | — | — | 3 (drizzle) | — | — | — |
-| 🥜 Defatted peanut flour | — | — | — | — | — | — | — | — | — | — | — | — | — | 5–8 |
-| 🍶 Dashi soy | — | — | — | — | — | — | — | — | 8–10 | — | — | — | — | — |
-| 🍶 Mirin | — | — | — | — | — | — | — | — | 10 | — | — | — | — | — |
-| 🛢️ Sesame oil (finish) | — | — | — | — | — | — | — | — | 5 | — | — | 5 | — | — |
-| 🍋 Rice vinegar | — | — | — | — | — | — | — | — | — | — | — | 5 | — | — |
-| 🥭 Tamarind | — | — | — | — | — | — | — | 8 | — | — | — | — | — | — |
-| 🌶️ Shichimi | — | — | — | — | — | — | — | — | 4 | — | — | — | — | — |
-| 🥬 Nori | — | — | — | — | — | — | — | — | ~1.5 | — | — | ~2 | — | — |
-| 🧂 Salt (in soak) | 1 | 1 | 1.5 | — | — | 1 | 1 | 1 | — | — | 1 | — | — | — |
-| 🍋 Lemon / lime | — | — | lemon | — | — | lime | lime | — | — | — | — | — | — | lime |
-| 🥥 Coconut milk (opt) | 40–50 | — | 40–50 | — | — | — | — | — | — | — | — | — | — | — |
-| 🫙 Garam masala (opt) | — | — | 2 | — | — | — | — | — | — | — | — | — | — | — |
+| Component | [Indian][s-indian] | [Ind. bold][s-bold] | [Curry-Pwd][s-curry] | [N.African][s-nafr] | [Mex. kid][s-mexkid] | [Mex. chip][s-mexchip] | [Mex. mole][s-mexmole] | [Mex. carob][s-mexcarob] | [Japanese][s-japanese] | [M.East][s-meast] | [Levant. bhuna][s-levbhuna] | [Korean][s-korean] | [Thai][s-thai] | [Y.Thai][s-yellowthai] | [Tom yum][s-tomyum] |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| **Base** | | | | | | | | | | | | | | | |
+| 🥫 Canned tomatoes | 400 | 400 | 400 | 400 | 300 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | 400 | 400 |
+| 🥬 Spinach | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
+| 🥚 Eggs | 2–3 | 2–3 | 2 | 2 | 2–3 | 2 | 2 | 2 | 2–3 | 2–3 | 3‡ | 2–3 | 2–3 | 2–3 | 3 |
+| 🥑 Avocado oil | 3 | 3 | 3 | 3 | 7 | 3 | 3 | 3 | — | 3 | 3 | — | 3 | 3 | 3 |
+| **Spice blends / pastes** | | | | | | | | | | | | | | | |
+| 🍛 Tikka masala\* | 6 | 9 | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| 🍛 Curry powder | — | — | 10 | — | — | — | — | — | — | — | — | — | — | — | — |
+| 🫙 Harissa | — | — | — | 8 | — | — | — | — | — | — | — | — | — | — | — |
+| 🍲 Tom yum paste (vegan) | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 15 |
+| 🌶️ Gochujang | — | — | — | — | — | — | — | — | — | — | — | 15 | — | — | — |
+| 🌿 Za'atar | — | — | — | — | — | — | — | — | — | 5 | 5 | — | — | — | — |
+| 🍇 Sumac | tbl | tbl | — | — | tbl | — | — | — | — | 3 | 2 + 2 tbl | — | — | — | — |
+| 🍶 Red miso ⚠ | — | — | — | — | — | — | — | — | 10 | — | — | — | — | — | — |
+| 🍲 Green curry paste | — | — | — | — | — | — | — | — | — | — | — | — | 20 | — | — |
+| 🟡 Mae Ploy yellow paste | — | — | — | — | — | — | — | — | — | — | — | — | — | 20 | — |
+| 🌾 Lemongrass paste | — | — | — | — | — | — | — | — | — | — | — | — | 10 | — | — |
+| 🫚 Galangal paste | — | — | — | — | — | — | — | — | — | — | — | — | 8 | — | — |
+| **Heat / chili** | | | | | | | | | | | | | | | |
+| 🌶️ Chipotle (soaked) | — | — | — | — | — | 8 | 8 | 8 | — | — | 10 | — | — | — | — |
+| 🫑 Ancho flakes | — | — | — | 6 | — | 8 | 8 | 8 | — | — | — | — | — | — | — |
+| 🌶️ Dried chilli (soak) | 2 pc | 2–3 pc | ~3 | 1–2 pc | — | — | — | — | 1 pc | — | — | — | — | 2–3 pc | — |
+| 🌶️ Smoked paprika ⚠ | — | — | — | — | — | 6 | 6 | 6 | — | — | — | — | — | — | — |
+| 🌶️ Sweet / Kashmiri paprika | — | 3 | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| 🌶️ Fresh red chilli | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 15 |
+| 🌶️ Bird's-eye | — | — | — | — | tbl | — | — | — | — | — | — | — | — | soak† | — |
+| **Toasted whole spices** | | | | | | | | | | | | | | | |
+| 🌰 Cumin | 3 | 4 | 2 | 3 | 2 | 2 | 2 | 2 | — | — | 2 | — | — | — | — |
+| 🌭 Mustard | 3–4 | 4 | — | 4 | — | — | — | — | — | — | — | — | — | — | — |
+| 🌿 Fennel | — | — | — | 2 | — | — | — | — | — | — | — | — | — | — | — |
+| 🪵 Cinnamon | — | — | — | 1 | — | — | 1 | — | — | — | — | — | — | — | — |
+| ⚫ Cacao nibs | — | — | — | — | — | — | 3 | — | — | — | — | — | — | — | — |
+| 🟤 Carob powder | — | — | — | — | — | — | — | 5 | — | — | 5 | — | — | — | — |
+| 🌸 Szechuan pepper (toasted, ground, seeds sifted) | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 1 |
+| 🍄 Shiitake powder | — | — | — | — | — | — | 5 | 2 | — | — | 2 | — | 4 | 4 | 3 |
+| 🌿 Coriander (ground) | — | — | — | — | — | 2 | — | — | — | — | — | — | — | — | — |
+| 🌿 Oregano | — | — | — | — | 2 | 2 | 2 | — | — | — | — | — | — | — | — |
+| **Aromatics** | | | | | | | | | | | | | | | |
+| 🧄 Garlic (fresh) | 8 | — | — | — | 4 | — | — | — | 4 | — | — | — | — | — | — |
+| 🧄 Garlic powder | — | 2 | 2 | — | — | 1.5 | 1.5 | 1.5 | 1–2 | — | 1.5 | — | — | — | — |
+| 🫚 Fresh ginger | — | — | — | — | — | — | — | — | 8–10 | — | — | 8 | 3 | 5 (paste) | — |
+| 🫚 Dried ginger | 1 | 1.5 | 1.5 | — | — | — | — | — | 3–4 | — | — | — | — | — | 1.5 |
+| 🍅 Tomato paste (bhuna) | 15 | 22 | 20 | — | 8 | 20 | **none** | **none** | — | — | 20 | — | — | — | — |
+| 🥕 Grated carrot | — | — | — | — | 50 | — | — | — | — | — | — | — | — | — | — |
+| **Liquid finishers / umami** | | | | | | | | | | | | | | | |
+| 🫗 Liquid / coconut aminos | — | — | — | 10 | 3 | 15 | 15 | — | — | 10 | — | 10 | 15 | 5–8 | — |
+| 🧀 Nutritional yeast | — | — | — | 15 | 3 | 5 | 6 | 8 | — | 15 | — | — | — | — | — |
+| 🥣 Tahini | — | — | — | — | — | — | — | — | — | — | 3 (drizzle) | — | — | — | — |
+| 🥜 Defatted peanut flour | — | — | — | — | — | — | — | — | — | — | — | — | — | 5–8 | — |
+| 🍶 Dashi soy | — | — | — | — | — | — | — | — | 8–10 | — | — | — | — | — | — |
+| 🍶 Mirin | — | — | — | — | — | — | — | — | 10 | — | — | — | — | — | — |
+| 🛢️ Sesame oil (finish) | — | — | — | — | — | — | — | — | 5 | — | — | 5 | — | — | — |
+| 🍋 Rice vinegar | — | — | — | — | — | — | — | — | — | — | — | 5 | — | — | — |
+| 🥭 Tamarind | — | — | — | — | — | — | — | 8 | — | — | — | — | — | — | — |
+| 🌶️ Shichimi | — | — | — | — | — | — | — | — | 4 | — | — | — | — | — | — |
+| 🥬 Nori | — | — | — | — | — | — | — | — | ~1.5 | — | — | ~2 | — | — | — |
+| 🧂 Salt (in soak) | 1 | 1 | 1.5 | — | — | 1 | 1 | 1 | — | — | 1 | — | — | — | — |
+| 🍋 Lemon / lime | — | — | lemon | — | — | lime | lime | — | — | — | — | — | — | lime | lime |
+| 🥥 Coconut milk (opt) | 40–50 | — | 40–50 | — | — | — | — | — | — | — | — | — | — | — | — |
+| 🫙 Garam masala (opt) | — | — | 2 | — | — | — | — | — | — | — | — | — | — | — | — |
 
 \* 🍛 **Indian** — Tikka *or* Madras, not both; the **bold** Indian runs tikka at 9 g.
 † 🌶️ **Y.Thai bird's-eye** — 2–3 whole dried bird's-eye chillies, **soaked overnight**, blended and **cooked into** the sauce (not at the table) → pervasive built-in heat; see the profile.
@@ -86,6 +89,7 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 - 🥥 The coconut-milk splash (Indian, Curry-Powder) is an optional creamy / acid-cut finish, not core.
 - 🟡 **Yellow Thai (Mae Ploy)** — added 2026-07-05 (a Mae Ploy run-down); its umami is the fried paste + 🍄 shiitake, **no coconut milk** (sat-fat), 🫚 ginger *paste*, and the bird's-eye soak (†). Full build below.
 - 🍇 **Levantine bhuna (carob-chipotle-sumac-za'atar-tahini)** — designed 2026-08-04. The first build to put 🍅 **bhuna and 🟤 carob in the same pan** (the mole/carob lineage had dropped the bhuna on purpose), and the first to **run with no 🧀 nooch at all** — the bhuna is the umami anchor instead. Takes 🌿 za'atar + 🍇 sumac from the Middle Eastern column and 🌶️ chipotle from the Mexican one; drops 🫑 ancho and 🌶️ smoked paprika so chipotle is the sole smoke. 🥣 **Tahini is the only entry in that row** — carob + tahini is the canonical Levantine pairing, and it doubles as the sesame echo of the za'atar; held to a **3 g surface drizzle**, none stirred in, so it doesn't mute the sumac. Untested — see the profile.
+- 🍲 **Tom yum (Szechuan & chilli)** — designed 2026-08-04. The only profile whose **entire seasoning is one jar** — 🍲 Mae Ploy *Vegan* Tom Yum Paste, which is 38.2% lemongrass, 9.6% galangal, 6.4% tamarind, 5.3% citric acid and its own dried chilli. That makes it the first build with **no separate souring agent and no added salt**: the paste supplies the sour, the sweet and the whole salt budget. 🌸 Szechuan pepper is the one genuinely new note in the library. Untested — see the profile.
 - 🟤 **Mexican carob-chipotle-tamarind** — designed 2026-07-14 as a redesign of the mole-chipotle build after its cocoa/cinnamon **"didn't register"** (cook log, 2026-06-23: 8.0, "a bit too much going on in the pan"). Swaps 🟤 carob for ⚫ cacao (sweeter, more forward, doesn't need a long simmer to develop), drops 🪵 cinnamon and 🌿 oregano entirely, and **rebalances the umami to a low-mass synergy** — 🍄 shiitake cut 5→2 g and 🧀 nooch 6→8 g with 🫗 aminos dropped, so the glutamate × guanylate multiplier is kept but at a fraction of the mole build's umami volume (which was itself part of what buried the subtle notes). Adds 🥭 tamarind off heat as the sour note, replacing the at-table lime rather than sitting alongside it. Net: fewer competing notes than the build that was diagnosed as crowded, even with tamarind added. Untested — see the profile.
 
 ---
@@ -884,6 +888,66 @@ Built around **Mae Ploy vegan yellow curry paste** — a pantry run-down (Holger
 
 ---
 
+## Profile: [Tom Yum — Szechuan & Chilli (solo)][s-tomyum]
+
+The first profile where **one jar is the entire seasoning line**. 🍲 Mae Ploy *Vegan* Tom Yum Paste is 38.2% lemongrass, 9.6% galangal, 6.9% shallot, 6.4% tamarind, 5.3% citric acid, 4.2% garlic and its own dried red chilli — which means it already contains the aromatics, the sour *and* the sweet that other profiles assemble from four or five separate ingredients. Everything added to it is there to do a job the jar cannot: 🌶️ fresh chilli for bright heat, 🍄 mushroom powder for guanylate, 🫚 ginger for warmth, and 🌸 **Szechuan pepper** — the one note in this library that nothing else supplies. Holger solo; designed 2026-08-04. Run-down: tom yum paste, dried ginger, seven-mushroom blend.
+
+⚠ **Use the *vegan* jar.** The standard Mae Ploy tom yum paste contains shrimp paste, fish sauce and dried shrimp. See `docs/PANTRY.md`.
+
+### Single-serving build (3 eggs)
+
+| Ingredient | Weight | Notes |
+|:-----------|-------:|:------|
+| 🥑 Avocado oil | 3 g | the paste fry |
+| 🍲 Vegan tom yum paste | 15 g | **fry hard, 3-4 min** — the whole seasoning line |
+| 🌶️ Fresh red chilli, sliced | ~15 g (2–3) | in with the paste — **no soak, they are fresh** |
+| 🫚 Dried ginger | 1.5 g | with the paste (optional — it is not strictly tom yum) |
+| 🥫 Canned tomatoes | 400 g | base |
+| 🥬 Spinach | 100 g | base |
+| 🥚 Eggs | 3 | base, streaked |
+| 🍄 Seven-mushroom powder | 3 g | off heat — the guanylate the jar lacks |
+| 🌸 Szechuan pepper, toasted and ground, **seeds sifted out** | 1 g | **off heat, last** |
+| 🍋 Lime | at table | the fresh lift |
+| 🧂 Salt | **none** | the paste is 13.9% salt — see below |
+
+### Method
+
+Follows the constant shakshuka method (Structure 1), with:
+
+1. **Toast and grind the 🌸 Szechuan pepper** — whole, in a dry pan, 30–60 sec until fragrant, then grind and **sift out the black seeds**. Set aside; it goes in at the end.
+2. **Fry the 🍲 paste hard** in the 🥑 oil, 3–4 minutes, until it darkens and smells cooked rather than raw. Add the sliced 🌶️ chilli and 🫚 ginger for the last minute. **This is the whole flavour step** — there is no separate bloom, because everything is already in the jar.
+3. Add the 🥫 canned tomatoes, hand-crushed, and simmer 5 minutes.
+4. Wilt the 🥬 spinach. **Do not salt** — taste first; the paste has already put ~2 g in the pan.
+5. **Off the heat**, stir in the 🍄 mushroom powder and the ground 🌸 Szechuan pepper.
+6. **Streak the 🥚 eggs** (house method — set ~2 min, fold once or twice, off the heat while still soft).
+7. 🍋 Lime at the table.
+
+### Design notes
+
+- **🌸 Szechuan pepper is an amplifier, not a foreign import — and the reason is botanical.** *Zanthoxylum* is in the **citrus family**, and its top note is lemon peel. Tom yum's entire aromatic axis is citrus: lemongrass at 38% of the jar, kaffir lime peel, lime at the table. So it reinforces the axis the dish already runs on rather than opening a new one. What it genuinely adds is the *málà* tingle — a **texture-level sensation nothing else in the pantry produces**. (There is a precedent in the library: the Japanese profile's 🌶️ shichimi contains *sansho*, the Japanese cousin of the same plant.)
+- **Three rules for the Szechuan pepper, all of which matter more than the dose.** (1) **Toast whole, then grind** — untoasted it is flat, over-toasted it turns bitter fast. (2) **Sift the black seeds out after grinding** — the seeds are gritty and bitter and the aroma and tingle live entirely in the reddish husks; most dislike of Szechuan pepper is really dislike of the seeds. (3) **Off heat, last** — the sanshools that do the tingling are volatile, so a long cook leaves you the bitterness and none of the effect. At **1 g** it reads as citrus-and-tingle supporting the lemongrass; past ~2 g it hijacks the dish and can tip soapy.
+- **No tamarind, no date, no yuzu — the jar has already done it.** The date-and-yuzu substitution developed for the Thai green profile existed to reconstruct tamarind's *sour plus dark fruity sugar* during the tamarind stock-out. This jar carries **6.4% tamarind, 5.3% citric acid and 3% sugar**, so stacking that substitution on top would roughly double the acid and add sweetness that is already present. This is the first profile in the library with **no separate souring agent at all**.
+- **🌶️ Fresh chilli, not soaked — and expect to use more of it.** Bird's-eye were out. Standard long red chillies run 2,500–8,000 SHU against bird's-eye at 50,000–100,000, so roughly ten to twenty times milder by weight; ~15 g gets to a comparable place. Being fresh, they **skip the soak entirely** (soaking is a rehydration step for dried chillies) and go in with the paste fry. What changes is the character: brighter, fruitier, more vegetal heat rather than the searing penetrating kind — which suits tom yum, where fresh chillies bruised into the pot are the norm.
+- **🫚 Ginger is optional and is *not* tom yum.** Tom yum's rhizome is galangal, which the jar supplies at 9.6%. Ginger is a hotter, less piney-citrus note. There is precedent in the Yellow Thai profile (5 g ginger paste), so it is not a foreign move — but keep it at ~1.5 g dried so it supports rather than leads. For more rhizome character, extra galangal paste is the in-style answer.
+- **Salt sets the paste dose, not flavour.** The jar is **13.9 g salt per 100 g** — noticeably saltier than Mae Ploy's yellow curry paste at ~10%. **15 g of tom yum paste therefore carries about the same salt as the 20 g of yellow paste the Yellow Thai profile uses**, which is why 15 g is the spec rather than 20 g. The dish still lands at **3.2 g salt** with nothing added, above the 2.0–2.8 g the rest of the line runs at. That is deliberate rather than accidental — the same position as the North African profile's 2.83 g, a solo breakfast replacing heavy training-sweat losses — but if you want it in range, **12 g of paste brings it to ~2.8 g**. Going the other way, 20 g takes it to ~3.9 g.
+- **The jar covers glutamate but not guanylate.** Its fermented soybean paste and hydrolysed soy protein are the vegan replacement for the shrimp-and-fish glutamate in the standard version, so no 🧀 nooch or 🫗 aminos are needed. What it has no source of is **guanylate**, so 3 g of dried-mushroom powder off the heat completes the multiplicative synergy at invisible mass — the same lever as every other Thai profile here.
+
+### Nutrition (whole serving)
+
+*Estimates, not FoodNoms-verified — USDA-derived + labels; micros are committed best-estimates. 🍲 paste from its own label (micros a committed estimate, lemongrass-dominant); 🌸 Szechuan pepper a committed estimate — at 1 g the uncertainty is rounding-level. 🍄 seven-mushroom blend valued at dried-shiitake `168436`, the established proxy.*
+
+**400 kcal · 27 g protein · 26 g carbs (17 g sugars) · 21 g fat (6 g sat) · 8 g fibre · salt 3.2 g.** Micros: K 1716 mg, Ca 330 mg, Mg 156 mg, Fe 8.6 mg, Zn 3.4 mg, folate 307 µg, B12 1.3 µg, vit D 3.1 µg.
+
+**Fibre is the lowest in the line at ~8 g** (against 13–17 g for the Mexican and North African builds) — those profiles carry 6–16 g of dried chilli, ancho and nooch, all of which are fibre-dense, whereas this one's entire seasoning is 15 g of a 4.8%-fibre paste. Not a fault, but if the breakfast is meant to carry fibre, this is not the profile for it.
+
+**Spice-line calories** — ~60 kcal: 🍲 tom yum paste 37 · 🍄 mushroom powder 9 · 🌶️ fresh chilli 6 · 🫚 dried ginger 5 · 🌸 Szechuan pepper 3.
+
+**⬇ Download** (`BuildFoodNomsRecipe`, itemised): [**download**](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Shakshuka+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=1&totalServingSize=685&fdcIds=168462%2c171287%2c170106%2c170926%2c168436&grams=100%2c150%2c15%2c1.5%2c3&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bOil+%28Avocado%29%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bSzechuan+Pepper+%28toasted%2c+ground%29&customQuantities=400%3b3%3b15%3b1&customUnits=gram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b330%2c10%2c65%2c2%2c8%2c1%2c40%2c20%2c15%2c500%2c2%2c250%2c1300%2c0%2c0%2c20) · 🌶️ fresh chilli → USDA "Peppers, hot chili, red, raw" (170106); 🫚 → USDA ground ginger (170926); 🍲 paste and 🌸 Szechuan pepper from label and committed estimate respectively.
+
+**Untested.** No cook log yet.
+
+---
+
 ## Structure 2: Sauerkraut hash
 
 ### Base (constant across profiles)
@@ -1006,6 +1070,7 @@ Compare a cube-based shakshuka against a freshly-pounded portion: day 1 (immedia
 | Holger solo, want smoke + peanut + tamarind | Mexican-Thai — Smoky Peanut (solo) |
 | Bold, want fresh herbs | Thai green |
 | Solo, Thai + a paste to run down | Yellow Thai (Mae Ploy) ⚠️ built-in heat — adult only |
+| Solo, want one-jar simplicity + something genuinely new | Tom Yum (Szechuan & chilli) ⚠️ saltiest in the line |
 | Want something distinctly different | Korean (gochujang) |
 | Holger solo, want comfort | Sauerkraut hash, Levantine (za'atar + sumac + tahini) |
 | Simplest, fastest | Middle Eastern shakshuka (za'atar + sumac, 4-ingredient flavouring) |
@@ -1033,5 +1098,6 @@ One **meal** file per profile (collectionType 2; **committed values, no ±band**
 [s-levbhuna]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Levantine+Bhuna+Shakshuka+-+Carob%2c+Chipotle%2c+Sumac+%26+Za%27atar+%28tahini+drizzle%29+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462%2c168604&grams=100%2c3&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bSpices+%26+Seasonings+%e2%80%94+chipotle%2c+tomato+paste+%28bhuna%29%2c+carob%2c+sumac%2c+za%27atar%2c+cumin%2c+garlic+powder%2c+mushroom+powder&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a3E7C9A24-58B1-4D6F-A039-C1B84F2E7D55&customQuantities=400%3b150%3b3%3b50.5&customUnits=gram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b219.871%2c7.528%2c43.534%2c18.577%2c5.210%2c0.694%2c15.832%2c1029.842%2c7.386%2c196.188%2c1.450%2c85.376%2c1185.119%2c0.154%2c0%2c28.248
 [s-korean]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Korean+Gochujang+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+gochujang%2c+ginger%2c+sesame+oil%2c+rice+vinegar&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a9095E184-5C3E-BFE0-A3A2-293AE7AA745F&customQuantities=400%3b100%3b10%3b33.0000&customUnits=gram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b256.0612%2c2.7291%2c25.2922%2c10.4879%2c16.2428%2c2.3226%2c1.8483%2c1095.1212%2c0.9121%2c17.8176%2c0.3101%2c24.2116%2c192.4237%2c0.0000%2c0.0000%2c2.6673
 [s-thai]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Thai+Green+Shakshuka+%5b25-06-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bSpices+%26+Seasonings+%e2%80%94+green+curry+paste%2c+lemongrass%2c+galangal%2c+ginger%2c+shiitake&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a1A53030F-E11F-652D-0EBE-B16935A054D9&customQuantities=400%3b100%3b3%3b15%3b45.0000&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b123.2000%2c2.4613%2c22.1960%2c5.6427%2c2.7600%2c1.0027%2c3.7333%2c1628.6893%2c1.4813%2c27.8227%2c1.0453%2c35.9333%2c335.1333%2c13.6893%2c0.0000%2c15.2227
+[s-tomyum]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Shakshuka+-+Szechuan+%26+Chilli+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&servings=1&totalServingSize=685&fdcIds=168462%2c171287%2c170106%2c170926%2c168436&grams=100%2c150%2c15%2c1.5%2c3&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bOil+%28Avocado%29%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bSzechuan+Pepper+%28toasted%2c+ground%29&customQuantities=400%3b3%3b15%3b1&customUnits=gram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b330%2c10%2c65%2c2%2c8%2c1%2c40%2c20%2c15%2c500%2c2%2c250%2c1300%2c0%2c0%2c20
 [s-yellowthai]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Yellow+Thai+Shakshuka+%5b05-07-26%5d+%e2%9c%b4%ef%b8%8f&collectionType=2&fdcIds=168462&grams=100&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bEgg+%28Whole%2c+Raw%2c+Fresh%29%3bOil+%28Avocado%29%3bOrganic+Coconut+Aminos%3bPeanut+Flour+%28Defatted%29%3bSpices+%26+Seasonings+%e2%80%94+Mae+Ploy+yellow+paste%2c+ginger%2c+birds-eye+chilli%2c+shiitake&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3bfoodnoms%3a01CB05E2-622D-47D0-AEF3-FF93CA40D7AC%3bfoodnoms%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a2FDB7E98-F5BD-4A1A-BE20-7B9F178EC9A5%3blocal%3a00928850-8A18-0B5D-B7B3-C4BE81DEE00A%3blocal%3aC82998B2-2583-A253-0711-16E81F30BAAA&customQuantities=400%3b100%3b3%3b6%3b6%3b31&customUnits=gram%3bgram%3bgram%3bmilliliter%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b143%2c12.56%2c0.72%2c0.37%2c9.51%2c3.126%2c0%2c142%2c1.75%2c56%2c1.29%2c12%2c138%2c2%2c0.89%2c47%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b84%2c1%2c21%2c20%2c1%2c1%2c1%2c1000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b381%2c47.3%2c15.8%2c8.2%2c14.3%2c1.3%2c15.9%2c5.6%2c2.1%2c140%2c5.1%2c370%2c1290%2c0%2c0%2c248%3b170.7101%2c5.6322%2c24.1951%2c6.8208%2c1.8498%2c0.3077%2c11.4006%2c3699.9676%2c1.9992%2c32.7092%2c1.4311%2c42.5488%2c579.0643%2c0.5037%2c0.0000%2c26.0969
 [s-mexthai]: https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Smoky+Mexican-Thai+Peanut+Shakshuka+%5b22-07-26%5d+%e2%9c%b4%ef%b8%8f&servings=1&collectionType=2&totalServingSize=650&fdcIds=168462%2c171287%2c170920%2c171329%2c171325%2c168570%2c167763%2c168436%2c170923%2c169231&grams=100%2c100%2c2%2c8%2c2%2c10%2c10%2c2%2c3%2c2&customNames=Organic+Whole+Peeled+Tomatoes+%28Tinned%29%3bOil+%28Avocado%29%3bGalangal+Paste%3bDefatted+Peanut+Flour%3bNutritional+Yeast+Flakes%3bSalt&customFoodIds=local%3a58728138-1084-D880-FFAC-C9C7FC3C6C4A%3blocal%3a46D6CFD7-5184-4C62-A572-0F04A6D25009%3blocal%3a6A1A0000-0000-4000-8000-00000000A1A6%3blocal%3a2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC%3blocal%3aA79EC48D-C9A5-43A9-9F24-C57821BECF60%3blocal%3a5A170000-0000-4000-8000-000000000001&customQuantities=400%3b3%3b4%3b12%3b8%3b1&customUnits=gram%3bgram%3bgram%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=19%2c1.1%2c3%2c3%2c0.1%2c0%2c0.9%2c40%2c0.57%2c33%2c0.12%2c10%2c191%2c0%2c0%2c8%3b884%2c0%2c0%2c0%2c100%2c11.56%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b50%2c1%2c9%2c2%2c1%2c0.1%2c1%2c200%2c0.3%2c10%2c0.2%2c20%2c200%2c0%2c0%2c5%3b380%2c47.2%2c16%2c8%2c14.4%2c1.2%2c16%2c0%2c5.6%2c115.2%2c4%2c204.8%2c824.8%2c0%2c0%2c284.8%3b349%2c47%2c39%2c1%2c5%2c1%2c20%2c80%2c5%2c30%2c8%2c100%2c1200%2c0%2c0%2c250%3b0%2c0%2c0%2c0%2c0%2c0%2c0%2c40000%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0
