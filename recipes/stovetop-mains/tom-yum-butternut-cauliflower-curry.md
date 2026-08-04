@@ -9,7 +9,7 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🟢 | 🎃 Butternut squash (skin on, cubed) | 798 g | 384 | | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
-| 🟢 | 🥦 Cauliflower (florets, kept in large pieces) | 600 g | 150 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
+| 🟢 | 🥦 Cauliflower (florets, kept in large pieces) | 600 g | 150 | **931 g** | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | 🟣 | 🥑 Avocado oil (roasting + the paste fry) | 10 g | 88 | | local |
 | 🟡 | 🧅 Onion (diced) | 200 g | 76 | **288 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟠 | 🍲 Mae Ploy Vegan Tom Yum Paste (taste - very salty) | 30 g | 73 | | label |
@@ -22,11 +22,11 @@
 | 🟢 | 🥬 Spinach | 200 g | 46 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | | |
 | 🟠 | 🌶️ Dried birds-eye chilli, crushed (at table) | to taste | — | | |
-| | **Total** | **~2.88 kg** + water | **~1652** | | |
+| | **Total** | **~3.21 kg** + water | **~1735** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*Planned total is the combined ingredient weight before the ~150 ml thinning water and before roasting losses; expect a finished yield nearer **2.6–2.8 kg** once the squash and cauliflower have given up moisture in the oven and fryer. 🍃 Makrut lime leaves steep in the simmer and come out before blending, so they contribute only a trace. 🍋 Lime and 🌶️ chilli are at-table and carry no planned kcal. 🥑 Avocado oil covers all three uses — squash tray, cauliflower toss, paste fry. **Scaled 2026-08-04 to an actual 798 g of squash** (from a planned 1200 g). The 🥥 coconut milk and 🍮 silken tofu are held at a full tin and a full pack rather than scaled — they are what replaces the lost squash body — while the 🍲 paste comes down to 30 g to track total volume, and the thinning 💧 water is cut by half. **A 400 g tin of 🫘 butter beans (240 g drained) was added mid-cook**, blended into the base rather than left whole — see Design notes. **There is no added salt in this recipe**: 30 g of 🍲 paste brings ~4.2 g of salt on its own (label: 13.9 g/100 g), which is the whole budget — taste before you even think about reaching for the tin.*
+*Planned total is the combined ingredient weight before the ~150 ml thinning water and before roasting losses; expect a finished yield nearer **2.9–3.1 kg** once the squash and cauliflower have given up moisture in the oven and fryer. 🍃 Makrut lime leaves steep in the simmer and come out before blending, so they contribute only a trace. 🍋 Lime and 🌶️ chilli are at-table and carry no planned kcal. 🥑 Avocado oil covers all three uses — squash tray, cauliflower toss, paste fry. **Scaled 2026-08-04 to an actual 798 g of squash** (from a planned 1200 g). The 🥥 coconut milk and 🍮 silken tofu are held at a full tin and a full pack rather than scaled — they are what replaces the lost squash body — while the 🍲 paste comes down to 30 g to track total volume, and the thinning 💧 water is cut by half. **A 400 g tin of 🫘 butter beans (240 g drained) was added mid-cook**, blended into the base rather than left whole — see Design notes. **There is no added salt in this recipe**: 30 g of 🍲 paste brings ~4.2 g of salt on its own (label: 13.9 g/100 g), which is the whole budget — taste before you even think about reaching for the tin.*
 
 ---
 
@@ -44,7 +44,7 @@
 
 1. **Prep.** Cube the 🎃 butternut squash, skin on, into ~3 cm pieces. Break the 🥦 cauliflower into large florets — larger than you think, they shrink. Dice the 🧅 onion.
 2. **Roast the squash.** Toss the 🎃 squash with about half the 🥑 oil, spread on a tray in a single layer, and roast at 200 C for about 35 minutes, until the edges catch and a piece collapses under a spoon. At 798 g this should fit a single tray comfortably — but **spread it out properly**, because crowded squash steams instead of roasting and the roast is where the sweetness comes from.
-3. **Air-fry the cauliflower.** Toss the 🥦 florets with a little more 🥑 oil, then air-fry at 200 C for about 20 minutes, shaking once, until browned at the edges. The oven works too, but the fryer runs hotter and drier and frees the oven for the squash.
+3. **Air-fry the cauliflower — split it across two appliances if the basket won't take it in one layer.** Toss the 🥦 florets with a little more 🥑 oil, then air-fry at 200 C for about 20 minutes, shaking once, until browned at the edges. ⚠ **A crowded basket steams instead of browning, which destroys the only reason the cauliflower is in this dish.** At the as-cooked 931 g that is well over one basket: put roughly a third on a second tray in the oven alongside the 🎃 squash from the start (it is already at 200 C) and air-fry the rest, so both finish in the same window with no batching and nothing sitting around going soft. The oven-roasted share will be a little less crisp than the air-fried — put that share in first at the table, or fold it into the sauce and keep the crisper air-fried pieces on top.
 4. **Fry the onion.** In the remaining 🥑 oil over medium heat, cook the 🧅 onion until soft and just starting to colour, about 4 minutes.
 5. **Fry the paste.** Add the 🍲 tom yum paste and fry for 3–4 minutes until it darkens a shade and smells cooked rather than raw. **This step is not optional** — paste stirred into liquid stays fragrant on top and hollow underneath.
 6. **Build the base.** Add the roasted 🎃 squash, the drained 🫘 butter beans, the 🥥 coconut milk, the 🍃 makrut lime leaves and about 150 ml 💧 water. **Start dry and add water only if it will not blend** — the squash is the body of this base, and at 798 g there is less of it than a full batch, so over-thinning is the easy mistake. Bring to a **gentle** simmer — never a hard boil, which splits coconut milk — and hold for 5–6 minutes so the leaves give up their oils and the 🫘 beans warm through and take on the paste.
@@ -56,7 +56,7 @@
 
 ## Nutrition
 
-*Whole recipe as scaled and amended (~2.88 kg of ingredients plus thinning water), with 🧅 onion at its as-cooked 288 g. **USDA-derived + label, not FoodNoms-verified.** 🎃 squash, 🥦 cauliflower, 🧅 onion, 🍮 silken tofu, 🥬 spinach and 🍄 mushroom powder from authentic USDA values; 🍲 Mae Ploy Vegan Tom Yum Paste and 🥥 Biona Light Coconut Milk from their labels. 🍲 paste micros are committed estimates (lemongrass-dominant at 38.2%). 🍄 seven-mushroom blend valued at dried-shiitake `168436`, the established project proxy. Micros are committed best-estimates and stand as final — there is no FoodNoms micronutrient verification path.*
+*Whole recipe as scaled and amended (~3.21 kg of ingredients plus thinning water), with 🧅 onion and 🥦 cauliflower at their as-cooked 288 g and 931 g. **USDA-derived + label, not FoodNoms-verified.** 🎃 squash, 🥦 cauliflower, 🧅 onion, 🍮 silken tofu, 🥬 spinach and 🍄 mushroom powder from authentic USDA values; 🍲 Mae Ploy Vegan Tom Yum Paste and 🥥 Biona Light Coconut Milk from their labels. 🍲 paste micros are committed estimates (lemongrass-dominant at 38.2%). 🍄 seven-mushroom blend valued at dried-shiitake `168436`, the established project proxy. Micros are committed best-estimates and stand as final — there is no FoodNoms micronutrient verification path.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -74,25 +74,25 @@ n100 = <|
   "butterBean"-> {100, 6.3, 21.0, 0, 0.5, 0, 6.8, 0.08, 1.9, 30, 0.8, 45, 400, 0, 0, 45},                        (* Eat Wholesome label, per 100 g drained; carb 14.2 + fibre 6.8 folded *)
   "spinach"   -> {23, 2.86, 3.63, 0.42, 0.39, 0.063, 2.2, 0.1975, 2.71, 99, 0.53, 79, 558, 0, 0, 194}          (* USDA 168462 *)
 |>;
-amounts = <| "squash" -> 798, "cauliflower" -> 600, "oil" -> 10, "onion" -> 288, "tomYum" -> 30,
+amounts = <| "squash" -> 798, "cauliflower" -> 931, "oil" -> 10, "onion" -> 288, "tomYum" -> 30,
              "coconut" -> 400, "butterBean" -> 240, "tofu" -> 300, "mushroom" -> 5, "spinach" -> 200 |>;
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
 
-*FoodNoms collection: **Tom Yum Butternut & Cauliflower Curry [04-08-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Butternut+%26+Cauliflower+Curry+%5b04-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=2880&fdcIds=2685570%2c2709777%2c2709795%2c172461%2c168462%2c168436&grams=798%2c600%2c288%2c300%2c200%2c5&customNames=Light+Coconut+Milk+%28Biona%29%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bAvocado+Oil%3bOrganic+Butter+Beans%2c+drained+%28Eat+Wholesome%29&customQuantities=400%3b30%3b10%3b240&customUnits=milliliter%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=90%2c0.7%2c2.3%2c0.9%2c9%2c7.9%2c0.57%2c4%2c0.5%2c16%2c0.3%2c18%2c150%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b100%2c6.3%2c21.0%2c0%2c0.5%2c0%2c6.8%2c32%2c1.9%2c30%2c0.8%2c45%2c400%2c0%2c0%2c45)** — generated only when clicked; totals verified to this table (HTTP 200, 1651.9 kcal, no warnings).*
+*FoodNoms collection: **Tom Yum Butternut & Cauliflower Curry [04-08-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Butternut+%26+Cauliflower+Curry+%5b04-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=3210&fdcIds=2685570%2c2709777%2c2709795%2c172461%2c168462%2c168436&grams=798%2c931%2c288%2c300%2c200%2c5&customNames=Light+Coconut+Milk+%28Biona%29%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bAvocado+Oil%3bOrganic+Butter+Beans%2c+drained+%28Eat+Wholesome%29&customQuantities=400%3b30%3b10%3b240&customUnits=milliliter%3bgram%3bgram%3bgram&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=90%2c0.7%2c2.3%2c0.9%2c9%2c7.9%2c0.57%2c4%2c0.5%2c16%2c0.3%2c18%2c150%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b100%2c6.3%2c21.0%2c0%2c0.5%2c0%2c6.8%2c32%2c1.9%2c30%2c0.8%2c45%2c400%2c0%2c0%2c45)** — generated only when clicked; totals verified to this table (HTTP 200, 1734.7 kcal, no warnings).*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 1652 kcal | Iron | 20.7 mg |
-| Protein | 69 g | Calcium | 797 mg |
-| Carbohydrates | 224 g | Zinc | 10.2 mg |
-| — of which sugars | 42 g | Magnesium | 673 mg |
-| Fat | 64 g | Potassium | 8367 mg |
+| Energy | 1735 kcal | Iron | 22.1 mg |
+| Protein | 75 g | Calcium | 870 mg |
+| Carbohydrates | 240 g | Zinc | 11.1 mg |
+| — of which sugars | 49 g | Magnesium | 723 mg |
+| Fat | 65 g | Potassium | 9357 mg |
 | — of which saturates | 36 g | Vitamin D | 0.2 µg |
-| Fibre | 58 g | Vitamin B12 | 0.0 µg |
-| Salt | 5.5 g | Folate | 1343 µg |
+| Fibre | 65 g | Vitamin B12 | 0.0 µg |
+| Salt | 5.8 g | Folate | 1531 µg |
 
-*Notable: **58 g fibre and 8.4 g potassium across the pot** — squash, cauliflower, spinach and now the 🫘 beans are all unusually dense in both, and 58 g is a genuinely large figure for one pot. **Protein is up to 69 g** (from 53 g), the beans supplying ~15 g of that at essentially no salt cost. **Saturated fat is 36 g and essentially all coconut milk** (the full 400 ml tin was held rather than scaled) — ~7 g per portion across five. **Salt is 5.5 g with nothing added** — ~4.2 g of it is the 30 g of 🍲 paste; the beans are a no-added-salt tin at 0.08 g/100 g and contribute under 0.2 g.*
+*Notable: **65 g fibre and 9.4 g potassium across the pot** — squash, cauliflower, spinach and now the 🫘 beans are all unusually dense in both, and 65 g is a very large figure for one pot — roughly two days' recommended intake spread across five portions. **Protein is up to 75 g**, the 🫘 beans supplying ~15 g of that at essentially no salt cost and the extra 🥦 cauliflower another ~6 g. **Saturated fat is 36 g and essentially all coconut milk** (the full 400 ml tin was held rather than scaled) — ~7 g per portion across five. **Salt is 5.5 g with nothing added** — ~4.2 g of it is the 30 g of 🍲 paste; the beans are a no-added-salt tin at 0.08 g/100 g and contribute under 0.2 g.*
 
 ---
 
