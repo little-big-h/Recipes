@@ -116,4 +116,11 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 
 ## Cook log
 
-*Not yet cooked — planned for 2026-08-03.*
+**2026-08-04 — average 8.60 across four raters.** Julina 9.3 · Anja 8.9 · Holger 8.7 · Lara 7.5 (spread 1.8). **Jannes did not rate**, and since he usually sits at or near the floor with Lara, the four-rater average is probably flattering — treat it as not directly comparable with the five-rater dishes in `docs/RATINGS.md`.
+
+- **Anja at 8.9 is the result worth keeping.** It is her 4th-highest of 16 and well clear of her 8.32 mean — and it lands on a **blended sweet purée base**, the exact format she has consistently marked down (butternut-soy 7.2, white bean & sage 7.5, chickpea-butternut 7.5). The difference here is a sour-savoury counterweight and a crisp element. That supports the reading that what she penalises is one-note sweetness and textural monotony rather than the purée itself — a prediction made before this cook, so worth one more test before treating it as settled.
+- **Lara at 7.5 is par, not a mark-down** — exactly her median across 14 ratings (range 7.0–8.0, mean 7.54). She is a narrow, low-variance rater and 7.5 is her normal.
+- **The dish was not actually acid-free, and that turns out to be interesting.** In-pot acid was deliberately avoided for Lara — the 🍈 yuzu was costed and dropped, citrus stayed at the table — but the 🍲 Mae Ploy jar is **5.3% citric acid** plus 6.4% tamarind, so 40 g put ~2.1 g of citric acid in the pot anyway. She scored par regardless. Weak evidence that her constraint is about *perceived sourness* rather than acid per se: acid buried under coconut fat and sweet squash may read differently from a lime squeezed over the top. Logged as observation 54.
+- **Untested:** Jannes, whose register the pot was specifically built for (mild, sweet, creamy, fully blended). No score, so the central design assumption is unverified.
+
+**For a repeat:** the 🥬 spinach came in at 100 g rather than 200 g and the colour contrast suffered for it — take the full amount. Everything else stands.
