@@ -11,7 +11,7 @@
 | 🟢 | 🎃 Butternut squash (skin on, cubed) | 798 g | 384 | | [usda](https://fdc.nal.usda.gov/food-details/2685570/nutrients) |
 | 🟢 | 🥦 Cauliflower (florets, kept in large pieces) | 600 g | 150 | | [usda](https://fdc.nal.usda.gov/food-details/2709777/nutrients) |
 | 🟣 | 🥑 Avocado oil (roasting + the paste fry) | 10 g | 88 | | local |
-| 🟡 | 🧅 Onion (diced) | 200 g | 76 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟡 | 🧅 Onion (diced) | 200 g | 76 | **288 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟠 | 🍲 Mae Ploy Vegan Tom Yum Paste (taste - very salty) | 30 g | 73 | | label |
 | 🟠 | 🍃 Makrut lime leaves (remove before blending) | ~2 g | ~0 | | local |
 | 🔵 | 🥥 Light coconut milk (Biona, 9% fat) | 400 ml | 360 | | local |
