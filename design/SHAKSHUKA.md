@@ -815,6 +815,13 @@ The original build leaned on **10 ml aminos alone for savouriness — and it doe
 - **Watch it against the coconut-milk splash** — tamarind's sour-sweet profile and coconut's sweet-fat both want to be the round note; if using both, taste after the tamarind goes in before deciding whether the coconut splash is still needed.
 - Not yet cooked with this addition — next cook should confirm the dose and whether it reads as an improvement or as competing with the shiitake umami.
 
+**Run-down substitution (tested 2026-08-02, out of tamarind): 🌴 3 g Medjool date + 🍋 yuzu juice off heat, in place of the 6 g tamarind.** Worked well. **Not a new profile — a stock-out workaround for the run-down period only; revert to tamarind when it's restocked.**
+
+- **The logic:** tamarind is *sour + sugar + earthy depth* (~39 g sugars/100 g), so a single sour substitute can't cover it. Date carries the sugar, the citrus carries the acid. 3 g date ≈ the ~2.3 g of sugars the 6 g tamarind brought. Mash it with a little hot water and add with the tomatoes or it stays in lumps.
+- **🍋 Yuzu over lime, deliberately.** Thai green's citrus identity is *makrut lime* — floral-perfumed, not the blunt sourness of Persian lime juice — and yuzu sits far closer to that register, so it reinforces the lime leaves rather than running alongside them. Yuzu juice is the **weaker acid** (~4–5% citric vs lime's ~6%) and the **stronger aroma**, so pour by taste: start ~8 ml and build. Strictly off heat — its aromatics are even more volatile than lime's. ⚠ Most bottled yuzu juice carries salt as a preservative; check the bottle before adding any.
+- **What's genuinely lost:** tamarind's earthy-dark grounding. Date replaces the sweetness but reads caramel, and yuzu is a high, floral acid — two "pretty" notes where there was one grounding sour. The green paste's funk and the 4 g 🍄 shiitake carry the bottom end; **if it reads perfumed-and-sweet, the correction is more shiitake off heat, not more acid.**
+- Tips the dish **Thai-Japanese** rather than straight Thai. Fine — but that's what it is.
+
 ---
 
 ## Profile: [Yellow Thai — Mae Ploy (solo)][s-yellowthai]
