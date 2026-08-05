@@ -107,4 +107,11 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 
 ## Cook log
 
-*Not yet cooked — planned for 2026-08-05.*
+**2026-08-05 — average 8.05 across four raters.** Anja 8.5 · Holger 8.4 · Jannes 7.7 · Lara 7.6 (**spread 0.9**). **Julina did not rate.**
+
+- **Jannes at 7.7 is the headline.** His mean is 7.31 over 16 ratings with a ceiling of 8.0, so this sits near the top of his range — and it is the **first real test of the assumption the whole tom yum line rests on**: that a mild, sweet, creamy, fully-blended pot lands in his register. He did not rate the butternut curry, so that assumption had gone unverified. It holds.
+- **Don't compare the headline with the curry's 8.60.** That cook was missing Jannes (mean 7.31) and was therefore flattered; this one is missing Julina (mean 8.50) and is therefore understated. Imputing each absentee at their own mean gives the curry ~8.34 and this soup ~8.14 — the curry still ahead, but by a fifth of the raw gap.
+- **Spread 0.9 is the narrowest of any dish in `docs/RATINGS.md`**, beating the 1.2 of the Thai Yellow Butternut Curry. ⚠ Discount it somewhat: Julina is the highest-variance rater on record (range 4.0–9.5) and her absence mechanically narrows it.
+- **Lara at 7.6 is above her 7.54 median** and above her 7.5 on the curry — but she volunteered that **she prefers broccoli to asparagus**. Logged as observation 55.
+
+**For a repeat: swap the 🌿 asparagus for broccoli.** It steams in the same time, holds its shape as well, reads greener against an orange base, and costs less. Asparagus here was doing a texture-and-colour job rather than being the point of the dish, so nothing is lost. Everything else stands — and the structure (smooth sweet base, one green thing, something acidic served alongside) is now two-for-two with the family.
