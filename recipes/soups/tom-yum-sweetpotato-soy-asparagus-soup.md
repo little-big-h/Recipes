@@ -12,18 +12,18 @@
 | 🟣 | 🥑 Avocado oil | 8 g | 71 | | local |
 | 🟢 | 🍅 Cherry tomatoes, halved | 300 g | 54 | | [usda](https://fdc.nal.usda.gov/food-details/170457/nutrients) |
 | 🟡 | 🧅 Onion, diced | 300 g | 114 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟠 | 🍲 Mae Ploy Vegan Tom Yum Paste (taste - very salty) | 40 g | 98 | | label |
+| 🟠 | 🍲 Mae Ploy Vegan Tom Yum Paste (taste - very salty) | 50 g | 122 | | label |
 | 🟠 | 🍃 Makrut lime leaves (remove before blending) | ~2 g | ~0 | | local |
 | 🟢 | 🌿 Asparagus, trimmed, in lengths | 600 g | 120 | | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
 | 🟤 | 🍮 Silken tofu (blend in off heat, never boil) | 300 g | 186 | | [usda](https://fdc.nal.usda.gov/food-details/172461/nutrients) |
 | 🔵 | 🥛 Unsweetened soy milk (blend in off heat, never boil) | 1000 ml | 330 | | local |
 | 🟠 | 🍄 Seven-mushroom powder (whisk in off heat) | 8 g | 24 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | | |
-| | **Total** | **~3.76 kg** in, **~3.25 kg** out | **~2029** | | |
+| | **Total** | **~3.77 kg** in, **~3.25 kg** out | **~2053** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*🍠 Sweet potato weight is **peeled** — allow ~1360 g unpeeled for a ~12% peeling loss, measured on the White Bean & Sweet Potato soup. **Estimated yield ~3.25 kg**, using the calibrated roasting losses from `docs/RATINGS.md` observation 53: ~28% off the roasted 🍠 sweet potato, ~25% off the roasted 🍅 tomatoes, ~18% off the fried 🧅 onion, ~3% off the steamed 🌿 asparagus, and ~30 g of evaporation in the gentle warm-through. 🥛 Soy milk and 🍮 tofu lose nothing — they are never boiled. **There is no added salt**: 40 g of 🍲 paste brings ~5.6 g, the 🍠 sweet potato another ~1.7 g of naturally-occurring sodium, and the 🥛 soy milk ~0.9 g, for **~8.5 g total, or 0.26 g per 100 g** — the same density as the Tom Yum Butternut Curry that averaged 8.60. ⚠ Soy milk salt varies by carton (0 to ~0.13 g/100 ml); check yours.*
+*🍠 Sweet potato weight is **peeled** — allow ~1360 g unpeeled for a ~12% peeling loss, measured on the White Bean & Sweet Potato soup. **Estimated yield ~3.25 kg**, using the calibrated roasting losses from `docs/RATINGS.md` observation 53: ~28% off the roasted 🍠 sweet potato, ~25% off the roasted 🍅 tomatoes, ~18% off the fried 🧅 onion, ~3% off the steamed 🌿 asparagus, and ~30 g of evaporation in the gentle warm-through. 🥛 Soy milk and 🍮 tofu lose nothing — they are never boiled. **There is no added salt**: 50 g of 🍲 paste brings ~7.0 g, the 🍠 sweet potato another ~1.7 g of naturally-occurring sodium, and the 🥛 soy milk ~0.9 g, for **~9.8 g total, or 0.30 g per 100 g** — above the 0.26 g/100 g of the Tom Yum Butternut Curry that averaged 8.60, and the highest density in the soup line. Holger's call, made deliberately against a litre of bland soy (see Design notes); **40 g brings it back to 0.26 g/100 g** if a repeat reads salty. ⚠ Soy milk salt varies by carton (0 to ~0.13 g/100 ml); check yours.*
 
 ---
 
@@ -70,25 +70,25 @@ n100 = <|
   "soyMilk"     -> {33, 3.3, 1.2, 0.5, 1.8, 0.3, 0.5, 0.09, 0.4, 120, 0.3, 18, 130, 0.75, 0.38, 10},          (* fortified unsweetened, committed estimate *)
   "mushroom"    -> {296, 9.58, 75.37, 2.21, 0.99, 0.225, 11.5, 0.0325, 1.72, 11, 7.66, 132, 1534, 3.9, 0, 163} (* USDA 168436 *)
 |>;
-amounts = <| "sweetPotato" -> 1200, "oil" -> 8, "cherryTom" -> 300, "onion" -> 300, "tomYum" -> 40,
+amounts = <| "sweetPotato" -> 1200, "oil" -> 8, "cherryTom" -> 300, "onion" -> 300, "tomYum" -> 50,
              "asparagus" -> 600, "tofu" -> 300, "soyMilk" -> 1000, "mushroom" -> 8 |>;
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
 
-*FoodNoms collection: **Tom Yum Sweet Potato & Soy Soup with Asparagus [05-08-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Sweet+Potato+%26+Soy+Soup+with+Asparagus+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=3250&fdcIds=168482%2c2709795%2c172461%2c170457%2c2709767%2c168436&grams=1200%2c300%2c300%2c300%2c600%2c8&customNames=Avocado+Oil%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bUnsweetened+Soy+Milk+%28fortified%29&customQuantities=8%3b40%3b1000&customUnits=gram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b33%2c3.3%2c1.2%2c0.5%2c1.8%2c0.3%2c0.5%2c36%2c0.4%2c120%2c0.3%2c18%2c130%2c0.75%2c0.38%2c10)** — generated only when clicked; totals verified to this table (HTTP 200, 2028.0 kcal, no warnings).*
+*FoodNoms collection: **Tom Yum Sweet Potato & Soy Soup with Asparagus [05-08-26] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Sweet+Potato+%26+Soy+Soup+with+Asparagus+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=3250&fdcIds=168482%2c2709795%2c172461%2c170457%2c2709767%2c168436&grams=1200%2c300%2c300%2c300%2c600%2c8&customNames=Avocado+Oil%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bUnsweetened+Soy+Milk+%28fortified%29&customQuantities=8%3b50%3b1000&customUnits=gram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b33%2c3.3%2c1.2%2c0.5%2c1.8%2c0.3%2c0.5%2c36%2c0.4%2c120%2c0.3%2c18%2c130%2c0.75%2c0.38%2c10)** — generated only when clicked; totals verified to this table (HTTP 200, 2052.4 kcal, no warnings).*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2028 kcal | Iron | 29.7 mg |
-| Protein | 93 g | Calcium | 1898 mg |
-| Carbohydrates | 338 g | Zinc | 13.5 mg |
-| — of which sugars | 103 g | Magnesium | 732 mg |
-| Fat | 42 g | Potassium | 8645 mg |
+| Energy | 2052 kcal | Iron | 29.9 mg |
+| Protein | 93 g | Calcium | 1902 mg |
+| Carbohydrates | 340 g | Zinc | 13.6 mg |
+| — of which sugars | 105 g | Magnesium | 736 mg |
+| Fat | 44 g | Potassium | 8685 mg |
 | — of which saturates | 7 g | Vitamin D | 7.8 µg |
-| Fibre | 65 g | Vitamin B12 | 3.8 µg |
-| Salt | 8.5 g | Folate | 663 µg |
+| Fibre | 66 g | Vitamin B12 | 3.8 µg |
+| Salt | 9.8 g | Folate | 664 µg |
 
-*Notable: **93 g of protein**, the highest of any soup in the project — 🥛 soy milk supplies 33 g and 🍮 tofu 21 g, so more than half comes from the two things added for creaminess. **Saturated fat is only 7 g** across the whole pot, against 36 g for the coconut-based tom yum curry: soy milk does the creaminess job at a fifth of the saturated fat. **Sugars are 103 g**, nearly all intrinsic to the sweet potato (50 g) and concentrated further by roasting — this is a sweet soup, which is exactly why the paste and the at-table lime matter.*
+*Notable: **93 g of protein**, the highest of any soup in the project — 🥛 soy milk supplies 33 g and 🍮 tofu 21 g, so more than half comes from the two things added for creaminess. **Saturated fat is only 7 g** across the whole pot, against 36 g for the coconut-based tom yum curry: soy milk does the creaminess job at a fifth of the saturated fat. **Sugars are 105 g**, nearly all intrinsic to the sweet potato (50 g) and concentrated further by roasting — this is a sweet soup, which is exactly why the paste and the at-table lime matter.*
 
 ---
 
@@ -96,7 +96,7 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 
 - **⚠ The soy-curdling problem is the whole reason this method looks the way it does.** Soy protein flocculates near pH 4.5 and is markedly less acid-tolerant than dairy; the 🍲 paste is **5.3% citric acid and 6.4% tamarind**, and the 🍅 tomatoes bring more. Three defences, in order of importance: (1) **the soy goes in at the blender**, so the acid is dispersed instantly and evenly across the whole volume rather than hitting the milk in a hot concentrated pocket; (2) **nothing boils afterwards** — heat and acid together are what break it, either alone is largely survivable; (3) **the 🍅 tomatoes never share a pan with the soy** until the final off-heat fold. A **barista** soy milk is the belt-and-braces option — those carry stabilisers for exactly this. And blending is itself insurance: any micro-curdling disappears into a purée, which would not be true of a brothy version.
 - **No stock, and that is an upgrade rather than a shortcut.** Simmering sweet potato in water leaches flavour into liquid you then have to season back up. Roasting concentrates it and adds caramelisation the pot can't. Removing the stock also removes the last thing competing with the soy milk for volume, so the dish reads creamy rather than watery. The cost is that **the 🍲 paste is now the only savoury element behind a litre of bland liquid** — which is why the 🍄 mushroom powder goes up to 8 g.
-- **The mushroom powder is the seasoning lever, not the paste.** With ~1.3 kg of soy milk and tofu added, the obvious move is more paste — but at 13.9% salt that buys seasoning at a steep sodium price, and 40 g already lands the dish at 0.26 g salt per 100 g, matching the Tom Yum Butternut Curry that averaged 8.60. So the extra savouriness comes from **guanylate instead**: 8 g of dried-mushroom powder, which multiplies against the paste's fermented-soy glutamate and costs essentially no salt. If it still reads flat, the answer is lime, not the tin.
+- **🍲 Paste at 50 g — Holger's call, taken against my recommendation of 40 g, and worth recording with the trade-off intact.** The case for 50 g is straightforward: ~1.3 kg of soy milk and tofu is a lot of bland creamy mass, the paste is the *only* savoury element in a stockless pot, and under-seasoning a soup this large is harder to fix at the table than over-seasoning is to live with. The case against is purely sodium: at 13.9% salt the jar buys seasoning expensively, and 50 g takes the dish to **9.8 g total, 0.30 g per 100 g** — above the 0.26 that the Tom Yum Butternut Curry ran at when it averaged 8.60, and the highest in the soup line. **Both levers stay documented**: 40 g returns it to 0.26, and the salt-free way to add savour is more **guanylate** — the 8 g of dried-mushroom powder here already does that, multiplying against the paste's fermented-soy glutamate at no sodium cost. If a cook reads flat rather than salty, reach for lime and mushroom before the jar.
 - **Beaniness is the real flavour risk.** A litre of soy milk plus 300 g of tofu is a lot of soy against lemongrass, and plain soy has an edge that sweet potato will not mask — it will amplify it, since both are mild and sweet. **Unsweetened is mandatory**; a sweetened carton against a 103 g-sugar soup would tip it dessert-ward. Taste before the asparagus goes in.
 - **🌿 Asparagus at 600 g is a component, not a garnish.** It is the only texture, the only green and the only bitter note in a soup that is otherwise smooth, sweet and creamy — the same structural job the crisp cauliflower did in the Tom Yum Butternut Curry, which is the build Anja scored 8.9. Steam rather than boil, and stop early: overcooked asparagus goes drab and stringy and there is nothing else to carry the bowl.
 - **🍅 Cherry tomatoes are in-style, not an addition.** Tomatoes are standard in tom yum. Roasting them rather than simmering keeps them whole for the bowl, blisters the skins for sweetness, and — usefully — keeps their acid out of the soy base until the end.
