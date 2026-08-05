@@ -11,7 +11,7 @@
 | 🟢 | 🍠 Sweet potato, peeled and cubed | 1200 g | 1032 | **1198 g** | [usda](https://fdc.nal.usda.gov/food-details/168482/nutrients) |
 | 🟣 | 🥑 Avocado oil | 8 g | 71 | | local |
 | 🟢 | 🍅 Cherry tomatoes, halved | 300 g | 54 | | [usda](https://fdc.nal.usda.gov/food-details/170457/nutrients) |
-| 🟡 | 🧅 Onion, diced | 300 g | 114 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟡 | 🧅 Onion, diced | 300 g | 114 | **398 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟠 | 🍲 Mae Ploy Vegan Tom Yum Paste (taste - very salty) | 50 g | 122 | | label |
 | 🟠 | 🍃 Makrut lime leaves (remove before blending) | ~2 g | ~0 | | local |
 | 🟢 | 🌿 Asparagus, trimmed, in lengths | 600 g | 120 | | [usda](https://fdc.nal.usda.gov/food-details/2709767/nutrients) |
