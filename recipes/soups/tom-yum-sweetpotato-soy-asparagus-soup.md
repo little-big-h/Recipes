@@ -19,11 +19,11 @@
 | 🔵 | 🥛 M&S Plant Kitchen Unsweetened Soya Drink (blend in off heat, never boil) | 1000 ml | 330 | | label |
 | 🟠 | 🍄 Seven-mushroom powder (whisk in off heat) | 8 g | 24 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | | |
-| | **Total** | **~3.77 kg** in, **~3.25 kg** out | **~2053** | | |
+| | **Total** | **~3.86 kg** in, **~3.33 kg** out | **~2088** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*🍠 Sweet potato weight is **peeled** — allow ~1360 g unpeeled for a ~12% peeling loss, measured on the White Bean & Sweet Potato soup. **Estimated yield ~3.25 kg for the whole dish**, of which the soup itself is **~3.03 kg** and the roasted 🍅 tomatoes ~225 g served alongside. Note that serving them separately concentrates the soup slightly: the ~9.8 g of salt sits almost entirely in the soup, so its density is **~0.32 g per 100 g** rather than the 0.30 quoted for the dish as a whole. Yields use the calibrated roasting losses from `docs/RATINGS.md` observation 53: ~28% off the roasted 🍠 sweet potato, ~25% off the roasted 🍅 tomatoes, ~18% off the fried 🧅 onion, ~3% off the steamed 🌿 asparagus, and ~30 g of evaporation in the gentle warm-through. 🥛 Soy milk and 🍮 tofu lose nothing — they are never boiled. **There is no added salt**: 50 g of 🍲 paste brings ~7.0 g, the 🍠 sweet potato another ~1.7 g of naturally-occurring sodium, and the 🥛 soy milk ~0.9 g, for **~9.8 g total, or 0.30 g per 100 g** — above the 0.26 g/100 g of the Tom Yum Butternut Curry that averaged 8.60, and the highest density in the soup line. Holger's call, made deliberately against a litre of bland soy (see Design notes); **40 g brings it back to 0.26 g/100 g** if a repeat reads salty. ⚠ Soy milk salt varies by carton (0 to ~0.13 g/100 ml); check yours.*
+*🍠 Sweet potato weight is **peeled** — allow ~1360 g unpeeled for a ~12% peeling loss, measured on the White Bean & Sweet Potato soup. **Estimated yield ~3.33 kg for the whole dish**, of which the soup itself is **~3.11 kg** and the roasted 🍅 tomatoes ~225 g served alongside. Note that serving them separately concentrates the soup slightly: the ~9.8 g of salt sits almost entirely in the soup, so its density is **~0.32 g per 100 g** rather than the 0.30 quoted for the dish as a whole. Yields use the calibrated roasting losses from `docs/RATINGS.md` observation 53: ~28% off the roasted 🍠 sweet potato, ~25% off the roasted 🍅 tomatoes, ~18% off the fried 🧅 onion, ~3% off the steamed 🌿 asparagus, and ~30 g of evaporation in the gentle warm-through. 🥛 Soy milk and 🍮 tofu lose nothing — they are never boiled. **There is no added salt**: 50 g of 🍲 paste brings ~7.0 g, the 🍠 sweet potato another ~1.7 g of naturally-occurring sodium, and the 🥛 soy milk ~0.9 g, for **~9.8 g total, or 0.30 g per 100 g** — above the 0.26 g/100 g of the Tom Yum Butternut Curry that averaged 8.60, and the highest density in the soup line. Holger's call, made deliberately against a litre of bland soy (see Design notes); **40 g brings it back to 0.26 g/100 g** if a repeat reads salty. ⚠ Soy milk salt varies by carton (0 to ~0.13 g/100 ml); check yours.*
 
 ---
 
@@ -53,7 +53,7 @@
 
 ## Nutrition
 
-*Whole recipe (~3.76 kg of inputs, ~3.25 kg estimated yield). **USDA-derived + labels, not FoodNoms-verified.** 🍠 sweet potato, 🧅 onion, 🍮 silken tofu, 🌿 asparagus and 🍄 mushroom powder from authentic USDA values; 🍲 paste from its label; 🍅 cherry tomatoes valued at USDA generic raw tomato `170457` (a proxy — cherry varieties run a little sweeter). 🥛 Soy milk identified as **M&S Plant Kitchen Unsweetened Soya Drink** (1 L, barcode `0000000763103`) — water, soybeans 9%, calcium, flavouring, stabiliser (gellan gum E418), sea salt, potassium iodide, vitamin B12, vitamin D. **The fortification is confirmed** (calcium, iodine, D, B12), so the calcium, B12 and vitamin D totals below stand rather than being an assumption. ⚠ The exact per-100 ml figures are still a committed estimate at the standard UK fortification levels (120 mg calcium, 0.38 µg B12, 0.75 µg vitamin D) — a photo of the panel would pin them. Micros are committed best-estimates and stand as final.*
+*Whole dish as cooked (~3.86 kg of inputs, ~3.33 kg estimated yield), with 🍠 sweet potato and 🧅 onion at their as-cooked 1198 g and 398 g. **USDA-derived + labels, not FoodNoms-verified.** 🍠 sweet potato, 🧅 onion, 🍮 silken tofu, 🌿 asparagus and 🍄 mushroom powder from authentic USDA values; 🍲 paste from its label; 🍅 cherry tomatoes valued at USDA generic raw tomato `170457` (a proxy — cherry varieties run a little sweeter). 🥛 Soy milk identified as **M&S Plant Kitchen Unsweetened Soya Drink** (1 L, barcode `0000000763103`) — water, soybeans 9%, calcium, flavouring, stabiliser (gellan gum E418), sea salt, potassium iodide, vitamin B12, vitamin D. **The fortification is confirmed** (calcium, iodine, D, B12), so the calcium, B12 and vitamin D totals below stand rather than being an assumption. ⚠ The exact per-100 ml figures are still a committed estimate at the standard UK fortification levels (120 mg calcium, 0.38 µg B12, 0.75 µg vitamin D) — a photo of the panel would pin them. Micros are committed best-estimates and stand as final.*
 
 ```wolfram
 (* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
@@ -70,25 +70,25 @@ n100 = <|
   "soyMilk"     -> {33, 3.3, 1.2, 0.5, 1.8, 0.3, 0.5, 0.09, 0.4, 120, 0.3, 18, 130, 0.75, 0.38, 10},          (* fortified unsweetened, committed estimate *)
   "mushroom"    -> {296, 9.58, 75.37, 2.21, 0.99, 0.225, 11.5, 0.0325, 1.72, 11, 7.66, 132, 1534, 3.9, 0, 163} (* USDA 168436 *)
 |>;
-amounts = <| "sweetPotato" -> 1200, "oil" -> 8, "cherryTom" -> 300, "onion" -> 300, "tomYum" -> 50,
+amounts = <| "sweetPotato" -> 1198, "oil" -> 8, "cherryTom" -> 300, "onion" -> 398, "tomYum" -> 50,
              "asparagus" -> 600, "tofu" -> 300, "soyMilk" -> 1000, "mushroom" -> 8 |>;
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
 
-*FoodNoms collection: **Tom Yum Sweet Potato & Soy Soup with Asparagus [05-08-26] ✴️** — covers the whole dish including the separately-served 🍅 tomatoes, since they are eaten with it. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Sweet+Potato+%26+Soy+Soup+with+Asparagus+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=3250&fdcIds=168482%2c2709795%2c172461%2c170457%2c2709767%2c168436&grams=1200%2c300%2c300%2c300%2c600%2c8&customNames=Avocado+Oil%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bUnsweetened+Soy+Milk+%28fortified%29&customQuantities=8%3b50%3b1000&customUnits=gram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b33%2c3.3%2c1.2%2c0.5%2c1.8%2c0.3%2c0.5%2c36%2c0.4%2c120%2c0.3%2c18%2c130%2c0.75%2c0.38%2c10)** — generated only when clicked; totals verified to this table (HTTP 200, 2052.4 kcal, no warnings).*
+*FoodNoms collection: **Tom Yum Sweet Potato & Soy Soup with Asparagus [05-08-26] ✴️** — covers the whole dish including the separately-served 🍅 tomatoes, since they are eaten with it. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom+Yum+Sweet+Potato+%26+Soy+Soup+with+Asparagus+%5b05-08-26%5d+%e2%9c%b4%ef%b8%8f&servings=5&totalServingSize=3330&fdcIds=168482%2c2709795%2c172461%2c170457%2c2709767%2c168436&grams=1198%2c398%2c300%2c300%2c600%2c8&customNames=Avocado+Oil%3bVegan+Tom+Yum+Paste+%28Mae+Ploy%29%3bUnsweetened+Soy+Milk+%28fortified%29&customQuantities=8%3b50%3b1000&customUnits=gram%3bgram%3bmilliliter&customNutrientNames=calories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate%3bcalories%2cprotein%2ccarbs%2csugars%2cfat%2cfatSaturated%2cfiber%2csodium%2ciron%2ccalcium%2czinc%2cmagnesium%2cpotassium%2cvitaminD%2cvitaminB12%2cfolate&customNutrientValues=884%2c0%2c0%2c0%2c100%2c11.6%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%2c0%3b244%2c3.4%2c26.8%2c19%2c15%2c2.3%2c4.8%2c5560%2c2%2c40%2c0.5%2c40%2c400%2c0%2c0%2c10%3b33%2c3.3%2c1.2%2c0.5%2c1.8%2c0.3%2c0.5%2c36%2c0.4%2c120%2c0.3%2c18%2c130%2c0.75%2c0.38%2c10)** — generated only when clicked; totals verified to this table (HTTP 200, 2087.9 kcal, no warnings).*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2052 kcal | Iron | 29.9 mg |
-| Protein | 93 g | Calcium | 1902 mg |
-| Carbohydrates | 340 g | Zinc | 13.6 mg |
-| — of which sugars | 105 g | Magnesium | 736 mg |
-| Fat | 44 g | Potassium | 8685 mg |
+| Energy | 2088 kcal | Iron | 30.1 mg |
+| Protein | 94 g | Calcium | 1918 mg |
+| Carbohydrates | 348 g | Zinc | 13.7 mg |
+| — of which sugars | 111 g | Magnesium | 744 mg |
+| Fat | 44 g | Potassium | 8846 mg |
 | — of which saturates | 7 g | Vitamin D | 7.8 µg |
-| Fibre | 66 g | Vitamin B12 | 3.8 µg |
-| Salt | 9.8 g | Folate | 664 µg |
+| Fibre | 68 g | Vitamin B12 | 3.8 µg |
+| Salt | 9.8 g | Folate | 682 µg |
 
-*Notable: **93 g of protein**, the highest of any soup in the project — 🥛 soy milk supplies 33 g and 🍮 tofu 21 g, so more than half comes from the two things added for creaminess. **Saturated fat is only 7 g** across the whole pot, against 36 g for the coconut-based tom yum curry: soy milk does the creaminess job at a fifth of the saturated fat. **Sugars are 105 g**, nearly all intrinsic to the sweet potato (50 g) and concentrated further by roasting — this is a sweet soup, which is exactly why the paste and the at-table lime matter.*
+*Notable: **94 g of protein**, the highest of any soup in the project — 🥛 soy milk supplies 33 g and 🍮 tofu 21 g, so more than half comes from the two things added for creaminess. **Saturated fat is only 7 g** across the whole pot, against 36 g for the coconut-based tom yum curry: soy milk does the creaminess job at a fifth of the saturated fat. **Sugars are 111 g**, nearly all intrinsic to the sweet potato (50 g) and concentrated further by roasting — this is a sweet soup, which is exactly why the paste and the at-table lime matter.*
 
 ---
 
