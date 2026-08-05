@@ -8,7 +8,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟢 | 🍠 Sweet potato, peeled and cubed | 1200 g | 1032 | | [usda](https://fdc.nal.usda.gov/food-details/168482/nutrients) |
+| 🟢 | 🍠 Sweet potato, peeled and cubed | 1200 g | 1032 | **1198 g** | [usda](https://fdc.nal.usda.gov/food-details/168482/nutrients) |
 | 🟣 | 🥑 Avocado oil | 8 g | 71 | | local |
 | 🟢 | 🍅 Cherry tomatoes, halved | 300 g | 54 | | [usda](https://fdc.nal.usda.gov/food-details/170457/nutrients) |
 | 🟡 | 🧅 Onion, diced | 300 g | 114 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
