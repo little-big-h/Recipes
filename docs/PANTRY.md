@@ -86,6 +86,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 
 ### Dairy
 
+- **Soya drink — M&S Plant Kitchen Unsweetened** (1 L, barcode `0000000763103`). Water, soybeans 9%, calcium, flavouring, **stabiliser gellan gum (E418)**, sea salt, potassium iodide, B12, vitamin D. **Fortified** with calcium, iodine, vitamin D and B12 — so it counts toward the bone-health flag, unlike unfortified organic soya drinks. ~33 kcal, 3.3 g protein per 100 ml; contains a little added salt (~0.09 g/100 ml). ⚠ **Soy protein curdles in acid** (flocculates near pH 4.5, far less tolerant than dairy) — add off heat, after any acidic component is diluted, and never boil afterwards. The gellan gum helps but does not make it immune. Used in `recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md`.
 - **Milk** — default is **semi-skimmed** (milk.co.uk values: 47 kcal, 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml). Resolve a plain "milk" to this unless a recipe specifies whole/skimmed. See `docs/INGREDIENT_MAP.md`.
 
 ### Specialised
