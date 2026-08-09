@@ -65,6 +65,7 @@ For salt-content calibration of these staples (relevant to salt budgeting in rec
 - **Rice** — long-grain default
 - **Israeli (pearl) couscous** — toasted wheat pasta (Osem); chewier and lower-fibre than fine semolina couscous (~3.6 g/100 g), simmered 8–10 min not soaked. Used in the miso couscous bowl. Label: 364 kcal, 11 g protein, 78 g carb, 3.6 g fibre, 1.4 g fat, 0 salt per 100 g.
 - **3 Glocken "Die mag ich" alphabet egg-noodle soup pasta** (Suppen-Nudeln; German, durum wheat semolina + egg 10%; 250 g pack, cook 7–8 min; may contain traces of soya) — kid-friendly letter shapes for soups/broths. Label per 100 g (uncooked): **361 kcal, 13 g protein, 70 g carb, 3.0 g sugar, 3.0 g fibre, 2.5 g fat (0.5 g sat), salt 0.05 g**.
+- **Pressed barley (押麦, oshimugi), Kyushu-grown** — Japanese steamed-and-flattened pearl barley, sold as 50 g × 12 individually-portioned sachets (600 g total); pack instructions: stir one 50 g sachet into 3 gō (~540 g) of uncooked rice before cooking, for **麦ごはん (mugi gohan)**, barley rice. Genuine whole-grain fibre boost over plain white rice. ⚠ No nutrition panel visible on the pack photo — confirm label macros before treating as more than a generic pearl-barley estimate (~345 kcal, 10 g protein, 72 g carb, 15 g fibre per 100 g dry, typical for pressed/pearled barley).
 
 ### Protein
 
