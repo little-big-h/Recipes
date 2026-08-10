@@ -4,15 +4,15 @@ This file is read automatically at session start. **For full project context, re
 
 ---
 
-## ⚠ Active constraint — pantry run-down (temporary, until ~Aug 2026)
+## ⚠ Active constraint — restocking in Singapore (temporary, from Aug 2026)
 
-**Holger is moving to Singapore in ~2 months (~August 2026).** Until the move:
+**The move happened (Aug 2026). The pantry run-down is over — buying is allowed again.** But the kitchen is being restocked from zero, so:
 
-- **Do not buy — or recommend buying — new ingredients.** Design recipes around what is already in stock.
-- **Prioritise using up the spices and pastes on hand** — favour dishes and substitutions that deplete the pantry.
-- If a recipe would call for something not stocked, suggest an **in-stock substitute or omission**, never a purchase.
+- **Don't assume anything is in stock.** `docs/PANTRY.md` marks every item ✅ confirmed / ❓ unconfirmed / 🛒 absent. Only ✅ items can be called on without a flag.
+- **Flag ❓ items in the recipe** ("confirm you have this") rather than silently designing around them.
+- **The old UK pantry is retired** at `docs/archive/PANTRY-UK-TEDDINGTON.md` — read it for label data on products also sold here, never as a stock list.
 
-*(Delete this section after the move.)*
+*(Delete this section once the ❓ list has been walked and confirmed.)*
 
 ---
 

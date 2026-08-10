@@ -79,12 +79,16 @@ won't guess) and the **current state**. Read this first if you're joining mid-st
 
 ## 4. Standing preferences / decisions (digest — full text in the linked docs)
 
-- **Pantry run-down** until the ~Aug 2026 Singapore move: use up stock, recommend
-  in-stock subs, **don't buy**. Cinnamon is a flagged use-up priority. (`CLAUDE.md`,
-  `PANTRY.md`.)
-- **Defaults:** avocado oil **≤3 g/dish**; "milk" → **semi-skimmed, milk.co.uk
-  values**; breakfast "passata" → the **Organic Chopped Tomatoes** tin (local
-  label). (`PANTRY.md`, `INGREDIENT_MAP.md`.)
+- **Restocking in Singapore** (the move happened, Aug 2026; the run-down is over —
+  buying is allowed). `PANTRY.md` was rebuilt from zero and marks every item
+  ✅ confirmed / ❓ unconfirmed / 🛒 absent; **only ✅ can be used without a flag.**
+  The UK list is retired at `archive/PANTRY-UK-TEDDINGTON.md` — label data, not
+  stock. (`CLAUDE.md`, `PANTRY.md`.)
+- **Defaults:** avocado oil **≤3 g/dish** (the dose rule survives even if the oil
+  changes); ⚠ **"milk" no longer resolves** — the semi-skimmed/milk.co.uk default
+  died with the move, so ask rather than assume; breakfast "passata" → the
+  **Organic Chopped Tomatoes** tin (UK label — also needs re-sourcing).
+  (`PANTRY.md`, `INGREDIENT_MAP.md`.)
 - **Family flags** (drive every family-meal seasoning decision): Lara — no in-pot
   acid, suspected smoked-paprika + warm-aromatic (cinnamon/cardamom/galangal)
   dislikes; Jannes (8) — heat-sensitive, dislikes fermented-forward (red miso) and

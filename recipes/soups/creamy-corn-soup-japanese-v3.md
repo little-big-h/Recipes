@@ -96,4 +96,4 @@ They're coupled on purpose — the whole reason to add real dashi is that it let
 | Across-the-board dip | Either under-salted or the dashi character isn't landing — v3b decouples which |
 | Holger especially up | Real dashi depth is the adult-palate lever red miso used to provide, without the fermented edge Jannes disliked |
 
-**Vegetarian note:** confirm the Tsuyu and dashi-soy bottles are bonito-free (see `../../docs/PANTRY.md` flag). The homemade kombu-shiitake dashi is guaranteed vegetarian regardless.
+**Vegetarian note:** confirm the Tsuyu and dashi-soy bottles are bonito-free (see the flag in `../../docs/archive/PANTRY-UK-TEDDINGTON.md`). The homemade kombu-shiitake dashi is guaranteed vegetarian regardless. **Post-move simplification:** the Singapore kitchen has **Nature's Glory / Muso Kombu Shiitake Dashi *No Bonito*** (`../../docs/PANTRY.md`), which removes the label check entirely — ⚠ but check the tub isn't the *Katsuo* version, which does contain bonito.

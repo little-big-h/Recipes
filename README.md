@@ -47,7 +47,8 @@ Reference docs for specific dish families and project infrastructure:
 - `design/SHAKSHUKA.md` — single-serving breakfast profiles (7 shakshuka variants + sauerkraut hash + bulk paste design)
 - `design/SOLO-HOLGER.md` — single-serving recipes for Holger alone (e.g. Post-Workout Cream); out of the ratings system
 - `design/CORN-SOUPS.md` — 7-profile corn soup matrix with predicted scores and prediction-vs-actual analysis
-- `docs/PANTRY.md` — staples always in stock; recipe-design reference
+- `docs/PANTRY.md` — Singapore pantry: what's in stock, marked ✅ confirmed / ❓ unconfirmed / 🛒 absent; recipe-design reference
+- `docs/archive/PANTRY-UK-TEDDINGTON.md` — the retired UK pantry; label data for products also sold here, and the stock list pre-Aug-2026 recipes were written against
 - `docs/EXPERIMENTS.md` — active hypothesis tests and ablation protocols (e.g. Lara smoked paprika, Japanese corn soup white-vs-red miso)
 - `docs/IDEAS.md` — recipe-idea backlog: external recipes to adapt + flavour directions to try, before they're speced or cooked
 - `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (LZFSE-compressed JSON); samples in `examples/`
@@ -78,7 +79,8 @@ Recipes/
 │   ├── RECIPE_FORMAT.md                       Recipe file format spec
 │   ├── TECHNIQUES.md                          Cooking techniques and gotchas
 │   ├── RATINGS.md                             Relational ratings database
-│   ├── PANTRY.md                              Staples-in-stock reference
+│   ├── PANTRY.md                              Singapore staples-in-stock reference
+│   ├── archive/PANTRY-UK-TEDDINGTON.md        Retired UK pantry (label data + historical stock)
 │   ├── EXPERIMENTS.md                         Hypothesis tests and ablation protocols
 │   ├── FOODNOMS_FORMAT.md                     .foodnoms file format spec
 │   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms (via Wolfram)
