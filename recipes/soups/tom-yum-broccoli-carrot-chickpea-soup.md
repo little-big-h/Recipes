@@ -1,6 +1,6 @@
 # Tom Yum Broccoli, Carrot & Chickpea Soup
 
-*The first Singapore cook. A chunky tom yum soup with **two coconut-and-soy liquids and no stock** — a whole 270 ml can of 🥥 Ayam Pure Coconut **Cream** (28.5% fat, no gums) for richness and a litre of unsweetened 🥛 soy milk for volume and protein. 🫘 Chickpeas go in from dry in the pressure cooker, 🥕 carrots simmer in the broth, and 🥦 broccoli is steamed apart and added at the bowl. ⚠ Two hazards govern the whole method: **soy protein curdles in acid**, and **acid turns broccoli olive-drab** — both are solved by keeping things out of the pot rather than by cooking them differently. No air fryer here, so the 🥦 broccoli's bite is the only textural contrast; don't overshoot it. Serves 5.*
+*The first Singapore cook. A chunky tom yum soup with **two coconut-and-soy liquids and no stock** — a whole 270 ml can of 🥥 Ayam Pure Coconut **Cream** (28.5% fat, no gums) for richness and a litre of 🥛 F&N NutriSoy for volume, protein and an unusually large calcium load. 🫘 Chickpeas go in from dry in the pressure cooker, 🥕 carrots simmer in the broth, and 🥦 broccoli is steamed apart and added at the bowl. ⚠ Two hazards govern the whole method: **soy protein curdles in acid**, and **acid turns broccoli olive-drab** — both are solved by keeping things out of the pot rather than by cooking them differently. No air fryer here, so the 🥦 broccoli's bite is the only textural contrast; don't overshoot it. Serves 5.*
 
 ---
 
@@ -15,11 +15,11 @@
 | 🟡 | 🧄 Garlic, minced | 15 g | 22 | | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟠 | 🍲 Tom yum paste — HollyFarms (taste, very salty) | 45 g | 150 | | label |
 | 🔵 | 🥥 Ayam Brand Pure Coconut **Cream** (the whole can; ~40 g of it fries the paste) | 270 ml | 770 | | label |
-| 🔵 | 🥛 Soy milk, unsweetened (never boiled) | 1000 ml | 385 | | [usda](https://fdc.nal.usda.gov/food-details/1999630/nutrients) |
+| 🔵 | 🥛 F&N NutriSoy Fresh Soya Milk, No Sugar Added (never boiled) | 1000 ml | 420 | | label |
 | 🟣 | 🥑 Avocado oil — **not needed**, the 🥥 cream fries the paste | — | 0 | | local |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | | |
 | ⚪ | 🌶️ Fresh chilli or flakes (at table) | to taste | — | | |
-| | **Total** | ~3.4 kg in, **~3.2 kg** out | **~2701** | | |
+| | **Total** | ~3.4 kg in, **~3.2 kg** out | **~2736** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Liquid · 🟤 Protein · 🟣 Seasoning · ⚪ Acid / heat at table*
 
@@ -56,25 +56,27 @@
 
 ## Nutrition
 
-*Whole dish, planned amounts (~3.4 kg of inputs, **~3.2 kg estimated yield** — weigh and correct). **USDA-derived + label, not FoodNoms-verified.** 🫘 chickpeas, 🥦 broccoli, 🥕 carrots, 🧅 onion, 🧄 garlic, and 🥛 soy milk from authentic USDA values; 🥥 coconut cream and 🍲 paste from their labels. Micros are committed best-estimates and stand as final.*
+*Whole dish, planned amounts (~3.4 kg of inputs, **~3.2 kg estimated yield** — weigh and correct). **USDA-derived + label, not FoodNoms-verified.** 🫘 chickpeas, 🥦 broccoli, 🥕 carrots, 🧅 onion, 🧄 garlic, from authentic USDA values; 🥛 soya milk, 🥥 coconut cream and 🍲 paste from their labels. Micros are committed best-estimates and stand as final.*
 
 | | Whole dish |
 |:--|--:|
-| Energy | **2701 kcal** |
-| Protein | 116 g |
-| Carbohydrate | 294 g (94 g sugars) |
-| Fat | 127 g (76 g saturated) |
-| Fibre | 62 g |
+| Energy | **2736 kcal** |
+| Protein | 124 g |
+| Carbohydrate | 299 g (96 g sugars) |
+| Fat | 126 g (77 g saturated) |
+| Fibre | 63 g |
 | Salt | 9.3 g |
-| Calcium | 1654 mg |
-| Iron | 34 mg |
-| Magnesium | 760 mg |
-| Potassium | 7521 mg |
-| Folate | 2028 µg |
+| Calcium | **2644 mg** |
+| Iron | 35 mg |
+| Magnesium | 804 mg |
+| Potassium | 7869 mg |
+| Vitamin D | 6.5 µg |
+| Vitamin B12 | **0 µg** |
+| Folate | 2071 µg |
 
-📲 **[Download to FoodNoms](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom%20Yum%20Broccoli%2C%20Carrot%20%26%20Chickpea%20Soup%20%5B10-08-26%5D%20%E2%9C%B4%EF%B8%8F&fdcIds=173756%2C170379%2C170393%2C2709795%2C169230%2C1999630&grams=250%2C500%2C400%2C250%2C15%2C1000&customNames=Pure%20Coconut%20Cream%20%28Ayam%20Brand%29%3BTom%20Yum%20Paste%20%28HollyFarms%29&customQuantities=270%3B45&customUnits=gram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium&customNutrientValues=285%2C3.1%2C4.0%2C3.9%2C28.5%2C25.5%2C19%2C4.4%2C24%2C0.75%2C62%2C295%3B333%2C0%2C33.4%2C20%2C23.3%2C3.5%2C6.7%2C6280&servings=5&totalServingSize=3220)** — verified HTTP 200, no warnings, totals matching the table above.
+📲 **[Download to FoodNoms](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom%20Yum%20Broccoli%2C%20Carrot%20%26%20Chickpea%20Soup%20%5B10-08-26%5D%20%E2%9C%B4%EF%B8%8F&fdcIds=173756%2C170379%2C170393%2C2709795%2C169230&grams=250%2C500%2C400%2C250%2C15&customNames=NutriSoy%20Fresh%20Soya%20Milk%20No%20Sugar%20Added%20%28F%26N%29%3BPure%20Coconut%20Cream%20%28Ayam%20Brand%29%3BTom%20Yum%20Paste%20%28HollyFarms%29&customQuantities=1000%3B270%3B45&customUnits=milliliter%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium&customNutrientValues=42%2C4.32%2C1.8%2C0.8%2C2.0%2C0.4%2C0.12%2C32%2C0.66%2C200%2C0.38%2C26%2C193%2C0.652%2C24%3B285%2C3.1%2C4.0%2C3.9%2C28.5%2C25.5%2C19%2C4.4%2C24%2C0.75%2C62%2C295%3B333%2C0%2C33.4%2C20%2C23.3%2C3.5%2C6.7%2C6280&servings=5&totalServingSize=3220)** — verified HTTP 200, no warnings, totals matching the table above.
 
-> ⚠ **The calcium, vitamin D and B12 figures depend on a carton nobody has read yet.** They are computed against USDA `1999630` (US shelf-stable unsweetened soy milk), which is **fortified** — 101 mg calcium, 0.68 µg D and 0.39 µg B12 per 100 ml. **Most Asian-market soy milk is not fortified.** If the Singapore carton isn't, this dish loses **~1010 mg of calcium** (1634 → ~620 mg), essentially all its vitamin D and all its B12. That is the difference between a dish that carries the bone-health flag and one that doesn't. Read the panel and correct this block.
+> ✅ **The soya milk is identified and the fortification question is settled — in the dish's favour.** F&N **NutriSoy Fresh Soya Milk, No Sugar Added** (946 ml carton, barcode `8888200619442`): *non-GM soya beans, calcium carbonate, stabiliser, vitamin D3 (plant based), flavouring*. Per 100 ml **42 kcal, 4.32 g protein, 1.8 g carb (0.8 sugars), 2.0 g fat (0.4 sat), 0.12 g fibre, salt 0.08 g, calcium 200 mg, vitamin D 0.65 µg**. Atwater lands 42.7 against 42 declared. **Calcium is the headline: 200 mg/100 ml is roughly double a typical fortified soya drink**, so the litre alone brings 2000 mg and the dish totals **2644 mg** — not the ~620 mg the unfortified-carton scenario feared. ⚠ **It carries no B12**, so that total is a true zero rather than an estimate. ⚠ The carton is **946 ml**, not 1000 — this block is computed at 1000 ml as specified; using the whole carton instead drops every total by about 2%.
 >
 > ⚠ **Folate is computed from raw dried 🫘 chickpea values** (557 µg/100 g), and folate does not survive 35 minutes under pressure intact — expect **~1200–1400 µg** in reality, not 2063. Still a large number, and worth noting against the ~100 µg the morning shakshuka lost when spinach was swapped for a local green.
 >
@@ -92,7 +94,7 @@ n100 = <|
   "garlic"      -> {149, 6.36, 33.06, 1.0, 0.5, 0.089, 2.1, 0.0425, 1.7, 181, 1.16, 25, 401, 0, 0, 3},           (* USDA 169230 *)
   "tomYum"      -> {333, 0, 33.4, 20, 23.3, 3.5, 6.7, 15.7, 0, 0, 0, 0, 0, 0, 0, 0},                             (* HollyFarms label; micros unknown *)
   "coconut"     -> {285, 3.1, 4.0, 3.9, 28.5, 25.5, 0, 0.0475, 4.4, 24, 0.75, 62, 295, 0, 0, 0},                  (* Ayam Pure Coconut Cream label; micros scaled from USDA 170173 *)
-  "soyMilk"     -> {38.5, 3.55, 1.29, 0.56, 2.13, 0.314, 0, 0.0857, 0.54, 101, 0.31, 21.5, 158, 0.681, 0.393, 19.7}, (* USDA 1999630, FORTIFIED - verify carton *)
+  "soyMilk"     -> {42, 4.32, 1.8, 0.8, 2.0, 0.4, 0.12, 0.08, 0.66, 200, 0.38, 26, 193, 0.652, 0, 24},              (* F&N NutriSoy label; iron/zinc/Mg/K/folate scaled from USDA 1999630 *)
   (* no added oil - the coconut cream fries the paste *)
 |>;
 amounts = <| "chickpea" -> 250, "broccoli" -> 500, "carrot" -> 400, "onion" -> 250, "garlic" -> 15,
@@ -106,9 +108,10 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 
 - **Why the 🫘 chickpeas cook alone, in plain water.** Three separate reasons converge on the same answer. Acid keeps legume pectin from dissolving, so chickpeas cooked in a tom yum broth stay tough no matter how long they go. Milk of either kind scorches on a pressure cooker base and curdles under pressure. And the 35 minutes chickpeas need would reduce 🥕 carrots to pulp and 🥦 broccoli to sulphurous mush. Cooking them apart isn't a compromise — it's the only order that works.
 - **No air fryer is a real loss, and 🥦 broccoli is the compensation.** The Tom Yum Butternut Curry's 8.60 leaned on crisp-roasted cauliflower against a soft base; that lever isn't available in this kitchen. Steamed-firm broccoli held out of the acid until serving is the substitute — which is why step 3 says pull it early and step 10 says add it in the bowl. Overcook it and the dish has no texture at all.
-- **Two liquids doing two different jobs.** The 🥥 cream is 28.5% fat and brings the richness, the mouthfeel and — once cracked — the frying medium; the 🥛 soy is 3.5% protein and brings the volume, the protein and (maybe — see the flag) the calcium. Neither would carry the dish alone: a litre of coconut cream would be inedible and a litre and a quarter of soy would be thin and beany. Together they land at 3.9 g fat and 3.6 g protein per 100 g.
+- **Two liquids doing two different jobs.** The 🥥 cream is 28.5% fat and brings the richness, the mouthfeel and — once cracked — the frying medium; the 🥛 NutriSoy is 4.3% protein and brings the volume, the protein and — settled, not hoped for — 2000 mg of calcium. Neither would carry the dish alone: a litre of coconut cream would be inedible and a litre and a quarter of soy would be thin and beany. Together they land at 3.9 g fat and 3.8 g protein per 100 g.
 - **Cream rather than milk changes two things beyond the numbers.** Because Ayam's can is 100% coconut kernel extract with **no gum or emulsifier**, it separates on standing — which is what makes step 4 possible, and is the reason no avocado oil appears in this recipe at all. The same absence cuts the other way at step 7: nothing is holding that emulsion together but coconut protein, so it splits under a hard boil more readily than a stabilised light coconut milk would. The no-boil rule was already there for the soy; the cream now depends on it too.
 - **Tempering direction is the whole soy defence.** The sweet potato soup solved this by putting the soy in at the blender, where the acid disperses instantly. There's no blender step here — this is a chunky soup — so the defence had to change. Tempering *into* the soy achieves the same thing by a different route: it keeps local acid concentration low at every moment of contact. Pouring soy into the pot would undo it.
+- **The soya milk turned out to be the best thing in the dish nutritionally.** NutriSoy is 200 mg calcium per 100 ml — about double an ordinary fortified soya drink and five times an unfortified one — so the litre alone carries 2000 mg and the finished soup 2644 mg, against the bone-health flag. It is also **4.32 g protein per 100 ml**, higher than the UK M&S carton it replaces, which is why the dish clears 124 g of protein with no tofu in it at all. Two caveats in the other direction: **no B12** (the M&S carton had it), and the carton is **946 ml** rather than a round litre. Its **stabiliser** is unnamed on the label but works in the tempering step's favour; it does not make the no-boil rule optional.
 - **⚠ Family flags.** **Lara** — no in-pot lime; the paste's own acid is the only acid, which is the same arrangement she scored 7.5 and 7.6 on across the two tom yum dishes, and observation 55 has her preferring broccoli to asparagus, so the green here is in her favour. A **split or curdled** soup is squarely her stated failure mode, which raises the stakes on step 8. **Jannes** — heat-sensitive, so no chilli in the pot; 45 g of paste across 3.2 kg is mild. ⚠ He dislikes cauliflower, and broccoli is close enough that this is a genuine risk rather than a formality. **Anja** rewards savoury and textured over sweet and smooth — the chickpeas and the broccoli bite are both for her.
 - **⚠ What's missing versus the good tom yum cooks.** No 🍄 mushroom powder and no 🍃 makrut lime leaves. Both are unconfirmed in the Singapore kitchen (`docs/PANTRY.md`). **Mushroom powder is the bigger loss** — it supplies guanylate, which multiplies against the paste's glutamate, and it's the project's standard way to fix an under-seasoned dish without adding salt. If there's any in a box, 6–8 g whisked in off heat at step 9 is the single largest upgrade available here.
 - **⚠ Pantry assumptions.** This is written against the **HollyFarms** jar because that's the tom yum paste confirmed in Singapore. 🧅 onion, 🧄 garlic and 🥑 oil are all unconfirmed. The oil no longer matters — the recipe was rewritten around the coconut cream doing that job, so there is nothing to substitute.
