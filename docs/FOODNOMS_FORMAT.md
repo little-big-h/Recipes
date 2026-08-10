@@ -476,6 +476,36 @@ carbs are still EU-style and FoodNoms will reject the food.
 6. **Recipe header:** set `totalServingSize`, `servingSizeUnit`, `servings`.
 7. **Encode** with the LZFSE snippet in §2 and save as `<name>.foodnoms`.
 
+### `BuildFoodNomsRecipe` — two HTTP 400 traps in the `custom*` columns
+
+Both produce the same unhelpful message (`all custom* arrays must be equal
+length`, or a bare *"the following fields contain failures"*), and both are
+easy to hit while transcribing a label. Verified against the live endpoint,
+2026-08.
+
+**1. No `;` inside any `custom*` *value*.** The endpoint splits every `custom*`
+column on `;`, so a semicolon anywhere inside a name, note or brand silently
+becomes a column break. A `customNames` value like
+`Wasabi Peas (peas; oil; salt)` parses as **three** names against one quantity
+and the request 400s. Rewrite the value with commas or dashes — never a
+semicolon.
+
+**2. The first custom food must carry the *longest* nutrient list.**
+`customNutrientNames` / `customNutrientValues` are nested sequences, and the
+parser sizes the whole block from the **first** food's row. A later food may
+declare **fewer** nutrients than the first, never more:
+
+```
+calories,protein,carbs;calories,protein            → 200   (3 then 2, shrinking)
+calories,protein;calories,protein,carbs            → 400   (2 then 3, growing)
+```
+
+So when one custom food has a full micro panel and another has only label
+macros, **put the micro-rich one first** and reorder `customNames`,
+`customQuantities`, `customUnits`, `customBrands` and `customUncertainties`
+to match — they all align by position. The ingredient order inside a recipe
+carries no meaning, so this costs nothing.
+
 ---
 
 ## 10. Worked round-trip

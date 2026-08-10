@@ -31,6 +31,10 @@ Short by design — this is only what there's actual evidence for.
 - ✅ **Kombu Shiitake Dashi powder — Nature's Glory / Muso, *No Bonito*** (150 g or 1 kg; also 10 g × 10 sachets). Ingredients: oligosaccharide (tapioca, sweet potato), sea salt, yeast extract, shiitake mushroom powder 4.8%, kombu powder (*Laminaria japonica*) 0.2%. **✅ vegan.** ⚠ Nature's Glory sells a **Katsuo** version of the same product that contains bonito — check the tub says *No Bonito*. Per 100 g: **120 kcal, 2 g protein, 27.6 g carb (3 g sugars, fibre-folded), 1 g fat, salt 11.4 g** (sodium 4570 mg); iodine ~400 µg, an estimate from the 0.2% kombu. **Dose: 1 tsp (~3.5 g) per 150 ml → 0.40 g salt per bowl**, i.e. 0.27 g salt/100 ml — right in the band our well-received dishes sit in, so the label dose needs no adjustment (unlike the UK tsuyu, which was diluted hard). This is the **guaranteed-vegetarian dashi** that the old bottled tsuyu/dashi-soy always needed a label check for; it replaces both.
 - ✅ **Tom yum paste — HollyFarms "Tom Yum Koong"** (227 g jar, barcode `8888260000235`, product of Thailand). **✅ Vegetarian** — lemongrass, galanga, soya bean oil, chilli, sugar, water, kaffir lime leaves, onion, salt, citric acid (E330), MSG. No shrimp paste, no fish sauce; the name is the dish, not the contents. Per 100 g: **333 kcal, ~0 g protein, 33.4 g carb, 23.3 g fat, salt ~15.7 g**. ⚠ Declared salt is higher than the ingredient order suggests — conservative upper bound, taste. **No tamarind** (unlike the Mae Ploy vegan jar), umami is MSG rather than fermented soy, and it is saltier and fattier — see the swap comparison in the archived file before substituting one for the other in an old recipe.
 
+### Fats / liquids
+
+- ✅ **Coconut cream — Ayam Brand "Pure Coconut Cream", 270 ml can.** Ingredients: **coconut kernel extract (100%)** — no gum, no emulsifier, no additives, vegan. Per 100 ml: **285 kcal, 3.1 g protein, 4.0 g carb (3.9 sugars), 28.5 g fat (25.5 saturated), sodium 19 mg.** Label is internally clean — Atwater lands on 285 exactly, so nothing needed reconstructing. **Two consequences of the missing gums, both practical.** It *separates in the can*, so the thick top layer can be cracked and used to fry a curry paste — the classic Thai method, and enough to replace added oil in a dish entirely. And it *splits more readily under hard heat* than a stabilised light coconut milk, so it must not boil. ⚠ This is **cream, not milk** — at 28.5% fat it is roughly **three times** the fat of the retired Biona Light 9% reference, so it is not a drop-in for recipes calibrated against that. Used in `recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md`.
+
 ### Grains
 
 - ✅ **Black rice — Nature's Glory.** ⚠ The printed panel is internally inconsistent: 363 kcal with 43.8 g carb / 4 g protein / 1.3 g fat Atwaters to 203 kcal, a 44% shortfall. Resolved by reading the **macros as per ~55 g serving while calories are per 100 g** — scaling to 79.2 g carb / 7.2 g protein / 2.4 g fat Atwaters to 367 vs 363 declared. Those scaled figures are what we use; flagged as **reconstructed, not transcribed**.
@@ -85,7 +89,7 @@ The UK list carried lemongrass paste, galangal paste and dried ginger *because t
 
 - ❓ **Avocado oil** — was the default general-purpose oil. ⚠ **Expect this to be an expensive import here.** Standing rule that survives regardless of which oil: **≤3 g per dish** (limited-fat approach) — default to 3 g, never a tablespoon. If avocado oil is unreasonable, a neutral high-smoke-point local oil (rice bran, groundnut) takes the same role at the same dose; record whichever becomes the default.
 - ❓ Mild olive oil (import, pricier) · ❓ sesame oil (cheap here) · ❓ tahini (~55% fat, gram quantities only; seizes in hot acid — slake first).
-- ❓ **Coconut milk** — the 9%-fat reference was Biona Organic Light, a UK organic brand. **Needs a local reference product**: coconut milk here is fresher, more varied and much cheaper, and full-fat is the default on shelf. Pick a standard light one and record its fat % — several recipes are calibrated against 9%.
+- ❓ **Coconut *milk*** — the 9%-fat reference was Biona Organic Light, a UK organic brand, and **several recipes are calibrated against that 9%**. The Ayam **cream** now stocked (see ✅ above) is 28.5% and does *not* substitute for it. **Still needs a local light/regular coconut milk recorded with its fat %.** Ayam make one in the same 270 ml can format, which would be the obvious thing to check first.
 
 ### Dairy / milks
 
@@ -128,6 +132,6 @@ Replaces the UK's Buy Whole Foods Online / M&S / Ocado stack. `BWFO_GRAPHQL.md` 
 
 1. **Confirm the ❓ list.** The fastest path is Holger walking the shelves once; everything above then flips to ✅ or 🛒.
 2. **Record a local milk** and a **local fortified soya drink** (panel + barcode) — two recipes' defaults currently resolve to dead products.
-3. **Record a local light coconut milk** and its fat %, against the 9% reference several recipes assume.
+3. **Record a local light coconut *milk*** and its fat %, against the 9% reference several recipes assume. *(The Ayam **cream** is recorded, but at 28.5% it doesn't fill this slot.)*
 4. **Decide the default cooking oil** if avocado oil is priced out; the ≤3 g rule holds either way.
 5. **Calibrate fresh-vs-paste aromatic ratios** (lemongrass, galangal) and write them into `TECHNIQUES.md`.
