@@ -12,18 +12,18 @@
 | 🟢 | 🥦 Broccoli, florets + peeled stem (steamed apart) | 500 g | 117 | **343 g** | [usda](https://fdc.nal.usda.gov/food-details/170379/nutrients) |
 | 🟢 | 🥕 Carrots, in **2 cm** coins (thicker — see note) | 400 g | 249 | **606 g** | [usda](https://fdc.nal.usda.gov/food-details/170393/nutrients) |
 | 🟡 | 🧅 Onion, diced | 250 g | 86 | **227 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟡 | 🧄 Garlic, minced | 15 g | 22 | | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
+| 🟡 | 🧄 Garlic, minced | 15 g | 27 | **18 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟠 | 🍲 Tom yum paste — HollyFarms (taste, very salty) | 45 g | 150 | | label |
 | 🔵 | 🥥 Ayam Brand Pure Coconut **Cream** (the whole can; ~40 g of it fries the paste) | 270 ml | 770 | | label |
 | 🔵 | 🥛 F&N NutriSoy Fresh Soya Milk, No Sugar Added (never boiled) | 1000 ml | 420 | | label |
 | 🟣 | 🥑 Avocado oil — **not needed**, the 🥥 cream fries the paste | — | 0 | | local |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | | |
 | ⚪ | 🌶️ Fresh chilli or flakes (at table) | to taste | — | | |
-| | **Total** | ~3.5 kg in, **~3.25 kg** out | **~2758** | | |
+| | **Total** | ~3.5 kg in, **~3.25 kg** out | **~2763** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Liquid · 🟤 Protein · 🟣 Seasoning · ⚪ Acid / heat at table*
 
-*⚠ **As-shopped correction (2026-08-10):** only **343 g** of 🥦 broccoli was available, so the 🥕 carrot goes up to **606 g** to hold the yield; 🧅 onion came in at **227 g**. The swap is close to weight-neutral and the totals below are computed on the as-cooked amounts. Two consequences are in the design notes: the bowl loses about a third of its texture layer, and the pot gets sweeter. 🫘 Chickpeas are counted at their **dry** weight — the ~600 g they become is mostly absorbed water and adds no nutrition. **There is no added salt**: 45 g of 🍲 paste brings ~7.1 g, and the vegetables and 🥛 soy milk another ~2.2 g of naturally-occurring sodium, for **~9.5 g total, or 0.29 g per 100 g** — the same density as the Tom Yum Sweet Potato & Soy Soup, which drew no salt complaints at 8.05. ⚠ The HollyFarms jar is **13% saltier** than the Mae Ploy vegan jar that soup used (15.7 vs 13.9 g/100 g); **50 g of the Mae Ploy jar is the equivalent dose** if that's the jar in the cupboard, and it also brings tamarind, which HollyFarms lacks. Taste at the end and push to 55 g if it reads flat — the declared salt on both jars is a conservative upper bound.*
+*⚠ **As-shopped correction (2026-08-10):** only **343 g** of 🥦 broccoli was available, so the 🥕 carrot goes up to **606 g** to hold the yield; 🧅 onion came in at **227 g** and 🧄 garlic at **18 g**. The swap is close to weight-neutral and the totals below are computed on the as-cooked amounts. Two consequences are in the design notes: the bowl loses about a third of its texture layer, and the pot gets sweeter. 🫘 Chickpeas are counted at their **dry** weight — the ~600 g they become is mostly absorbed water and adds no nutrition. **There is no added salt**: 45 g of 🍲 paste brings ~7.1 g, and the vegetables and 🥛 soy milk another ~2.2 g of naturally-occurring sodium, for **~9.5 g total, or 0.29 g per 100 g** — the same density as the Tom Yum Sweet Potato & Soy Soup, which drew no salt complaints at 8.05. ⚠ The HollyFarms jar is **13% saltier** than the Mae Ploy vegan jar that soup used (15.7 vs 13.9 g/100 g); **50 g of the Mae Ploy jar is the equivalent dose** if that's the jar in the cupboard, and it also brings tamarind, which HollyFarms lacks. Taste at the end and push to 55 g if it reads flat — the declared salt on both jars is a conservative upper bound.*
 
 ---
 
@@ -56,25 +56,25 @@
 
 ## Nutrition
 
-*Whole dish, **as-cooked amounts** — 343 g 🥦 broccoli, 606 g 🥕 carrot and 227 g 🧅 onion (~3.4 kg of inputs, **~3.2 kg estimated yield** — weigh and correct). **USDA-derived + label, not FoodNoms-verified.** 🫘 chickpeas, 🥦 broccoli, 🥕 carrots, 🧅 onion, 🧄 garlic, from authentic USDA values; 🥛 soya milk, 🥥 coconut cream and 🍲 paste from their labels. Micros are committed best-estimates and stand as final.*
+*Whole dish, **as-cooked amounts** — 343 g 🥦 broccoli, 606 g 🥕 carrot, 227 g 🧅 onion and 18 g 🧄 garlic (~3.4 kg of inputs, **~3.2 kg estimated yield** — weigh and correct). **USDA-derived + label, not FoodNoms-verified.** 🫘 chickpeas, 🥦 broccoli, 🥕 carrots, 🧅 onion, 🧄 garlic, from authentic USDA values; 🥛 soya milk, 🥥 coconut cream and 🍲 paste from their labels. Micros are committed best-estimates and stand as final.*
 
 | | Whole dish |
 |:--|--:|
-| Energy | **2758 kcal** |
+| Energy | **2763 kcal** |
 | Protein | 121 g |
-| Carbohydrate | 306 g (102 g sugars) |
+| Carbohydrate | 307 g (102 g sugars) |
 | Fat | 126 g (77 g saturated) |
 | Fibre | 65 g |
 | Salt | 9.5 g |
-| Calcium | **2634 mg** |
+| Calcium | **2640 mg** |
 | Iron | 34 mg |
-| Magnesium | 794 mg |
-| Potassium | 7993 mg |
+| Magnesium | 795 mg |
+| Potassium | 8005 mg |
 | Vitamin D | 6.5 µg |
 | Vitamin B12 | **0 µg** |
 | Folate | 2007 µg |
 
-📲 **[Download to FoodNoms](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom%20Yum%20Broccoli%2C%20Carrot%20%26%20Chickpea%20Soup%20%5B10-08-26%5D%20%E2%9C%B4%EF%B8%8F&fdcIds=173756%2C170379%2C170393%2C2709795%2C169230&grams=250%2C343%2C606%2C227%2C15&customNames=NutriSoy%20Fresh%20Soya%20Milk%20No%20Sugar%20Added%20%28F%26N%29%3BPure%20Coconut%20Cream%20%28Ayam%20Brand%29%3BTom%20Yum%20Paste%20%28HollyFarms%29&customQuantities=1000%3B270%3B45&customUnits=milliliter%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium&customNutrientValues=42%2C4.32%2C1.8%2C0.8%2C2.0%2C0.4%2C0.12%2C32%2C0.66%2C200%2C0.38%2C26%2C193%2C0.652%2C24%3B285%2C3.1%2C4.0%2C3.9%2C28.5%2C25.5%2C19%2C4.4%2C24%2C0.75%2C62%2C295%3B333%2C0%2C33.4%2C20%2C23.3%2C3.5%2C6.7%2C6280&servings=5&totalServingSize=3250)** — verified HTTP 200, no warnings, totals matching the table above.
+📲 **[Download to FoodNoms](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Tom%20Yum%20Broccoli%2C%20Carrot%20%26%20Chickpea%20Soup%20%5B10-08-26%5D%20%E2%9C%B4%EF%B8%8F&fdcIds=173756%2C170379%2C170393%2C2709795%2C169230&grams=250%2C343%2C606%2C227%2C18&customNames=NutriSoy%20Fresh%20Soya%20Milk%20No%20Sugar%20Added%20%28F%26N%29%3BPure%20Coconut%20Cream%20%28Ayam%20Brand%29%3BTom%20Yum%20Paste%20%28HollyFarms%29&customQuantities=1000%3B270%3B45&customUnits=milliliter%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%2CvitaminD%2Cfolate%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Csodium%2Ciron%2Ccalcium%2Czinc%2Cmagnesium%2Cpotassium%3Bcalories%2Cprotein%2Ccarbs%2Csugars%2Cfat%2CfatSaturated%2Cfiber%2Csodium&customNutrientValues=42%2C4.32%2C1.8%2C0.8%2C2.0%2C0.4%2C0.12%2C32%2C0.66%2C200%2C0.38%2C26%2C193%2C0.652%2C24%3B285%2C3.1%2C4.0%2C3.9%2C28.5%2C25.5%2C19%2C4.4%2C24%2C0.75%2C62%2C295%3B333%2C0%2C33.4%2C20%2C23.3%2C3.5%2C6.7%2C6280&servings=5&totalServingSize=3250)** — verified HTTP 200, no warnings, totals matching the table above.
 
 > ✅ **The soya milk is identified and the fortification question is settled — in the dish's favour.** F&N **NutriSoy Fresh Soya Milk, No Sugar Added** (946 ml carton, barcode `8888200619442`): *non-GM soya beans, calcium carbonate, stabiliser, vitamin D3 (plant based), flavouring*. Per 100 ml **42 kcal, 4.32 g protein, 1.8 g carb (0.8 sugars), 2.0 g fat (0.4 sat), 0.12 g fibre, salt 0.08 g, calcium 200 mg, vitamin D 0.65 µg**. Atwater lands 42.7 against 42 declared. **Calcium is the headline: 200 mg/100 ml is roughly double a typical fortified soya drink**, so the litre alone brings 2000 mg and the dish totals **2644 mg** — not the ~620 mg the unfortified-carton scenario feared. ⚠ **It carries no B12**, so that total is a true zero rather than an estimate. ⚠ The carton is **946 ml**, not 1000 — this block is computed at 1000 ml as specified; using the whole carton instead drops every total by about 2%.
 >
@@ -97,7 +97,7 @@ n100 = <|
   "soyMilk"     -> {42, 4.32, 1.8, 0.8, 2.0, 0.4, 0.12, 0.08, 0.66, 200, 0.38, 26, 193, 0.652, 0, 24},              (* F&N NutriSoy label; iron/zinc/Mg/K/folate scaled from USDA 1999630 *)
   (* no added oil - the coconut cream fries the paste *)
 |>;
-amounts = <| "chickpea" -> 250, "broccoli" -> 343, "carrot" -> 606, "onion" -> 227, "garlic" -> 15,
+amounts = <| "chickpea" -> 250, "broccoli" -> 343, "carrot" -> 606, "onion" -> 227, "garlic" -> 18,
              "tomYum" -> 45, "coconut" -> 270, "soyMilk" -> 1000 |>;
 totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 ```
