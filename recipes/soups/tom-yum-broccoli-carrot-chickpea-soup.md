@@ -117,3 +117,15 @@ totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 5];
 - **⚠ Family flags.** **Lara** — no in-pot lime; the paste's own acid is the only acid, which is the same arrangement she scored 7.5 and 7.6 on across the two tom yum dishes, and observation 55 has her preferring broccoli to asparagus, so the green here is in her favour. A **split or curdled** soup is squarely her stated failure mode, which raises the stakes on step 8. **Jannes** — heat-sensitive, so no chilli in the pot; 45 g of paste across 3.2 kg is mild. ⚠ He dislikes cauliflower, and broccoli is close enough that this is a genuine risk rather than a formality. **Anja** rewards savoury and textured over sweet and smooth — the chickpeas and the broccoli bite are both for her.
 - **⚠ What's missing versus the good tom yum cooks.** No 🍄 mushroom powder and no 🍃 makrut lime leaves. Both are unconfirmed in the Singapore kitchen (`docs/PANTRY.md`). **Mushroom powder is the bigger loss** — it supplies guanylate, which multiplies against the paste's glutamate, and it's the project's standard way to fix an under-seasoned dish without adding salt. If there's any in a box, 6–8 g whisked in off heat at step 9 is the single largest upgrade available here.
 - **⚠ Pantry assumptions.** This is written against the **HollyFarms** jar because that's the tom yum paste confirmed in Singapore. 🧅 onion, 🧄 garlic and 🥑 oil are all unconfirmed. The oil no longer matters — the recipe was rewritten around the coconut cream doing that job, so there is nothing to substitute.
+
+---
+
+## Ratings
+
+**Average 8.45** across four raters (Julina 9.2, Holger 8.9, Jannes 8.0, Lara 7.7; spread 1.5). Anja did not rate — and for once that barely matters, since her 8.32 mean is close to the average; imputing her gives 8.42. On that like-for-like basis this is **the best of the three tom yum dishes** (8.42 against the Butternut Curry's 8.34 and the Sweet Potato Soup's 8.14).
+
+**🥇 Jannes at 8.0 is his ceiling** — 17 ratings, mean 7.31, never higher. He was flagged against this dish because he dislikes cauliflower and broccoli was treated as adjacent; it cost nothing. See `docs/RATINGS.md` observation 57.
+
+**The texture worry was wrong.** The design notes predicted that a third less broccoli with no air fryer would show up as a low score. It didn't, and the two raters most likely to punish a soft one-note bowl both landed at or above their personal ceilings.
+
+⚠ **The riskiest change went untested.** Raising carrot to 606 g made the pot sweeter, and Anja — the rater who penalises one-note sweetness — is the one who didn't score it.
