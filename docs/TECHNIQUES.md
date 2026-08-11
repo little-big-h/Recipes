@@ -70,19 +70,21 @@ Formal food-safety guidance gives a **flat prohibition on cooked food held at am
 
 **Holger likes bite in his porridge**, which is in tension with an 8-hour hold. Take it back in the morning, not by shortening the evening cook:
 
-1. **Do not run a second pressure cycle in the morning.** This follows directly from the assessment: the reheat was never the safety net (cereulide is heat-stable), so it does no microbiological work and only costs texture. Biggest single lever.
-2. **Warm without decanting.** ⚠ **Not Sauté** — that heats the *outer* pot, and pot-in-pot means the porridge is in the inner vessel, so Sauté means transferring the batch. Two options that don't: **portion into bowls and microwave** (gentlest, per-person, and the remainder never takes a second heat at all), or **Steam / water in the outer pot with the lid unsealed** to warm the inner vessel as a bain-marie.
+1. **Keep the morning heat as short as possible.** The reheat was never the safety net (cereulide is heat-stable), so it does no microbiological work and only costs texture — a full 10-min pressure reheat is pure loss. Biggest single lever. ⚠ This is a reason to *shorten* the morning cycle, **not** a reason to avoid the delayed reheat, which is safe.
+2. **If warming by hand, don't decant.** ⚠ **Not Sauté** — that heats the *outer* pot, and pot-in-pot means the porridge is in the inner vessel, so Sauté means transferring the batch. Gentlest option is to **portion into bowls and microwave**, which also spares the remainder a second heat entirely. **But the automated route is a short delayed cycle** — see architecture (a) below; it costs a little texture and buys the whole morning.
 3. **Cook at final consistency — 1 : 6 — and don't add milk in the morning.** Loosen at the bowl with hot *water* if it has set too thick. Keeping the pot a single load is what leaves the door open to a delayed-cook version later (see below).
 4. **Don't stir hard while hot.** Barley's beta-glucan is what makes it creamy; agitating it hot turns creamy into gluey and masks whatever bite survived.
 5. **Next purchase, hulled / pot barley** rather than pearl. The bran is intact, so it holds chew through a long cycle *and* a long hold in a way pearled grain structurally cannot. Nussinow: 25–35 min HP soaked. This is the real fix rather than a mitigation.
 
 ⚠ **Keep the release natural.** A delayed vent would shorten the cooking tail and gain a little bite, but it also shortens the coast above 60 °C — the least verified number in the whole assessment. Not worth trading a validated hold for a marginal texture gain.
 
-#### ⚠ Delayed-cook is a much weaker safety case than cook-then-hold
+#### ⚠ Two completely different things get called "delayed start"
 
-Holger wants to move to loading the pot at night and letting the timer cook it in the morning. **These are not variants of the same method — they are opposites**, and the safety argument does not carry across. Cook-then-hold sterilises *first* and then holds a product whose population starts at effectively zero after ~90 log reductions. Delayed-cook holds **raw hydrated grain at ambient with nothing removed**, and the morning cook cannot destroy cereulide formed during the hold.
+They differ in **whether the sterilisation cycle happens before or after the hold**, and that single fact decides the whole safety case. Do not let them be conflated — Claude conflated them once already (2026-08) and warned Holger off the safe one.
 
-Modelled growth over the hold, against the 10⁵/g (5.0 log) emetic threshold:
+**(a) Delayed *reheat* — safe, and it is Holger's actual plan.** Evening sterilisation cycle runs as normal (40 min Low, natural release). **The pot is never opened.** A delayed cycle is then programmed to fire in the morning and reheat. The hold is therefore identical to the validated method in every respect — sealed vessel, sterile contents, population at effectively zero — and the timer merely replaces a hand on a button. **Safety is unchanged. Use it.**
+
+**(b) Delayed *cook* from raw — a much weaker case.** Load raw grain and milk cold, let the timer cook it hours later. This holds **raw hydrated grain at ambient with nothing removed**, and the morning cook cannot destroy cereulide formed during the hold. Modelled against the 10⁵/g (5.0 log) emetic threshold:
 
 | Scenario | Growth window | Log gain | From 10³/g | From 10⁴/g |
 |:--|--:|--:|--:|--:|
@@ -92,23 +94,20 @@ Modelled growth over the hold, against the 10⁵/g (5.0 log) emetic threshold:
 | Room-temp load, 8 h, 60 min doubling | 6.5 h | 1.96 | 5.0 | **6.0** |
 | **Short delay — 3 h** | 1.5 h | 0.45 | 3.5 | 4.5 |
 
-Cereal grain carries 10²–10⁴ *B. cereus* spores/g, so the realistic starting point spans both right-hand columns. **An overnight delayed cook straddles the threshold** — it lands anywhere from 1.2 logs clear to 1.0 log over, depending on the starting load, whether the pot went in cold, and the kitchen temperature. That is a margin of roughly ±1 log. The cook-then-hold method's margin is ~90 logs.
+Cereal grain carries 10²–10⁴ spores/g, so both right-hand columns are live: an **overnight** delayed cook straddles the threshold, landing anywhere from 1.2 logs clear to 1.0 log over. Margin of ±1 log against ~90 for (a). **A short delay (2–3 h) is fine; an overnight one is not something to stand behind**, particularly for the children. If pursued anyway: load fridge-cold (worth ~1 log of warming lag), rinse the grain (~0.5 log, free), keep the delay short.
 
-**Practical position:**
+#### Programming the delayed reheat (architecture (a))
 
-- **A short delay is fine** — timer firing 2–3 h after loading keeps it ~1.5 logs clear even from a high starting load.
-- **An overnight delayed cook is not something to stand behind**, particularly for the children, who are the group in which this illness actually appears. It is not obviously dangerous; it is *unverified and thin*, which is a different claim from the oat method's.
-- **If pursuing it anyway:** load fridge-cold (the warming lag is worth ~1 log on its own), rinse the barley first (removes surface spores, maybe 0.5 log, free), and keep the delay as short as the schedule allows.
+The cost of automating the morning is **texture, not safety** — a delayed cycle is a *pressure* cycle, which is the thing that softens the grain. Minimise it rather than avoiding it:
 
-#### Delayed start is the failure mode, not a variant of this
+- **Set the shortest cycle that heats the mass through — ~5 min at Low**, not a full reheat. Pot-in-pot conduction lag means the ramp does most of the actual warming; the plateau only needs to finish the job. Against a 40-min evening cycle this is a ~12% addition rather than a second cook.
+- **Time it to finish just before you get up**, not an hour before — anything held on Keep Warm carries on softening.
+- **Timer arithmetic:** ~15 min ramp + 5 min cook + ~15 min natural release ≈ **35 min**, so a 07:00 breakfast wants the cycle starting about 06:25.
+- This is still **strictly better for texture than the 10-min high-pressure morning reheat** used in the oat routine.
 
-⚠ **Do not read the oat-groat verdict as permission to delay-start a milk porridge.** The two are opposites: the oat method cooks *first* and holds sterile product; delayed start holds **raw, hydrated, low-acid grain** at ambient and cooks *after*. That is precisely the "skipped evening cycle" case above, and the morning cook cannot undo preformed cereulide.
+#### Fridge-soak — the other way to shorten a morning cook
 
-- **Don't delay-start milk overnight.** Use the fridge instead — soak in the inner vessel, cook in the morning. Same hydration, same shortened cook, no exposure.
-- **Short delays are a different proposition** — timer at 05:00 for a 07:00 breakfast, not loaded at 22:00.
-- **Grain in plain water** isn't a safety problem but doesn't keep either: steeped grain at ambient is a fermentation (how rejuvelac is made). Sourness and slime beyond a few hours.
-
-**Timer arithmetic:** the countdown ends where the cook *begins*. Add heat-up (~10 min) and natural release (~20 min on a long grain cook) to work backwards from breakfast.
+Unrelated to the hold methods above, for when there is no evening cycle at all: soak the grain in the inner vessel **in the fridge**, then cook in the morning. Same hydration and the same shortened cook as a raw ambient hold, with none of the exposure. **Grain steeped in plain water at ambient** isn't a safety problem but doesn't keep either — it is a fermentation (how rejuvelac is made), so expect sourness and slime beyond a few hours.
 
 #### Open measurement — not yet done
 
