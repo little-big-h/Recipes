@@ -12,17 +12,74 @@ The Ninja is the primary cooking tool. These rules were established through tria
 
 **Never use immediate (quick) release.** Heats and humidifies the kitchen unnecessarily, can split delicate ingredients. Always use natural or delayed release. Holger prefers natural release; delayed (10-min auto) is acceptable for predictability.
 
-### Delayed start — ⚠ the rules changed with the move to Singapore
+### Overnight holds and delayed start — food safety
 
-Delayed start holds the food at **ambient** temperature until the cook begins. In Teddington an overnight kitchen sat at 16–18 °C; a Singapore kitchen sits at **28–30 °C**, or 24–26 °C air-conditioned. Bacterial growth roughly doubles per 8–10 °C, so the same eight-hour delay that was marginal in the UK is **several times riskier here**. The 5–60 °C danger zone hasn't moved; the kitchen has.
+> Assessed in detail 2026-08 (Holger + Claude), and written down here because it was worked out once in conversation and then lost. **The verdict is contingent on specific features of the method that are easy to lose — read the premises, not just the conclusion.**
 
-- **Never delay-start with milk, dairy, egg or anything cooked.** This is the hard case, and it rules out loading a milk porridge the night before.
-- **Grain in plain water is not dangerous but does not keep either** — steeped grain at 29 °C is a fermentation (it's how rejuvelac is made). Expect sourness and slime beyond 2–3 hours.
-- **Short delays are fine.** Setting the timer at 05:00 for a 07:00 breakfast is a different proposition from loading at 22:00.
-- **The safe overnight move is the fridge, not the pot.** Soak in the inner vessel in the fridge, then cook in the morning — it buys the same hydration (and the same shorter morning cook) with none of the exposure.
-- ⚠ This also puts a question mark over the **evening-cook-then-sit-overnight** pattern used for oat groats: cooked grain left at Singapore ambient for eight hours carries the same problem, one step further along.
+#### The oat-groat method: safe as described
+
+Whole oat groats + **UHT** milk, combined cold, pot-in-pot, **45 min at Low pressure**, left in the closed cooker overnight at room temperature, reheated under pressure in the morning. **Safe. No changes recommended.**
+
+#### Why — and why the morning reheat is not the reason
+
+The organism of concern for hydrated grain held warm is ***Bacillus cereus***. Its spores survive ordinary cooking, germinate in cooked grain, and produce **cereulide**, an emetic toxin that is **heat-stable and not destroyed by later cooking** — the fried-rice-syndrome mechanism. ⚠ **The morning reheat kills vegetative cells and does nothing to toxin already formed. It is not a safety net, and any argument that leans on it is wrong.**
+
+The method escapes the hazard chain because it removes the viable spore population *before* the hold. Three premises do all the work:
+
+1. **UHT milk is commercially sterile going in**, not merely pasteurised — the initial load is far below fresh milk's.
+2. **45 minutes at Low is a genuine sporicidal step**, not pasteurisation (arithmetic below).
+3. **The closed vessel pulls a partial vacuum as it cools**, so recontamination during the hold is minimal and the pot acts as a crude thermos for the first hours.
+
+*C. botulinum* is the other candidate in a sealed, low-acid, anaerobic vessel. **Not in play over eight hours** — germination through to toxin takes days at ambient, not hours.
+
+#### Sterilisation arithmetic
+
+**F₀ = t · 10^((T − 121.1) / 10)**, reference 121.1 °C, z = 10 °C. At the Low-pressure midpoint of **110.5 °C** for 45 min: exponent −1.06, 10^−1.06 = 0.0871, **F₀ ≈ 3.9 min**.
+
+| Plateau | F₀ at 45 min |
+|:--|--:|
+| 109.1 °C (low end of band) | 2.8 min |
+| 110.5 °C (midpoint) | 3.9 min |
+| 111.6 °C (high end) | 5.1 min |
+
+The commercial benchmark for shelf-stable low-acid food is **F₀ = 3** (12-log reduction of *C. botulinum* at D₁₂₁ = 0.21 min). This clears it — ~18 log reductions — and doesn't need to, since the product is held eight hours rather than a year.
+
+**For the organism that actually matters the margin is far larger.** *B. cereus* spores are markedly less heat-resistant (D₁₀₀ ≈ 1–8 min, z ≈ 9–10 °C). At a conservative D₁₀₀ of 5 min: D at 110.5 °C = 5 × 10^(−1.05) ≈ 0.45 min, so 45 / 0.45 ≈ **100 log reductions**. That is complete inactivation with orders of magnitude spare, and it is why the conclusion is insensitive to the uncertainties below.
+
+#### Growth kinetics over the hold
+
+Even granting survivors, the window cannot deliver a toxic dose. Emetic illness needs ~**10⁵ organisms/g**; reaching that from a heavily reduced population takes germination, lag, then **13–14 doublings**. *B. cereus* doubles roughly every 1–2 h at 20 °C → **13–27 h of growth alone**, before lag. And the window is shorter than eight hours: a closed cooker full of hot porridge holds **above 60 °C for an estimated 2–4 h**, leaving perhaps 4–5 h of genuine ambient exposure. ⚠ **That estimate is the least verified number in the assessment.**
+
+#### ⚠ This contradicts official guidance
+
+Formal food-safety guidance gives a **flat prohibition on cooked food held at ambient beyond two hours**. That rule is written for open, handled, non-heat-treated food under unknown conditions; it does not model a sealed vessel holding a retort-adjacent product made from sterile inputs. **This is first-principles reasoning against a deliberately conservative blanket rule** — not a conclusion backed by official guidance, and it should never be presented as one. Note also that **children are the group in which *B. cereus* emetic illness actually appears in the literature**, and this porridge is fed to them.
+
+#### Conditions that flip the judgment
+
+- **Skipping or shortening the evening cycle.** All the protection lives there. ⚠ **This is the dominant failure mode and it is operational, not microbiological** — one rushed night with a truncated cycle leaves hydrated low-acid grain at ambient with its competing flora already removed.
+- **Opening the pot during the hold** — reintroduces organisms and oxygen, voids premise 3.
+- **Extending the window** — two nights, or a big batch with portions left out.
+- **Ambient temperature.** The Singapore flat is **climate-controlled, confirmed** — which resolves the move. Residual: residential AC here holds **24–25 °C** against a British night at 18–20, and **kitchens are usually conditioned last**. At 30–37 °C (*B. cereus*'s optimum) doubling times roughly halve. Margin is narrower here, not absent.
+- **Switching to non-sterile milk** removes premise 1 and requires reassessment.
+
+#### Delayed start is the failure mode, not a variant of this
+
+⚠ **Do not read the oat-groat verdict as permission to delay-start a milk porridge.** The two are opposites: the oat method cooks *first* and holds sterile product; delayed start holds **raw, hydrated, low-acid grain** at ambient and cooks *after*. That is precisely the "skipped evening cycle" case above, and the morning cook cannot undo preformed cereulide.
+
+- **Don't delay-start milk overnight.** Use the fridge instead — soak in the inner vessel, cook in the morning. Same hydration, same shortened cook, no exposure.
+- **Short delays are a different proposition** — timer at 05:00 for a 07:00 breakfast, not loaded at 22:00.
+- **Grain in plain water** isn't a safety problem but doesn't keep either: steeped grain at ambient is a fermentation (how rejuvelac is made). Sourness and slime beyond a few hours.
 
 **Timer arithmetic:** the countdown ends where the cook *begins*. Add heat-up (~10 min) and natural release (~20 min on a long grain cook) to work backwards from breakfast.
+
+#### Open measurement — not yet done
+
+**Log the overnight cool-down** with a probe in the inner pot, recording kitchen ambient alongside, and extract the time spent above 60 °C. That single run also yields the **true plateau temperature** (replacing the inferred value above) and permits integrating the actual curve for a **measured F₀** rather than a plateau approximation.
+
+#### Calibration of the above
+
+**Confident:** the mechanism, the heat-stability of cereulide, the direction and rough magnitude of every effect, and the pressure-to-temperature conversions.
+**Less confident:** the Ninja's actual plateau temperature, inferred from category convergence rather than a specification sheet — the manufacturer does not publish working pressure. Whether "ML750" is even the right model designation. The 2–4 h above-60 °C figure is a guess. And pot-in-pot introduces conduction lag, so the coldest point holds at plateau for less than the full 45 min — the F₀ figures are plateau approximations and **overstate** the true cold-spot value. Given the 100-log headroom on *B. cereus*, none of this changes the conclusion.
 
 ### Heat-up time scales with load mass
 
@@ -53,8 +110,10 @@ For tomato-acidic dishes that risk scorching:
 
 | Pressure | Temp | Use for |
 |:---------|:-----|:--------|
-| **High** | ~120°C | Legumes, dense roots, grains |
-| **Low** | ~107°C | Delicate vegetables, corn (for blending — preserves sweetness), anything where texture matters |
+| **High** | **115.4–117.5 °C** | Legumes, dense roots, grains |
+| **Low** | **109.1–111.6 °C** | Delicate vegetables, corn (for blending — preserves sweetness), anything where texture matters |
+
+*Gauge pressures per the Instant Pot Singapore manual for this appliance class — High 70–80 kPa, Low 40–50 kPa — converted to saturation temperature at sea level. ⚠ Corrects the earlier ~120 °C / ~107 °C figures, which were wrong in both directions. The Ninja is assumed to sit in the same band; the manufacturer does not publish working pressure. See the F₀ arithmetic in the food-safety section above.*
 
 ### Pressure-cook times (concise reference)
 
@@ -76,7 +135,7 @@ Detailed times in `Nussinow_Cooking_Times.md`. Quick reference:
 
 ### Pot-in-pot vs basket-in-pot
 
-- **Pot-in-pot**: sealed inner vessel, separate liquid → cooks *slower* than direct submersion (extra thermal mass, no convective mixing), so add time rather than reusing a direct-submersion figure. ⚠ **Correction (2026-08): this is Holger's default, not an unused method** — "I always do pot in pot." It is what makes milk-based grain cooking possible at all, since milk and grain starch scorch on a directly-heated base. Don't fill the inner vessel past two-thirds; starchy grains foam.
+- **Pot-in-pot**: sealed inner vessel, separate liquid → cooks *slower* than direct submersion (extra thermal mass, no convective mixing), so add time rather than reusing a direct-submersion figure. ⚠ **Correction (2026-08): this is Holger's default, not an unused method** — "I always do pot in pot." It is what makes milk-based grain cooking possible at all, since milk and grain starch scorch on a directly-heated base. ⚠ **Don't fill the inner vessel past the ½ line for anything porridge-like** — the manual lists oatmeal among foods that foam and can clog the steam-release pipe. Pot-in-pot largely sidesteps this, but the fill limit still applies, and natural release rather than quick release is doubly right here.
 - **Basket-in-pot**: perforated basket sitting in the main cooking liquid → effectively **direct submersion**. Beans cook at the same rate as if loose. This is what we use for two-stage corn+bean cooks.
 
 ---
