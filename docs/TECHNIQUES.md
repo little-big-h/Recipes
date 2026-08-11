@@ -62,6 +62,21 @@ Formal food-safety guidance gives a **flat prohibition on cooked food held at am
 - **Ambient temperature.** The Singapore flat is **climate-controlled, confirmed** — which resolves the move. Residual: residential AC here holds **24–25 °C** against a British night at 18–20, and **kitchens are usually conditioned last**. At 30–37 °C (*B. cereus*'s optimum) doubling times roughly halve. Margin is narrower here, not absent.
 - **Switching to non-sterile milk** removes premise 1 and requires reassessment.
 
+#### The same architecture with pearl barley (2026-08)
+
+**Evening: 40 min at Low, natural release. 100 g pearl barley : 450 g UHT milk** (at Holger's usual scale, 150 g : 675 g). F₀ ≈ 3.5, ~90 log reductions of *B. cereus* — within a whisker of the 45-min oat cycle, and it happens to be exactly what pearl barley needs for porridge texture, so safety and texture ask for the same number. **30 min at High** also works (F₀ 10.3, ~265 logs) but Low mirrors the validated method and is gentler on the grain.
+
+⚠ **Do not trim the evening cycle for texture.** Strictly the hold only needs 1–2 log reductions — grain carries 10²–10⁴ spores/g, the emetic dose is 10⁵/g, and one log takes 0.45 min at Low. That calculation is correct and acting on it would be a mistake: the robustness of this method is that ~90 logs swamps the unknown plateau, the pot-in-pot conduction lag, the unmeasured hold curve and the unknown starting load *simultaneously*. Trim to the minimum and every one of those becomes load-bearing.
+
+**Holger likes bite in his porridge**, which is in tension with an 8-hour hold. Take the bite back in the morning, not by shortening the evening cook:
+
+1. **The morning step is culinary only — warm through on Sauté, do not run a second pressure cycle.** This follows directly from the assessment: the reheat was never the safety net (cereulide is heat-stable), so it can be as gentle as you like. Biggest single lever on texture.
+2. **Cook tight, loosen cold.** Evening at ~1:4.5; in the morning add cold UHT milk to taste (to roughly 1:6). Less free liquid through the hold, and the cold milk drops the temperature so the warm-through is short.
+3. **Don't stir hard while hot.** Barley's beta-glucan is what makes it creamy; agitating it hot turns creamy into gluey and masks whatever bite survived.
+4. **Next purchase, consider hulled / pot barley** rather than pearl. The bran is intact, so it holds chew through a long cycle and a long hold in a way pearled grain cannot. Nussinow: 25–35 min HP soaked.
+
+⚠ **Keep the release natural.** A delayed vent would shorten the cooking tail and gain a little bite, but it also shortens the coast above 60 °C — the least verified number in the whole assessment. Not worth trading a validated hold for a marginal texture gain.
+
 #### Delayed start is the failure mode, not a variant of this
 
 ⚠ **Do not read the oat-groat verdict as permission to delay-start a milk porridge.** The two are opposites: the oat method cooks *first* and holds sterile product; delayed start holds **raw, hydrated, low-acid grain** at ambient and cooks *after*. That is precisely the "skipped evening cycle" case above, and the morning cook cannot undo preformed cereulide.
