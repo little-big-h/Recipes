@@ -12,6 +12,18 @@ The Ninja is the primary cooking tool. These rules were established through tria
 
 **Never use immediate (quick) release.** Heats and humidifies the kitchen unnecessarily, can split delicate ingredients. Always use natural or delayed release. Holger prefers natural release; delayed (10-min auto) is acceptable for predictability.
 
+### Delayed start — ⚠ the rules changed with the move to Singapore
+
+Delayed start holds the food at **ambient** temperature until the cook begins. In Teddington an overnight kitchen sat at 16–18 °C; a Singapore kitchen sits at **28–30 °C**, or 24–26 °C air-conditioned. Bacterial growth roughly doubles per 8–10 °C, so the same eight-hour delay that was marginal in the UK is **several times riskier here**. The 5–60 °C danger zone hasn't moved; the kitchen has.
+
+- **Never delay-start with milk, dairy, egg or anything cooked.** This is the hard case, and it rules out loading a milk porridge the night before.
+- **Grain in plain water is not dangerous but does not keep either** — steeped grain at 29 °C is a fermentation (it's how rejuvelac is made). Expect sourness and slime beyond 2–3 hours.
+- **Short delays are fine.** Setting the timer at 05:00 for a 07:00 breakfast is a different proposition from loading at 22:00.
+- **The safe overnight move is the fridge, not the pot.** Soak in the inner vessel in the fridge, then cook in the morning — it buys the same hydration (and the same shorter morning cook) with none of the exposure.
+- ⚠ This also puts a question mark over the **evening-cook-then-sit-overnight** pattern used for oat groats: cooked grain left at Singapore ambient for eight hours carries the same problem, one step further along.
+
+**Timer arithmetic:** the countdown ends where the cook *begins*. Add heat-up (~10 min) and natural release (~20 min on a long grain cook) to work backwards from breakfast.
+
 ### Heat-up time scales with load mass
 
 Heat-up time must be treated as cooking time — not "extra waiting." For thermal-degradation-sensitive ingredients (e.g. corn losing sweetness), this matters significantly.
@@ -64,7 +76,7 @@ Detailed times in `Nussinow_Cooking_Times.md`. Quick reference:
 
 ### Pot-in-pot vs basket-in-pot
 
-- **Pot-in-pot**: sealed inner vessel, separate liquid → cooks *slower* than direct submersion (extra thermal mass, no convective mixing). Not used in our recipes.
+- **Pot-in-pot**: sealed inner vessel, separate liquid → cooks *slower* than direct submersion (extra thermal mass, no convective mixing), so add time rather than reusing a direct-submersion figure. ⚠ **Correction (2026-08): this is Holger's default, not an unused method** — "I always do pot in pot." It is what makes milk-based grain cooking possible at all, since milk and grain starch scorch on a directly-heated base. Don't fill the inner vessel past two-thirds; starchy grains foam.
 - **Basket-in-pot**: perforated basket sitting in the main cooking liquid → effectively **direct submersion**. Beans cook at the same rate as if loose. This is what we use for two-stage corn+bean cooks.
 
 ---
