@@ -102,7 +102,7 @@ The cost of automating the morning is **texture, not safety** — a delayed cycl
 
 - **Set the shortest cycle that heats the mass through — ~5 min at Low**, not a full reheat. Pot-in-pot conduction lag means the ramp does most of the actual warming; the plateau only needs to finish the job. Against a 40-min evening cycle this is a ~12% addition rather than a second cook.
 - **Time it to finish just before you get up**, not an hour before — anything held on Keep Warm carries on softening.
-- **Timer arithmetic:** ~15 min ramp + 5 min cook + ~15 min natural release ≈ **35 min**, so a 07:00 breakfast wants the cycle starting about 06:25.
+- ⚠ **Timer arithmetic — measure it, don't take an estimate.** The 35-minute figure first written here was unfounded and Holger challenged it. What can be said: **the natural release after a short cycle is fast (5–10 min)**, because a 5-minute plateau never heat-soaks the mass, so there is little stored superheat to bleed — do not reuse the 20+ min release of the 40-minute evening cycle. **The ramp is genuinely uncertain**: the heat-up table below gives 18–21 min for ~1 kg from room temperature, but that is measured for *direct* cooking, and pot-in-pot reaches pressure when the ~250 ml in the outer pot boils rather than when the porridge is hot — offset by the cold inner vessel condensing steam and dragging pressurisation out. **One morning settles both**: the display shows when pressure is reached and when the float drops. Same run as the cool-down probe already outstanding.
 - This is still **strictly better for texture than the 10-min high-pressure morning reheat** used in the oat routine.
 
 #### Fridge-soak — the other way to shorten a morning cook
