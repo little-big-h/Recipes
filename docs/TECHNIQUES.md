@@ -68,14 +68,37 @@ Formal food-safety guidance gives a **flat prohibition on cooked food held at am
 
 ⚠ **Do not trim the evening cycle for texture.** Strictly the hold only needs 1–2 log reductions — grain carries 10²–10⁴ spores/g, the emetic dose is 10⁵/g, and one log takes 0.45 min at Low. That calculation is correct and acting on it would be a mistake: the robustness of this method is that ~90 logs swamps the unknown plateau, the pot-in-pot conduction lag, the unmeasured hold curve and the unknown starting load *simultaneously*. Trim to the minimum and every one of those becomes load-bearing.
 
-**Holger likes bite in his porridge**, which is in tension with an 8-hour hold. Take the bite back in the morning, not by shortening the evening cook:
+**Holger likes bite in his porridge**, which is in tension with an 8-hour hold. Take it back in the morning, not by shortening the evening cook:
 
-1. **The morning step is culinary only — warm through on Sauté, do not run a second pressure cycle.** This follows directly from the assessment: the reheat was never the safety net (cereulide is heat-stable), so it can be as gentle as you like. Biggest single lever on texture.
-2. **Cook tight, loosen cold.** Evening at ~1:4.5; in the morning add cold UHT milk to taste (to roughly 1:6). Less free liquid through the hold, and the cold milk drops the temperature so the warm-through is short.
-3. **Don't stir hard while hot.** Barley's beta-glucan is what makes it creamy; agitating it hot turns creamy into gluey and masks whatever bite survived.
-4. **Next purchase, consider hulled / pot barley** rather than pearl. The bran is intact, so it holds chew through a long cycle and a long hold in a way pearled grain cannot. Nussinow: 25–35 min HP soaked.
+1. **Do not run a second pressure cycle in the morning.** This follows directly from the assessment: the reheat was never the safety net (cereulide is heat-stable), so it does no microbiological work and only costs texture. Biggest single lever.
+2. **Warm without decanting.** ⚠ **Not Sauté** — that heats the *outer* pot, and pot-in-pot means the porridge is in the inner vessel, so Sauté means transferring the batch. Two options that don't: **portion into bowls and microwave** (gentlest, per-person, and the remainder never takes a second heat at all), or **Steam / water in the outer pot with the lid unsealed** to warm the inner vessel as a bain-marie.
+3. **Cook at final consistency — 1 : 6 — and don't add milk in the morning.** Loosen at the bowl with hot *water* if it has set too thick. Keeping the pot a single load is what leaves the door open to a delayed-cook version later (see below).
+4. **Don't stir hard while hot.** Barley's beta-glucan is what makes it creamy; agitating it hot turns creamy into gluey and masks whatever bite survived.
+5. **Next purchase, hulled / pot barley** rather than pearl. The bran is intact, so it holds chew through a long cycle *and* a long hold in a way pearled grain structurally cannot. Nussinow: 25–35 min HP soaked. This is the real fix rather than a mitigation.
 
 ⚠ **Keep the release natural.** A delayed vent would shorten the cooking tail and gain a little bite, but it also shortens the coast above 60 °C — the least verified number in the whole assessment. Not worth trading a validated hold for a marginal texture gain.
+
+#### ⚠ Delayed-cook is a much weaker safety case than cook-then-hold
+
+Holger wants to move to loading the pot at night and letting the timer cook it in the morning. **These are not variants of the same method — they are opposites**, and the safety argument does not carry across. Cook-then-hold sterilises *first* and then holds a product whose population starts at effectively zero after ~90 log reductions. Delayed-cook holds **raw hydrated grain at ambient with nothing removed**, and the morning cook cannot destroy cereulide formed during the hold.
+
+Modelled growth over the hold, against the 10⁵/g (5.0 log) emetic threshold:
+
+| Scenario | Growth window | Log gain | From 10³/g | From 10⁴/g |
+|:--|--:|--:|--:|--:|
+| Fridge-cold load, 8 h, 75 min doubling | 3.5 h | 0.84 | 3.8 | 4.8 |
+| Fridge-cold load, 8 h, 60 min doubling | 4.0 h | 1.20 | 4.2 | **5.2** |
+| Room-temp load, 8 h, 75 min doubling | 6.0 h | 1.44 | 4.4 | **5.4** |
+| Room-temp load, 8 h, 60 min doubling | 6.5 h | 1.96 | 5.0 | **6.0** |
+| **Short delay — 3 h** | 1.5 h | 0.45 | 3.5 | 4.5 |
+
+Cereal grain carries 10²–10⁴ *B. cereus* spores/g, so the realistic starting point spans both right-hand columns. **An overnight delayed cook straddles the threshold** — it lands anywhere from 1.2 logs clear to 1.0 log over, depending on the starting load, whether the pot went in cold, and the kitchen temperature. That is a margin of roughly ±1 log. The cook-then-hold method's margin is ~90 logs.
+
+**Practical position:**
+
+- **A short delay is fine** — timer firing 2–3 h after loading keeps it ~1.5 logs clear even from a high starting load.
+- **An overnight delayed cook is not something to stand behind**, particularly for the children, who are the group in which this illness actually appears. It is not obviously dangerous; it is *unverified and thin*, which is a different claim from the oat method's.
+- **If pursuing it anyway:** load fridge-cold (the warming lag is worth ~1 log on its own), rinse the barley first (removes surface spores, maybe 0.5 log, free), and keep the delay as short as the schedule allows.
 
 #### Delayed start is the failure mode, not a variant of this
 
