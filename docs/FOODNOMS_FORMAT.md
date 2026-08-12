@@ -476,6 +476,29 @@ carbs are still EU-style and FoodNoms will reject the food.
 6. **Recipe header:** set `totalServingSize`, `servingSizeUnit`, `servings`.
 7. **Encode** with the LZFSE snippet in §2 and save as `<name>.foodnoms`.
 
+### Label conventions — three traps when transcribing a panel
+
+**1. UK/EU/AU/NZ: carbohydrate EXCLUDES fibre — fold it in.** `carbs = label_carbs + label_fibre`
+(§8). US "Nutrition Facts" panels already include it; don't double-add.
+
+**2. Japanese panels: 糖質 is *not* `sugars`.** A Japanese 栄養成分表示 gives
+炭水化物 (total carbohydrate) split into **糖質** and **食物繊維**. 糖質 is
+*available carbohydrate* — **starch included** — i.e. total minus fibre, the
+equivalent of a European "carbohydrate" line. The equivalent of "of which
+sugars" is **糖類**, which most panels omit entirely. ⚠ Mapping 糖質 → `sugars`
+can overstate sugar several-fold on a starchy food. Caught 2026-08 on peeled
+chestnuts, where 糖質 31.5 g would have been logged as sugars when the true
+figure is nearer 12. When only 糖質 is given, put it toward `carbs` (with fibre,
+since 炭水化物 is already the total) and **estimate `sugars` separately** from
+the food's composition, flagged as an estimate.
+
+**3. When a panel is ambiguous, let the energy figure arbitrate.** Compute
+Atwater both ways (9·fat + 4·carb + 4·protein + 2·fibre) and see which lands on
+the declared calories. This has settled three labels in this project: the
+Hana Ocha loaf (carb was total — `4×carb + 4×protein + 9×fat` hit 238 exactly),
+the S&W tomato paste (US format, no fold), and these chestnuts
+(31.5 + 5.2 = 36.7 exactly, and Atwater lands 159.8 vs 160).
+
 ### `BuildFoodNomsRecipe` — two HTTP 400 traps in the `custom*` columns
 
 Both produce the same unhelpful message (`all custom* arrays must be equal
