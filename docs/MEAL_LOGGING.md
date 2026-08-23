@@ -15,11 +15,26 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 
 **Consumed weight = before − after.** The bowl, plate and spoon cancel out, so the difference is exactly what was eaten — no need to tare or weigh empty crockery.
 
+### Capture regimes (newest first)
+
+The scale hardware has changed twice; all three regimes are still readable.
+
+| Regime | What arrives | How to read it |
+|:--|:--|:--|
+| **3 — EXIF-embedded** *(current, from 2026-08)* | **One** photo of the dish, weights written into the image metadata | `strings -n 4 photo.jpg \| grep -E 'weight_g\|consumed_g'` → `ImageDescription` carries `weight_g=…; phase=before`, `UserComment` carries `before_g=…; after_g=…; consumed_g=…`. The two agree; `consumed_g` is authoritative. No exiftool needed. **Note the photo also carries GPS.** |
+| **2 — App screenshots** | Dish photo + **two app screenshots** (scale has no built-in display) | Order the screenshots by their **status-bar clock** (and battery %) — they do not always arrive chronologically. |
+| **1 — LCD photos** *(legacy)* | Two photos of the dish on a scale with a visible LCD | See *Reading the scale* below — rotated displays, glare. |
+
+Under regimes 2 and 3 the "after" reading may be **mostly vessel** (a cleaned plate) or **inedible waste** (an apple core — 135.3 → 22.6 g). Either way the subtraction handles it: no refuse factor needs guessing.
+
 ### Claude's job
 
 1. **Read both LCDs** from the photos and subtract.
 2. **Scale** a per-100 g nutrition estimate for that dish to the eaten grams.
-3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams. **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
+3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams.
+
+> ⚠ **Never decompose a photographed restaurant dish into its ingredients.** One dish = **one** entry, with a single whole-dish per-100 g estimate. Do *not* resolve the lettuce, the carrot, the oil and the dressing to separate `fdcIds` and log them as a fan of entries — the split is invented, it adds no accuracy, it clutters the diary, and long multi-`fdcId` calls are exactly what makes the endpoint fall over. Ingredient-level breakdowns are for **recipes Holger cooks** (known weights), never for a plate that arrived from a kitchen he didn't stand in. *(Holger, twice, emphatic.)*
+ **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
 
 > **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty tiers (0/10/30) are now set **inline** via the `customUncertainties` / `fdcUncertainties` columns (aligned with each ingredient group), so a single call yields a correctly-tiered meal file — no kernel patching. See Uncertainty policy below.
 
