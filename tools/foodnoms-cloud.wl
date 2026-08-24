@@ -40,20 +40,82 @@
 
 $FDCApiKey = "CQawDjU3RVijSYCgvhRxH1ReIT12ZS02LkbXX3f1";
 
-(* name -> ranked candidate records *)
+(* ---------------------------------------------------------------------------
+   RESILIENT FETCH  (added 2026-08-24, after a whole-afternoon outage)
+
+   The free FDC key is rate-limited to ~1000 requests/day per IP, and EVERY
+   ingredient of a recipe costs one call. When the API rate-limits (HTTP 429),
+   errors, or times out, URLExecute[..., "RawJSON"] returns $Failed -- not an
+   association.
+
+   The old code fed that straight into Lookup and the get[] accessors. Those
+   carry List/Association patterns, so they did not fail -- they simply STAYED
+   UNEVALUATED and rode all the way into the response as symbolic junk:
+
+       "calories" -> fdcEnergyKcal[Lookup[data$79191, "foodNutrients", {}]]
+       "fdcId"    -> {}["fdcId"]
+
+   ExportByteArray[..., "RawJSON"] cannot encode that, so the caller saw an
+   opaque  400 {"Success":false,"Failure":"Failed to encode HTTPResponse"}
+   with no hint that USDA was the problem.
+
+   Because a per-ingredient failure probability p compounds, an n-ingredient
+   recipe succeeded only (1-p)^n of the time. That presents as "large recipes
+   are broken" while single-ingredient calls mostly work -- but it is NOT a
+   size limit, and retrying the whole request is the worst possible response
+   (it multiplies the FDC traffic that caused the rate-limit in the first
+   place, and bills Wolfram Cloud time for each attempt).
+
+   Three fixes: retry a transient failure in place, MEMOISE successful lookups
+   so a repeated fdcId is free (the dominant traffic saving -- one soup can
+   otherwise re-fetch the same carrot record dozens of times), and fail LOUDLY
+   with a Failure that names the fdcId and says what to do about it.
+--------------------------------------------------------------------------- *)
+
+$FDCMaxTries = 3;
+$FDCCache = <||>;   (* fdcId -> raw record; successes only *)
+
+(* one FDC GET, retried; returns the decoded association or $Failed *)
+fdcFetch[spec_] := Module[{r},
+  Do[
+   r = Quiet @ Check[URLExecute[spec, "RawJSON"], $Failed];
+   (* a rate-limit or error body still decodes to an association, but carries
+      an "error" key -- treat that as failure rather than as data *)
+   If[AssociationQ[r] && ! KeyExistsQ[r, "error"], Return[r, Module]],
+   {$FDCMaxTries}];
+  $Failed];
+
+fdcUnavailable[what_] := Failure["fdcUnavailable", <|
+   "MessageTemplate" -> "USDA FoodData Central lookup failed for `w`. The free \
+API key is rate-limited to ~1000 requests/day per IP and each ingredient costs \
+one request, so a burst of large recipes exhausts it. Wait for the daily reset \
+or set $FDCApiKey to another key. Do NOT retry in a loop.",
+   "MessageParameters" -> <|"w" -> what|>, "what" -> what|>];
+
+(* name -> ranked candidate records, or a Failure *)
 fdcSearch[query_String, n_Integer : 5] := Module[{data},
-  data = URLExecute[<|
+  data = fdcFetch[<|
      "Scheme" -> "https", "Domain" -> "api.nal.usda.gov",
      "Path" -> "/fdc/v1/foods/search",
      "Query" -> {"api_key" -> $FDCApiKey, "query" -> query,
-        "pageSize" -> ToString[n]}|>, "RawJSON"];
+        "pageSize" -> ToString[n]}|>];
+  If[! AssociationQ[data],
+   Return[fdcUnavailable["search \"" <> query <> "\""], Module]];
   {#["fdcId"], #["description"], #["dataType"]} & /@ Lookup[data, "foods", {}]
 ];
 
-(* raw FDC record (full format) *)
-fdcFood[fdcId_] := URLExecute[
-   "https://api.nal.usda.gov/fdc/v1/food/" <> ToString[fdcId] <>
-    "?api_key=" <> $FDCApiKey <> "&format=full", "RawJSON"];
+(* raw FDC record (full format). Memoised on SUCCESS ONLY, so a transient
+   failure is retried on the next call rather than cached forever. *)
+fdcFood[fdcId_] := Module[{r},
+  If[KeyExistsQ[$FDCCache, fdcId], Return[$FDCCache[fdcId], Module]];
+  r = fdcFetch["https://api.nal.usda.gov/fdc/v1/food/" <> ToString[fdcId] <>
+     "?api_key=" <> $FDCApiKey <> "&format=full"];
+  If[AssociationQ[r] && KeyExistsQ[r, "foodNutrients"],
+   $FDCCache[fdcId] = r,
+   $Failed]];
+
+(* drop memoised records (e.g. to pick up a corrected USDA row) *)
+fdcClearCache[] := ($FDCCache = <||>;);
 
 (* full-format row accessors: each row is
    <|"nutrient"-><|"name"->..,"unitName"->..|>, "amount"->..|> *)
@@ -80,6 +142,10 @@ fdcSugars[fn_List] := fdcRowAmt @ SelectFirst[fn,
 (* fdcId -> per-100g block keyed by FoodNoms nutrient names *)
 fdcToFoodNoms[fdcId_] := Module[{data, fn, get, vitD},
   data = fdcFood[fdcId];
+  (* HARD STOP on a failed lookup. Without this the unevaluated accessors below
+     travel into the caller's response and surface as an unencodable 400. *)
+  If[! (AssociationQ[data] && KeyExistsQ[data, "foodNutrients"]),
+   Return[fdcUnavailable["fdcId " <> ToString[fdcId]], Module]];
   fn = Lookup[data, "foodNutrients", {}];
   (* match by exact nutrient name; unit defaults to "any" *)
   get[pat_, unit_ : _] := fdcRowAmt @ SelectFirst[fn,
@@ -324,6 +390,10 @@ buildFoodNomsRecipe[spec_Association] := Module[
       KeyExistsQ[ing, "fdcId"],
         fdcId = ing["fdcId"];
         block = fdcToFoodNoms[fdcId];
+        (* USDA lookup failed (rate limit / outage / dead id): abort the whole
+           build and report WHICH ingredient. Building on regardless is what
+           used to emit an unencodable response and an opaque 400. *)
+        If[FailureQ[block], Throw[block, "fdcFail"]];
         If[fdcSecondarySource[block["dataType"]] === Missing[],
          AppendTo[warnings,
           block["name"] <> ": unmapped USDA dataType '" <> ToString @ block["dataType"] <> "'"]];
@@ -457,13 +527,21 @@ resolveFDC[spec_Association] := Module[{qs, n},
   qs = Lookup[spec, "queries",
      If[KeyExistsQ[spec, "query"], {spec["query"]}, {}]];
   n = Lookup[spec, "n", 5];
+  (* Every hit costs its own FDC call on top of the search, so one 5-candidate
+     query is 6 requests against a ~1000/day key. Guard BOTH stages: a Failure
+     mapped over with /@ used to decompose into junk like {}["fdcId"], which
+     then could not be JSON-encoded ("Failed to export to JSON"). *)
   <|"results" -> Function[q,
-     <|"query" -> q,
-       "candidates" -> Function[hit,
-          With[{block = fdcToFoodNoms[hit[[1]]]},
-           <|"fdcId" -> hit[[1]], "description" -> hit[[2]], "dataType" -> hit[[3]],
-             "baseAmount" -> 100, "baseUnit" -> "gram",
-             "nutrients" -> block["nutrients"]|>]] /@ fdcSearch[q, n]|>] /@ qs|>];
+     Module[{hits = fdcSearch[q, n]},
+      If[FailureQ[hits],
+       <|"query" -> q, "candidates" -> {},
+         "error" -> TemplateApply[hits["MessageTemplate"], hits["MessageParameters"]]|>,
+       <|"query" -> q,
+         "candidates" -> Function[hit,
+            Module[{block = fdcToFoodNoms[hit[[1]]]},
+             <|"fdcId" -> hit[[1]], "description" -> hit[[2]], "dataType" -> hit[[3]],
+               "baseAmount" -> 100, "baseUnit" -> "gram",
+               "nutrients" -> If[FailureQ[block], <||>, block["nutrients"]]|>]] /@ hits|>]]] /@ qs|>];
 
 
 (* ================= C. APIFunctions (decomposed query params) =============
@@ -611,8 +689,16 @@ specFromParams[a_] := Module[{errs = {}},
      v3  stable auto foodIDs = hash(name|brand|per-100g kcal) when id omitted
      v4  standalone serving pinned to 100 baseUnit (FoodNoms forces per-serving)
      v5  serving = bare 100-unit metric weight; serving-size label left empty
+     v6  FDC fetch made resilient: retry + memoise + fail loudly. A failed USDA
+         lookup used to leave UNEVALUATED expressions in the result, which then
+         could not be JSON-encoded, so the caller got an opaque 400 "Failed to
+         encode HTTPResponse". Worse, the failure was per-ingredient, so an
+         n-ingredient recipe broke (1-(1-p)^n) of the time -- it read as "large
+         recipes are broken" when the real cause was the ~1000 req/day FDC key
+         limit. Now: 503 + Retry-After + a message naming the fdcId, and
+         successful lookups are cached so repeats are free.
    (pre-versioning: vitamin-D read fixed to micrograms, not the IU row.) *)
-$fnVersion = 5;
+$fnVersion = 6;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -659,7 +745,16 @@ foodnomsAPI = APIFunction[
       If[FailureQ[spec],
       HTTPResponse[spec["err"], <|"StatusCode" -> 400,
         "Headers" -> {"Content-Type" -> "text/plain", "Vary" -> "Accept"}|>],
-      r = buildFoodNomsRecipe[spec];
+      r = Catch[buildFoodNomsRecipe[spec], "fdcFail"];
+      If[FailureQ[r],
+       (* a USDA lookup failed -- say so plainly, with a 503 (upstream is the
+          problem and it is transient), not a bare 400 that reads like the
+          caller's payload was malformed. *)
+       Return[HTTPResponse[r["what"] <> ": " <>
+          TemplateApply[r["MessageTemplate"], r["MessageParameters"]],
+         <|"StatusCode" -> 503, "Headers" -> {
+            "Content-Type" -> "text/plain", "Vary" -> "Accept",
+            "Retry-After" -> "3600"}|>]]];
       (* the request's Accept header, lower-cased; guarded -- if the header isn't
          reachable we default to "*/*" (the bytes view). *)
       accept = Quiet @ Check[

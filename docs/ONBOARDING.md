@@ -139,6 +139,21 @@ Books/README.md           reference-book index (cite by page, like Nussinow)
 
 ### Update (2026-07-01) — endpoint is now directly reachable + testable
 
+- **⚠ Two separate quotas sit behind the endpoints — and both cost money when you retry.**
+  Diagnosed 2026-08-24 after an afternoon of escalating failures:
+  | symptom | meaning | what to do |
+  |:--|:--|:--|
+  | `400 "Failed to encode HTTPResponse"` | a **USDA FDC** lookup failed (free key is **~1000 req/day per IP**, and *every ingredient is one call*) | stop; wait for the daily reset, or swap `$FDCApiKey` |
+  | `531 "the owner's resource limit has been reached"` | **Wolfram Cloud** account resource limit | stop; wait, or top up credits |
+  | `503` + `Retry-After` (endpoint ≥ v6) | the same FDC failure, now reported honestly and naming the fdcId | as above |
+
+  **Never retry-until-200.** Each attempt bills Wolfram Cloud time and (on the FDC
+  path) burns more of the very quota that caused the failure. Before v6 the failure
+  was *silent* — a dead lookup left unevaluated expressions in the result, so the
+  per-ingredient failure rate `p` compounded to `1-(1-p)^n` for an n-ingredient
+  recipe. That reads as "big recipes are broken"; it is not a size limit. **Check
+  `emit=version` against `$fnVersion` before believing any of this is fixed live.**
+
 - **`wolframcloud.com` is allowlisted now.** The older note below ("container egress
   blocks wolframcloud, can't test the endpoint") is **obsolete** — you can `curl` the
   `BuildFoodNomsRecipe` / `ResolveFDC` / `RenderTimeline` endpoints directly from the
