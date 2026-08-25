@@ -44,13 +44,35 @@ Under regimes 2 and 3 the "after" reading may be **mostly vessel** (a cleaned pl
 
 ## Uncertainty policy
 
-Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.md`) by **how *both* the portion and the composition are known**:
+### Decide it with two yes/no questions — never by judgement
 
-| Situation | `uncertainty` | Why |
-|:--|:--:|:--|
-| **Weighed raw whole food** (fruit, plain salad veg) | **0** | Both knowns: the portion is weighed *and* the composition is fixed — it just *is* that food (raw strawberries, watermelon). Nothing left to estimate. |
-| **Weighed prepared/cooked dish** | **10** | Portion exact; only the per-gram composition (oil, sauce, recipe) is estimated. |
-| **Photo only, no scale** | **30** | Both the portion *and* the composition are guessed from the image. |
+Answer these two, read off the tier, stop. **Do not reason about it further.**
+
+1. **Is the portion weighed?** (on a scale, or by before−after difference — the vessel cancels, so that counts as weighed)
+2. **Is the composition given?** (a nutrition panel, or a raw whole food that just *is* that food)
+
+| Q1 portion | Q2 composition | `uncertainty` |
+|:--|:--|:--:|
+| weighed | **given** — panel, or raw whole food | **0** |
+| weighed | **estimated** — cooked dish, no panel, modelled recipe | **10** |
+| **assumed** — photo only, guessed serving | either | **30** |
+
+> ⚠ **Your confidence in your own numbers is NOT an input to this.** The tier
+> describes *the food*, not the analyst. Every one of these is the WRONG reason
+> to raise a tier, and each has actually been done:
+> - *"I couldn't read a digit on the panel clearly"* → still **0**. The fix is a
+>   re-shot photo, not an inflated tier. (Hayley Quinoa Bread, 2026-08-24.)
+> - *"There's no panel so I modelled the composition"* → **10**, not 30. The
+>   portion is still exact. (Hayley Rustic loaf, same day.)
+> - *"I guessed how the weighed total splits between the components"* → **10**,
+>   not 30. One dish weighed = one exact portion, however you apportion it
+>   internally. (Economy rice plate, same day — set to 30 across all six rows.)
+> - *"I invented the oil/salt because I couldn't see it"* → still **10** if it
+>   was inside the weighed dish. Only a portion you did not weigh earns 30.
+>
+> Inflating the tier does not encode caution — it *corrupts the signal*, because
+> a 10 tells Holger "composition estimated" when the real problem was legibility.
+> Say the doubt in the message instead; leave the tier alone.
 
 **Set uncertainty per entry, not per meal** — a single sitting can mix tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato + mushroom 10). The scalar `uncertainty` query param is the meal-wide *default*; when tiers differ, pass a **per-entry column** instead — `customUncertainties` (a `;`-list aligned with the `custom*` arrays; meals are all custom entries) and/or `fdcUncertainties` (a `,`-list aligned with `fdcIds`). One value per dish, **`0` omits the field** (the no-estimate tier); an empty column ⇒ the meal-wide default applies. So mixed tiers are **one curl, no kernel round-trip** — e.g. `customUncertainties=10;10;0` for two weighed dishes + a raw fruit.
 
