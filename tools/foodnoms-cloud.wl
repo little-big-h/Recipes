@@ -272,6 +272,7 @@ passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> ing["nutrients"],
    "brandOwner" -> Lookup[ing, "brandOwner", Missing[]],
+   "barcode" -> Lookup[ing, "barcode", Missing[]],
    "urlString" -> Lookup[ing, "urlString", Missing[]],
    "notes" -> Lookup[ing, "notes", Missing[]],
    "collectionSortIndex" -> sortIdx|>];
@@ -579,13 +580,16 @@ addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u
    aligns with its ingredient group; length is guarded in specFromParams *)
 uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
 
-(* attach optional provenance to a custom food: source url + note (blank omits)
-   and brand (-> brandOwner). So a scraped product food carries its page
-   (urlString/notes) and its shop/brand. *)
-addMeta[base_, url_, note_, brand_] := Module[{b = base},
+(* attach optional provenance to a custom food: source url + note (blank omits),
+   brand (-> brandOwner) and barcode. So a scraped product food carries its page
+   (urlString/notes), its shop/brand, and — for a packaged product — the EAN/UPC
+   off the pack, which is what lets FoodNoms match a scan to this food. *)
+addMeta[base_, url_, note_, brand_, barcode_] := Module[{b = base},
   If[StringQ[url] && StringTrim[url] =!= "", b = Append[b, "urlString" -> url]];
   If[StringQ[note] && StringTrim[note] =!= "", b = Append[b, "notes" -> note]];
   If[StringQ[brand] && StringTrim[brand] =!= "", b = Append[b, "brandOwner" -> brand]];
+  If[StringQ[barcode] && StringTrim[barcode] =!= "",
+   b = Append[b, "barcode" -> StringTrim[barcode]]];
   b];
 
 (* a per-custom-food string column, padded to "" when omitted (length 0) *)
@@ -630,6 +634,8 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "customNotes must be empty or the same length as the custom* arrays"]];
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBrands"]]],
    AppendTo[errs, "customBrands must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBarcodes"]]],
+   AppendTo[errs, "customBarcodes must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
@@ -639,18 +645,19 @@ specFromParams[a_] := Module[{errs = {}},
          addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
-         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand},
+         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand, barcode},
           With[{nutr = AssociationThread[nn -> nv]},
            addUnc[addMeta[<|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
               "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
-             url, note, brand], unc]]],
+             url, note, brand, barcode], unc]]],
          {a["customNames"], strCol[a["customFoodIds"], Length[a["customNames"]]],
           a["customQuantities"], a["customUnits"],
           a["customNutrientNames"], a["customNutrientValues"],
           uncCol[a["customUncertainties"], Length[a["customNames"]]],
           strCol[a["customUrls"], Length[a["customNames"]]],
           strCol[a["customNotes"], Length[a["customNames"]]],
-          strCol[a["customBrands"], Length[a["customNames"]]]}]]|>,
+          strCol[a["customBrands"], Length[a["customNames"]]],
+          strCol[a["customBarcodes"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -697,8 +704,13 @@ specFromParams[a_] := Module[{errs = {}},
          recipes are broken" when the real cause was the ~1000 req/day FDC key
          limit. Now: 503 + Retry-After + a message naming the fdcId, and
          successful lookups are cached so repeats are free.
+     v7  customBarcodes column. The .foodnoms FORMAT has always carried an
+         optional `barcode` on a food (see FOODNOMS_FORMAT.md) -- FoodNoms uses
+         it to match a scanned pack to the food -- but there was no way to set
+         one through this endpoint, so every packaged product we built was
+         unscannable. Now aligned with the other custom* columns.
    (pre-versioning: vitamin-D read fixed to micrograms, not the IU row.) *)
-$fnVersion = 6;
+$fnVersion = 7;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -733,7 +745,8 @@ foodnomsAPI = APIFunction[
     (* optional brand (-> brandOwner), aligned with the custom* arrays. Serving
        size is fixed at 100 baseUnit for standalone foods (see emit=food/fooddef),
        so there's no serving-size param -- FoodNoms forces per-serving on import. *)
-    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}]},
+    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}],
+    "customBarcodes"     -> opt[DelimitedSequence["String", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[#["emit"] === "version",
       (* lightweight version probe (no ingredients needed): compare the returned
@@ -852,6 +865,16 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    Two scalar knobs: totalServingSize=<grams> sets the recipe yield (default = sum
    of ingredient weights); uncertainty=<0..100 integer percent> is the MEAL-WIDE
    DEFAULT uncertainty (e.g. uncertainty=30 for a ±30% estimate; default 0).
+
+   PACKAGED PRODUCTS: customBarcodes (';' list, aligned with the custom* arrays)
+   sets each food's `barcode` — the EAN/UPC printed on the pack. FoodNoms matches
+   a scan against it, so a branded food built without one can never be scanned in.
+   Empty (the default) omits the field, as do blank entries within the list:
+
+     curl -s -o Latte.foodnoms 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?\
+       name=Oat%20Caffe%20Latte&emit=fooddef&customNames=Oat%20Caffe%20Latte&\
+       customBrands=Oatside&customBarcodes=8885022700006&customQuantities=100&customUnits=gram&\
+       customNutrientNames=calories&customNutrientValues=73'
 
    PER-ENTRY uncertainty (for meals that mix tiers 0/10/30 in one sitting): give
    fdcUncertainties (',' list, aligned with fdcIds/grams) and/or customUncertainties
