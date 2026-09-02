@@ -4,6 +4,20 @@ Hard-won knowledge from recipe iteration. This file complements `RECIPE_FORMAT.m
 
 ---
 
+## Vessel tare weights
+
+Recorded so a finished dish can be **weighed in its pot** and the yield read off by subtraction — no decanting, no second vessel, and it works when the pot is too hot or too full to pour. Weigh pot + contents on the scale, subtract the tare below.
+
+| Vessel | Tare | Recorded |
+|:--|--:|:--|
+| Instant Pot inner pot | **867 g** | 2026-08-27 |
+
+*(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
+
+Add a row whenever a new pot, bowl or tray gets used for something worth weighing — empty, dry, on the same scale.
+
+---
+
 ## Ninja ML750 — pressure cooker / air fryer rules
 
 The Ninja is the primary cooking tool. These rules were established through trial-and-error.
