@@ -68,6 +68,26 @@ test('incompleteNutrients names the totals that are really floors', async () => 
   assert.deepEqual(incompleteNutrients(result), [{ nutrient: 'iodine', from: 1, of: 3 }]);
 });
 
+test('inline nutrients resolve a one-off estimated food without an fdcId or ref', async () => {
+  // Meal-log case: a whole restaurant dish, weighed but hand-estimated
+  // (docs/MEAL_LOGGING.md) — not a USDA generic, and not a reusable product
+  // that belongs in the curated map.
+  const result = await computeRecipe({
+    name: 'Mixed Plate',
+    ingredients: [
+      {
+        name: 'Fusilli, pesto, tofu, inari, nigiri',
+        grams: 467.5,
+        uncertainty: 10,
+        nutrients: { calories: 135, protein: 6.3, carbs: 14.6, fat: 6.3, fiber: 2.2 },
+      },
+    ],
+  });
+  assert.equal(Math.round(result.totals.calories), 631);
+  assert.equal(Math.round(result.totals.protein * 10) / 10, 29.5);
+  assert.equal(result.ingredients[0].block.foodID, undefined);
+});
+
 test('an unresolvable ingredient fails loudly with the next step', async () => {
   await assert.rejects(
     computeRecipe({ name: 'x', ingredients: [{ ref: 'no such food anywhere', grams: 10 }] }),

@@ -85,6 +85,16 @@ recipe JSON.
 - `fdcId` pins a USDA record; `ref` looks up `tools/ingredient-map.json` by
   `foodID` or exact name. Curated map wins where it has an entry — that is what
   it is for.
+- `nutrients` gives a one-off literal per-100 g block, for a food that is
+  neither a USDA generic nor a reusable product — a whole restaurant dish
+  logged from a weighed portion. This is the meal-log case
+  (`docs/MEAL_LOGGING.md`: one dish = one entry, a single whole-dish estimate,
+  never decomposed and never added to the curated map):
+  ```json
+  { "name": "Mixed Plate: fusilli+pesto, tofu, inari, nigiri", "grams": 467.5,
+    "uncertainty": 10,
+    "nutrients": { "calories": 135, "protein": 6.3, "carbs": 14.6, "fat": 6.3, "fiber": 2.2 } }
+  ```
 - `grams` is the quantity in the block's base unit. Metric only.
 - `uncertainty` is the per-entry tier (0 / 10 / 30) from `docs/MEAL_LOGGING.md`.
 - `foodnoms` passes options to the URL builder (`collectionType`, `emit`,

@@ -54,7 +54,11 @@ export function sumNutrients(scaledList) {
  * @param {string} spec.name
  * @param {number} [spec.servings]
  * @param {Array<{fdcId?:number, ref?:string, name?:string, grams:number,
- *                unit?:string, uncertainty?:number, note?:string}>} spec.ingredients
+ *                unit?:string, uncertainty?:number, note?:string,
+ *                nutrients?:object}>} spec.ingredients ` nutrients` (per 100 g,
+ *   or per `baseAmount`/`baseUnit` if given) is a one-off literal block for a
+ *   food that is neither a USDA generic nor in the curated map — see
+ *   `resolveIngredient`.
  */
 export async function computeRecipe(spec) {
   const ingredients = [];

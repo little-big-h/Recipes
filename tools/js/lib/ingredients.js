@@ -57,10 +57,17 @@ export async function findInMap(ref) {
 /**
  * Resolve one ingredient spec to a block.
  *
- * Accepts `{ fdcId }` for a pinned USDA record, or `{ ref }` / `{ name }` to
- * consult the curated map. Never searches FDC by name: picking a search hit
- * without a human judging the candidates is how the wrong food ends up in a
- * recipe. Use the `search` command, then pin the fdcId.
+ * Accepts `{ fdcId }` for a pinned USDA record, `{ ref }` / `{ name }` to
+ * consult the curated map, or `{ nutrients }` given verbatim for a one-off
+ * estimated food that is neither a USDA generic nor a reusable pantry product
+ * — a whole restaurant dish logged from a weighed portion
+ * (`docs/MEAL_LOGGING.md`: "one dish = one entry, a single whole-dish per-100 g
+ * estimate", never decomposed into ingredients, and never added to the curated
+ * map — that map is for Holger's own reusable products, not a one-off plate).
+ * `nutrients` are per `baseAmount` `baseUnit` (100 g by default), same shape as
+ * every other block. Never searches FDC by name: picking a search hit without
+ * a human judging the candidates is how the wrong food ends up in a recipe.
+ * Use the `search` command, then pin the fdcId.
  */
 export async function resolveIngredient(spec) {
   if (spec.fdcId != null) {
@@ -72,14 +79,25 @@ export async function resolveIngredient(spec) {
       secondarySource: secondarySource(block.dataType),
     };
   }
+  if (spec.nutrients) {
+    return {
+      name: spec.name ?? 'Ingredient',
+      foodID: spec.foodID,
+      brandOwner: spec.brand,
+      baseAmount: spec.baseAmount ?? 100,
+      baseUnit: spec.unit ?? spec.baseUnit ?? 'gram',
+      nutrients: spec.nutrients,
+    };
+  }
   const ref = spec.ref ?? spec.name;
-  if (!ref) throw new Error('ingredient needs one of: fdcId, ref, name');
+  if (!ref) throw new Error('ingredient needs one of: fdcId, ref, name, nutrients');
   const hit = await findInMap(ref);
   if (!hit) {
     throw new Error(
       `No curated entry for ${JSON.stringify(ref)} and no fdcId given. ` +
         `Run \`node tools/js/cli.js search ${JSON.stringify(ref)}\`, judge the ` +
-        `candidates, then pin the fdcId.`,
+        `candidates, then pin the fdcId. (Logging a one-off restaurant dish ` +
+        `instead? Pass \`nutrients\` inline rather than adding it here.)`,
     );
   }
   return hit;
