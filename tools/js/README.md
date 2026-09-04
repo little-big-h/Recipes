@@ -5,11 +5,12 @@ Local Node replacement for the two Wolfram jobs that were failing:
 | Job | Was | Now |
 |---|---|---|
 | **A** — fetch USDA FoodData Central records, map to FoodNoms nutrient keys | `tools/fdc-lookup.wl`, run inside a Wolfram Cloud APIFunction | `lib/fdc.js` + `lib/nutrients.js`, local |
-| **B** — scale per-100 g blocks by quantity, sum whole-recipe totals | `buildFoodNomsRecipe` in `tools/foodnoms-cloud.wl`, server-side | `lib/recipe.js`, local |
-| **C** — serve a clickable URL that mints the `.foodnoms` file / timeline PNG | Wolfram Cloud | **unchanged — still Wolfram Cloud** |
+| **B** — scale per-100 g blocks by quantity, sum whole-recipe totals, **assemble the `.foodnoms` file** | `buildFoodNomsRecipe` in `tools/foodnoms-cloud.wl`, server-side | `lib/recipe.js` + `lib/foodnoms-file.js`, local |
+| **C** — serve a clickable URL | Wolfram Cloud | **unchanged — still Wolfram Cloud** |
 
-Job C stays where it is deliberately: a locally run script cannot serve a URL, and
-52 recipe files embed those links. See *Why the endpoints were failing* below.
+Job C is now hosting *only*: serving a URL is the one thing a local script cannot
+do, and 52 recipe files embed those links. Producing the file is job B and
+happens here. See *Why the endpoints were failing* below.
 
 Zero dependencies. Node ≥ 20 (needs global `fetch`).
 
@@ -21,10 +22,50 @@ cd tools/js
 node cli.js search "butternut squash raw"   # rank FDC candidates — judge, then pin the fdcId
 node cli.js food 169295                     # per-100 g FoodNoms block for one record
 node cli.js compute examples/butternut-soup.json
+node cli.js build   examples/butternut-soup.json   # writes the .foodnoms file
 node cli.js url     examples/butternut-soup.json
 node cli.js cache-clear                     # drop cached USDA records
-npm test                                    # 26 tests, fully offline
+npm test                                    # 50 tests, fully offline
 ```
+
+## Generating the file, and checking it
+
+`cli.js build` writes a real `.foodnoms` locally. The container is not
+compressed — LZFSE compression is unavailable in Wolfram, but the LZFSE
+container permits an uncompressed block, `'bvx-'` + uint32-LE length + raw JSON +
+`'bvx$'`, and that variant is verified to import into FoodNoms
+(Holger, 2026-06-12). So the file is plain JSON in a 12-byte wrapper.
+
+That leaves **two independent implementations of the same format** — this repo's
+JS and the deployed Wolfram APIFunction. An unchecked second implementation is
+just an untested fork, so `build` diffs them automatically whenever the endpoint
+is reachable:
+
+```
+wrote Butternut and Red Lentil Soup.foodnoms (7264 bytes)
+
+  ✓ equivalent to the Wolfram endpoint (recipe JSON + totals)
+```
+
+Three outcomes:
+
+- **✓ equivalent** — the file is trustworthy.
+- **endpoint unreachable** — the file still stands; it no longer depends on
+  Wolfram. Reported, not silently ignored.
+- **✗ differs** — the diff is printed and the exit code is 1. Do not ship the
+  file: two implementations disagreeing means one has a bug.
+
+The comparison is **semantic, not byte-for-byte**. Both sides serialise the same
+JSON, but key order follows each implementation's association order and floats
+print differently (Wolfram's `N[…,6]` vs JS's shortest round-trip). A byte diff
+would fire on every run over differences FoodNoms cannot see, and we would learn
+to ignore it. Numbers compare to a relative epsilon of 1e-6; the totals are
+diffed separately from the recipe JSON, since the totals are what a Nutrition
+block quotes.
+
+**Not ported: `patchTrio`** (the 3-tier weightless patch, FOODNOMS_FORMAT §11).
+The JS recipe spec has no way to express a patch, so no recipe can currently
+request one. If that changes, port it before use — do not hand-assemble one.
 
 `search` never auto-picks. Picking the top hit unseen is how "Squash, winter,
 butternut, raw" quietly becomes a butternut squash *soup* record — so the

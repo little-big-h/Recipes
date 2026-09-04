@@ -9,16 +9,22 @@
 //
 // Recipe input is JSON (see tools/js/README.md for the shape).
 
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { searchFoods, getFood, clearCache, FdcUnavailableError } from './lib/fdc.js';
 import { toFoodNomsBlock } from './lib/nutrients.js';
 import { computeRecipe, incompleteNutrients } from './lib/recipe.js';
 import { buildFoodNomsUrl } from './lib/foodnoms-url.js';
+import { buildFoodNomsJson, foodnomsBytes } from './lib/foodnoms-file.js';
+import { verifyAgainstEndpoint } from './lib/verify.js';
 
 const USAGE = `Usage:
   cli.js search <query> [n]     rank FDC candidates (judge them, then pin the fdcId)
   cli.js food <fdcId>           per-100 g FoodNoms block for one USDA record
   cli.js compute <recipe.json>  whole-recipe totals
+  cli.js build <recipe.json> [-o out.foodnoms]
+                                write the .foodnoms file locally, then cross-check
+                                it against the Wolfram endpoint when reachable
+                                (--no-verify skips the check)
   cli.js url <recipe.json>      BuildFoodNomsRecipe link (nutrients inline, no server FDC)
   cli.js cache-clear            drop cached USDA records
 `;
@@ -75,6 +81,37 @@ async function main() {
     case 'compute': {
       if (!args[0]) throw new Error('compute needs a recipe JSON path');
       printTotals(await computeRecipe(await readSpec(args[0])));
+      break;
+    }
+    case 'build': {
+      if (!args[0]) throw new Error('build needs a recipe JSON path');
+      const spec = await readSpec(args[0]);
+      const opts = spec.foodnoms ?? {};
+      const result = await computeRecipe(spec);
+      const file = buildFoodNomsJson(result, opts);
+      const outIdx = args.indexOf('-o');
+      const out = outIdx > -1 ? args[outIdx + 1] : file.name;
+      await writeFile(out, foodnomsBytes(file.json));
+      console.log(`wrote ${out} (${foodnomsBytes(file.json).length} bytes)`);
+      for (const w of file.warnings) console.log(`  ⚠ ${w}`);
+
+      if (args.includes('--no-verify')) break;
+      // The endpoint is a second implementation of this format. Whenever it is
+      // up, diff it — an unchecked second implementation is just an untested
+      // fork. When it is down, say so and carry on: the file no longer depends
+      // on it.
+      const check = await verifyAgainstEndpoint(file, buildFoodNomsUrl(result, opts));
+      if (!check.reachable) {
+        console.log(`\n  endpoint unreachable (${check.reason}) — file written, NOT cross-checked`);
+        break;
+      }
+      if (check.equivalent) {
+        console.log('\n  ✓ equivalent to the Wolfram endpoint (recipe JSON + totals)');
+        break;
+      }
+      console.log('\n  ✗ DIFFERS from the Wolfram endpoint:');
+      for (const d of [...check.differences, ...check.totalsDifferences]) console.log(`    ${d}`);
+      process.exitCode = 1;
       break;
     }
     case 'url': {
