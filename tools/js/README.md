@@ -55,6 +55,29 @@ Three outcomes:
 - **✗ differs** — the diff is printed and the exit code is 1. Do not ship the
   file: two implementations disagreeing means one has a bug.
 
+### The differential suite
+
+```bash
+npm run test:live      # 15 differential cases against the deployed endpoint
+```
+
+`npm test` is offline and always runnable. `npm run test:live` is the
+differential suite: each case builds a recipe locally, asks the endpoint to build
+the same one, and diffs the decoded JSON and the totals. It covers single and
+multi-ingredient recipes, curated-map and mixed sources, millilitre units, meals
+(`collectionType 2`), mixed uncertainty tiers, an explicit `totalServingSize`,
+both standalone emit modes, patches (including the patched/unpatched ordering
+trap), unicode names — the only check that the two `cleanFilename`
+implementations agree — a 12-ingredient URL-length probe, and the deployed
+`$fnVersion`.
+
+When the endpoint is unreachable **every case skips** rather than failing. An
+outage is not a defect in our code, and a suite that goes red to mean "Wolfram is
+down" teaches people to ignore red.
+
+Patched cases travel the endpoint's `fdcIds` path, so the endpoint does its own
+USDA lookups for those — that is why there are only two.
+
 The comparison is **semantic, not byte-for-byte**. Both sides serialise the same
 JSON, but key order follows each implementation's association order and floats
 print differently (Wolfram's `N[…,6]` vs JS's shortest round-trip). A byte diff
