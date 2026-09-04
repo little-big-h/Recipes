@@ -3,33 +3,47 @@
 How to pull **authentic, per-100 g USDA nutrition** for ingredients and turn it
 into FoodNoms `nutrients` blocks — the same source FoodNoms itself uses.
 
-The helper is [`../tools/fdc-lookup.wl`](../tools/fdc-lookup.wl).
-
-> **Also deployed as Cloud Objects.** These helpers are inlined into
-> [`../tools/foodnoms-cloud.wl`](../tools/foodnoms-cloud.wl) and deployed as two
-> public endpoints, split by concern: **`ResolveFDC`** (`fdcSearch` — a name → ranked
-> USDA candidates lookup, output to be judged) and **`BuildFoodNomsRecipe`**
-> (resolved ingredients + patches → raw `.foodnoms` bytes, deterministic; totals are
-> read back from the file). See
-> `RECIPE_NUTRITION_GENERATOR.md` and `TECHNIQUES.md`. `fdc-lookup.wl` remains the
-> **source of truth** and the manual route for one-off lookups; Section A of
-> `foodnoms-cloud.wl` is a **synced copy** — if you change `fdc-lookup.wl`, re-sync
-> that block and redeploy.
+> ## ⚠ Read this first — the tool is now `tools/js`
+>
+> **Use [`../tools/js`](../tools/js/README.md), not the Wolfram helpers below.**
+>
+> ```bash
+> cd tools/js
+> node cli.js search "butternut squash raw"   # ranked candidates
+> node cli.js food 169295                     # per-100 g FoodNoms block
+> ```
+>
+> `../tools/fdc-lookup.wl` is **retained for reference** — its nutrient-mapping
+> logic is the spec `lib/nutrients.js` was ported from, and its comments document
+> two traps worth understanding (see *Mapping traps* below). Do not run it for new
+> work: it burns the FDC quota without the local cache, and its results are not
+> cross-checked.
+>
+> The Cloud Objects (`ResolveFDC`, `BuildFoodNomsRecipe`) still exist. Their only
+> remaining job is **hosting the download link and providing an independent
+> cross-check** — see `RECIPE_NUTRITION_GENERATOR.md` → Appendix A.
 
 ---
 
-## Why this works (the network trick)
+## Network access (corrected 2026-09-04)
 
-The Claude Code sandbox **cannot** reach `api.nal.usda.gov` — the environment's
-network policy allowlists only GitHub, Wolfram, and the MCP servers, so a direct
-`curl`/`WebFetch` returns `403 "Host not in allowlist"`.
+**`api.nal.usda.gov` is reachable directly.** Verified: HTTP 200 on both
+`/foods/search` and `/food/{id}?format=full` from the session container.
 
-But the **Wolfram MCP runs code server-side** (Wolfram Cloud), which has its own
-internet egress. So `URLExecute[...]` *inside a Wolfram evaluation* reaches the
-FDC API even though the sandbox can't. That's the whole mechanism: don't fetch
-from the shell — fetch from Wolfram.
+> **Superseded.** This document previously stated that the sandbox could not
+> reach the FDC API and that routing `URLExecute` through Wolfram Cloud's
+> server-side egress was the necessary workaround. That was true under an earlier
+> network policy and is **no longer true** — it was the sole architectural reason
+> the FDC call lived inside a Wolfram APIFunction, and removing it is what
+> `tools/js` is. A transient connection reset can still occur; `lib/fdc.js`
+> retries with backoff.
 
-This returns exact records (verified: `fdcId 2685570` butternut squash matches
+Fetching locally also buys a cache that survives between runs
+(`tools/js/.cache/fdc/`, git-ignored). The free key allows ~1000 requests/day per
+IP and every ingredient costs one, so this matters: measured on a 9-ingredient
+recipe, **1.83 s cold → 0.06 s cached**.
+
+The API returns exact records (verified: `fdcId 2685570` butternut squash matches
 the `Thai Yellow…` example byte-for-byte), with the full micronutrient panel,
 already per 100 g — i.e. `baseAmount: 100`, ready for `.foodnoms`.
 
@@ -41,24 +55,44 @@ already per 100 g — i.e. `baseAmount: 100`, ready for `.foodnoms`.
 
 ## Usage
 
-Paste the contents of `tools/fdc-lookup.wl` into a `WolframLanguageEvaluator`
-call (the Wolfram kernel is stateless and has no access to this repo's
-filesystem, so it must be pasted, not `Get`-loaded). Then:
+```bash
+cd tools/js
 
-```wolfram
-fdcSearch["butternut squash raw"]   (* -> {{169295,"Squash, winter, butternut, raw","SR Legacy"},
-                                            {2685570,"... ","Foundation"}, ...} *)
+node cli.js search "butternut squash raw" 5
+#   169295  SR Legacy        Squash, winter, butternut, raw
+#  2685570  Foundation       Squash, winter, butternut, raw
 
-fdcToFoodNoms[2685570]              (* -> <|"name"->..., "fdcId"->2685570,
-                                            "dataType"->"Foundation", "baseAmount"->100,
-                                            "baseUnit"->"gram", "nutrients"-><|...|>|> *)
-
-fdcToFoodNomsByName["raw spinach"] (* search + map the top hit in one call *)
+node cli.js food 2685570
+# { "name": "…", "fdcId": 2685570, "dataType": "Foundation",
+#   "baseAmount": 100, "baseUnit": "gram", "nutrients": { … } }
 ```
 
-`fdcToFoodNoms` emits values keyed by the FoodNoms nutrient names (see
-`FOODNOMS_FORMAT.md` §8), per 100 g, with missing nutrients dropped. Wrap the
-`nutrients` association into an entry per `FOODNOMS_FORMAT.md` and LZFSE-compress.
+Values are keyed by the FoodNoms nutrient names (see `FOODNOMS_FORMAT.md` §8),
+per 100 g, with **missing nutrients dropped rather than zeroed** — a missing row
+means "not measured", and zeroing it would silently understate a recipe total.
+
+To go from blocks to a finished file, don't assemble entries by hand: write a
+recipe JSON and run `cli.js build` (`RECIPE_NUTRITION_GENERATOR.md` Steps 3–4).
+There is no compression step — the container is an uncompressed LZFSE block.
+
+---
+
+## Mapping traps
+
+Two USDA quirks produce plausible-looking wrong numbers rather than errors. Both
+are handled in `lib/nutrients.js` and pinned by tests; know them before trusting
+any hand-read of a record.
+
+- **Energy.** Foundation foods often carry **no plain `Energy` row at all**, only
+  `Energy (Atwater General Factors)` and `Energy (Atwater Specific Factors)` —
+  which can differ by 15% (fdcId 2685570: 48.13 vs 41.72 kcal). Prefer plain
+  `Energy`, then Atwater General, then Atwater Specific; and filter on
+  `unitName == "KCAL"` or you may pick up the parallel kJ row.
+- **Vitamin D.** A prefix match on `"Vitamin D (D2 + D3)"` also matches
+  `"Vitamin D (D2 + D3), International Units"`, and **the IU row is usually
+  listed first**. Egg (fdcId 171287) lists IU `82` before µg `2` — reading the
+  first match gave "82 µg", 41× too high. Take the µg row by exact name; fall
+  back to IU/40 only when it is absent.
 
 ---
 

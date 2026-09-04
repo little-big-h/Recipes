@@ -7,154 +7,36 @@ things from authentic USDA data:
 2. a **USDA-sourced Nutrition table written back into the recipe `.md`**
    (plus a reconciled `Est. kcal` column).
 
-It ties together the three existing specs — read them first:
+It ties together the existing specs — read them first:
 
-- `FOODNOMS_FORMAT.md` — the `.foodnoms` file shape (§6 recipe, §8 nutrients).
-- `USDA_FDC.md` + `../tools/fdc-lookup.wl` — the data source and helper functions.
+- `FOODNOMS_FORMAT.md` — the `.foodnoms` file shape (§6 recipe, §8 nutrients, §11 patches).
 - `RECIPE_FORMAT.md` — the recipe `.md` Ingredients/Nutrition table conventions.
+- `../tools/js/README.md` — the tool that does steps 2–4.
 
 ```
-recipe.md ─▶ parse ingredients+amounts ─▶ resolve each to a USDA fdcId
-          ─▶ fetch per-100g blocks (Wolfram) ─▶ build .foodnoms file
-          ─▶ compute whole-recipe totals (Wolfram) ─▶ write back Nutrition table
+recipe.md ─▶ parse ingredients+amounts        (Step 1, by hand)
+          ─▶ resolve each to a USDA fdcId     (Step 2, cli.js search — you judge)
+          ─▶ write a recipe JSON spec         (Step 3)
+          ─▶ cli.js build                     (Step 4: fetch, compute, write the file,
+                                               cross-check against Wolfram)
+          ─▶ write back the Nutrition table   (Step 5)
 ```
 
-> **Computation rule:** nutrition totals are computed in **Wolfram, never
-> Python** (project rule). The hosted endpoint below also emits the `.foodnoms`
-> file **bytes** in Wolfram (uncompressed LZFSE block), so the whole pipeline is
-> Python-free — the only client step is writing bytes to disk.
-
----
-
-## Hosted endpoints (preferred) — `ResolveFDC` + `BuildFoodNomsRecipe`
-
-Steps 2–5 below are deployed as **two** Wolfram Cloud Objects, kept deliberately
-separate because they are different kinds of operation:
-
-- **`ResolveFDC`** — *resolution* (Step 2). A fuzzy, ranked **name → USDA candidates**
-  search. Its output is options **to be judged**, never auto-committed.
-- **`BuildFoodNomsRecipe`** — *construction* (Steps 3–5). A deterministic
-  **resolved-ingredients → `.foodnoms` + totals** function. It takes only `fdcId`s (or
-  pass-through foods) and never searches.
-
-Source of truth: `../tools/foodnoms-cloud.wl` (Section A is a synced copy of
-`fdc-lookup.wl`; re-sync + redeploy if that changes). Deploy once, authenticated as the
-cloud owner:
-`CloudDeploy[resolveAPI, CloudObject["ResolveFDC"], Permissions -> "Public"]` and
-`CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Public"]`.
-
-**No JSON crosses the wire.** Every field is its own **typed query parameter**, parsed
-declaratively by the framework's interpreters (never `ImportString`, never string
-surgery — see CLAUDE.md). The ingredient list is stored **decomposed** (Holger's "DSM"):
-parallel typed arrays, aligned by position — `CompoundElement` can't carry typed tuples
-in a query string (Wolfram forbids `DelimitedSequence[CompoundElement[…]]`). Build URLs
-with `URLBuild` so values are percent-encoded — that carries the `✴️`/`🩹` glyphs as
-UTF-8 with no shell-mangling and no `\uXXXX` games.
-
-### 1. Resolve (Step 2) — you pick the `fdcId`
-
-```bash
-curl -s 'https://www.wolframcloud.com/obj/pirk0/ResolveFDC?queries=butternut%20squash%20raw;dry%20soybeans&n=5'
-```
-`queries` is a `;`-separated list. → `{"results":[{"query":"…","candidates":[{"fdcId":…,`
-`"description":"…","dataType":"…","baseAmount":100,"baseUnit":"gram","nutrients":{…}},…]},…]}`.
-Each candidate carries its **per-100 g nutrients**, so you can pick on the numbers, not
-just the name (e.g. the record that actually has `sugars`/`calcium`). Rank by `dataType`
-(Foundation > SR Legacy > FNDDS > Branded) and food-identity match, **ask when ambiguous**.
-Advisory only — `BuildFoodNomsRecipe` won't pick for you.
-
-### 2. Build (Steps 3–5) — already-resolved ingredients only
-
-`BuildFoodNomsRecipe` emits **one raw `.foodnoms` file per call**, chosen by `emit`
-(default `recipe`). Parameters:
-
-| Param | Type | Carries |
-|---|---|---|
-| `name` / `servings` / `emit` | String / Integer / String | recipe name, servings, which file |
-| `totalServingSize` | Number (optional) | cooked yield in g; omit → Σ ingredient weights |
-| `fdcIds` / `grams` | comma-lists (Integer / Number) | USDA ingredients, **positionally aligned** |
-| `patchFdcIds` / `patchNutrientNames` / `patchDeltas` | comma-lists | sparse per-100 g patches (patch applies to that fdcId) |
-| `customNames` / `customFoodIds` / `customQuantities` / `customUnits` | `;`-lists | non-USDA foods (label / `local:`), nutrition given directly |
-| `customNutrientNames` / `customNutrientValues` | nested (`;` between foods, `,` within) | each custom food's nutrient block |
-
-```bash
-# squash soup: 7 USDA ingredients + a sugars patch on the butternut + a custom (Hon-Mirin)
-curl -s -o "Creamy Butternut & Soy Bean Soup.foodnoms" \
-  'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Creamy+Butternut+%26+Soy+Bean+Soup&servings=5&fdcIds=168436,2707442,170926,174270,2685570,2709767,2707439&grams=16,80,6.5,326,1918,850,52&patchFdcIds=2685570&patchNutrientNames=sugars&patchDeltas=2.2&customNames=Hon-Mirin&customFoodIds=local:DC95FB78-…&customQuantities=40&customUnits=milliliter&customNutrientNames=calories,carbs,sugars,fat,sodium&customNutrientValues=189,46,38,0.5,60'
-```
-
-Ingredient kinds: **USDA** (an `fdcIds`/`grams` pair); **USDA + patch** (also list its
-fdcId in `patchFdcIds` with the nutrient/delta); **custom** (a `custom*` column set —
-nutrition supplied directly, for non-USDA foods). Mis-aligned column lengths → **HTTP
-400** naming the offending arrays.
-
-**Response — content-negotiated on the `Accept` header** (same URL, two views of the
-one recipe resource):
-
-- **`Accept: application/json` → the JSON view (preferred for the write-back).** Returns
-  `{filename, recipe, totals (16 slots + salt), estKcal[], warnings}` as plain JSON — no
-  `bvx-` wrapper. This is the fast path for **Step 5**: `totals` is computed for you (no
-  client-side LZFSE decode), `estKcal[]` reconciles the Ingredients column, and
-  `recipe.foodEntries[].name` lets you **verify each USDA id resolved to the right food**
-  (a raw-vs-cooked / wrong-bean mismatch shows up here immediately). `warnings` is surfaced
-  as a top-level array.
-  ```bash
-  curl -s -H 'Accept: application/json' \
-    'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Soup&fdcIds=169295&grams=500'
-  ```
-- **Default (no/other `Accept`, e.g. a browser or `curl -o`) → the raw `.foodnoms` bytes**
-  (`application/octet-stream`), so a GET on the URL or `curl -o recipe.foodnoms …` still
-  writes the file directly. `Vary: Accept` is set so caches don't cross the two views.
-
-For a `.foodnoms` you only have **on disk** (no rebuild), still read totals back with
-`foodnomsTotals[ByteArray[BinaryReadList["recipe.foodnoms"]]]` (16 slots + `salt`);
-`foodnomsDecode` returns the JSON to inspect. **`warnings` + the companion-file menu** are
-*also* written into the recipe collection's **`notes`** (visible in FoodNoms and via
-`foodnomsDecode`) — unknown `emit`, unmapped dataType, or a skipped ingredient surface there.
-
-#### Emitting each file
-
-One call → one file. The recipe and each patch-provenance object (`FOODNOMS_FORMAT.md`
-§11) are separate files; their `local:` foodIDs are **deterministic** (hashed from the
-food name), so a companion file fetched in a later call still links to the recipe. Keep
-**all params identical** and change only `emit` — the recipe's `notes` lists the companion
-names (URL-encode them):
-
-```bash
-# recipe (default) — its notes list the companions
-curl -s -o "Soup.foodnoms" \
-  'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Soup&fdcIds=169295&grams=500&patchFdcIds=169295&patchNutrientNames=sodium&patchDeltas=200'
-# a companion: same params, add &emit=<url-encoded name>
-curl -s -o "Patch.foodnoms" \
-  'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Soup&fdcIds=169295&grams=500&patchFdcIds=169295&patchNutrientNames=sodium&patchDeltas=200&emit=Squash%2C%20winter%2C%20butternut%2C%20raw%20Patch'
-```
-
-#### Clickable download link (markdown)
-
-Because the spec is plain query params, the same URL **is** a markdown download link —
-clicking issues a GET and the `Content-Disposition: attachment` header names the file. No
-POST body needed. Build it with `URLBuild["…/BuildFoodNomsRecipe", {"name"->…, "fdcIds"->…, …}]`
-(percent-encodes everything, glyphs included). Query strings cap ≈8 KB; a typical recipe is
-~0.5 KB. A worked link lives in the squash-soup recipe's Nutrition section
-(`../recipes/soups/butternut-soybean-soup.md`).
-
-The **download filename** is sanitized server-side (`cleanFilename`): the `[DD-MM-YY]`
-stamp, emoji and `#` are dropped and `&`→`and`, so `…&name=…Soup [10-06-26] ✴️` saves as
-`… Soup.foodnoms` (and the `🩹 … #Patched` companion as `… Patched.foodnoms`). The full stamped name is kept as the in-file collection name (the
-"description" FoodNoms shows), so pass `name` with the stamp as normal.
-
-Then do **Step 5's write-back** (Nutrition table + `Est. kcal`) from `foodnomsTotals`
-on the downloaded file, and **Step 6 verify**. The manual Steps 2–5 below remain the
-fallback if the endpoints are unavailable.
+> **Where the work happens:** USDA lookup, the nutrition arithmetic and
+> `.foodnoms` assembly all run **locally in `tools/js`** (Node, zero
+> dependencies). Never Python; never hand-build the JSON; never rely on the
+> Wolfram endpoint to produce the file. The endpoint is still used — as a
+> download link and as an independent cross-check — see **Appendix A**.
 
 ---
 
 ## Prerequisites
 
-- Wolfram MCP available. The kernel is stateless and cannot read this repo, so
-  **paste the contents of `../tools/fdc-lookup.wl`** into each
-  `WolframLanguageEvaluator` call that needs it. The API key is already set there.
+- Node ≥ 20. `cd tools/js && npm test` should pass (69 tests, offline).
 - The recipe `.md` to process.
+
+That is the whole list. There is no Wolfram kernel step, and nothing to paste
+into an evaluator.
 
 ---
 
@@ -179,10 +61,20 @@ From the **Ingredients** table, for each row capture `{name, amount, unit}`:
 
 ## Step 2 — Resolve each ingredient to a USDA `fdcId` (semi-automatic)
 
-For each included ingredient, run `fdcSearch[query]` with a cleaned query (drop
-brand/notes; add `raw`/`cooked` as the method implies). Rank candidates by
-dataType preference: **Foundation > SR Legacy > FNDDS > Branded**
+```bash
+cd tools/js
+node cli.js search "butternut squash raw" 5
+```
+
+Output is `fdcId · dataType · description`, ranked by USDA relevance. **The tool
+never auto-picks** — picking the top hit unseen is how "Squash, winter,
+butternut, raw" quietly becomes a butternut squash *soup* record. Rank candidates
+by dataType preference: **Foundation > SR Legacy > FNDDS > Branded**
 (see `USDA_FDC.md`).
+
+Use `node cli.js food <fdcId>` to see a candidate's full per-100 g block before
+committing — useful when two records differ in which nutrients they even carry
+(the one that actually has `sugars`/`calcium` is usually the one you want).
 
 **Decide automatically vs ask — the semi-automatic rule:**
 
@@ -209,68 +101,98 @@ dataType preference: **Foundation > SR Legacy > FNDDS > Branded**
   When asking, present the ingredient, the cleaned query, and a short candidate
   table (`fdcId · description · dataType`) with **your recommended pick first**.
 
-**Fallback when there is no good USDA match** (pantry/compound items):
-1. reuse the `nutrients` from an existing `../examples/*.foodnoms` entry for that
-   item if one exists (search by name); else
-2. create a `local:<UUID>` custom food from label data, or calories-only from the
-   recipe's `Est. kcal`. Set `foodID: "local:<UUID>"`, **no** `source`, and treat
-   it as an estimate.
+**Fallback when there is no good USDA match** (pantry/compound items), in order:
+
+1. **The curated map** — `tools/ingredient-map.json`, referenced by `"ref"`
+   (exact name or `foodID`). This wins over USDA where it has an entry; that is
+   what it is for. See `INGREDIENT_MAP.md`.
+2. Reuse the `nutrients` from an existing `../examples/*.foodnoms` entry.
+3. A `local:` custom food from label data, or calories-only from the recipe's
+   `Est. kcal`. No `source`; treat it as an estimate.
 
 ---
 
-## Step 3 — Fetch per-100 g blocks (Wolfram)
+## Step 3 — Write the recipe JSON spec
 
-Paste `fdc-lookup.wl`, then for each matched id call `fdcToFoodNoms[fdcId]`.
-Collect, per ingredient: `{fdcId, dataType, nutrients (per 100 g), amount, unit}`.
-
-- USDA values are **per 100 g**. For `milliliter`-measured liquids, apply them
-  per 100 ml assuming density ≈ 1 g/ml. Flag oils/syrups (density ≈ 0.9) if the
-  amount is large enough to matter.
-
----
-
-## Step 4 — Build the `.foodnoms` recipe file
-
-Per `FOODNOMS_FORMAT.md` §6 (recipe = `contentType 2`, `collectionType 3`):
-
-- **Header** `foodCollections[0]`:
-  `{name, collectionType: 3, version: 1, traits: 0, totalServingSize: Σ amounts
-  (g), servingSizeUnit: "gram", servings}`.
-- **One `foodEntries[]` item per included ingredient:**
-  - `name` (USDA description or the recipe's ingredient name),
-  - USDA: `foodID: "foodnoms:usda:<fdcId>"`, `source: "usda"`,
-    `secondarySource: fdcSecondarySource[dataType]`;
-    fallback: `foodID: "local:<UUID>"` (no `source`),
-  - `version: 1`, `baseAmount: 100`, `baseUnit` (`gram`/`milliliter`),
-    `traits: 0`, `uncertainty: 0`,
-  - `quantity`: the amount used (Step 1),
-  - `measure: {unit: baseUnit, value: 1, traits: 0}`,
-  - `nutrients`: the per-100 g block from Step 3.
-- **Encode** with the LZFSE Python snippet (`FOODNOMS_FORMAT.md` §2) and save as
-  `../examples/<Recipe Name> <ddmmyy>.foodnoms` (FoodNoms' own naming: date
-  slashes dropped).
-
----
-
-## Step 5 — Compute whole-recipe totals + write back the Nutrition table
-
-Compute in Wolfram using the 16-nutrient vector from `RECIPE_FORMAT.md`
-("Computing nutrition values"):
-
-```wolfram
-(* per-100g vectors, FoodNoms keys -> recipe's 16 slots; missing -> 0 *)
-slots = {"calories","protein","carbs","sugars","fat","fatSaturated","fiber",
-         "sodium",  (* -> converted to Salt below *)
-         "iron","calcium","zinc","magnesium","potassium","vitaminD","vitaminB12","folate"};
-n100    = <| "corn" -> (Lookup[block["corn"],   slots, 0]), ... |>;
-amounts = <| "corn" -> grams, ... |>;
-totals  = N[Total[Table[n100[k]*amounts[k]/100., {k, Keys[amounts]}]], 5];
+```json
+{
+  "name": "Creamy Butternut & Soy Bean Soup [10-06-26] ✴️",
+  "servings": 5,
+  "ingredients": [
+    { "fdcId": 2685570, "grams": 1918, "note": "butternut squash, cubed" },
+    { "fdcId": 174270,  "grams": 326,  "note": "dry soybeans" },
+    { "ref": "Hon-Mirin", "grams": 40, "unit": "milliliter" }
+  ]
+}
 ```
 
-Then map `totals` to the table rows, with these rules:
+- `fdcId` pins a USDA record; `ref` looks up the curated map.
+- `grams` is the quantity in the block's base unit. Metric only.
+- `unit` defaults to `gram`; use `milliliter` for liquids.
+- `uncertainty` — the per-entry tier (0 / 10 / 30). Required for **meal logs**
+  (`collectionType: 2`); see `MEAL_LOGGING.md` → Uncertainty policy. For a recipe
+  file it can be omitted.
+- `note` becomes the entry's note.
+- `"foodnoms": { … }` carries build options — `collectionType` (3 = recipe,
+  default; 2 = meal), `emit`, `totalServingSize`, `uncertainty`.
+
+**Density:** USDA values are per 100 g. For `milliliter`-measured liquids they
+apply per 100 ml assuming density ≈ 1 g/ml. Flag oils/syrups (density ≈ 0.9) if
+the amount is large enough to matter.
+
+**Patching a USDA record.** When a record is right about the food but missing or
+wrong on a nutrient, do **not** edit the numbers — that destroys the provenance.
+Add a `patch` (the 3-tier weightless patch, `FOODNOMS_FORMAT.md` §11):
+
+```json
+{
+  "fdcId": 169242, "grams": 30,
+  "patch": { "vitaminD": 17.6 },
+  "patchNote": "Sun-dried gills-up: ergosterol converts to D2; the raw record predates that step."
+}
+```
+
+`build` then writes two companion `.foodnoms` files alongside the recipe — the
+delta alone, and a "🩹 … #Patched" recipe showing the untouched USDA food plus
+the patch, so the arithmetic stays auditable. Details and the two consequences
+(URL routing, ingredient regrouping) are in `../tools/js/README.md` → Patches.
+
+---
+
+## Step 4 — Build the file
+
+```bash
+node cli.js compute recipe.json   # inspect the totals first
+node cli.js build   recipe.json   # write the .foodnoms + cross-check
+```
+
+`compute` prints whole-recipe totals and — importantly — a **partial-coverage**
+list naming any nutrient that only some ingredients reported. Those totals are
+*floors*, not totals; say so rather than quoting them flat.
+
+`build` writes the file and then diffs it against the Wolfram endpoint's
+rendering of the same recipe. **Report the outcome, never swallow it:**
+
+- **✓ equivalent** — say so; the file is trustworthy.
+- **endpoint unreachable** — the file still stands (it does not depend on
+  Wolfram). Say it was *not* cross-checked.
+- **✗ differs** — **stop.** Do not ship the file or quote its numbers. Show the
+  diff; two implementations disagreeing means one has a bug worth finding.
+
+Save the file as `../examples/<Recipe Name> <ddmmyy>.foodnoms` (FoodNoms' own
+naming: date slashes dropped). The download filename `build` chooses already
+strips the `[DD-MM-YY]` stamp, emoji and `#`, and spells `&` as `and`; the full
+stamped name is kept as the in-file collection name.
+
+---
+
+## Step 5 — Write back the Nutrition table
+
+Take the totals from `cli.js compute` (or `build`'s cross-check) and map them to
+the table rows, with these rules:
 
 - **Salt** is reported, not sodium: `salt_g = sodium_total_mg * 2.5 / 1000`
-  (FDC gives sodium).
+  (FDC gives sodium; the tool derives `salt` for you).
 - **Units / rounding** (match existing recipes):
   | Row | Unit | Round |
   |---|---|---|
@@ -284,14 +206,17 @@ Then map `totals` to the table rows, with these rules:
 Write back into the recipe `.md`:
 
 - **Replace the Nutrition table** (4-col, 8 rows each — `RECIPE_FORMAT.md`) with
-  the computed totals (whole recipe, never per serving).
+  the computed totals (**whole recipe, never per serving**).
 - **Update the provenance italic note** above the table to:
   *"Total values for the whole recipe. **USDA-derived** — per-ingredient USDA
-  FoodData Central values (per 100 g) summed in Wolfram; **not FoodNoms-verified**
-  (replace on next cook per `../../docs/RATINGS.md`)."*
+  FoodData Central values (per 100 g) summed in `tools/js`; **not
+  FoodNoms-verified** (replace on next cook per `../../docs/RATINGS.md`)."*
   Per `CLAUDE.md`, the "not FoodNoms-verified" flag **stays** — USDA is a better
   estimate, not a FoodNoms reconciliation. Only drop that flag for real
-  FoodNoms-verified totals.
+  FoodNoms-verified totals. Note the flag is **macros/salt only**: micros are
+  committed best-estimates and are never caveated as pending verification.
+- **Embed the FoodNoms download link** from `node cli.js url recipe.json`
+  (required — `CLAUDE.md`). See **Appendix A**.
 - **Reconcile the Ingredients table:** set each `Est. kcal` to
   `round(calories * amount / 100)` and update the **Total row** energy so the
   column sums to the new Nutrition Energy (`RECIPE_FORMAT.md` requires this).
@@ -302,15 +227,16 @@ Write back into the recipe `.md`:
 
 ## Step 6 — Verify
 
-- **Round-trip** the build: re-request with `Accept: application/json` and confirm
-  `recipe.foodEntries[]` names/quantities and that each USDA id resolved to the intended
-  food (raw vs cooked, right variety). No decode needed — this is the JSON view. (For a
-  file already on disk, `foodnomsDecode[ByteArray[BinaryReadList[…]]]` in Wolfram is the
-  decode path; never `lzfse`/Python.)
+- **Read the entry names back.** `cli.js build`'s cross-check prints the
+  endpoint's decoded recipe; check each USDA id resolved to the intended food
+  (raw vs cooked, right variety, right bean). A mis-resolution shows up here
+  immediately. Offline, decode the file directly — Appendix B.
 - **Cross-checks:** summed entry `calories` ≈ Nutrition Energy;
   `totalServingSize` ≈ Σ ingredient mass; `Est. kcal` column sum == Total row ==
   Nutrition Energy.
 - **Spot-check** one or two ingredients' fetched values against FDC.
+- **Check the coverage report** from `compute` — any nutrient sourced from only
+  some ingredients is a floor, and should be flagged as such rather than quoted.
 
 ---
 
@@ -331,10 +257,115 @@ Running this on `recipes/soups/creamy-corn-soup-japanese-v3.md`:
   bok choi, spring onion.
 - **Ask / fallback** (compound pantry items, no clean USDA generic): white miso
   (USDA *has* "Miso" — confirm), **tsuyu, dashi-soy, hon-mirin, shiitake powder,
-  nori, nutritional yeast** — resolve from existing `examples/` entries or a
-  `local:` custom food.
+  nori, nutritional yeast** — resolve from `tools/ingredient-map.json`, an
+  existing `examples/` entry, or a `local:` custom food.
 - **Omit**: sesame oil drizzle and nori/sesame garnishes if marked at-table
   (`Est. kcal` `—`).
 
-This is the same recipe hand-built earlier; the generator replaces that manual
-estimation with USDA data + a written-back Nutrition table.
+---
+
+# Appendix A — the Wolfram Cloud endpoints
+
+Wolfram Cloud does **one** job now: serving a URL. Producing the file is Step 4.
+Two Cloud Objects are deployed from `../tools/foodnoms-cloud.wl`:
+
+- **`BuildFoodNomsRecipe`** — construction. Takes already-resolved ingredients
+  and returns one `.foodnoms` file per call.
+- **`ResolveFDC`** — the endpoint's own name→candidates search. **Superseded by
+  `cli.js search`**, which is faster, cached, and does not spend the endpoint's
+  FDC quota. Kept for reference.
+
+## The download link (required in every recipe)
+
+```bash
+node cli.js url recipe.json
+```
+
+The URL **is** the artifact: clicking it issues a GET, and
+`Content-Disposition: attachment` names the file — so it costs nothing to embed
+and is how Holger gets the file onto a device. Embed it in the recipe's Nutrition
+section.
+
+`cli.js url` emits the `custom*` form: nutrients travel inline in the query
+string and the endpoint makes **no FDC call at all**. That is what fixed the old
+failure mode — see *Why the endpoints were failing* in `../tools/js/README.md`.
+The exception is a patched ingredient, which must ride the `fdcIds` column
+because `patchFor[]` keys off an `fdcId`.
+
+**Query length is the live constraint.** Nutrients inline are not free: a
+9-ingredient recipe is ~3.9 KB on endpoint v8, ~5.8 KB on v7, and common server
+limits start at 8 KB. Check the length `cli.js url` prints on stderr for a large
+recipe.
+
+## Verifying the link
+
+```bash
+curl -s -H 'Accept: application/json' '<url>' | head -c 2000
+```
+
+Returns `{filename, recipe, totals, estKcal[], warnings}` — the same JSON view
+`cli.js build` diffs against. Confirm HTTP 200 and that `totals` match the
+Nutrition table. Without the `Accept` header the same URL returns the raw bytes
+(`Vary: Accept` keeps caches from crossing the two views).
+
+## Companion files via `emit`
+
+One call → one file. Keep **all params identical** and change only `emit` to
+fetch a patch companion; the recipe's `notes` lists the available names
+(URL-encode them). `cli.js build` writes all of them locally in one go, so this
+is only needed for the hosted copies.
+
+## Endpoint version
+
+`?emit=version` returns the deployed `$fnVersion`. Compare it against
+`$fnVersion` in `../tools/foodnoms-cloud.wl` to tell whether a redeploy is
+pending.
+
+> **⚠ v8 is drafted but NOT deployed.** It adds `customSources` /
+> `customSecondarySources` (USDA provenance on inline entries) and
+> `nutrientNameSets` / `customNutrientSetIds` (interned nutrient-key lists, −33%
+> URL length). Both default to empty, so all existing recipe URLs are unaffected.
+> `cli.js url` still emits the v7 form until someone raises `endpointVersion` in
+> `tools/js/lib/foodnoms-url.js`. Deploy steps: `../tools/js/README.md`.
+
+## Endpoint design notes (unchanged, still true)
+
+**No JSON crosses the wire.** Every field is its own **typed query parameter**,
+parsed declaratively by the framework's interpreters (never `ImportString`, never
+string surgery — see `CLAUDE.md`). The ingredient list is stored **decomposed**
+(Holger's "DSM"): parallel typed arrays aligned by position, because
+`CompoundElement` cannot carry typed tuples in a query string (Wolfram forbids
+`DelimitedSequence[CompoundElement[…]]`). Mis-aligned column lengths → **HTTP
+400** naming the offending arrays.
+
+| Param | Type | Carries |
+|---|---|---|
+| `name` / `servings` / `emit` | String / Integer / String | recipe name, servings, which file |
+| `collectionType` | Integer | 3 = recipe (default), 2 = meal |
+| `totalServingSize` | Number (optional) | cooked yield in g; omit → Σ ingredient weights |
+| `fdcIds` / `grams` | comma-lists | USDA ingredients — **endpoint resolves these itself** |
+| `patchFdcIds` / `patchNutrientNames` / `patchDeltas` | comma-lists | sparse per-100 g patches |
+| `customNames` / `customFoodIds` / `customQuantities` / `customUnits` | `;`-lists | inline foods |
+| `customNutrientNames` / `customNutrientValues` | nested (`;` between foods, `,` within) | each inline food's block |
+| `fdcUncertainties` / `customUncertainties` | aligned lists | per-entry uncertainty tier |
+| `customBrands` / `customBarcodes` / `customUrls` / `customNotes` | `;`-lists | optional provenance |
+
+---
+
+# Appendix B — reading a `.foodnoms` already on disk
+
+```bash
+node -e 'import("./tools/js/lib/foodnoms-file.js").then(({foodnomsDecode,foodnomsTotals})=>{
+  const j = foodnomsDecode(require("fs").readFileSync(process.argv[1]));
+  console.log(JSON.stringify(j, null, 2));
+  console.log(foodnomsTotals(j));
+})' -- "path/to/recipe.foodnoms"
+```
+
+`foodnomsTotals` gives the 16 slots + derived `salt`. The container is an
+**uncompressed** LZFSE block (`'bvx-'` + uint32-LE length + raw JSON + `'bvx$'`),
+so this is a plain parse — no codec, and never Python.
+
+Note FoodNoms' *own* exports are compressed (`'bvxn'` / `'bvx2'`);
+`foodnomsDecode` refuses those loudly rather than parsing compressed bytes as
+JSON. Read one of those in FoodNoms, or re-export.
