@@ -812,7 +812,7 @@ The original build leaned on **10 ml aminos alone for savouriness — and it doe
 
 ### Souring agent — tamarind (added 2026-07-06, untested)
 
-**🥭 Tamarind paste, ~6 g, off heat.** A real Thai curry balances sweet/sour/salty/spicy; this build had sweet (coconut, optional), salty/umami (aminos + shiitake) and spicy (green paste) but nothing sour — lime was the only lever, and that's a family-dinner at-table move (`thai-yellow-butternut-curry.md`), not needed here since this is Holger solo. Tamarind fills the gap directly in the pot. Already stocked (`docs/PANTRY.md`), no new purchase.
+**🥭 Tamarind paste, ~6 g, off heat.** A real Thai curry balances sweet/sour/salty/spicy; this build had sweet (coconut, optional), salty/umami (aminos + shiitake) and spicy (green paste) but nothing sour — lime was the only lever, and that's a family-dinner at-table move (`thai-yellow-butternut-curry.md`), not needed here since this is Holger solo. Tamarind fills the gap directly in the pot. Was stocked when this was written; ⚠ **it ran out before the move and is unconfirmed in Singapore** (`docs/PANTRY.md`) — though wet-market tamarind pulp here is cheap and better than the UK jar, so this is an easy restock rather than a substitution problem.
 
 - **Off heat, like the corn soups.** Every other tamarind use in the project (`creamy-corn-soup-indian.md`, `-mexican.md`, `butternut-butterbean-soup.md`) adds it off heat, not simmered — keeps the sour bright rather than cooking it flat, and lets you taste and adjust the final acidity directly.
 - **Start small — it's concentrated and it's easy to overshoot** (USDA raw tamarind: 239 kcal, 38.8 g sugar, 62.5 g carbs per 100 g — mostly sugar-acid, no dilution to hide behind). ~6 g adds ~14 kcal — a rounding error against the ~337 kcal base, so calorie-wise it's free; the only real risk is over-souring.
@@ -892,7 +892,7 @@ Built around **Mae Ploy vegan yellow curry paste** — a pantry run-down (Holger
 
 The first profile where **one jar is the entire seasoning line**. 🍲 Mae Ploy *Vegan* Tom Yum Paste is 38.2% lemongrass, 9.6% galangal, 6.9% shallot, 6.4% tamarind, 5.3% citric acid, 4.2% garlic and its own dried red chilli — which means it already contains the aromatics, the sour *and* the sweet that other profiles assemble from four or five separate ingredients. Everything added to it is there to do a job the jar cannot: 🌶️ fresh chilli for bright heat, 🍄 mushroom powder for guanylate, 🫚 ginger for warmth, and 🌸 **Szechuan pepper** — the one note in this library that nothing else supplies. Holger solo; designed 2026-08-04. Run-down: tom yum paste, dried ginger, seven-mushroom blend.
 
-⚠ **Use the *vegan* jar.** The standard Mae Ploy tom yum paste contains shrimp paste, fish sauce and dried shrimp. See `docs/PANTRY.md`.
+⚠ **Use the *vegan* jar.** The standard Mae Ploy tom yum paste contains shrimp paste, fish sauce and dried shrimp. See `docs/archive/PANTRY-UK-TEDDINGTON.md`. ⚠ Post-move: the Mae Ploy vegan jar is unconfirmed in Singapore; the **HollyFarms** jar that is stocked has **no tamarind**, so this profile loses its sour note and needs one added back — see `docs/PANTRY.md`.
 
 ### Single-serving build (3 eggs)
 

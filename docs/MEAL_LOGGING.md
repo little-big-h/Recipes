@@ -15,27 +15,76 @@ For each dish, Holger takes **two photos with the dish on a kitchen scale**:
 
 **Consumed weight = before − after.** The bowl, plate and spoon cancel out, so the difference is exactly what was eaten — no need to tare or weigh empty crockery.
 
+### Capture regimes (newest first)
+
+The scale hardware has changed twice; all three regimes are still readable.
+
+| Regime | What arrives | How to read it |
+|:--|:--|:--|
+| **3 — EXIF-embedded** *(current, from 2026-08)* | **One** photo of the dish, weights written into the image metadata | `strings -n 4 photo.jpg \| grep -E 'weight_g\|consumed_g'` → `ImageDescription` carries `weight_g=…; phase=before`, `UserComment` carries `before_g=…; after_g=…; consumed_g=…`. The two agree; `consumed_g` is authoritative. No exiftool needed. **Note the photo also carries GPS.** |
+| **2 — App screenshots** | Dish photo + **two app screenshots** (scale has no built-in display) | Order the screenshots by their **status-bar clock** (and battery %) — they do not always arrive chronologically. |
+| **1 — LCD photos** *(legacy)* | Two photos of the dish on a scale with a visible LCD | See *Reading the scale* below — rotated displays, glare. |
+
+Under regimes 2 and 3 the "after" reading may be **mostly vessel** (a cleaned plate) or **inedible waste** (an apple core — 135.3 → 22.6 g). Either way the subtraction handles it: no refuse factor needs guessing.
+
 ### Claude's job
 
 1. **Read both LCDs** from the photos and subtract.
 2. **Scale** a per-100 g nutrition estimate for that dish to the eaten grams.
-3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams. **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
+3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams.
 
-> **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty tiers (0/10/30) are now set **inline** via the `customUncertainties` / `fdcUncertainties` columns (aligned with each ingredient group), so a single call yields a correctly-tiered meal file — no kernel patching. See Uncertainty policy below.
+> ⚠ **Never decompose a photographed restaurant dish into its ingredients.** One dish = **one** entry, with a single whole-dish per-100 g estimate. Do *not* resolve the lettuce, the carrot, the oil and the dressing to separate `fdcIds` and log them as a fan of entries — the split is invented, it adds no accuracy, it clutters the diary, and long multi-`fdcId` calls are exactly what makes the endpoint fall over. Ingredient-level breakdowns are for **recipes Holger cooks** (known weights), never for a plate that arrived from a kitchen he didn't stand in. *(Holger, twice, emphatic.)*
+ **Set `collectionType: 2`** so it emits a *meal* (no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back both the written file and its **download link**.
 
-> **Egress.** `wolframcloud.com` **is now in** the container's network allowlist (added 2026-06-27), so the simplest path is to **`curl` the endpoint directly**: `curl -o meal.foodnoms '…/BuildFoodNomsRecipe?…'` for the raw file bytes, or add `-H 'Accept: application/json'` to get the decoded entries + computed totals back (verify resolution + totals without cracking the `bvx-` container — see `RECIPE_NUTRITION_GENERATOR.md`). *Fallback* (rare) — only for a kernel-only session or if egress is ever withdrawn: build the bytes in Wolfram, bridge them out with `BaseEncode[byteArray]`, then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
+> **Per-entry uncertainty.** Tiers (0/10/30) are set **inline**, one per ingredient — an `"uncertainty"` field in the recipe JSON, or the `customUncertainties` / `fdcUncertainties` columns on a hand-built URL. A single build yields a correctly-tiered meal file; there is no post-hoc patching step. See Uncertainty policy below.
+
+> **Building the file (updated 2026-09-04).** Write a recipe JSON with
+> `"foodnoms": {"collectionType": 2}` and an `"uncertainty"` on **every**
+> ingredient, then `node tools/js/cli.js build meal.json`. The file is written
+> locally — USDA lookup, totals and assembly all happen on this machine — and
+> automatically cross-checked against the endpoint when it is up. Do **not**
+> `curl` the endpoint to produce the file (`CLAUDE.md` hard rule); the endpoint's
+> own USDA lookups are the thing that used to make long multi-`fdcId` calls fall
+> over. Hand back the **download link** from `cli.js url` alongside the file.
+>
+> *Superseded:* this note previously said `curl`-ing `BuildFoodNomsRecipe`
+> directly was the simplest path, with a Wolfram `BaseEncode` bridge as fallback.
+> Both are obsolete — `api.nal.usda.gov` is reachable directly, so nothing needs
+> to be bridged out of a kernel.
 
 ---
 
 ## Uncertainty policy
 
-Set the FoodNoms `uncertainty` field (integer percent — see `FOODNOMS_FORMAT.md`) by **how *both* the portion and the composition are known**:
+### Decide it with two yes/no questions — never by judgement
 
-| Situation | `uncertainty` | Why |
-|:--|:--:|:--|
-| **Weighed raw whole food** (fruit, plain salad veg) | **0** | Both knowns: the portion is weighed *and* the composition is fixed — it just *is* that food (raw strawberries, watermelon). Nothing left to estimate. |
-| **Weighed prepared/cooked dish** | **10** | Portion exact; only the per-gram composition (oil, sauce, recipe) is estimated. |
-| **Photo only, no scale** | **30** | Both the portion *and* the composition are guessed from the image. |
+Answer these two, read off the tier, stop. **Do not reason about it further.**
+
+1. **Is the portion weighed?** (on a scale, or by before−after difference — the vessel cancels, so that counts as weighed)
+2. **Is the composition given?** (a nutrition panel, or a raw whole food that just *is* that food)
+
+| Q1 portion | Q2 composition | `uncertainty` |
+|:--|:--|:--:|
+| weighed | **given** — panel, or raw whole food | **0** |
+| weighed | **estimated** — cooked dish, no panel, modelled recipe | **10** |
+| **assumed** — photo only, guessed serving | either | **30** |
+
+> ⚠ **Your confidence in your own numbers is NOT an input to this.** The tier
+> describes *the food*, not the analyst. Every one of these is the WRONG reason
+> to raise a tier, and each has actually been done:
+> - *"I couldn't read a digit on the panel clearly"* → still **0**. The fix is a
+>   re-shot photo, not an inflated tier. (Hayley Quinoa Bread, 2026-08-24.)
+> - *"There's no panel so I modelled the composition"* → **10**, not 30. The
+>   portion is still exact. (Hayley Rustic loaf, same day.)
+> - *"I guessed how the weighed total splits between the components"* → **10**,
+>   not 30. One dish weighed = one exact portion, however you apportion it
+>   internally. (Economy rice plate, same day — set to 30 across all six rows.)
+> - *"I invented the oil/salt because I couldn't see it"* → still **10** if it
+>   was inside the weighed dish. Only a portion you did not weigh earns 30.
+>
+> Inflating the tier does not encode caution — it *corrupts the signal*, because
+> a 10 tells Holger "composition estimated" when the real problem was legibility.
+> Say the doubt in the message instead; leave the tier alone.
 
 **Set uncertainty per entry, not per meal** — a single sitting can mix tiers (Blue Room 2026-06-23: raw strawberries 0, weighed tomato + mushroom 10). The scalar `uncertainty` query param is the meal-wide *default*; when tiers differ, pass a **per-entry column** instead — `customUncertainties` (a `;`-list aligned with the `custom*` arrays; meals are all custom entries) and/or `fdcUncertainties` (a `,`-list aligned with `fdcIds`). One value per dish, **`0` omits the field** (the no-estimate tier); an empty column ⇒ the meal-wide default applies. So mixed tiers are **one curl, no kernel round-trip** — e.g. `customUncertainties=10;10;0` for two weighed dishes + a raw fruit.
 

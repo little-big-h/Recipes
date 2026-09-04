@@ -40,20 +40,82 @@
 
 $FDCApiKey = "CQawDjU3RVijSYCgvhRxH1ReIT12ZS02LkbXX3f1";
 
-(* name -> ranked candidate records *)
+(* ---------------------------------------------------------------------------
+   RESILIENT FETCH  (added 2026-08-24, after a whole-afternoon outage)
+
+   The free FDC key is rate-limited to ~1000 requests/day per IP, and EVERY
+   ingredient of a recipe costs one call. When the API rate-limits (HTTP 429),
+   errors, or times out, URLExecute[..., "RawJSON"] returns $Failed -- not an
+   association.
+
+   The old code fed that straight into Lookup and the get[] accessors. Those
+   carry List/Association patterns, so they did not fail -- they simply STAYED
+   UNEVALUATED and rode all the way into the response as symbolic junk:
+
+       "calories" -> fdcEnergyKcal[Lookup[data$79191, "foodNutrients", {}]]
+       "fdcId"    -> {}["fdcId"]
+
+   ExportByteArray[..., "RawJSON"] cannot encode that, so the caller saw an
+   opaque  400 {"Success":false,"Failure":"Failed to encode HTTPResponse"}
+   with no hint that USDA was the problem.
+
+   Because a per-ingredient failure probability p compounds, an n-ingredient
+   recipe succeeded only (1-p)^n of the time. That presents as "large recipes
+   are broken" while single-ingredient calls mostly work -- but it is NOT a
+   size limit, and retrying the whole request is the worst possible response
+   (it multiplies the FDC traffic that caused the rate-limit in the first
+   place, and bills Wolfram Cloud time for each attempt).
+
+   Three fixes: retry a transient failure in place, MEMOISE successful lookups
+   so a repeated fdcId is free (the dominant traffic saving -- one soup can
+   otherwise re-fetch the same carrot record dozens of times), and fail LOUDLY
+   with a Failure that names the fdcId and says what to do about it.
+--------------------------------------------------------------------------- *)
+
+$FDCMaxTries = 3;
+$FDCCache = <||>;   (* fdcId -> raw record; successes only *)
+
+(* one FDC GET, retried; returns the decoded association or $Failed *)
+fdcFetch[spec_] := Module[{r},
+  Do[
+   r = Quiet @ Check[URLExecute[spec, "RawJSON"], $Failed];
+   (* a rate-limit or error body still decodes to an association, but carries
+      an "error" key -- treat that as failure rather than as data *)
+   If[AssociationQ[r] && ! KeyExistsQ[r, "error"], Return[r, Module]],
+   {$FDCMaxTries}];
+  $Failed];
+
+fdcUnavailable[what_] := Failure["fdcUnavailable", <|
+   "MessageTemplate" -> "USDA FoodData Central lookup failed for `w`. The free \
+API key is rate-limited to ~1000 requests/day per IP and each ingredient costs \
+one request, so a burst of large recipes exhausts it. Wait for the daily reset \
+or set $FDCApiKey to another key. Do NOT retry in a loop.",
+   "MessageParameters" -> <|"w" -> what|>, "what" -> what|>];
+
+(* name -> ranked candidate records, or a Failure *)
 fdcSearch[query_String, n_Integer : 5] := Module[{data},
-  data = URLExecute[<|
+  data = fdcFetch[<|
      "Scheme" -> "https", "Domain" -> "api.nal.usda.gov",
      "Path" -> "/fdc/v1/foods/search",
      "Query" -> {"api_key" -> $FDCApiKey, "query" -> query,
-        "pageSize" -> ToString[n]}|>, "RawJSON"];
+        "pageSize" -> ToString[n]}|>];
+  If[! AssociationQ[data],
+   Return[fdcUnavailable["search \"" <> query <> "\""], Module]];
   {#["fdcId"], #["description"], #["dataType"]} & /@ Lookup[data, "foods", {}]
 ];
 
-(* raw FDC record (full format) *)
-fdcFood[fdcId_] := URLExecute[
-   "https://api.nal.usda.gov/fdc/v1/food/" <> ToString[fdcId] <>
-    "?api_key=" <> $FDCApiKey <> "&format=full", "RawJSON"];
+(* raw FDC record (full format). Memoised on SUCCESS ONLY, so a transient
+   failure is retried on the next call rather than cached forever. *)
+fdcFood[fdcId_] := Module[{r},
+  If[KeyExistsQ[$FDCCache, fdcId], Return[$FDCCache[fdcId], Module]];
+  r = fdcFetch["https://api.nal.usda.gov/fdc/v1/food/" <> ToString[fdcId] <>
+     "?api_key=" <> $FDCApiKey <> "&format=full"];
+  If[AssociationQ[r] && KeyExistsQ[r, "foodNutrients"],
+   $FDCCache[fdcId] = r,
+   $Failed]];
+
+(* drop memoised records (e.g. to pick up a corrected USDA row) *)
+fdcClearCache[] := ($FDCCache = <||>;);
 
 (* full-format row accessors: each row is
    <|"nutrient"-><|"name"->..,"unitName"->..|>, "amount"->..|> *)
@@ -80,6 +142,10 @@ fdcSugars[fn_List] := fdcRowAmt @ SelectFirst[fn,
 (* fdcId -> per-100g block keyed by FoodNoms nutrient names *)
 fdcToFoodNoms[fdcId_] := Module[{data, fn, get, vitD},
   data = fdcFood[fdcId];
+  (* HARD STOP on a failed lookup. Without this the unevaluated accessors below
+     travel into the caller's response and surface as an unencodable 400. *)
+  If[! (AssociationQ[data] && KeyExistsQ[data, "foodNutrients"]),
+   Return[fdcUnavailable["fdcId " <> ToString[fdcId]], Module]];
   fn = Lookup[data, "foodNutrients", {}];
   (* match by exact nutrient name; unit defaults to "any" *)
   get[pat_, unit_ : _] := fdcRowAmt @ SelectFirst[fn,
@@ -206,6 +272,7 @@ passthroughFoodEntry[ing_, sortIdx_, unc_ : 0] := Module[
    "measure" -> <|"unit" -> unit, "value" -> 1, "traits" -> 0|>,
    "nutrients" -> ing["nutrients"],
    "brandOwner" -> Lookup[ing, "brandOwner", Missing[]],
+   "barcode" -> Lookup[ing, "barcode", Missing[]],
    "urlString" -> Lookup[ing, "urlString", Missing[]],
    "notes" -> Lookup[ing, "notes", Missing[]],
    "collectionSortIndex" -> sortIdx|>];
@@ -324,6 +391,10 @@ buildFoodNomsRecipe[spec_Association] := Module[
       KeyExistsQ[ing, "fdcId"],
         fdcId = ing["fdcId"];
         block = fdcToFoodNoms[fdcId];
+        (* USDA lookup failed (rate limit / outage / dead id): abort the whole
+           build and report WHICH ingredient. Building on regardless is what
+           used to emit an unencodable response and an opaque 400. *)
+        If[FailureQ[block], Throw[block, "fdcFail"]];
         If[fdcSecondarySource[block["dataType"]] === Missing[],
          AppendTo[warnings,
           block["name"] <> ": unmapped USDA dataType '" <> ToString @ block["dataType"] <> "'"]];
@@ -457,13 +528,21 @@ resolveFDC[spec_Association] := Module[{qs, n},
   qs = Lookup[spec, "queries",
      If[KeyExistsQ[spec, "query"], {spec["query"]}, {}]];
   n = Lookup[spec, "n", 5];
+  (* Every hit costs its own FDC call on top of the search, so one 5-candidate
+     query is 6 requests against a ~1000/day key. Guard BOTH stages: a Failure
+     mapped over with /@ used to decompose into junk like {}["fdcId"], which
+     then could not be JSON-encoded ("Failed to export to JSON"). *)
   <|"results" -> Function[q,
-     <|"query" -> q,
-       "candidates" -> Function[hit,
-          With[{block = fdcToFoodNoms[hit[[1]]]},
-           <|"fdcId" -> hit[[1]], "description" -> hit[[2]], "dataType" -> hit[[3]],
-             "baseAmount" -> 100, "baseUnit" -> "gram",
-             "nutrients" -> block["nutrients"]|>]] /@ fdcSearch[q, n]|>] /@ qs|>];
+     Module[{hits = fdcSearch[q, n]},
+      If[FailureQ[hits],
+       <|"query" -> q, "candidates" -> {},
+         "error" -> TemplateApply[hits["MessageTemplate"], hits["MessageParameters"]]|>,
+       <|"query" -> q,
+         "candidates" -> Function[hit,
+            Module[{block = fdcToFoodNoms[hit[[1]]]},
+             <|"fdcId" -> hit[[1]], "description" -> hit[[2]], "dataType" -> hit[[3]],
+               "baseAmount" -> 100, "baseUnit" -> "gram",
+               "nutrients" -> If[FailureQ[block], <||>, block["nutrients"]]|>]] /@ hits|>]]] /@ qs|>];
 
 
 (* ================= C. APIFunctions (decomposed query params) =============
@@ -481,7 +560,9 @@ resolveFDC[spec_Association] := Module[{qs, n},
 
      fdcIds,grams                          -- USDA ingredients
      patchFdcIds,patchNutrientNames,patchDeltas  -- sparse per-100g patches
-     custom* (6 arrays, ';'-separated; nutrient arrays nested ';'/',')  -- non-USDA foods
+     custom* (';'-separated; nutrient arrays nested ';'/',')  -- foods sent inline
+     nutrientNameSets,customNutrientSetIds  -- intern table for the repeated
+                                               nutrient-key lists (v8, optional)
 
    specFromParams stitches the columns back into the row-shaped spec that
    buildFoodNomsRecipe already consumes, after a length-alignment guard. *)
@@ -501,17 +582,73 @@ addUnc[base_, u_] := If[MissingQ[u], base, Append[base, "uncertainty" -> Round[u
    aligns with its ingredient group; length is guarded in specFromParams *)
 uncCol[col_, n_] := If[Length[col] === n, col, ConstantArray[Missing[], n]];
 
-(* attach optional provenance to a custom food: source url + note (blank omits)
-   and brand (-> brandOwner). So a scraped product food carries its page
-   (urlString/notes) and its shop/brand. *)
-addMeta[base_, url_, note_, brand_] := Module[{b = base},
+(* attach optional provenance to a custom food: source url + note (blank omits),
+   brand (-> brandOwner) and barcode. So a scraped product food carries its page
+   (urlString/notes), its shop/brand, and — for a packaged product — the EAN/UPC
+   off the pack, which is what lets FoodNoms match a scan to this food. *)
+addMeta[base_, url_, note_, brand_, barcode_] := Module[{b = base},
   If[StringQ[url] && StringTrim[url] =!= "", b = Append[b, "urlString" -> url]];
   If[StringQ[note] && StringTrim[note] =!= "", b = Append[b, "notes" -> note]];
   If[StringQ[brand] && StringTrim[brand] =!= "", b = Append[b, "brandOwner" -> brand]];
+  If[StringQ[barcode] && StringTrim[barcode] =!= "",
+   b = Append[b, "barcode" -> StringTrim[barcode]]];
+  b];
+
+(* attach USDA provenance to a PASSTHROUGH food. passthroughFoodEntry has always
+   read "source"/"secondarySource" off the ingredient, but no query parameter set
+   them -- so a caller that resolved USDA itself and sent the nutrients inline
+   (the custom* path) produced entries indistinguishable from hand-typed ones,
+   even when it knew the exact fdcId. That is now the normal way to build a
+   recipe: tools/js resolves FDC locally so this endpoint never touches the
+   network (see tools/js/README.md), and without these two columns doing so
+   silently downgraded provenance. Blank omits, so the columns stay optional. *)
+addSource[base_, src_, sec_] := Module[{b = base},
+  If[StringQ[src] && StringTrim[src] =!= "", b = Append[b, "source" -> StringTrim[src]]];
+  If[StringQ[sec] && StringTrim[sec] =!= "",
+   b = Append[b, "secondarySource" -> StringTrim[sec]]];
   b];
 
 (* a per-custom-food string column, padded to "" when omitted (length 0) *)
 strCol[col_, n_] := If[Length[col] === n, col, ConstantArray["", n]];
+
+(* ---- nutrient-name interning -------------------------------------------------
+   customNutrientNames repeats the SAME ~35 keys for every ingredient, and it is
+   the single largest thing in the query string: measured on a 9-ingredient
+   recipe it was 3260 of 5776 chars (53%) -- while carrying only 3 DISTINCT key
+   sets. Since the whole point of the custom* path is to keep the FDC call off
+   this endpoint, and that means shipping nutrients through the URL, that column
+   is what decides how many ingredients fit before a recipe hits a server's
+   query-length limit (commonly 8 KB).
+
+   So: send each distinct key set once in `nutrientNameSets`, and give each food
+   a 1-based index into it via `customNutrientSetIds`.
+
+   Backward compatible by construction -- when customNutrientSetIds is empty this
+   returns customNutrientNames untouched, which is every existing caller and all
+   52 recipe URLs currently in the repo. The two forms are mutually exclusive
+   rather than merged: a caller that sent both would have two disagreeing sources
+   of truth for the same column and no way to say which wins. *)
+resolveNutrientNames[a_] := Module[
+  {ids = a["customNutrientSetIds"], sets = a["nutrientNameSets"],
+   n = Length[a["customNames"]]},
+  If[ids === {}, Return[a["customNutrientNames"], Module]];
+  If[a["customNutrientNames"] =!= {},
+   Return[Failure["internConflict", <|"err" ->
+      "customNutrientSetIds and customNutrientNames are mutually exclusive: \
+send the nutrient names EITHER once each in nutrientNameSets (indexed by \
+customNutrientSetIds) OR inline per food in customNutrientNames"|>], Module]];
+  If[sets === {},
+   Return[Failure["internConflict", <|"err" ->
+      "customNutrientSetIds given but nutrientNameSets is empty"|>], Module]];
+  If[Length[ids] =!= n,
+   Return[Failure["internConflict", <|"err" ->
+      "customNutrientSetIds must be the same length as the custom* arrays"|>], Module]];
+  If[! AllTrue[ids, IntegerQ[#] && 1 <= # <= Length[sets] &],
+   Return[Failure["internConflict", <|"err" -> StringJoin[
+      "every customNutrientSetIds entry must be a 1-based index into \
+nutrientNameSets (1..", ToString[Length[sets]], "); got ",
+      ToString[ids]]|>], Module]];
+  sets[[#]] & /@ ids];
 
 (* foodID for a custom food: the caller's id if given, else a STABLE local: UUID
    derived by hashing name | brand | caloric density (per-100g calories). Same
@@ -526,18 +663,25 @@ foodIDfor[given_, name_, brand_, nutr_] :=
       ToString @ Lookup[nutr, "calories", ""]}, "|"]];
 
 (* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
-specFromParams[a_] := Module[{errs = {}},
+specFromParams[a_] := Module[{errs = {}, nn},
+  (* Resolve the interned form (nutrientNameSets + customNutrientSetIds) to a
+     plain per-food name list FIRST, so every guard and the builder below see one
+     shape and neither has to know interning exists. Its own errors are returned
+     immediately rather than accumulated: with the column unresolved, the
+     length guards would all fire too and bury the real cause. *)
+  nn = resolveNutrientNames[a];
+  If[FailureQ[nn], Return[nn, Module]];
   If[Length[a["fdcIds"]] =!= Length[a["grams"]],
    AppendTo[errs, "fdcIds and grams must be equal length"]];
   If[! Equal @@ Length /@ {a["patchFdcIds"], a["patchNutrientNames"], a["patchDeltas"]},
    AppendTo[errs, "patchFdcIds/patchNutrientNames/patchDeltas must be equal length"]];
   If[! Equal @@ Length /@ {a["customNames"], a["customQuantities"],
-       a["customUnits"], a["customNutrientNames"], a["customNutrientValues"]},
+       a["customUnits"], nn, a["customNutrientValues"]},
    AppendTo[errs, "all custom* arrays must be equal length"]];
   (* customFoodIds is OPTIONAL: empty -> every id auto-derived from name|brand|kcal *)
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customFoodIds"]]],
    AppendTo[errs, "customFoodIds must be empty (auto-derived) or the same length as the custom* arrays"]];
-  If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
+  If[(Length /@ nn) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
   (* per-entry uncertainty columns are OPTIONAL: each must be empty (use the
      meal-wide default) or exactly its group's length *)
@@ -552,6 +696,13 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "customNotes must be empty or the same length as the custom* arrays"]];
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBrands"]]],
    AppendTo[errs, "customBrands must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBarcodes"]]],
+   AppendTo[errs, "customBarcodes must be empty or the same length as the custom* arrays"]];
+  (* optional USDA-provenance columns: empty or aligned, like every other one *)
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customSources"]]],
+   AppendTo[errs, "customSources must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customSecondarySources"]]],
+   AppendTo[errs, "customSecondarySources must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
@@ -561,18 +712,25 @@ specFromParams[a_] := Module[{errs = {}},
          addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
-         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand},
-          With[{nutr = AssociationThread[nn -> nv]},
-           addUnc[addMeta[<|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
-              "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
-             url, note, brand], unc]]],
+         (* `nnames`, not `nn` -- the enclosing Module already binds nn to the
+            resolved name column, and shadowing it here would read as a bug. *)
+         Function[{nm, fid0, qty, un, nnames, nv, unc, url, note, brand, barcode,
+            src, sec},
+          With[{nutr = AssociationThread[nnames -> nv]},
+           addUnc[addSource[addMeta[
+              <|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
+                "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
+              url, note, brand, barcode], src, sec], unc]]],
          {a["customNames"], strCol[a["customFoodIds"], Length[a["customNames"]]],
           a["customQuantities"], a["customUnits"],
-          a["customNutrientNames"], a["customNutrientValues"],
+          nn, a["customNutrientValues"],
           uncCol[a["customUncertainties"], Length[a["customNames"]]],
           strCol[a["customUrls"], Length[a["customNames"]]],
           strCol[a["customNotes"], Length[a["customNames"]]],
-          strCol[a["customBrands"], Length[a["customNames"]]]}]]|>,
+          strCol[a["customBrands"], Length[a["customNames"]]],
+          strCol[a["customBarcodes"], Length[a["customNames"]]],
+          strCol[a["customSources"], Length[a["customNames"]]],
+          strCol[a["customSecondarySources"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -611,8 +769,36 @@ specFromParams[a_] := Module[{errs = {}},
      v3  stable auto foodIDs = hash(name|brand|per-100g kcal) when id omitted
      v4  standalone serving pinned to 100 baseUnit (FoodNoms forces per-serving)
      v5  serving = bare 100-unit metric weight; serving-size label left empty
+     v6  FDC fetch made resilient: retry + memoise + fail loudly. A failed USDA
+         lookup used to leave UNEVALUATED expressions in the result, which then
+         could not be JSON-encoded, so the caller got an opaque 400 "Failed to
+         encode HTTPResponse". Worse, the failure was per-ingredient, so an
+         n-ingredient recipe broke (1-(1-p)^n) of the time -- it read as "large
+         recipes are broken" when the real cause was the ~1000 req/day FDC key
+         limit. Now: 503 + Retry-After + a message naming the fdcId, and
+         successful lookups are cached so repeats are free.
+     v7  customBarcodes column. The .foodnoms FORMAT has always carried an
+         optional `barcode` on a food (see FOODNOMS_FORMAT.md) -- FoodNoms uses
+         it to match a scanned pack to the food -- but there was no way to set
+         one through this endpoint, so every packaged product we built was
+         unscannable. Now aligned with the other custom* columns.
+     v8  Two changes, both serving the same shift: FDC resolution moved OUT of
+         this endpoint and into tools/js (local Node), so a recipe now arrives
+         via the custom* path with nutrients already inline and this endpoint
+         makes no network call at all. v6 made the built-in FDC fetch survivable;
+         v8 makes not needing it the normal path.
+         (a) customSources / customSecondarySources. passthroughFoodEntry always
+             read source/secondarySource off the ingredient, but nothing could
+             SET them, so a caller that knew the exact fdcId still produced
+             entries indistinguishable from hand-typed ones. Now settable.
+         (b) nutrientNameSets + customNutrientSetIds -- intern the repeated
+             nutrient-key lists. customNutrientNames was 53% of a 9-ingredient
+             URL (3260 of 5776 chars) while holding only 3 distinct key sets, and
+             query length is what caps how many ingredients fit.
+         Both are opt-in and default to {}: existing callers, and all 52 recipe
+         URLs in the repo, are unaffected.
    (pre-versioning: vitamin-D read fixed to micrograms, not the IU row.) *)
-$fnVersion = 5;
+$fnVersion = 8;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -647,7 +833,24 @@ foodnomsAPI = APIFunction[
     (* optional brand (-> brandOwner), aligned with the custom* arrays. Serving
        size is fixed at 100 baseUnit for standalone foods (see emit=food/fooddef),
        so there's no serving-size param -- FoodNoms forces per-serving on import. *)
-    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}]},
+    "customBrands"       -> opt[DelimitedSequence["String", ";"], {}],
+    "customBarcodes"     -> opt[DelimitedSequence["String", ";"], {}],
+    (* optional USDA provenance for a passthrough food, aligned with the custom*
+       arrays. `customSources` is normally "usda"; `customSecondarySources` takes
+       the .foodnoms dataType slug (foundation_food / sr_legacy_food /
+       survey_fndds_food -- see fdcSecondarySource). Set these when the CALLER
+       resolved FDC and is sending the nutrients inline, so the entry is not
+       downgraded to an anonymous custom food just because this endpoint did not
+       do the lookup itself. *)
+    "customSources"           -> opt[DelimitedSequence["String", ";"], {}],
+    "customSecondarySources"  -> opt[DelimitedSequence["String", ";"], {}],
+    (* optional interned nutrient-name table -- see resolveNutrientNames. Send
+       each DISTINCT key set once here, and index into it (1-based) per food with
+       customNutrientSetIds, instead of repeating the same ~35 keys inline for
+       every ingredient. Omit both to keep the inline customNutrientNames form. *)
+    "nutrientNameSets" ->
+      opt[DelimitedSequence[DelimitedSequence["String", ","], ";"], {}],
+    "customNutrientSetIds" -> opt[DelimitedSequence["Integer", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[#["emit"] === "version",
       (* lightweight version probe (no ingredients needed): compare the returned
@@ -659,7 +862,16 @@ foodnomsAPI = APIFunction[
       If[FailureQ[spec],
       HTTPResponse[spec["err"], <|"StatusCode" -> 400,
         "Headers" -> {"Content-Type" -> "text/plain", "Vary" -> "Accept"}|>],
-      r = buildFoodNomsRecipe[spec];
+      r = Catch[buildFoodNomsRecipe[spec], "fdcFail"];
+      If[FailureQ[r],
+       (* a USDA lookup failed -- say so plainly, with a 503 (upstream is the
+          problem and it is transient), not a bare 400 that reads like the
+          caller's payload was malformed. *)
+       Return[HTTPResponse[r["what"] <> ": " <>
+          TemplateApply[r["MessageTemplate"], r["MessageParameters"]],
+         <|"StatusCode" -> 503, "Headers" -> {
+            "Content-Type" -> "text/plain", "Vary" -> "Accept",
+            "Retry-After" -> "3600"}|>]]];
       (* the request's Accept header, lower-cased; guarded -- if the header isn't
          reachable we default to "*/*" (the bytes view). *)
       accept = Quiet @ Check[
@@ -757,6 +969,16 @@ CloudDeploy[foodnomsAPI, CloudObject["BuildFoodNomsRecipe"], Permissions -> "Pub
    Two scalar knobs: totalServingSize=<grams> sets the recipe yield (default = sum
    of ingredient weights); uncertainty=<0..100 integer percent> is the MEAL-WIDE
    DEFAULT uncertainty (e.g. uncertainty=30 for a ±30% estimate; default 0).
+
+   PACKAGED PRODUCTS: customBarcodes (';' list, aligned with the custom* arrays)
+   sets each food's `barcode` — the EAN/UPC printed on the pack. FoodNoms matches
+   a scan against it, so a branded food built without one can never be scanned in.
+   Empty (the default) omits the field, as do blank entries within the list:
+
+     curl -s -o Latte.foodnoms 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?\
+       name=Oat%20Caffe%20Latte&emit=fooddef&customNames=Oat%20Caffe%20Latte&\
+       customBrands=Oatside&customBarcodes=8885022700006&customQuantities=100&customUnits=gram&\
+       customNutrientNames=calories&customNutrientValues=73'
 
    PER-ENTRY uncertainty (for meals that mix tiers 0/10/30 in one sitting): give
    fdcUncertainties (',' list, aligned with fdcIds/grams) and/or customUncertainties

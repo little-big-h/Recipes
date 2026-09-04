@@ -147,15 +147,26 @@ Single 4-column table — macros left, micros right, 8 rows each.
 
 ### Computing nutrition values
 
-Use Wolfram — never Python. No division by servings.
+Use `tools/js` — never Python, and no longer by hand in Wolfram. Write a recipe
+JSON and run:
 
-```wolfram
-(* Vector: {kcal, prot, carb, sugar, fat, sat, fibre, salt,
-            iron, calcium, zinc, magnesium, potassium, vitD, B12, folate} *)
-n100 = <| "ingredient" -> {...}, ... |>;
-amounts = <| "ingredient" -> grams, ... |>;
-totals = N[Total[Table[n100[k] * amounts[k] / 100.0, {k, Keys[amounts]}]], 4];
+```bash
+cd tools/js
+node cli.js compute recipe.json    # whole-recipe totals + coverage report
+node cli.js build   recipe.json    # writes the .foodnoms, cross-checks the endpoint
 ```
+
+Full procedure: `RECIPE_NUTRITION_GENERATOR.md`. **No division by servings** —
+totals are for the whole recipe. `compute` prints per-serving alongside the total
+when `servings` is set, but the table takes the total.
+
+The 16 slots, in canonical order: `{kcal, prot, carb, sugar, fat, sat, fibre,
+salt, iron, calcium, zinc, magnesium, potassium, vitD, B12, folate}`. `salt` is
+derived from sodium (`salt_g = sodium_mg × 2.5 / 1000`), which the tool does.
+
+`compute` also reports **partial coverage** — any nutrient only some ingredients
+supplied. Those totals are floors, not totals; flag them rather than quoting them
+flat.
 
 ### FoodNoms download link (always embed)
 
@@ -172,11 +183,14 @@ collection name with its `[DD-MM-YY] ✴️` stamp:
 *FoodNoms collection: **Recipe Name [DD-MM-YY] ✴️**. **⬇ [download `.foodnoms`](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=…)** — generated only when clicked; totals verified to this table.*
 ```
 
-Build the URL with `curl -sG '<endpoint>' --data-urlencode "name=…" …` (lets
-curl percent-encode each value), preferring `fdcIds=` for ingredients with a
-pinned USDA id and `custom…` columns for the rest (per-100 g vectors in the
-canonical 16-nutrient order, **salt at slot 8 expressed as sodium mg** —
-`sodium_mg = salt_g × 400`).
+**Generate the URL with `node tools/js/cli.js url recipe.json`** — don't hand-build
+it. The tool emits the `custom*` form, so the endpoint makes no USDA call and
+cannot fail on the FDC rate limit; it also picks the right column for a patched
+ingredient, which must ride `fdcIds=` instead. Nutrients go in per 100 g, and
+**sodium is sent as sodium (mg), not salt** — the tool handles the conversion.
+
+Note the file itself is written locally by `cli.js build`; the link is how Holger
+gets it onto a device. See `RECIPE_NUTRITION_GENERATOR.md` → Appendix A.
 
 > ⚠ **Verify before committing.** Re-request the same URL with
 > `-H 'Accept: application/json'` and confirm **HTTP 200** and that the returned

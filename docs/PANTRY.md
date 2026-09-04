@@ -1,120 +1,148 @@
-# Pantry and Staples
+# Pantry and Staples — Singapore
 
-What's always (or usually) in stock in Holger's kitchen. Useful for recipe design — if it's here, you can call on it without asking; if it isn't, flag it as a shopping requirement in the recipe.
+What's in stock in Holger's kitchen. Useful for recipe design — if it's here and marked ✅, you can call on it without asking.
 
-This list is descriptive, not prescriptive — update as the standing-stock pattern shifts.
+> 🆕 **Rebuilt from scratch 2026-08-10, after the move from Teddington.** The old UK list is retired at [`archive/PANTRY-UK-TEDDINGTON.md`](archive/PANTRY-UK-TEDDINGTON.md) — don't design against it, but do read it for label data on products that are also sold here, and for the pantry that pre-August-2026 recipes were written against.
+>
+> **The run-down is over.** Buying is allowed again; the "propose an in-stock substitute, never a purchase" rule is lifted.
 
-> ⚠ **Run-down mode (until ~Aug 2026 move to Singapore):** use up what's here, especially **spices and pastes** — don't buy new. This overrides the "flag it as a shopping requirement" guidance above: when something isn't stocked, propose an in-stock substitute or omission, not a purchase. (Remove after the move.)
+## How to read this file
 
-For salt-content calibration of these staples (relevant to salt budgeting in recipes), see the **Salt calibration** table in `TECHNIQUES.md`.
+The kitchen is being restocked from zero, so **nothing is assumed**. Every item carries a marker:
+
+| | Meaning | What to do when designing |
+|---|---|---|
+| ✅ | **Confirmed in the Singapore kitchen** — bought or logged since arriving | Use freely, no flag needed |
+| ❓ | **Not confirmed.** Was UK standing stock, or is trivially available locally, but nobody has said it's here | Usable, but **flag it in the recipe** as "confirm you have this" |
+| 🛒 | **Known absent** — needs buying | Flag as a shopping requirement |
+
+Promote ❓ → ✅ as Holger confirms items; that's the working mechanism for refilling this file. Until the ✅ list is substantial, err toward flagging.
+
+For salt-content calibration (relevant to salt budgeting in recipes), see the **Salt calibration** table in `TECHNIQUES.md`.
 
 ---
 
-## Always in stock
+## ✅ Confirmed in Singapore
+
+Short by design — this is only what there's actual evidence for.
+
+### Umami / seasoning
+
+- ✅ **Kombu Shiitake Dashi powder — Nature's Glory / Muso, *No Bonito*** (150 g or 1 kg; also 10 g × 10 sachets). Ingredients: oligosaccharide (tapioca, sweet potato), sea salt, yeast extract, shiitake mushroom powder 4.8%, kombu powder (*Laminaria japonica*) 0.2%. **✅ vegan.** ⚠ Nature's Glory sells a **Katsuo** version of the same product that contains bonito — check the tub says *No Bonito*. Per 100 g: **120 kcal, 2 g protein, 27.6 g carb (3 g sugars, fibre-folded), 1 g fat, salt 11.4 g** (sodium 4570 mg); iodine ~400 µg, an estimate from the 0.2% kombu. **Dose: 1 tsp (~3.5 g) per 150 ml → 0.40 g salt per bowl**, i.e. 0.27 g salt/100 ml — right in the band our well-received dishes sit in, so the label dose needs no adjustment (unlike the UK tsuyu, which was diluted hard). This is the **guaranteed-vegetarian dashi** that the old bottled tsuyu/dashi-soy always needed a label check for; it replaces both.
+- ✅ **Tom yum paste — HollyFarms "Tom Yum Koong"** (227 g jar, barcode `8888260000235`, product of Thailand). **✅ Vegetarian** — lemongrass, galanga, soya bean oil, chilli, sugar, water, kaffir lime leaves, onion, salt, citric acid (E330), MSG. No shrimp paste, no fish sauce; the name is the dish, not the contents. Per 100 g: **333 kcal, ~0 g protein, 33.4 g carb, 23.3 g fat, salt ~15.7 g**. ⚠ Declared salt is higher than the ingredient order suggests — conservative upper bound, taste. ⚠⚠ **It scorches** (Holger, 2026-08-15). At **20 g sugars per 100 g** the sugar caramelises and burns before the aromatics have cooked out, so the bhuna-style "fry it hard until it darkens" cue used elsewhere in this project is **wrong for this jar**. Instead: more fat than usual (~5 g, worth breaking the ≤3 g rule for), **medium heat, 60–90 seconds**, stop when it smells cooked and the oil takes colour, and **wet it immediately**. Err early — the "fat visibly separates" cue arrives too late here. **No tamarind** (unlike the Mae Ploy vegan jar), umami is MSG rather than fermented soy, and it is saltier and fattier — see the swap comparison in the archived file before substituting one for the other in an old recipe.
+
+### Dairy / milks
+
+- ✅ **Soya milk — F&N NutriSoy "Fresh Soya Milk, No Sugar Added"** (946 ml chilled carton, barcode `8888200619442`, Nutri-Grade A, vegan). Ingredients: **non-GM soya beans, calcium carbonate, stabiliser, vitamin D3 (plant based), flavouring** — no added sugar, no added salt. Per 100 ml: **42 kcal, 4.32 g protein, 1.8 g carb (0.8 sugars), 2.0 g fat (0.4 sat), 0.12 g fibre, salt 0.08 g, calcium 200 mg, vitamin D 0.65 µg.** Atwater lands 42.7 vs 42 declared — clean label. **This is the fortified soya drink the pantry needed, and it is better than the one it replaces**: at **200 mg calcium/100 ml** it carries roughly double a typical fortified drink (the retired M&S carton was ~120 mg) and its **4.32 g protein/100 ml** beats it too. ⚠ **No B12** — the M&S carton had it, this doesn't, so dishes built on it lose that contribution entirely. ⚠ The **stabiliser is unnamed**; it helps against acid curdling but **does not repeal the rule** — soy protein still flocculates near pH 4.5, so add off heat and never boil after. ⚠ Note the carton is **946 ml, not 1 litre** — recipes written for a round litre are ~5% short. Used in `recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md`.
+
+### Sweet / spreads
+
+- ✅ **Kaya (coconut jam) — Killiney "Singapore Kaya"** (barcode `8885004910843`, product of Singapore). Ingredients: **sugar, eggs, coconut milk, modified starch (E1442), pandan leaves extract** — no artificial sweetener, no chemical preservatives. ⚠ **Contains egg — vegetarian, not vegan.** ⚠ **Refrigerate after opening.** Per 100 g: **287 kcal, 4 g protein, 52.7 g carb (50.7 g sugars), 6.7 g fat (4.7 saturated), 0.7 g fibre, salt 0.12 g, cholesterol 101 mg.** Atwater lands 288 vs 287 declared — clean label, and the carb figure is already total (no fibre fold). **Label serving is 15 g = 43 kcal**, which is a realistic scrape on toast. Micros are a committed estimate from the reconstructed composition (~45% sugar, ~30% egg, ~20% coconut milk), which independently reproduces the declared protein, fat and cholesterol to within 5%. **Half of this jar by weight is sugar** — treat it as a condiment in gram quantities, not a spread applied by eye.
+
+### Fats / liquids
+
+- ✅ **Coconut cream — Ayam Brand "Pure Coconut Cream", 270 ml can.** Ingredients: **coconut kernel extract (100%)** — no gum, no emulsifier, no additives, vegan. Per 100 ml: **285 kcal, 3.1 g protein, 4.0 g carb (3.9 sugars), 28.5 g fat (25.5 saturated), sodium 19 mg.** Label is internally clean — Atwater lands on 285 exactly, so nothing needed reconstructing. **Two consequences of the missing gums, both practical.** It *separates in the can*, so the thick top layer can be cracked and used to fry a curry paste — the classic Thai method, and enough to replace added oil in a dish entirely. And it *splits more readily under hard heat* than a stabilised light coconut milk, so it must not boil. ⚠ This is **cream, not milk** — at 28.5% fat it is roughly **three times** the fat of the retired Biona Light 9% reference, so it is not a drop-in for recipes calibrated against that. Used in `recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md`.
+
+### Grains
+
+- ✅ **Black rice — Nature's Glory "Organic Black Wild Rice"** (1 kg, barcode `8888536273103`, product of Thailand, certified organic, non-GMO). ⚠ **The printed panel's macro rows are simply wrong.** It states, explicitly per 100 g: 363 kcal, carbohydrate 43.8 g, protein 4 g, fat 1.3 g — which Atwaters to **203 kcal, a 44% shortfall**. ⚠ **Corrected 2026-08-11 from a photo of the actual bag:** the label says *(100g)* for the whole block, so the earlier "macros are per ~55 g serving" reading was wrong even though its numbers were close by accident. The macro rows are understated by a factor of **1.79**; scaling them to meet the declared calories gives **78.4 g carb, 7.2 g protein, 2.3 g fat**, which Atwaters to 363.1 against 363 declared and sits close to literature black rice (~75 g carb, ~8.5 g protein, ~3.2 g fat). Fibre is not declared at all — use **~4.9 g/100 g**. **The micro rows appear correct as printed** and are used unscaled: calcium 13.1 mg, iron 2.0 mg, phosphorus 137.6 mg, B1 0.27 mg, B2 0.03 mg, B3 1.46 mg, vitamin E 0.24 mg. So it is the macro rows specifically that are in error, not the whole panel. Label cooking notes: wash 2–3×; 1 cup rice : 1.5 cups water; **pressure cook 45 min**, or soak overnight for a shorter cook.
+- ✅ **Pearl barley** (bought 2026-08-11, brand not recorded). USDA `170284`: 352 kcal, 9.9 g protein, 77.7 g carb, 15.6 g fibre, 1.2 g fat per 100 g dry. **Not interchangeable with the hulled barley or the oshimugi below** — pearl barley is the whole pearled grain and needs **19–22 min HP for pilaf, ~30 min for porridge**; oshimugi is steamed and rolled flat and cooks in a fraction of that. Barley's **3–8% beta-glucan** is higher than oats and is what makes it go creamy without cream; it also means it keeps thickening as it cools. Porridge: **40 min Low, natural release, 1 : 6 with UHT milk**, single load, loosened at the bowl with hot water if needed — see `TECHNIQUES.md` → overnight holds, which covers both the food-safety arithmetic and how to keep bite in it.
+- ✅ **Hulled (pot) barley — Karthika "Barley Seed"** (250 g, barcode `8906152232752`, product of India, from Little India). **This is the whole grain with only the inedible hull removed — bran and germ intact**, and it is the third barley product in this kitchen; do not conflate the three. Identified by direct comparison against a bag of Pasar pearl barley: the Karthika grains are visibly **tan, slimmer and pointed** where pearl barley is chalky white, plump and abraded smooth all over. No nutrition panel on the pack; valued at USDA `170283`: **354 kcal, 12.5 g protein, 73.5 g carb, 17.3 g fibre, 2.3 g fat** per 100 g dry. Against pearl barley that is **+26% protein and +11% fibre**.
+  **This is the porridge fix.** The intact bran is what holds chew through a 40-min cycle *and* an 8-hour hold, which pearled grain structurally cannot do. ⚠ **But it must be soaked** — Nussinow gives hulled barley at 25–35 min HP *soaked*, which is ~38–53 min at Low; unsoaked it is well beyond the 40-min cycle, since 40 min at Low is only ~27 min HP-equivalent. **Soak during the DAY** — inner vessel loaded with barley + UHT milk in the morning, fridge all day — **then the standard 40 min Low in the evening.** ⚠ Not an overnight soak: the overnight is the sterilised hold. Safety is unaffected either way — 40 min already delivers ~90 log reductions, and longer only adds margin (`TECHNIQUES.md`).
+- ✅ **Oshimugi (pressed barley) — Mugibijin**, 50 g sachets. Note the pack size: it drives the congee ratios (150 g black rice : 50 g barley : 800 g milk, pot-in-pot).
+
+---
+
+## ❓ Not confirmed — flag before relying on
+
+These were UK standing stock and/or are trivially available in Singapore, but **nobody has confirmed they're in this kitchen.** Treat every one as a question until it's been answered.
 
 ### Umami / fermented
 
-- **White miso (shiro)** — default miso for family meals. ~6% salt.
-- **Red miso (aka)** — adult-palate use; ~13% salt. See `TECHNIQUES.md` for substitution ratios.
-- **Tsuyu concentrate (Clearspring)** — ~8 g salt per 100 ml. Bottle-to-bottle variance — taste before committing. ⚠ Vegetarian check: many tsuyu contain katsuobushi (bonito = fish); confirm the bottle. Clearspring also sells a kombu-based vegan tsuyu.
-- **Dashi-soy sauce (Emma Basic)** — ~14 g salt per 100 ml. Stronger than Tsuyu. ⚠ Vegetarian check: confirm it's bonito-free; homemade kombu-shiitake dashi is the guaranteed-vegetarian alternative.
-- **Liquid aminos** — ~3 g salt per 30 ml. General-purpose savoury anchor.
-- **Nutritional yeast** — savoury, B-vitamin contribution.
-- **Shiitake powder** — dried shiitake mushrooms ground; deep umami boost without bulk. Guanylate source — pairs synergistically with kombu glutamate (see `TECHNIQUES.md`).
-- **Kombu (dried kelp)** — glutamate backbone for homemade dashi; the vegetarian alternative to bonito-based bottled dashi. Never boil. ~negligible salt. See `TECHNIQUES.md` for dashi method and the iodine caveat. Calcium-rich (relevant to bone-health flag).
-- **Hon-mirin (real, fermented mirin)** — ~14% alcohol; brings umami + glaze sheen, not just sweetness. Distinct from the "mirin-style seasoning" (aji-mirin) it replaces. Negligible salt. Cook off the alcohol (nikiri) before serving. See `TECHNIQUES.md`.
+- ❓ **White miso (shiro)** — the family default (not red). ~6% salt. Widely available; Japanese brands are cheaper here than in the UK.
+- ❓ **Red miso (aka)** — adult-palate only; ~13% salt.
+- ❓ **Liquid aminos** — ~3 g salt per 30 ml. Standing rule: out of aminos → **soy sauce stands in**. Light soy sauce is universal here and the obvious permanent replacement.
+- ❓ **Nutritional yeast** · ❓ **Shiitake powder** (guanylate; the salt-free seasoning lever) · ❓ **Kombu** (dried kelp — largely superseded by the dashi powder above for stock duty, but still wanted for the from-scratch method) · ❓ **Hon-mirin** (real fermented, not aji-mirin).
 
 ### Acid
 
-- **Lemons / limes** — for at-table acid (off main pot for Lara).
-- **Tamarind paste** — for West African, Mexican, Indian profiles.
-- **Rice vinegar** — for Korean / Japanese applications.
+- ❓ **Limes** — the at-table acid, kept off the main pot for Lara. Cheap and everywhere here.
+- ❓ **Tamarind** — ran out before the move. **Singapore is the easy place to fix this**: wet-market tamarind pulp and Thai/Indian paste are both cheap and better than the UK jar.
+- ❓ **Rice vinegar.**
 
 ### Spices and pastes
 
-- **Mild curry powder** (organic; turmeric, coriander, fennel, black pepper, yellow mustard, cumin) — **no chilli, no paprika**, so it's the most scorch-forgiving of the stocked spice mixes under high dry heat (air-frying, etc. — the acrid-burn failure mode comes from paprika/chilli sugars and capsaicin, both absent here). Label nutrition: 312 kcal, 12.4 g protein, 56 g carbs, 13.4 g fat, 28.7 g fibre, 1.2 g salt per 100 g; see `docs/INGREDIENT_MAP.md` for the full committed-estimate micro panel. Used in the shakshuka line (`design/SHAKSHUKA.md`) and the coconut-tomato veg curry — both previously called it "medium curry powder"; corrected to **mild**, its actual label name.
-- **Tikka masala** (and Madras — pick one per Indian recipe, not both)
-- **Smoked paprika** ⚠ Lara concern — keep in stock but treat as a flagged ingredient
-- **Sweet paprika**
-- **Ras el hanout**
-- **Harissa powder**
-- **Shichimi**
-- **Za'atar, sumac**
-- **Gochujang**
-- **Tom yum paste — Mae Ploy *VEGAN* (orange tub, VEGAN badge, 400 g, barcode `8850367994076`)**. ✅ **This is the vegan one; it is fine to use.** Mae Ploy sells two tom yum pastes and only the *standard* one contains shrimp paste, fish sauce and dried shrimp — **do not assume Holger's jar is that one, it isn't.** Ingredients: lemongrass 38.2%, galangal 9.6%, water 8.0%, shallot 6.9%, tamarind 6.4%, citric acid (E330) 5.3%, soybean oil 5.0%, salt 4.6%, garlic 4.2%, sugar 3.0%, fermented soybean paste 1.5%, hydrolyzed soy protein (HVP) 1.2%, kaffir lime peel 0.4% — **plus dried red chilli**, which appears in the German/Dutch/French ingredient lists on the tub but whose percentage was not legible in the photo (⚠ confirm from the jar; the non-vegan version declares 5.0%). Contains soy; no MSG, gluten free. Label: **244 kcal, 3.4 g protein, 22 g carb (19 g sugars), 15 g fat (2.3 g sat), 4.8 g fibre, salt 13.9 g per 100 g** — ⚠ the 13.9 g salt figure doesn't reconcile with the declared 4.6% salt; treat it as a conservative upper bound and taste. Its **tamarind content covers a tamarind stock-out**, and its fermented soy + HVP supply the glutamate that the shrimp/fish version gets from seafood. Used in `recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md`.
-- **Tom yum paste — HollyFarms "Tom Yum Koong" (227 g jar, barcode `8888260000235`, product of Thailand, Singapore market)**. ✅ **Vegetarian** — full ingredient list is *lemongrass, galanga, soya bean oil, chilli, sugar, water, kaffir lime leaves, onion, salt, citric acid (E330), monosodium glutamate (E621)*: **no shrimp paste, no fish sauce, no dried shrimp**. The name refers to the dish it makes, not the contents — the label's own directions tell you to *add* shrimp separately. Per 100 g: **333 kcal, ~0 g protein, 33.4 g carb (20 g sugars; label's 26.7 g folded with the 6.7 g fibre), 23.3 g fat, salt ~15.7 g**. Macros from Open Food Facts rather than a photographed panel, but corroborated — Atwater lands 330 vs the stated 333, and only reconciles if the carb figure excludes fibre. ⚠ As with the Mae Ploy jar, the declared salt is far higher than the ingredient order suggests (salt is 9th); some is MSG sodium counted as salt-equivalent, but it doesn't fully reconcile — treat as a conservative upper bound and taste.
-  **vs the Mae Ploy vegan jar, if swapping:** no tamarind (so it will *not* cover a tamarind stock-out), umami is **MSG rather than fermented soybean paste + HVP** (cleaner and flatter, less depth), no garlic, kaffir *leaves* rather than peel, and it is both saltier (15.7 vs 13.9 g/100 g) and much fattier (23.3 vs 15 g/100 g). A gram-for-gram swap raises salt by ~13% — 40 g in the tom yum curry would be ~6.3 g rather than ~5.6 g.
-- **Yellow curry paste (Mae Ploy)** — ~10% salt
-- **Green curry paste**
-- **Whole spices**: cumin seeds, mustard seeds (black/brown), coriander seeds, dried red chilies (bird's eye), chipotles, ancho flakes
-- **Ground spices**: turmeric, dried ginger powder, ground coriander, **cinnamon** (loads — ⚠ run-down use-up priority; favour cinnamon-friendly dishes before the move)
+- ❓ Mild curry powder (the organic no-chilli/no-paprika one — most scorch-forgiving under dry heat; label data in the archive) · ❓ tikka masala / Madras · ❓ **smoked paprika** ⚠ Lara flag, stays flagged · ❓ sweet paprika · ❓ ras el hanout · ❓ harissa powder · ❓ shichimi · ❓ za'atar · ❓ sumac · ❓ gochujang · ❓ Mae Ploy yellow (~10% salt) and green curry paste.
+- ❓ Whole: cumin, black/brown mustard, coriander seeds, bird's-eye chillies. ❓ Ground: turmeric, ginger, coriander, cinnamon.
+- **Sourcing note:** most of this is *cheaper and fresher* in Singapore than it was in the UK — Little India (Tekka, Mustafa) for the Indian and Middle Eastern end, any supermarket for the Thai pastes. The exceptions are the European/Levantine items (za'atar, sumac, ras el hanout, smoked paprika), which are speciality imports here and cost more than they did.
 
-### Aromatics (long-life forms)
+### Aromatics — **this section inverts**
 
-- **Lemongrass paste**
-- **Galangal paste**
-- **Makrut lime leaves** (dried or fresh)
-- **Dried ginger** — see `TECHNIQUES.md` for fresh-equivalent conversion
+The UK list carried lemongrass paste, galangal paste and dried ginger *because the fresh forms required a special trip*. That constraint is gone.
+
+- 🛒→✅ **Fresh lemongrass, galangal, turmeric, ginger, makrut lime leaves, pandan** are wet-market/supermarket staples here, cheap and fresh.
+- **Design consequence:** stop reaching for pastes by default. Where an old recipe says "lemongrass paste" or "galangal paste," a fresh substitute is now the better call, not the aspirational one. Conversion needs establishing per aromatic — treat the first few as calibration cooks and record the ratio in `TECHNIQUES.md`.
+- ❓ **Dried ginger powder** is still worth stocking for the shakshuka line (the fresh-equivalent conversion is in `TECHNIQUES.md`) — it's a different ingredient, not a compromise.
 
 ### Pulses and grains
 
-- **Amaranth**
-- **Kasha (toasted buckwheat)**
-- **Dried legumes** — black-eyed beans, butter beans, chickpeas, lentils, soybeans, pinto (rotated based on which recipes are in the queue). Pinto break down creamy when puréed — fat-free body for soups (see the Pinto–Butternut soup). Unsoaked: 20–25 min HP, natural release.
-- **Tinned beans** — kidney, butter, chickpea (for shortcut variants)
-- **Rice** — long-grain default
-- **Israeli (pearl) couscous** — toasted wheat pasta (Osem); chewier and lower-fibre than fine semolina couscous (~3.6 g/100 g), simmered 8–10 min not soaked. Used in the miso couscous bowl. Label: 364 kcal, 11 g protein, 78 g carb, 3.6 g fibre, 1.4 g fat, 0 salt per 100 g.
-- **3 Glocken "Die mag ich" alphabet egg-noodle soup pasta** (Suppen-Nudeln; German, durum wheat semolina + egg 10%; 250 g pack, cook 7–8 min; may contain traces of soya) — kid-friendly letter shapes for soups/broths. Label per 100 g (uncooked): **361 kcal, 13 g protein, 70 g carb, 3.0 g sugar, 3.0 g fibre, 2.5 g fat (0.5 g sat), salt 0.05 g**.
-- **Pressed barley (押麦, oshimugi), Kyushu-grown** — Japanese steamed-and-flattened pearl barley, sold as 50 g × 12 individually-portioned sachets (600 g total); pack instructions: stir one 50 g sachet into 3 gō (~540 g) of uncooked rice before cooking, for **麦ごはん (mugi gohan)**, barley rice. Genuine whole-grain fibre boost over plain white rice. ⚠ No nutrition panel visible on the pack photo — confirm label macros before treating as more than a generic pearl-barley estimate (~345 kcal, 10 g protein, 72 g carb, 15 g fibre per 100 g dry, typical for pressed/pearled barley).
+- ❓ Dried legumes — black-eyed beans, butter beans, chickpeas, lentils, soybeans, pinto (pinto purée as fat-free body for soups). Unsoaked: 20–25 min HP, natural release.
+- ❓ Tinned beans (kidney, butter, chickpea) for shortcut variants.
+- ❓ Rice — long-grain default. ❓ Amaranth · ❓ kasha.
+- 🛒 **Israeli couscous** and the **3 Glocken alphabet noodles** were UK/European buys; assume gone until replaced. The alphabet noodles in particular were a kid-specific item worth finding an equivalent for.
 
 ### Protein
 
-- **Silken tofu** — Lara note: blend smooth, never serve recognisable pieces (see `TECHNIQUES.md`)
-- **Firm tofu**
-- **Eggs** — for shakshuka / sauerkraut hash breakfasts
-- **Skim cottage cheese** — Indian Bake v2 side; same heat-sensitivity rule as silken tofu
-
-### Capers, pickled
-
-- **Capers**
-- **Sauerkraut** — for the sauerkraut hash + low-effort Mexican corn soup
+- ❓ **Silken tofu** — Lara rule: blend smooth, never serve recognisable pieces. Cheaper and better here; the supermarket silken tofu is a different quality tier from Mori-Nu cartons.
+- ❓ Firm tofu · ❓ eggs (shakshuka) · ❓ skim cottage cheese (⚠ likely harder to get and pricier here than in the UK — an import item, not a staple).
 
 ### Fats
 
-- **Avocado oil** — **default general-purpose cooking oil** (Holger's standard; neutral, high smoke point). Reach for this unless a recipe specifies otherwise. **Holger uses ≤3 g per dish** (limited-fat approach) — default to 3 g, not a tablespoon.
-- **Mild olive oil** — also stocked; interchangeable where a recipe says "olive oil."
-- **Sesame oil** — Japanese / Korean finishing
-- **Tahini** — confirmed in stock 2026-08-02. ~55 % fat, so treat as a flavour ingredient in gram quantities, not a sauce base, under the limited-fat approach. Levantine uses: carob + tahini (*dibs w'tahini*) is the canonical pairing — see the Levantine Bhuna shakshuka in `../design/SHAKSHUKA.md` — and it's the sesame partner to za'atar. ⚠ Seizes and can split in hot acidic liquid: slake with a spoonful of the hot sauce off heat before stirring in, then keep below a boil.
-- **Coconut milk** — standard reference: Biona Organic Light, 9% fat (see `TECHNIQUES.md`)
+- ❓ **Avocado oil** — was the default general-purpose oil. ⚠ **Expect this to be an expensive import here.** Standing rule that survives regardless of which oil: **≤3 g per dish** (limited-fat approach) — default to 3 g, never a tablespoon. If avocado oil is unreasonable, a neutral high-smoke-point local oil (rice bran, groundnut) takes the same role at the same dose; record whichever becomes the default.
+- ❓ Mild olive oil (import, pricier) · ❓ sesame oil (cheap here) · ❓ tahini (~55% fat, gram quantities only; seizes in hot acid — slake first).
+- ❓ **Coconut *milk*** — the 9%-fat reference was Biona Organic Light, a UK organic brand, and **several recipes are calibrated against that 9%**. The Ayam **cream** now stocked (see ✅ above) is 28.5% and does *not* substitute for it. **Still needs a local light/regular coconut milk recorded with its fat %.** Ayam make one in the same 270 ml can format, which would be the obvious thing to check first.
 
-### Dairy
+### Dairy / milks
 
-- **Soya drink — M&S Plant Kitchen Unsweetened** (1 L, barcode `0000000763103`). Water, soybeans 9%, calcium, flavouring, **stabiliser gellan gum (E418)**, sea salt, potassium iodide, B12, vitamin D. **Fortified** with calcium, iodine, vitamin D and B12 — so it counts toward the bone-health flag, unlike unfortified organic soya drinks. ~33 kcal, 3.3 g protein per 100 ml; contains a little added salt (~0.09 g/100 ml). ⚠ **Soy protein curdles in acid** (flocculates near pH 4.5, far less tolerant than dairy) — add off heat, after any acidic component is diluted, and never boil afterwards. The gellan gum helps but does not make it immune. Used in `recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md`.
-- **Milk** — default is **semi-skimmed** (milk.co.uk values: 47 kcal, 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml). Resolve a plain "milk" to this unless a recipe specifies whole/skimmed. See `docs/INGREDIENT_MAP.md`.
+- 🛒 **Milk default needs re-setting.** The old default was UK semi-skimmed at milk.co.uk values (47 kcal, 3.6 g protein, 1.8 g fat, 124 mg calcium per 100 ml). That resolution is dead — most fresh milk here is imported (Australia/Malaysia) and the panels differ. **Until a local carton is recorded, don't silently resolve a bare "milk" — ask.**
+- ✅ **Fortified soya drink: solved** — F&N NutriSoy, recorded above. Better on calcium and protein than the M&S carton it replaces, worse on B12 (it has none). The warning that prompted the search still holds for *other* brands: most Asian-market soya milk is unfortified and sweetened, so read the panel rather than assuming.
+
+### Vegetables — **the substitution that matters**
+
+- 🛒 **Spinach → Chinese spinach (bayam / 苋菜)** for the morning shakshuka. Closest drop-in: soft leaves that wilt identically, cheapest, most local. **Kangkong** is the more emblematically Singaporean option. **Bok choy is a structural mismatch** — the stems don't wilt, so you get crisp white ribs in a soft streaked-egg dish; workable only leaves-only, or with stems sliced thin and added early.
+  - ⚠ **Folate drops ~100 µg** with any of these swaps — spinach's 194 µg was about two-thirds of the shakshuka's total. Worth compensating elsewhere.
+  - ✅ **Calcium improves.** Bok choy and most local greens are **low-oxalate**, so their calcium is largely absorbable, unlike spinach's oxalate-bound 99 mg. Relevant to the bone-health flag.
+- ❓ Onions, garlic, the standing fresh-vegetable base — assume available, price differs (Western roots and brassicas are imports; Asian greens, gourds and roots are local and cheap).
 
 ### Specialised
 
-- **Defatted peanut flour** — for West African corn soup; thickens + adds peanut flavour without coconut-milk-level fat
-- **Goji berries**
-- **Cacao nibs, chia seeds** — for Post-Workout Cream (see `../design/SOLO-HOLGER.md`)
-- **Medjool dates**
-- **Stock cubes** — ~2.5 g salt per cube
+- ❓ Defatted peanut flour (West African corn soup thickener) · ❓ goji berries · ❓ cacao nibs + chia (Post-Workout Cream) · ❓ Medjool dates · ❓ stock cubes (~2.5 g salt each — largely superseded by the dashi powder).
+- 🛒 **BWFO seitan flour (vital wheat gluten)** — the large UK stock is gone. Available here but not a supermarket item.
 
 ---
 
-## Rotating / project-specific
+## Sourcing in Singapore
 
-These come in for a specific recipe iteration and may or may not be re-stocked:
+Replaces the UK's Buy Whole Foods Online / M&S / Ocado stack. `BWFO_GRAPHQL.md` still describes a working API but is no longer Holger's shop — treat its product data as historical reference.
 
-- **Shiitake (dried)** — used in Thai shiitake soup; restocked when the lineage is active
-- **Banana blossom** — historical use; not always in stock
-- **Specific dried chilies** (scotch bonnet, etc.) — bought for specific cooks
-- **BWFO Seitan Flour (vital wheat gluten)** ⚠ run-down use-up priority — large stock on hand, along with excess **onions**, **corn flour** and **rice flour**. See `recipes/oven-mains/pressure-steamed-seitan-sausage.md` (dough + crisp-dredge use of all four at once). See `docs/INGREDIENT_MAP.md` for nutrition.
+| Source | Best for | Notes |
+|---|---|---|
+| **NTUC FairPrice** | Everyday staples, house-brand basics | Densest coverage; house brands are the price floor for pantry basics |
+| **Nature's Glory** ([natures-glory.com](https://www.natures-glory.com/)) | Organic grains, pulses, Japanese/macrobiotic imports, dashi, miso | Bulk sizes (1 kg dashi, 500 g kombu) at a real per-kg discount; the black rice, oshimugi and dashi came from here |
+| **Sheng Siong** | Fresh produce, Asian staples | Usually cheaper than FairPrice on produce |
+| **Wet market** | Fresh aromatics, greens, tofu, tamarind pulp | Where the lemongrass/galangal/makrut economics change completely vs the UK |
+| **Mustafa / Tekka (Little India)** | Whole and ground spices, pulses, tamarind, Indian and Middle Eastern items | Bulk spice pricing far below UK supermarket |
+| **Zenxin** | Organic vegetables, bulk | Compared against Nature's Glory earlier — different catalogues; Zenxin is produce-led, Nature's Glory dry-goods-led |
+
+**What got cheaper:** aromatics, Asian greens, tofu, coconut milk, rice, spices, sesame oil, Japanese imports.
+**What got dearer:** dairy, avocado oil, olive oil, cottage cheese, berries, Western brassicas and roots, European/Levantine spices.
 
 ---
 
-## Not in stock (verify before assuming)
+## Open items
 
-- **Fresh herbs beyond coriander, parsley, spring onion** — check before designing recipes around basil, mint, dill, etc.
-- **Less-common Asian aromatics** (fresh galangal, fresh lemongrass stalks, fresh makrut lime leaves) — pastes are the default; fresh requires a shop trip.
-- **Cheese beyond cottage cheese / occasional feta-style** — Holger doesn't routinely cook with cheese.
+1. **Confirm the ❓ list.** The fastest path is Holger walking the shelves once; everything above then flips to ✅ or 🛒.
+2. **Record a local milk** (panel + barcode). ~~Fortified soya drink~~ — done, NutriSoy. Plain dairy "milk" still resolves to nothing.
+3. **Record a local light coconut *milk*** and its fat %, against the 9% reference several recipes assume. *(The Ayam **cream** is recorded, but at 28.5% it doesn't fill this slot.)*
+4. **Decide the default cooking oil** if avocado oil is priced out; the ≤3 g rule holds either way.
+5. **Calibrate fresh-vs-paste aromatic ratios** (lemongrass, galangal) and write them into `TECHNIQUES.md`.

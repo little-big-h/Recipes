@@ -56,7 +56,8 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 > ~245 mg, potassium ~1123 mg, folate ~54 µg (vitamin D/B12 negligible, per the
 > generic). Used in the shakshuka line (`design/SHAKSHUKA.md`) and the coconut-
 > tomato veg curry — both previously mislabeled "medium curry powder"; the real
-> product is **mild**. See `docs/PANTRY.md` for the stocked-item note.
+> product is **mild**. See `docs/archive/PANTRY-UK-TEDDINGTON.md` for the stocked-item
+> note (⚠ that was UK stock; unconfirmed in Singapore — `docs/PANTRY.md`).
 
 | Ingredient | foodID | Unit | kcal/100 | Source |
 |:-----------|:-------|:----:|--------:|:-------|

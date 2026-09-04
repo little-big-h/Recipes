@@ -1,0 +1,15 @@
+{
+  "name": "Sun-dried Shiitake Broth [04-09-26] ✴️",
+  "servings": 2,
+  "ingredients": [
+    {
+      "fdcId": 169242,
+      "grams": 30,
+      "note": "shiitake, sun-dried gills-up before use",
+      "patch": { "vitaminD": 17.6 },
+      "patchNote": "Sun-drying gills-up converts ergosterol to D2; the raw USDA record predates that step."
+    },
+    { "fdcId": 2709795, "grams": 100, "note": "onion, halved" },
+    { "fdcId": 169231, "grams": 10, "note": "ginger, sliced" }
+  ]
+}

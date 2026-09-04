@@ -30,10 +30,15 @@ won't guess) and the **current state**. Read this first if you're joining mid-st
   Commit and **push promptly** (`git push origin main`, retry with backoff on
   network errors). Don't sit on uncommitted work — it can vanish. Expect occasional
   fast-forward rejects / merge conflicts from the other agent; re-sync and re-apply.
-- **`.foodnoms` files are LZFSE-compressed JSON**, not text. Needs the `lzfse`
-  Python package (`pip install lzfse` — external, not a repo dependency). This is
-  the one sanctioned exception to the "Wolfram, never Python" rule: the codec is
-  file-I/O, not computation. Decode/encode one-liners are in `FOODNOMS_FORMAT.md` §2.
+- **`.foodnoms` files are JSON in a thin LZFSE container**, not text. The ones we
+  write are **uncompressed** (`'bvx-'` + length + raw JSON + `'bvx$'`), so
+  `tools/js` reads and writes them with no codec. Use
+  `node tools/js/cli.js build` to write and `lib/foodnoms-file.js`'s
+  `foodnomsDecode` to read; spec in `FOODNOMS_FORMAT.md` §2.
+  **There is no Python exception any more** — that carve-out existed only because
+  Wolfram has no LZFSE encoder, and is withdrawn. FoodNoms's *own* exports are
+  compressed (`bvxn`/`bvx2`) and cannot currently be read in-repo; re-export from
+  the app instead.
 - **Reading PDFs / label photos:** the `Read` tool needs `poppler-utils`
   (`apt-get install -y poppler-utils`) for `pdftoppm`/`pdftotext`. `pypdf` is
   installed but has a broken `_cffi_backend` in this env — use `pdftotext -layout`
@@ -41,10 +46,15 @@ won't guess) and the **current state**. Read this first if you're joining mid-st
 - **`WebFetch` 403s** on most retailer/manufacturer/USDA pages (bot/WAF blocking:
   milk.co.uk, clearspring.co.uk, fdc.nal.usda.gov, …). Fall back to **`WebSearch`**
   to recover label values, or fetch via the USDA **API** (below), not the website.
-- **Wolfram is the compute engine** (MCP `…WolframLanguageEvaluator`), per
-  CLAUDE.md. Used for nutrition math *and* USDA FDC API calls. It can be flaky —
-  wrap food-detail fetches in a retry (`While` loop, ~4 tries) and check
-  `AssociationQ` before parsing.
+  The *website* blocks bots; the **API** (`api.nal.usda.gov`) does not.
+- **`tools/js` is the nutrition engine** — USDA lookups, recipe totals and
+  `.foodnoms` assembly, all local (Node ≥ 20, zero dependencies). `cd tools/js &&
+  npm test` to check it. Retries and an on-disk USDA cache are built in; don't
+  hand-roll either.
+- **Wolfram is for charts and the timeline endpoint only** (MCP
+  `…WolframLanguageEvaluator`), per CLAUDE.md. It is no longer in the nutrition
+  path. `BuildFoodNomsRecipe` still hosts the download link and serves as an
+  independent cross-check — `cli.js build` diffs against it automatically.
 
 ---
 
@@ -54,10 +64,10 @@ won't guess) and the **current state**. Read this first if you're joining mid-st
   full per-100 nutrients). Human-readable table + provenance notes in
   `docs/INGREDIENT_MAP.md`. **Match a recipe ingredient by name here first**; only
   hit USDA when it's absent.
-- **New USDA lookups:** USDA FoodData Central API (key + `tools/fdc-lookup.wl`
-  helper documented in `docs/USDA_FDC.md`). Pattern in Wolfram: `foods/search` →
-  `food/{fdcId}?format=full` → pull energy (kcal) + macros + micros into a per-100
-  block. USDA "carbohydrate, by difference" **already includes fibre** (US-style).
+- **New USDA lookups:** `node tools/js/cli.js search "<name>"` then
+  `cli.js food <fdcId>` — documented in `docs/USDA_FDC.md`. It never auto-picks;
+  you judge the candidates and pin the id. USDA "carbohydrate, by difference"
+  **already includes fibre** (US-style).
 - **Building files:** `docs/FOODNOMS_FORMAT.md` is the spec (contentType /
   collectionType, fields, the **carbs convention**, and the **patch pattern** §11).
   `docs/RECIPE_NUTRITION_GENERATOR.md` is the end-to-end playbook.
@@ -79,12 +89,16 @@ won't guess) and the **current state**. Read this first if you're joining mid-st
 
 ## 4. Standing preferences / decisions (digest — full text in the linked docs)
 
-- **Pantry run-down** until the ~Aug 2026 Singapore move: use up stock, recommend
-  in-stock subs, **don't buy**. Cinnamon is a flagged use-up priority. (`CLAUDE.md`,
-  `PANTRY.md`.)
-- **Defaults:** avocado oil **≤3 g/dish**; "milk" → **semi-skimmed, milk.co.uk
-  values**; breakfast "passata" → the **Organic Chopped Tomatoes** tin (local
-  label). (`PANTRY.md`, `INGREDIENT_MAP.md`.)
+- **Restocking in Singapore** (the move happened, Aug 2026; the run-down is over —
+  buying is allowed). `PANTRY.md` was rebuilt from zero and marks every item
+  ✅ confirmed / ❓ unconfirmed / 🛒 absent; **only ✅ can be used without a flag.**
+  The UK list is retired at `archive/PANTRY-UK-TEDDINGTON.md` — label data, not
+  stock. (`CLAUDE.md`, `PANTRY.md`.)
+- **Defaults:** avocado oil **≤3 g/dish** (the dose rule survives even if the oil
+  changes); ⚠ **"milk" no longer resolves** — the semi-skimmed/milk.co.uk default
+  died with the move, so ask rather than assume; breakfast "passata" → the
+  **Organic Chopped Tomatoes** tin (UK label — also needs re-sourcing).
+  (`PANTRY.md`, `INGREDIENT_MAP.md`.)
 - **Family flags** (drive every family-meal seasoning decision): Lara — no in-pot
   acid, suspected smoked-paprika + warm-aromatic (cinnamon/cardamom/galangal)
   dislikes; Jannes (8) — heat-sensitive, dislikes fermented-forward (red miso) and
@@ -122,9 +136,13 @@ recipes/{soups,grains,oven-mains,stovetop-mains,salads}/   recipe .md files
 examples/                 .foodnoms samples (the canonical format references)
 tools/
   ingredient-map.json     the resolution database (per-100 nutrients by foodID)
-  fdc-lookup.wl           Wolfram USDA-fetch helper (source of truth)
+  js/                     THE nutrition tool: USDA lookup, totals, .foodnoms
+                          (cli.js + lib/ + tests; see tools/js/README.md)
+  fdc-lookup.wl           RETAINED FOR REFERENCE — the mapping spec lib/nutrients.js
+                          was ported from. Don't run it for new work.
   foodnoms-cloud.wl       DEPLOYED endpoint source: BuildFoodNomsRecipe + ResolveFDC
                           ($fnVersion + changelog; redeploy = Holger runs CloudDeploy as pirk0)
+                          Hosts the download link + the cross-check; no longer builds files.
 docs/BWFO_GRAPHQL.md      BuyWholeFoodsOnline product data via Magento GraphQL (curl+jq)
 Books/README.md           reference-book index (cite by page, like Nussinow)
 ```
@@ -134,6 +152,21 @@ Books/README.md           reference-book index (cite by page, like Nussinow)
 ## 6. State of play
 
 ### Update (2026-07-01) — endpoint is now directly reachable + testable
+
+- **⚠ Two separate quotas sit behind the endpoints — and both cost money when you retry.**
+  Diagnosed 2026-08-24 after an afternoon of escalating failures:
+  | symptom | meaning | what to do |
+  |:--|:--|:--|
+  | `400 "Failed to encode HTTPResponse"` | a **USDA FDC** lookup failed (free key is **~1000 req/day per IP**, and *every ingredient is one call*) | stop; wait for the daily reset, or swap `$FDCApiKey` |
+  | `531 "the owner's resource limit has been reached"` | **Wolfram Cloud** account resource limit | stop; wait, or top up credits |
+  | `503` + `Retry-After` (endpoint ≥ v6) | the same FDC failure, now reported honestly and naming the fdcId | as above |
+
+  **Never retry-until-200.** Each attempt bills Wolfram Cloud time and (on the FDC
+  path) burns more of the very quota that caused the failure. Before v6 the failure
+  was *silent* — a dead lookup left unevaluated expressions in the result, so the
+  per-ingredient failure rate `p` compounded to `1-(1-p)^n` for an n-ingredient
+  recipe. That reads as "big recipes are broken"; it is not a size limit. **Check
+  `emit=version` against `$fnVersion` before believing any of this is fixed live.**
 
 - **`wolframcloud.com` is allowlisted now.** The older note below ("container egress
   blocks wolframcloud, can't test the endpoint") is **obsolete** — you can `curl` the

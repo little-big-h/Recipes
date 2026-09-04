@@ -1,0 +1,13 @@
+{
+  "name": "recipes-nutrition-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local USDA FoodData Central lookup and recipe nutrition computation. Replaces the FDC-fetch and arithmetic halves of the Wolfram toolchain; Wolfram Cloud is kept for artifact hosting only.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  }
+}

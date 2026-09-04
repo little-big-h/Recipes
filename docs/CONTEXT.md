@@ -99,9 +99,11 @@ No other significant kitchen equipment used in recipes.
 
 ### Computation
 
-- **Use Wolfram, never Python** — explicit user preference
-- For numerical work in conversation: Wolfram Language code blocks
-- Standard Wolfram totals pattern for nutrition (documented in `RECIPE_FORMAT.md`)
+- **Never Python** — explicit user preference, no exceptions
+- **Nutrition and `.foodnoms`: `tools/js`** (local Node) — USDA lookup, recipe
+  totals, file assembly. See `RECIPE_NUTRITION_GENERATOR.md`
+- **Everything else numerical: Wolfram** — code blocks in conversation; charts and
+  the timeline endpoint per CLAUDE.md
 
 ### Communication style with the user
 

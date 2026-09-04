@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
-2. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
-3. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
-4. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
-5. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
-6. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
-7. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
-8. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
-9. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
-10. **[Miso Couscous Bowl with Air-Fried Tofu](recipes/stovetop-mains/miso-couscous-tofu-bowl.md)** — 2026-07-15
+1. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
+2. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
+3. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
+4. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
+5. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
+6. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
+7. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
+8. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
+9. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
+10. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
 
 ---
 
@@ -47,11 +47,13 @@ Reference docs for specific dish families and project infrastructure:
 - `design/SHAKSHUKA.md` — single-serving breakfast profiles (7 shakshuka variants + sauerkraut hash + bulk paste design)
 - `design/SOLO-HOLGER.md` — single-serving recipes for Holger alone (e.g. Post-Workout Cream); out of the ratings system
 - `design/CORN-SOUPS.md` — 7-profile corn soup matrix with predicted scores and prediction-vs-actual analysis
-- `docs/PANTRY.md` — staples always in stock; recipe-design reference
+- `docs/PANTRY.md` — Singapore pantry: what's in stock, marked ✅ confirmed / ❓ unconfirmed / 🛒 absent; recipe-design reference
+- `docs/archive/PANTRY-UK-TEDDINGTON.md` — the retired UK pantry; label data for products also sold here, and the stock list pre-Aug-2026 recipes were written against
 - `docs/EXPERIMENTS.md` — active hypothesis tests and ablation protocols (e.g. Lara smoked paprika, Japanese corn soup white-vs-red miso)
 - `docs/IDEAS.md` — recipe-idea backlog: external recipes to adapt + flavour directions to try, before they're speced or cooked
-- `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (LZFSE-compressed JSON); samples in `examples/`
-- `docs/USDA_FDC.md` — pulling authentic USDA nutrition via Wolfram → FoodNoms blocks; helper in `tools/fdc-lookup.wl`
+- `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (JSON in a thin LZFSE container); samples in `examples/`
+- `docs/USDA_FDC.md` — pulling authentic USDA nutrition into FoodNoms blocks; tool in `tools/js/`
+- `tools/js/README.md` — the nutrition tool itself: USDA lookup, recipe totals, `.foodnoms` generation, endpoint cross-check
 - `docs/BWFO_GRAPHQL.md` — pulling BuyWholeFoodsOnline product macros/price/URL via their Magento GraphQL API (curl + jq, GET not POST); ingredients aren't exposed
 - `docs/RECIPE_NUTRITION_GENERATOR.md` — playbook: recipe `.md` → USDA → `.foodnoms` file + written-back Nutrition table
 - `docs/MEAL_LOGGING.md` — logging *eaten* food: weigh-by-difference (before/after photos) → `.foodnoms` meal file; uncertainty policy (10 % weighed / 30 % photo-only)
@@ -78,16 +80,23 @@ Recipes/
 │   ├── RECIPE_FORMAT.md                       Recipe file format spec
 │   ├── TECHNIQUES.md                          Cooking techniques and gotchas
 │   ├── RATINGS.md                             Relational ratings database
-│   ├── PANTRY.md                              Staples-in-stock reference
+│   ├── PANTRY.md                              Singapore staples-in-stock reference
+│   ├── archive/PANTRY-UK-TEDDINGTON.md        Retired UK pantry (label data + historical stock)
 │   ├── EXPERIMENTS.md                         Hypothesis tests and ablation protocols
 │   ├── FOODNOMS_FORMAT.md                     .foodnoms file format spec
-│   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms (via Wolfram)
+│   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms blocks
 │   ├── BWFO_GRAPHQL.md                         BuyWholeFoodsOnline product data via GraphQL (curl)
 │   ├── RECIPE_NUTRITION_GENERATOR.md          Recipe -> USDA -> .foodnoms + Nutrition table
 │   └── Nussinow_Cooking_Times.md              Pressure-cooking reference
 │
 ├── tools/                                     Helper scripts
-│   └── fdc-lookup.wl                          USDA FDC fetch + map to FoodNoms (Wolfram)
+│   ├── js/                                    THE nutrition tool (Node): USDA lookup,
+│   │                                          recipe totals, .foodnoms generation
+│   ├── ingredient-map.json                    Resolution database (per-100 by foodID)
+│   ├── fdc-lookup.wl                          Reference only — the mapping spec ported
+│   │                                          into tools/js; don't run for new work
+│   └── foodnoms-cloud.wl                      Deployed endpoint source (hosts the
+│                                              download link + the cross-check)
 │
 ├── design/                                    Dish-family design libraries
 │   ├── CORN-SOUPS.md                          Corn soup 7-profile matrix
