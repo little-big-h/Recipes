@@ -11,12 +11,18 @@ import { resolveIngredient } from './ingredients.js';
  * A nutrient absent from the block stays absent: "not measured" must not become
  * a zero, or a recipe total silently understates.
  */
-export function scaleNutrients(block, quantity) {
+export function scaleNutrients(block, quantity, patch) {
   const base = block.baseAmount ?? 100;
   const factor = quantity / base;
   const out = {};
   for (const [k, v] of Object.entries(block.nutrients ?? {})) {
     if (typeof v === 'number') out[k] = v * factor;
+  }
+  // A patch adjusts the per-baseAmount composition, so it scales with the
+  // ingredient like every other nutrient. Leaving it out here would make the
+  // recipe totals disagree with the file the patched entry actually produces.
+  for (const [k, v] of Object.entries(patch ?? {})) {
+    if (typeof v === 'number') out[k] = (out[k] ?? 0) + v * factor;
   }
   return out;
 }
@@ -64,7 +70,12 @@ export async function computeRecipe(spec) {
       unit: ing.unit ?? block.baseUnit ?? 'gram',
       uncertainty: ing.uncertainty,
       note: ing.note,
-      scaled: scaleNutrients(block, quantity),
+      // The 3-tier weightless patch (FOODNOMS_FORMAT.md §11) — see patchTrio.
+      patch: ing.patch,
+      patchNote: ing.patchNote,
+      patchFoodID: ing.patchFoodID,
+      patchedFoodID: ing.patchedFoodID,
+      scaled: scaleNutrients(block, quantity, ing.patch),
     });
   }
 

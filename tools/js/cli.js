@@ -14,7 +14,7 @@ import { searchFoods, getFood, clearCache, FdcUnavailableError } from './lib/fdc
 import { toFoodNomsBlock } from './lib/nutrients.js';
 import { computeRecipe, incompleteNutrients } from './lib/recipe.js';
 import { buildFoodNomsUrl } from './lib/foodnoms-url.js';
-import { buildFoodNomsJson, foodnomsBytes } from './lib/foodnoms-file.js';
+import { buildFoodNomsJson, foodnomsBytes, cleanFilename } from './lib/foodnoms-file.js';
 import { verifyAgainstEndpoint } from './lib/verify.js';
 
 const USAGE = `Usage:
@@ -93,6 +93,13 @@ async function main() {
       const out = outIdx > -1 ? args[outIdx + 1] : file.name;
       await writeFile(out, foodnomsBytes(file.json));
       console.log(`wrote ${out} (${foodnomsBytes(file.json).length} bytes)`);
+      // A patch's companion files are separate .foodnoms files; their ids are
+      // deterministic, so writing them beside the recipe keeps the trio linked.
+      for (const c of file.companions ?? []) {
+        const path = `${cleanFilename(c.name)}.foodnoms`;
+        await writeFile(path, foodnomsBytes(c.json));
+        console.log(`  + companion (${c.kind}): ${path}`);
+      }
       for (const w of file.warnings) console.log(`  ⚠ ${w}`);
 
       if (args.includes('--no-verify')) break;

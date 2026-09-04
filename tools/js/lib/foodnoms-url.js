@@ -87,6 +87,34 @@ export function buildFoodNomsUrl(result, opts = {}) {
     includeUrls = false,
   } = opts;
 
+  // A patch is only expressible on the endpoint's fdcIds path — patchFor[] keys
+  // the patch columns off an fdcId, and the custom* path has no equivalent. So a
+  // patched ingredient goes through fdcIds/grams and the endpoint resolves that
+  // one from USDA itself; everything else still travels inline. The cost is real
+  // (that ingredient reintroduces a server-side FDC call), but a custom* URL
+  // would silently hand back an UNPATCHED file, which is worse.
+  const patchedIngs = result.ingredients.filter(
+    (i) => i.patch && Object.keys(i.patch).length > 0,
+  );
+  let patchColumns = null;
+  if (patchedIngs.length) {
+    patchColumns = {
+      fdcIds: [], grams: [], patchFdcIds: [], patchNutrientNames: [], patchDeltas: [],
+    };
+    for (const ing of patchedIngs) {
+      if (ing.block.fdcId == null) {
+        throw new Error(`${ing.block.name}: a patch needs a USDA-resolved ingredient (pin an fdcId)`);
+      }
+      patchColumns.fdcIds.push(ing.block.fdcId);
+      patchColumns.grams.push(num(ing.quantity));
+      for (const [k, v] of Object.entries(ing.patch)) {
+        patchColumns.patchFdcIds.push(ing.block.fdcId);
+        patchColumns.patchNutrientNames.push(k);
+        patchColumns.patchDeltas.push(num(v));
+      }
+    }
+  }
+
   const names = [];
   const foodIds = [];
   const quantities = [];
@@ -104,7 +132,9 @@ export function buildFoodNomsUrl(result, opts = {}) {
   let anyUrl = false;
   let anySource = false;
 
-  for (const ing of result.ingredients) {
+  // Patched ingredients already travel in the fdcIds column above; including
+  // them here too would duplicate the entry.
+  for (const ing of result.ingredients.filter((i) => !patchedIngs.includes(i))) {
     const { block } = ing;
     const keys = Object.keys(block.nutrients).filter(
       (k) => typeof block.nutrients[k] === 'number',
@@ -138,6 +168,13 @@ export function buildFoodNomsUrl(result, opts = {}) {
   }
 
   const params = new URLSearchParams();
+  if (patchColumns) {
+    params.set('fdcIds', patchColumns.fdcIds.join(','));
+    params.set('grams', patchColumns.grams.join(','));
+    params.set('patchFdcIds', patchColumns.patchFdcIds.join(','));
+    params.set('patchNutrientNames', patchColumns.patchNutrientNames.join(','));
+    params.set('patchDeltas', patchColumns.patchDeltas.join(','));
+  }
   params.set('name', result.name);
   if (result.servings != null) params.set('servings', String(result.servings));
   params.set('collectionType', String(collectionType));

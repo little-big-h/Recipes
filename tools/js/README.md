@@ -25,7 +25,7 @@ node cli.js compute examples/butternut-soup.json
 node cli.js build   examples/butternut-soup.json   # writes the .foodnoms file
 node cli.js url     examples/butternut-soup.json
 node cli.js cache-clear                     # drop cached USDA records
-npm test                                    # 50 tests, fully offline
+npm test                                    # 69 tests, fully offline
 ```
 
 ## Generating the file, and checking it
@@ -63,10 +63,6 @@ to ignore it. Numbers compare to a relative epsilon of 1e-6; the totals are
 diffed separately from the recipe JSON, since the totals are what a Nutrition
 block quotes.
 
-**Not ported: `patchTrio`** (the 3-tier weightless patch, FOODNOMS_FORMAT §11).
-The JS recipe spec has no way to express a patch, so no recipe can currently
-request one. If that changes, port it before use — do not hand-assemble one.
-
 `search` never auto-picks. Picking the top hit unseen is how "Squash, winter,
 butternut, raw" quietly becomes a butternut squash *soup* record — so the
 candidates are printed for a human, and the chosen `fdcId` gets pinned in the
@@ -96,6 +92,50 @@ recipe JSON.
 
 Totals are **whole-recipe** (CLAUDE.md). Per-serving is derived only when
 `servings` is given, and always printed alongside the total, never instead of it.
+
+## Patches (the 3-tier weightless patch, FOODNOMS_FORMAT §11)
+
+A USDA record is sometimes right about a food but missing a nutrient, or wrong
+about one. Editing the numbers in place would destroy the provenance — the entry
+would claim to be USDA record N while not matching it. So add a `patch`:
+
+```json
+{
+  "fdcId": 169242,
+  "grams": 30,
+  "patch": { "vitaminD": 17.6 },
+  "patchNote": "Sun-drying gills-up converts ergosterol to D2; the raw USDA record predates that step."
+}
+```
+
+`build` then writes three linked objects — the recipe plus two companion files:
+
+| | what it holds |
+|---|---|
+| the recipe entry | `(per100 + delta)/100` as **per-gram** nutrients (`baseAmount: 1`) |
+| `<food> Patch` | the delta **alone**, as a reusable 1-serving food |
+| `🩹 <food> #Patched` | 100 g of the **untouched** USDA food + one serving of the patch |
+
+So the arithmetic stays visible and auditable, and the USDA half is still exactly
+what USDA published. Companion ids are a stable hash of the food name, so a
+companion emitted in a later call still links to the recipe referencing it.
+`patchNote` defaults to a line naming the record and every adjustment.
+
+Two consequences worth knowing:
+
+- **A patched ingredient goes back through the endpoint's `fdcIds` column** in
+  the generated URL. `patchFor[]` keys the patch columns off an `fdcId` and the
+  `custom*` path has no equivalent, so that one ingredient reintroduces a
+  server-side FDC call. A `custom*` URL would silently hand back an *unpatched*
+  file, which is worse. Unpatched ingredients still travel inline.
+- **Ingredient order is regrouped** (patched first) when any patch is present,
+  because the endpoint builds the `fdcIds` column before the `custom*` one — if
+  the two sides disagreed, every `collectionSortIndex` would be off by one and
+  the cross-check would light up. `build` warns when it reorders.
+
+A patch on a non-USDA ingredient is refused: there is no provenance to preserve.
+
+Try it: `node cli.js build examples/patched-shiitake-broth.json`
 
 ## Why the endpoints were failing
 

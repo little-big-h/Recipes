@@ -72,6 +72,152 @@ const compact = (obj) =>
 /** The default serving for a standalone food: a bare 100-baseUnit metric weight. */
 const serving100 = (unit) => ({ unit, value: 100, traits: 1 });
 
+/** U+1FA79 (adhesive bandage) marks a patched food. Wolfram writes it \|01FA79. */
+const PATCHED_PREFIX = '\u{1FA79} ';
+
+/**
+ * The formal 3-tier weightless patch (FOODNOMS_FORMAT.md §11).
+ *
+ * A USDA record is sometimes right about a food's composition but missing a
+ * nutrient, or wrong about one. Editing the numbers in place would destroy the
+ * provenance — the entry would claim to be USDA record N while not matching it.
+ * So a patch is expressed as three linked objects instead:
+ *
+ *   patchFood    the delta alone, as a reusable 1-serving food ("X Patch")
+ *   patchedFood  a recipe combining 100 g of the untouched USDA food with one
+ *                serving of the patch — so the arithmetic is visible and auditable
+ *   entry        what the consuming recipe actually references, carrying
+ *                (per100 + delta)/100 as PER-GRAM nutrients
+ *
+ * The consuming entry is per-gram (baseAmount 1) rather than per-100 g because a
+ * patched food has no honest per-100 g USDA record to point at any more.
+ *
+ * Both companion ids default to a stable hash of the food name, so a companion
+ * file emitted in a later call still links to the recipe that references it.
+ */
+export function patchTrio(block, delta, quantity, note, patchID0, patchedID0, sortIndex) {
+  const oname = block.name;
+  const fdcId = block.fdcId;
+  const patchID = typeof patchID0 === 'string' && patchID0.trim() ? patchID0 : mkLocalID(`${oname}#patch`);
+  const patchedID =
+    typeof patchedID0 === 'string' && patchedID0.trim() ? patchedID0 : mkLocalID(`${oname}#patched`);
+  const per100 = block.nutrients ?? {};
+  const url = `https://fdc.nal.usda.gov/food-details/${fdcId}/nutrients`;
+  // A delta key absent from the USDA record CREATES that nutrient rather than
+  // adjusting it — worth surfacing, since it is usually a typo in the key.
+  const missing = Object.keys(delta).filter((k) => !(k in per100));
+
+  const perGram = {};
+  for (const k of new Set([...Object.keys(per100), ...Object.keys(delta)])) {
+    perGram[k] = ((per100[k] ?? 0) + (delta[k] ?? 0)) / 100;
+  }
+
+  const patchMeasure = { value: 1, unit: 'serving', traits: 1 };
+  const patchedName = `${PATCHED_PREFIX}${oname} #Patched`;
+
+  const patchFood = {
+    version: 2,
+    contentType: 3,
+    foods: [{
+      name: `${oname} Patch`,
+      foodID: patchID,
+      version: 1,
+      baseAmount: 1,
+      baseUnit: 'serving',
+      traits: 0,
+      isHidden: false,
+      brandOwner: 'Created by Claude',
+      nutrients: delta,
+      measures: [patchMeasure],
+    }],
+  };
+
+  const patchedFood = {
+    version: 2,
+    contentType: 2,
+    foodCollections: [{
+      name: patchedName,
+      collectionType: 3,
+      version: 1,
+      traits: 0,
+      totalServingSize: 100,
+      servingSizeUnit: 'gram',
+      servings: 1,
+      urlString: url,
+      notes: note,
+    }],
+    foodEntries: [
+      compact({
+        name: oname,
+        foodID: `foodnoms:usda:${fdcId}`,
+        version: 1,
+        baseAmount: 100,
+        baseUnit: 'gram',
+        traits: 0,
+        uncertainty: 0,
+        quantity: 100,
+        measure: { unit: 'gram', value: 1, traits: 0 },
+        nutrients: per100,
+        source: 'usda',
+        secondarySource: block.secondarySource,
+      }),
+      {
+        name: `${oname} Patch`,
+        foodID: patchID,
+        version: 1,
+        baseAmount: 1,
+        baseUnit: 'serving',
+        traits: 0,
+        uncertainty: 0,
+        quantity: 1,
+        brandOwner: 'Created by Claude',
+        nutrients: delta,
+        measure: { unit: 'serving', value: 1, traits: 1 },
+        measures: [patchMeasure],
+      },
+    ],
+  };
+
+  const entry = {
+    name: patchedName,
+    foodID: patchedID,
+    version: 1,
+    baseAmount: 1,
+    baseUnit: 'gram',
+    traits: 0,
+    uncertainty: 0,
+    quantity,
+    measure: { unit: 'gram', value: 1, traits: 0 },
+    measures: [{ descriptionText: 'serving', descriptionQuantity: 1, unit: 'gram', value: 100, traits: 0 }],
+    nutrients: perGram,
+    collectionSortIndex: sortIndex,
+  };
+
+  return { entry, patchFood, patchedFood, missing, patchedName };
+}
+
+/** The default patch note, naming the record and every adjustment. */
+export const defaultPatchNote = (fdcId, delta) =>
+  `USDA record ${fdcId} patched: ` +
+  Object.entries(delta).map(([k, v]) => `${k} +${v}`).join(', ') +
+  '.';
+
+/**
+ * Ingredients carrying a patch must sit in the endpoint's `fdcIds` column (the
+ * only column patchFor[] can key off), and the endpoint builds that whole column
+ * before the `custom*` one. So when any patch is present both sides have to
+ * agree on that grouping, or every entry's collectionSortIndex — and the diff —
+ * goes out by one.
+ *
+ * The split is by PATCH, not by fdcId: an unpatched USDA ingredient still
+ * travels inline through custom*, keeping its FDC lookup off the endpoint.
+ */
+export const isPatched = (ing) => Boolean(ing.patch && Object.keys(ing.patch).length > 0);
+
+export function endpointOrder(ingredients) {
+  return [...ingredients.filter(isPatched), ...ingredients.filter((i) => !isPatched(i))];
+}
+
 /**
  * One recipe-ingredient food entry.
  *
@@ -123,12 +269,60 @@ export function buildFoodNomsJson(result, opts = {}) {
   } = opts;
 
   const warnings = [];
-  const entries = result.ingredients.map((ing, i) =>
-    foodEntry(
-      { ...ing, uncertainty: ing.uncertainty ?? Math.round(defaultUnc) },
-      i,
-    ),
-  );
+  const entries = [];
+  const aux = [];
+
+  // Regroup only when a patch forces it — an unpatched recipe keeps the order
+  // Holger wrote, which is the order FoodNoms displays.
+  const patched = result.ingredients.some((i) => i.patch && Object.keys(i.patch).length > 0);
+  let ordered = result.ingredients;
+  if (patched) {
+    ordered = endpointOrder(result.ingredients);
+    if (ordered.some((ing, i) => ing !== result.ingredients[i])) {
+      warnings.push(
+        'ingredient order regrouped (USDA-resolved first) so the patch columns ' +
+          'line up with the endpoint',
+      );
+    }
+  }
+
+  ordered.forEach((raw, i) => {
+    const ing = { ...raw, uncertainty: raw.uncertainty ?? Math.round(defaultUnc) };
+    const delta = ing.patch;
+    if (!delta || Object.keys(delta).length === 0) {
+      entries.push(foodEntry(ing, i));
+      return;
+    }
+    if (ing.block.fdcId == null) {
+      // The patch's whole point is preserving a USDA record's provenance while
+      // adjusting it; there is nothing to preserve without one.
+      throw new Error(
+        `${ing.block.name}: a patch needs a USDA-resolved ingredient (pin an fdcId)`,
+      );
+    }
+    const note = ing.patchNote ?? defaultPatchNote(ing.block.fdcId, delta);
+    const trio = patchTrio(
+      ing.block, delta, ing.quantity, note, ing.patchFoodID, ing.patchedFoodID, i,
+    );
+    entries.push(
+      ing.uncertainty > 0
+        ? { ...trio.entry, uncertainty: Math.round(ing.uncertainty) }
+        : trio.entry,
+    );
+    aux.push(
+      { name: trio.patchFood.foods[0].name, kind: 'patchFood', json: trio.patchFood },
+      { name: trio.patchedName, kind: 'patchedFood', json: trio.patchedFood },
+    );
+    if (trio.missing.length) {
+      warnings.push(
+        `${ing.block.name}: patch created previously-missing key(s) ${JSON.stringify(trio.missing)}`,
+      );
+    }
+  });
+
+  // Companion files are separate .foodnoms files sharing deterministic ids, so
+  // the same name emitted in a later call still links up.
+  const auxRecs = aux.filter((r, i) => aux.findIndex((o) => o.name === r.name) === i);
 
   if (emit === 'food' || emit === 'fooddef') {
     if (entries.length > 1) {
@@ -172,6 +366,20 @@ export function buildFoodNomsJson(result, opts = {}) {
     return { name: `${cleanFilename(fe?.name ?? 'Food')}.foodnoms`, json, warnings };
   }
 
+  // emit=<companion name> renders one of the patch companions instead of the
+  // recipe. Unknown targets fall back to the recipe with the menu in a warning,
+  // rather than 404-ing on a name the caller cannot guess.
+  if (emit !== 'recipe') {
+    const hit = auxRecs.find((r) => r.name === emit);
+    if (hit) {
+      return { name: `${cleanFilename(hit.name)}.foodnoms`, json: hit.json, warnings };
+    }
+    warnings.push(
+      `emit target ${JSON.stringify(emit)} not found; emitted the recipe instead. ` +
+        `Available: ${JSON.stringify(['recipe', ...auxRecs.map((r) => r.name)])}`,
+    );
+  }
+
   const totalSize =
     totalServingSize ?? entries.reduce((a, e) => a + (e.quantity ?? 0), 0);
 
@@ -187,12 +395,23 @@ export function buildFoodNomsJson(result, opts = {}) {
           servingSizeUnit: 'gram',
           servings: result.servings ?? 1,
         };
-  if (warnings.length) collection.notes = `⚠ ${warnings.join(' | ')}`;
+  // There is no JSON envelope around a .foodnoms file — the response body IS the
+  // file — so anything a caller would have read from one is carried in the
+  // recipe collection's notes instead.
+  const notes = [
+    warnings.length ? `⚠ ${warnings.join(' | ')}` : null,
+    auxRecs.length
+      ? 'Companion .foodnoms files (re-request with emit=<name>, identical ingredients): ' +
+        auxRecs.map((r) => `"${r.name}"`).join(', ')
+      : null,
+  ].filter(Boolean).join('\n');
+  if (notes !== '') collection.notes = notes;
 
   return {
     name: `${cleanFilename(result.name)}.foodnoms`,
     json: { version: 2, contentType: 2, foodCollections: [collection], foodEntries: entries },
     warnings,
+    companions: auxRecs.map((r) => ({ name: r.name, kind: r.kind, json: r.json })),
   };
 }
 
