@@ -34,11 +34,23 @@ Under regimes 2 and 3 the "after" reading may be **mostly vessel** (a cleaned pl
 3. **Build** a FoodNoms meal file via the deployed **`BuildFoodNomsRecipe`** endpoint — one **custom food entry per dish**, `customQuantities` = eaten grams.
 
 > ⚠ **Never decompose a photographed restaurant dish into its ingredients.** One dish = **one** entry, with a single whole-dish per-100 g estimate. Do *not* resolve the lettuce, the carrot, the oil and the dressing to separate `fdcIds` and log them as a fan of entries — the split is invented, it adds no accuracy, it clutters the diary, and long multi-`fdcId` calls are exactly what makes the endpoint fall over. Ingredient-level breakdowns are for **recipes Holger cooks** (known weights), never for a plate that arrived from a kitchen he didn't stand in. *(Holger, twice, emphatic.)*
- **Pass `collectionType=2`** so it emits a *meal* (`collectionType 2`, no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back the **download link** (the endpoint *is* the file creator).
+ **Set `collectionType: 2`** so it emits a *meal* (no yield fields), not a recipe — a meal logs each dish into the diary separately, which is what eaten food wants. Hand back both the written file and its **download link**.
 
-> **Live endpoint.** The `collectionType=2` (meal) switch is **deployed and live** (verified 2026-06-21): a meal call returns `collectionType 2` with no yield fields. Per-entry uncertainty tiers (0/10/30) are now set **inline** via the `customUncertainties` / `fdcUncertainties` columns (aligned with each ingredient group), so a single call yields a correctly-tiered meal file — no kernel patching. See Uncertainty policy below.
+> **Per-entry uncertainty.** Tiers (0/10/30) are set **inline**, one per ingredient — an `"uncertainty"` field in the recipe JSON, or the `customUncertainties` / `fdcUncertainties` columns on a hand-built URL. A single build yields a correctly-tiered meal file; there is no post-hoc patching step. See Uncertainty policy below.
 
-> **Egress.** `wolframcloud.com` **is now in** the container's network allowlist (added 2026-06-27), so the simplest path is to **`curl` the endpoint directly**: `curl -o meal.foodnoms '…/BuildFoodNomsRecipe?…'` for the raw file bytes, or add `-H 'Accept: application/json'` to get the decoded entries + computed totals back (verify resolution + totals without cracking the `bvx-` container — see `RECIPE_NUTRITION_GENERATOR.md`). *Fallback* (rare) — only for a kernel-only session or if egress is ever withdrawn: build the bytes in Wolfram, bridge them out with `BaseEncode[byteArray]`, then `base64 -d` locally — don't `Normal[]` the ByteArray first (that base64-encodes the *text* "{98, 118, …}", not the bytes).
+> **Building the file (updated 2026-09-04).** Write a recipe JSON with
+> `"foodnoms": {"collectionType": 2}` and an `"uncertainty"` on **every**
+> ingredient, then `node tools/js/cli.js build meal.json`. The file is written
+> locally — USDA lookup, totals and assembly all happen on this machine — and
+> automatically cross-checked against the endpoint when it is up. Do **not**
+> `curl` the endpoint to produce the file (`CLAUDE.md` hard rule); the endpoint's
+> own USDA lookups are the thing that used to make long multi-`fdcId` calls fall
+> over. Hand back the **download link** from `cli.js url` alongside the file.
+>
+> *Superseded:* this note previously said `curl`-ing `BuildFoodNomsRecipe`
+> directly was the simplest path, with a Wolfram `BaseEncode` bridge as fallback.
+> Both are obsolete — `api.nal.usda.gov` is reachable directly, so nothing needs
+> to be bridged out of a kernel.
 
 ---
 

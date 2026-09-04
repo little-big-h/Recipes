@@ -51,8 +51,9 @@ Reference docs for specific dish families and project infrastructure:
 - `docs/archive/PANTRY-UK-TEDDINGTON.md` — the retired UK pantry; label data for products also sold here, and the stock list pre-Aug-2026 recipes were written against
 - `docs/EXPERIMENTS.md` — active hypothesis tests and ablation protocols (e.g. Lara smoked paprika, Japanese corn soup white-vs-red miso)
 - `docs/IDEAS.md` — recipe-idea backlog: external recipes to adapt + flavour directions to try, before they're speced or cooked
-- `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (LZFSE-compressed JSON); samples in `examples/`
-- `docs/USDA_FDC.md` — pulling authentic USDA nutrition via Wolfram → FoodNoms blocks; helper in `tools/fdc-lookup.wl`
+- `docs/FOODNOMS_FORMAT.md` — spec for generating `.foodnoms` files (JSON in a thin LZFSE container); samples in `examples/`
+- `docs/USDA_FDC.md` — pulling authentic USDA nutrition into FoodNoms blocks; tool in `tools/js/`
+- `tools/js/README.md` — the nutrition tool itself: USDA lookup, recipe totals, `.foodnoms` generation, endpoint cross-check
 - `docs/BWFO_GRAPHQL.md` — pulling BuyWholeFoodsOnline product macros/price/URL via their Magento GraphQL API (curl + jq, GET not POST); ingredients aren't exposed
 - `docs/RECIPE_NUTRITION_GENERATOR.md` — playbook: recipe `.md` → USDA → `.foodnoms` file + written-back Nutrition table
 - `docs/MEAL_LOGGING.md` — logging *eaten* food: weigh-by-difference (before/after photos) → `.foodnoms` meal file; uncertainty policy (10 % weighed / 30 % photo-only)
@@ -83,13 +84,19 @@ Recipes/
 │   ├── archive/PANTRY-UK-TEDDINGTON.md        Retired UK pantry (label data + historical stock)
 │   ├── EXPERIMENTS.md                         Hypothesis tests and ablation protocols
 │   ├── FOODNOMS_FORMAT.md                     .foodnoms file format spec
-│   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms (via Wolfram)
+│   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms blocks
 │   ├── BWFO_GRAPHQL.md                         BuyWholeFoodsOnline product data via GraphQL (curl)
 │   ├── RECIPE_NUTRITION_GENERATOR.md          Recipe -> USDA -> .foodnoms + Nutrition table
 │   └── Nussinow_Cooking_Times.md              Pressure-cooking reference
 │
 ├── tools/                                     Helper scripts
-│   └── fdc-lookup.wl                          USDA FDC fetch + map to FoodNoms (Wolfram)
+│   ├── js/                                    THE nutrition tool (Node): USDA lookup,
+│   │                                          recipe totals, .foodnoms generation
+│   ├── ingredient-map.json                    Resolution database (per-100 by foodID)
+│   ├── fdc-lookup.wl                          Reference only — the mapping spec ported
+│   │                                          into tools/js; don't run for new work
+│   └── foodnoms-cloud.wl                      Deployed endpoint source (hosts the
+│                                              download link + the cross-check)
 │
 ├── design/                                    Dish-family design libraries
 │   ├── CORN-SOUPS.md                          Corn soup 7-profile matrix

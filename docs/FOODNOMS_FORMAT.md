@@ -44,55 +44,49 @@ The payload is UTF-8 JSON wrapped in an **Apple LZFSE** stream. You can confirm
 a file is LZFSE by its block magic: it starts with `bvx2` (entropy-coded) or
 `bvxn` (LZVN) and ends with the terminator `bvx$`.
 
-LZFSE is **not** available in Wolfram, and producing the file is file I/O rather
-than nutrition computation, so the project's "Wolfram, not Python" rule does not
-apply here — use the small Python utility below purely as the codec. It depends
-on the `lzfse` package (`pip install lzfse`), which is an external tool, **not** a
-dependency of this repo.
-
-**Decode** (read an existing file):
-
-```python
-import lzfse, json
-obj = json.loads(lzfse.decompress(open("Spinach (Raw).foodnoms", "rb").read()))
-print(json.dumps(obj, indent=2, ensure_ascii=False))
-```
-
-**Encode** (write a new file from a Python dict / JSON):
-
-```python
-import lzfse, json
-data = { ... }   # the JSON object described below
-blob = lzfse.compress(json.dumps(data, ensure_ascii=False).encode("utf-8"))
-open("My Food.foodnoms", "wb").write(blob)
-```
-
-**Writing without Python — uncompressed LZFSE block.** LZFSE *compression* isn't
-available in Wolfram, but the container also permits an **uncompressed block**, which
-Apple's decoder (and liblzfse) accept — and this is **verified to import into FoodNoms**
-(Holger, 2026-06-12). FoodNoms's own exports are compressed (`bvxn` LZVN or `bvx2`
-LZFSE-v2 — across the `examples/` corpus, all of them), but all three block types decode
-through the same Apple LZFSE reader, so an uncompressed `bvx-` file is a fully valid
-`.foodnoms`. It's pure byte assembly — no codec, no Python — so Wolfram emits one directly:
+**We never compress, so we never need a codec.** The container permits an
+**uncompressed block**, which Apple's decoder (and liblzfse) accept, and which is
+**verified to import into FoodNoms** (Holger, 2026-06-12):
 
 ```
 'bvx-'  +  uint32 little-endian raw-JSON length  +  raw UTF-8 JSON  +  'bvx$'
 ```
 
-```wolfram
-foodnomsBytes[a_] := Module[{j = ExportByteArray[a, "RawJSON"]},
-  ByteArray @ Join[ToCharacterCode["bvx-"], Reverse @ IntegerDigits[Length[j], 256, 4],
-                   Normal[j], ToCharacterCode["bvx$"]]];
-(* write: BinaryWrite[name, foodnomsBytes[obj]]; Close[name] *)
+That is pure byte assembly — a 12-byte wrapper around plain JSON. `tools/js`
+writes and reads it directly:
+
+```bash
+node tools/js/cli.js build recipe.json          # write
 ```
 
-This is what `../tools/foodnoms-cloud.wl` and the `BuildFoodNomsRecipe` Cloud Object
-emit — the endpoint now returns these bytes **as the raw HTTP response body** (no Base64,
-no JSON envelope), so `curl -o recipe.foodnoms …` writes the file directly. The result is
-uncompressed (a few KB — fine for recipes) and therefore looks like plain JSON in a thin
-`bvx-`…`bvx$` wrapper; that's by design. `foodnomsDecode` (in `foodnoms-cloud.wl`) is the
-Wolfram reader for it; the Python `lzfse` snippet above still reads FoodNoms's *compressed*
-exports.
+```js
+import { foodnomsDecode, foodnomsTotals } from './tools/js/lib/foodnoms-file.js';
+const j = foodnomsDecode(readFileSync('recipe.foodnoms'));   // -> the JSON object
+foodnomsTotals(j);                                           // -> 16 slots + salt
+```
+
+The uncompressed result is a few KB — fine for recipes — and looks like plain
+JSON in a thin `bvx-`…`bvx$` wrapper. That is by design, not a bug.
+
+> **Superseded: the Python carve-out.** This section used to say the codec was
+> file I/O rather than computation, so the "never Python" rule "does not apply
+> here", and gave `import lzfse` encode/decode snippets. **That exemption is
+> withdrawn** — it was only ever needed because Wolfram has no LZFSE encoder, and
+> nothing we write is compressed in the first place. `tools/js` covers both
+> directions with no dependency. Never Python, no exceptions (`CLAUDE.md`).
+
+**Reading FoodNoms's own exports.** Those *are* compressed — `bvxn` (LZVN) or
+`bvx2` (LZFSE-v2), which is all of them across the `examples/` corpus — and
+`foodnomsDecode` refuses them loudly rather than parsing compressed bytes as
+UTF-8 JSON. There is currently **no decompressor in this repo**. To read one,
+open it in FoodNoms and re-export, or add an LZFSE reader if this becomes a real
+need. All three block types decode through the same Apple reader, so an
+uncompressed `bvx-` file we write is a fully valid `.foodnoms` either way.
+
+The Wolfram endpoint emits the same bytes as the raw HTTP response body (no
+Base64, no JSON envelope), so `curl -o recipe.foodnoms …` on a
+`BuildFoodNomsRecipe` link writes the file directly — that is what makes the
+embedded download link work.
 
 The endpoint's `totalServingSize=<grams>` query param sets the recipe's cooked yield
 explicitly (e.g. when water boils off); omit it and the yield defaults to Σ ingredient
@@ -536,40 +530,50 @@ carries no meaning, so this costs nothing.
 Author a tiny custom food in the common **entry form** (`contentType 1`) and
 write the file:
 
-```python
-import lzfse, json, uuid
+Normally you would write a recipe JSON and run `cli.js build`
+(`RECIPE_NUTRITION_GENERATOR.md`). This shows the layer underneath, for when you
+need a shape the CLI does not model — here, a custom `measures[]` entry:
 
-food = {
-    "version": 2,
-    "contentType": 1,
-    "foodEntries": [{
-        "name": "Tahini (Light)",
-        "foodID": f"local:{str(uuid.uuid4()).upper()}",
-        "version": 1,
-        "baseAmount": 100,
-        "baseUnit": "gram",
-        "traits": 0,
-        "uncertainty": 0,
-        "quantity": 100,
-        "measure": {"unit": "gram", "value": 1, "traits": 0},
-        "nutrients": {
-            "calories": 595, "protein": 17, "carbs": 21, "fat": 54,
-            "fatSaturated": 7.6, "fiber": 9.3, "sodium": 30, "calcium": 426
-        },
-        "measures": [
-            {"descriptionQuantity": 1, "descriptionText": "tbsp", "unit": "gram", "value": 15, "traits": 0}
-        ]
-    }]
-}
+```js
+// round-trip.mjs — run with: node round-trip.mjs
+import { writeFileSync, readFileSync } from 'node:fs';
+import { foodnomsBytes, foodnomsDecode, mkLocalID }
+  from './tools/js/lib/foodnoms-file.js';
 
-blob = lzfse.compress(json.dumps(food, ensure_ascii=False).encode("utf-8"))
-open("Tahini (Light).foodnoms", "wb").write(blob)
+const food = {
+  version: 2,
+  contentType: 1,
+  foodEntries: [{
+    name: 'Tahini (Light)',
+    foodID: mkLocalID('Tahini (Light)'),   // stable: same seed -> same id
+    version: 1,
+    baseAmount: 100,
+    baseUnit: 'gram',
+    traits: 0,
+    uncertainty: 0,
+    quantity: 100,
+    measure: { unit: 'gram', value: 1, traits: 0 },
+    nutrients: {
+      calories: 595, protein: 17, carbs: 21, fat: 54,
+      fatSaturated: 7.6, fiber: 9.3, sodium: 30, calcium: 426,
+    },
+    measures: [
+      { descriptionQuantity: 1, descriptionText: 'tbsp', unit: 'gram', value: 15, traits: 0 },
+    ],
+  }],
+};
 
-# verify it round-trips
-assert json.loads(lzfse.decompress(blob))["foodEntries"][0]["name"] == "Tahini (Light)"
+writeFileSync('Tahini (Light).foodnoms', foodnomsBytes(food));
+
+// verify it round-trips
+const back = foodnomsDecode(readFileSync('Tahini (Light).foodnoms'));
+console.assert(back.foodEntries[0].name === 'Tahini (Light)');
 ```
 
 The resulting `Tahini (Light).foodnoms` imports into FoodNoms as a custom food.
+
+Note `mkLocalID` in place of a random UUID: it hashes a seed, so re-running this
+produces the **same** `foodID` rather than a new food each time.
 
 ---
 

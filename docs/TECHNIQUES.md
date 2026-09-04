@@ -453,6 +453,16 @@ Sync line colours: use a darkened version of the triggering device's colour, or 
 
 ## Wolfram Cloud recipe-nutrition endpoints
 
+> **⚠ Not the way to build a file any more (2026-09-04).** Use
+> `node tools/js/cli.js build <recipe.json>` — USDA lookup, totals and assembly
+> all happen locally (`CLAUDE.md` hard rule). These endpoints now do two things
+> only: **host the clickable download link** (`cli.js url` generates it) and
+> provide an **independent cross-check** that `cli.js build` runs automatically.
+> `ResolveFDC` is superseded by `cli.js search`, which is cached and does not
+> spend the endpoint's FDC quota. Full playbook:
+> `RECIPE_NUTRITION_GENERATOR.md`; the reference below is kept for the parameter
+> shapes and the design rationale.
+
 Turning a list of USDA ingredients into a `.foodnoms` recipe is deployed as **two**
 Cloud Objects, parallel to the timeline endpoint above. They are split on purpose:
 **resolution** (fuzzy name → candidates, to be judged) is a different operation from
