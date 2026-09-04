@@ -4,6 +4,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { scaleNutrients, sumNutrients, computeRecipe, incompleteNutrients } from '../lib/recipe.js';
 import { buildFoodNomsUrl } from '../lib/foodnoms-url.js';
+import { findInMap, resolveIngredient } from '../lib/ingredients.js';
 
 const block = (name, nutrients, extra = {}) => ({
   name,
@@ -124,6 +125,25 @@ test('URL omits optional columns that would be entirely blank', () => {
   const params = new URLSearchParams(new URL(buildFoodNomsUrl(result)).search);
   assert.equal(params.get('customUncertainties'), null);
   assert.equal(params.get('customBrands'), null);
+  assert.equal(params.get('customBarcodes'), null);
+});
+
+test('a barcode on a block reaches the URL, aligned with the custom* columns', () => {
+  // Regression: barcodes survived in the curated map and in the written file,
+  // but were dropped from the URL — so the cross-check compared a file that
+  // carried a barcode against an endpoint build that could not have one, and
+  // the difference was invisible because the column was simply absent.
+  const withBarcode = {
+    ...result,
+    ingredients: [
+      { ...result.ingredients[0], block: block('Oat Milk', { calories: 45 }, { barcode: '8885022700006' }) },
+      { ...result.ingredients[0], block: block('Squash', { calories: 45 }) },
+    ],
+  };
+  const params = new URLSearchParams(new URL(buildFoodNomsUrl(withBarcode)).search);
+  // One slot per custom entry, blank where the food has none.
+  assert.equal(params.get('customBarcodes'), '8885022700006;');
+  assert.equal(params.get('customNames').split(';').length, 2);
 });
 
 test('a semicolon in free text is rejected at build time', () => {
@@ -248,4 +268,26 @@ test('per-entry uncertainties are emitted when any ingredient carries one', () =
   };
   const params = new URLSearchParams(new URL(buildFoodNomsUrl(withUnc)).search);
   assert.equal(params.get('customUncertainties'), '10');
+});
+
+// --- curated-map resolution -------------------------------------------------
+
+test('a curated entry carries its barcode through to the block', async () => {
+  // The map exists largely for label-read packaged items, and a barcode is the
+  // field that lets FoodNoms match a scan. blockFromMapEntry used to drop it,
+  // so `ref`-ing a barcoded pantry item produced an unbarcoded food.
+  const hit = await findInMap('Kecap Manis (Chi Wan)');
+  assert.equal(hit.barcode, '4002239604307');
+});
+
+test('an inline barcode overrides the curated one', async () => {
+  const hit = await resolveIngredient({ ref: 'Kecap Manis (Chi Wan)', barcode: '9999999999999' });
+  assert.equal(hit.barcode, '9999999999999');
+});
+
+test('a curated entry without a barcode leaves the field absent, not empty', async () => {
+  // An empty string would emit a blank `barcode` into the file; absent is the
+  // honest encoding of "this food has no barcode".
+  const hit = await findInMap('Oil (Avocado)');
+  assert.equal(hit.barcode, undefined);
 });

@@ -32,6 +32,10 @@ function blockFromMapEntry(entry) {
     source: entry.source ?? undefined,
     secondarySource: entry.secondary ?? undefined,
     brandOwner: entry.brand ?? undefined,
+    // A label-read packaged item earns its place in the map partly *because* it
+    // has a barcode; dropping it here would silently strip the one field that
+    // lets FoodNoms match a scan against this food.
+    barcode: entry.barcode ?? undefined,
     baseAmount: entry.baseAmount ?? 100,
     baseUnit: entry.baseUnit ?? 'gram',
     nutrients: entry.per100 ?? {},
@@ -70,6 +74,9 @@ export async function resolveIngredient(spec) {
       foodID: `foodnoms:usda:${spec.fdcId}`,
       source: 'usda',
       secondarySource: secondarySource(block.dataType),
+      // A USDA generic has no barcode, but a recipe may pin one for the actual
+      // pack used. An inline barcode always wins over the block's.
+      barcode: spec.barcode ?? block.barcode,
     };
   }
   const ref = spec.ref ?? spec.name;
@@ -82,5 +89,5 @@ export async function resolveIngredient(spec) {
         `candidates, then pin the fdcId.`,
     );
   }
-  return hit;
+  return spec.barcode ? { ...hit, barcode: spec.barcode } : hit;
 }

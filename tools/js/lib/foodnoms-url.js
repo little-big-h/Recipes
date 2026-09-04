@@ -123,12 +123,14 @@ export function buildFoodNomsUrl(result, opts = {}) {
   const nutrientValues = [];
   const uncertainties = [];
   const brands = [];
+  const barcodes = [];
   const urls = [];
   const sources = [];
   const secondarySources = [];
 
   let anyUncertainty = false;
   let anyBrand = false;
+  let anyBarcode = false;
   let anyUrl = false;
   let anySource = false;
 
@@ -154,6 +156,9 @@ export function buildFoodNomsUrl(result, opts = {}) {
 
     if (block.brandOwner) anyBrand = true;
     brands.push(assertSafe(block.brandOwner, 'brandOwner'));
+
+    if (block.barcode) anyBarcode = true;
+    barcodes.push(assertSafe(block.barcode, 'barcode'));
 
     if (block.source || block.secondarySource) anySource = true;
     sources.push(assertSafe(block.source, 'source'));
@@ -207,6 +212,8 @@ export function buildFoodNomsUrl(result, opts = {}) {
   // in an already long URL.
   if (anyUncertainty) params.set('customUncertainties', uncertainties.join(';'));
   if (anyBrand) params.set('customBrands', brands.join(';'));
+  // customBarcodes landed in endpoint v7, so it needs no version gate.
+  if (anyBarcode) params.set('customBarcodes', barcodes.join(';'));
   if (anyUrl) params.set('customUrls', urls.join(';'));
   // v7 would reject these as unknown parameters, so they are gated too.
   if (anySource && endpointVersion >= 8) {

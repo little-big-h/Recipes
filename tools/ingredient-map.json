@@ -1999,6 +1999,30 @@
   "secondary": null,
   "source": null
  },
+ "local:3F1C8A62-7D4E-4B19-9E5A-0C2B7A6D8E41": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Gardenia",
+  "foodID": "local:3F1C8A62-7D4E-4B19-9E5A-0C2B7A6D8E41",
+  "name": "Wholemeal Bread, Fine Grain (Gardenia)",
+  "per100": {
+   "calcium": 104.0,
+   "calories": 232.0,
+   "carbs": 46.5,
+   "fat": 2.9,
+   "fatSaturated": 1.4,
+   "fiber": 7.5,
+   "iron": 6.6,
+   "niacin": 5.7,
+   "protein": 13.0,
+   "riboflavin": 0.6,
+   "sodium": 323.0,
+   "sugars": 4.0,
+   "thiamin": 1.0
+  },
+  "secondary": null,
+  "source": null
+ },
  "local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51": {
   "baseAmount": 1500,
   "baseUnit": "gram",
