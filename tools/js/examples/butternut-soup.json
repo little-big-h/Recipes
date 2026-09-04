@@ -1,0 +1,15 @@
+{
+  "name": "Butternut & Red Lentil Soup [04-09-26] ✴️",
+  "servings": 4,
+  "ingredients": [
+    { "fdcId": 169295, "grams": 900, "note": "butternut squash, peeled & cubed" },
+    { "fdcId": 172420, "grams": 200, "note": "red lentils, dry" },
+    { "fdcId": 2709795, "grams": 220, "note": "onion, diced" },
+    { "fdcId": 2709660, "grams": 150, "note": "carrot, diced" },
+    { "fdcId": 2709786, "grams": 20, "note": "garlic" },
+    { "fdcId": 169231, "grams": 15, "note": "ginger" },
+    { "fdcId": 2705413, "grams": 300, "note": "coconut milk" },
+    { "fdcId": 2709614, "grams": 80, "note": "spinach, stirred in at the end" },
+    { "ref": "Oil (Avocado)", "grams": 20, "note": "for the sofrito" }
+  ]
+}
