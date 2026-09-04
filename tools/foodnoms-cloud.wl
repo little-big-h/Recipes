@@ -560,7 +560,9 @@ resolveFDC[spec_Association] := Module[{qs, n},
 
      fdcIds,grams                          -- USDA ingredients
      patchFdcIds,patchNutrientNames,patchDeltas  -- sparse per-100g patches
-     custom* (6 arrays, ';'-separated; nutrient arrays nested ';'/',')  -- non-USDA foods
+     custom* (';'-separated; nutrient arrays nested ';'/',')  -- foods sent inline
+     nutrientNameSets,customNutrientSetIds  -- intern table for the repeated
+                                               nutrient-key lists (v8, optional)
 
    specFromParams stitches the columns back into the row-shaped spec that
    buildFoodNomsRecipe already consumes, after a length-alignment guard. *)
@@ -592,8 +594,61 @@ addMeta[base_, url_, note_, brand_, barcode_] := Module[{b = base},
    b = Append[b, "barcode" -> StringTrim[barcode]]];
   b];
 
+(* attach USDA provenance to a PASSTHROUGH food. passthroughFoodEntry has always
+   read "source"/"secondarySource" off the ingredient, but no query parameter set
+   them -- so a caller that resolved USDA itself and sent the nutrients inline
+   (the custom* path) produced entries indistinguishable from hand-typed ones,
+   even when it knew the exact fdcId. That is now the normal way to build a
+   recipe: tools/js resolves FDC locally so this endpoint never touches the
+   network (see tools/js/README.md), and without these two columns doing so
+   silently downgraded provenance. Blank omits, so the columns stay optional. *)
+addSource[base_, src_, sec_] := Module[{b = base},
+  If[StringQ[src] && StringTrim[src] =!= "", b = Append[b, "source" -> StringTrim[src]]];
+  If[StringQ[sec] && StringTrim[sec] =!= "",
+   b = Append[b, "secondarySource" -> StringTrim[sec]]];
+  b];
+
 (* a per-custom-food string column, padded to "" when omitted (length 0) *)
 strCol[col_, n_] := If[Length[col] === n, col, ConstantArray["", n]];
+
+(* ---- nutrient-name interning -------------------------------------------------
+   customNutrientNames repeats the SAME ~35 keys for every ingredient, and it is
+   the single largest thing in the query string: measured on a 9-ingredient
+   recipe it was 3260 of 5776 chars (53%) -- while carrying only 3 DISTINCT key
+   sets. Since the whole point of the custom* path is to keep the FDC call off
+   this endpoint, and that means shipping nutrients through the URL, that column
+   is what decides how many ingredients fit before a recipe hits a server's
+   query-length limit (commonly 8 KB).
+
+   So: send each distinct key set once in `nutrientNameSets`, and give each food
+   a 1-based index into it via `customNutrientSetIds`.
+
+   Backward compatible by construction -- when customNutrientSetIds is empty this
+   returns customNutrientNames untouched, which is every existing caller and all
+   52 recipe URLs currently in the repo. The two forms are mutually exclusive
+   rather than merged: a caller that sent both would have two disagreeing sources
+   of truth for the same column and no way to say which wins. *)
+resolveNutrientNames[a_] := Module[
+  {ids = a["customNutrientSetIds"], sets = a["nutrientNameSets"],
+   n = Length[a["customNames"]]},
+  If[ids === {}, Return[a["customNutrientNames"], Module]];
+  If[a["customNutrientNames"] =!= {},
+   Return[Failure["internConflict", <|"err" ->
+      "customNutrientSetIds and customNutrientNames are mutually exclusive: \
+send the nutrient names EITHER once each in nutrientNameSets (indexed by \
+customNutrientSetIds) OR inline per food in customNutrientNames"|>], Module]];
+  If[sets === {},
+   Return[Failure["internConflict", <|"err" ->
+      "customNutrientSetIds given but nutrientNameSets is empty"|>], Module]];
+  If[Length[ids] =!= n,
+   Return[Failure["internConflict", <|"err" ->
+      "customNutrientSetIds must be the same length as the custom* arrays"|>], Module]];
+  If[! AllTrue[ids, IntegerQ[#] && 1 <= # <= Length[sets] &],
+   Return[Failure["internConflict", <|"err" -> StringJoin[
+      "every customNutrientSetIds entry must be a 1-based index into \
+nutrientNameSets (1..", ToString[Length[sets]], "); got ",
+      ToString[ids]]|>], Module]];
+  sets[[#]] & /@ ids];
 
 (* foodID for a custom food: the caller's id if given, else a STABLE local: UUID
    derived by hashing name | brand | caloric density (per-100g calories). Same
@@ -608,18 +663,25 @@ foodIDfor[given_, name_, brand_, nutr_] :=
       ToString @ Lookup[nutr, "calories", ""]}, "|"]];
 
 (* parsed params (columns) -> the row-shaped spec, or a Failure if columns misalign *)
-specFromParams[a_] := Module[{errs = {}},
+specFromParams[a_] := Module[{errs = {}, nn},
+  (* Resolve the interned form (nutrientNameSets + customNutrientSetIds) to a
+     plain per-food name list FIRST, so every guard and the builder below see one
+     shape and neither has to know interning exists. Its own errors are returned
+     immediately rather than accumulated: with the column unresolved, the
+     length guards would all fire too and bury the real cause. *)
+  nn = resolveNutrientNames[a];
+  If[FailureQ[nn], Return[nn, Module]];
   If[Length[a["fdcIds"]] =!= Length[a["grams"]],
    AppendTo[errs, "fdcIds and grams must be equal length"]];
   If[! Equal @@ Length /@ {a["patchFdcIds"], a["patchNutrientNames"], a["patchDeltas"]},
    AppendTo[errs, "patchFdcIds/patchNutrientNames/patchDeltas must be equal length"]];
   If[! Equal @@ Length /@ {a["customNames"], a["customQuantities"],
-       a["customUnits"], a["customNutrientNames"], a["customNutrientValues"]},
+       a["customUnits"], nn, a["customNutrientValues"]},
    AppendTo[errs, "all custom* arrays must be equal length"]];
   (* customFoodIds is OPTIONAL: empty -> every id auto-derived from name|brand|kcal *)
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customFoodIds"]]],
    AppendTo[errs, "customFoodIds must be empty (auto-derived) or the same length as the custom* arrays"]];
-  If[(Length /@ a["customNutrientNames"]) =!= (Length /@ a["customNutrientValues"]),
+  If[(Length /@ nn) =!= (Length /@ a["customNutrientValues"]),
    AppendTo[errs, "each custom food's nutrient names/values must match in length"]];
   (* per-entry uncertainty columns are OPTIONAL: each must be empty (use the
      meal-wide default) or exactly its group's length *)
@@ -636,6 +698,11 @@ specFromParams[a_] := Module[{errs = {}},
    AppendTo[errs, "customBrands must be empty or the same length as the custom* arrays"]];
   If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customBarcodes"]]],
    AppendTo[errs, "customBarcodes must be empty or the same length as the custom* arrays"]];
+  (* optional USDA-provenance columns: empty or aligned, like every other one *)
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customSources"]]],
+   AppendTo[errs, "customSources must be empty or the same length as the custom* arrays"]];
+  If[! MemberQ[{0, Length[a["customNames"]]}, Length[a["customSecondarySources"]]],
+   AppendTo[errs, "customSecondarySources must be empty or the same length as the custom* arrays"]];
   If[errs =!= {}, Return[Failure["badLengths", <|"err" -> StringRiffle[errs, "; "]|>]]];
   Join[
    <|"name" -> a["name"], "servings" -> a["servings"], "emit" -> a["emit"],
@@ -645,19 +712,25 @@ specFromParams[a_] := Module[{errs = {}},
          addUnc[<|"fdcId" -> #1, "quantity" -> #2, "patch" -> patchFor[#1, a]|>, #3] &,
          {a["fdcIds"], a["grams"], uncCol[a["fdcUncertainties"], Length[a["fdcIds"]]]}],
        MapThread[
-         Function[{nm, fid0, qty, un, nn, nv, unc, url, note, brand, barcode},
-          With[{nutr = AssociationThread[nn -> nv]},
-           addUnc[addMeta[<|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
-              "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
-             url, note, brand, barcode], unc]]],
+         (* `nnames`, not `nn` -- the enclosing Module already binds nn to the
+            resolved name column, and shadowing it here would read as a bug. *)
+         Function[{nm, fid0, qty, un, nnames, nv, unc, url, note, brand, barcode,
+            src, sec},
+          With[{nutr = AssociationThread[nnames -> nv]},
+           addUnc[addSource[addMeta[
+              <|"name" -> nm, "foodID" -> foodIDfor[fid0, nm, brand, nutr],
+                "quantity" -> qty, "unit" -> un, "nutrients" -> nutr|>,
+              url, note, brand, barcode], src, sec], unc]]],
          {a["customNames"], strCol[a["customFoodIds"], Length[a["customNames"]]],
           a["customQuantities"], a["customUnits"],
-          a["customNutrientNames"], a["customNutrientValues"],
+          nn, a["customNutrientValues"],
           uncCol[a["customUncertainties"], Length[a["customNames"]]],
           strCol[a["customUrls"], Length[a["customNames"]]],
           strCol[a["customNotes"], Length[a["customNames"]]],
           strCol[a["customBrands"], Length[a["customNames"]]],
-          strCol[a["customBarcodes"], Length[a["customNames"]]]}]]|>,
+          strCol[a["customBarcodes"], Length[a["customNames"]]],
+          strCol[a["customSources"], Length[a["customNames"]]],
+          strCol[a["customSecondarySources"], Length[a["customNames"]]]}]]|>,
    (* totalServingSize only when a number was supplied, else the builder's
       ingredient-sum fallback must win (Missing would break its Lookup default) *)
    If[NumberQ[a["totalServingSize"]], <|"totalServingSize" -> a["totalServingSize"]|>, <||>]]];
@@ -709,8 +782,23 @@ specFromParams[a_] := Module[{errs = {}},
          it to match a scanned pack to the food -- but there was no way to set
          one through this endpoint, so every packaged product we built was
          unscannable. Now aligned with the other custom* columns.
+     v8  Two changes, both serving the same shift: FDC resolution moved OUT of
+         this endpoint and into tools/js (local Node), so a recipe now arrives
+         via the custom* path with nutrients already inline and this endpoint
+         makes no network call at all. v6 made the built-in FDC fetch survivable;
+         v8 makes not needing it the normal path.
+         (a) customSources / customSecondarySources. passthroughFoodEntry always
+             read source/secondarySource off the ingredient, but nothing could
+             SET them, so a caller that knew the exact fdcId still produced
+             entries indistinguishable from hand-typed ones. Now settable.
+         (b) nutrientNameSets + customNutrientSetIds -- intern the repeated
+             nutrient-key lists. customNutrientNames was 53% of a 9-ingredient
+             URL (3260 of 5776 chars) while holding only 3 distinct key sets, and
+             query length is what caps how many ingredients fit.
+         Both are opt-in and default to {}: existing callers, and all 52 recipe
+         URLs in the repo, are unaffected.
    (pre-versioning: vitamin-D read fixed to micrograms, not the IU row.) *)
-$fnVersion = 7;
+$fnVersion = 8;
 
 foodnomsAPI = APIFunction[
    {"name" -> opt["String", "Untitled Recipe"], "servings" -> opt["Integer", 1],
@@ -746,7 +834,23 @@ foodnomsAPI = APIFunction[
        size is fixed at 100 baseUnit for standalone foods (see emit=food/fooddef),
        so there's no serving-size param -- FoodNoms forces per-serving on import. *)
     "customBrands"       -> opt[DelimitedSequence["String", ";"], {}],
-    "customBarcodes"     -> opt[DelimitedSequence["String", ";"], {}]},
+    "customBarcodes"     -> opt[DelimitedSequence["String", ";"], {}],
+    (* optional USDA provenance for a passthrough food, aligned with the custom*
+       arrays. `customSources` is normally "usda"; `customSecondarySources` takes
+       the .foodnoms dataType slug (foundation_food / sr_legacy_food /
+       survey_fndds_food -- see fdcSecondarySource). Set these when the CALLER
+       resolved FDC and is sending the nutrients inline, so the entry is not
+       downgraded to an anonymous custom food just because this endpoint did not
+       do the lookup itself. *)
+    "customSources"           -> opt[DelimitedSequence["String", ";"], {}],
+    "customSecondarySources"  -> opt[DelimitedSequence["String", ";"], {}],
+    (* optional interned nutrient-name table -- see resolveNutrientNames. Send
+       each DISTINCT key set once here, and index into it (1-based) per food with
+       customNutrientSetIds, instead of repeating the same ~35 keys inline for
+       every ingredient. Omit both to keep the inline customNutrientNames form. *)
+    "nutrientNameSets" ->
+      opt[DelimitedSequence[DelimitedSequence["String", ","], ";"], {}],
+    "customNutrientSetIds" -> opt[DelimitedSequence["Integer", ";"], {}]},
    Module[{spec = specFromParams[#], r, accept, wantJson, body},
      If[#["emit"] === "version",
       (* lightweight version probe (no ingredients needed): compare the returned

@@ -17,12 +17,18 @@
 // serving a stable URL that mints the .foodnoms file on click — and stops doing
 // the job that made it fail.
 //
-// KNOWN PROVENANCE GAP: the endpoint exposes no `customSources` parameter, so a
-// passthrough entry cannot carry `source: "usda"` / `secondarySource` the way
-// `usdaFoodEntry` sets them. We pin `customFoodIds` to `foodnoms:usda:<fdcId>`
-// so the record still points at the right USDA food, but closing the gap fully
-// needs one endpoint change (add customSources/customSecondarySources). See
-// tools/js/README.md.
+// Endpoint v8 (drafted in tools/foodnoms-cloud.wl, NOT yet deployed) adds two
+// things this client can use, both gated behind `endpointVersion` so nothing is
+// emitted that the live endpoint would reject:
+//
+//   customSources / customSecondarySources — carry `source: "usda"` on a
+//     passthrough entry. Until v8 is live, provenance rests on customFoodIds
+//     alone (`foodnoms:usda:<fdcId>`), which identifies the record but does not
+//     mark it USDA-sourced.
+//   nutrientNameSets / customNutrientSetIds — send each distinct nutrient-key
+//     list once and index into it, instead of repeating ~35 keys per ingredient.
+//
+// Probe the live endpoint with `?emit=version` before raising the default.
 
 export const ENDPOINT = 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe';
 
@@ -61,6 +67,9 @@ function assertSafe(value, field) {
  * @param {number} [opts.uncertainty]    collection-wide default tier
  * @param {string} [opts.emit]           'recipe' | 'food' | 'fooddef' | 'version'
  * @param {boolean} [opts.includeUrls]   attach FDC provenance URLs (default false)
+ * @param {number} [opts.endpointVersion] live endpoint's $fnVersion (default 7).
+ *   Raise to 8 once tools/foodnoms-cloud.wl is redeployed — verify first with
+ *   `curl '<endpoint>?emit=version' -H 'Accept: application/json'`.
  */
 export function buildFoodNomsUrl(result, opts = {}) {
   const {
@@ -68,6 +77,7 @@ export function buildFoodNomsUrl(result, opts = {}) {
     uncertainty,
     emit,
     totalServingSize,
+    endpointVersion = 7,
     // Off by default. It costs ~60 chars per ingredient against a query string
     // that is already the binding constraint, FoodNoms drops urlString on a
     // standalone food import anyway, and machine-readable provenance is already
@@ -86,10 +96,13 @@ export function buildFoodNomsUrl(result, opts = {}) {
   const uncertainties = [];
   const brands = [];
   const urls = [];
+  const sources = [];
+  const secondarySources = [];
 
   let anyUncertainty = false;
   let anyBrand = false;
   let anyUrl = false;
+  let anySource = false;
 
   for (const ing of result.ingredients) {
     const { block } = ing;
@@ -112,6 +125,10 @@ export function buildFoodNomsUrl(result, opts = {}) {
     if (block.brandOwner) anyBrand = true;
     brands.push(assertSafe(block.brandOwner, 'brandOwner'));
 
+    if (block.source || block.secondarySource) anySource = true;
+    sources.push(assertSafe(block.source, 'source'));
+    secondarySources.push(assertSafe(block.secondarySource, 'secondarySource'));
+
     const url =
       includeUrls && block.fdcId
         ? `https://fdc.nal.usda.gov/food-details/${block.fdcId}/nutrients`
@@ -132,7 +149,21 @@ export function buildFoodNomsUrl(result, opts = {}) {
   params.set('customFoodIds', foodIds.join(';'));
   params.set('customQuantities', quantities.join(';'));
   params.set('customUnits', units.join(';'));
-  params.set('customNutrientNames', nutrientNames.join(';'));
+
+  if (endpointVersion >= 8) {
+    // Intern the repeated key lists. Real recipes reuse a handful of distinct
+    // sets across many ingredients (9 foods, 3 sets in the worked example), so
+    // this is where the query-length headroom comes from.
+    const setIndex = new Map();
+    const ids = nutrientNames.map((keys) => {
+      if (!setIndex.has(keys)) setIndex.set(keys, setIndex.size + 1); // 1-based
+      return setIndex.get(keys);
+    });
+    params.set('nutrientNameSets', [...setIndex.keys()].join(';'));
+    params.set('customNutrientSetIds', ids.join(';'));
+  } else {
+    params.set('customNutrientNames', nutrientNames.join(';'));
+  }
   params.set('customNutrientValues', nutrientValues.join(';'));
   // Optional columns are omitted entirely when unused: the endpoint accepts an
   // empty column or one aligned with custom*, and an all-blank column is noise
@@ -140,6 +171,11 @@ export function buildFoodNomsUrl(result, opts = {}) {
   if (anyUncertainty) params.set('customUncertainties', uncertainties.join(';'));
   if (anyBrand) params.set('customBrands', brands.join(';'));
   if (anyUrl) params.set('customUrls', urls.join(';'));
+  // v7 would reject these as unknown parameters, so they are gated too.
+  if (anySource && endpointVersion >= 8) {
+    params.set('customSources', sources.join(';'));
+    params.set('customSecondarySources', secondarySources.join(';'));
+  }
 
   return `${ENDPOINT}?${params.toString()}`;
 }

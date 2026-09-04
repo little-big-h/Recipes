@@ -155,6 +155,92 @@ test('collectionType defaults to recipe and is overridable for a meal log', () =
   assert.equal(asMeal.get('collectionType'), '2');
 });
 
+// --- endpoint v8 opt-ins ----------------------------------------------------
+
+const usda = (name, fdcId, nutrients) =>
+  block(name, nutrients, {
+    fdcId,
+    foodID: `foodnoms:usda:${fdcId}`,
+    source: 'usda',
+    secondarySource: 'sr_legacy_food',
+  });
+
+const twoSets = {
+  name: 'Interning test',
+  ingredientCount: 3,
+  ingredients: [
+    { block: usda('A', 1, { calories: 10, protein: 1 }), quantity: 100, unit: 'gram' },
+    { block: usda('B', 2, { calories: 20, protein: 2 }), quantity: 100, unit: 'gram' },
+    { block: usda('C', 3, { calories: 30, iron: 5 }), quantity: 100, unit: 'gram' },
+  ],
+};
+
+test('v7 default emits neither v8 parameter, so live URLs keep working', () => {
+  const params = new URLSearchParams(new URL(buildFoodNomsUrl(twoSets)).search);
+  assert.equal(params.get('nutrientNameSets'), null);
+  assert.equal(params.get('customNutrientSetIds'), null);
+  assert.equal(params.get('customSources'), null);
+  assert.equal(params.get('customNutrientNames'), 'calories,protein;calories,protein;calories,iron');
+});
+
+test('v8 interns distinct nutrient-key sets and indexes them 1-based', () => {
+  const params = new URLSearchParams(new URL(buildFoodNomsUrl(twoSets, { endpointVersion: 8 })).search);
+  // Two distinct sets across three foods; the repeated one is sent once.
+  assert.equal(params.get('nutrientNameSets'), 'calories,protein;calories,iron');
+  assert.equal(params.get('customNutrientSetIds'), '1;1;2');
+  // The inline form must NOT also be sent — the endpoint rejects both together.
+  assert.equal(params.get('customNutrientNames'), null);
+  // Values stay per food.
+  assert.equal(params.get('customNutrientValues'), '10,1;20,2;30,5');
+});
+
+test('v8 carries USDA provenance the custom* path could not express', () => {
+  const params = new URLSearchParams(new URL(buildFoodNomsUrl(twoSets, { endpointVersion: 8 })).search);
+  assert.equal(params.get('customSources'), 'usda;usda;usda');
+  assert.equal(params.get('customSecondarySources'), 'sr_legacy_food;sr_legacy_food;sr_legacy_food');
+});
+
+test('v8 omits the provenance columns when no ingredient has any', () => {
+  const params = new URLSearchParams(new URL(buildFoodNomsUrl(result, { endpointVersion: 8 })).search);
+  assert.equal(params.get('customSources'), null);
+});
+
+test('v8 interning shrinks the nutrient-name column whenever sets repeat', () => {
+  const nameCol = (u, ...keys) => {
+    const p = new URLSearchParams(new URL(u).search);
+    return keys.reduce((n, k) => n + encodeURIComponent(p.get(k) ?? '').length, 0);
+  };
+  const v7 = nameCol(buildFoodNomsUrl(twoSets), 'customNutrientNames');
+  const v8 = nameCol(
+    buildFoodNomsUrl(twoSets, { endpointVersion: 8 }),
+    'nutrientNameSets',
+    'customNutrientSetIds',
+  );
+  assert.ok(v8 < v7, `name column: expected v8 (${v8}) < v7 (${v7})`);
+});
+
+test('v8 shortens a realistic recipe overall, provenance columns included', () => {
+  // The toy cases above do NOT shrink overall: with two nutrients per food,
+  // interning saves a few chars while customSources/customSecondarySources add
+  // ~190. The saving only outruns that at a realistic key count — which is the
+  // case that matters, since URL length only binds on big recipes.
+  const KEYS = Object.fromEntries(
+    Array.from({ length: 35 }, (_, i) => [`nutrientNumber${i}`, i + 0.5]),
+  );
+  const big = {
+    name: 'Realistic',
+    ingredientCount: 9,
+    ingredients: Array.from({ length: 9 }, (_, i) => ({
+      block: usda(`Ingredient ${i}`, 1000 + i, KEYS),
+      quantity: 100,
+      unit: 'gram',
+    })),
+  };
+  const v7 = buildFoodNomsUrl(big).length;
+  const v8 = buildFoodNomsUrl(big, { endpointVersion: 8 }).length;
+  assert.ok(v8 < v7 * 0.75, `expected v8 (${v8}) well under v7 (${v7})`);
+});
+
 test('per-entry uncertainties are emitted when any ingredient carries one', () => {
   const withUnc = {
     ...result,

@@ -87,36 +87,72 @@ Being local buys two more things Wolfram Cloud could not:
   FDC died with `Connection reset by peer` and the same lookups through
   `lib/fdc.js` succeeded on retry.
 
+## Endpoint v8 — drafted, pending deploy
+
+Two limits of the `custom*` path need one endpoint change between them. Both are
+drafted in `tools/foodnoms-cloud.wl` (`$fnVersion = 8`) and **not yet deployed**.
+
+1. **Provenance.** `passthroughFoodEntry` always *read* `source` /
+   `secondarySource` off an ingredient, but no query parameter *set* them — so a
+   caller that knew the exact `fdcId` still produced entries indistinguishable
+   from hand-typed ones. v8 adds `customSources` / `customSecondarySources`.
+
+2. **URL length.** `customNutrientNames` was **53% of the URL** (3260 of 5776
+   chars on the 9-ingredient example) — the same ~35 keys repeated per
+   ingredient, holding only **3 distinct key sets across 9 foods**. v8 adds
+   `nutrientNameSets` (each distinct set once) + `customNutrientSetIds` (a
+   1-based index per food).
+
+Measured on `examples/butternut-soup.json`:
+
+| | v7 | v8 |
+|---|---|---|
+| URL length | 5776 | **3874** (−33%) |
+| `source: "usda"` on entries | ✗ | ✓ |
+
+That moves the ceiling from roughly 12 to 18 ingredients before an 8 KB server
+limit bites.
+
+Both parameters default to `{}`, so existing callers and all 52 recipe URLs in
+the repo are unaffected. Note the saving only pays at a realistic key count: with
+two nutrients per food, interning saves a few chars while the provenance columns
+add ~190. There is a test pinning both behaviours.
+
+### Deploying it
+
+```bash
+# 1. current live version (expect 7 before, 8 after)
+curl -sS 'https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?emit=version' \
+     -H 'Accept: application/json'
+
+# 2. redeploy — evaluate the CloudDeploy lines at the end of tools/foodnoms-cloud.wl
+#    in an authenticated Wolfram Cloud session, as pirk0
+
+# 3. re-probe, then raise the client default
+```
+
+Until step 3, `buildFoodNomsUrl` emits the v7 form. Opt in per call with
+`{"foodnoms": {"endpointVersion": 8}}` in the recipe JSON; raise the default in
+`lib/foodnoms-url.js` once the probe returns 8.
+
 ## Known gaps
 
-1. **The `custom*` path cannot carry `source: "usda"`.** The endpoint exposes no
-   `customSources` / `customSecondarySources` parameter, so a passthrough entry
-   lacks the `source` / `secondarySource` fields `usdaFoodEntry` sets. We pin
-   `customFoodIds` to `foodnoms:usda:<fdcId>` so the entry still identifies the
-   right USDA record, but closing this fully needs **one endpoint change**.
+**⚠ Nothing here has been validated against the live endpoint.** Wolfram Cloud
+returned `503 Scheduled Upgrade` throughout this work, so the generated URL has
+never been fetched and the v8 patch has never been executed — there is no
+Wolfram kernel in this environment either, so it is verified only by review and
+a delimiter-balance check. Jobs A and B are tested and verified against live FDC;
+the handoff to Job C is **unverified**.
 
-2. **URL length.** Moving nutrients into the query string is what takes the FDC
-   call off the endpoint, and it is not free. The 9-ingredient example is
-   **5776 chars**; the longest URL currently in the repo is 4214. Roughly
-   +600 chars per ingredient, so a 15-ingredient recipe lands near 9 KB and a
-   20-ingredient one near 12 KB. Common server limits start at 8 KB.
+When the cloud is back:
 
-   `customNutrientNames` alone is **53% of the URL** — the same ~35 keys
-   repeated per ingredient, with only **3 unique key sets across 9 foods**.
-   A shared-name-list parameter would roughly halve the URL, but that is an
-   endpoint change too.
+```bash
+node cli.js url examples/butternut-soup.json | xargs -0 curl -sS -H 'Accept: application/json' | head -c 2000
+```
 
-3. **⚠ Not yet validated end-to-end.** The generated URL has never been fetched:
-   Wolfram Cloud has been returning `503 Scheduled Upgrade` for the whole of this
-   work. Job A and Job B are tested and verified against live FDC; the handoff to
-   Job C is **unverified**. First thing to do when the cloud is back:
-
-   ```bash
-   node cli.js url examples/butternut-soup.json | xargs -0 curl -sS -H 'Accept: application/json' | head -c 2000
-   ```
-
-   Check HTTP 200 and that `totals` match `node cli.js compute` — the same
-   verification `docs/RECIPE_FORMAT.md` already requires for a Nutrition block.
+Check HTTP 200 and that `totals` match `node cli.js compute` — the same
+verification `docs/RECIPE_FORMAT.md` already requires for a Nutrition block. Do
+this on v7 *before* deploying v8, so a failure has only one possible cause.
 
 ## Fidelity notes
 
