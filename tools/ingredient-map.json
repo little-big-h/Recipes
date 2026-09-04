@@ -2100,6 +2100,31 @@
   "secondary": null,
   "source": null
  },
+ "local:6B2D9E14-8C05-42A7-B3F1-7E8A0D9C4B62": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:6B2D9E14-8C05-42A7-B3F1-7E8A0D9C4B62",
+  "name": "Job's Tears, Red, dry",
+  "per100": {
+   "calcium": 42.0,
+   "calories": 361.0,
+   "carbs": 71.1,
+   "fat": 3.3,
+   "fiber": 4.5,
+   "iron": 3.6,
+   "magnesium": 88.0,
+   "niacin": 2.0,
+   "phosphorus": 217.0,
+   "potassium": 238.0,
+   "protein": 12.8,
+   "riboflavin": 0.15,
+   "thiamin": 0.22,
+   "zinc": 1.68
+  },
+  "secondary": null,
+  "source": null
+ },
  "local:6C8317A7-F72D-4964-B711-B2E0A7CAF4B3": {
   "baseAmount": 1,
   "baseUnit": "serving",
