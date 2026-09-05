@@ -8,6 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test \"test/*.test.js\""
+    "test": "node --test \"test/*.test.js\"",
+    "test:live": "node --test \"test/*.live.js\""
   }
 }
