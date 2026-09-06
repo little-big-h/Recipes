@@ -42,12 +42,20 @@ const TIMEOUT_MS = 30_000;
  */
 export class FdcUnavailableError extends Error {
   constructor(what, cause) {
-    super(
-      `USDA FoodData Central lookup failed for ${what}. The free API key is ` +
-        `rate-limited to ~1000 requests/day per IP and each ingredient costs one ` +
-        `request, so a burst of large recipes exhausts it. Wait for the daily ` +
-        `reset or set FDC_API_KEY to another key. Do NOT retry in a loop.`,
-    );
+    // The cause decides the advice. Asserting "quota exhausted" for every
+    // failure sent a reader hunting a rate limit that was not the problem while
+    // the real answer — a 404 on this one record — sat in the discarded status.
+    const detail = cause?.status === 404
+      ? `That fdcId returned 404 under \`format=full\`. Some records (seen on ` +
+        `Foundation entries) are only served as \`format=abridged\`, so this is ` +
+        `about the record, not the key or the quota — a burst of other lookups ` +
+        `will succeed. Pick a different fdcId with \`cli.js search\`.`
+      : cause?.status === 429
+        ? `The key is rate-limited (HTTP 429): ~1000 requests/day per IP, one ` +
+          `per ingredient. Wait for the daily reset or set FDC_API_KEY to ` +
+          `another key. Do NOT retry in a loop.`
+        : `Last error: ${cause?.message ?? 'unknown'}. Do NOT retry in a loop.`;
+    super(`USDA FoodData Central lookup failed for ${what}. ${detail}`);
     this.name = 'FdcUnavailableError';
     this.what = what;
     if (cause !== undefined) this.cause = cause;
@@ -75,6 +83,11 @@ async function fetchJson(url) {
       });
       if (!res.ok) {
         lastErr = new Error(`HTTP ${res.status}`);
+        lastErr.status = res.status;
+        // A 4xx that is not 429 is the server's settled answer — the record is
+        // absent, or the request is malformed. Retrying cannot change it, and
+        // two more round trips only delay a failure that is already final.
+        if (res.status >= 400 && res.status < 500 && res.status !== 429) break;
         continue;
       }
       const data = await res.json();
