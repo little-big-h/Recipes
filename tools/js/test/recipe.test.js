@@ -291,3 +291,28 @@ test('a curated entry without a barcode leaves the field absent, not empty', asy
   const hit = await findInMap('Oil (Avocado)');
   assert.equal(hit.barcode, undefined);
 });
+
+// --- inline per-100 foods ---------------------------------------------------
+
+test('an inline per100 food resolves without the map or FDC', async () => {
+  // A meal log is a list of whole-dish estimates (MEAL_LOGGING.md). Before this
+  // there was no way to express one: every ingredient had to be an fdcId or a
+  // curated ref, so logging a restaurant plate meant minting a permanent map
+  // entry for a dish eaten once.
+  const result = await computeRecipe({
+    name: 'Meal',
+    ingredients: [
+      { name: 'Some dish', per100: { calories: 120, protein: 5 }, grams: 250, uncertainty: 10 },
+    ],
+  });
+  assert.equal(result.totals.calories, 300);
+  assert.equal(result.totals.protein, 12.5);
+  assert.equal(result.ingredients[0].uncertainty, 10);
+});
+
+test('an inline food without a name is rejected rather than logged as "Ingredient"', async () => {
+  await assert.rejects(
+    computeRecipe({ name: 'x', ingredients: [{ per100: { calories: 1 }, grams: 10 }] }),
+    /needs a `name`/,
+  );
+});

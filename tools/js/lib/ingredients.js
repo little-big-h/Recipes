@@ -67,6 +67,22 @@ export async function findInMap(ref) {
  * recipe. Use the `search` command, then pin the fdcId.
  */
 export async function resolveIngredient(spec) {
+  // An inline per-100 block: a one-off food that is nobody's USDA record and
+  // does not belong in the curated map either. This is what a meal log is made
+  // of — one whole-dish estimate per dish (MEAL_LOGGING.md) — and a restaurant
+  // plate eaten once should not earn a permanent map entry to be logged.
+  if (spec.per100) {
+    if (!spec.name) throw new Error('an inline `per100` ingredient needs a `name`');
+    return {
+      name: spec.name,
+      foodID: spec.foodID,
+      brandOwner: spec.brand,
+      barcode: spec.barcode,
+      baseAmount: spec.baseAmount ?? 100,
+      baseUnit: spec.unit ?? 'gram',
+      nutrients: spec.per100,
+    };
+  }
   if (spec.fdcId != null) {
     const block = toFoodNomsBlock(await getFood(spec.fdcId));
     return {
