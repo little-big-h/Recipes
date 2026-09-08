@@ -1761,7 +1761,7 @@
   "source": "label"
  },
  "local:0CF95E20-08C5-4FFF-B889-E25F0B144CF9": {
-  "baseAmount": 30,
+  "baseAmount": 100.0,
   "baseUnit": "gram",
   "brand": null,
   "foodID": "local:0CF95E20-08C5-4FFF-B889-E25F0B144CF9",
@@ -1881,6 +1881,29 @@
   },
   "secondary": "milk.co.uk",
   "source": "milk.co.uk"
+ },
+ "local:2C7F8A45-3E91-4B62-8D07-1A5C9E3F7B20": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:2C7F8A45-3E91-4B62-8D07-1A5C9E3F7B20",
+  "name": "Fuzhu (Dried Bean Curd Skin)",
+  "per100": {
+   "calcium": 77.0,
+   "calories": 459.0,
+   "carbs": 22.3,
+   "fat": 21.7,
+   "fiber": 1.0,
+   "iron": 16.5,
+   "magnesium": 71.0,
+   "phosphorus": 284.0,
+   "potassium": 553.0,
+   "protein": 44.6,
+   "sodium": 26.5,
+   "zinc": 3.69
+  },
+  "secondary": "cnfct",
+  "source": "cnfct"
  },
  "local:2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC": {
   "baseAmount": 100,
