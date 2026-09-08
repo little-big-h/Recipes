@@ -2249,6 +2249,27 @@
   "secondary": "mext",
   "source": "mext"
  },
+ "local:9E6D3B71-4A28-4C50-BF19-2D7A5E8C0364": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Hollyfarms",
+  "foodID": "local:9E6D3B71-4A28-4C50-BF19-2D7A5E8C0364",
+  "name": "Tom Yum Koong Paste (Hollyfarms)",
+  "per100": {
+   "calories": 333.33,
+   "carbs": 26.67,
+   "cholesterol": 0.0,
+   "fat": 23.33,
+   "fatSaturated": 3.33,
+   "fatTrans": 0.0,
+   "fiber": 3.33,
+   "protein": 3.33,
+   "sodium": 6266.67,
+   "sugars": 20.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69": {
   "baseAmount": 100,
   "baseUnit": "gram",
