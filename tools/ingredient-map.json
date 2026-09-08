@@ -2023,6 +2023,25 @@
   "secondary": null,
   "source": null
  },
+ "local:4B8E1F63-7C29-4A05-9D3E-6F1A2C8B5074": {
+  "barcode": "9556041608763",
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "Ayam Brand",
+  "foodID": "local:4B8E1F63-7C29-4A05-9D3E-6F1A2C8B5074",
+  "name": "Coconut Milk Classic UHT (Ayam Brand)",
+  "per100": {
+   "calories": 207.0,
+   "carbs": 2.8,
+   "cholesterol": 0.0,
+   "fat": 20.6,
+   "protein": 2.2,
+   "sodium": 16.0,
+   "sugars": 2.7
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51": {
   "baseAmount": 1500,
   "baseUnit": "gram",
