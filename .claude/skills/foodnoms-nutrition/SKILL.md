@@ -65,13 +65,31 @@ enc() { jq -rn --arg x "$1" '$x|@uri'; }   # URL-encode an id for the path
 ### 1. Resolve the target event(s)
 
 - **Given an id:** `EV=<id>`.
-- **Sweep:** list recent events, newest first, and keep the food-log ones:
+- **Sweep:** query the **"Food" calendar specifically**, newest first, and keep the
+  food-log ones:
   ```sh
-  graph GET 'https://graph.microsoft.com/v1.0/me/events?$top=25&$orderby=start/dateTime%20desc&$select=id,subject,body,hasAttachments'
+  # resolve the Food calendar's id once (it doesn't change run to run, but don't hardcode
+  # it in this file — a personal calendar id has no business living in a shared repo)
+  FOOD_CAL=$(graph GET "https://graph.microsoft.com/v1.0/me/calendars?\$filter=name%20eq%20'Food'&\$select=id" \
+    | jq -r '.body.value[0].id')
+  graph GET "https://graph.microsoft.com/v1.0/me/calendars/$(enc "$FOOD_CAL")/events?\$top=25&\$orderby=start/dateTime%20desc&\$select=id,subject,body,hasAttachments"
   ```
-  A food-log event is identified by its body containing the weight signature
-  **`- Consumed ::`** (Plate & Shoot's notes format) — not by calendar, so it is robust.
-  Ignore everything else (meetings, etc.).
+  > ⚠ **Don't sweep `/me/events` (the default/merged view) sorted by `start/dateTime desc`.**
+  > That ordering surfaces the *furthest-future* events first — a meeting scheduled next
+  > week outranks a meal logged an hour ago — so the sweep silently finds nothing whenever
+  > anything else is on the calendar further out than the last meal, which on a normal
+  > calendar is always. Verified live (2026-09-09): a 25-event sweep of `/me/events` found
+  > zero food logs, all displaced by school/work meetings; the same query against the
+  > **Food** calendar's own event list found all of them. Every event in that calendar is a
+  > meal by construction, so ordering by `start/dateTime desc` there is exactly "most
+  > recently eaten first" — no further filter needed.
+  A food-log event is additionally identified by its body containing the weight signature
+  **`- Consumed ::`** (Plate & Shoot's notes format) — kept as a second guard even within
+  the Food calendar, since a handful of old untagged entries (e.g. bare "Cheese", "Olives"
+  reminders from 2018) live there too without it.
+  **Skip any event whose `Consumed ::` gram figure is `0` (or `0.0`)** — before equals
+  after, so nothing was actually eaten; there is no nutrition to attach. Report it as
+  skipped ("0 g consumed"), not as an error.
 
 ### 2. List the event's attachments (idempotency check)
 
