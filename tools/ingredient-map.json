@@ -1854,6 +1854,28 @@
   "secondary": null,
   "source": null
  },
+ "local:1F4A7C89-5B36-4E27-9A08-6D3E2B5F8C41": {
+  "barcode": "5711953195242",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Arla",
+  "foodID": "local:1F4A7C89-5B36-4E27-9A08-6D3E2B5F8C41",
+  "name": "Protein Yogurt, Peach & Passionfruit (Arla)",
+  "per100": {
+   "calories": 66.0,
+   "carbs": 5.7,
+   "cholesterol": 3.0,
+   "fat": 0.3,
+   "fatSaturated": 0.2,
+   "fatTrans": 0.01,
+   "fiber": 0.1,
+   "protein": 10.0,
+   "sodium": 16.0,
+   "sugars": 3.4
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D": {
   "baseAmount": 100,
   "baseUnit": "milliliter",
