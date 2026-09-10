@@ -56,7 +56,9 @@ Reference docs for specific dish families and project infrastructure:
 - `tools/js/README.md` — the nutrition tool itself: USDA lookup, recipe totals, `.foodnoms` generation, endpoint cross-check
 - `docs/BWFO_GRAPHQL.md` — pulling BuyWholeFoodsOnline product macros/price/URL via their Magento GraphQL API (curl + jq, GET not POST); ingredients aren't exposed
 - `docs/RECIPE_NUTRITION_GENERATOR.md` — playbook: recipe `.md` → USDA → `.foodnoms` file + written-back Nutrition table
-- `docs/MEAL_LOGGING.md` — logging *eaten* food: weigh-by-difference (before/after photos) → `.foodnoms` meal file; uncertainty policy (10 % weighed / 30 % photo-only)
+- `docs/MEAL_LOGGING.md` — logging *eaten* food: weigh-by-difference (before/after photos) → `.foodnoms` meal file; uncertainty policy (10 % weighed / 30 % photo-only); the top-down/bottom-up/midpoint estimation method
+- `docs/MEAL_LOG_PRODUCTS.md` — per-100g estimates already built for specific repeatably-bought bakery/packaged products (Oishii, Wu Pao Chun, Mandarin Oriental...); check before re-estimating
+- `.claude/skills/foodnoms-nutrition/SKILL.md` — the automation that turns a Plate & Shoot calendar event into an attached `.foodnoms` file (fires with **no conversation history** — everything it needs must be in the repo)
 - `Books/README.md` — index of reference booklets/ebooks (The Flavor Equation, Salt Fat Acid Heat, The Food Lab, Modernist Cuisine Vol 2, Cooked) with per-book TOC + page citations; consult and cite like the Nussinow tables
 
 Individual recipe files live under `recipes/`, grouped by dish type.
@@ -87,7 +89,13 @@ Recipes/
 │   ├── USDA_FDC.md                            USDA FoodData Central → FoodNoms blocks
 │   ├── BWFO_GRAPHQL.md                         BuyWholeFoodsOnline product data via GraphQL (curl)
 │   ├── RECIPE_NUTRITION_GENERATOR.md          Recipe -> USDA -> .foodnoms + Nutrition table
+│   ├── MEAL_LOGGING.md                        Eaten-food logging: weigh-by-difference,
+│   │                                          uncertainty policy, top-down/bottom-up/midpoint method
+│   ├── MEAL_LOG_PRODUCTS.md                   Per-100g estimates for named repeat bakery/packaged products
 │   └── Nussinow_Cooking_Times.md              Pressure-cooking reference
+│
+├── .claude/skills/foodnoms-nutrition/SKILL.md  Routine: calendar event -> attached .foodnoms
+│                                              (runs with NO conversation history)
 │
 ├── tools/                                     Helper scripts
 │   ├── js/                                    THE nutrition tool (Node): USDA lookup,

@@ -6,7 +6,7 @@ Everything a Claude Code instance needs to know about the household, the cook, t
 
 ## The cook: Holger Pirk
 
-- 43 years old, lives in Teddington (West London)
+- 43 years old. **Moved to Singapore in August 2026** (from Teddington, West London — the old UK context is retired at `docs/archive/PANTRY-UK-TEDDINGTON.md`). Currently living out of Kent Vale (NUS housing) while restocking the kitchen from zero — see the active constraint in `CLAUDE.md` and `docs/PANTRY.md`.
 - Vegetarian (ovo-lacto), home cook for a family of five
 - Competitive marathon runner targeting a Boston qualification (sub-2:55)
 - Diagnosed with mild RED-S (Relative Energy Deficiency in Sport); working with a sports dietitian (Jenaed at Nutrition and Co)
@@ -15,6 +15,7 @@ Everything a Claude Code instance needs to know about the household, the cook, t
 - Working targets: ~120g protein/day (usually exceeds at ~177g), ~3300 kcal/day intake
 - Most calories from carbs and protein; limited fat use
 - Health-flagged status: Vitamin D deficiency under correction (50,000 IU/week course), suppressed Free T3 from RED-S, mildly low Hb (dilutional)
+- **2026-09 dietitian concern: protein may be crowding out carbs.** Holger routinely hits his protein target early in the day (e.g. 157g by mid-afternoon) while still short of his carb target, then has to choose between blowing the calorie budget or the protein budget to close the carb gap. When recommending a meal/menu item late in the day, weigh a carb-forward, protein-light option more favourably than reflexively defaulting to "more protein" — satiety is a secondary concern next to the calorie budget for him at this stage (post RED-S recovery, staying lean).
 
 ### Relevance to recipe design
 
@@ -113,6 +114,21 @@ No other significant kitchen equipment used in recipes.
 - Specific over vague
 - 🐙 ("the okaytopus") signals user approval
 - Week begins on Monday
+
+---
+
+## Eating out — Singapore (2026-09, recurring venues)
+
+Since the move, a large share of Holger's logged food is restaurant/hawker meals, not home cooking — see `docs/MEAL_LOGGING.md` for the weigh-by-difference logging process and `.claude/skills/foodnoms-nutrition/SKILL.md` for the automation that turns a logged meal into a `.foodnoms` file. Venues visited more than once so far:
+
+- **"The Spread"** (NUS campus) — a build-your-own poke bowl counter. Structure: 2 bases (e.g. romaine lettuce + soba noodles), 1 primary protein (e.g. firm tofu/tau kwa, ~100g), 1 secondary protein (e.g. edamame), up to 4 "complements" (roasted broccoli, shiitake, beetroot, capsicum, bell pepper, cucumber, spinach...), 1 topping (usually shredded nori), 1 dressing (ponzu shoyu is the house dressing; sriracha addable). Silken tofu has sometimes been substituted for firm without notice — check which was actually served. A recurring lunch spot.
+- **"Poke Theory"** — another build-your-own poke bowl vendor, similar structure (salad/soba base, a protein like tempeh or sesame tofu, toppings, a named house dressing e.g. "umami drizzle").
+- **Kent Vale Residents Lounge** — Holger's residence (NUS housing); breakfast is often eaten/logged here (sautéed vegetables, roasted potatoes, salads — communal dining hall style, minimal-oil preparation is typical there).
+- **Oishii Bakery** — a Singapore bakery Holger buys pastries from (pandan-flavoured items are a recurring theme: chiffon cake, mini rolls, gula melaka-onde, tapioca-pandan, toast cake). See `docs/MEAL_LOG_PRODUCTS.md` for per-100g estimates already built for specific products, so they don't need re-deriving each time.
+- **Mandarin Oriental Singapore** — bought a 2026 "Four Treasures" mooncake set (Mid-Autumn Festival); the "Assorted Nuts with Royal Chilli Sauce" variant is Halal-certified (no ham/lard).
+- **Wu Pao Chun** (Holland Village) — Taiwanese artisan bakery, butter-forward; scones bought there (Classic, Cocoa) have no published nutrition panel, so estimates lean toward the richer end of a plausible range given the bakery's reputation.
+
+When advising on a menu (a photo of a menu, a URL, or a described set of options) rather than logging an already-eaten meal: apply the dietary profile above (vegetarian, calorie/protein/carb budget awareness, RED-S-recovery lean-eating goal) the same way as for home-cooked recipes.
 
 ---
 
