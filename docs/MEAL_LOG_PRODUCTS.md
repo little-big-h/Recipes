@@ -38,6 +38,8 @@ estimated from ingredients/bakery style, same status as any other meal-log estim
 | Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Notes |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
 | Four Treasures Mooncake — Assorted Nuts with Royal Chilli Sauce | 460 | 8g | 52g | 28g | 24g | 3g | 250mg | 2026 "Moonlit Harmony" collection. Halal-certified — confirmed no ham/lard. Traditional 五仁-style mixed-nut filling with a chilli twist. |
+| Four Treasures Mooncake — Low Sugar White Lotus with Double Yolk | 360 | 6.2g | 49.3g | 29g | 15.7g | 1.9g | 285mg | Wheat flour, sugar syrup, groundnut oil, alkaline water, egg glaze, lotus paste, salted egg yolk (from label). Allergens: gluten, peanut, egg. "Low sugar" is relative to the standard version — lotus paste is still the dominant sugar source. |
+| Four Treasures Mooncake — Black Sesame with Mochi | 435 | 7.1g | 44.0g | — | 24.8g | 3.4g | — | Rich black sesame paste filling + chewy mochi layer. The most fat-dense of the three Four Treasures flavours logged so far. Logged once at 41.1g. |
 
 ## Wu Pao Chun (Holland Village)
 
