@@ -2032,6 +2032,30 @@
   "secondary": null,
   "source": null
  },
+ "local:3D8B5F27-6A14-4E93-B25C-7F0A4D1E9C63": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Tong Garden",
+  "foodID": "local:3D8B5F27-6A14-4E93-B25C-7F0A4D1E9C63",
+  "name": "Wasabi Flavour Party Snack (Tong Garden) - CONTAINS FISH/SEAFOOD",
+  "per100": {
+   "calcium": 65.0,
+   "calories": 475.0,
+   "carbs": 57.5,
+   "cholesterol": 0.0,
+   "fat": 22.5,
+   "fatSaturated": 7.5,
+   "fatTrans": 0.0,
+   "fiber": 5.0,
+   "iron": 2.25,
+   "potassium": 352.5,
+   "protein": 15.0,
+   "sodium": 700.0,
+   "sugars": 15.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:3DC78E20-3965-4D2F-BFC1-433AB12B9AE7": {
   "baseAmount": 1800,
   "baseUnit": "milliliter",
