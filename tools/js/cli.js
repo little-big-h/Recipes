@@ -14,7 +14,7 @@ import { searchFoods, getFood, clearCache, FdcUnavailableError } from './lib/fdc
 import { toFoodNomsBlock } from './lib/nutrients.js';
 import { computeRecipe, incompleteNutrients } from './lib/recipe.js';
 import { buildFoodNomsUrl } from './lib/foodnoms-url.js';
-import { buildFoodNomsJson, foodnomsBytes, cleanFilename } from './lib/foodnoms-file.js';
+import { buildFoodNomsJson, foodnomsBytes, cleanFilename, foodnomsDecode, foodnomsTotals } from './lib/foodnoms-file.js';
 import { verifyAgainstEndpoint } from './lib/verify.js';
 
 const USAGE = `Usage:
@@ -26,6 +26,9 @@ const USAGE = `Usage:
                                 it against the Wolfram endpoint when reachable
                                 (--no-verify skips the check)
   cli.js url <recipe.json>      BuildFoodNomsRecipe link (nutrients inline, no server FDC)
+  cli.js read <file.foodnoms>   decode an existing file: recipe JSON + whole-recipe totals
+                                (for auditing a file this repo didn't just write —
+                                e.g. one attached by another session/routine)
   cli.js cache-clear            drop cached USDA records
 `;
 
@@ -129,6 +132,13 @@ async function main() {
       // Length is worth watching: moving nutrients into the query string is what
       // takes the FDC call off the endpoint, and it is not free.
       console.error(`\n[${url.length} chars]`);
+      break;
+    }
+    case 'read': {
+      if (!args[0]) throw new Error('read needs a .foodnoms file path');
+      const decoded = foodnomsDecode(await readFile(args[0]));
+      const totals = foodnomsTotals(decoded);
+      console.log(JSON.stringify({ recipe: decoded, totals }, null, 2));
       break;
     }
     case 'cache-clear':
