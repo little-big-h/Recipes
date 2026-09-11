@@ -54,6 +54,21 @@ same "rich butter scone" prior).
 | Classic Scone (招牌司康) | 380 | 6.7g | 43.4g | ~12g | 19.4g | 1.2g | Cake flour, dairy whipping cream, butter, egg yolk, buttermilk (from label). |
 | Cocoa Scone (巧克力司康) | 392 | 6.5g | 45.1g | — | 20.5g | 1.6g | As Classic + cocoa chips. |
 
+## XiaoYanZi Tomato Hot Pot (小燕子番茄火锅), Clementi
+
+Hotpot works differently from other meal-log entries: Plate & Shoot weighs each dish/ingredient
+dunked into the pot **separately** (its own before/after), not as one combined dish — so unlike
+a restaurant plate, these ARE genuinely separate weighed items, not an invented decomposition.
+Where a real USDA record exists (shiitake, lotus root, bamboo shoots, spinach, kombu/kelp) it's
+used directly (`uncertainty 0` — raw/plain-cooked ingredient, known composition); only the
+processed/composite items below needed an estimate.
+
+| Product | kcal | Protein | Carbs | Fat | Fibre | Notes |
+|:--|--:|--:|--:|--:|--:|:--|
+| Fresh Fuzhu / Fuzhu (beancurd skin, 腐竹) | 183 | 15.8g | 4.0g | 11.8g | 0.5g | Soy-protein-and-oil-dense yuba/tofu-skin ribbons. Both app labels ("Fresh Fuzhu" and "Fuzhu") treated as the same item — likely inconsistent naming by Plate & Shoot rather than two products. |
+| Taro Sweet Potato Ball | 195 | 1.5g | 42g | 1.8g | 2.0g | Starch-shell hotpot ball (taro/purple sweet potato paste + tapioca/glutinous rice starch). |
+| Tomato Broth | 35 | 0.7g | 3.8g | 2.0g | 0.6g | The house tomato broth itself, eaten/drunk as part of the meal (not just a cooking medium) — confirmed vegetable/tomato-based, not a hidden meat stock, as of the 2026-09-11 visit. |
+
 ---
 
 ## Adding a new product here
