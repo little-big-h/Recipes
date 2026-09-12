@@ -353,6 +353,11 @@ export function buildFoodNomsJson(result, opts = {}) {
           name: fe.name,
           foodID: fe.foodID,
           brandOwner: fe.brandOwner,
+          // A barcode is exactly what a saved library food wants — it is how
+          // FoodNoms matches a scan. This branch names its fields one by one
+          // rather than spreading the entry, so it silently dropped the one
+          // field a reusable definition most needs.
+          barcode: fe.barcode,
           baseUnit: fe.baseUnit,
           nutrients: fe.nutrients,
           baseAmount: 100,

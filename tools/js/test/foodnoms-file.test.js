@@ -188,3 +188,31 @@ test('a genuine per-100-vs-scaled bug would be caught by the diff', () => {
     /foodEntries\[0\]\.nutrients\.calories: local 45 vs endpoint 405/,
   );
 });
+
+test('a barcode survives every emit shape, not just the recipe', () => {
+  // Regression: emit=fooddef built its food by naming fields one at a time and
+  // left `barcode` off the list, so a scannable product saved to the Foods
+  // library arrived unscannable. emit=food spreads the entry and was fine,
+  // which is why the gap went unseen.
+  const result = {
+    name: 'Barcoded',
+    ingredients: [
+      {
+        block: {
+          name: 'Some Product',
+          baseAmount: 100,
+          baseUnit: 'gram',
+          barcode: '5711953195242',
+          nutrients: { calories: 66, protein: 10 },
+        },
+        quantity: 100,
+        unit: 'gram',
+      },
+    ],
+  };
+  for (const emit of ['food', 'fooddef']) {
+    const { json } = buildFoodNomsJson(result, { emit });
+    const food = emit === 'food' ? json.foodEntries[0] : json.foods[0];
+    assert.equal(food.barcode, '5711953195242', `barcode lost with emit=${emit}`);
+  }
+});
