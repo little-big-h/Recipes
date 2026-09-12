@@ -32,6 +32,7 @@ estimated from ingredients/bakery style, same status as any other meal-log estim
 | Toast Cake (HA HA) / 土司蛋糕 | 279 | 6.3g | 42.6g | 26g | 8.0g | 0.5g | Castella-style egg sponge loaf. |
 | Mini Rolls Pandan | 327 | 3.9g | 38.2g | — | 17.7g | 0.5g | Pandan sponge roll, cream filling, gula melaka drizzle. |
 | Gula Melaka-Onde | 370 | 4.4g | 44.5g | — | 19.7g | 3.3g | Pandan sponge + palm sugar syrup soak + desiccated coconut topping (the coconut is why fibre/fat run higher than the other pandan items). |
+| Raisin & Walnut Wholemeal Loaf (葡萄干+核桃 麦片面包) | 288 | 8.4g | 45g | 10.2g | 8.6g | 5.9g | Wholemeal/multigrain loaf with raisins + walnuts. Logged once at 33.3g (Sep 11/12). |
 
 ## Mandarin Oriental Singapore
 
