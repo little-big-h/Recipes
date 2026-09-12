@@ -32,6 +32,7 @@ estimated from ingredients/bakery style, same status as any other meal-log estim
 | Toast Cake (HA HA) / 土司蛋糕 | 279 | 6.3g | 42.6g | 26g | 8.0g | 0.5g | Castella-style egg sponge loaf. |
 | Mini Rolls Pandan | 327 | 3.9g | 38.2g | — | 17.7g | 0.5g | Pandan sponge roll, cream filling, gula melaka drizzle. |
 | Gula Melaka-Onde | 370 | 4.4g | 44.5g | — | 19.7g | 3.3g | Pandan sponge + palm sugar syrup soak + desiccated coconut topping (the coconut is why fibre/fat run higher than the other pandan items). |
+| Coffee Swiss Roll (咖啡) | 312 | 4.7g | 40.0g | 23g | 15.0g | 0.4g | Coffee-flavoured sponge roll, whipped-cream filling — same construction as Mini Rolls Pandan (sponge + cream roll), coffee instead of pandan/gula melaka. No panel; top-down/bottom-up midpoint, sodium ~180mg/100g assumed. Logged once at 27.3g (Sep 2026). |
 
 ## Mandarin Oriental Singapore
 
