@@ -2247,6 +2247,30 @@
   "secondary": null,
   "source": null
  },
+ "local:6E2A9D54-8F31-4B76-A1C0-5D8B3E7F2A09": {
+  "barcode": "0652671386572",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:6E2A9D54-8F31-4B76-A1C0-5D8B3E7F2A09",
+  "name": "Mushroom Seasoning (salt-based)",
+  "per100": {
+   "calcium": 7.46,
+   "calories": 227.7,
+   "carbs": 48.54,
+   "fat": 3.6,
+   "fatSaturated": 0.13,
+   "fatTrans": 0.0,
+   "fiber": 1.21,
+   "protein": 7.49,
+   "sodium": 12801.86,
+   "sugars": 13.08,
+   "vitaminC": 5.44,
+   "water": 3.54
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:7A94FF9B-E956-4FDA-B07E-5F139C778EBB": {
   "baseAmount": 400,
   "baseUnit": "gram",
