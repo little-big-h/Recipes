@@ -2326,6 +2326,28 @@
   "secondary": null,
   "source": "label"
  },
+ "local:8C3E6A91-2D75-4F84-B60A-9E1C5B7D4F32": {
+  "barcode": "3017800520048",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:8C3E6A91-2D75-4F84-B60A-9E1C5B7D4F32",
+  "name": "Chick Peas, canned, drained (400 g can / 265 g drained)",
+  "per100": {
+   "calories": 111.0,
+   "carbs": 16.0,
+   "cholesterol": 0.0,
+   "fat": 2.1,
+   "fatSaturated": 0.3,
+   "fatTrans": 0.0,
+   "fiber": 5.9,
+   "protein": 7.0,
+   "sodium": 161.0,
+   "sugars": 0.3
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:8D4F2A19-6C73-4E85-B0A2-5F9E1C7D3B48": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
