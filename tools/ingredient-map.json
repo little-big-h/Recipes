@@ -2137,6 +2137,27 @@
   "secondary": null,
   "source": "label"
  },
+ "local:4D7B2E95-3A61-4C08-9F54-8B0D6A2E7C13": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "FairPrice",
+  "foodID": "local:4D7B2E95-3A61-4C08-9F54-8B0D6A2E7C13",
+  "name": "Less Sugar XO Premium Kaya (FairPrice)",
+  "per100": {
+   "calories": 314.0,
+   "carbs": 56.5,
+   "cholesterol": 99.0,
+   "fat": 7.9,
+   "fatSaturated": 6.1,
+   "fatTrans": 0.0,
+   "fiber": 0.8,
+   "protein": 4.1,
+   "sodium": 46.0,
+   "sugars": 38.8
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51": {
   "baseAmount": 1500,
   "baseUnit": "gram",
