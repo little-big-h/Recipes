@@ -1904,6 +1904,32 @@
   "secondary": "milk.co.uk",
   "source": "milk.co.uk"
  },
+ "local:2B7D4F16-9C58-4A03-8E72-1F6A3D9B5C84": {
+  "barcode": "1220000340329",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Impossible Foods",
+  "foodID": "local:2B7D4F16-9C58-4A03-8E72-1F6A3D9B5C84",
+  "name": "Impossible Sausage (plant-based)",
+  "per100": {
+   "calories": 256.0,
+   "carbs": 9.5,
+   "cholesterol": 0.0,
+   "fat": 19.3,
+   "fatMonounsaturated": 7.8,
+   "fatPolyunsaturated": 0.9,
+   "fatSaturated": 8.0,
+   "fatTrans": 0.0,
+   "fiber": 4.1,
+   "potassium": 1140.0,
+   "protein": 11.7,
+   "sodium": 500.0,
+   "sugars": 0.9,
+   "vitaminB12": 1.48
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:2C7F8A45-3E91-4B62-8D07-1A5C9E3F7B20": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
