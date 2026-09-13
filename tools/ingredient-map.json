@@ -2196,6 +2196,25 @@
   "secondary": null,
   "source": null
  },
+ "local:5A9F2C48-7B36-4D91-A0E5-3C8B1F6D2E70": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:5A9F2C48-7B36-4D91-A0E5-3C8B1F6D2E70",
+  "name": "Wholewheat Durum Pasta, dry (Italian)",
+  "per100": {
+   "calories": 353.0,
+   "carbs": 73.0,
+   "fat": 2.0,
+   "fatSaturated": 0.3,
+   "fiber": 8.0,
+   "protein": 15.0,
+   "sodium": 32.0,
+   "sugars": 3.3
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:5C1B7E36-92A4-4D18-8F6B-3A0D2E5C9147": {
   "barcode": null,
   "baseAmount": 100.0,
