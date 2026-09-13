@@ -124,6 +124,7 @@ export function buildFoodNomsUrl(result, opts = {}) {
   const uncertainties = [];
   const brands = [];
   const barcodes = [];
+  const notes = [];
   const urls = [];
   const sources = [];
   const secondarySources = [];
@@ -131,6 +132,7 @@ export function buildFoodNomsUrl(result, opts = {}) {
   let anyUncertainty = false;
   let anyBrand = false;
   let anyBarcode = false;
+  let anyNote = false;
   let anyUrl = false;
   let anySource = false;
 
@@ -159,6 +161,12 @@ export function buildFoodNomsUrl(result, opts = {}) {
 
     if (block.barcode) anyBarcode = true;
     barcodes.push(assertSafe(block.barcode, 'barcode'));
+
+    // The endpoint has always accepted customNotes; not sending it meant every
+    // annotated recipe came back missing its notes, which the cross-check then
+    // reported as a difference the endpoint could not have avoided.
+    if (ing.note) anyNote = true;
+    notes.push(assertSafe(ing.note, 'note'));
 
     if (block.source || block.secondarySource) anySource = true;
     sources.push(assertSafe(block.source, 'source'));
@@ -214,6 +222,7 @@ export function buildFoodNomsUrl(result, opts = {}) {
   if (anyBrand) params.set('customBrands', brands.join(';'));
   // customBarcodes landed in endpoint v7, so it needs no version gate.
   if (anyBarcode) params.set('customBarcodes', barcodes.join(';'));
+  if (anyNote) params.set('customNotes', notes.join(';'));
   if (anyUrl) params.set('customUrls', urls.join(';'));
   // v7 would reject these as unknown parameters, so they are gated too.
   if (anySource && endpointVersion >= 8) {

@@ -316,3 +316,20 @@ test('an inline food without a name is rejected rather than logged as "Ingredien
     /needs a `name`/,
   );
 });
+
+test('ingredient notes are sent to the endpoint, which has always accepted them', () => {
+  // Regression: customNotes was never emitted, so every annotated recipe came
+  // back from the endpoint without its notes and the cross-check reported a
+  // difference the endpoint had no way to avoid — a false ✗ on real recipes.
+  const withNotes = {
+    ...result,
+    ingredients: [
+      { ...result.ingredients[0], note: 'dry weight in' },
+      { ...result.ingredients[0], block: block('Salt', { sodium: 38758 }) },
+    ],
+  };
+  const params = new URLSearchParams(new URL(buildFoodNomsUrl(withNotes)).search);
+  assert.equal(params.get('customNotes'), 'dry weight in;');
+  // Unannotated recipes must not gain a blank column.
+  assert.equal(new URLSearchParams(new URL(buildFoodNomsUrl(result)).search).get('customNotes'), null);
+});
