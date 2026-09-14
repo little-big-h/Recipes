@@ -37,6 +37,8 @@ estimated from ingredients/bakery style, same status as any other meal-log estim
 | Egg Roll (美乃滋醬+蛋 / mayo + egg) | 309 | 8.1g | 29g | 3g | 17.6g | 1.0g | Soft bread roll, egg-mayo salad filling. From shelf label ($1.90), not yet logged with a weight. |
 | Nacho Cheese Potato (玉米片奶酪+马铃薯) | 255 | 7.0g | 33g | 2g | 10.3g | 1.4g | Savoury bread roll, mashed potato + nacho cheese sauce filling. From shelf label ($1.90), not yet logged with a weight. |
 | Golden Lava Salted Egg Bun (黄金流沙/塩漬け卵) | 358 | 7.1g | 40g | 18g | 17.6g | 0.7g | Bread bun, molten salted-egg-yolk custard filling (butter/milk-powder/sugar custard — richer than the plain pandan items). From shelf label ($2.00), not yet logged with a weight. |
+| Cranberries Loaf (蔓越莓) | 279 | 6.9g | 50g | 20g | 5.5g | 2.0g | Soft milk-bread sandwich loaf studded with sweetened dried cranberries — same structure as the Raisin & Walnut loaf but no nuts, so notably leaner on fat. From shelf label ($3.20), not yet logged with a weight. |
+| Anpan Japanese Red Bean (红豆沙/あんパン) | 273 | 6.6g | 51g | 28g | 3.9g | 3.0g | Sesame-topped bread roll, sweet azuki bean paste filling — leanest of the Oishii sweet buns since bean paste has far less fat than butter/custard/cream fillings. From shelf label ($1.90), not yet logged with a weight. |
 
 ## Mandarin Oriental Singapore
 
