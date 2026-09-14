@@ -2373,6 +2373,28 @@
   "secondary": null,
   "source": "label"
  },
+ "local:7F5C1A38-4E62-49D7-B83F-0A2E6C4B9D51": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "The SOS Kitchen",
+  "foodID": "local:7F5C1A38-4E62-49D7-B83F-0A2E6C4B9D51",
+  "name": "Thai Yellow Curry Paste (The SOS Kitchen)",
+  "per100": {
+   "calcium": 76.47,
+   "calories": 129.41,
+   "carbs": 20.0,
+   "fat": 4.12,
+   "fatSaturated": 0.59,
+   "fiber": 3.53,
+   "iron": 4.12,
+   "potassium": 452.94,
+   "protein": 4.12,
+   "sodium": 823.53,
+   "sugars": 2.94
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9": {
   "barcode": "4002239604307",
   "baseAmount": 100,
