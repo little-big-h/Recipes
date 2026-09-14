@@ -61,7 +61,17 @@ same "rich butter scone" prior).
 | Classic Scone (招牌司康) | 380 | 6.7g | 43.4g | ~12g | 19.4g | 1.2g | Cake flour, dairy whipping cream, butter, egg yolk, buttermilk (from label). |
 | Cocoa Scone (巧克力司康) | 392 | 6.5g | 45.1g | — | 20.5g | 1.6g | As Classic + cocoa chips. |
 
-## XiaoYanZi Tomato Hot Pot (小燕子番茄火锅), Clementi
+## Carman's (packaged, Australian import)
+
+Label-sourced (photographed nutrition panel), not estimated — treat as a fully
+labelled packaged item (uncertainty 0 once a weight is attached, same as any
+other complete-composition packaged food).
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Sat. Fat | Fibre | Sodium | Notes |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|:--|
+| Oat Slice — Cranberry & Blueberry | 466 | 6.5g | 53.8g | 27.5g | 23.8g | 15.7g | 5.9g | 149mg | Whole-grain oats/oat flour + coconut + brown sugar/golden syrup/brown rice syrup + butter, cranberries 6%, blueberries 2%. Box: 5 slices, 35g each (163 kcal/slice). Coconut + butter make this markedly richer (esp. saturated fat) than a typical bakery item of similar size. |
+
+
 
 Hotpot works differently from other meal-log entries: Plate & Shoot weighs each dish/ingredient
 dunked into the pot **separately** (its own before/after), not as one combined dish — so unlike
