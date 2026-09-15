@@ -2471,6 +2471,28 @@
   "secondary": "mext",
   "source": "mext"
  },
+ "local:9A2E7D53-6B14-4F80-A3C9-5E1B8D4A6F27": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Marigold",
+  "foodID": "local:9A2E7D53-6B14-4F80-A3C9-5E1B8D4A6F27",
+  "name": "Greek Style Natural Yoghurt (Marigold)",
+  "per100": {
+   "calcium": 257.0,
+   "calories": 79.0,
+   "carbs": 8.2,
+   "cholesterol": 10.0,
+   "fat": 1.8,
+   "fatSaturated": 1.2,
+   "fatTrans": 0.1,
+   "fiber": 0.0,
+   "protein": 7.4,
+   "sodium": 47.0,
+   "sugars": 6.1
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:9E6D3B71-4A28-4C50-BF19-2D7A5E8C0364": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
