@@ -2301,6 +2301,32 @@
   "secondary": null,
   "source": null
  },
+ "local:6C4A9F27-1B58-4E36-8D02-7A5E3C1B9F64": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Top One",
+  "foodID": "local:6C4A9F27-1B58-4E36-8D02-7A5E3C1B9F64",
+  "name": "Enriched Wholemeal Bread (Top One)",
+  "per100": {
+   "calcium": 148.0,
+   "calories": 249.0,
+   "carbs": 52.2,
+   "cholesterol": 0.0,
+   "fat": 2.2,
+   "fatSaturated": 1.2,
+   "fatTrans": 0.0,
+   "fiber": 8.6,
+   "iron": 3.8,
+   "niacin": 5.9,
+   "protein": 9.5,
+   "riboflavin": 0.1,
+   "sodium": 233.0,
+   "sugars": 7.0,
+   "thiamin": 0.1
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:6C8317A7-F72D-4964-B711-B2E0A7CAF4B3": {
   "baseAmount": 1,
   "baseUnit": "serving",
