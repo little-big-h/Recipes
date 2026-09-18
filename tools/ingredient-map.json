@@ -2058,6 +2058,30 @@
   "secondary": null,
   "source": null
  },
+ "local:3A6E8C14-7D25-4B91-A0F3-5C2B9E7D1468": {
+  "barcode": "8888200619442",
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "F&N Nutri Soy",
+  "foodID": "local:3A6E8C14-7D25-4B91-A0F3-5C2B9E7D1468",
+  "name": "Fresh Soya Milk No Sugar Added (F&N Nutri Soy)",
+  "per100": {
+   "calcium": 200.0,
+   "calories": 42.0,
+   "carbs": 1.8,
+   "cholesterol": 0.0,
+   "fat": 2.0,
+   "fatSaturated": 0.4,
+   "fatTrans": 0.0,
+   "fiber": 0.12,
+   "protein": 4.32,
+   "sodium": 0.0,
+   "sugars": 0.8,
+   "vitaminD": 0.64
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:3D8B5F27-6A14-4E93-B25C-7F0A4D1E9C63": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
