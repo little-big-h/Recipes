@@ -61,15 +61,15 @@ same "rich butter scone" prior).
 | Classic Scone (招牌司康) | 380 | 6.7g | 43.4g | ~12g | 19.4g | 1.2g | Cake flour, dairy whipping cream, butter, egg yolk, buttermilk (from label). |
 | Cocoa Scone (巧克力司康) | 392 | 6.5g | 45.1g | — | 20.5g | 1.6g | As Classic + cocoa chips. |
 
-## Uncertain vendor
+## Supermarket packaged (vendor/brand unconfirmed)
 
-Products logged without a confirmed bakery — the photo didn't identify the shop, so
-these are kept separate from vendor-specific sections until confirmed. Estimated via
-top-down/bottom-up (`docs/MEAL_LOGGING.md`), not label-sourced.
+Products bought pre-packaged off a supermarket shelf (not a bakery counter) where the
+brand printed on the wrapper wasn't legible in the photo. Estimated via top-down/bottom-up
+(`docs/MEAL_LOGGING.md`), not label-sourced — revisit if a nutrition panel photo turns up.
 
 | Product | kcal | Protein | Carbs | Fat | Fibre | Notes |
 |:--|--:|--:|--:|--:|--:|:--|
-| Pandan Swiss Roll (individually wrapped, full-size) | 291 | 3.9g | 34g | 14.5g | 0.5g | Pandan sponge roll with cream filling — larger single-roll format, distinct from the Oishii "Mini Rolls Pandan" (multi-piece, smaller). Logged once at 57g (Sep 18). |
+| Pandan Swiss Roll (individually wrapped, full-size) | 291 | 3.9g | 34g | 14.5g | 0.5g | Pandan sponge roll with cream filling, bought at a supermarket (produce-aisle photo, not a bakery). Distinct from the Oishii "Mini Rolls Pandan" (multi-piece, smaller) — different product. Logged once at 57g (Sep 18). |
 
 ## Carman's (packaged, Australian import)
 
