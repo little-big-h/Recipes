@@ -2260,6 +2260,30 @@
   "secondary": null,
   "source": "label"
  },
+ "local:5B9D2F73-8A46-4C15-B72E-0F3A6C8D9E52": {
+  "barcode": "8888200619312",
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "F&N Nutri Soy",
+  "foodID": "local:5B9D2F73-8A46-4C15-B72E-0F3A6C8D9E52",
+  "name": "Fresh Soya Milk Omega No Sugar Added (F&N Nutri Soy)",
+  "per100": {
+   "calcium": 200.0,
+   "calories": 40.0,
+   "carbs": 2.5,
+   "cholesterol": 0.0,
+   "fat": 2.0,
+   "fatSaturated": 0.4,
+   "fatTrans": 0.0,
+   "fiber": 1.3,
+   "protein": 4.3,
+   "sodium": 3.0,
+   "sugars": 1.0,
+   "vitaminD": 0.65
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:5C1B7E36-92A4-4D18-8F6B-3A0D2E5C9147": {
   "barcode": null,
   "baseAmount": 100.0,
