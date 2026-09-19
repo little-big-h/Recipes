@@ -477,7 +477,13 @@ buildFoodNomsRecipe[spec_Association] := Module[
    If[fe === $Failed, AppendTo[warnings, "emit=fooddef: no resolved food to emit"]];
    fdef = If[fe === $Failed, <||>,
      Join[
-       KeyTake[fe, {"name", "foodID", "brandOwner", "baseUnit", "nutrients"}],
+       (* "barcode" belongs here: a saved library food is precisely what a
+          barcode is for, since scanning is how FoodNoms matches a product to
+          it. KeyTake names its keys one by one and this one was missing, so
+          every fooddef came back unscannable even when customBarcodes was
+          supplied. The same omission existed in the JS twin's emit=fooddef
+          branch and was fixed there; this is the Wolfram half. *)
+       KeyTake[fe, {"name", "foodID", "brandOwner", "barcode", "baseUnit", "nutrients"}],
        <|"baseAmount" -> 100, "measures" -> {serving100[Lookup[fe, "baseUnit", "gram"]]},
          "version" -> 1, "traits" -> 0, "isHidden" -> False|>]];
    fjson = <|"version" -> 2, "contentType" -> 3,
