@@ -2545,6 +2545,29 @@
   "secondary": "mext",
   "source": "mext"
  },
+ "local:8E1F4B62-5C39-4A07-9D48-2B6E0C3F7A95": {
+  "barcode": "9316434288619",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Yogood",
+  "foodID": "local:8E1F4B62-5C39-4A07-9D48-2B6E0C3F7A95",
+  "name": "Cranberry Mango Yoghurt Coated Muesli Bar (Yogood)",
+  "per100": {
+   "calories": 405.0,
+   "carbs": 69.0,
+   "fat": 14.0,
+   "fatMonounsaturated": 3.7,
+   "fatPolyunsaturated": 1.0,
+   "fatSaturated": 9.3,
+   "fatTrans": 0.1,
+   "fiber": 10.0,
+   "protein": 5.7,
+   "sodium": 137.0,
+   "sugars": 31.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:9A2E7D53-6B14-4F80-A3C9-5E1B8D4A6F27": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
