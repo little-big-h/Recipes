@@ -2672,6 +2672,25 @@
   "secondary": null,
   "source": null
  },
+ "local:D306120F-B10D-2552-24D1-644678097CD4": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Knorr",
+  "foodID": "local:D306120F-B10D-2552-24D1-644678097CD4",
+  "name": "Vegetable Stock Cube (Knorr)",
+  "per100": {
+   "calories": 317.0,
+   "carbs": 27.0,
+   "fat": 21.0,
+   "fatSaturated": 14.0,
+   "fiber": 1.9,
+   "protein": 4.0,
+   "sodium": 13200.0,
+   "sugars": 6.6
+  },
+  "secondary": "estimate",
+  "source": null
+ },
  "local:DC95FB78-1ED4-44FC-AFF6-71C2C8CC0EBA": {
   "baseAmount": 100,
   "baseUnit": "milliliter",

@@ -11,6 +11,8 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Vessel | Tare | Recorded |
 |:--|--:|:--|
 | Instant Pot inner pot | **867 g** | 2026-08-27 |
+| Anja's sauce pot | **1500 g** | 2026-09-13 |
+| Millet pot (unnamed — confirm which) | **735 g** | 2026-09-19 |
 
 *(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
 
