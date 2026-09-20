@@ -12,13 +12,17 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 |:--|--:|:--|
 | Instant Pot inner pot | **867 g** | 2026-08-27 |
 | IKEA 5 L | **1208 g** | 2026-09-20 |
-| Unidentified — Anja's pasta sauce | **1500 g** | 2026-09-13 |
 | Unidentified — millet | **735 g** | 2026-09-19 |
 
-⚠ The two unidentified rows are pot *readings* given at the time without a
-vessel named, so they are recorded but not yet usable by name. If the IKEA 5 L
-turns out to be the pot Anja used on 2026-09-13, the 1500 g reading conflicts
-with the 1208 g measured here and one of them needs redoing.
+⚠ **Weigh the pot properly, once, rather than estimating it in the moment.** The
+IKEA 5 L was first given as "1500 g" on 2026-09-13 and re-weighed at 1208 g on
+2026-09-20 — a 292 g error, which is ~10% of a sauce yield and fed straight into
+Anja's pasta sauce totals until it was caught. A tare is worth getting right
+once: it is reused on every cook in that vessel, so an error in it propagates
+silently into every yield derived from it.
+
+⚠ The remaining unidentified row is a pot reading given without a vessel named,
+so it is recorded but not yet usable by name.
 
 *(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
 
