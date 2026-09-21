@@ -1953,6 +1953,33 @@
   "secondary": "cnfct",
   "source": "cnfct"
  },
+ "local:2D7A5E93-4F18-4B60-8C25-9E1D3A6F7B04": {
+  "barcode": "8888440014007",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Farmland",
+  "foodID": "local:2D7A5E93-4F18-4B60-8C25-9E1D3A6F7B04",
+  "name": "Frozen Cauliflower Rice (Farmland)",
+  "per100": {
+   "calcium": 23.53,
+   "calories": 23.53,
+   "carbs": 4.71,
+   "cholesterol": 0.0,
+   "fat": 0.24,
+   "fatSaturated": 0.12,
+   "fatTrans": 0.0,
+   "fiber": 2.35,
+   "iron": 0.47,
+   "potassium": 294.12,
+   "protein": 2.35,
+   "sodium": 29.41,
+   "sugars": 2.35,
+   "vitaminA": 0.0,
+   "vitaminC": 48.24
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC": {
   "baseAmount": 100,
   "baseUnit": "gram",
