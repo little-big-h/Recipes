@@ -2474,6 +2474,27 @@
   "secondary": null,
   "source": "label"
  },
+ "local:7C2B9E45-1A63-4D08-BF57-3E8A0D6C2F91": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Tai Hua",
+  "foodID": "local:7C2B9E45-1A63-4D08-BF57-3E8A0D6C2F91",
+  "name": "Crushed Salted Soy Beans / Taucheo (Tai Hua)",
+  "per100": {
+   "calories": 107.0,
+   "carbs": 11.5,
+   "cholesterol": 0.0,
+   "fat": 4.5,
+   "fatSaturated": 0.7,
+   "fatTrans": 0.0,
+   "fiber": 5.0,
+   "protein": 10.1,
+   "sodium": 5843.0,
+   "sugars": 6.5
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:7F5C1A38-4E62-49D7-B83F-0A2E6C4B9D51": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
