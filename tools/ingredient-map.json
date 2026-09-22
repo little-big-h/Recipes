@@ -2659,6 +2659,27 @@
   "secondary": null,
   "source": "label"
  },
+ "local:9F3C6B28-4D71-4A05-BE13-7C2A5F8D0946": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Alpro",
+  "foodID": "local:9F3C6B28-4D71-4A05-BE13-7C2A5F8D0946",
+  "name": "Single Soya (Alpro)",
+  "per100": {
+   "calories": 142.0,
+   "carbs": 1.8,
+   "fat": 14.0,
+   "fatMonounsaturated": 3.7,
+   "fatPolyunsaturated": 8.7,
+   "fatSaturated": 1.6,
+   "fiber": 0.6,
+   "protein": 2.0,
+   "sodium": 56.0,
+   "sugars": 1.2
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69": {
   "baseAmount": 100,
   "baseUnit": "gram",
