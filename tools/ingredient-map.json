@@ -2169,6 +2169,28 @@
   "secondary": null,
   "source": null
  },
+ "local:4A6E2B95-7C31-4D08-9F54-1B3D8E7A0C62": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "Bragg",
+  "foodID": "local:4A6E2B95-7C31-4D08-9F54-1B3D8E7A0C62",
+  "name": "Coconut Liquid Aminos (Bragg)",
+  "per100": {
+   "calories": 200.0,
+   "carbs": 40.0,
+   "cholesterol": 0.0,
+   "fat": 0.0,
+   "fatSaturated": 0.0,
+   "fatTrans": 0.0,
+   "fiber": 0.0,
+   "protein": 0.0,
+   "sodium": 2800.0,
+   "sugars": 40.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:4B8E1F63-7C29-4A05-9D3E-6F1A2C8B5074": {
   "barcode": "9556041608763",
   "baseAmount": 100.0,
