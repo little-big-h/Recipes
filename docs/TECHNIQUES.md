@@ -282,6 +282,32 @@ Ground spices scorch easily. Have the next ingredient ready before the spice blo
 
 For Thai curries: bloom the paste in oil for **1–2 minutes** until fragrant. This is the most critical step for curry-based dishes.
 
+### ⚠ Dose curry paste on capsaicin, not on sodium
+
+**A curry paste carries two independent scales — salt and chilli — and they are
+not coupled.** A low-sodium paste is not a low-chilli paste, so reasoning "this
+jar is a seventh as salty as that one, therefore I can use seven times as much"
+scales the capsaicin along with the salt and makes a dish the children cannot
+eat.
+
+**In this kitchen chilli is the binding constraint, not sodium.** Dose the paste
+to the heat the kids will take, then bring the salt up **separately, with salt**.
+They are separate levers and the paste is the wrong tool for the salt job.
+
+⚠ **Fat moderates perceived heat**, because capsaicin is fat-soluble and fat is
+what carries it off the palate. So cutting the coconut milk while running the
+paste high compounds: the same paste in a leaner pot tastes considerably hotter.
+Check both together before changing either.
+
+**Worked example — Yellow Curry Corn Soup, 2026-09-24.** 180 g of The SOS Kitchen
+yellow paste in a ~4 kg pot, dosed high on the reasoning that the jar is 824 mg
+sodium per 100 g against Hollyfarms tom yum's 6267. The coconut milk came in at
+150 g against a planned 417. **The dish was too hot for the children to eat and
+was not rated.** Holger's judgement afterwards: half that paste would still have
+been too hot. Nutrition panels say nothing about heat, so there is no number to
+compute this from — dose low and taste, and put chilli on the table for the
+adults the way acid already is.
+
 ### Dried ginger
 
 - ~1.5g dried ginger powder ≈ 8g fresh ginger by aromatic intensity
