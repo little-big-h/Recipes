@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
-2. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
-3. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
-4. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
-5. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
-6. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
-7. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
-8. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
-9. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
-10. **[White Bean, Sweet Potato & Sage Soup](recipes/soups/white-bean-sweetpotato-sage-soup.md)** — 2026-07-19
+1. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
+2. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
+3. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
+4. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
+5. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
+6. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
+7. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
+8. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
+9. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
+10. **[Zucchini Curry (Anja)](anjas-cooking/zucchini-curry.md)** — 2026-07-21
 
 ---
 

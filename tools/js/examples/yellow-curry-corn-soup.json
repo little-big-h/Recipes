@@ -1,0 +1,21 @@
+{
+  "name": "Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️",
+  "servings": 5,
+  "ingredients": [
+    { "fdcId": 169702, "grams": 200, "note": "millet, dry weight - toasted and cooked separately on the stove" },
+    { "ref": "Oil (Avocado)", "grams": 10 },
+    { "fdcId": 2709795, "grams": 250, "note": "onion, diced" },
+    { "fdcId": 2709786, "grams": 20, "note": "garlic, minced" },
+    { "ref": "Thai Yellow Curry Paste (The SOS Kitchen)", "grams": 110, "note": "dosed high - this jar is 824 mg sodium per 100 g, about a seventh of the Hollyfarms tom yum paste" },
+    { "ref": "Lemongrass Paste", "grams": 25, "note": "the citrus lift, without the acid that would grey the broccoli" },
+    { "ref": "Shiitake Mushroom", "grams": 200, "note": "frozen, in while the pot is still cool" },
+    { "fdcId": 168398, "grams": 900, "note": "frozen sweetcorn kernels" },
+    { "ref": "Broccoli", "grams": 150, "note": "stems, peeled and sliced - blended into the base" },
+    { "fdcId": 173757, "grams": 600, "note": "leftover chickpeas, already cooked from dry, unsalted" },
+    { "ref": "Coconut Milk Classic UHT (Ayam Brand)", "grams": 250 },
+    { "ref": "Broccoli", "grams": 350, "note": "florets, in for the last few minutes" },
+    { "ref": "Shiitake Powder", "grams": 8, "note": "optional booster - confirm you have this" },
+    { "fdcId": 173468, "grams": 8, "note": "salt at the finish - the paste alone leaves the pot far below the 0.28 g per 100 g band that has worked here" }
+  ],
+  "foodnoms": { "collectionType": 3 }
+}
