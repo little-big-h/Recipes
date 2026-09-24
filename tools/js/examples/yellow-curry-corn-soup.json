@@ -74,6 +74,7 @@
     }
   ],
   "foodnoms": {
-    "collectionType": 3
+    "collectionType": 3,
+    "totalServingSize": 4979
   }
 }

@@ -25,7 +25,7 @@
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~5.8 kg** | **~4538** | |
+| | **Total** | **~5.8 kg in, 4979 g out** | **~4538** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -126,4 +126,10 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **🌾 Millet yield: 947 g** — 1690 g weighed in the IKEA 2 L, less its 743 g tare. That is **3.16× the 300 g dry**, sitting right on the 3.14–3.17× this kitchen has measured twice before, so the new pot tare is confirmed good by a third route. Of the 750 ml of water, 647 g was absorbed and about 103 g left as steam over the covered 25 minutes.
 
-Still to record: the weighed soup yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🥥 coconut-milk weight once rounded to a tin, a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At ~6.1 kg this is not five servings** — five would be 1029 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
+**Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. With the 947 g of millet the dish comes to **4979 g**, at **91 kcal per 100 g**.
+
+⚠ **It reduced much harder than planned, and the salt went up with it.** Against about 4850 g of inputs that is a **17% loss** — where Anja's pasta sauce lost ~10% and her curry sauce 1%. The dish therefore lands at **0.35 g of salt per 100 g if the full 11 g went in**, against the 0.28–0.30 band the seasoning was designed around. ⚠ **The 💧 water is the one input never weighed**, and it is the more likely culprit than the burner: at 900 ml rather than the planned 1200 the loss would be a routine 11% and the arithmetic would close without any unusual evaporation. Weigh or measure the water next time and this resolves itself.
+
+Either way the instruction at step 9 — salt by taste, not by the number — was the right one, and **13.9 g rather than 13 g would have been the figure for 0.28 g per 100 g at this yield**. Record what actually went in.
+
+Still to record: a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At 4979 g this is not five servings** — five would be 996 g and 908 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
