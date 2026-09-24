@@ -10,10 +10,10 @@
     { "ref": "Lemongrass Paste", "grams": 25, "note": "the citrus lift, without the acid that would grey the broccoli" },
     { "ref": "Shiitake Mushroom", "grams": 200, "note": "frozen, in while the pot is still cool" },
     { "fdcId": 168398, "grams": 900, "note": "frozen sweetcorn kernels" },
-    { "ref": "Broccoli", "grams": 150, "note": "stems, peeled and sliced - blended into the base" },
+    { "fdcId": 169968, "grams": 150, "note": "frozen broccoli - the share that goes in early and gets blended into the base" },
     { "fdcId": 173757, "grams": 600, "note": "leftover chickpeas, already cooked from dry, unsalted" },
     { "ref": "Coconut Milk Classic UHT (Ayam Brand)", "grams": 250 },
-    { "ref": "Broccoli", "grams": 350, "note": "florets, in for the last few minutes" },
+    { "fdcId": 169968, "grams": 350, "note": "frozen broccoli, straight from frozen in the last 2-3 min - already blanched" },
     { "ref": "Shiitake Powder", "grams": 8, "note": "optional booster - confirm you have this" },
     { "fdcId": 173468, "grams": 8, "note": "salt at the finish - the paste alone leaves the pot far below the 0.28 g per 100 g band that has worked here" }
   ],
