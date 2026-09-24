@@ -11,7 +11,7 @@
 | 🟤 | 🌾 Millet, dry (toasted first; cooked in its own pan) | 334 g | 1263 | |
 | 🟣 | 🥑 Avocado oil | 17 g | 150 | |
 | 🟡 | 🧅 Onion, diced | 407 g | 163 | |
-| 🟡 | 🧄 Garlic, minced | 33 g | 49 | |
+| 🟡 | 🧄 Garlic, minced | 30.4 g | 45 | |
 | 🟠 | 🍛 Thai yellow curry paste — The SOS Kitchen | 183 g | 237 | |
 | 🟠 | 🌿 Lemongrass paste | 42 g | 20 | |
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
@@ -23,7 +23,7 @@
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~6.2 kg** | **~5279** | |
+| | **Total** | **~6.2 kg** | **~5276** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -77,11 +77,11 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 5279 kcal | Iron | 43.2 mg |
+| Energy | 5276 kcal | Iron | 43.2 mg |
 | Protein | 181 g | Calcium | 969 mg |
 | Carbohydrates | 864 g | Zinc | 25.4 mg |
 | — of which sugars | 118 g | Magnesium | 1079 mg |
-| Fat | 155 g | Potassium | 9480 mg |
+| Fat | 155 g | Potassium | 9469 mg |
 | — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
 | Fibre | 132 g | Vitamin B12 | 0.0 µg |
 | Salt | 17.6 g | Folate | 2864 µg |
@@ -116,6 +116,6 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **2026-09-24 — cooked with Jannes.** The 🌽 corn was weighed at **1501 g** and the whole recipe is rescaled ×1.668 to it. The 🫘 chickpeas were **250 g dry**, pressure-cooked the day before; Anja ate 15 g of the cooked ones, so **243 g dry** goes in and that is how they are counted — the water they took up adds no nutrition but does count toward the yield.
 
-⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5279 kcal.
+⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5276 kcal.
 
 Still to record: the weighed yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🥥 coconut-milk weight once rounded to a tin, a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At ~6.2 kg this is not five servings** — five would be 1057 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
