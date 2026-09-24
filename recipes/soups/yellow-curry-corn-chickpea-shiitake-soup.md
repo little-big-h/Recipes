@@ -20,11 +20,12 @@
 | 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT ❓ | 417 g | 863 | |
 | 🟢 | 🥦 Broccoli stems, **fresh**, peeled and sliced (never blended) | 167 g | 57 | |
 | 🟢 | 🥦 Broccoli florets, **fresh** (never blended) | 469 g | 159 | |
+| 🟢 | 🥦 Broccoli, **fresh**, a further lot added during the cook | 162 g | 55 | |
 | 🟣 | 🌰 Shiitake powder — 25 g in the soup, 5 g in the millet water | 30 g | 89 | |
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~5.9 kg** | **~5036** | |
+| | **Total** | **~6.1 kg** | **~5091** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -78,14 +79,14 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 5036 kcal | Iron | 39.9 mg |
-| Protein | 171 g | Calcium | 790 mg |
-| Carbohydrates | 840 g | Zinc | 23.4 mg |
-| — of which sugars | 116 g | Magnesium | 1022 mg |
-| Fat | 141 g | Potassium | 9631 mg |
+| Energy | 5091 kcal | Iron | 41.1 mg |
+| Protein | 176 g | Calcium | 866 mg |
+| Carbohydrates | 850 g | Zinc | 24.1 mg |
+| — of which sugars | 119 g | Magnesium | 1056 mg |
+| Fat | 142 g | Potassium | 10143 mg |
 | — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
-| Fibre | 121 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.5 g | Folate | 2677 µg |
+| Fibre | 125 g | Vitamin B12 | 0.0 µg |
+| Salt | 17.7 g | Folate | 2779 µg |
 
 *FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
@@ -93,7 +94,7 @@
 
 ## Design notes
 
-**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.1 kg — 0.087 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.5 g, or 0.30 g per 100 g** — the **top** of that band, not the lower edge it was aimed at. ⚠ The pot came in smaller than the scaling assumed (short chickpeas, 300 g of millet against 334, 636 g of broccoli against 834), and the salt did not shrink with it. **Add about 10 g to the soup rather than 11, and taste before the last of it goes in.** The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
+**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.1 kg — 0.087 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.7 g, or 0.29 g per 100 g** — inside the band, in its middle. ⚠ This moved about during the cook and is worth watching rather than trusting: with the short chickpeas and 300 g of millet the pot was running small and the density had crept to 0.30, the top of the band, before a further 162 g of 🥦 broccoli brought it back. **Salt by taste at step 9 rather than by the number** — the figure is only as good as the final pot weight, which is the last thing to be known. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
 
 This is very likely the whole explanation for "the paste tastes a little bland." The SOS jar is **824 mg sodium per 100 g against Hollyfarms tom yum's 6267** — about a seventh. Paste quantities carried over from the tom yum jar therefore under-salt by roughly that factor, and no amount of blooming technique fixes a dish that is seven times under-seasoned. Dose the paste high *and* salt at the end; they are separate levers.
 
