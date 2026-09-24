@@ -8,7 +8,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟤 | 🌾 Millet, dry (toasted first; cooked in its own pan) | 334 g | 1263 | |
+| 🟤 | 🌾 Millet, dry (toasted first; cooked in its own pan) | 300 g | 1134 | |
 | 🟣 | 🥑 Avocado oil | 17 g | 150 | |
 | 🟡 | 🧅 Onion, diced | 407 g | 163 | |
 | 🟡 | 🧄 Garlic, minced | 30.4 g | 45 | |
@@ -23,7 +23,7 @@
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~6.2 kg** | **~5276** | |
+| | **Total** | **~6.1 kg** | **~5147** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -47,7 +47,7 @@
 >
 > ⚠ **Frozen broccoli, not fresh, and none of it is blended.** It is already blanched, so it needs **2–3 minutes, not four**, straight from frozen, and it will not hold a bite the way fresh does — ice crystals rupture the cell walls, so it cooks softer however carefully it is timed. The bitterness survives; the texture contrast does not, which is why every 🫘 chickpea also stays whole.
 
-1. **Toast and cook the 🌾 millet, in its own pan — the IKEA 2 L (tare 743 g).** Toast the dry grains over medium heat, stirring, 2–3 minutes until they smell nutty. Add **830 ml water, 5 g of the 🌰 shiitake powder and 2 g of the 🧂 salt**, bring to a boil, cover, and simmer on low **25 minutes**. ⚠ That is about **1.2 L of contents in a 2 L pot** — comfortable at a simmer, but millet foams as it comes to the boil, so leave the lid ajar until it settles. Pull it off the heat and leave it covered to steam until serving. Toasting is the single biggest quality difference with millet — it keeps the grains distinct instead of pasty.
+1. **Toast and cook the 🌾 millet, in its own pan — the IKEA 2 L (tare 743 g).** Toast the dry grains over medium heat, stirring, 2–3 minutes until they smell nutty. Add **750 ml water, 5 g of the 🌰 shiitake powder and 2 g of the 🧂 salt**, bring to a boil, cover, and simmer on low **25 minutes**. ⚠ That is about **1.1 L of contents in a 2 L pot** — comfortable at a simmer, but millet foams as it comes to the boil, so leave the lid ajar until it settles. Pull it off the heat and leave it covered to steam until serving. Toasting is the single biggest quality difference with millet — it keeps the grains distinct instead of pasty.
 
    *Seasoning the grain matters: a bland bed under a strongly seasoned soup reads as filler. The 🌰 powder does that job for **essentially no sodium** — 13 mg per 100 g, against a stock cube's 13200 — so the grain picks up the same guanylate that is in the soup without spending any of the salt budget. A stock cube would have cost 3.3 g of salt and pulled the millet toward a celery-and-onion profile, away from the dish rather than toward it.*
 
@@ -77,14 +77,14 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 5276 kcal | Iron | 43.2 mg |
-| Protein | 181 g | Calcium | 969 mg |
-| Carbohydrates | 864 g | Zinc | 25.4 mg |
-| — of which sugars | 118 g | Magnesium | 1079 mg |
-| Fat | 155 g | Potassium | 9469 mg |
+| Energy | 5147 kcal | Iron | 42.2 mg |
+| Protein | 177 g | Calcium | 960 mg |
+| Carbohydrates | 838 g | Zinc | 24.8 mg |
+| — of which sugars | 117 g | Magnesium | 1038 mg |
+| Fat | 153 g | Potassium | 9403 mg |
 | — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
-| Fibre | 132 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.6 g | Folate | 2864 µg |
+| Fibre | 129 g | Vitamin B12 | 0.0 µg |
+| Salt | 17.6 g | Folate | 2835 µg |
 
 *FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
@@ -92,7 +92,7 @@
 
 ## Design notes
 
-**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 183 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.2 kg — 0.085 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.28 g per 100 g** — exactly the density the tom yum soup landed on, so add the last few grams by taste rather than by the number. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
+**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 183 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.1 kg — 0.087 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.29 g per 100 g** — the middle of that band rather than its lower edge, so add the last few grams by taste rather than by the number. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
 
 This is very likely the whole explanation for "the paste tastes a little bland." The SOS jar is **824 mg sodium per 100 g against Hollyfarms tom yum's 6267** — about a seventh. Paste quantities carried over from the tom yum jar therefore under-salt by roughly that factor, and no amount of blooming technique fixes a dish that is seven times under-seasoned. Dose the paste high *and* salt at the end; they are separate levers.
 
@@ -116,6 +116,6 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **2026-09-24 — cooked with Jannes.** The 🌽 corn was weighed at **1501 g** and the whole recipe is rescaled ×1.668 to it. The 🫘 chickpeas were **250 g dry**, pressure-cooked the day before; Anja ate 15 g of the cooked ones, so **243 g dry** goes in and that is how they are counted — the water they took up adds no nutrition but does count toward the yield.
 
-⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5276 kcal.
+⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5147 kcal.
 
-Still to record: the weighed yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🥥 coconut-milk weight once rounded to a tin, a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At ~6.2 kg this is not five servings** — five would be 1057 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
+Still to record: the weighed yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🥥 coconut-milk weight once rounded to a tin, a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At ~6.1 kg this is not five servings** — five would be 1029 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
