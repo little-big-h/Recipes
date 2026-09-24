@@ -2436,6 +2436,30 @@
   "secondary": null,
   "source": null
  },
+ "local:6D3F8A21-4B57-4E09-9C63-1A8F2D5E7B40": {
+  "barcode": "8888180319783",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Quaker",
+  "foodID": "local:6D3F8A21-4B57-4E09-9C63-1A8F2D5E7B40",
+  "name": "Oats For Rice (Quaker)",
+  "per100": {
+   "calcium": 250.0,
+   "calories": 381.0,
+   "carbs": 70.4,
+   "cholesterol": 0.0,
+   "fat": 7.8,
+   "fatSaturated": 1.3,
+   "fatTrans": 0.0,
+   "fiber": 7.5,
+   "iron": 2.3,
+   "protein": 11.0,
+   "sodium": 10.0,
+   "sugars": 2.1
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:6E2A9D54-8F31-4B76-A1C0-5D8B3E7F2A09": {
   "barcode": "0652671386572",
   "baseAmount": 100.0,
