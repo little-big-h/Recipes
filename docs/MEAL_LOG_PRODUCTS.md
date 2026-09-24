@@ -1,0 +1,108 @@
+# Meal-log products — already-estimated packaged/bakery items
+
+Per-100g nutrition estimates already built for specific, repeatably-bought products
+Holger snacks on, so a fresh session (in particular the `foodnoms-nutrition` routine,
+which gets **no conversation history** — see `.claude/skills/foodnoms-nutrition/SKILL.md`)
+doesn't have to re-derive them from scratch or guess blind when one of these shows up
+in a logged meal. **Check here before estimating a bakery/packaged product's nutrition
+by eye** — if it's listed, reuse the numbers below (scaled to the logged weight);
+if not, estimate from label/ingredients per `docs/MEAL_LOGGING.md` and consider adding
+the result here afterwards.
+
+This is a different concern from `tools/ingredient-map.json` / `docs/INGREDIENT_MAP.md`,
+which is scoped to **recipe ingredients** (`collectionType 3`, things Holger cooks with).
+These are **meal-log foods** (`collectionType 2`, things Holger eats out) — a one-off
+restaurant dish still gets a fresh per-dish estimate per `MEAL_LOGGING.md`, but a
+*named, repeatably-bought product* (a specific bakery's specific pastry) is worth
+keeping around, since Holger returns to the same bakeries.
+
+None of these are FoodNoms-verified or label-sourced unless noted — they're
+estimated from ingredients/bakery style, same status as any other meal-log estimate
+(uncertainty 10 once a weight is attached, per the usual two-question test).
+
+---
+
+## Oishii Bakery (Singapore)
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Notes |
+|:--|--:|--:|--:|--:|--:|--:|:--|
+| Baked Tapioca-Pandan (木薯糕/タピオカパンダン) | 213 | 2.1g | 36.0g | — | 7.1g | 0.9g | Baked cassava/coconut-milk/pandan cake. Logged once at 128.2g (Sep 6). |
+| Pandan Kaya (bar in box) | 326 | 4.4g | 41.7g | — | 15.5g | 0.5g | Pandan sponge + coconut-egg kaya jam bar. |
+| Chiffon Pandan (S) | 315 | 5.2g | 39g | 26g | 15g | 0.6g | Plain pandan chiffon cake. Same product type identified twice this project (once from a photo alone, once from this shelf label) — figures reused between the two. |
+| Toast Cake (HA HA) / 土司蛋糕 | 279 | 6.3g | 42.6g | 26g | 8.0g | 0.5g | Castella-style egg sponge loaf. |
+| Mini Rolls Pandan | 327 | 3.9g | 38.2g | — | 17.7g | 0.5g | Pandan sponge roll, cream filling, gula melaka drizzle. |
+| Gula Melaka-Onde | 370 | 4.4g | 44.5g | — | 19.7g | 3.3g | Pandan sponge + palm sugar syrup soak + desiccated coconut topping (the coconut is why fibre/fat run higher than the other pandan items). |
+| Raisin & Walnut Wholemeal Loaf (葡萄干+核桃 麦片面包) | 288 | 8.4g | 45g | 10.2g | 8.6g | 5.9g | Wholemeal/multigrain loaf with raisins + walnuts. Logged once at 33.3g (Sep 11/12). |
+| Coffee Swiss Roll (咖啡) | 314 | 4.9g | 39g | 23g | 15.2g | 0.5g | Coffee-flavoured sponge roll, cream filling — same category as Mini Rolls Pandan. Logged once at 27.3g (Sep 12). Caffeine not lab-verified; estimated ~5-15mg/100g (~1-4mg per typical slice) since bakery items use coffee extract/paste for flavour, not brewed coffee — negligible versus a cup of coffee (~95mg). |
+| Egg Roll (美乃滋醬+蛋 / mayo + egg) | 309 | 8.1g | 29g | 3g | 17.6g | 1.0g | Soft bread roll, egg-mayo salad filling. From shelf label ($1.90), not yet logged with a weight. |
+| Nacho Cheese Potato (玉米片奶酪+马铃薯) | 255 | 7.0g | 33g | 2g | 10.3g | 1.4g | Savoury bread roll, mashed potato + nacho cheese sauce filling. From shelf label ($1.90), not yet logged with a weight. |
+| Golden Lava Salted Egg Bun (黄金流沙/塩漬け卵) | 358 | 7.1g | 40g | 18g | 17.6g | 0.7g | Bread bun, molten salted-egg-yolk custard filling (butter/milk-powder/sugar custard — richer than the plain pandan items). From shelf label ($2.00), not yet logged with a weight. |
+| Cranberries Loaf (蔓越莓) | 279 | 6.9g | 50g | 20g | 5.5g | 2.0g | Soft milk-bread sandwich loaf studded with sweetened dried cranberries — same structure as the Raisin & Walnut loaf but no nuts, so notably leaner on fat. From shelf label ($3.20), not yet logged with a weight. |
+| Anpan Japanese Red Bean (红豆沙/あんパン) | 273 | 6.6g | 51g | 28g | 3.9g | 3.0g | Sesame-topped bread roll, sweet azuki bean paste filling — leanest of the Oishii sweet buns since bean paste has far less fat than butter/custard/cream fillings. From shelf label ($1.90), not yet logged with a weight. |
+
+## Mandarin Oriental Singapore
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Notes |
+|:--|--:|--:|--:|--:|--:|--:|--:|:--|
+| Four Treasures Mooncake — Assorted Nuts with Royal Chilli Sauce | 460 | 8g | 52g | 28g | 24g | 3g | 250mg | 2026 "Moonlit Harmony" collection. Halal-certified — confirmed no ham/lard. Traditional 五仁-style mixed-nut filling with a chilli twist. |
+| Four Treasures Mooncake — Low Sugar White Lotus with Double Yolk | 360 | 6.2g | 49.3g | 29g | 15.7g | 1.9g | 285mg | Wheat flour, sugar syrup, groundnut oil, alkaline water, egg glaze, lotus paste, salted egg yolk (from label). Allergens: gluten, peanut, egg. "Low sugar" is relative to the standard version — lotus paste is still the dominant sugar source. |
+| Four Treasures Mooncake — Black Sesame with Mochi | 435 | 7.1g | 44.0g | — | 24.8g | 3.4g | — | Rich black sesame paste filling + chewy mochi layer. The most fat-dense of the three Four Treasures flavours logged so far. Logged once at 41.1g. |
+
+## Wu Pao Chun (Holland Village)
+
+Taiwanese artisan bakery — butter/cream-forward reputation; no published nutrition
+panel found for either, so these estimates lean toward the richer end of plausible
+(see the conversation where this was flagged as lower-confidence than usual: the
+top-down and bottom-up passes weren't independent signals here, both built from the
+same "rich butter scone" prior).
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Notes |
+|:--|--:|--:|--:|--:|--:|--:|:--|
+| Classic Scone (招牌司康) | 380 | 6.7g | 43.4g | ~12g | 19.4g | 1.2g | Cake flour, dairy whipping cream, butter, egg yolk, buttermilk (from label). |
+| Cocoa Scone (巧克力司康) | 392 | 6.5g | 45.1g | — | 20.5g | 1.6g | As Classic + cocoa chips. |
+
+## Supermarket packaged (vendor/brand unconfirmed)
+
+Products bought pre-packaged off a supermarket shelf (not a bakery counter) where the
+brand printed on the wrapper wasn't legible in the photo. Estimated via top-down/bottom-up
+(`docs/MEAL_LOGGING.md`), not label-sourced — revisit if a nutrition panel photo turns up.
+
+| Product | kcal | Protein | Carbs | Fat | Fibre | Notes |
+|:--|--:|--:|--:|--:|--:|:--|
+| Pandan Swiss Roll (individually wrapped, full-size) | 291 | 3.9g | 34g | 14.5g | 0.5g | Pandan sponge roll with cream filling, bought at a supermarket (produce-aisle photo, not a bakery). Distinct from the Oishii "Mini Rolls Pandan" (multi-piece, smaller) — different product. Logged once at 57g (Sep 18). |
+
+## Carman's (packaged, Australian import)
+
+Label-sourced (photographed nutrition panel), not estimated — treat as a fully
+labelled packaged item (uncertainty 0 once a weight is attached, same as any
+other complete-composition packaged food).
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Sat. Fat | Fibre | Sodium | Notes |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|:--|
+| Oat Slice — Cranberry & Blueberry | 466 | 6.5g | 53.8g | 27.5g | 23.8g | 15.7g | 5.9g | 149mg | Whole-grain oats/oat flour + coconut + brown sugar/golden syrup/brown rice syrup + butter, cranberries 6%, blueberries 2%. Box: 5 slices, 35g each (163 kcal/slice). Coconut + butter make this markedly richer (esp. saturated fat) than a typical bakery item of similar size. |
+
+
+
+Hotpot works differently from other meal-log entries: Plate & Shoot weighs each dish/ingredient
+dunked into the pot **separately** (its own before/after), not as one combined dish — so unlike
+a restaurant plate, these ARE genuinely separate weighed items, not an invented decomposition.
+Where a real USDA record exists (shiitake, lotus root, bamboo shoots, spinach, kombu/kelp) it's
+used directly (`uncertainty 0` — raw/plain-cooked ingredient, known composition); only the
+processed/composite items below needed an estimate.
+
+| Product | kcal | Protein | Carbs | Fat | Fibre | Notes |
+|:--|--:|--:|--:|--:|--:|:--|
+| Fresh Fuzhu / Fuzhu (beancurd skin, 腐竹) | 183 | 15.8g | 4.0g | 11.8g | 0.5g | Soy-protein-and-oil-dense yuba/tofu-skin ribbons. Both app labels ("Fresh Fuzhu" and "Fuzhu") treated as the same item — likely inconsistent naming by Plate & Shoot rather than two products. |
+| Taro Sweet Potato Ball | 195 | 1.5g | 42g | 1.8g | 2.0g | Starch-shell hotpot ball (taro/purple sweet potato paste + tapioca/glutinous rice starch). |
+| Tomato Broth | 35 | 0.7g | 3.8g | 2.0g | 0.6g | The house tomato broth itself, eaten/drunk as part of the meal (not just a cooking medium) — confirmed vegetable/tomato-based, not a hidden meat stock, as of the 2026-09-11 visit. |
+
+---
+
+## Adding a new product here
+
+When a meal-log dish turns out to be a specific, repeatably-bought bakery/packaged
+product (not a one-off restaurant plate — see `MEAL_LOGGING.md`'s "never decompose a
+restaurant dish" rule, which still applies to *composition*, just not to whether the
+*whole-product estimate* is worth keeping), add a row: product name, per-100g macros,
+and a one-line note on what it's made of and where the estimate came from. Keep it
+grouped by vendor.

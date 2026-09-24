@@ -54,6 +54,44 @@ Under regimes 2 and 3 the "after" reading may be **mostly vessel** (a cleaned pl
 
 ---
 
+## Estimating the per-100g composition — top-down, bottom-up, take the midpoint
+
+**Don't just eyeball one number and ship it.** For a plated dish with no label,
+produce **two independent estimates**, then average them — this is what the 10%
+uncertainty tier is actually meant to cover, and defaulting to whichever guess
+happens to feel right (usually the higher one) quietly erodes that. *(Holger,
+explicit: "Let's not 'err high'. Instead, set the estimate at the middle of the
+range. That is what 10% uncertainty is meant to mean.", 2026-09-04.)*
+
+1. **Top-down** — a single holistic guess at the whole dish's kcal/protein/carbs/
+   fat/fibre per 100g, from how it looks and what it's described as (a "rich glazed
+   portobello with roasted root veg" reads differently from a "steamed veg and
+   tofu bowl").
+2. **Bottom-up** — break the dish into its visible/described components, assign
+   each a rough weight share (percentages that sum to 100%) and a typical per-100g
+   value, then compute the weighted average. Do this **for the estimate only** —
+   it is not the "never decompose a restaurant dish" rule from above being broken,
+   because the *file* still gets written as a single whole-dish entry. The
+   component breakdown is scratch work for calibrating one number, not a fan of
+   `.foodnoms` entries.
+3. **Midpoint.** Average the two per-100g figures (each nutrient separately), then
+   scale by the logged weight. Sanity-check with Atwater (`4×protein + 4×carbs +
+   9×fat ≈ kcal`) — it won't match exactly (fibre, rounding), but a wide miss means
+   one of the two passes has an error worth finding before averaging it in.
+
+**When the two passes aren't actually independent, say so.** For a dish built from
+visible components (a plate of food), top-down and bottom-up are two different
+signals that can genuinely disagree and bracket the truth. For a **packaged/bakery
+product with no visible composition** (a wrapped scone, a boxed mooncake), both
+passes tend to come from the same "what does this kind of product typically
+contain" prior — landing close together there is internal consistency, not
+corroboration, and the resulting estimate deserves a wider error bar than usual.
+Flag that explicitly rather than reporting false confidence. Check
+`docs/MEAL_LOG_PRODUCTS.md` first for products already estimated — reuse those
+numbers rather than re-deriving.
+
+---
+
 ## Uncertainty policy
 
 ### Decide it with two yes/no questions — never by judgement
