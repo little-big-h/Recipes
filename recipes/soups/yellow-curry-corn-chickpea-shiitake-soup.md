@@ -16,14 +16,14 @@
 | 🟠 | 🌿 Lemongrass paste | 42 g | 20 | |
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
 | 🟢 | 🌽 Frozen sweetcorn kernels | **1501 g** | 1321 | |
-| 🟤 | 🫘 Chickpeas, already cooked (leftovers, unsalted) | 1001 g | 1642 | |
+| 🟤 | 🫘 Chickpeas, cooked yesterday (weight is **dry**; unsalted) | 243 g | 919 | |
 | 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT ❓ | 417 g | 863 | |
 | 🟢 | 🥦 Frozen broccoli (in whole at the end, never blended) | 834 g | 217 | |
 | 🟣 | 🌰 Shiitake powder (the dish's only shiitake) | 25 g | 74 | |
 | 🟣 | 🧂 Salt, at the finish (taste — see design notes) | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~7.1 kg** | **~5992** | |
+| | **Total** | **~6.2 kg** | **~5268** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -71,26 +71,26 @@
 
 ## Nutrition
 
-*Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the **frozen, chopped, unprepared** record — frozen broccoli is 26 kcal per 100 g against fresh broccoli's 39, so the fresh record would overstate it by half), 🫘 chickpeas and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (10.6 g) is a floor that omits the single largest source in the dish; the table gives **~87 g**, from the record's 20.6 g fat per 100 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
+*Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the **frozen, chopped, unprepared** record — frozen broccoli is 26 kcal per 100 g against fresh broccoli's 39, so the fresh record would overstate it by half), 🫘 chickpeas (counted at dry weight, the SR Legacy raw record rather than the Foundation one, which carries no fibre) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (9.4 g) is a floor that omits the single largest source in the dish; the table gives **~86 g**, from the record's 20.6 g fat per 100 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 5992 kcal | Iron | 61.6 mg |
-| Protein | 219 g | Calcium | 1321 mg |
-| Carbohydrates | 982 g | Zinc | 33.7 mg |
-| — of which sugars | 139 g | Magnesium | 1360 mg |
-| Fat | 166 g | Potassium | 10588 mg |
-| — of which saturates | ~87 g (est.) | Vitamin D | 0.2 µg |
-| Fibre | 178 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.6 g | Folate | 3226 µg |
+| Energy | 5268 kcal | Iron | 43.2 mg |
+| Protein | 180 g | Calcium | 969 mg |
+| Carbohydrates | 861 g | Zinc | 25.0 mg |
+| — of which sugars | 118 g | Magnesium | 1072 mg |
+| Fat | 155 g | Potassium | 9420 mg |
+| — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
+| Fibre | 132 g | Vitamin B12 | 0.0 µg |
+| Salt | 17.6 g | Folate | 2858 µg |
 
-*FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7427 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
+*FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
 ---
 
 ## Design notes
 
-**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in.** At 183 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~7.1 kg — 0.075 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.25 g per 100 g** — inside the band, and deliberately at its lower edge so there is room to taste upward rather than down. The absolute figure is well above the family pot's usual 10–15 g, but the pot is two-thirds bigger than usual; the density is what matters.
+**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in.** At 183 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.2 kg — 0.085 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.28 g per 100 g** — exactly the density the tom yum soup landed on, so add the last few grams by taste rather than by the number. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
 
 This is very likely the whole explanation for "the paste tastes a little bland." The SOS jar is **824 mg sodium per 100 g against Hollyfarms tom yum's 6267** — about a seventh. Paste quantities carried over from the tom yum jar therefore under-salt by roughly that factor, and no amount of blooming technique fixes a dish that is seven times under-seasoned. Dose the paste high *and* salt at the end; they are separate levers.
 
@@ -112,4 +112,8 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 ## Cook log
 
-**2026-09-24 — cooked with Jannes.** The 🌽 corn was weighed at **1501 g** and the whole recipe is rescaled ×1.668 to it. Still to record: the weighed yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🫘 chickpea and 🥥 coconut-milk weights, a serving count that reflects how the pot was actually divided, and a rating out of 10. **⚠ At ~7.1 kg this is not five servings** — five would be 1198 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
+**2026-09-24 — cooked with Jannes.** The 🌽 corn was weighed at **1501 g** and the whole recipe is rescaled ×1.668 to it. The 🫘 chickpeas were **250 g dry**, pressure-cooked the day before; Anja ate 15 g of the cooked ones, so **243 g dry** goes in and that is how they are counted — the water they took up adds no nutrition but does count toward the yield.
+
+⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5268 kcal.
+
+Still to record: the weighed yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🥥 coconut-milk weight once rounded to a tin, a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At ~6.2 kg this is not five servings** — five would be 1054 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
