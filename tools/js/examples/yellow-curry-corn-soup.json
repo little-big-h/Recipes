@@ -2,20 +2,66 @@
   "name": "Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️",
   "servings": 5,
   "ingredients": [
-    { "fdcId": 169702, "grams": 200, "note": "millet, dry weight - toasted and cooked separately on the stove" },
-    { "ref": "Oil (Avocado)", "grams": 10 },
-    { "fdcId": 2709795, "grams": 250, "note": "onion, diced" },
-    { "fdcId": 2709786, "grams": 20, "note": "garlic, minced" },
-    { "ref": "Thai Yellow Curry Paste (The SOS Kitchen)", "grams": 110, "note": "dosed high - this jar is 824 mg sodium per 100 g, about a seventh of the Hollyfarms tom yum paste" },
-    { "ref": "Lemongrass Paste", "grams": 25, "note": "the citrus lift, without the acid that would grey the broccoli" },
-    { "ref": "Shiitake Mushroom", "grams": 200, "note": "frozen, in while the pot is still cool" },
-    { "fdcId": 168398, "grams": 900, "note": "frozen sweetcorn kernels" },
-    { "fdcId": 169968, "grams": 150, "note": "frozen broccoli - the share that goes in early and gets blended into the base" },
-    { "fdcId": 173757, "grams": 600, "note": "leftover chickpeas, already cooked from dry, unsalted" },
-    { "ref": "Coconut Milk Classic UHT (Ayam Brand)", "grams": 250 },
-    { "fdcId": 169968, "grams": 350, "note": "frozen broccoli, straight from frozen in the last 2-3 min - already blanched" },
-    { "ref": "Shiitake Powder", "grams": 8, "note": "optional booster - confirm you have this" },
-    { "fdcId": 173468, "grams": 8, "note": "salt at the finish - the paste alone leaves the pot far below the 0.28 g per 100 g band that has worked here" }
+    {
+      "fdcId": 169702,
+      "grams": 334,
+      "note": "millet, dry weight - toasted and cooked separately on the stove"
+    },
+    {
+      "ref": "Oil (Avocado)",
+      "grams": 17
+    },
+    {
+      "fdcId": 2709795,
+      "grams": 417,
+      "note": "onion, diced"
+    },
+    {
+      "fdcId": 2709786,
+      "grams": 33,
+      "note": "garlic, minced"
+    },
+    {
+      "ref": "Thai Yellow Curry Paste (The SOS Kitchen)",
+      "grams": 183,
+      "note": "dosed high - this jar is 824 mg sodium per 100 g, about a seventh of the Hollyfarms tom yum paste"
+    },
+    {
+      "ref": "Lemongrass Paste",
+      "grams": 42,
+      "note": "the citrus lift, without the acid that would grey the broccoli"
+    },
+    {
+      "fdcId": 168398,
+      "grams": 1501,
+      "note": "frozen sweetcorn kernels - as weighed, the anchor the rest is scaled from"
+    },
+    {
+      "fdcId": 173757,
+      "grams": 1001,
+      "note": "leftover chickpeas, already cooked from dry, unsalted"
+    },
+    {
+      "ref": "Coconut Milk Classic UHT (Ayam Brand)",
+      "grams": 417
+    },
+    {
+      "fdcId": 169968,
+      "grams": 834,
+      "note": "frozen broccoli, all of it in whole at the end for 2-3 min - already blanched, never blended"
+    },
+    {
+      "ref": "Shiitake Powder",
+      "grams": 25,
+      "note": "the only shiitake in the dish - dried, so its guanylate is already formed and its enzymes are long dead"
+    },
+    {
+      "fdcId": 173468,
+      "grams": 13,
+      "note": "salt at the finish - scaled with the pot to hold 0.23 g per 100 g"
+    }
   ],
-  "foodnoms": { "collectionType": 3 }
+  "foodnoms": {
+    "collectionType": 3
+  }
 }
