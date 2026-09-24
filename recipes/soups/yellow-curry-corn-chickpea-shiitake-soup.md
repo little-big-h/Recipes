@@ -9,7 +9,7 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
 | 🟤 | 🌾 Millet, dry (toasted first; cooked in its own pan) | 300 g | 1134 | |
-| 🟣 | 🥑 Avocado oil | 17 g | 150 | |
+| 🟣 | 🥑 Avocado oil | 5 g | 44 | |
 | 🟡 | 🧅 Onion, diced | 407 g | 163 | |
 | 🟡 | 🧄 Garlic, minced | 30.4 g | 45 | |
 | 🟠 | 🍛 Thai yellow curry paste — The SOS Kitchen | 183 g | 237 | |
@@ -24,7 +24,7 @@
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **⏳ pending florets** | **~4987** | |
+| | **Total** | **⏳ pending florets** | **~4881** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -78,11 +78,11 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 4987 kcal | Iron | 36.6 mg |
+| Energy | 4881 kcal | Iron | 36.6 mg |
 | Protein | 158 g | Calcium | 572 mg |
 | Carbohydrates | 809 g | Zinc | 21.5 mg |
 | — of which sugars | 109 g | Magnesium | 923 mg |
-| Fat | 152 g | Potassium | 8163 mg |
+| Fat | 140 g | Potassium | 8163 mg |
 | — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
 | Fibre | 109 g | Vitamin B12 | 0.0 µg |
 | Salt | 17.2 g | Folate | 2381 µg |
