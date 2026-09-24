@@ -2232,7 +2232,7 @@
   "source": "label"
  },
  "local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51": {
-  "baseAmount": 1500,
+  "baseAmount": 100,
   "baseUnit": "gram",
   "brand": null,
   "foodID": "local:4EFFC781-4E3D-4F60-8738-7B2D15D65F51",
