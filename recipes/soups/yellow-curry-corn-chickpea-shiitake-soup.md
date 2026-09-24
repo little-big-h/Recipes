@@ -18,12 +18,13 @@
 | 🟢 | 🌽 Frozen sweetcorn kernels | **1501 g** | 1321 | |
 | 🟤 | 🫘 Chickpeas, cooked yesterday (weight is **dry**; unsalted) | 243 g | 919 | |
 | 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT ❓ | 417 g | 863 | |
-| 🟢 | 🥦 Frozen broccoli (in whole at the end, never blended) | 834 g | 217 | |
+| 🟢 | 🥦 Broccoli stems, **fresh**, peeled and sliced (never blended) | 167 g | 57 | |
+| 🟢 | 🥦 Broccoli florets, **fresh** (never blended) | ⏳ not yet weighed | — | |
 | 🟣 | 🌰 Shiitake powder — 25 g in the soup, 5 g in the millet water | 30 g | 89 | |
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~6.1 kg** | **~5147** | |
+| | **Total** | **⏳ pending florets** | **~4987** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -43,9 +44,9 @@
 
 ## Method
 
-> **Prep:** Dice the 🧅 onion, mince the 🧄 garlic. That is the whole of it — everything else goes in from its bag or its jar. Leave the 🥦 broccoli in the freezer until it is called for at step 7.
+> **Prep:** Dice the 🧅 onion, mince the 🧄 garlic. Break the 🥦 broccoli into florets, then **peel the stems and slice them 3–4 mm** — the stem is the best part and most of its weight usually gets thrown away, and it carries more of the bitterness this soup is after than the florets do. Keep the two piles separate; they go in at different times.
 >
-> ⚠ **Frozen broccoli, not fresh, and none of it is blended.** It is already blanched, so it needs **2–3 minutes, not four**, straight from frozen, and it will not hold a bite the way fresh does — ice crystals rupture the cell walls, so it cooks softer however carefully it is timed. The bitterness survives; the texture contrast does not, which is why every 🫘 chickpea also stays whole.
+> ⚠ **None of the 🥦 broccoli is blended.** It all goes in whole, late, and none of it feeds the base — see the design notes.
 
 1. **Toast and cook the 🌾 millet, in its own pan — the IKEA 2 L (tare 743 g).** Toast the dry grains over medium heat, stirring, 2–3 minutes until they smell nutty. Add **750 ml water, 5 g of the 🌰 shiitake powder and 2 g of the 🧂 salt**, bring to a boil, cover, and simmer on low **25 minutes**. ⚠ That is about **1.1 L of contents in a 2 L pot** — comfortable at a simmer, but millet foams as it comes to the boil, so leave the lid ajar until it settles. Pull it off the heat and leave it covered to steam until serving. Toasting is the single biggest quality difference with millet — it keeps the grains distinct instead of pasty.
 
@@ -61,7 +62,7 @@
 
 6. **Back to the pot, then 🫘 chickpeas and 🥥 coconut milk.** Return the purée, stir in the already-cooked chickpeas and the coconut milk, and warm 4 minutes. The chickpeas went in unsalted, so this is where they take on the seasoning. ⚠ Leave every chickpea whole — with frozen broccoli they are the firmest thing left in the bowl.
 
-7. **All the 🥦 broccoli in, straight from frozen, for 2–3 minutes.** It is already blanched, so this is the easiest step in the recipe to overshoot — it only needs heating through and a moment more. ⚠ Longer and brassica glucosinolates break down into sulphur compounds; you want the bitterness, not the cabbage.
+7. **🥦 Broccoli in, stems first and florets after.** Sliced stems for **5–6 minutes**, then the florets for a further **3–4**, so both finish together. Pull them while a floret stem still resists a knife tip — fresh broccoli carries on cooking in a hot pot, so stop early. ⚠ Longer and brassica glucosinolates break down into sulphur compounds; you want the bitterness, not the cabbage.
 
 8. **🌰 Shiitake powder off the heat.** Stir the remaining 25 g in and let it sit a minute. No special timing and no temperature to steer: the guanylate in a dried powder was made during drying and its enzymes are long dead — which is the whole reason the powder replaces whole mushroom here rather than supplementing it.
 
@@ -73,18 +74,18 @@
 
 ## Nutrition
 
-*Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the **frozen, chopped, unprepared** record — frozen broccoli is 26 kcal per 100 g against fresh broccoli's 39, so the fresh record would overstate it by half), 🫘 chickpeas (counted at dry weight, the SR Legacy raw record rather than the Foundation one, which carries no fibre) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (9.4 g) is a floor that omits the single largest source in the dish; the table gives **~86 g**, from the record's 20.6 g fat per 100 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
+*⏳ **Provisional — the 🥦 florets are not yet weighed and are missing from every figure below.** Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 for both stems and florets — USDA’s dedicated `Broccoli, stalks, raw` carries no fibre at all, the third record this month with that hole, and the two are otherwise near-identical), 🫘 chickpeas (counted at dry weight, the SR Legacy raw record rather than the Foundation one, which carries no fibre) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (9.4 g) is a floor that omits the single largest source in the dish; the table gives **~86 g**, from the record's 20.6 g fat per 100 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 5147 kcal | Iron | 42.2 mg |
-| Protein | 177 g | Calcium | 960 mg |
-| Carbohydrates | 838 g | Zinc | 24.8 mg |
-| — of which sugars | 117 g | Magnesium | 1038 mg |
-| Fat | 153 g | Potassium | 9403 mg |
+| Energy | 4987 kcal | Iron | 36.6 mg |
+| Protein | 158 g | Calcium | 572 mg |
+| Carbohydrates | 809 g | Zinc | 21.5 mg |
+| — of which sugars | 109 g | Magnesium | 923 mg |
+| Fat | 152 g | Potassium | 8163 mg |
 | — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
-| Fibre | 129 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.6 g | Folate | 2835 µg |
+| Fibre | 109 g | Vitamin B12 | 0.0 µg |
+| Salt | 17.2 g | Folate | 2381 µg |
 
 *FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
@@ -104,7 +105,9 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 ⚠ **An earlier version of this recipe built the umami from 334 g of frozen shiitake, warmed in a microwave to 65 °C and stood for fifteen minutes**, to sit inside the 60–70 °C band where ribonuclease makes 5′-GMP while moving quickly through the 40–50 °C band where phosphomonoesterase destroys it. That technique is correct and worth keeping for a dish built on whole mushroom. It is simply moot here: powder has no enzymes left to steer.
 
-**Why the 🥦 broccoli is never blended.** It goes in whole, at the end, and none of it feeds the base. Blended broccoli tints the soup olive and dissolves its bitterness evenly into the background — but bitterness is wanted as a contrast you meet in bites, not as a baseline. Since frozen broccoli has already lost its bite to ice-crystal damage, arriving in recognisable pieces is the only contrast it can still offer, which is also why every 🫘 chickpea stays whole.
+**Why the 🥦 broccoli is never blended.** It goes in whole, at the end, and none of it feeds the base. Blended broccoli tints the soup olive and dissolves its bitterness evenly into the background — but bitterness is wanted as a contrast you meet in bites, not as a baseline. ⚠ **The original design blended the peeled stems into the base**, and with fresh broccoli that remains a real option: stems purée cleanly and are the most bitter part. It was ruled out deliberately, not by accident.
+
+⚠ **An earlier version of this cook used frozen broccoli**, and the notes then said the texture contrast was lost — ice crystals rupture the cell walls, so frozen broccoli cooks soft however carefully it is timed, and 2–3 minutes straight from frozen was the whole of it. **Fresh is what actually went in.** It holds its bite, the stems come back as a usable ingredient, and the timing splits: stems need 5–6 minutes and florets 3–4, rather than one short pass for a pre-blanched bag.
 
 **Why not nutritional yeast.** It is a **glutamate** source, and so is corn; stacking them is additive. Shiitake is a **guanylate** source, and glutamate × guanylate is multiplicative. In a corn soup the glutamate is what you already have. The same argument rules out a kombu-blend seasoning powder here — kombu is very dense glutamate — though that blend is the better jar for a dish with no glutamate source of its own.
 
