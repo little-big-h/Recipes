@@ -22,7 +22,7 @@
 | 🟢 | 🥦 Broccoli florets, **fresh** (never blended) | 469 g | 159 | |
 | 🟢 | 🥦 Broccoli, **fresh**, a further lot added during the cook | 162 g | 55 | |
 | 🟣 | 🌰 Shiitake powder — 25 g in the soup, 5 g in the millet water | 30 g | 89 | |
-| 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
+| 🟣 | 🧂 Salt — 5 g in the soup at the finish, 2 g in the millet water | 7 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
 | | **Total** | **~5.8 kg in, 4979 g out** | **~4538** | |
@@ -86,7 +86,7 @@
 | Fat | 86.8 g | Potassium | 10143 mg |
 | — of which saturates | ~36 g (est.) | Vitamin D | 0.0 µg |
 | Fibre | 125 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.6 g | Folate | 2779 µg |
+| Salt | 11.7 g | Folate | 2779 µg |
 
 *FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
@@ -94,7 +94,7 @@
 
 ## Design notes
 
-**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~5.8 kg — 0.091 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.30 g per 100 g** — the top of the band again. ⚠ This moved about during the cook and is worth watching rather than trusting: with the short chickpeas and 300 g of millet the pot was running small and the density had crept to 0.30, the top of the band, before a further 162 g of 🥦 broccoli brought it back, and then 150 g of 🥥 coconut milk instead of 417 g sent it up again. **Salt by taste at step 9 rather than by the number** — the figure is only as good as the final pot weight, which is the last thing to be known. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
+**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet. ⚠ On the cook, only 7 g went in and the dish landed at 0.24 g per 100 g, below the band — see the cook log.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~5.8 kg — 0.091 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.30 g per 100 g** — the top of the band again. ⚠ This moved about during the cook and is worth watching rather than trusting: with the short chickpeas and 300 g of millet the pot was running small and the density had crept to 0.30, the top of the band, before a further 162 g of 🥦 broccoli brought it back, and then 150 g of 🥥 coconut milk instead of 417 g sent it up again. **Salt by taste at step 9 rather than by the number** — the figure is only as good as the final pot weight, which is the last thing to be known. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
 
 This is very likely the whole explanation for "the paste tastes a little bland." The SOS jar is **824 mg sodium per 100 g against Hollyfarms tom yum's 6267** — about a seventh. Paste quantities carried over from the tom yum jar therefore under-salt by roughly that factor, and no amount of blooming technique fixes a dish that is seven times under-seasoned. Dose the paste high *and* salt at the end; they are separate levers.
 
@@ -128,8 +128,8 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. With the 947 g of millet the dish comes to **4979 g**, at **91 kcal per 100 g**.
 
-⚠ **It reduced much harder than planned, and the salt went up with it.** Against about 4850 g of inputs that is a **17% loss** — where Anja's pasta sauce lost ~10% and her curry sauce 1%. The dish therefore lands at **0.35 g of salt per 100 g if the full 11 g went in**, against the 0.28–0.30 band the seasoning was designed around. ⚠ **The 💧 water is the one input never weighed**, and it is the more likely culprit than the burner: at 900 ml rather than the planned 1200 the loss would be a routine 11% and the arithmetic would close without any unusual evaporation. Weigh or measure the water next time and this resolves itself.
+⚠ **It reduced much harder than planned.** Against about 4850 g of inputs that is a **17% loss** — where Anja's pasta sauce lost ~10% and her curry sauce 1%. **The 💧 water is the one input never weighed**, and it is a likelier culprit than the burner: at 900 ml rather than the planned 1200 the loss would be a routine 11% and the arithmetic would close without any unusual evaporation. Measuring the water closes this next time.
 
-Either way the instruction at step 9 — salt by taste, not by the number — was the right one, and **13.9 g rather than 13 g would have been the figure for 0.28 g per 100 g at this yield**. Record what actually went in.
+**🧂 Salt actually added: 5 g to the soup, not 11** (plus the 2 g in the millet). The dish therefore carries **11.7 g of salt, or 0.24 g per 100 g** — **below** the 0.28–0.30 band of the dishes that have rated well here, not above it. The reduction had pushed the design figure up to 0.35 and the correction overshot past the target: **13.9 g total would have been 0.28 g per 100 g at this yield**, and 7 g went in. ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — the dish is 6 g of salt short, not short of umami.
 
 Still to record: a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At 4979 g this is not five servings** — five would be 996 g and 908 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
