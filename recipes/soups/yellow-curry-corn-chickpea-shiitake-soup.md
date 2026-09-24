@@ -121,6 +121,8 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 ⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5147 kcal.
 
+**🫘 Cooked chickpeas: 503 g weighed.** Against the prediction of 503 g — 250 g dry at this kitchen's measured 2.07×, less the 15 g Anja ate. Back-solved, the weighing gives (503 + 15) ÷ 250 = **2.072×**, so the ratio is confirmed to three figures by a cook that had nothing to do with establishing it. Nutrition is unaffected: the chickpeas are counted at their 243 g dry weight either way, and 503 g is what they contribute to the pot's mass.
+
 **🌾 Millet yield: 947 g** — 1690 g weighed in the IKEA 2 L, less its 743 g tare. That is **3.16× the 300 g dry**, sitting right on the 3.14–3.17× this kitchen has measured twice before, so the new pot tare is confirmed good by a third route. Of the 750 ml of water, 647 g was absorbed and about 103 g left as steam over the covered 25 minutes.
 
 Still to record: the weighed soup yield (pot weight less its tare — see `../../docs/TECHNIQUES.md`), the actual 🥥 coconut-milk weight once rounded to a tin, a serving count that reflects how the pot was really divided, and a rating out of 10. **⚠ At ~6.1 kg this is not five servings** — five would be 1029 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.

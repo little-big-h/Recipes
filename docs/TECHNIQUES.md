@@ -47,7 +47,7 @@ pot and subtracting its tare.
 |:--|--:|:--|
 | Millet | **3.16×** | 250 g → 792 g (2026-09-19); 300 g → 947 g (2026-09-24) |
 | Brown rice, pressure-cooked | **3.02×** | 205 g → 620 g (2026-09-22) |
-| Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09 |
+| Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09; confirmed 2026-09-24, 250 g → 518 g (503 g weighed plus 15 g eaten) |
 
 ⚠ **Nutrition is computed from the dry weight, never the cooked weight** — the
 water taken up adds no nutrition. The ratio is for predicting **yield** and for
