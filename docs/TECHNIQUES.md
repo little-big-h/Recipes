@@ -35,6 +35,34 @@ All rows are now identified by vessel.
 
 *(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
 
+---
+
+## Dry → cooked ratios (measured here)
+
+For predicting a yield before cooking, and for sanity-checking one afterwards.
+These are **this kitchen's** numbers, not book figures — measured by weighing the
+pot and subtracting its tare.
+
+| Grain / legume | Ratio | Measurements |
+|:--|--:|:--|
+| Millet | **3.16×** | 250 g → 792 g (2026-09-19); 300 g → 947 g (2026-09-24) |
+| Brown rice, pressure-cooked | **3.02×** | 205 g → 620 g (2026-09-22) |
+| Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09 |
+
+⚠ **Nutrition is computed from the dry weight, never the cooked weight** — the
+water taken up adds no nutrition. The ratio is for predicting **yield** and for
+catching a reading that cannot be right; it is not an input to the nutrition
+arithmetic. (See `RECIPE_NUTRITION_GENERATOR.md`.)
+
+The brown rice figure has an independent check: 205 g dry at 620 g cooked gives
+121 kcal per 100 g, which lands on USDA's own cooked-brown-rice generic (169704,
+~123 kcal/100 g) — a record derived with no knowledge of that yield. Tare
+subtraction and water uptake both check out.
+
+⚠ **Chickpeas were once quoted here at 2.5×** ("a 500 g bag does the work of
+about five tins"). Measured, it is **2.07×** — about four tins. Use the measured
+figure.
+
 Add a row whenever a new pot, bowl or tray gets used for something worth weighing — empty, dry, on the same scale.
 
 ---
