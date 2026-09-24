@@ -12,8 +12,8 @@
 | 🟣 | 🥑 Avocado oil | 5 g | 44 | |
 | 🟡 | 🧅 Onion, diced | 407 g | 163 | |
 | 🟡 | 🧄 Garlic, minced | 30.4 g | 45 | |
-| 🟠 | 🍛 Thai yellow curry paste — The SOS Kitchen | 183 g | 237 | |
-| 🟠 | 🌿 Lemongrass paste | 42 g | 20 | |
+| 🟠 | 🍛 Thai yellow curry paste — The SOS Kitchen | 180 g | 233 | |
+| 🟠 | 🌿 Lemongrass paste | 40 g | 19 | |
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
 | 🟢 | 🌽 Frozen sweetcorn kernels | **1501 g** | 1321 | |
 | 🟤 | 🫘 Chickpeas, cooked yesterday (weight is **dry**; unsalted) | 243 g | 919 | |
@@ -24,7 +24,7 @@
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **⏳ pending florets** | **~4881** | |
+| | **Total** | **⏳ pending florets** | **~4876** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -78,14 +78,14 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 4881 kcal | Iron | 36.6 mg |
-| Protein | 158 g | Calcium | 572 mg |
+| Energy | 4876 kcal | Iron | 36.5 mg |
+| Protein | 158 g | Calcium | 569 mg |
 | Carbohydrates | 809 g | Zinc | 21.5 mg |
 | — of which sugars | 109 g | Magnesium | 923 mg |
-| Fat | 140 g | Potassium | 8163 mg |
+| Fat | 140 g | Potassium | 8149 mg |
 | — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
 | Fibre | 109 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.2 g | Folate | 2381 µg |
+| Salt | 17.1 g | Folate | 2381 µg |
 
 *FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
@@ -93,7 +93,7 @@
 
 ## Design notes
 
-**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 183 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.1 kg — 0.087 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.29 g per 100 g** — the middle of that band rather than its lower edge, so add the last few grams by taste rather than by the number. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
+**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.1 kg — 0.087 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.29 g per 100 g** — the middle of that band rather than its lower edge, so add the last few grams by taste rather than by the number. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
 
 This is very likely the whole explanation for "the paste tastes a little bland." The SOS jar is **824 mg sodium per 100 g against Hollyfarms tom yum's 6267** — about a seventh. Paste quantities carried over from the tom yum jar therefore under-salt by roughly that factor, and no amount of blooming technique fixes a dish that is seven times under-seasoned. Dose the paste high *and* salt at the end; they are separate levers.
 
