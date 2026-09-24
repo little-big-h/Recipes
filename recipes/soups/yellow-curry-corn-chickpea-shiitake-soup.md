@@ -17,7 +17,7 @@
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
 | 🟢 | 🌽 Frozen sweetcorn kernels | **1501 g** | 1321 | |
 | 🟤 | 🫘 Chickpeas, cooked yesterday (weight is **dry**; unsalted) | 243 g | 919 | |
-| 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT ❓ | 417 g | 863 | |
+| 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT | 150 g | 311 | |
 | 🟢 | 🥦 Broccoli stems, **fresh**, peeled and sliced (never blended) | 167 g | 57 | |
 | 🟢 | 🥦 Broccoli florets, **fresh** (never blended) | 469 g | 159 | |
 | 🟢 | 🥦 Broccoli, **fresh**, a further lot added during the cook | 162 g | 55 | |
@@ -25,11 +25,11 @@
 | 🟣 | 🧂 Salt — 11 g in the soup at the finish, 2 g in the millet water | 13 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~6.1 kg** | **~5091** | |
+| | **Total** | **~5.8 kg** | **~4538** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*⚠ **Rescaled ×1.668 from the original design, to match the 1501 g of 🌽 sweetcorn actually weighed out** (the design was built on 900 g). Everything scales with it **except 💧 water, deliberately held at 1200 ml rather than the 2000 ml the factor would give** — 1501 g of frozen corn and 834 g of frozen broccoli carry a great deal of their own water into the pot, and at full scale the soup alone comes to nearly 7 kg, which is past the 5 L pot. Thin at serving if it is tight. Total weight includes that water and the water the 🌾 millet takes up in its own pan (200 g dry previously yielded 792 g cooked, a 3.17× ratio). ❓ marks an item whose presence in the Singapore kitchen is unconfirmed — the 🥥 coconut milk; 417 g will straddle a can, so round to a whole tin as the soybean-corn soup does. 🫙 tamarind and 🍋 lime are at-table and excluded from energy. Est. kcal is per planned amount and sums to ≈ the stated Nutrition energy.*
+*⚠ **Rescaled ×1.668 from the original design, to match the 1501 g of 🌽 sweetcorn actually weighed out** (the design was built on 900 g). Everything scales with it **except 💧 water, deliberately held at 1200 ml rather than the 2000 ml the factor would give** — 1501 g of frozen corn and 834 g of frozen broccoli carry a great deal of their own water into the pot, and at full scale the soup alone comes to nearly 7 kg, which is past the 5 L pot. Thin at serving if it is tight. Total weight includes that water and the water the 🌾 millet takes up in its own pan (200 g dry previously yielded 792 g cooked, a 3.17× ratio). ❓ marks an item whose presence in the Singapore kitchen is unconfirmed — 🫙 tamarind and 🍋 lime are at-table and excluded from energy. Est. kcal is per planned amount and sums to ≈ the stated Nutrition energy.*
 
 ---
 
@@ -75,18 +75,18 @@
 
 ## Nutrition
 
-*Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 for both stems and florets — USDA’s dedicated `Broccoli, stalks, raw` carries no fibre at all, the third record this month with that hole, and the two are otherwise near-identical), 🫘 chickpeas (counted at dry weight, the SR Legacy raw record rather than the Foundation one, which carries no fibre) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (9.4 g) is a floor that omits the single largest source in the dish; the table gives **~86 g**, from the record's 20.6 g fat per 100 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
+*Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 for both stems and florets — USDA’s dedicated `Broccoli, stalks, raw` carries no fibre at all, the third record this month with that hole, and the two are otherwise near-identical), 🫘 chickpeas (counted at dry weight, the SR Legacy raw record rather than the Foundation one, which carries no fibre) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (8.3 g) is a floor that omits the single largest source in the dish; the table gives **~36 g**, from the record’s 20.6 g fat per 100 g across 150 g, at coconut fat’s ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 5091 kcal | Iron | 41.1 mg |
-| Protein | 176 g | Calcium | 866 mg |
-| Carbohydrates | 850 g | Zinc | 24.1 mg |
-| — of which sugars | 119 g | Magnesium | 1056 mg |
-| Fat | 142 g | Potassium | 10143 mg |
-| — of which saturates | ~86 g (est.) | Vitamin D | 0.0 µg |
+| Energy | 4538 kcal | Iron | 41.1 mg |
+| Protein | 170 g | Calcium | 866 mg |
+| Carbohydrates | 843 g | Zinc | 24.1 mg |
+| — of which sugars | 112 g | Magnesium | 1056 mg |
+| Fat | 86.8 g | Potassium | 10143 mg |
+| — of which saturates | ~36 g (est.) | Vitamin D | 0.0 µg |
 | Fibre | 125 g | Vitamin B12 | 0.0 µg |
-| Salt | 17.7 g | Folate | 2779 µg |
+| Salt | 17.6 g | Folate | 2779 µg |
 
 *FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
 
@@ -94,7 +94,7 @@
 
 ## Design notes
 
-**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~6.1 kg — 0.087 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.7 g, or 0.29 g per 100 g** — inside the band, in its middle. ⚠ This moved about during the cook and is worth watching rather than trusting: with the short chickpeas and 300 g of millet the pot was running small and the density had crept to 0.30, the top of the band, before a further 162 g of 🥦 broccoli brought it back. **Salt by taste at step 9 rather than by the number** — the figure is only as good as the final pot weight, which is the last thing to be known. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
+**⚠ Salt is the thing to get right, and the paste will not do it alone — which is why 13 g is planned in, split between the pot and the millet.** At 180 g of The SOS Kitchen yellow paste and nothing else, the whole pot would carry about **5.3 g of salt across ~5.8 kg — 0.091 g per 100 g**. The dishes that have scored well in this kitchen run at **0.28–0.30 g per 100 g** (the tom yum broccoli/chickpea soup landed at 0.28). The 13 g at step 9 brings this pot to **17.6 g, or 0.30 g per 100 g** — the top of the band again. ⚠ This moved about during the cook and is worth watching rather than trusting: with the short chickpeas and 300 g of millet the pot was running small and the density had crept to 0.30, the top of the band, before a further 162 g of 🥦 broccoli brought it back, and then 150 g of 🥥 coconut milk instead of 417 g sent it up again. **Salt by taste at step 9 rather than by the number** — the figure is only as good as the final pot weight, which is the last thing to be known. The absolute figure is well above the family pot's usual 10–15 g, but the pot is half again as big as usual; the density is what matters.
 
 This is very likely the whole explanation for "the paste tastes a little bland." The SOS jar is **824 mg sodium per 100 g against Hollyfarms tom yum's 6267** — about a seventh. Paste quantities carried over from the tom yum jar therefore under-salt by roughly that factor, and no amount of blooming technique fixes a dish that is seven times under-seasoned. Dose the paste high *and* salt at the end; they are separate levers.
 
