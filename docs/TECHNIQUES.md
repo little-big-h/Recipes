@@ -12,7 +12,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 |:--|--:|:--|
 | Instant Pot inner pot | **867 g** | 2026-08-27 |
 | IKEA 5 L | **1208 g** | 2026-09-20 |
-| Unidentified — millet | **735 g** | 2026-09-19 |
+| IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
 
 ⚠ **Weigh the pot properly, once, rather than estimating it in the moment.** The
 IKEA 5 L was first given as "1500 g" on 2026-09-13 and re-weighed at 1208 g on
@@ -21,8 +21,17 @@ Anja's pasta sauce totals until it was caught. A tare is worth getting right
 once: it is reused on every cook in that vessel, so an error in it propagates
 silently into every yield derived from it.
 
-⚠ The remaining unidentified row is a pot reading given without a vessel named,
-so it is recorded but not yet usable by name.
+⚠ **The IKEA 2 L is the pot that was previously recorded as "Unidentified —
+millet, 735 g" on 2026-09-19.** Identified and weighed empty on 2026-09-24 at
+**743 g**, stamped Ø 19 cm / 2 l / article 20535. The two readings differ by 8 g
+(~1%), which is residue or scale variance rather than a real discrepancy — far
+short of the IKEA 5 L's 292 g — but **743 g is the figure to use**, since it is
+the deliberate empty weighing and the earlier one was given mid-cook. The millet
+yield recorded on 2026-09-19 (1527 g gross → 792 g) is therefore 8 g heavy;
+at 250 g dry that moves the dry-to-cooked ratio from 3.17× to 3.14×, which
+changes nothing worth restating.
+
+All rows are now identified by vessel.
 
 *(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
 
