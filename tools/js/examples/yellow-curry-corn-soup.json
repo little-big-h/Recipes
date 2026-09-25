@@ -40,7 +40,7 @@
     {
       "fdcId": 173756,
       "grams": 243,
-      "note": "chickpeas counted at DRY weight - 250 g cooked yesterday, less the ~7 g dry equivalent of the 15 g cooked Anja ate. The water they took up adds no nutrition but does count toward the yield"
+      "note": "chickpeas counted at DRY weight - 250 g cooked the day before, less the ~7 g dry equivalent of the 15 g Anja ate. NEVER IN THE POT: served alongside for people to add at the bowl, like the millet"
     },
     {
       "ref": "Coconut Milk Classic UHT (Ayam Brand)",
@@ -75,6 +75,6 @@
   ],
   "foodnoms": {
     "collectionType": 3,
-    "totalServingSize": 4979
+    "totalServingSize": 5482
   }
 }

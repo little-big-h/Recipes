@@ -1,6 +1,6 @@
 # Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake
 
-*Cooked with Jannes. A creamy yellow-curry corn soup built to solve one specific problem: **broccoli that stays green**. Every tom yum version of this dish forces the broccoli out of the pot, because acid turns chlorophyll to pheophytin and the florets go olive-drab within minutes. 🍛 Thai yellow curry paste carries no meaningful acid, so the 🥦 broccoli can cook in the soup and come out coated — the presentation that has consistently worked for Jannes with brassicas — and 🌿 lemongrass paste supplies the citrus lift that tom yum would otherwise have brought. There is **no whole mushroom in the dish at all** — the kids reject visible mushroom, and 🌰 shiitake powder delivers the guanylate with the texture problem already removed, so nothing needs blending smooth to hide it. The 🫘 chickpeas are leftovers and only need heating through. 🌾 Millet is toasted and cooked in its own pan on the stove, so the soup can be reheated as soup rather than setting into a block. Family of five.*
+*Cooked with Jannes. A creamy yellow-curry corn soup built to solve one specific problem: **broccoli that stays green**. Every tom yum version of this dish forces the broccoli out of the pot, because acid turns chlorophyll to pheophytin and the florets go olive-drab within minutes. 🍛 Thai yellow curry paste carries no meaningful acid, so the 🥦 broccoli can cook in the soup and come out coated — the presentation that has consistently worked for Jannes with brassicas — and 🌿 lemongrass paste supplies the citrus lift that tom yum would otherwise have brought. There is **no whole mushroom in the dish at all** — the kids reject visible mushroom, and 🌰 shiitake powder delivers the guanylate with the texture problem already removed, so nothing needs blending smooth to hide it. The 🫘 chickpeas are leftovers, reheated and set on the table alongside the 🌾 millet for people to add to their own bowls rather than stirred into the pot. 🌾 Millet is toasted and cooked in its own pan on the stove, so the soup can be reheated as soup rather than setting into a block. Family of five.*
 
 ---
 
@@ -16,7 +16,7 @@
 | 🟠 | 🌿 Lemongrass paste | 40 g | 19 | |
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
 | 🟢 | 🌽 Frozen sweetcorn kernels | **1501 g** | 1321 | |
-| 🟤 | 🫘 Chickpeas, cooked yesterday (weight is **dry**; unsalted) | 243 g | 919 | |
+| 🟤 | 🫘 Chickpeas, cooked the day before (weight is **dry**; unsalted; **served alongside, never in the pot**) | 243 g | 919 | |
 | 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT | 150 g | 311 | |
 | 🟢 | 🥦 Broccoli stems, **fresh**, peeled and sliced (never blended) | 167 g | 57 | |
 | 🟢 | 🥦 Broccoli florets, **fresh** (never blended) | 469 g | 159 | |
@@ -25,7 +25,7 @@
 | 🟣 | 🧂 Salt — 5 g in the soup at the finish, 2 g in the millet water | 7 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~5.8 kg in, 4979 g out** | **~4538** | |
+| | **Total** | **~5.8 kg in, 5482 g out** | **~4538** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -61,7 +61,7 @@
 
 5. **Blend the base — corn and aromatics only.** Transfer most of the pot to the blender and run it until smooth. ⚠ **No 🥦 broccoli and no 🌾 millet goes anywhere near the blender.** Blended broccoli would tint the soup olive and dissolve its bitterness into the background instead of delivering it in bites; cooked millet under blender shear releases amylose and turns gluey. Both stay out.
 
-6. **Back to the pot, then 🫘 chickpeas and 🥥 coconut milk.** Return the purée, stir in the already-cooked chickpeas and the coconut milk, and warm 4 minutes. The chickpeas went in unsalted, so this is where they take on the seasoning. ⚠ Leave every chickpea whole — with frozen broccoli they are the firmest thing left in the bowl.
+6. **Back to the pot, then 🥥 coconut milk.** Return the purée, stir in the coconut milk and warm 4 minutes. ⚠ **The 🫘 chickpeas do not go in here.** They were reheated and served alongside, like the 🌾 millet, for people to spoon into their own bowls — which is how the dish was actually eaten and how its three `.foodnoms` files are split.
 
 7. **🥦 Broccoli in, stems first and florets after.** Sliced stems for **5–6 minutes**, then the florets for a further **3–4**, so both finish together. Pull them while a floret stem still resists a knife tip — fresh broccoli carries on cooking in a hot pot, so stop early. ⚠ Longer and brassica glucosinolates break down into sulphur compounds; you want the bitterness, not the cabbage.
 
@@ -69,7 +69,7 @@
 
 9. **🧂 Salt — the remaining 11 g — and taste properly.** See the design notes: the paste alone leaves this pot far below the salt level of the dishes that have scored well here, and this is the step that fixes it.
 
-10. **Serve** with the 🌾 millet spooned into each bowl and the soup ladled over. 🫙 Tamarind, diluted in a splash of hot water, and 🍋 lime wedges at the table for anyone who wants acidity — kept off the main pot per the family's acid-at-the-table convention, and see the design notes for why lemongrass does not cover this.
+10. **Serve** with the 🌾 millet and the 🫘 chickpeas on the table, spooned into each bowl, and the soup ladled over. 🫙 Tamarind, diluted in a splash of hot water, and 🍋 lime wedges at the table for anyone who wants acidity — kept off the main pot per the family's acid-at-the-table convention, and see the design notes for why lemongrass does not cover this.
 
 ---
 
@@ -126,11 +126,11 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **🌾 Millet yield: 947 g** — 1690 g weighed in the IKEA 2 L, less its 743 g tare. That is **3.16× the 300 g dry**, sitting right on the 3.14–3.17× this kitchen has measured twice before, so the new pot tare is confirmed good by a third route. Of the 750 ml of water, 647 g was absorbed and about 103 g left as steam over the covered 25 minutes.
 
-**Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. With the 947 g of millet the dish comes to **4979 g**, at **91 kcal per 100 g**.
+**Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. With the 947 g of millet and the 503 g of chickpeas the dish comes to **5482 g**, at **83 kcal per 100 g**.
 
-⚠ **It reduced much harder than planned.** Against about 4850 g of inputs that is a **17% loss** — where Anja's pasta sauce lost ~10% and her curry sauce 1%. **The 💧 water is the one input never weighed**, and it is a likelier culprit than the burner: at 900 ml rather than the planned 1200 the loss would be a routine 11% and the arithmetic would close without any unusual evaporation. Measuring the water closes this next time.
+**Reduction was unremarkable: 309 g off 4341 g of inputs, a 7% loss.** ⚠ An earlier version of this log reported 17% and speculated that the 💧 water must have gone in under the planned 1200 ml. That was wrong, and the cause was an accounting error rather than anything in the pot: the 503 g of 🫘 chickpeas were counted as pot inputs when they were never in the pot at all. Remove them and the loss is ordinary. The water was fine.
 
-**🧂 Salt actually added: 5 g to the soup, not 11** (plus the 2 g in the millet). The dish therefore carries **11.7 g of salt, or 0.24 g per 100 g** — **below** the 0.28–0.30 band of the dishes that have rated well here, not above it. The reduction had pushed the design figure up to 0.35 and the correction overshot past the target: **13.9 g total would have been 0.28 g per 100 g at this yield**, and 7 g went in. ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — the dish is 6 g of salt short, not short of umami.
+**🧂 Salt actually added: 5 g to the soup, not 11** (plus the 2 g in the millet). Across the corrected 5482 g the dish carries **11.7 g of salt, or 0.21 g per 100 g** — well **below** the 0.28–0.30 band of the dishes that have rated well here. **15.3 g would have been the figure for 0.28 at this yield**, and 7 g went in, so the dish is about **8 g of salt short**. ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — it is not short of umami.
 
 ⚠ **Too hot for the children to eat. Not rated — the heat was disqualifying.** 180 g of paste, and Holger's judgement afterwards was that half would still have been too hot. The paste was dosed high on its **sodium** (824 mg per 100 g against Hollyfarms tom yum's 6267) with no account taken of its chilli, and the 150 g of 🥥 coconut milk against a planned 417 g compounded it, since fat is what carries capsaicin off the palate. See `../../docs/TECHNIQUES.md` → *Dose curry paste on capsaicin, not on sodium*. **Before cooking this again, cut the paste hard and taste up.**
 
