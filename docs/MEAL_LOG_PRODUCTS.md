@@ -71,6 +71,12 @@ brand printed on the wrapper wasn't legible in the photo. Estimated via top-down
 |:--|--:|--:|--:|--:|--:|:--|
 | Pandan Swiss Roll (individually wrapped, full-size) | 291 | 3.9g | 34g | 14.5g | 0.5g | Pandan sponge roll with cream filling, bought at a supermarket (produce-aisle photo, not a bakery). Distinct from the Oishii "Mini Rolls Pandan" (multi-piece, smaller) — different product. Logged once at 57g (Sep 18). |
 
+## Yamazaki (Boulangerie Chaude, Singapore)
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Notes |
+|:--|--:|--:|--:|--:|--:|--:|:--|
+| Chocolate Steamed Cake (チョコレート蒸しケーキ) | 310 | 5.0g | 42g | 26g | 12g | 1.3g | Individually wrapped marbled chocolate/vanilla steamed sponge (mushi-gashi style) — oil-based batter, lighter than a baked pound cake but still a moist, sugar-forward marble cake. Sold 2pcs/$2.10 from the shelf; single piece pictured, no weight logged yet. |
+
 ## Carman's (packaged, Australian import)
 
 Label-sourced (photographed nutrition panel), not estimated — treat as a fully
