@@ -14,6 +14,18 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | IKEA 5 L | **1208 g** | 2026-09-20 |
 | IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
 
+⚠ **Ask which vessel a "with pot" weight was taken in. Never infer it.** A yield
+given as "5240 with pot" is unusable until the vessel is named, and the tares
+here differ by up to 465 g. ⚠ **Do not try to deduce it from the arithmetic
+either** — the obvious argument, that yield cannot exceed inputs, is **invalid in
+this kitchen**, because water gets added mid-cook to reach the consistency
+Holger wants. That habit is why yield sometimes *does* exceed the listed inputs,
+which is a correct signal of unlisted water and has been useful twice; run
+backwards as a proof of which pot was used, it produces a confident wrong answer.
+It did on 2026-09-24: the yellow curry corn soup was recorded against the IKEA
+5 L on exactly that reasoning and was actually in the Instant Pot, putting the
+yield out by 341 g.
+
 ⚠ **Weigh the pot properly, once, rather than estimating it in the moment.** The
 IKEA 5 L was first given as "1500 g" on 2026-09-13 and re-weighed at 1208 g on
 2026-09-20 — a 292 g error, which is ~10% of a sauce yield and fed straight into

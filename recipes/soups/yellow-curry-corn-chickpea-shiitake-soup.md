@@ -23,7 +23,7 @@
 | 🟣 | 🧂 Salt (at the finish) | 5 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~4.3 kg in, 4032 g out** | **~2471** | |
+| | **Total** | **~4.3 kg in, 4373 g out** | **~2471** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟣 Seasoning · ⚪ Acid*
 
@@ -82,7 +82,7 @@ The 🌾 millet and the 🫘 chickpeas are **cooked in their own pots and set on
 
 ## Nutrition
 
-*The **soup alone**, at the ×1.668 as-cooked scale and 4032 g weighed out. The 🌾 millet and 🫘 chickpeas are separate dishes with their own files and are **not** included here. **USDA-derived + label, not FoodNoms-verified.** 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 — USDA's dedicated `Broccoli, stalks, raw` carries no fibre at all) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (4.6 g) is a floor that omits the largest source in the dish; the table gives **~32 g**, from the record's 20.6 g fat per 100 g across 150 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are floors drawn from most but not all ingredients. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
+*The **soup alone**, at the ×1.668 as-cooked scale and 4373 g weighed out. The 🌾 millet and 🫘 chickpeas are separate dishes with their own files and are **not** included here. **USDA-derived + label, not FoodNoms-verified.** 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 — USDA's dedicated `Broccoli, stalks, raw` carries no fibre at all) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (4.6 g) is a floor that omits the largest source in the dish; the table gives **~32 g**, from the record's 20.6 g fat per 100 g across 150 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are floors drawn from most but not all ingredients. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -95,7 +95,7 @@ The 🌾 millet and the 🫘 chickpeas are **cooked in their own pots and set on
 | Fibre | 69.2 g | Vitamin B12 | 0.0 µg |
 | Salt | 9.6 g | Folate | 1162 µg |
 
-*FoodNoms collections — **three separate files, one per dish**: the soup **Yellow Curry Corn Soup with Broccoli [24-09-26] ✴️** (4032 g), **Millet, cooked [24-09-26] ✴️** (947 g) and **Chickpeas, cooked [23-09-26] ✴️** (518 g). ⚠ **No download links.** The soup's `BuildFoodNomsRecipe` URL is 7590 characters and the live endpoint rejects it with HTTP 400/414 above roughly 1200. The files were written locally by `node tools/js/cli.js build` and are correct; they cannot travel as links until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning buys back the length. The live object reports version **6**.*
+*FoodNoms collections — **three separate files, one per dish**: the soup **Yellow Curry Corn Soup with Broccoli [24-09-26] ✴️** (4373 g), **Millet, cooked [24-09-26] ✴️** (947 g) and **Chickpeas, cooked [23-09-26] ✴️** (518 g). ⚠ **No download links.** The soup's `BuildFoodNomsRecipe` URL is 7590 characters and the live endpoint rejects it with HTTP 400/414 above roughly 1200. The files were written locally by `node tools/js/cli.js build` and are correct; they cannot travel as links until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning buys back the length. The live object reports version **6**.*
 
 ---
 
@@ -133,12 +133,12 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **🌾 Millet yield: 947 g** — 1690 g weighed in the IKEA 2 L, less its 743 g tare. That is **3.16× the 300 g dry**, sitting right on the 3.14–3.17× this kitchen has measured twice before, so the new pot tare is confirmed good by a third route. Of the 750 ml of water, 647 g was absorbed and about 103 g left as steam over the covered 25 minutes.
 
-**Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. At 2471 kcal that is **61 kcal per 100 g**. The 🌾 millet (947 g) and 🫘 chickpeas (518 g) are recorded above as the separate dishes they are.
+**Soup yield: 4373 g** — 5240 g weighed in the **Instant Pot inner pot**, less its 867 g tare. At 2471 kcal that is **57 kcal per 100 g**. The 🌾 millet (947 g) and 🫘 chickpeas (518 g) are recorded above as the separate dishes they are.
 
-**Reduction was unremarkable: 309 g off 4341 g of inputs, a 7% loss.** ⚠ An earlier version of this log reported 17% and speculated that the 💧 water must have gone in under the planned 1200 ml. That was wrong, and the cause was an accounting error rather than anything in the pot: the 503 g of 🫘 chickpeas were counted as pot inputs when they were never in the pot at all. Remove them and the loss is ordinary. The water was fine.
+**Extra 💧 water went in beyond the recorded 1200 ml, and how much cannot be recovered.** The yield exceeds the listed inputs by 32 g before any allowance for evaporation, so the true addition is that plus whatever boiled off — the two are confounded and no arithmetic separates them. ⚠ **This is normal here and is not an error to chase:** water gets added during a cook to reach the consistency Holger wants, which is also why *yield must be less than inputs* is **not** a valid check in this kitchen. Twice before it has correctly flagged unlisted water. It must never be run backwards to infer which pot was on the scale — that is how the tare below got called wrong.
 
-**🧂 Salt actually added: 5 g to the soup, not 11.** Across the 4032 g of soup that is **9.6 g of salt, or 0.24 g per 100 g** — below the 0.28–0.30 band of the dishes that have rated well here. **11.3 g would have been the figure for 0.28 at this yield.** ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — it is not short of umami. (The millet carries its own 2 g separately.)
+**🧂 Salt actually added: 5 g to the soup, not 11.** Across the 4373 g of soup that is **9.6 g of salt, or 0.22 g per 100 g** — well below the 0.28–0.30 band of the dishes that have rated well here. **12.2 g would have been the figure for 0.28 at this yield.** ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — it is not short of umami. (The millet carries its own 2 g separately.)
 
 ⚠ **Too hot for the children to eat. Not rated — the heat was disqualifying.** 180 g of paste, and Holger's judgement afterwards was that half would still have been too hot. The paste was dosed high on its **sodium** (824 mg per 100 g against Hollyfarms tom yum's 6267) with no account taken of its chilli, and the 150 g of 🥥 coconut milk against a planned 417 g compounded it, since fat is what carries capsaicin off the palate. See `../../docs/TECHNIQUES.md` → *Dose curry paste on capsaicin, not on sodium*. **Before cooking this again, cut the paste hard and taste up.**
 
-Still to record: a serving count for each of the three dishes. ⚠ **The soup alone is 4032 g**, so five servings would be 806 g and 494 kcal each, before anyone adds millet or chickpeas. Set the counts from how the pots were really divided before logging anything against the files.
+Still to record: a serving count for each of the three dishes. ⚠ **The soup alone is 4373 g**, so five servings would be 875 g and 494 kcal each, before anyone adds millet or chickpeas. Set the counts from how the pots were really divided before logging anything against the files.
