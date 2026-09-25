@@ -1,0 +1,10 @@
+{
+  "name": "Millet, cooked [24-09-26] ✴️",
+  "servings": 1,
+  "ingredients": [
+    { "fdcId": 169702, "grams": 300, "note": "dry weight in - 947 g cooked (1690 g less the 743 g IKEA 2 L tare), a 3.16x ratio. Toasted dry first, then 750 ml water" },
+    { "ref": "Shiitake Powder", "grams": 5, "note": "into the cooking water - seasons the grain for essentially no sodium, 13 mg per 100 g" },
+    { "fdcId": 173468, "grams": 2, "note": "into the cooking water" }
+  ],
+  "foodnoms": { "collectionType": 3, "totalServingSize": 947 }
+}

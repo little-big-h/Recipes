@@ -8,7 +8,6 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟤 | 🌾 Millet, dry (toasted first; cooked in its own pan) | 300 g | 1134 | |
 | 🟣 | 🥑 Avocado oil | 5 g | 44 | |
 | 🟡 | 🧅 Onion, diced | 407 g | 163 | |
 | 🟡 | 🧄 Garlic, minced | 30.4 g | 45 | |
@@ -16,20 +15,28 @@
 | 🟠 | 🌿 Lemongrass paste | 40 g | 19 | |
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
 | 🟢 | 🌽 Frozen sweetcorn kernels | **1501 g** | 1321 | |
-| 🟤 | 🫘 Chickpeas, cooked the day before (weight is **dry**; unsalted; **served alongside, never in the pot**) | 243 g | 919 | |
 | 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT | 150 g | 311 | |
 | 🟢 | 🥦 Broccoli stems, **fresh**, peeled and sliced (never blended) | 167 g | 57 | |
 | 🟢 | 🥦 Broccoli florets, **fresh** (never blended) | 469 g | 159 | |
 | 🟢 | 🥦 Broccoli, **fresh**, a further lot added during the cook | 162 g | 55 | |
-| 🟣 | 🌰 Shiitake powder — 25 g in the soup, 5 g in the millet water | 30 g | 89 | |
-| 🟣 | 🧂 Salt — 5 g in the soup at the finish, 2 g in the millet water | 7 g | 0 | |
+| 🟣 | 🌰 Shiitake powder (off the heat) | 25 g | 74 | |
+| 🟣 | 🧂 Salt (at the finish) | 5 g | 0 | |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
-| | **Total** | **~5.8 kg in, 5482 g out** | **~4538** | |
+| | **Total** | **~4.3 kg in, 4032 g out** | **~2471** | |
 
-*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
+*Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟣 Seasoning · ⚪ Acid*
 
-*⚠ **Rescaled ×1.668 from the original design, to match the 1501 g of 🌽 sweetcorn actually weighed out** (the design was built on 900 g). Everything scales with it **except 💧 water, deliberately held at 1200 ml rather than the 2000 ml the factor would give** — 1501 g of frozen corn and 834 g of frozen broccoli carry a great deal of their own water into the pot, and at full scale the soup alone comes to nearly 7 kg, which is past the 5 L pot. Thin at serving if it is tight. Total weight includes that water and the water the 🌾 millet takes up in its own pan (200 g dry previously yielded 792 g cooked, a 3.17× ratio). ❓ marks an item whose presence in the Singapore kitchen is unconfirmed — 🫙 tamarind and 🍋 lime are at-table and excluded from energy. Est. kcal is per planned amount and sums to ≈ the stated Nutrition energy.*
+*⚠ **Rescaled ×1.668 from the original design, to match the 1501 g of 🌽 sweetcorn actually weighed out** (the design was built on 900 g). Everything scales with it **except 💧 water, deliberately held at 1200 ml rather than the 2000 ml the factor would give** — 1501 g of frozen corn carries a great deal of its own water into the pot. 🫙 tamarind and 🍋 lime are at-table and excluded from energy. Est. kcal is per planned amount and sums to ≈ the stated Nutrition energy.*
+
+### Served alongside — separate dishes, separate files
+
+The 🌾 millet and the 🫘 chickpeas are **cooked in their own pots and set on the table** for people to spoon into their own bowls. They are not ingredients of the soup and are not counted in its nutrition. Each has its own `.foodnoms`:
+
+| Dish | In | Out | Energy |
+|:--|:--|--:|--:|
+| 🌾 **Millet, cooked** — toasted dry, then 750 ml water, 5 g 🌰 shiitake powder, 2 g 🧂 salt | 300 g dry | 947 g | 1149 kcal |
+| 🫘 **Chickpeas, cooked** — pressure-cooked from dry the day before, no salt, no acid | 250 g dry | 518 g | 945 kcal |
 
 ---
 
@@ -75,20 +82,20 @@
 
 ## Nutrition
 
-*Whole recipe at the ×1.668 as-cooked scale, **including the 13 g of 🧂 salt added at the finish**. **USDA-derived + label, not FoodNoms-verified.** 🌾 millet, 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 for both stems and florets — USDA’s dedicated `Broccoli, stalks, raw` carries no fibre at all, the third record this month with that hole, and the two are otherwise near-identical), 🫘 chickpeas (counted at dry weight, the SR Legacy raw record rather than the Foundation one, which carries no fibre) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (8.3 g) is a floor that omits the single largest source in the dish; the table gives **~36 g**, from the record’s 20.6 g fat per 100 g across 150 g, at coconut fat’s ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are likewise floors, drawn from 9 or 10 of the 12 ingredients — biotin (1 of 12) is too sparse to quote at all and is omitted. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
+*The **soup alone**, at the ×1.668 as-cooked scale and 4032 g weighed out. The 🌾 millet and 🫘 chickpeas are separate dishes with their own files and are **not** included here. **USDA-derived + label, not FoodNoms-verified.** 🧅 onion, 🧄 garlic, 🌽 corn, 🥦 broccoli (the generic raw record 170379 — USDA's dedicated `Broccoli, stalks, raw` carries no fibre at all) and 🧂 salt from authentic USDA FoodData Central values; 🍛 paste, 🌿 lemongrass paste, 🥥 coconut milk and 🌰 shiitake powder from `../../docs/INGREDIENT_MAP.md`. Computed locally with `tools/js`. **⚠ Saturated fat is an estimate, not a computed total.** The Ayam coconut milk record carries only seven nutrients and has no saturated-fat split, so the computed figure (4.6 g) is a floor that omits the largest source in the dish; the table gives **~32 g**, from the record's 20.6 g fat per 100 g across 150 g at coconut fat's ~89% saturated fraction. Photograph the Ayam panel and this becomes a real number. Several micros are floors drawn from most but not all ingredients. Micros are committed best-estimates and stand as final. Vitamin D and B12 are negligible — supplement separately.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 4538 kcal | Iron | 41.1 mg |
-| Protein | 170 g | Calcium | 866 mg |
-| Carbohydrates | 843 g | Zinc | 24.1 mg |
-| — of which sugars | 112 g | Magnesium | 1056 mg |
-| Fat | 86.8 g | Potassium | 10143 mg |
-| — of which saturates | ~36 g (est.) | Vitamin D | 0.0 µg |
-| Fibre | 125 g | Vitamin B12 | 0.0 µg |
-| Salt | 11.7 g | Folate | 2779 µg |
+| Energy | 2471 kcal | Iron | 21.5 mg |
+| Protein | 86.5 g | Calcium | 701 mg |
+| Carbohydrates | 468 g | Zinc | 11.9 mg |
+| — of which sugars | 86 g | Magnesium | 515 mg |
+| Fat | 59.4 g | Potassium | 7736 mg |
+| — of which saturates | ~32 g (est.) | Vitamin D | 0.0 µg |
+| Fibre | 69.2 g | Vitamin B12 | 0.0 µg |
+| Salt | 9.6 g | Folate | 1162 µg |
 
-*FoodNoms collection: **Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️**. ⚠ **The download link is not usable yet.** The generated `BuildFoodNomsRecipe` URL is **7531 characters** and the live endpoint rejects it with **HTTP 400/414** — the same ceiling that has blocked the last several builds, and the first time it has named itself rather than returning an opaque 400. The `.foodnoms` file itself was written locally by `node tools/js/cli.js build` and is correct; it just cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning is what buys back the length. The live object currently reports version **6**. Recipe JSON: `tools/js` input in the session scratchpad.*
+*FoodNoms collections — **three separate files, one per dish**: the soup **Yellow Curry Corn Soup with Broccoli [24-09-26] ✴️** (4032 g), **Millet, cooked [24-09-26] ✴️** (947 g) and **Chickpeas, cooked [23-09-26] ✴️** (518 g). ⚠ **No download links.** The soup's `BuildFoodNomsRecipe` URL is 7590 characters and the live endpoint rejects it with HTTP 400/414 above roughly 1200. The files were written locally by `node tools/js/cli.js build` and are correct; they cannot travel as links until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning buys back the length. The live object reports version **6**.*
 
 ---
 
@@ -120,18 +127,18 @@ This is very likely the whole explanation for "the paste tastes a little bland."
 
 **2026-09-24 — cooked with Jannes.** The 🌽 corn was weighed at **1501 g** and the whole recipe is rescaled ×1.668 to it. The 🫘 chickpeas were **250 g dry**, pressure-cooked the day before; Anja ate 15 g of the cooked ones, so **243 g dry** goes in and that is how they are counted — the water they took up adds no nutrition but does count toward the yield.
 
-⚠ **The chickpeas came in well under the scaled plan.** A straight ×1.668 called for the equivalent of about 434 g dry; 243 g is what there actually was, which is **723 kcal and 46 g of protein less** than the scaled design assumed. That is not an error to correct — it is what leftovers are — but it is the single largest gap between this cook and the arithmetic, and it is why the whole recipe fell from 5992 to 5147 kcal.
+⚠ **The chickpeas came in well under the scaled plan** — a straight ×1.668 called for the equivalent of about 434 g dry and there were 243 g. Since they are a separate dish rather than a soup ingredient this changes nothing about the soup's numbers, but it is worth knowing that leftovers are a fixed stock and do not scale with the rest.
 
 **🫘 Cooked chickpeas: 503 g weighed.** Against the prediction of 503 g — 250 g dry at this kitchen's measured 2.07×, less the 15 g Anja ate. Back-solved, the weighing gives (503 + 15) ÷ 250 = **2.072×**, so the ratio is confirmed to three figures by a cook that had nothing to do with establishing it. Nutrition is unaffected: the chickpeas are counted at their 243 g dry weight either way, and 503 g is what they contribute to the pot's mass.
 
 **🌾 Millet yield: 947 g** — 1690 g weighed in the IKEA 2 L, less its 743 g tare. That is **3.16× the 300 g dry**, sitting right on the 3.14–3.17× this kitchen has measured twice before, so the new pot tare is confirmed good by a third route. Of the 750 ml of water, 647 g was absorbed and about 103 g left as steam over the covered 25 minutes.
 
-**Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. With the 947 g of millet and the 503 g of chickpeas the dish comes to **5482 g**, at **83 kcal per 100 g**.
+**Soup yield: 4032 g** — 5240 g weighed in the IKEA 5 L, less its 1208 g tare. At 2471 kcal that is **61 kcal per 100 g**. The 🌾 millet (947 g) and 🫘 chickpeas (518 g) are recorded above as the separate dishes they are.
 
 **Reduction was unremarkable: 309 g off 4341 g of inputs, a 7% loss.** ⚠ An earlier version of this log reported 17% and speculated that the 💧 water must have gone in under the planned 1200 ml. That was wrong, and the cause was an accounting error rather than anything in the pot: the 503 g of 🫘 chickpeas were counted as pot inputs when they were never in the pot at all. Remove them and the loss is ordinary. The water was fine.
 
-**🧂 Salt actually added: 5 g to the soup, not 11** (plus the 2 g in the millet). Across the corrected 5482 g the dish carries **11.7 g of salt, or 0.21 g per 100 g** — well **below** the 0.28–0.30 band of the dishes that have rated well here. **15.3 g would have been the figure for 0.28 at this yield**, and 7 g went in, so the dish is about **8 g of salt short**. ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — it is not short of umami.
+**🧂 Salt actually added: 5 g to the soup, not 11.** Across the 4032 g of soup that is **9.6 g of salt, or 0.24 g per 100 g** — below the 0.28–0.30 band of the dishes that have rated well here. **11.3 g would have been the figure for 0.28 at this yield.** ⚠ If it tastes flat, that is the reason, and it is fixable at the bowl — it is not short of umami. (The millet carries its own 2 g separately.)
 
 ⚠ **Too hot for the children to eat. Not rated — the heat was disqualifying.** 180 g of paste, and Holger's judgement afterwards was that half would still have been too hot. The paste was dosed high on its **sodium** (824 mg per 100 g against Hollyfarms tom yum's 6267) with no account taken of its chilli, and the 150 g of 🥥 coconut milk against a planned 417 g compounded it, since fat is what carries capsaicin off the palate. See `../../docs/TECHNIQUES.md` → *Dose curry paste on capsaicin, not on sodium*. **Before cooking this again, cut the paste hard and taste up.**
 
-Still to record: a serving count that reflects how the pot was really divided. **⚠ At 4979 g this is not five servings** — five would be 996 g and 908 kcal each. Set the count from the real division before logging anything against the `.foodnoms`.
+Still to record: a serving count for each of the three dishes. ⚠ **The soup alone is 4032 g**, so five servings would be 806 g and 494 kcal each, before anyone adds millet or chickpeas. Set the counts from how the pots were really divided before logging anything against the files.

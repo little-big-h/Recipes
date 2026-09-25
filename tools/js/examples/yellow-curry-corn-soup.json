@@ -1,12 +1,7 @@
 {
-  "name": "Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake [24-09-26] ✴️",
+  "name": "Yellow Curry Corn Soup with Broccoli [24-09-26] ✴️",
   "servings": 5,
   "ingredients": [
-    {
-      "fdcId": 169702,
-      "grams": 300,
-      "note": "millet, dry weight as weighed - toasted and cooked separately in the IKEA 2 L"
-    },
     {
       "ref": "Oil (Avocado)",
       "grams": 5,
@@ -38,11 +33,6 @@
       "note": "frozen sweetcorn kernels - as weighed, the anchor the rest is scaled from"
     },
     {
-      "fdcId": 173756,
-      "grams": 243,
-      "note": "chickpeas counted at DRY weight - 250 g cooked the day before, less the ~7 g dry equivalent of the 15 g Anja ate. NEVER IN THE POT: served alongside for people to add at the bowl, like the millet"
-    },
-    {
       "ref": "Coconut Milk Classic UHT (Ayam Brand)",
       "grams": 150,
       "note": "as weighed - well under the 417 g the scaling asked for"
@@ -64,17 +54,17 @@
     },
     {
       "ref": "Shiitake Powder",
-      "grams": 30,
-      "note": "the only shiitake in the dish - 25 g into the soup off the heat, 5 g into the millet water. Dried, so its guanylate is already formed and its enzymes are long dead"
+      "grams": 25,
+      "note": "off the heat - dried, so its guanylate is already formed and its enzymes are long dead"
     },
     {
       "fdcId": 173468,
-      "grams": 7,
-      "note": "salt as actually added - 5 g into the soup at the finish, 2 g into the millet water, against the 13 g the design called for"
+      "grams": 5,
+      "note": "as actually added at the finish, against the 11 g the design called for"
     }
   ],
   "foodnoms": {
     "collectionType": 3,
-    "totalServingSize": 5482
+    "totalServingSize": 4032
   }
 }
