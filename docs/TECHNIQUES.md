@@ -312,13 +312,33 @@ paste high compounds: the same paste in a leaner pot tastes considerably hotter.
 Check both together before changing either.
 
 **Worked example — Yellow Curry Corn Soup, 2026-09-24.** 180 g of The SOS Kitchen
-yellow paste in a ~4 kg pot, dosed high on the reasoning that the jar is 824 mg
+yellow paste in a ~4.4 kg pot, dosed high on the reasoning that the jar is 824 mg
 sodium per 100 g against Hollyfarms tom yum's 6267. The coconut milk came in at
 150 g against a planned 417. **The dish was too hot for the children to eat and
 was not rated.** Holger's judgement afterwards: half that paste would still have
 been too hot. Nutrition panels say nothing about heat, so there is no number to
 compute this from — dose low and taste, and put chilli on the table for the
 adults the way acid already is.
+
+#### Calibration for The SOS Kitchen yellow paste, per ~4.4 kg of soup
+
+From the rescue cook of 2026-09-25, where the same soup was blended at the bowl
+with an unseasoned corn-and-coconut pot. **These are the only heat numbers this
+kitchen has for this jar** — everything else about it is nutrition data, which
+says nothing about capsaicin.
+
+| Dose per ~4.4 kg | Verdict |
+|--:|:--|
+| **180 g** | Inedible for the children. Disqualifying. |
+| **~120 g** | Comfortable for Holger — the 2:1 bowl he settled on. |
+| **90 g** | Still too hot for the children, by Holger's judgement. |
+| **~60 g** | The design target for a pot the whole family eats. |
+
+**The lesson generalises past this jar: build the pot to the children's
+tolerance and let the adults add heat, rather than building it to the adults'
+and trying to rescue it.** The rescue worked — a second, unseasoned pot gave a
+per-bowl heat dial and nothing had to be watered down to the weakest palate —
+but it cost a second cook, a second pot and 1.5 kg of corn.
 
 ### Dried ginger
 
