@@ -1904,6 +1904,29 @@
   "secondary": "milk.co.uk",
   "source": "milk.co.uk"
  },
+ "local:2A5C9F38-6D14-4B72-8E05-3F7B1D6A9C24": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "Kara",
+  "foodID": "local:2A5C9F38-6D14-4B72-8E05-3F7B1D6A9C24",
+  "name": "UHT Coconut Cream (Kara)",
+  "per100": {
+   "calories": 246.0,
+   "carbs": 4.6,
+   "cholesterol": 0.0,
+   "fat": 24.5,
+   "fatSaturated": 23.4,
+   "fatTrans": 0.0,
+   "fiber": 0.2,
+   "potassium": 321.5,
+   "protein": 2.7,
+   "sodium": 17.0,
+   "sugars": 3.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:2B7D4F16-9C58-4A03-8E72-1F6A3D9B5C84": {
   "barcode": "1220000340329",
   "baseAmount": 100.0,
