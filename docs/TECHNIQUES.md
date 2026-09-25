@@ -320,19 +320,23 @@ been too hot. Nutrition panels say nothing about heat, so there is no number to
 compute this from — dose low and taste, and put chilli on the table for the
 adults the way acid already is.
 
-#### Calibration for The SOS Kitchen yellow paste, per ~4.4 kg of soup
+#### What is actually known about this jar's heat, per ~4.4 kg of soup
 
-From the rescue cook of 2026-09-25, where the same soup was blended at the bowl
-with an unseasoned corn-and-coconut pot. **These are the only heat numbers this
-kitchen has for this jar** — everything else about it is nutrition data, which
-says nothing about capsaicin.
-
-| Dose per ~4.4 kg | Verdict |
+| Dose | Evidence |
 |--:|:--|
-| **180 g** | Inedible for the children. Disqualifying. |
-| **~120 g** | Comfortable for Holger — the 2:1 bowl he settled on. |
-| **90 g** | Still too hot for the children, by Holger's judgement. |
-| **~60 g** | The design target for a pot the whole family eats. |
+| **180 g** | **Observed.** Too hot for the children to eat. |
+| **~120 g** | **Observed, but for Holger** — the 2:1 bowl he settled on at the rescue. Says nothing about the children. |
+
+**That is the whole of it.** The children's threshold is somewhere below 180 g
+and is otherwise **unmeasured**. ⚠ An earlier version of this table carried a
+"90 g still too hot for the children" row and a "~60 g design target" derived
+from it. The 90 g came from a remark made at the table — *"half of that would
+still have been too hot"* — which was **hyperbole, not a judgement**, and the
+60 g was my own guess stacked on top of it. Both are withdrawn. Nutrition panels
+carry no heat data, and neither does exasperation.
+
+**To get a real second point:** note the bowl ratio the children actually eat
+and work back from it. One meal would bracket this properly.
 
 **The lesson generalises past this jar: build the pot to the children's
 tolerance and let the adults add heat, rather than building it to the adults'
