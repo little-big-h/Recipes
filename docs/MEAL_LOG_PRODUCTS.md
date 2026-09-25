@@ -76,6 +76,7 @@ brand printed on the wrapper wasn't legible in the photo. Estimated via top-down
 | Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Notes |
 |:--|--:|--:|--:|--:|--:|--:|:--|
 | Chocolate Steamed Cake (チョコレート蒸しケーキ) | 310 | 5.0g | 42g | 26g | 12g | 1.3g | Individually wrapped marbled chocolate/vanilla steamed sponge (mushi-gashi style) — oil-based batter, lighter than a baked pound cake but still a moist, sugar-forward marble cake. Sold 2pcs/$2.10 from the shelf; single piece pictured, no weight logged yet. |
+| Multigrain Cranberry (マルチグレインクランベリー) | 265 | 8.5g | 44g | 9g | 7g | 4.5g | Seeded multigrain dinner roll (visible oats/seeds crust) studded with dried cranberries — savoury bread-roll base, not a sweet milk-bread like the Cranberries Loaf, so notably less sugar and more fibre (whole grain + seeds). Sold 5pcs/$3.50 from the shelf; bag of rolls pictured, no weight logged yet. |
 
 ## Carman's (packaged, Australian import)
 
