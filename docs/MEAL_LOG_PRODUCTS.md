@@ -77,6 +77,7 @@ brand printed on the wrapper wasn't legible in the photo. Estimated via top-down
 |:--|--:|--:|--:|--:|--:|--:|:--|
 | Chocolate Steamed Cake (チョコレート蒸しケーキ) | 310 | 5.0g | 42g | 26g | 12g | 1.3g | Individually wrapped marbled chocolate/vanilla steamed sponge (mushi-gashi style) — oil-based batter, lighter than a baked pound cake but still a moist, sugar-forward marble cake. Sold 2pcs/$2.10 from the shelf; single piece pictured, no weight logged yet. |
 | Multigrain Cranberry (マルチグレインクランベリー) | 265 | 8.5g | 44g | 9g | 7g | 4.5g | Seeded multigrain dinner roll (visible oats/seeds crust) studded with dried cranberries — savoury bread-roll base, not a sweet milk-bread like the Cranberries Loaf, so notably less sugar and more fibre (whole grain + seeds). Sold 5pcs/$3.50 from the shelf; bag of rolls pictured, no weight logged yet. |
+| Shio Pan (Salt Bread Roll, 塩パン) | 335 | 6.8g | 40g | 5g | 15g | 1.5g | Croissant-shaped soft milk-bread roll with a butter core, glossy egg-washed crust, coarse sea salt flakes on top — distinct from a French laminated butter croissant (softer crumb, less flaky), same style as the common Japanese-bakery shio pan. Bakery attribution tentative (bag of rolls visible in the same photo, consistent with the same bakery run as the Multigrain Cranberry buy, but not label-confirmed) — flag to confirm vendor. Logged once at 43.7g (Sep 26). |
 
 ## Carman's (packaged, Australian import)
 
