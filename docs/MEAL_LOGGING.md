@@ -141,6 +141,21 @@ Answer these two, read off the tier, stop. **Do not reason about it further.**
 
 ---
 
+## Known container tares
+
+When the same reusable container is weighed full but not emptied on the scale (e.g. a
+takeaway bowl eaten away from the kitchen scale), its own tare weight lets us back out
+the food weight without a real before/after pair. Treat any tare here as a **substitute
+for a real weigh, not equivalent to one** — using it still puts the portion in the
+**assumed-portion** bucket (uncertainty tier 30) until the container is actually weighed
+empty and the number is confirmed.
+
+| Container | Tare | Status |
+|:--|--:|:--|
+| Stojo bowl (navy, collapsible) | 140g | **Provisional** — Holger's working assumption (2026-09-26), not a real empty-container weigh. Replace once weighed. |
+
+---
+
 ## Worked example — Pearl of China lunch, 2026-06-21
 
 Four dishes, all weighed (→ `uncertainty=10`):
