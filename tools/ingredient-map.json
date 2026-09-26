@@ -2378,6 +2378,29 @@
   "secondary": null,
   "source": "label"
  },
+ "local:5D8A3C71-2F46-4E90-B183-7C4A6D2E9F58": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Monetta",
+  "foodID": "local:5D8A3C71-2F46-4E90-B183-7C4A6D2E9F58",
+  "name": "Creme Filled Wafer Rolls, Chocolate (Monetta)",
+  "per100": {
+   "calories": 452.0,
+   "carbs": 81.6,
+   "fat": 13.2,
+   "fatMonounsaturated": 4.7,
+   "fatPolyunsaturated": 2.0,
+   "fatSaturated": 6.8,
+   "fatTrans": 0.0,
+   "fiber": 3.4,
+   "protein": 5.1,
+   "sodium": 248.0,
+   "sugars": 41.4
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:6A4AE1C2-7310-4968-9B44-EC519652DFE2": {
   "baseAmount": 100,
   "baseUnit": "gram",
