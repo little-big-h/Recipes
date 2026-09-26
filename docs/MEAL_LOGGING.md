@@ -152,7 +152,12 @@ empty and the number is confirmed.
 
 | Container | Tare | Status |
 |:--|--:|:--|
-| Stojo bowl (navy, collapsible) | 140g | **Provisional** — Holger's working assumption (2026-09-26), not a real empty-container weigh. Replace once weighed. |
+| Stojo bowl (navy, collapsible) | 140g | **Still provisional, unconfirmed.** The 2026-09-26 carb-load bowl ended up with a real after-weigh instead (196g, bowl + leftover quinoa grains — not a clean tare, so it doesn't confirm this row) — see that meal's note below. A genuinely empty, clean weigh of this bowl is still needed to fill in this row for real. |
+
+**2026-09-26 carb-load bowl** — before 732g, after 196g (bowl + a few leftover quinoa
+grains, weighed rather than assumed) → consumed 536g. This is a real before/after pair
+(the 140g provisional tare above was NOT used), so uncertainty is **10** (weighed,
+composition estimated), not 30.
 
 ---
 
