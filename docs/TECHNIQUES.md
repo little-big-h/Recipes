@@ -479,6 +479,35 @@ The vegetarian umami backbone. Kombu (dried kelp) supplies **glutamate**; shiita
 - Add seasonings **only in the final 3–5 min** to prevent burning
 - Store in a **paper bag**, not airtight container (retains crispness)
 
+### Kimchi — check whether it is a ferment or a pickle
+
+⚠ **Most jarred "kimchi" sold here is not a live ferment**, and the ingredients
+list is the only way to tell. Read it before assuming anything about heat,
+probiotics or keeping.
+
+**Food People Korean Kimchi** (390 g jar, origin **Taiwan**) is the worked
+example:
+
+- **Preserved with vinegar and lactic acid**, not by fermentation. So there is
+  **no probiotic value**, and it will not sour or develop further in the fridge —
+  what you open is what you get, indefinitely.
+- **The heat is paprika, not gochugaru.** It is mild, and it will not bring the
+  chilli character a Korean recipe assumes.
+- **Sugar is the second ingredient**, 9.9 g per 100 g. It is a sweet pickle.
+- **Vegan, and it says so** — no fish sauce, no salted shrimp. That is the
+  exception for kimchi, so it is usable here where most jars are not.
+- **A remarkable umami stack:** monosodium glutamate, disodium succinate,
+  **sodium 5'-inosinate and sodium 5'-guanylate** — glutamate plus *both*
+  nucleotides — on top of the miso's own glutamate. The synergy that shiitake and
+  kombu are used for is already built in. A spoonful does more for a bland dish
+  than its 87 kcal per 100 g suggests.
+- **Very salty:** 968 mg sodium per 100 g, 2.4 g of salt.
+
+**Consequence for cooking:** treat it as a seasoning rather than a vegetable. It
+brings salt, sugar and engineered umami but neither the heat nor the live
+funk a kimchi jjigae or kimchi fried rice is built around — those want a
+properly fermented, gochugaru-based jar.
+
 ### Sauerkraut (for the hash variant)
 
 - Cook the sauerkraut fully first, then push to the side of the pan
