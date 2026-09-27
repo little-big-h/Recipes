@@ -2628,6 +2628,26 @@
   "secondary": null,
   "source": "label"
  },
+ "local:8B6E2D47-1F53-4C90-A628-7D4B0E3F5A91": {
+  "barcode": "4717044420027",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Food People",
+  "foodID": "local:8B6E2D47-1F53-4C90-A628-7D4B0E3F5A91",
+  "name": "Korean Kimchi, vegan (Food People)",
+  "per100": {
+   "calories": 87.0,
+   "carbs": 13.5,
+   "fat": 2.9,
+   "fatSaturated": 0.5,
+   "fatTrans": 0.0,
+   "protein": 1.8,
+   "sodium": 968.0,
+   "sugars": 9.9
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:8C3E6A91-2D75-4F84-B60A-9E1C5B7D4F32": {
   "barcode": "3017800520048",
   "baseAmount": 100.0,
