@@ -2,16 +2,12 @@
 
 Source: https://www.supergreen.sg/menu (ingested 2026-09-29). This is a
 build-your-own salad-bowl chain — base + toppings + protein + dressing.
-Several logged meals this project (soba/tofu/broccoli/edamame/kimchi bowls)
-look like they could be Supergreen bowls — unconfirmed, not retroactively
-corrected (Holger's call, 2026-09-29: past logs stand, use this data going
-forward).
 
 ## What Supergreen publishes vs. what's estimated here
 
 Supergreen's own menu gives **calories and protein only**, per stated serving
 weight, for every signature bowl and every build-your-own component. No carbs,
-fat, sugar, fibre or sodium are published anywhere on the menu.
+fat, sugar, fibre, sodium or micros are published anywhere on the menu.
 
 **Method used below — kcal and protein are the anchor, everything else is
 solved to stay consistent with them:**
@@ -32,31 +28,40 @@ solved to stay consistent with them:**
 4. **Sodium** is taken as the analog's typical absolute value, un-scaled —
    salt content is a seasoning choice, not something that tracks calorie
    density the way macros do.
-5. **Signature bowls** are reconciled the same way, but the "analog ratio" is
-   the average across the bowl's listed components (equal weight — Supergreen
-   doesn't publish the gram-split within a bowl), anchored to the bowl's own
+5. **Micros** (iron, calcium, magnesium, potassium, zinc, vitamin D, vitamin
+   B12, folate) are committed best-estimates (per `CLAUDE.md`'s micros
+   policy — no FoodNoms verification path exists for these regardless).
+   Two scaling rules, by ingredient category:
+   - **Protein-source items** (meat, fish, egg, tofu, edamame, chickpea
+     relish): micros scale with `label protein ÷ analog protein` — iron,
+     zinc, B12 and folate concentrate in the muscle/organ/legume tissue
+     itself, so they track protein content specifically, not overall mass.
+   - **Vegetable and dressing/oil items**: micros scale with the same
+     carb+fat density factor used for fibre/sugar — mineral content in a
+     whole-food veg item tracks overall mass, not any one macro.
+6. **Signature bowls** are reconciled the same way, but the "analog ratio"
+   (for carbs/fat) and the micro baselines (for iron etc.) are the *average*
+   across the bowl's listed components (equal weight — Supergreen doesn't
+   publish the gram-split within a bowl), anchored to the bowl's own
    published total kcal/protein.
 
 Every row below satisfies `4×protein + 4×carbs + 9×fat == published kcal`
 by construction — that's the whole point of doing it this way instead of
 guessing a whole independent macro profile.
 
-**Micros beyond sodium are out of scope here** (too many SKUs to pre-tabulate
-at reasonable confidence — iron/calcium/vitamins vary batch-to-batch for
-fresh veg anyway). When a specific Supergreen bowl is actually logged, pull
-those from `docs/USDA_FDC.md` / `tools/ingredient-map.json` per the usual
-`docs/MEAL_LOGGING.md` playbook, using the component list here to know what
-to look up.
-
 **Status for `.foodnoms` purposes:** kcal + protein = label-sourced
-(uncertainty tier 0 once weighed). Carbs/fat/fibre/sugar/sodium here are
-still an *estimate*, just one constrained to match the label — treat as
+(uncertainty tier 0 once weighed). Carbs/fat/fibre/sugar/sodium/micros here
+are still an *estimate*, just one constrained to match the label — treat as
 uncertainty 10 territory unless Holger says otherwise, and say so in the
-entry's note if this table informed the figures used.
+entry's note if this table informed the figures used. Micros specifically are
+committed best-estimates per the standing micros policy — never caveat them
+as "pending verification," there's no verification path for micros anyway.
 
 ---
 
 ## Signature bowls (per 100g, reconciled)
+
+### Macros
 
 | Bowl | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Price | Allergens |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|:--|
@@ -68,10 +73,17 @@ entry's note if this table informed the figures used.
 | Smoked Duck Bowl | 111 | 8.1g | 10.3g | 7.1g | 4.1g | 0.8g | 281mg | $12.30 | Allium, Gluten, Sesame, Shellfish, Eggs, Soy |
 | Vegan Power Bowl | 100 | 3.8g | 14.2g | 7.1g | 3.1g | 2.0g | 121mg | $12.30 | Allium |
 
-(Serving weights and ingredient lists unchanged from Supergreen's menu — see
-below for what's in each. These per-100g figures are the reconciled versions;
-scale by the bowl's actual serving weight, or better, the weighed portion, for
-a real log.)
+### Micros
+
+| Bowl | Iron | Calcium | Magnesium | Potassium | Zinc | Vit D | Vit B12 | Folate |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| Grilled Salmon Bowl | 1.0mg | 85mg | 20mg | 278mg | 0.6mg | 1.9µg | 0.49µg | 17µg |
+| Yakiniku Beef Bowl | 2.2mg | 103mg | 38mg | 325mg | 1.9mg | 0.3µg | 0.57µg | 71µg |
+| Teriyaki Chicken Bowl | 0.9mg | 35mg | 25mg | 302mg | 0.6mg | 0.4µg | 0.25µg | 29µg |
+| Lean Chicken Bowl | 1.4mg | 41mg | 33mg | 299mg | 0.9mg | 0.4µg | 0.26µg | 93µg |
+| Mala Prawn Bowl | 0.8mg | 39mg | 25mg | 327mg | 0.5mg | 0.03µg | 0.34µg | 27µg |
+| Smoked Duck Bowl | 1.3mg | 86mg | 25mg | 202mg | 0.9mg | 0µg | 0.07µg | 12µg |
+| Vegan Power Bowl | 1.3mg | 40mg | 32mg | 358mg | 0.6mg | 0µg | 0µg | 72µg |
 
 | Bowl | Serving weight | Ingredients |
 |:--|--:|:--|
@@ -83,11 +95,16 @@ a real log.)
 | Smoked Duck Bowl | 395g | Smoked Duck, Fresh Cucumber, Kimchi, Sesame Tofu, Roasted Baby Corn, Honey Lime Dressing |
 | Vegan Power Bowl | 370g | Edamame, Corn, Purple Cabbage, Chickpea Relish, Sweet Potato, Raisins, Mint Jalapeño Dressing |
 
+(Scale these per-100g figures by the bowl's actual serving weight, or better,
+the weighed portion, for a real log.)
+
 ---
 
 ## Build Your Own Bowl (from $10.30) — reconciled per 100g
 
 ### Bases (pick up to 2)
+
+**Macros**
 
 | Base | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Allergens |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
@@ -96,7 +113,18 @@ a real log.)
 | Fusilli Pasta | 181 | 6.0g | 35.7g | 0.9g | 1.6g | 2.6g | 1mg | Gluten |
 | Soba Noodle | 121 | 5.0g | 25.0g | 0.6g | 0.1g | 2.3g | 68mg | Gluten |
 
+**Micros**
+
+| Base | Iron | Calcium | Magnesium | Potassium | Zinc | Vit D | Vit B12 | Folate |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| Romaine Lettuce | 0.54mg | 19mg | 8mg | 139mg | 0.13mg | 0µg | 0µg | 76µg |
+| Brown Rice | 0.72mg | 14mg | 62mg | 124mg | 0.87mg | 0µg | 0µg | 6µg |
+| Fusilli Pasta | 1.43mg | 10mg | 26mg | 64mg | 1.00mg | 0µg | 0µg | 71µg |
+| Soba Noodle | 0.93mg | 12mg | 22mg | 44mg | 0.82mg | 0µg | 0µg | 16µg |
+
 ### Cold/hot toppings (pick 4)
+
+**Macros**
 
 | Topping | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Allergens |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
@@ -119,7 +147,32 @@ a real log.)
 | Roasted Baby Corn | 50 | 0.0g | 11.3g | 5.2g | 0.5g | 3.5g | 5mg | — |
 | Roasted Sweet Potato | 119 | 0.0g | 29.4g | 6.0g | 0.1g | 4.7g | 36mg | — |
 
+**Micros**
+
+| Topping | Iron | Calcium | Magnesium | Potassium | Zinc | Vit D | Vit B12 | Folate |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| Japanese Cucumber | 0.32mg | 19mg | 15mg | 170mg | 0.23mg | 0µg | 0µg | 8µg |
+| Sweet Corn | 0.27mg | 1mg | 20mg | 148mg | 0.27mg | 0µg | 0µg | 10µg |
+| Edamame | 2.27mg | 63mg | 64mg | 436mg | 1.40mg | 0µg | 0µg | 311µg |
+| Kimchi | 0.57mg | 37mg | 14mg | 182mg | 0.34mg | 0µg | 0µg | 9µg |
+| Japanese Seaweed | 2.61mg | 179mg | 128mg | 60mg | 0.36mg | 0µg | 0µg | 234µg |
+| Cherry Tomato | 0.34mg | 13mg | 14mg | 297mg | 0.21mg | 0µg | 0µg | 19µg |
+| Raisin | 1.97mg | 52mg | 33mg | 783mg | 0.23mg | 0µg | 0µg | 5µg |
+| Purple Cabbage | 0.82mg | 46mg | 16mg | 248mg | 0.20mg | 0µg | 0µg | 54µg |
+| Hard Boiled Egg | 1.20mg | 51mg | 10mg | 127mg | 1.06mg | 2.0µg | 1.30µg | 44µg |
+| Sous Vide Egg | 1.20mg | 51mg | 10mg | 127mg | 1.06mg | 2.0µg | 1.30µg | 44µg |
+| Chickpea Relish | 1.62mg | 28mg | 27mg | 163mg | 0.84mg | 0µg | 0µg | 97µg |
+| Oven-Baked Broccoli | 1.02mg | 65mg | 29mg | 440mg | 0.56mg | 0µg | 0µg | 88µg |
+| Sesame Tofu | 2.95mg | 389mg | 33mg | 134mg | 1.78mg | 0µg | 0µg | 17µg |
+| Roasted Pumpkin | 1.55mg | 41mg | 23mg | 659mg | 0.62mg | 0µg | 0µg | 17µg |
+| Achar | 2.56mg | 68mg | 60mg | 512mg | 1.37mg | 0µg | 0µg | 34µg |
+| Jalapeños | 0.23mg | 11mg | 14mg | 178mg | 0.19mg | 0µg | 0µg | 25µg |
+| Roasted Baby Corn | 0.87mg | 49mg | 64mg | 470mg | 0.87mg | 0µg | 0µg | 33µg |
+| Roasted Sweet Potato | 0.87mg | 43mg | 35mg | 478mg | 0.43mg | 0µg | 0µg | 16µg |
+
 ### Proteins (pick 1; +$2 per additional)
+
+**Macros**
 
 | Protein | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Allergens |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
@@ -130,7 +183,24 @@ a real log.)
 | Oven-Baked Salmon | 209 | 23.0g | 0.0g | 0.0g | 13.0g | 0.0g | 60mg | Fish |
 | Sichuan Mala Prawn | 174 | 23.1g | 3.7g | 1.2g | 7.4g | 0.4g | 500mg | Gluten, Shellfish, Soy, Sesame |
 
+**Micros**
+
+| Protein | Iron | Calcium | Magnesium | Potassium | Zinc | Vit D | Vit B12 | Folate |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| Teriyaki Chicken | 0.52mg | 8mg | 22mg | 192mg | 0.75mg | 0.08µg | 0.22µg | 3µg |
+| Roasted Smoked Duck | 2.66mg | 11mg | 16mg | 201mg | 1.87mg | 0µg | 0.39µg | 5µg |
+| Rosemary Sous Vide Chicken | 0.62mg | 10mg | 26mg | 227mg | 0.89mg | 0.09µg | 0.27µg | 4µg |
+| Yakiniku Beef | 2.76mg | 19mg | 22mg | 338mg | 5.10mg | 0µg | 2.13µg | 6µg |
+| Oven-Baked Salmon | 0.36mg | 9mg | 28mg | 401mg | 0.52mg | 11.5µg | 2.93µg | 5µg |
+| Sichuan Mala Prawn | 0.64mg | 67mg | 50mg | 332mg | 1.67mg | 0µg | 1.92µg | 4µg |
+
+*(Salmon's the standout for vitamin D — everything else on this menu is
+essentially zero. Beef and duck lead on iron/zinc/B12, as expected for red
+meat/organ-adjacent cuts.)*
+
 ### Dressings (pick 1; +$1 per additional)
+
+**Macros**
 
 | Dressing | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Allergens |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
@@ -143,9 +213,22 @@ a real log.)
 | Extra Virgin Olive Oil | 900 | 0.0g | 0.0g | 0.0g | 100.0g | 0.0g | 0mg | — |
 | Mint Jalapeño | 335 | 1.0g | 15.1g | 7.5g | 30.1g | 2.5g | 450mg | Allium |
 
-*(Ginger Soy at 1400mg sodium/100g is the standout — a full 40g serving is
-560mg, before whatever's on the base/toppings. Worth flagging if Holger's
-tracking sodium.)*
+**Micros**
+
+| Dressing | Iron | Calcium | Magnesium | Potassium | Zinc | Vit D | Vit B12 | Folate |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|
+| Japanese Roasted Sesame | 0.84mg | 84mg | 25mg | 68mg | 1.27mg | 0µg | 0µg | 4µg |
+| Honey Mustard | 0.28mg | 14mg | 5mg | 56mg | 0.19mg | 0µg | 0µg | 3µg |
+| Ginger Soy | 1.34mg | 27mg | 40mg | 403mg | 0.81mg | 0µg | 0µg | 13µg |
+| Honey Lime | 0.19mg | 9mg | 6mg | 57mg | 0.19mg | 0µg | 0µg | 2µg |
+| Spicy Mayo | 0.09mg | 5mg | 2mg | 14mg | 0.14mg | 0.19µg | 0.09µg | 2µg |
+| Balsamic Vinegar | 0.35mg | 12mg | 6mg | 58mg | 0.12mg | 0µg | 0µg | 1µg |
+| Extra Virgin Olive Oil | 0.56mg | 1mg | 0mg | 1mg | 0mg | 0µg | 0µg | 0µg |
+| Mint Jalapeño | 1.25mg | 50mg | 25mg | 251mg | 0.75mg | 0µg | 0µg | 13µg |
+
+*(Ginger Soy at 1400mg sodium/100g is the standout on the macro side too — a
+full 40g serving is 560mg, before whatever's on the base/toppings. Worth
+flagging if Holger's tracking sodium.)*
 
 ---
 
@@ -154,10 +237,45 @@ tracking sodium.)*
 For a build-your-own bowl, identify base(s) + 4 toppings + protein + dressing
 from the photo/description, weigh the portion (before/after), and build the
 `.foodnoms` recipe JSON as separate ingredient entries — one per component,
-literal `nutrients` block taken from the reconciled per-100g figures above,
-scaled to each component's actual weighed or estimated share of the bowl.
-For a signature bowl logged whole, use that bowl's reconciled per-100g row
-directly against the weighed total. Note in the entry (or a `patchNote`) that
-figures came from `docs/SUPERGREEN_MENU.md`'s kcal/protein-anchored
-reconciliation, not a from-scratch estimate — that's a materially different
-provenance from an ordinary bottom-up guess and worth keeping visible.
+literal `nutrients` block taken from the reconciled per-100g figures above
+(macros and micros both), scaled to each component's actual weighed or
+estimated share of the bowl. For a signature bowl logged whole, use that
+bowl's reconciled per-100g row directly against the weighed total. Note in
+the entry (or a `patchNote`) that figures came from this file's kcal/protein-
+anchored reconciliation, not a from-scratch estimate — that's a materially
+different provenance from an ordinary bottom-up guess and worth keeping
+visible.
+
+---
+
+## Sanity-check against already-logged bowls (2026-09-29)
+
+Three bowls logged this project before this menu was ingested looked like
+they might be Supergreen. Checked against the actual component list above:
+
+- **Poke Bowl (salad/soba base, tofu, broccoli, chickpeas, kimchi, purple
+  cabbage, wakame — 577g, logged 2026-09-27):** ingredient names map closely
+  onto real Supergreen components (Soba Noodle base, Sesame Tofu,
+  Oven-Baked Broccoli, Chickpea Relish, Kimchi, Purple Cabbage, and "wakame"
+  ≈ Supergreen's "Japanese Seaweed"). **Likely Supergreen**, though it used
+  6 toppings against the menu's stated "pick 4" limit — possibly a
+  double-topping order, or the limit isn't strictly enforced. Recomputing
+  its per-100g estimate using this file's actual component values (rough
+  proportional blend) lands around ~83 kcal/100g, 4.4g protein/100g — close
+  to the 95 kcal/100g, 5.4g protein/100g originally logged (within normal
+  estimation spread, not a correction-worthy gap). Left as originally
+  logged, per Holger's "past logs stand" call.
+- **Salad Bowl at The Spread (lettuce/soba, firm tofu, roasted broccoli,
+  shiitake, beetroot, capsicums, nori flakes, shoyu ponzu + sriracha —
+  508.7g, logged 2026-09-26):** **probably NOT Supergreen.** Shiitake,
+  capsicums and beetroot don't appear anywhere on Supergreen's topping list,
+  and "shoyu ponzu" isn't one of their 8 dressings (closest analog, Ginger
+  Soy, is a different flavour profile). The event's own subject also names
+  a specific venue, "The Spread" — treat as a genuinely different vendor
+  with a similar bowl concept, not a misidentified Supergreen order.
+- **Carb-Load Bowl (durum macaroni + quinoa-lentil base, tofu, beetroot,
+  grilled sweet potato, grilled pumpkin, falafel — 536g, logged
+  2026-09-26):** **not Supergreen.** None of macaroni, a quinoa-lentil
+  blend, beetroot or falafel appear anywhere on Supergreen's menu (their
+  bases are Romaine/Brown Rice/Fusilli/Soba only, no falafel protein
+  option). Clearly a different source.
