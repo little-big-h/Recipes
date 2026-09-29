@@ -140,9 +140,15 @@ toppings") rather than one dish name. When that's the shape:
    methodology section).
 2. Weight each matched component by the vendor's own published default serving grams
    (same doc) — unless the event body gives real per-component weights, in which case use
-   those instead.
+   those instead. **These menu-default grams are a ratio input only** — they fix each
+   component's *relative* share of the bowl (and the bowl's implied caloric density), not
+   what was actually eaten. Never use them as the logged weight.
 3. Sum each component's absolute nutrients (per-100g figure × weight ÷ 100), then divide
    the total by the summed component weight to get the bowl's blended per-100g figure.
+   This per-100g figure is what actually matters and is scale-invariant — it comes out the
+   same whether the menu-default weights summed to 500g or 5g. The ingredient entry's own
+   `grams` (step 4, general instruction) is always the event's **real weighed consumed
+   total**, never the menu-serving sum.
 4. **Carry the full nutrient set through** — calories, protein, carbs, sugars, fat, fibre,
    sodium, iron, calcium, magnesium, potassium, zinc, vitaminD, vitaminB12, folate.
    Truncating a documented, sodium/micro-complete source down to just
