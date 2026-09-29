@@ -125,10 +125,49 @@ policy below, `grams` = the event's consumed figure, then run `cli.js build` on 
 
 **Before estimating from scratch, check `docs/MEAL_LOG_PRODUCTS.md`** — a named,
 repeatably-bought bakery/packaged product may already have a per-100g estimate there;
-reuse it rather than re-deriving. For anything not listed, estimate per
-`docs/MEAL_LOGGING.md`'s "top-down, bottom-up, take the midpoint" method — this session
-runs with **no conversation history**, so that file's full methodology is the only
-version of it available; don't shortcut to a single guess.
+reuse it rather than re-deriving.
+
+**If the dish is a build-your-own bowl from a vendor with its own reference doc
+(currently: Supergreen, `docs/SUPERGREEN_MENU.md`), decompose it — don't fall back to a
+single top-down guess for the whole bowl.** The tell is the body listing a base plus
+several named toppings/protein/dressing (e.g. "Salad & Soba base; Wakame, Purple Cabbage
+and Kimchi as cold toppings; Baked Broccoli, Roasted Pumpkin and Chickpeas as hot
+toppings") rather than one dish name. When that's the shape:
+
+1. Match each named component (subject + body) against that vendor's reference doc —
+   base(s), cold/hot toppings, protein, dressing tables all give per-100g figures already
+   reconciled to that vendor's own published calories/protein (see that doc's own
+   methodology section).
+2. Weight each matched component by the vendor's own published default serving grams
+   (same doc) — unless the event body gives real per-component weights, in which case use
+   those instead. **These menu-default grams are a ratio input only** — they fix each
+   component's *relative* share of the bowl (and the bowl's implied caloric density), not
+   what was actually eaten. Never use them as the logged weight.
+3. Sum each component's absolute nutrients (per-100g figure × weight ÷ 100), then divide
+   the total by the summed component weight to get the bowl's blended per-100g figure.
+   This per-100g figure is what actually matters and is scale-invariant — it comes out the
+   same whether the menu-default weights summed to 500g or 5g. The ingredient entry's own
+   `grams` (step 4, general instruction) is always the event's **real weighed consumed
+   total**, never the menu-serving sum.
+4. **Carry the full nutrient set through** — calories, protein, carbs, sugars, fat, fibre,
+   sodium, iron, calcium, magnesium, potassium, zinc, vitaminD, vitaminB12, folate.
+   Truncating a documented, sodium/micro-complete source down to just
+   calories/protein/carbs/fat/fiber throws away real data for no reason — a component like
+   kimchi or a seaweed topping carries meaningful sodium that a generic estimate would
+   never surface.
+5. If a dressing is logged as its own separate event/entry rather than mixed into the
+   bowl, look it up the same way, on its own — that's still a single-component case (a
+   dressing name matches one reference-doc row directly), the same as any other named
+   product in `MEAL_LOG_PRODUCTS.md`.
+
+A signature/named bowl (matches one whole row in the vendor's own "signature bowls"
+table, e.g. "Grilled Salmon Bowl") is the single-component case — just use that row's
+per-100g figures directly, no decomposition needed.
+
+For anything not covered by a vendor reference doc or `MEAL_LOG_PRODUCTS.md`, estimate
+per `docs/MEAL_LOGGING.md`'s "top-down, bottom-up, take the midpoint" method — this
+session runs with **no conversation history**, so that file's full methodology is the
+only version of it available; don't shortcut to a single guess.
 
 ### 5. Attach it back to the event
 
