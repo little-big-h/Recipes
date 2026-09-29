@@ -491,8 +491,13 @@ example:
 - **Preserved with vinegar and lactic acid**, not by fermentation. So there is
   **no probiotic value**, and it will not sour or develop further in the fridge —
   what you open is what you get, indefinitely.
-- **The heat is paprika, not gochugaru.** It is mild, and it will not bring the
-  chilli character a Korean recipe assumes.
+- ⚠ **The heat is real, and the English ingredients list misleads.** It reads
+  "PAPRIKA", but the Chinese on the same label says **辣椒粉 — chilli powder**,
+  not sweet paprika (甜椒粉/紅椒粉). It was reported as "pretty spicy" in this
+  kitchen. **On a bilingual Chinese or Taiwanese label, read the Chinese
+  ingredient names: they are frequently more precise than the English gloss.**
+  It is still not gochugaru, so it will not bring the specific Korean chilli
+  character — but do not treat it as mild.
 - **Sugar is the second ingredient**, 9.9 g per 100 g. It is a sweet pickle.
 - **Vegan, and it says so** — no fish sauce, no salted shrimp. That is the
   exception for kimchi, so it is usable here where most jars are not.
@@ -504,9 +509,16 @@ example:
 - **Very salty:** 968 mg sodium per 100 g, 2.4 g of salt.
 
 **Consequence for cooking:** treat it as a seasoning rather than a vegetable. It
-brings salt, sugar and engineered umami but neither the heat nor the live
-funk a kimchi jjigae or kimchi fried rice is built around — those want a
-properly fermented, gochugaru-based jar.
+brings salt, sugar, chilli and engineered umami, but not the live funk a kimchi
+jjigae or kimchi fried rice is built around — those want a properly fermented,
+gochugaru-based jar.
+
+**To serve it to someone who finds it hot: rinse the portion, not the jar.**
+Brief cold water takes the surface paste off, which is where both the chilli and
+much of the 968 mg/100 g of sodium sit. ⚠ It is also where the MSG, inosinate
+and guanylate sit — so rinsing strips out precisely what makes this jar worth
+cooking with. Rinse a child's portion at the table; keep the jar intact for the
+dishes that want its umami.
 
 ### Sauerkraut (for the hash variant)
 
