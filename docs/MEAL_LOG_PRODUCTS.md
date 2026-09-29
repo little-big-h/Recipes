@@ -20,6 +20,13 @@ None of these are FoodNoms-verified or label-sourced unless noted — they're
 estimated from ingredients/bakery style, same status as any other meal-log estimate
 (uncertainty 10 once a weight is attached, per the usual two-question test).
 
+**Supergreen (Singapore)** — a build-your-own salad-bowl chain with full
+per-component published kcal/protein — has its own reference doc,
+`docs/SUPERGREEN_MENU.md`, rather than a row here (too many components/combos
+for this table). Check there first for any soba/tofu/broccoli/edamame/kimchi-
+style bowl before falling back to a from-scratch estimate — several already-
+logged bowls this project look like they could be Supergreen, unconfirmed.
+
 ---
 
 ## Oishii Bakery (Singapore)
