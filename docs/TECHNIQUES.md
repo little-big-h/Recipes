@@ -13,6 +13,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Instant Pot inner pot | **867 g** | 2026-08-27 |
 | IKEA 5 L | **1208 g** | 2026-09-20 |
 | IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
+| Large mixing bowl | **557 g** | 2026-09-30 |
 
 ⚠ **Ask which vessel a "with pot" weight was taken in. Never infer it.** A yield
 given as "5240 with pot" is unusable until the vessel is named, and the tares
