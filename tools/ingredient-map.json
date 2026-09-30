@@ -2162,6 +2162,33 @@
   "secondary": null,
   "source": "label"
  },
+ "local:3C7E1A58-9D42-4B06-8F31-5A2E7C4D0B69": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "FairPrice",
+  "foodID": "local:3C7E1A58-9D42-4B06-8F31-5A2E7C4D0B69",
+  "name": "Wholemeal Bread (FairPrice)",
+  "per100": {
+   "calcium": 279.0,
+   "calories": 228.0,
+   "carbs": 37.7,
+   "cholesterol": 0.0,
+   "fat": 3.6,
+   "fatSaturated": 1.7,
+   "fatTrans": 0.0,
+   "fiber": 6.7,
+   "iron": 7.8,
+   "niacin": 3.4,
+   "protein": 11.2,
+   "riboflavin": 0.4,
+   "sodium": 299.0,
+   "sugars": 6.1,
+   "thiamin": 0.8
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:3D8B5F27-6A14-4E93-B25C-7F0A4D1E9C63": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
