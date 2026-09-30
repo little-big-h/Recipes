@@ -2296,6 +2296,23 @@
   "secondary": null,
   "source": null
  },
+ "local:4F2B8D51-6A37-4E09-BC18-2D5A7F0E93B6": {
+  "barcode": "6941996900025",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Chao Shan",
+  "foodID": "local:4F2B8D51-6A37-4E09-BC18-2D5A7F0E93B6",
+  "name": "Chao Shan Pickled Mustard (Chaoshan xian cai)",
+  "per100": {
+   "calories": 0.0,
+   "carbs": 0.0,
+   "fat": 0.0,
+   "protein": 0.0,
+   "sodium": 4000.0
+  },
+  "secondary": null,
+  "source": "label"
+ },
  "local:5202374B-110E-4719-8237-CBB28AA7BC97": {
   "baseAmount": 100,
   "baseUnit": "gram",
