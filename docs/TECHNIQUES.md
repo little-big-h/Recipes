@@ -81,6 +81,53 @@ Add a row whenever a new pot, bowl or tray gets used for something worth weighin
 
 ---
 
+## Prep conventions — what a weighed input actually contains
+
+A USDA raw-vegetable record is an **edible-portion** figure: flesh only, rind and
+seeds excluded. So the nutrition is only right if the weighed input matches that
+definition. Holger's standing practice:
+
+| Vegetable | Peel | Seeds | Weighed input is therefore |
+|:--|:--|:--|:--|
+| Potato | **left on**, washed only | — | flesh + skin |
+| Sweet potato | **left on**, washed only | — | flesh + skin |
+| Winter squash (butternut) | **left on** | **scooped out before weighing** | flesh + skin |
+
+Two consequences, both worth stating because they pull in opposite directions:
+
+- **Seeds out before the scale is the important half.** It means the whole
+  input−output difference is water, so the roasting-loss figures below are real
+  losses and not partly seed mass. If seeds were ever scooped *after* baking, both
+  the nutrient totals and the loss figure for that cook would be wrong.
+- **Skin on is the small half, and is left uncorrected.** Rind is roughly 5–8% of
+  a butternut and is eaten, so the mass is genuine, but a flesh record
+  over-assigns sugar and β-carotene to it and under-assigns fibre — a vitamin A
+  total is high by about that fraction. Inside the noise of a tier-10 log; not
+  worth a rebuild. ⚠ Do **not** raise the uncertainty tier to signal this. Portion
+  weighed + composition estimated is tier **10** either way; the doubt goes in the
+  message.
+
+⚠ **Never assume a prep step that wasn't stated.** "I baked the beans" and the
+mid-cook water additions both produced confident wrong answers before this was
+written down. If it changes the mass, ask.
+
+---
+
+## Cooking losses (measured here)
+
+Input weight less yield, same scale, tare subtracted. For forecasting a yield, and
+for portioning a finished dish.
+
+| Method | Loss | Measurements |
+|:--|--:|:--|
+| Roasted root / squash, ~1 g oil per 100 g | **~16%** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g) |
+| Broccoli, microwave-steamed then briefly stir-fried | **~14–16%** | 13.9% (2026-09-30); 15.6% (2026-10-01, 687.5 g → 580 g) |
+
+Same oven, same oil coat, seeds out before the scale — see the prep conventions
+above, which is what makes these comparable at all.
+
+---
+
 ## Ninja ML750 — pressure cooker / air fryer rules
 
 The Ninja is the primary cooking tool. These rules were established through trial-and-error.
