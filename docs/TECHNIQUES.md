@@ -99,13 +99,30 @@ Two consequences, both worth stating because they pull in opposite directions:
   input−output difference is water, so the roasting-loss figures below are real
   losses and not partly seed mass. If seeds were ever scooped *after* baking, both
   the nutrient totals and the loss figure for that cook would be wrong.
-- **Skin on is the small half, and is left uncorrected.** Rind is roughly 5–8% of
-  a butternut and is eaten, so the mass is genuine, but a flesh record
-  over-assigns sugar and β-carotene to it and under-assigns fibre — a vitamin A
-  total is high by about that fraction. Inside the noise of a tier-10 log; not
-  worth a rebuild. ⚠ Do **not** raise the uncertainty tier to signal this. Portion
-  weighed + composition estimated is tier **10** either way; the doubt goes in the
-  message.
+- **Skin on biases two nutrients, and by very different amounts.** Rind is roughly
+  5–8% of a butternut and is eaten, so the mass is genuine, but a flesh record
+  assigns it flesh composition. ⚠ **The size of the error is not the mass
+  fraction.** It is the mass fraction times how far the rind's density of that
+  nutrient sits from the flesh's:
+  - **Nutrients the rind has *less* of — sugar, β-carotene — are bounded by the
+    mass fraction.** Rind carotene can't go below zero, so vitamin A is
+    overstated by **at most 5–8%**, and really less, since the rind isn't
+    colourless. Ignore it.
+  - **Fibre is not bounded that way, because the density ratio is large.** Squash
+    rind runs roughly 5–10 g fibre per 100 g fresh against the flesh's 2.0 — call
+    it 3–4× — so a 7% rind fraction *understates whole-dish fibre by ~10–30%*,
+    centre ~18%. On the 2026-10-01 bake that is **39 g computed vs ~46 g actual**,
+    about +1.4 g per serving.
+
+  So the convention is: **leave the file as computed, and read the fibre as a
+  floor.** Correcting it would mean multiplying an estimated rind fraction by an
+  estimated rind fibre density — two guesses replacing one USDA measurement — and
+  there is no USDA record for squash peel to anchor it. ⚠ Do **not** raise the
+  uncertainty tier to signal this. Portion weighed + composition estimated is tier
+  **10** either way; the doubt goes in the message.
+
+  The same asymmetry applies to potato and sweet potato skin, and in the same
+  direction.
 
 ⚠ **Never assume a prep step that wasn't stated.** "I baked the beans" and the
 mid-cook water additions both produced confident wrong answers before this was
