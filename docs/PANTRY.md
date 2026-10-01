@@ -62,7 +62,9 @@ These were UK standing stock and/or are trivially available in Singapore, but **
 - ❓ **White miso (shiro)** — the family default (not red). ~6% salt. Widely available; Japanese brands are cheaper here than in the UK.
 - ❓ **Red miso (aka)** — adult-palate only; ~13% salt.
 - ❓ **Liquid aminos** — ~3 g salt per 30 ml. Standing rule: out of aminos → **soy sauce stands in**. Light soy sauce is universal here and the obvious permanent replacement.
-- ❓ **Nutritional yeast** · ❓ **Shiitake powder** (guanylate; the salt-free seasoning lever) · ❓ **Kombu** (dried kelp — largely superseded by the dashi powder above for stock duty, but still wanted for the from-scratch method) · ❓ **Hon-mirin** (real fermented, not aji-mirin).
+- ✅ **Nutritional yeast** (confirmed 2026-10-01) — the salt-free glutamate lever, and essentially the only one now that kombu is out of stock. ⚠ **It is weaker than kombu per gram, not equivalent.** Free glutamate in inactive yeast flakes runs roughly 0.5–1.5 g/100 g (most of the glutamic acid is protein-bound) against dried kombu's 1.2–3.4 g/100 g, so replacing 60 g of kombu would take well over 100 g of flakes — far past the point where the cheesy/bready aroma takes over. Treat it as **a few grams of savoury roundness at zero salt cost**, not as a kombu substitute. Best placed in dishes that want a brothy/meaty register (it is what commercial vegetarian stock cubes are built on); keep it out of málà, Thai and other aromatic-led bases where the cheesy note fights the spices. ⚠ Read the tub — plain flakes are near salt-free, but seasoned versions exist. Many brands are **B12-fortified**, which would restore the contribution lost when the M&S carton was replaced by NutriSoy.
+- ❓ **Shiitake powder** (guanylate; the salt-free seasoning lever) · ❓ **Hon-mirin** (real fermented, not aji-mirin).
+- 🛒 **Kombu** (dried kelp) — **absent, confirmed 2026-10-01.** The dashi powder covers stock duty but *not* kombu's distinguishing property: kombu is the only **salt-free** glutamate source in this kitchen's repertoire, where every remaining one (taucheo, doubanjiang, miso, the powder's yeast extract) arrives with salt attached. Its absence tightens the salt budget on any from-scratch stock. Worth re-buying for that reason alone.
 
 ### Acid
 
@@ -74,6 +76,7 @@ These were UK standing stock and/or are trivially available in Singapore, but **
 
 - ❓ Mild curry powder (the organic no-chilli/no-paprika one — most scorch-forgiving under dry heat; label data in the archive) · ❓ tikka masala / Madras · ❓ **smoked paprika** ⚠ Lara flag, stays flagged · ❓ sweet paprika · ❓ ras el hanout · ❓ harissa powder · ❓ shichimi · ❓ za'atar · ❓ sumac · ❓ gochujang · ❓ Mae Ploy yellow (~10% salt) and green curry paste.
 - ❓ Whole: cumin, black/brown mustard, coriander seeds, bird's-eye chillies. ❓ Ground: turmeric, ginger, coriander, cinnamon.
+- ✅ **Sichuan peppercorn** · ✅ **Dried red chillies** (confirmed 2026-10-01, for the hotpot base). ⚠ Neither has been pinned down further: red vs green peppercorn changes the dose by nearly half (green is sharply more numbing), and the chillies' variety and heat are unknown. Worth a photo next time either is opened.
 - **Sourcing note:** most of this is *cheaper and fresher* in Singapore than it was in the UK — Little India (Tekka, Mustafa) for the Indian and Middle Eastern end, any supermarket for the Thai pastes. The exceptions are the European/Levantine items (za'atar, sumac, ras el hanout, smoked paprika), which are speciality imports here and cost more than they did.
 
 ### Aromatics — **this section inverts**
