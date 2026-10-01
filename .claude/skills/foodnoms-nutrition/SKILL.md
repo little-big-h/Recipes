@@ -72,7 +72,7 @@ enc() { jq -rn --arg x "$1" '$x|@uri'; }   # URL-encode an id for the path
   # it in this file — a personal calendar id has no business living in a shared repo)
   FOOD_CAL=$(graph GET "https://graph.microsoft.com/v1.0/me/calendars?\$filter=name%20eq%20'Food'&\$select=id" \
     | jq -r '.body.value[0].id')
-  graph GET "https://graph.microsoft.com/v1.0/me/calendars/$(enc "$FOOD_CAL")/events?\$top=25&\$orderby=start/dateTime%20desc&\$select=id,subject,body,hasAttachments"
+  graph GET "https://graph.microsoft.com/v1.0/me/calendars/$(enc "$FOOD_CAL")/events?\$top=25&\$orderby=start/dateTime%20desc&\$select=id,subject,body,start,hasAttachments"
   ```
   > ⚠ **Don't sweep `/me/events` (the default/merged view) sorted by `start/dateTime desc`.**
   > That ordering surfaces the *furthest-future* events first — a meeting scheduled next
@@ -112,6 +112,10 @@ graph GET "https://graph.microsoft.com/v1.0/me/events/$(enc "$EV")/attachments?\
 - Read the event `subject` (the dish name) and `body` (the markdown breakdown: before/after/
   consumed grams and the ingredient lines). The photo's EXIF UserComment also carries
   `before_g`/`after_g`/`consumed_g`.
+- Capture the event's **`start.dateTime`** as `START` (it is in the sweep's `$select`; for
+  the id path, `graph GET ".../events/$(enc "$EV")?\$select=start"`). Step 5 encodes it into
+  the file name so the "Log to FoodNoms" Shortcut can log at the meal's real time — the
+  `.foodnoms` format itself stores no date.
 
 ### 4. Produce the `.foodnoms` file
 
@@ -171,17 +175,22 @@ only version of it available; don't shortcut to a single guess.
 
 ### 5. Attach it back to the event
 
-Name the file after the dish (sanitize the subject; fall back to `meal`):
+Name the file `<dish>__<epoch>.foodnoms` — the dish for a human label, and the meal's epoch
+(from `START`) so the "Log to FoodNoms" Shortcut can set the time. `_` is stripped from the
+dish because `__` delimits the fields the Shortcut parses (epoch is the last one); the app
+matches any `*.foodnoms` by suffix, so the epoch is invisible to it.
 
 ```sh
-NAME="$(printf '%s' "$SUBJECT" | tr -c 'A-Za-z0-9 ._-' '_' )"; [ -n "$NAME" ] || NAME=meal
+EPOCH=$(date -u -d "${START:0:19}Z" +%s)                 # START = start.dateTime (UTC); absolute instant
+DISH="$(printf '%s' "$SUBJECT" | tr -c 'A-Za-z0-9 .-' '-')"; [ -n "$DISH" ] || DISH=meal
 CB="$(base64 < /tmp/meal.foodnoms | tr -d '\n')"
 graph POST "https://graph.microsoft.com/v1.0/me/events/$(enc "$EV")/attachments" \
-  "$(jq -nc --arg n "$NAME.foodnoms" --arg cb "$CB" \
+  "$(jq -nc --arg n "${DISH}__${EPOCH}.foodnoms" --arg cb "$CB" \
       '{"@odata.type":"#microsoft.graph.fileAttachment", name:$n, contentType:"application/octet-stream", contentBytes:$cb}')"
 ```
 
-Expect `statusCode: 201`. Base64-encode the text **once**.
+Expect `statusCode: 201`. Base64-encode the text **once**. (`date -u -d` is GNU date — fine
+in the Linux cloud sandbox.)
 
 ### 6. Report
 
