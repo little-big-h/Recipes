@@ -370,19 +370,22 @@ dried caps on demand removes both problems at once, with no additives and no sal
 small amounts: ground shiitake loses aroma within days. ⚠ The caps must be **bone dry**, not
 leathery; a short low-oven dry first if in doubt.
 
-⚠ **Blend within a pod, never across pods.** A mill blend only grinds evenly, and only
-stays the same blend as the hopper empties, if its components break at similar hardness and
-settle at similar density. Mixing across the pod boundary gives you both an uneven grind and
-a ratio that drifts — the dense fraction sinks, the light fraction rides up, and the last
-grind is not the first one. Grind across-pod components separately and mix as powder.
+⚠ **A blend may only contain spices that the same pod handles.** Cumin, fennel and Sichuan
+peppercorn are all PRO Plus spices, so they can share one hopper. Star anise is a GT spice,
+so it cannot join them — grind it in its own pod and stir the two powders together
+afterwards.
 
-**The one single-hopper blend this kitchen can make today** is **cumin + fennel + Sichuan
-peppercorn** — all three are PRO Plus items of similar hardness, so they load together as
-whole seed and grind to order. Starting ratio **cumin 3 : fennel 2 : Sichuan peppercorn 1**
-(untested as of 2026-10-02). Fennel carries anethole, the same compound that defines star
-anise, so this reads as a credible five-spice stand-in missing only the woody cassia/clove
-half. Shift fennel up for squash and sweet potato, cumin up for brassicas. Chilli is a GT
-job and joins as powder afterwards, never in the hopper.
+Two things go wrong otherwise. A pod is set to one coarseness, so the harder component comes
+out in chips while the softer one is already dust. And components of different density
+separate in the hopper as it empties: the heavy fraction sinks, the light fraction rides up,
+and the ratio coming out drifts away from the ratio that went in.
+
+**The one blend this kitchen can load into a single hopper today** is **cumin + fennel +
+Sichuan peppercorn**, as whole seed, ground to order. Starting ratio **cumin 3 : fennel 2 :
+Sichuan peppercorn 1** (untested as of 2026-10-02). Fennel carries anethole, the same
+compound that defines star anise, so this reads as a credible five-spice stand-in missing
+only the woody cassia/clove half. Shift fennel up for squash and sweet potato, cumin up for
+brassicas. Chilli needs the GT, so it joins as powder afterwards and never in the hopper.
 
 ⚠ **Load the hopper with whole seed, not a pre-ground blend.** Whole spice keeps for months
 in the pod and ground spice is flat within a week — grinding to order is the entire point of
