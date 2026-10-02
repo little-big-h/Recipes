@@ -345,6 +345,40 @@ The single most impactful technique upgrade across the breakfast profiles.
 - **Cumin residue in the mortar** flavours subsequent ingredients pounded in it — feature, not bug. Pound garlic *after* grinding cumin.
 - Do not pound ground spices in the mortar — no benefit, just wear on the stone.
 
+### FinaMill — which pod takes what (arrived 2026-10-02)
+
+Battery grinder with interchangeable pods. Four exist; **two cover essentially everything
+this kitchen grinds.** The pods have been renamed at least once (PRO Plus is also sold as
+"Everyday Pod", MAX as "Dried Herbs+ Pod", GT as "Grater Pod"), so match on the
+description, not the name.
+
+| Pod | Built for | What we grind in it |
+|:--|:--|:--|
+| **PRO Plus** | everyday **and oily** spices | cumin, coriander, fennel, dill and mustard seed · all peppercorns incl. **Sichuan** · cardamom *seeds* · dried ginger · sesame · coarse/sea salt · cacao nibs |
+| **GT** (grater) | **hard** spices, enclosed blade | **dried shiitake** · cassia and cinnamon · star anise · cloves · nutmeg · cardamom *pods* · **dried whole chillies** · nuts · freeze-dried fruit |
+| **MAX** | large spices, **dried herbs** | oregano, sage, thyme, rosemary, parsley · allspice, juniper, caraway · dried citrus peel (陈皮) · coffee |
+| **PRO** | the older everyday pod | **redundant if you have PRO Plus** — that one is the superset. ⚠ The maker's own pages don't document the PRO/PRO Plus difference; "handles oily spices" is the only stated distinction. |
+
+**Cardamom splits across two pods** — whole pods to the GT, loose seeds to the PRO Plus.
+That's the clearest illustration of the dividing line: GT shatters hard things, PRO Plus
+mills seeds.
+
+⚠ **The GT grinds dried shiitake, and that matters more here than anything else on the
+list.** Shiitake powder is this project's salt-free guanylate lever and a recurring ❓
+pantry item, and the kids reject visible mushroom texture — so being able to make it from
+dried caps on demand removes both problems at once, with no additives and no salt. Grind
+small amounts: ground shiitake loses aroma within days. ⚠ The caps must be **bone dry**, not
+leathery; a short low-oven dry first if in doubt.
+
+⚠ **It does not replace the mortar for everything.** Where a recipe wants spice *cracked*
+rather than *powdered* — Sichuan peppercorn for a hotpot base, where you want husks you can
+avoid and where sanshool is volatile — the mortar is still correct. Toasting still happens
+in the pan first, either way (see above).
+
+Sources: [GT](https://finamill.co.uk/products/finapod-gt-1-pack) ·
+[PRO Plus](https://finamill.co.uk/products/finapod-pro-plus-1-pack) ·
+[MAX](https://finamill.co.uk/products/finapod-max-1-pack)
+
 ### Spice bloom in oil
 
 Order matters:
