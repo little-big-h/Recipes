@@ -2665,6 +2665,31 @@
   "secondary": null,
   "source": "label"
  },
+ "local:7E4A1C96-2B58-4D03-9F27-6C8E5A3B1D04": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Wang Feng (旺丰)",
+  "foodID": "local:7E4A1C96-2B58-4D03-9F27-6C8E5A3B1D04",
+  "name": "Pixian Doubanjiang, red oil (Wang Feng)",
+  "per100": {
+   "calcium": 28.5,
+   "calories": 130.7,
+   "carbs": 15.0,
+   "copper": 0.21,
+   "fat": 5.0,
+   "fiber": 2.7,
+   "iron": 1.25,
+   "magnesium": 24.0,
+   "manganese": 0.43,
+   "phosphorus": 80.0,
+   "potassium": 105.0,
+   "protein": 6.3,
+   "sodium": 6180.0,
+   "zinc": 1.28
+  },
+  "secondary": "label+est-micros",
+  "source": "label"
+ },
  "local:7F5C1A38-4E62-49D7-B83F-0A2E6C4B9D51": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
