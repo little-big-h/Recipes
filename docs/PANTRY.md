@@ -75,7 +75,8 @@ These were UK standing stock and/or are trivially available in Singapore, but **
 ### Spices and pastes
 
 - ❓ Mild curry powder (the organic no-chilli/no-paprika one — most scorch-forgiving under dry heat; label data in the archive) · ❓ tikka masala / Madras · ❓ **smoked paprika** ⚠ Lara flag, stays flagged · ❓ sweet paprika · ❓ ras el hanout · ❓ harissa powder · ❓ shichimi · ❓ za'atar · ❓ sumac · ❓ gochujang · ❓ Mae Ploy yellow (~10% salt) and green curry paste.
-- ❓ Whole: cumin, black/brown mustard, coriander seeds, bird's-eye chillies. ❓ Ground: turmeric, ginger, coriander, cinnamon.
+- ✅ Whole: **cumin**, **fennel** (both confirmed 2026-10-02). ❓ Whole: black/brown mustard, coriander seeds, bird's-eye chillies. ❓ Ground: turmeric, ginger, coriander, cinnamon.
+- 🛒 **Star anise · cassia · cloves** — absent as of 2026-10-02, which is what puts five-spice out of reach. Buying them would unlock both five-spice and the hotpot base's whole-spice line in one trip.
 - ✅ **Sichuan peppercorn** · ✅ **Dried red chillies** (confirmed 2026-10-01, for the hotpot base). ⚠ Neither has been pinned down further: red vs green peppercorn changes the dose by nearly half (green is sharply more numbing), and the chillies' variety and heat are unknown. Worth a photo next time either is opened.
 - **Sourcing note:** most of this is *cheaper and fresher* in Singapore than it was in the UK — Little India (Tekka, Mustafa) for the Indian and Middle Eastern end, any supermarket for the Thai pastes. The exceptions are the European/Levantine items (za'atar, sumac, ras el hanout, smoked paprika), which are speciality imports here and cost more than they did.
 
