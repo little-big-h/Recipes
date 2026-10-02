@@ -2537,6 +2537,32 @@
   "secondary": "label+boil-leach-correction",
   "source": "label"
  },
+ "local:5E7B2F94-6A18-4D53-B027-3C9E1F5A8D60": {
+  "barcode": "011152085074",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "J-Basket (JFC)",
+  "foodID": "local:5E7B2F94-6A18-4D53-B027-3C9E1F5A8D60",
+  "name": "Soba Noodles, boiled and drained, per 100 g cooked (J-Basket)",
+  "per100": {
+   "calcium": 8.89,
+   "calories": 137.78,
+   "carbs": 27.11,
+   "cholesterol": 0.0,
+   "fat": 0.67,
+   "fatSaturated": 0.0,
+   "fatTrans": 0.0,
+   "fiber": 1.78,
+   "iron": 1.02,
+   "potassium": 128.89,
+   "protein": 5.78,
+   "sodium": 139.08,
+   "sugars": 0.44,
+   "vitaminD": 0.0
+  },
+  "secondary": "label+boil-leach-correction+measured-yield",
+  "source": "label"
+ },
  "local:6A4AE1C2-7310-4968-9B44-EC519652DFE2": {
   "baseAmount": 100,
   "baseUnit": "gram",
