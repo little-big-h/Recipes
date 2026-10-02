@@ -359,9 +359,9 @@ description, not the name.
 | **MAX** | large spices, **dried herbs** | oregano, sage, thyme, rosemary, parsley · allspice, juniper, caraway · dried citrus peel (陈皮) · coffee |
 | **PRO** | the older everyday pod | **redundant if you have PRO Plus** — that one is the superset. ⚠ The maker's own pages don't document the PRO/PRO Plus difference; "handles oily spices" is the only stated distinction. |
 
-**Cardamom splits across two pods** — whole pods to the GT, loose seeds to the PRO Plus.
-That's the clearest illustration of the dividing line: GT shatters hard things, PRO Plus
-mills seeds.
+**Cardamom needs two different kinds of pod depending on its form** — whole cardamom to the
+GT, loose cardamom seeds to the PRO Plus. That's the clearest illustration of the dividing
+line: GT shatters hard things, PRO Plus mills seeds.
 
 ⚠ **The GT grinds dried shiitake, and that matters more here than anything else on the
 list.** Shiitake powder is this project's salt-free guanylate lever and a recurring ❓
@@ -370,10 +370,9 @@ dried caps on demand removes both problems at once, with no additives and no sal
 small amounts: ground shiitake loses aroma within days. ⚠ The caps must be **bone dry**, not
 leathery; a short low-oven dry first if in doubt.
 
-⚠ **A blend may only contain spices that the same pod handles.** Cumin, fennel and Sichuan
+⚠ **Every spice in a blend must call for the same *kind* of pod.** Cumin, fennel and Sichuan
 peppercorn are all PRO Plus spices, so they can share one hopper. Star anise is a GT spice,
-so it cannot join them — grind it in its own pod and stir the two powders together
-afterwards.
+so it cannot join them — grind it separately and stir the two powders together afterwards.
 
 Two things go wrong otherwise. A pod is set to one coarseness, so the harder component comes
 out in chips while the softer one is already dust. And components of different density
