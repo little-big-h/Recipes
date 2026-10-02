@@ -2033,6 +2033,38 @@
   "secondary": null,
   "source": "label"
  },
+ "local:2D9E6B47-5C18-4A30-BF62-7E1A4D9C3058": {
+  "barcode": "8887367110021",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Asia Joy (Hais Food)",
+  "foodID": "local:2D9E6B47-5C18-4A30-BF62-7E1A4D9C3058",
+  "name": "Asia Joy Mala Hotpot Paste",
+  "per100": {
+   "calcium": 20.0,
+   "calories": 140.0,
+   "carbs": 29.4,
+   "cholesterol": 0.0,
+   "copper": 0.147,
+   "fat": 6.7,
+   "fatMonounsaturated": 2.3,
+   "fatPolyunsaturated": 0.5,
+   "fatSaturated": 3.9,
+   "fatTrans": 0.0,
+   "fiber": 13.9,
+   "iron": 0.87,
+   "magnesium": 16.8,
+   "manganese": 0.3,
+   "phosphorus": 55.7,
+   "potassium": 73.5,
+   "protein": 4.5,
+   "sodium": 2715.0,
+   "sugars": 5.9,
+   "zinc": 0.9
+  },
+  "secondary": "label+est-micros",
+  "source": "label"
+ },
  "local:2E3428F1-76AC-4FD4-82A6-40F6BB4E58EC": {
   "baseAmount": 100,
   "baseUnit": "gram",
