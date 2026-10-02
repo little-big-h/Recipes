@@ -363,6 +363,11 @@ description, not the name.
 
 **We own grey + red**, which covers everything in the first two rows.
 
+⚠ Some of the maker's material lists a spice under **both** PRO and PRO Plus — cumin is one.
+Where that happens, **grey is sufficient**: whatever PRO turns out to be, it does not take
+anything away from PRO Plus. Treat a doubled listing as "the specialist may do it better",
+never as "the grey pod can't."
+
 **Cardamom needs two different kinds of pod depending on its form** — whole cardamom to the
 GT, loose cardamom seeds to the PRO Plus. That's the clearest illustration of the dividing
 line: GT shatters hard things, PRO Plus mills seeds.
