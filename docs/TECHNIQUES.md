@@ -352,12 +352,16 @@ this kitchen grinds.** The pods have been renamed at least once (PRO Plus is als
 "Everyday Pod", MAX as "Dried Herbs+ Pod", GT as "Grater Pod"), so match on the
 description, not the name.
 
-| Pod | Built for | What we grind in it |
-|:--|:--|:--|
-| **PRO Plus** | everyday **and oily** spices | cumin, coriander, fennel, dill and mustard seed · all peppercorns incl. **Sichuan** · cardamom *seeds* · dried ginger · sesame · coarse/sea salt · cacao nibs |
-| **GT** (grater) | **hard** spices, enclosed blade | **dried shiitake** · cassia and cinnamon · star anise · cloves · nutmeg · cardamom *pods* · **dried whole chillies** · nuts · freeze-dried fruit |
-| **MAX** | large spices, **dried herbs** | oregano, sage, thyme, rosemary, parsley · allspice, juniper, caraway · dried citrus peel (陈皮) · coffee |
-| **PRO** | the older everyday pod | **redundant if you have PRO Plus** — that one is the superset. ⚠ The maker's own pages don't document the PRO/PRO Plus difference; "handles oily spices" is the only stated distinction. |
+**Colour is the reliable identifier** — the names have moved, the colours have not.
+
+| Pod | Colour | Built for | What we grind in it |
+|:--|:--|:--|:--|
+| **PRO Plus** | **grey** (also sold white as "Everyday Pod") | everyday **and oily** spices | cumin, coriander, fennel, dill and mustard seed · all peppercorns incl. **Sichuan** · cardamom *seeds* · dried ginger · sesame · coarse/sea salt · cacao nibs |
+| **GT** (grater) | **red** | **hard** spices, enclosed blade | **dried shiitake** · cassia and cinnamon · star anise · cloves · nutmeg · whole cardamom · **dried whole chillies** · nuts · freeze-dried fruit |
+| **MAX** | **black** (also "Dried Herbs+") | large spices, **dried herbs** | oregano, sage, thyme, rosemary, parsley · allspice, juniper, caraway · dried citrus peel (陈皮) · coffee |
+| **PRO** | unconfirmed — possibly yellow | seeds and **high-oil** spices | ⚠ **Unresolved.** It was first recorded here as an older pod superseded by PRO Plus, but a launch announcement describes PRO as a *newer* pod "for Seeds and Oily Spices", which would make it a specialist rather than a predecessor. The maker's own pages do not compare the two. Don't rely on either reading. |
+
+**We own grey + red**, which covers everything in the first two rows.
 
 **Cardamom needs two different kinds of pod depending on its form** — whole cardamom to the
 GT, loose cardamom seeds to the PRO Plus. That's the clearest illustration of the dividing
