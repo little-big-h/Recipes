@@ -2692,6 +2692,28 @@
   "secondary": null,
   "source": "label"
  },
+ "local:6F8B3D27-1C54-4A89-B3E0-7D2F6A8C5B41": {
+  "barcode": "078895152258",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lee Kum Kee",
+  "foodID": "local:6F8B3D27-1C54-4A89-B3E0-7D2F6A8C5B41",
+  "name": "Vegetarian Oyster Flavoured Sauce (Lee Kum Kee)",
+  "per100": {
+   "calories": 176.0,
+   "carbs": 42.1,
+   "cholesterol": 0.0,
+   "fat": 0.0,
+   "fatSaturated": 0.0,
+   "fatTrans": 0.0,
+   "fiber": 0.6,
+   "protein": 1.8,
+   "sodium": 2920.0,
+   "sugars": 29.7
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:7A94FF9B-E956-4FDA-B07E-5F139C778EBB": {
   "baseAmount": 400,
   "baseUnit": "gram",
