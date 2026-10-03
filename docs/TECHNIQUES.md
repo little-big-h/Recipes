@@ -388,19 +388,30 @@ out in chips while the softer one is already dust. And components of different d
 separate in the hopper as it empties: the heavy fraction sinks, the light fraction rides up,
 and the ratio coming out drifts away from the ratio that went in.
 
-**The one blend this kitchen can load into a single hopper today** is **cumin + fennel +
-Sichuan peppercorn**, as whole seed, ground to order. Starting ratio **cumin 3 : fennel 2 :
-Sichuan peppercorn 1** (untested as of 2026-10-02). Fennel carries anethole, the same
-compound that defines star anise, so this reads as a credible five-spice stand-in missing
-only the woody cassia/clove half. Shift fennel up for squash and sweet potato, cumin up for
-brassicas. Chilli needs the GT, so it joins as powder afterwards and never in the hopper.
+⚠ **That rule forces a choice between two different products, and they cannot be combined.**
+A blend spanning more than one kind of pod can only exist as a finished powder, because
+there is no moment at which a separately-ground component could join seed that is being
+ground to order.
 
-**With cloves (from 2026-10-03) that blend gets much closer to five-spice than the shopping
-list suggests** — **cumin 3 : fennel 2 : Sichuan peppercorn 1 : clove 0.25**, the clove ground
-in the red pod and folded in. Of the two spices still missing, fennel already covers star
-anise's anethole and clove covers much of cassia's warm-woody role, so what is actually
-absent is depth rather than a whole dimension. ⚠ Clove is the easiest spice in the cupboard
-to ruin a blend with: a quarter part is right, a whole part is not.
+**Product 1 — the hopper blend.** Whole **cumin + fennel + Sichuan peppercorn** living in the
+grey pod, ground directly over the food. Ratio **cumin 3 : fennel 2 : Sichuan peppercorn 1**
+(untested as of 2026-10-02). No jar, nothing pre-ground, best aroma, and **no clove or
+chilli** — they are simply not part of this product. Shift fennel up for squash and sweet
+potato, cumin up for brassicas. This is the everyday one and what the mill is for.
+
+**Product 2 — the jar blend.** The only way to get clove or chilli in at a controlled ratio.
+Grind the grey-pod spices into a bowl, grind the red-pod spices into the same bowl, weigh
+each to the ratio, stir, store airtight and dark. With cloves this lands close to five-spice:
+**cumin 3 : fennel 2 : Sichuan peppercorn 1 : clove 0.25**, which on a 60 g batch is **30 g :
+20 g : 10 g : 2.5 g**. Fennel already supplies star anise's anethole and clove much of
+cassia's warm-woody role, so what the two missing spices cost is depth rather than a whole
+dimension.
+
+⚠ Grind more clove than the recipe needs and weigh out the 2.5 g — about 12–15 whole cloves.
+Trying to grind a quarter part directly is not a real operation. ⚠ Clove is the easiest
+spice in the cupboard to ruin a blend with: a quarter part is right, a whole part is not.
+⚠ Make this in small batches. It is pre-ground by definition, so it is flat within a couple
+of weeks — that is the price of including clove and chilli at all.
 
 ⚠ **The red pod carries two residue-leaving jobs** — capsaicin oil from chilli and eugenol
 from clove. Both are assertive spices that often appear together anyway, so the
