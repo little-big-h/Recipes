@@ -418,13 +418,22 @@ from clove. Both are assertive spices that often appear together anyway, so the
 cross-contamination matters much less than it would if something delicate shared the pod.
 One red pod is enough.
 
-⚠ **Load the hopper with whole seed, not a pre-ground blend.** Whole spice keeps for months
-in the pod and ground spice is flat within a week — grinding to order is the entire point of
-owning the mill. Give the pod a shake before each use anyway.
+⚠ **Load the hopper with whole seed, not a pre-ground blend.** Ground spice is flat within a
+week — grinding to order is the entire point of owning the mill. Give the pod a shake before
+each use anyway, since different seed shapes stratify.
 
 ⚠ **Toast before blending, and toast separately** — the existing different-rates rule bites
 hard here. Sichuan peppercorn needs 30–45 s and turns bitter past that, well before cumin
-and fennel are done.
+and fennel are done. Cool to room temperature before loading: warm spice sealed in a pod
+sweats, which cakes the grind and gums the burr.
+
+⚠ **A hopper blend has to be toasted, and that caps how long it keeps.** It is a *finishing*
+seasoning, ground over food that is already cooked, so no later heat will cook the rawness
+out of the cumin — untoasted is not an option the way it is for a spice going into a pan.
+But toasting ruptures the cells, so the blend keeps for **3–4 weeks, not the months raw
+whole seed would**. Hence 30 g batches: cumin 15 g, fennel 10 g, Sichuan peppercorn 5 g.
+⚠ Also budget for prep loss — de-seeding and de-stemming the peppercorn costs 10–20% of its
+weight, so start from ~6 g to land on 5 g.
 
 ⚠ **It does not replace the mortar for everything.** Where a recipe wants spice *cracked*
 rather than *powdered* — Sichuan peppercorn for a hotpot base, where you want husks you can
