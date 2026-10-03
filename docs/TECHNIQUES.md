@@ -338,6 +338,30 @@ The single most impactful technique upgrade across the breakfast profiles.
 - **Scissor**, don't blend — less mess.
 - Co-soaking dried chilies + toasted mustard seeds in a single bowl works well as a unified "spice soak" for Indian-style shakshuka.
 
+**The dry route — grinding dried chilies to powder**
+
+The wet route above gives colour and slow heat in a liquid; this one gives powder. Different
+jobs, not alternatives. Order: **stem → toast whole → cool → snip → grind** (red pod).
+
+- **Toasting is doing two jobs**: roasted depth, and brittleness. A leathery chili will not
+  grind, it just gets pushed around. ⚠ Far less forgiving than cumin — burnt chili is acrid
+  and bitter, *not* hot, and nothing recovers it. Low heat, 1–2 min, constantly moving; pull
+  when they smell toasty, puff slightly and darken a shade, not when they look dark.
+- **For clean heat instead, dry them in a low oven** (80–100 °C, 10–15 min). Brittle without
+  browning. Pan-toasted suits a mala dip; oven-dried adds no character of its own.
+- **Stems off always** — woody, bitter, will not grind.
+- **Snip to ~1 cm after toasting, never before.** Cut edges and exposed seeds scorch faster
+  and throw far more aerosol. Whole chilies also bridge in a hopper and spin.
+- **Keep the seeds.** ⚠ The belief that seeds are the hot part is wrong: capsaicin sits in
+  the **placenta**, the white pith they attach to, and seeds only pick it up by contact.
+  De-seeding cuts bitterness and grit more than heat — not worth the work on bird's eye.
+
+⚠ **Three hazards, all real at bird's eye strength (100–225k SHU):** ventilate while
+toasting, because the aerosol stings eyes and airways. **Let the pod settle before opening
+it** after a fine grind — opening immediately puts capsaicin dust in your face, and this is
+the one nobody anticipates. And capsaicin is fat-soluble, so hands get soap or oil *first*,
+then water; water alone spreads it.
+
 ### Mortar and pestle workflow
 
 - **Pound garlic to paste** in the mortar (gives the smoothest distribution in oil).
