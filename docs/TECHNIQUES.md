@@ -395,6 +395,18 @@ compound that defines star anise, so this reads as a credible five-spice stand-i
 only the woody cassia/clove half. Shift fennel up for squash and sweet potato, cumin up for
 brassicas. Chilli needs the GT, so it joins as powder afterwards and never in the hopper.
 
+**With cloves (from 2026-10-03) that blend gets much closer to five-spice than the shopping
+list suggests** — **cumin 3 : fennel 2 : Sichuan peppercorn 1 : clove 0.25**, the clove ground
+in the red pod and folded in. Of the two spices still missing, fennel already covers star
+anise's anethole and clove covers much of cassia's warm-woody role, so what is actually
+absent is depth rather than a whole dimension. ⚠ Clove is the easiest spice in the cupboard
+to ruin a blend with: a quarter part is right, a whole part is not.
+
+⚠ **The red pod now has three jobs that all leave residue** — capsaicin oil from chilli,
+eugenol from clove, and dried shiitake, which is the one that must come out clean. Shiitake
+powder tasting of clove or chilli is useless. This is the point at which a **second red pod,
+dedicated to shiitake**, stops being a luxury.
+
 ⚠ **Load the hopper with whole seed, not a pre-ground blend.** Whole spice keeps for months
 in the pod and ground spice is flat within a week — grinding to order is the entire point of
 owning the mill. Give the pod a shake before each use anyway.
