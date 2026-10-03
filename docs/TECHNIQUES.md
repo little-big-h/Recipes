@@ -357,7 +357,7 @@ description, not the name.
 | Pod | Colour | Built for | What we grind in it |
 |:--|:--|:--|:--|
 | **PRO Plus** | **grey** (also sold white as "Everyday Pod") | everyday **and oily** spices | cumin, coriander, fennel, dill and mustard seed · all peppercorns incl. **Sichuan** · cardamom *seeds* · dried ginger · sesame · coarse/sea salt · cacao nibs |
-| **GT** (grater) | **red** | **hard** spices, enclosed blade | **dried shiitake** · cassia and cinnamon · star anise · cloves · nutmeg · whole cardamom · **dried whole chillies** · nuts · freeze-dried fruit |
+| **GT** (grater) | **red** | **hard** spices, enclosed blade | cassia and cinnamon · star anise · cloves · nutmeg · whole cardamom · **dried whole chillies** · nuts · freeze-dried fruit |
 | **MAX** | **black** (also "Dried Herbs+") | large spices, **dried herbs** | oregano, sage, thyme, rosemary, parsley · allspice, juniper, caraway · dried citrus peel (陈皮) · coffee |
 | **PRO** | unconfirmed — possibly yellow | seeds and **high-oil** spices | ⚠ **Unresolved.** It was first recorded here as an older pod superseded by PRO Plus, but a launch announcement describes PRO as a *newer* pod "for Seeds and Oily Spices", which would make it a specialist rather than a predecessor. The maker's own pages do not compare the two. Don't rely on either reading. |
 
@@ -372,12 +372,12 @@ never as "the grey pod can't."
 GT, loose cardamom seeds to the PRO Plus. That's the clearest illustration of the dividing
 line: GT shatters hard things, PRO Plus mills seeds.
 
-⚠ **The GT grinds dried shiitake, and that matters more here than anything else on the
-list.** Shiitake powder is this project's salt-free guanylate lever and a recurring ❓
-pantry item, and the kids reject visible mushroom texture — so being able to make it from
-dried caps on demand removes both problems at once, with no additives and no salt. Grind
-small amounts: ground shiitake loses aroma within days. ⚠ The caps must be **bone dry**, not
-leathery; a short low-oven dry first if in doubt.
+**Grinding our own dried shiitake was considered and set aside (2026-10-03).** The GT can do
+it, and the arguments were real — salt-free, fresher aroma, cheaper per gram of mushroom — but
+it needs the caps dried to brittle first, and the bought powders cover the job. Recorded so
+it does not get re-proposed as a new idea. If it ever comes back: the umami half (5′-GMP)
+keeps perfectly well in a bought powder, so the only thing home grinding actually buys is
+**aroma**.
 
 ⚠ **Every spice in a blend must call for the same *kind* of pod.** Cumin, fennel and Sichuan
 peppercorn are all PRO Plus spices, so they can share one hopper. Star anise is a GT spice,
@@ -402,10 +402,10 @@ anise's anethole and clove covers much of cassia's warm-woody role, so what is a
 absent is depth rather than a whole dimension. ⚠ Clove is the easiest spice in the cupboard
 to ruin a blend with: a quarter part is right, a whole part is not.
 
-⚠ **The red pod now has three jobs that all leave residue** — capsaicin oil from chilli,
-eugenol from clove, and dried shiitake, which is the one that must come out clean. Shiitake
-powder tasting of clove or chilli is useless. This is the point at which a **second red pod,
-dedicated to shiitake**, stops being a luxury.
+⚠ **The red pod carries two residue-leaving jobs** — capsaicin oil from chilli and eugenol
+from clove. Both are assertive spices that often appear together anyway, so the
+cross-contamination matters much less than it would if something delicate shared the pod.
+One red pod is enough.
 
 ⚠ **Load the hopper with whole seed, not a pre-ground blend.** Whole spice keeps for months
 in the pod and ground spice is flat within a week — grinding to order is the entire point of
