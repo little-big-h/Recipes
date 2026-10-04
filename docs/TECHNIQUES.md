@@ -417,10 +417,14 @@ A blend spanning more than one kind of pod can only exist as a finished powder, 
 there is no moment at which a separately-ground component could join seed that is being
 ground to order.
 
-**Product 1 — the hopper blend, 桦混 ("birch mix").** Whole **cumin + fennel + Sichuan
-peppercorn** living in the grey pod, ground directly over the food. Ratio **cumin 3 : fennel
-2 : Sichuan peppercorn 1**. **First batch made 2026-10-04**, 30 g, named by Holger —
-tasting notes and any ratio correction still to come. No jar, nothing pre-ground, best aroma, and **no clove or
+**Product 1 — the hopper blend, 桦混.** The house blend, and the name is the family's:
+**桦** *huà* is birch, **混** *hùn* is mix, and **Pirk** most likely derives from German
+*Birke*, birch (Holger's reading — Upper German devoicing of the initial b). So it is the
+Pirk blend. Whole **cumin + fennel + Sichuan peppercorn** living in the grey pod, ground
+directly over the food. Ratio **cumin 3 : fennel 2 : Sichuan peppercorn 1**. **First batch
+made 2026-10-04**, 30 g — tasting notes and any ratio correction still to come. Not logged:
+at the gram or two actually sprinkled it is nutritionally nothing, so there is no food
+definition for it and none is wanted. No jar, nothing pre-ground, best aroma, and **no clove or
 chilli** — they are simply not part of this product. Shift fennel up for squash and sweet
 potato, cumin up for brassicas. This is the everyday one and what the mill is for.
 
