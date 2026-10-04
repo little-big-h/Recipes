@@ -138,7 +138,18 @@ for portioning a finished dish.
 | Method | Loss | Measurements |
 |:--|--:|:--|
 | Roasted root / squash, ~1 g oil per 100 g | **~16%** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g) |
-| Broccoli, microwave-steamed then briefly stir-fried | **~14–16%** | 13.9% (2026-09-30); 15.6% (2026-10-01, 687.5 g → 580 g) |
+| Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
+| **Stir-fried from raw**, minimal oil | **~20%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g) |
+
+⚠ **The ~20% figure looks like a property of the method, not of the vegetable.** The two
+2026-10-04 measurements land within two points of each other despite being a brassica and a
+dense starchy root — and both sit well above the same kitchen's steam-then-fry numbers. If
+that holds, stir-frying can be forecast without a per-vegetable figure, which steaming and
+roasting still seem to need. Worth one more unrelated vegetable before relying on it.
+
+⚠ **Steaming first is not a smaller version of stir-frying — it changes the loss by a third.**
+Pick the row by whether the vegetable hit the wok raw, and treat the two as separate methods
+rather than a range.
 
 Same oven, same oil coat, seeds out before the scale — see the prep conventions
 above, which is what makes these comparable at all.
