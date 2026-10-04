@@ -417,9 +417,10 @@ A blend spanning more than one kind of pod can only exist as a finished powder, 
 there is no moment at which a separately-ground component could join seed that is being
 ground to order.
 
-**Product 1 — the hopper blend.** Whole **cumin + fennel + Sichuan peppercorn** living in the
-grey pod, ground directly over the food. Ratio **cumin 3 : fennel 2 : Sichuan peppercorn 1**
-(untested as of 2026-10-02). No jar, nothing pre-ground, best aroma, and **no clove or
+**Product 1 — the hopper blend, 桦混 ("birch mix").** Whole **cumin + fennel + Sichuan
+peppercorn** living in the grey pod, ground directly over the food. Ratio **cumin 3 : fennel
+2 : Sichuan peppercorn 1**. **First batch made 2026-10-04**, 30 g, named by Holger —
+tasting notes and any ratio correction still to come. No jar, nothing pre-ground, best aroma, and **no clove or
 chilli** — they are simply not part of this product. Shift fennel up for squash and sweet
 potato, cumin up for brassicas. This is the everyday one and what the mill is for.
 
