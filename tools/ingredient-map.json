@@ -2158,6 +2158,25 @@
   "secondary": null,
   "source": null
  },
+ "local:30A4C816-5B29-4E07-A4D1-6F3B8C2E5D90": {
+  "barcode": "1111111003190",
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "Green Earth Organic",
+  "foodID": "local:30A4C816-5B29-4E07-A4D1-6F3B8C2E5D90",
+  "name": "Organic Coconut Aminos (Green Earth Organic)",
+  "per100": {
+   "calories": 100.0,
+   "carbs": 20.0,
+   "fat": 0.0,
+   "fatSaturated": 0.0,
+   "fiber": 0.0,
+   "protein": 0.0,
+   "sodium": 2260.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:3514212A-FDC4-43BD-8C21-0A3AAF51F4F2": {
   "baseAmount": 1,
   "baseUnit": "serving",
