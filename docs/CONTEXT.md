@@ -9,7 +9,7 @@ Everything a Claude Code instance needs to know about the household, the cook, t
 - 43 years old. **Moved to Singapore in August 2026** (from Teddington, West London — the old UK context is retired at `docs/archive/PANTRY-UK-TEDDINGTON.md`). Currently living out of Kent Vale (NUS housing) while restocking the kitchen from zero — see the active constraint in `CLAUDE.md` and `docs/PANTRY.md`.
 - Vegetarian (ovo-lacto), home cook for a family of five
 - Competitive marathon runner targeting a Boston qualification (sub-2:55)
-- Diagnosed with mild RED-S (Relative Energy Deficiency in Sport); working with a sports dietitian (Jenaed at Nutrition and Co)
+- Diagnosed with mild RED-S (Relative Energy Deficiency in Sport). ⚠ **No longer working with a dietitian as of 2026-10-04** (previously Jenaed at Nutrition and Co). Her recorded observations below still stand as observations and should not be deleted, but there is **no clinician to defer to** — so nutrition questions land here, and the honest answer to a clinical one is now "this needs bloodwork", not "ask your dietitian".
 - Tracks all nutrition in **FoodNoms**
 - Does not eat after 8pm (note: dietitian Jenaed has recommended a ~21:30 pre-bed carb top-up for recovery; Holger has not adopted this. Late-evening fuelling recipe ideas should respect the 8pm cutoff unless he explicitly re-opens the question)
 - Working targets: ~120g protein/day (usually exceeds at ~177g), ~3300 kcal/day intake
