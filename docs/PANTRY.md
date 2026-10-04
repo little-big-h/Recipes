@@ -101,7 +101,8 @@ The UK list carried lemongrass paste, galangal paste and dried ginger *because t
 ### Protein
 
 - ❓ **Silken tofu** — Lara rule: blend smooth, never serve recognisable pieces. Cheaper and better here; the supermarket silken tofu is a different quality tier from Mori-Nu cartons.
-- ❓ Firm tofu · ❓ eggs (shakshuka) · ❓ skim cottage cheese (⚠ likely harder to get and pricier here than in the UK — an import item, not a staple).
+- ❓ Firm tofu · ❓ skim cottage cheese (⚠ likely harder to get and pricier here than in the UK — an import item, not a staple).
+- 🛒 **Eggs — switch to `Chew's Fresh Eggs – Omega 3`** (550 g / 10, FairPrice product 495350, ~$4.30). **Per 50 g egg: EPA + DHA 100 mg**, total omega-3 300 mg (so ~200 mg ALA), omega-6 800 mg, vitamin E 1.5 mg. Holger eats **two eggs a day**, so this is a like-for-like swap that delivers **~200 mg EPA+DHA/day — about 80% of the 250 mg/day adequate intake — for roughly £3–5 a month over plain eggs.** It is the **only non-supplement route to EPA/DHA in a vegetarian kitchen**: ALA from flax, chia or walnuts does not convert at useful rates, and the conversion is worse in men. ⚠ **This is why the EPA/DHA line is read, not the "omega-3" claim.** Most "omega-3 eggs" come from **flax-fed** hens and carry their omega-3 almost entirely as ALA, with ~0 in the EPA/DHA line — worthless for this purpose. Chew's declares a third of its omega-3 as EPA+DHA, which means genuine marine or algal feed. ⚠ The figure is **combined**, not split into EPA and DHA, and the feed is not disclosed. ⚠ **Seng Choon "Farm 3" makes the same marketing claim but publishes no per-egg figure**, so it cannot be verified or substituted on the evidence. ⚠ Long-chain PUFAs oxidise under prolonged high heat — shakshuka's gentle poach is ideal, hard frying less so.
 
 ### Fats
 
