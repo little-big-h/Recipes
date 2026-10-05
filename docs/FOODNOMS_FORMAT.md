@@ -5,6 +5,12 @@ A spec for generating `.foodnoms` files — the share/export format of the
 **another Claude**: given a request like *"make a FoodNoms file for this recipe"*,
 follow this to emit a valid file.
 
+**Holger's shorthand:** when he asks for a "Definition" (e.g. *"Pistachio lemon
+cake. Definition, please"*), he means a reusable per-100g **definition-form**
+`.foodnoms` file (`contentType 3`, §4b) for that food — build it with
+`"foodnoms": { "emit": "fooddef" }` in `tools/js`, not a meal-log entry
+(`collectionType 2`) and not a recipe.
+
 The canonical samples this spec is derived from live in [`../examples/`](../examples/):
 
 | File | Type |
