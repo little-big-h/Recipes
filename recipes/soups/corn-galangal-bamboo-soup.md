@@ -8,20 +8,21 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used |
 |:----:|:-----------|:-------:|--------:|:-----------:|
-| 🟣 | 🥑 Avocado oil | 5 g | 44 | |
-| 🟡 | 🧅 Onion, diced | 400 g | 160 | |
-| 🟡 | 🧄 Garlic, minced | 30 g | 45 | |
-| 🟠 | 🍲 Tom yum paste — HollyFarms (the last of the jar) | 15 g | 50 | |
-| 🟠 | 🍛 Thai yellow curry paste — The SOS Kitchen | 30 g | 39 | |
-| 🟡 | 🫚 Galangal paste | 30 g | ~25 | |
+| 🟣 | 🥑 Avocado oil | 5 g | 44 | **4 g** |
+| 🟡 | 🧅 Onion, diced | 400 g | 160 | **534 g** |
+| 🟡 | 🧄 Garlic, minced | 30 g | 45 | 30 g |
+| 🟠 | 🍲 Tom yum paste — HollyFarms (the last of the jar) | 15 g | 50 | **12 g** |
+| 🟠 | 🍛 Thai yellow curry paste — The SOS Kitchen | 30 g | 39 | **28 g** |
+| 🟡 | 🫚 Galangal paste | 30 g | ~25 | **32 g** |
 | 🔵 | 💧 Water (held back, **not** scaled — see note) | 1200 ml | 0 | |
-| 🟢 | 🌽 Frozen sweetcorn kernels (cooked ahead) | 1500 g | 1215 | |
-| 🟢 | 🎍 Bamboo shoots, drained and sliced | 200 g | 22 | |
-| 🟢 | 🥦 Broccoli, stems sliced and florets whole (never blended) | 600 g | 204 | |
-| 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT (whisk in off heat, never boil) | 250 g | 515 | |
-| 🟣 | 🌰 Shiitake powder (whisk in off heat) | 25 g | 75 | |
-| 🟣 | 🍜 Kombu shiitake dashi powder (whisk in off heat) | 10 g | 12 | |
-| 🟣 | 🧂 Salt | 6.5 g | 0 | |
+| 🟢 | 🌽 Frozen sweetcorn kernels (cooked ahead) | 1500 g | 1215 | 1500 g |
+| 🟢 | 🎍 Bamboo shoots, drained and sliced | 200 g | 22 | **none** |
+| 🟢 | 🥦 Broccoli, stems sliced and florets whole (never blended) | 600 g | 204 | **638 g** |
+| 🟢 | 🥬 Cauliflower, added ad hoc on the day | — | — | **175 g** |
+| 🔵 | 🥥 Coconut milk — Ayam Brand classic UHT (whisk in off heat, never boil) | 250 g | 515 | **Kara Light, 200 ml** |
+| 🟣 | 🌰 Shiitake powder (whisk in off heat) | 25 g | 75 | 25 g |
+| 🟣 | 🍜 Kombu shiitake dashi powder (whisk in off heat) | 10 g | 12 | 10 g |
+| 🟣 | 🧂 Salt | 6.5 g | 0 | 6.5 g |
 | ⚪ | 🫙 Tamarind, diluted in hot water (at table) | to taste | — | |
 | ⚪ | 🍋 Lime wedges (at table) | to taste | — | |
 | ⚪ | 🥒 German pickled cucumbers, sliced (at table) | to taste | — | |
@@ -76,16 +77,16 @@ Not an ingredient of the soup and not counted in its nutrition. Spooned into bow
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2398 kcal | Iron | 15.1 mg |
-| Protein | 74.7 g | Calcium | 517 mg |
-| Carbohydrates | 422 g | Zinc | 16.2 mg |
-| — of which sugars | 88.8 g | Magnesium | 635 mg |
-| Fat | 75.2 g | Potassium | 6775 mg |
-| — of which saturates | ~50 g (est.) | Vitamin C | 630 mg |
-| Fibre | 66.3 g | Vitamin A | 338 µg |
-| Salt | 11.1 g | Folate | 1027 µg |
+| Energy | 2196 kcal | Iron | 15.7 mg |
+| Protein | 74.1 g | Calcium | 586 mg |
+| Carbohydrates | 439 g | Zinc | 15.7 mg |
+| — of which sugars | 92.9 g | Magnesium | 674 mg |
+| Fat | 47.1 g | Potassium | 8014 mg |
+| — of which saturates | 27.6 g | Vitamin C | 756 mg |
+| Fibre | 70.9 g | Vitamin A | 348 µg |
+| Salt | 10.9 g | Folate | 1170 µg |
 
-**Salt density 0.26 g/100 g** — inside the 0.28–0.30 band the well-rated dishes sit in, and deliberately at its lower edge because the pickles and kimchi add their own at the table.
+**Salt density 0.24 g/100 g** — *below* the 0.28–0.30 band the well-rated dishes sit in, and the dish was still judged very good. That is the point of the pattern rather than a miss: the pickle carries the salt peaks, so the pot does not have to. ⚠ The figure is also a **floor** — some of the black-eyed pea cooking water was used to thin the soup, which brought salt the computation does not see.
 
 *FoodNoms collection: **Corn, Galangal & Bamboo Soup [06-10-26] ✴️** (4300 g). ⚠ **No download link.** The `BuildFoodNomsRecipe` URL is **7267 characters** and the live endpoint rejects it — verified, HTTP 532 — against a ceiling of roughly 1200. The file was written locally by `node tools/js/cli.js build` and is correct; it cannot travel as a link until the endpoint is redeployed at `$fnVersion` 8, whose nutrient-set interning buys back the length. The live object reports version **6**.*
 
@@ -121,4 +122,18 @@ It sits *below* the proven concentration rather than at it, because only 15 g of
 
 ## Cook log
 
-*Pending. Not yet cooked at the time of writing — the 🌽 corn was pressure-cooked ahead and the as-cooked weights, the yield and the 🫛 black-eyed pea hydration ratio are all still to be recorded. Black-eyed peas are not yet in the dry → cooked table in `TECHNIQUES.md`; published figures span 2.5–3×, so a weighed drain here gives this kitchen its own number.*
+**Cooked 2026-10-06 — "a very good soup" (Holger). Ratings pending.**
+
+**As cooked against plan.** 🧅 Onion up to **534 g** from 400; 🥦 broccoli **638 g** (230 g stems, 408 g florets — the florets weighed in the large mixing bowl at 965 g gross less its 557 g tare); 🥬 **175 g of cauliflower added ad hoc**; 🎍 **the bamboo shoots were left out entirely**, with the cauliflower taking the texture role; 🥥 the coconut was a whole 200 ml carton of **Kara Light** rather than 250 g of Ayam classic. Pastes came in slightly under at **12 g HollyFarms + 28 g SOS**. 🌽 corn, 🌰 and 🍜 powders and 🧂 salt as prescribed. **Weighed yield 4553 g** (5420 g gross in the Instant Pot less its 867 g tare).
+
+**The heat question is settled for this direction.** 40 g of combined paste in 4553 g is **0.88 g/100 g**, against the 1.37 that scored 8.45 and the 4.09 that was disqualifying — and no one complained of heat. That does not locate the children's threshold, which remains unmeasured anywhere between 0.88 and 4.09, but it establishes a floor that is definitely safe.
+
+**Two moderators were weaker than planned and it did not matter.** The 🥥 Kara Light carton is 12.6% fat against the Ayam's 20.6%, so the pot carried **25 g of coconut fat against the 51 g planned** — leaner even than the 31 g in the cook that came out too hot. With the paste at a fifth of that cook's concentration, fat was not the lever that mattered.
+
+**What actually made the dish.** Served with 🥒 German pickled cucumbers and 🍋 lemon **only** — the 🥬 kimchi and 🫙 tamarind were deliberately left off. See *Sweet base + pickled vegetable* in `TECHNIQUES.md`: this is the second validated instance of that pattern, after the sweet potato mash of 2026-09-30, and the restraint was part of it. Three assertive condiments compete; two that do different jobs do not.
+
+⚠ **The computed salt is a floor.** Some of the 🫛 black-eyed pea cooking water went in to thin the soup, carrying salt the ingredient list does not capture. Left uncorrected at Holger's call.
+
+⚠ **Still open:** the 🫚 galangal paste panel, so that line is absent from the nutrition entirely (~25 kcal, immaterial, but an omission). The 🫛 black-eyed pea hydration ratio was not recorded, so they are still missing from the dry → cooked table in `TECHNIQUES.md`.
+
+⚠ **The title names an ingredient the dish does not contain.** Bamboo shoots were in the design and not in the pot. Worth renaming before this gets searched for in six months.

@@ -903,6 +903,44 @@ saves as `Soup.foodnoms`; the full stamped name stays as the in-file collection 
 
 ---
 
+## Sweet base + pickled vegetable — a house pattern
+
+**A soft sweet base served with a sharp pickle on the side.** Validated twice, both
+times by accident rather than design, which is the usual sign that something is
+structurally right rather than merely liked:
+
+| Cook | Base | Pickle | Outcome |
+|:--|:--|:--|:--|
+| 2026-09-30 | roasted sweet potato mash | German pickled cucumbers | *"the mash+pickle+baked beans combination worked really well as a base"* — the planned gravy turned out not to be needed at all |
+| 2026-10-06 | corn, galangal and coconut soup | German pickled cucumbers + lemon | *"a very good soup"* |
+
+**Why it works, and it is four things rather than one.** A sweet starchy base — corn,
+sweet potato, squash, parsnip, carrot — has no edges: sweetness and starch both read
+soft, and blending removes what little contrast was left. A pickled vegetable supplies
+everything that base is missing, simultaneously:
+
+1. **Acid**, which cuts the sweetness
+2. **Crunch**, the textural opposite of a blended base
+3. **A concentrated salt spike**, so each mouthful varies instead of the whole pot being salted up
+4. **Aromatics the base lacks** — dill in a German Gewürzgurke is a volatile herbal lift, not just another sharp edge
+
+⚠ **Point 3 is the one with a consequence for the recipe.** Because the pickle carries
+the salt peaks, **the pot can be deliberately under-salted**. The 2026-10-06 soup landed
+at **0.24 g salt per 100 g**, below the 0.28–0.30 band the well-rated dishes sit in, and
+was still judged very good. Do not "correct" a base like this up into the band when a
+pickle is going on the table.
+
+⚠ **Restraint is part of it.** That cook was served with pickles and lemon **only** —
+the kimchi was deliberately dropped. Three assertive condiments compete; two that do
+different jobs (acid-and-crunch, plus aroma) do not.
+
+**The family generalises beyond cucumbers.** From the UK years: **pickled onions** and
+**pickled walnuts** alongside the cucumbers. Pickled walnuts are worth remembering as a
+different tool — malt-vinegar-pickled green walnuts are tannic and deeply savoury rather
+than merely sour, so they suit a base that needs depth rather than lift.
+
+---
+
 ## Recipe iteration philosophy
 
 ### Iteration taxonomy
