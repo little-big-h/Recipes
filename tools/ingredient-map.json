@@ -2829,6 +2829,29 @@
   "secondary": null,
   "source": "label"
  },
+ "local:7C9E4B13-5A26-4F80-B197-3E6C2D8A4F51": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "The SOS Kitchen",
+  "foodID": "local:7C9E4B13-5A26-4F80-B197-3E6C2D8A4F51",
+  "name": "Thai Green Curry Paste (The SOS Kitchen)",
+  "per100": {
+   "calcium": 65.0,
+   "calories": 170.0,
+   "carbs": 16.5,
+   "fat": 11.5,
+   "fatSaturated": 1.0,
+   "fiber": 1.5,
+   "iron": 3.5,
+   "potassium": 380.0,
+   "protein": 3.5,
+   "sodium": 660.0,
+   "sugars": 3.5,
+   "vitaminD": 0.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:7E4A1C96-2B58-4D03-9F27-6C8E5A3B1D04": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
