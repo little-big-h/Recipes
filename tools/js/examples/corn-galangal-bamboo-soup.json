@@ -1,0 +1,19 @@
+{
+  "name": "Corn, Galangal & Bamboo Soup [06-10-26] ✴️",
+  "servings": 5,
+  "ingredients": [
+    { "ref": "Oil (Avocado)", "grams": 5 },
+    { "fdcId": 170000, "grams": 400, "note": "onion, diced" },
+    { "fdcId": 169230, "grams": 30, "note": "garlic, minced" },
+    { "ref": "Tom Yum Koong Paste (Hollyfarms)", "grams": 15, "note": "the last of the jar. Carries lemongrass and kaffir lime, which the yellow paste lacks" },
+    { "ref": "Thai Yellow Curry Paste (The SOS Kitchen)", "grams": 30, "note": "dosed to a combined 1.05 g paste per 100 g, below the 1.37 proven on the 8.45 tom yum soup and far below the 4.09 that was disqualifying" },
+    { "fdcId": 168399, "grams": 1500, "note": "frozen sweetcorn kernels, pressure-cooked ahead. The no-salt-added USDA record - the map entry named Frozen Corn holds calories only and nothing else, and the other map corn carries 117 mg sodium per 100 g, which would be a salted pack" },
+    { "fdcId": 169212, "grams": 200, "note": "bamboo shoots, canned, drained" },
+    { "fdcId": 170379, "grams": 600, "note": "broccoli, stems sliced and florets whole. Goes in after the blend, never blended" },
+    { "ref": "Coconut Milk Classic UHT (Ayam Brand)", "grams": 250, "note": "off the heat. Restored from the 150 g of the previous cook, where the lean pot made the paste read hotter" },
+    { "ref": "Shiitake Powder", "grams": 25, "note": "off the heat" },
+    { "ref": "Kombu Shiitake Dashi Powder, No Bonito", "grams": 10, "note": "off the heat" },
+    { "fdcId": 173468, "grams": 6.5, "note": "salt at the finish. With a low-sodium yellow paste the salt is a deliberate separate step" }
+  ],
+  "foodnoms": { "collectionType": 3, "totalServingSize": 4300 }
+}
