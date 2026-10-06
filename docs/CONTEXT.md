@@ -73,7 +73,8 @@ Behavioural rather than purely sensory at times — patterns can shift. Treat as
 
 ## Equipment
 
-- **Ninja ML750** combined pressure cooker / air fryer (the workhorse — see TECHNIQUES.md for detailed usage rules)
+- ⚠ **The air fryer did not move to Singapore** (Holger, 2026-10-06). The **Ninja ML750** was the UK workhorse and is a combined pressure cooker / air fryer, so losing the air fryer means losing the Ninja. **Do not specify an air-fried step in any recipe written for this kitchen** — wok-charring is the substitute, and the first Singapore cook (tom yum broccoli, 2026-08-10) already records "no air fryer" and the texture gap it left.
+- **The pressure cooker here is an Instant Pot.** Its inner pot tare (867 g) is in `TECHNIQUES.md` and every 2026-09/10 cook references it. ⚠ **The Ninja-specific rules in `TECHNIQUES.md` have not been re-validated against it** — release strategy, pressure levels, the heat-up-time table and the overnight-hold arithmetic were all written for the Ninja. Natural release remains correct practice on any pressure cooker, but the numbers should not be quoted as this kitchen's until someone checks.
 - **Big wok** (carbon steel) for sauté, simmer, finishing
 - **Large pans and pots** for general cooking
 - **Two bamboo steamers** for steaming separate components
