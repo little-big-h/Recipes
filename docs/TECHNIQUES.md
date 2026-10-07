@@ -672,6 +672,29 @@ The vegetarian umami backbone. Kombu (dried kelp) supplies **glutamate**; shiita
 - **Acidity slows vegetable softening** — avoid braising delicate vegetables directly in heavily acidic sauce. Cook veg separately if texture matters.
 - Tomato paste benefits from blooming in hot oil (1 min) before adding liquid — deepens colour and umami.
 
+### Red cabbage — the acid rule inverts
+
+⚠ **Acid is mandatory for red cabbage, and forbidden for green brassicas.** Same family,
+opposite handling, and getting it backwards ruins the dish either way:
+
+| | Pigment | With acid | Without acid |
+|:--|:--|:--|:--|
+| **Green** brassicas (broccoli, sprouts, kai lan) | chlorophyll | → pheophytin, **olive drab** | stays green |
+| **Red cabbage** | anthocyanins | stays **red and bright** | purple, then **blue-grey** in alkaline water |
+
+Anthocyanins are pH indicators. A wok with no acid in it, especially with hard water, turns
+red cabbage a dull blue-grey — the classic failure. German *Rotkohl* is always cooked with
+vinegar and apple for exactly this reason. Chinkiang black vinegar does the same job in a
+Chinese register.
+
+⚠ **It also bleeds.** Anthocyanins leach into everything sharing the pan, so pale
+ingredients — chestnuts, tofu, noodles — come out purple-grey. Cook it on its own, or accept
+the colour across the whole dish. Shredded raw it is a sharp garnish and the colour is a
+feature rather than a hazard.
+
+It stir-fries well otherwise: denser and tougher than green cabbage, so it takes longer and
+stays crunchier, and it is more peppery and less sweet.
+
 ### Bok choi
 
 - Two viable approaches:
