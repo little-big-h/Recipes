@@ -1856,6 +1856,19 @@
   "secondary": null,
   "source": "label"
  },
+ "local:1B5E8C47-3F92-4A61-BD08-5C7E2A9F4D13": {
+  "baseAmount": 1.0,
+  "baseUnit": "serving",
+  "brand": "Nordic Naturals",
+  "foodID": "local:1B5E8C47-3F92-4A61-BD08-5C7E2A9F4D13",
+  "name": "Algae Omega softgel (Nordic Naturals)",
+  "per100": {
+   "calories": 5.0,
+   "fat": 0.5
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:1D392317-7844-41F9-8260-701F147AC6C1": {
   "baseAmount": 100,
   "baseUnit": "milliliter",
