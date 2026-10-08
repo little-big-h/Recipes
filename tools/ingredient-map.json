@@ -2951,6 +2951,24 @@
   "secondary": null,
   "source": "label"
  },
+ "local:8C0D5F31-7B46-4E29-A058-2F9C6D3B1A74": {
+  "barcode": "8888626169248",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Happy Family (CMM)",
+  "foodID": "local:8C0D5F31-7B46-4E29-A058-2F9C6D3B1A74",
+  "name": "Pineapple Tart (Happy Family)",
+  "per100": {
+   "calories": 448.0,
+   "carbs": 70.0,
+   "fat": 17.0,
+   "protein": 4.0,
+   "sodium": 200.0,
+   "sugars": 45.9
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:8C3E6A91-2D75-4F84-B60A-9E1C5B7D4F32": {
   "barcode": "3017800520048",
   "baseAmount": 100.0,
