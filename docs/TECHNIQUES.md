@@ -61,7 +61,16 @@ pot and subtracting its tare.
 |:--|--:|:--|
 | Millet | **3.16×** | 250 g → 792 g (2026-09-19); 300 g → 947 g (2026-09-24) |
 | Brown rice, pressure-cooked | **3.02×** | 205 g → 620 g (2026-09-22) |
+| **Black-eyed peas, stovetop, pulled for bite** | **1.81×** | 100 g → 181 g (2026-10-08). ⚠ **Not a general figure — see the note below.** |
 | Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09; confirmed 2026-09-24, 250 g → 518 g (503 g weighed plus 15 g eaten) |
+
+⚠ **A yield ratio is a hydration figure, so cooking for bite lowers it — a lot.** The
+black-eyed peas above were deliberately pulled while the centre still resisted, and came out
+at **1.81×** against a published 2.5–3× and USDA's own implied **2.90×** (336 kcal/100 g dry
+against 116 cooked, record 173758 vs 173759). That is roughly **40% less water taken up**.
+Do not use this row to forecast a soft-cooked pot; it will under-predict badly. It is the
+*for-bite* figure, and the gap between it and 2.9× is a useful measure of how much doneness
+costs in yield.
 
 ⚠ **Nutrition is computed from the dry weight, never the cooked weight** — the
 water taken up adds no nutrition. The ratio is for predicting **yield** and for
