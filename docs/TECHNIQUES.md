@@ -706,6 +706,27 @@ it all boil off, and only then does searing start.
 Browning costs nothing in umami: shiitake's guanylate is heat-stable, so Maillard is added
 on top rather than traded against it.
 
+**Fresh stems, and why they are not a cold-soak ingredient.** Fresh shiitake stems stay
+woody however long they cook, so they come off the cap — but they are more intensely
+flavoured than the caps and are worth keeping for stock. ⚠ **Cold-soaking them does almost
+nothing.** Dried shiitake is not merely concentrated fresh shiitake: most of its guanylate
+is *created* during drying and rehydration, when ribonuclease reaches the RNA in damaged
+tissue. Fresh tissue holds the RNA and little free 5′-GMP, so a cold soak yields weak
+mushroomy water.
+
+- **Freeze them, then simmer.** Ice crystals rupture the cells — the same mechanism that
+  makes frozen shiitake dump so much water in a pan — so a frozen-and-thawed stem extracts
+  far better than a fresh one. Bag them in the freezer and accumulate until there is enough
+  for a pot. Zero effort.
+- ⚠ **The GMP temperature shape matters more for fresh than for dried.** Fast through
+  40–50 °C where phosphomonoesterase destroys 5′-GMP, then **hold 60–70 °C for 20 minutes**
+  where ribonuclease makes it, and only then let it boil. With dried shiitake the conversion
+  has already happened and the enzymes are dead, so the shape is nearly moot; with fresh
+  stems there is real RNA left to convert and the bring-up either builds the umami or
+  wastes it.
+- Or **dry them** to brittle in a low oven, after which they behave as bought dried
+  shiitake and cold-soaking works normally.
+
 ### Red cabbage — the acid rule inverts
 
 ⚠ **Acid is mandatory for red cabbage, and forbidden for green brassicas.** Same family,
