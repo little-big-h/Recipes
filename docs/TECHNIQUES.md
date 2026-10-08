@@ -672,6 +672,40 @@ The vegetarian umami backbone. Kombu (dried kelp) supplies **glutamate**; shiita
 - **Acidity slows vegetable softening** — avoid braising delicate vegetables directly in heavily acidic sauce. Cook veg separately if texture matters.
 - Tomato paste benefits from blooming in hot oil (1 min) before adding liquid — deepens colour and umami.
 
+### Shiitake — browning, and why the soy marinade is wrong
+
+A mushroom is ~90% water in a chitin cell wall, and cooking runs in three phases:
+**water released → water evaporated → browning begins.** Nothing colours until the surface
+is dry, and that single fact decides every choice below.
+
+⚠ **Do not marinate in soy before cooking.** It is widely recommended and it defeats itself
+three ways. Soy is ~17% salt in solution, so it **draws still more water out** by osmosis;
+it adds liquid that must then boil off before browning can start; and its sugars and amino
+acids **scorch** at roasting temperature long before the mushroom is cooked. ⚠ Mushrooms are
+also sponges and will drink a lot of a 17%-salt liquid — a real hit to the salt budget for a
+side dish. **Cook first, season after:** soy goes on in the last two or three minutes, where
+it glazes rather than steams. Salt likewise.
+
+⚠ **Go in dry or barely oiled.** Raw mushrooms absorb oil greedily and release it again once
+the walls collapse, so oiling at the start wastes it and leaves them greasy. Dry-roast until
+the water has gone and colour starts, *then* toss with oil. This matters here, where dishes
+run on 2–5 g of oil.
+
+| Method | When | Settings |
+|:--|:--|:--|
+| **Oven** | family quantity, side dish | **220 °C, single layer, gills up, 20–25 min**, turn once |
+| **Wok** | stir-fry component, or anything frozen | highest heat, in batches of ~200 g |
+
+⚠ **Crowding is the usual failure, in either method.** Trapped steam gives grey and rubbery
+instead of brown. Two trays beat one full one.
+
+⚠ **Frozen shiitake dumps far more water than fresh** — ice crystals rupture the cells — so
+the wok is the better tool for it: straight from frozen into a hot dry pan, spread out, let
+it all boil off, and only then does searing start.
+
+Browning costs nothing in umami: shiitake's guanylate is heat-stable, so Maillard is added
+on top rather than traded against it.
+
 ### Red cabbage — the acid rule inverts
 
 ⚠ **Acid is mandatory for red cabbage, and forbidden for green brassicas.** Same family,
