@@ -108,6 +108,11 @@ The UK list carried lemongrass paste, galangal paste and dried ginger *because t
 - ❓ Tinned beans (kidney, butter, chickpea) for shortcut variants.
 - ❓ Rice — long-grain default. ❓ Amaranth · ❓ kasha.
 - 🛒 **Israeli couscous** and the **3 Glocken alphabet noodles** were UK/European buys; assume gone until replaced. The alphabet noodles in particular were a kid-specific item worth finding an equivalent for.
+- ✅ **Sweet potato hotpot noodles — 筷手小厨 (Kuai Shou Xiao Chu) 火锅苕皮, "Sweet Potato Noodles"** (200 g pack, barcode `6975742470654`, Yihai International, made in Tianjin). Wide translucent **sheets** (苕皮), not threads — the English name is loose. Ingredients: sweet potato starch (53%), water, salt, natural flavouring. Per 100 g: **203 kcal, 0 g protein, 0 g fat, 49.9 g carb (2.4 g sugars), sodium 47 mg**. Vegetarian. Atwater lands 199.6 against 203 declared, which is rounding. **Pack total: 406 kcal, 100 g carbohydrate, 0.24 g salt.**
+  - **These are pre-hydrated, not dry.** 53% starch against 47% water, so 203 kcal/100 g rather than the ~350 of a dry starch noodle. ⚠ **There is no dry-to-cooked ratio to apply** — log the pack weight. They take up some broth in the pot but nothing like a dried noodle.
+  - ⚠ **The panel contradicts itself on sodium.** Serving size is 100 g and every other row is identical across the two columns, but sodium reads **47.0 mg per serving against 11.0 mg per 100 g**. One is a typo and the label gives no way to tell which. The map entry carries **47.0**, the higher figure, so sodium is not understated. The whole pack is 0.24 g salt either way against 0.06 g, which is below the noise floor of any meal it appears in.
+  - Cooks in **5–8 min** in the pot. Pack also suggests stir-fry and a boiled-then-dressed cold salad.
+  - Micros are **scaled from USDA cornstarch (169698)** by the carbohydrate ratio 49.9/91.27 — a purified starch carries almost nothing, and the result is 1–7 mg of each mineral per 100 g. Method flagged in the map as `label+est-micros`. Vitamins are omitted rather than written as zeros, to keep the endpoint URL short.
 
 ### Protein
 
