@@ -161,6 +161,7 @@ needs all of it.
 
 | Vegetable | Cut | Power | Phase 1 | → soup / hotpot | → wok | → ready to eat |
 |:--|:--|:--:|--:|--:|--:|--:|
+| 🌿 Chrysanthemum greens | whole | 100% | 40 s | 0:50 | 1:00 | 1:10 |
 | 🥬 Bok choi | halved | 100% | 40 s | 0:50 | 1:05 | 1:20 |
 | 🥬 Napa cabbage | 3 cm | 100% | 40 s | 0:55 | 1:15 | 1:30 |
 | 🥦 Broccoli florets | — | 100% | 40 s | 1:05 | 1:30 | 2:00 |
@@ -203,8 +204,15 @@ of the cook on dense items and these times assume it is taken.
 which leaches minerals and softens the surface. The water left on washed vegetables plus a
 splash is enough; the lid retains the steam that this produces.
 
-⚠ **Mushrooms are deliberately absent.** Microwaving dumps their water and leaves them grey
-and rubbery. They want dry heat — see the shiitake entry.
+⚠ **Mushrooms are deliberately absent.** Microwaving releases their water and the result is
+grey and rubbery. They require dry heat — see the shiitake entry.
+
+⚠ **Chrysanthemum greens (茼蒿 / tong ho) do not need this step for a hotpot.** They wilt in
+20–30 s in simmering broth, so put them in raw at the end. The row is there for the wok and
+ready-to-eat cases. ⚠ Phase 2 is only 30 s, which means the microwave is almost all phase 1
+— the margin between cooked and overcooked is 20 s, so take them out while the stems still
+have resistance. Thin stems and tender leaves, so no cut is needed beyond separating the
+bunch.
 
 ⚠ **Phase 2 figures are estimates, not measurements** — unlike the other tables in this
 file. Phase 1 is arithmetic and can be trusted. If a row is consistently wrong for this
