@@ -63,6 +63,7 @@ This file is read automatically at session start. **For full project context, re
 - Push back when reasoning has gaps — the user values being challenged.
 - Specific over vague.
 - Ask clarifying questions when uncertain rather than guessing.
+- **No figurative speech.** No metaphor, no idiom, no personification — in chat or in the repo files. Say the mechanism literally. ("The table should move" meant *the numbers should change when the power changes*; writing it figuratively hid the fact that they didn't.) Holger, emphatic and repeated.
 
 ## Open questions / deferred decisions
 

@@ -142,62 +142,73 @@ written down. If it changes the mass, ask.
 ## Microwave pre-cooking table
 
 The standing method here: vegetables are pre-cooked in the microwave, then finished in a
-wok, a soup or a hotpot. These are **starting points to calibrate, not measurements** — real
-microwaves vary a lot in field pattern and in actual against rated power.
+wok, a soup or a hotpot. Times are **per 100 g, covered, with about a tablespoon of water**,
+in a **900 W output** oven (1600 W input).
 
-All times **per 100 g, covered, with about a tablespoon of water**, in a **900 W output**
-oven.
+**The model has two phases, and only the first depends on power.**
 
-| Vegetable | Cut | Power | → soup / hotpot | → wok | → ready to eat |
-|:--|:--|:--:|--:|--:|--:|
-| 🥦 Broccoli florets | — | 100% | 1:00 | 1:30 | 2:00 |
-| 🥦 Broccoli stems | 3–4 mm | 100% | 1:15 | 1:50 | 2:30 |
-| 🥬 Cauliflower | florets | 100% | 1:15 | 2:00 | 2:30 |
-| 🥕 Carrot | 2–3 mm | 100% | 1:15 | 2:00 | 2:45 |
-| 🪷 Lotus root | 3 mm | 100% | 1:00 | 1:45 | 2:30 |
-| 🥬 Napa cabbage | 3 cm | 100% | 0:45 | 1:00 | 1:30 |
-| 🥬 Bok choi | halved | 100% | 0:40 | 1:00 | 1:20 |
-| 🫛 Green beans | whole | 100% | 1:15 | 1:45 | 2:15 |
-| 🥬 Brussels sprouts | halved | **80%** | 1:30 | 2:15 | 3:00 |
-| 🎃 Butternut | 2 cm | **80%** | 1:45 | 2:30 | 3:30 |
-| 🍠 Sweet potato | 2 cm | **70%** | 2:00 | 3:00 | 4:30 |
-| 🥔 Potato | 2 cm | **70%** | 2:15 | 3:15 | 5:00 |
-| 🌽 Corn, frozen | kernels | 100% | 1:00 | 1:30 | 2:00 |
+- **Phase 1 — reaching 100 °C.** A fixed energy cost: 100 g of vegetable is ~90 g of water
+  needing **~31 kJ**. At 900 W output that is **~40 s**. ⚠ Reduced power lengthens this
+  proportionally — **50 s at 80%, 57 s at 70%**. ⚠ Anything **frozen** must also pay the
+  latent heat of fusion, ~30 kJ per 100 g, which roughly doubles it to **~88 s**.
+- **Phase 2 — holding at 100 °C** while pectin solubilises and heat conducts inward.
+  ⚠ **This does not scale with power.** Once the food is boiling, extra watts evaporate
+  water rather than raising temperature. Phase 2 is a property of the vegetable and the cut.
 
-**Scaling is linear between about 100 g and 400 g, and only there.** 100 g of vegetable is
-~90 g of water needing roughly **31 kJ** to reach boiling. At **900 W output** that is ~35 s
-of emitted energy, and coupling into a well-loaded cavity is high — the food is the only
-lossy thing in there — so call it **~40 seconds to reach temperature**, with the cooking on
-top. That overhead is a third of a two-minute cook, which is what makes the middle of the
-range scale.
+The three target columns are **30%, 65% and 100% of phase 2**, added to phase 1 — a soup or
+hotpot finishes the job over several minutes, a wok over two or three, and ready-to-eat
+needs all of it.
+
+| Vegetable | Cut | Power | Phase 1 | → soup / hotpot | → wok | → ready to eat |
+|:--|:--|:--:|--:|--:|--:|--:|
+| 🥬 Bok choi | halved | 100% | 40 s | 0:50 | 1:05 | 1:20 |
+| 🥬 Napa cabbage | 3 cm | 100% | 40 s | 0:55 | 1:15 | 1:30 |
+| 🥦 Broccoli florets | — | 100% | 40 s | 1:05 | 1:30 | 2:00 |
+| 🌽 Corn, frozen | kernels | 100% | 88 s | 1:50 | 2:20 | 2:50 |
+| 🫛 Green beans | whole | 100% | 40 s | 1:10 | 1:40 | 2:15 |
+| 🥦 Broccoli stems | 3–4 mm | 100% | 40 s | 1:15 | 1:50 | 2:30 |
+| 🥬 Cauliflower | florets | 100% | 40 s | 1:15 | 1:50 | 2:30 |
+| 🪷 Lotus root | 3 mm | 100% | 40 s | 1:15 | 1:50 | 2:30 |
+| 🥕 Carrot | 2–3 mm | 100% | 40 s | 1:20 | 2:00 | 2:45 |
+| 🥬 Brussels sprouts | halved | **80%** | 50 s | 1:30 | 2:20 | 3:10 |
+| 🎃 Butternut | 2 cm | **80%** | 50 s | 1:40 | 2:40 | 3:40 |
+| 🍠 Sweet potato | 2 cm | **70%** | 57 s | 2:05 | 3:20 | 4:35 |
+| 🥔 Potato | 2 cm | **70%** | 57 s | 2:10 | 3:40 | 5:05 |
+
+⚠ **Why the dense items drop to 70–80%, given phase 2 is power-independent.** Lowering the
+power costs nothing on the part of the cook that is limited by conduction to the centre,
+and it boils off less surface water while that conduction happens. At full power a sweet
+potato cube is mush outside before the middle is done. The penalty is only the longer
+phase 1 — 10 s at 80%, 17 s at 70%.
 
 ⚠ **Do not apply a second efficiency to the output rating.** This oven is **1600 W in for
 900 W out**, about 56%, and that loss is the magnetron's — it is *already* inside the 900 W
-figure. Discounting the output again by 60–70% was the mistake made when this table was
-first written, and it overstates every time-to-temperature by roughly half. Output is
-delivered power. Input is only useful for the electricity bill.
+figure. Discounting the output again by 60–70% was the error in the first version of this
+table and it overstates phase 1 by roughly half. Output is delivered power. Input is for
+the electricity bill.
 
-- ⚠ **Below ~80 g it breaks**: too little mass to absorb the field evenly, so edges scorch
-  while the centre stays cold. Drop to 70% and watch it.
-- ⚠ **Above ~400 g it breaks harder**, and this is the one that catches people. **Microwave
-  penetration is only 2–3 cm**, so the centre of a large pile heats by *conduction* from the
-  outside rather than by the field. 600 g takes **more** than 6× the 100 g time — stir at
-  halfway and add **15–20%** over the linear figure.
+**Scaling is linear between about 100 g and 400 g, and only there.**
 
-⚠ **Why the dense items drop to 70–80%.** On starchy roots the limiting step is conduction
-inward, not absorption. At full power the outside is mush before the centre is done; at
-lower power the heat has time to equalise. Watery, open-structured vegetables have no such
-problem and want full power.
+- ⚠ **Below ~80 g**: too little mass to absorb the field evenly, so edges scorch while the
+  centre stays cold. Drop to 70% and watch it.
+- ⚠ **Above ~400 g** the linear rule fails: **microwave penetration is
+  only 2–3 cm**, so the centre of a large pile heats by *conduction* from the outside rather
+  than by the field. 600 g takes **more** than 6× the 100 g time — stir at halfway and add
+  **15–20%** over the linear figure.
 
 ⚠ **Add 1–2 minutes standing, covered, to anything run at 70–80%.** Carryover is a real part
-of the cook on dense items and the table assumes it is taken.
+of the cook on dense items and these times assume it is taken.
 
-⚠ **A tablespoon of water, not more.** Past that it is boiling rather than steaming —
-leaching and mush. The water clinging to washed vegetables plus a splash is right, and the
-lid does the rest.
+⚠ **A tablespoon of water, not more.** Past that the vegetable boils rather than steams,
+which leaches minerals and softens the surface. The water left on washed vegetables plus a
+splash is enough; the lid retains the steam that this produces.
 
 ⚠ **Mushrooms are deliberately absent.** Microwaving dumps their water and leaves them grey
 and rubbery. They want dry heat — see the shiitake entry.
+
+⚠ **Phase 2 figures are estimates, not measurements** — unlike the other tables in this
+file. Phase 1 is arithmetic and can be trusted. If a row is consistently wrong for this
+oven, correct the phase 2 value and the three columns follow.
 
 ---
 
