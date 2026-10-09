@@ -165,10 +165,17 @@ oven.
 | 🌽 Corn, frozen | kernels | 100% | 1:00 | 1:30 | 2:00 |
 
 **Scaling is linear between about 100 g and 400 g, and only there.** 100 g of vegetable is
-~90 g of water needing roughly **31 kJ** to reach boiling; a 900 W oven couples perhaps
-60–70% of that into the food, so around **50–60 seconds goes on simply reaching
-temperature** and the cooking sits on top. The fixed overhead is small against the cook,
-which is what makes the middle of the range scale.
+~90 g of water needing roughly **31 kJ** to reach boiling. At **900 W output** that is ~35 s
+of emitted energy, and coupling into a well-loaded cavity is high — the food is the only
+lossy thing in there — so call it **~40 seconds to reach temperature**, with the cooking on
+top. That overhead is a third of a two-minute cook, which is what makes the middle of the
+range scale.
+
+⚠ **Do not apply a second efficiency to the output rating.** This oven is **1600 W in for
+900 W out**, about 56%, and that loss is the magnetron's — it is *already* inside the 900 W
+figure. Discounting the output again by 60–70% was the mistake made when this table was
+first written, and it overstates every time-to-temperature by roughly half. Output is
+delivered power. Input is only useful for the electricity bill.
 
 - ⚠ **Below ~80 g it breaks**: too little mass to absorb the field evenly, so edges scorch
   while the centre stays cold. Drop to 70% and watch it.
