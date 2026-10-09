@@ -3071,6 +3071,25 @@
   "secondary": null,
   "source": "label"
  },
+ "local:9C2F7A48-6E13-4B95-8D27-3A0F5C8E1B46": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Shi Er Guo (Wang Pin Group)",
+  "foodID": "local:9C2F7A48-6E13-4B95-8D27-3A0F5C8E1B46",
+  "name": "Vegetarian Mushroom Hot Pot Broth (Shi Er Guo)",
+  "per100": {
+   "calories": 32.6,
+   "carbs": 4.2,
+   "fat": 1.4,
+   "fatSaturated": 0.2,
+   "fatTrans": 0.0,
+   "protein": 0.8,
+   "sodium": 701.0,
+   "sugars": 0.5
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:9E6D3B71-4A28-4C50-BF19-2D7A5E8C0364": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
