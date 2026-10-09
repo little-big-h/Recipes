@@ -139,6 +139,61 @@ written down. If it changes the mass, ask.
 
 ---
 
+## Microwave pre-cooking table
+
+The standing method here: vegetables are pre-cooked in the microwave, then finished in a
+wok, a soup or a hotpot. These are **starting points to calibrate, not measurements** — real
+microwaves vary a lot in field pattern and in actual against rated power.
+
+All times **per 100 g, covered, with about a tablespoon of water**, in a **900 W output**
+oven.
+
+| Vegetable | Cut | Power | → soup / hotpot | → wok | → ready to eat |
+|:--|:--|:--:|--:|--:|--:|
+| 🥦 Broccoli florets | — | 100% | 1:00 | 1:30 | 2:00 |
+| 🥦 Broccoli stems | 3–4 mm | 100% | 1:15 | 1:50 | 2:30 |
+| 🥬 Cauliflower | florets | 100% | 1:15 | 2:00 | 2:30 |
+| 🥕 Carrot | 2–3 mm | 100% | 1:15 | 2:00 | 2:45 |
+| 🪷 Lotus root | 3 mm | 100% | 1:00 | 1:45 | 2:30 |
+| 🥬 Napa cabbage | 3 cm | 100% | 0:45 | 1:00 | 1:30 |
+| 🥬 Bok choi | halved | 100% | 0:40 | 1:00 | 1:20 |
+| 🫛 Green beans | whole | 100% | 1:15 | 1:45 | 2:15 |
+| 🥬 Brussels sprouts | halved | **80%** | 1:30 | 2:15 | 3:00 |
+| 🎃 Butternut | 2 cm | **80%** | 1:45 | 2:30 | 3:30 |
+| 🍠 Sweet potato | 2 cm | **70%** | 2:00 | 3:00 | 4:30 |
+| 🥔 Potato | 2 cm | **70%** | 2:15 | 3:15 | 5:00 |
+| 🌽 Corn, frozen | kernels | 100% | 1:00 | 1:30 | 2:00 |
+
+**Scaling is linear between about 100 g and 400 g, and only there.** 100 g of vegetable is
+~90 g of water needing roughly **31 kJ** to reach boiling; a 900 W oven couples perhaps
+60–70% of that into the food, so around **50–60 seconds goes on simply reaching
+temperature** and the cooking sits on top. The fixed overhead is small against the cook,
+which is what makes the middle of the range scale.
+
+- ⚠ **Below ~80 g it breaks**: too little mass to absorb the field evenly, so edges scorch
+  while the centre stays cold. Drop to 70% and watch it.
+- ⚠ **Above ~400 g it breaks harder**, and this is the one that catches people. **Microwave
+  penetration is only 2–3 cm**, so the centre of a large pile heats by *conduction* from the
+  outside rather than by the field. 600 g takes **more** than 6× the 100 g time — stir at
+  halfway and add **15–20%** over the linear figure.
+
+⚠ **Why the dense items drop to 70–80%.** On starchy roots the limiting step is conduction
+inward, not absorption. At full power the outside is mush before the centre is done; at
+lower power the heat has time to equalise. Watery, open-structured vegetables have no such
+problem and want full power.
+
+⚠ **Add 1–2 minutes standing, covered, to anything run at 70–80%.** Carryover is a real part
+of the cook on dense items and the table assumes it is taken.
+
+⚠ **A tablespoon of water, not more.** Past that it is boiling rather than steaming —
+leaching and mush. The water clinging to washed vegetables plus a splash is right, and the
+lid does the rest.
+
+⚠ **Mushrooms are deliberately absent.** Microwaving dumps their water and leaves them grey
+and rubbery. They want dry heat — see the shiitake entry.
+
+---
+
 ## Cooking losses (measured here)
 
 Input weight less yield, same scale, tare subtracted. For forecasting a yield, and
