@@ -529,7 +529,18 @@ ground to order.
 *Birke*, birch (Holger's reading — Upper German devoicing of the initial b). So it is the
 Pirk blend. Whole **cumin + fennel + Sichuan peppercorn** living in the grey pod, ground
 directly over the food. Ratio **cumin 3 : fennel 2 : Sichuan peppercorn 1**. **First batch
-made 2026-10-04**, 30 g — tasting notes and any ratio correction still to come. Not logged:
+made 2026-10-04**, 30 g — no ratio correction wanted, so the ratio is now settled.
+
+**Consumption: the 30 g batch lasted six days** (2026-10-04 → 10-10), about **5 g a day**
+across the family. ⚠ **That makes batch size, not shelf life, the thing to get right.** At
+5 g/day a 30 g batch is gone in under a week while the 3–4 week toasted-keeping window is
+barely touched, so the grinding and toasting is being repeated four times more often than it
+needs to be. **Make 60 g** — twelve days, still half the window, and it halves the sessions.
+⚠ Do not take it to the limit of the window: 140 g would in principle last 28 days, but the
+last of it would be at the end of its life on the day it is used. ⚠ Check whether the pod
+holds a 60 g batch before committing to it — if it does not, the surplus keeps as **whole
+toasted seed** in a sealed dark jar, which is fine. What must never be stored is the blend
+*ground*. Not logged:
 at the gram or two actually sprinkled it is nutritionally nothing, so there is no food
 definition for it and none is wanted. No jar, nothing pre-ground, best aroma, and **no clove or
 chilli** — they are simply not part of this product. Shift fennel up for squash and sweet
