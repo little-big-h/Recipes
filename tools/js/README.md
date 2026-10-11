@@ -249,6 +249,51 @@ Until step 3, `buildFoodNomsUrl` emits the v7 form. Opt in per call with
 `{"foodnoms": {"endpointVersion": 8}}` in the recipe JSON; raise the default in
 `lib/foodnoms-url.js` once the probe returns 8.
 
+## Live v6 constraints on multi-ingredient URLs (measured 2026-10-11)
+
+The deployed object reports **v6**, so `buildFoodNomsUrl` takes the `else` branch
+and emits a ragged `customNutrientNames` instead of the v8 `nutrientNameSets`
+interning. The v6 interpreter imposes three constraints the v8 draft does not.
+All three were measured against the live endpoint, not inferred.
+
+**1. The nutrient matrix is sized from the first ingredient.** A later row may be
+*narrower* than the first; a later row that is *wider* fails with
+`"Enter data in the required shape."` and HTTP 400. Measured:
+
+| First row | Later row | Result |
+|:--|:--|:--|
+| 2 nutrients | 2 nutrients | 200 |
+| 2 nutrients | 1 nutrient | 200, and the narrow entry decodes correctly |
+| 1 nutrient | 2 nutrients | **400** |
+
+⚠ So a multi-ingredient recipe only reaches the endpoint if **the ingredient with
+the longest nutrient list is listed first**. Reordering the spec is enough, and
+entry order in a `.foodnoms` collection is cosmetic.
+
+**2. A sparse optional column must have no empty cell that the parser can swallow.**
+`customNotes`, `customBrands` and `customBarcodes` are rejected with
+`"<column> must be empty or the same length as the custom* arrays"` when some but
+not all ingredients fill them. Give **every** ingredient a note, or none. Brands
+and barcodes cannot be filled that way without inventing them, so **a recipe whose
+ingredients have mixed brand coverage cannot be cross-checked on v6 at all** —
+Anja's stir-fry sauce is the standing example.
+
+**3. There is a real URL ceiling, but it is much higher than these failures.**
+Bisected at **3191 characters OK, 3197 failing**, and it returns **414**, not 400.
+⚠ **Do not read a 400 as "too long".** The 18-ingredient stir-fry at ~7000 chars
+is the only genuine 414 seen so far.
+
+⚠ **`build` reports every one of these as "endpoint unreachable".** That is wrong
+and it is the dangerous kind of wrong: per `CLAUDE.md` an unreachable endpoint
+means "ship the file, say it was not cross-checked", whereas all three faults
+above are fixable in seconds. **`build` should distinguish 400 (our URL is
+malformed for this endpoint version), 414 (genuinely too long) and a transport
+failure (actually unreachable), and print the endpoint's own `Failure` string,
+which names the offending field.** Not yet done.
+
+Deploying v8 removes constraints 1 and 2 — the set-interning sends each distinct
+nutrient list once and references it by id, so raggedness stops being expressible.
+
 ## Known gaps
 
 **⚠ Nothing here has been validated against the live endpoint.** Wolfram Cloud
