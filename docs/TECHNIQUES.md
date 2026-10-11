@@ -227,6 +227,7 @@ for portioning a finished dish.
 
 | Method | Loss | Measurements |
 |:--|--:|:--|
+| **Microwaved only, covered, ~1 tbsp water** | **~1–2%** | broccoli 1.4% (2026-10-11, 350 g → 345 g) |
 | Roasted root / squash, ~1 g oil per 100 g | **~16%** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g) |
 | Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
 | **Stir-fried from raw to tender** | **~20%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g) |
@@ -246,6 +247,18 @@ run to a fixed doneness.
 ⚠ **Steaming first is not a gentler stir-fry — it changes the loss by about a third.** Pick
 the row by whether the vegetable hit the wok raw, and treat the two as separate methods
 rather than a range.
+
+⚠ **Almost none of the microwave-then-wok loss happens in the microwave.** Broccoli
+microwaved and nothing else came out at **1.4%** (2026-10-11), against 13.9% and 15.6% for
+the same vegetable microwaved and then briefly fried. So **12–14 of those 14–16 points are
+the wok**, not the pre-cook. Two consequences:
+
+- **A microwaved vegetable can be weighed as raw** for most purposes. At 1.4% the step is
+  inside scale noise on a 100 g portion, and nothing meaningful leaches out either — which
+  is the measured justification for the one-tablespoon rule in the microwave table above.
+- **Pre-cooking saves about 5 points of yield** (≈20% raw-to-tender against ≈15% via the
+  microwave), and it saves them by shortening the time in the pan, not by being gentler in
+  itself. The vegetable still loses its water in the wok — there is just less wok.
 
 Same oven, same oil coat, seeds out before the scale — see the prep conventions
 above, which is what makes these comparable at all.
