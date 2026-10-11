@@ -3050,6 +3050,33 @@
   "secondary": null,
   "source": "label"
  },
+ "local:8A3E6C19-4D72-4B05-9F38-2C7A1E5D6B40": {
+  "barcode": "4711931026309",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Royal Family",
+  "foodID": "local:8A3E6C19-4D72-4B05-9F38-2C7A1E5D6B40",
+  "name": "Matcha Mochi, red bean filled (Royal Family)",
+  "per100": {
+   "caffeine": 140.0,
+   "calcium": 6.7,
+   "calories": 345.0,
+   "carbs": 75.7,
+   "cholesterol": 0.0,
+   "fat": 3.9,
+   "fatSaturated": 2.2,
+   "fatTrans": 0.0,
+   "fiber": 3.3,
+   "iron": 0.0,
+   "potassium": 50.0,
+   "protein": 1.7,
+   "sodium": 16.0,
+   "sugars": 37.9,
+   "vitaminD": 0.0
+  },
+  "secondary": "label+matcha-caffeine-est",
+  "source": "label"
+ },
  "local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9": {
   "barcode": "4002239604307",
   "baseAmount": 100,
