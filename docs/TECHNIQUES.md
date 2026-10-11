@@ -13,7 +13,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Instant Pot inner pot | **867 g** | 2026-08-27 |
 | IKEA 5 L | **1208 g** | 2026-09-20 |
 | IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
-| IKEA 3 L | ⚠ **900 g — ASSUMED, NOT WEIGHED** | 2026-10-11 |
+| IKEA 3 L | **995 g** | 2026-10-11 |
 | Large mixing bowl | **557 g** | 2026-09-30 |
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
 
@@ -46,27 +46,26 @@ yield recorded on 2026-09-19 (1527 g gross → 792 g) is therefore 8 g heavy;
 at 250 g dry that moves the dry-to-cooked ratio from 3.17× to 3.14×, which
 changes nothing worth restating.
 
-⚠⚠ **The IKEA 3 L row is a placeholder and Holger authorised it as one** (2026-10-11,
-"assume something reasonable, I will provide it when it is empty"). **900 g** is the midpoint
-of two fits across the measured 2 L and 5 L: linear in volume gives 898 g, and a fit in
-V^(2/3) — the way pot mass scales if the pots were geometrically similar — gives 914 g. It
-is a round number deliberately, so that it reads as an estimate.
+⚠ **The IKEA 3 L was briefly carried here as an assumed 900 g, and the assumption was
+wrong by 95 g.** It was interpolated from the measured 2 L and 5 L — linear in volume gives
+898 g, a fit in V^(2/3) gives 914 g — and the pot weighed **995 g**, above both. **The
+interpolation was not merely imprecise, it was outside the range the two fits bracketed.**
+These pots are not a geometric series and should not be treated as one. Weigh each.
 
-⚠ **Nothing derived from it survives re-weighing.** Anja's 2026-10-11 carrot mix is the
-first yield to use it, at 1522 g gross → 622 g, and the arithmetic is violently sensitive:
+⚠ **A tare error is amplified in the yield it produces, and badly.** Anja's 2026-10-11
+carrot mix was 1522 g gross. The net is only ~35% of that, so the error does not pass
+through at face value — it is magnified by roughly 2.9×:
 
-| If the 3 L tare is | Carrot mix | vs 608 g input |
-|--:|--:|--:|
-| 880 g | 642 g | **+5.6%** |
-| **900 g (assumed)** | **622 g** | **+2.3%** |
-| 920 g | 602 g | −1.0% |
-| 1000 g | 522 g | −14.1% |
-| 1035 g | 487 g | −19.9% |
+| | Tare | Carrot mix | Loss vs 608 g in |
+|:--|--:|--:|--:|
+| Assumed | 900 g | 622 g | **+2.3%, a gain** |
+| **Weighed** | **995 g** | **527 g** | **−13.3%** |
 
-A 155 g span in the tare moves the component between gaining 6% and losing 20%, so the
-carrot mix contributes no loss figure to the table below until the pot is on the scale.
+A **9.5%** error in the tare became an **18%** error in the yield, and flipped the component
+from apparently gaining weight to losing a normal amount. Anything computed against a
+provisional tare has to be rebuilt when the real one arrives, not adjusted.
 
-All other rows are identified and weighed.
+All rows are identified and weighed.
 
 *(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
 
@@ -253,6 +252,7 @@ for portioning a finished dish.
 | Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
 | **Stir-fried from raw to tender** | **~20%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g) |
 | **Stir-fried from raw, flash only** | **~8%** | bean sprouts 8.5% (2026-10-04, 212 g → 194 g) |
+| **Stir-fried from raw, mixed dwell in one pan** | **~13%** | carrot + bean sprout + aromatics 13.3% (2026-10-11, 608 g → 527 g) |
 
 ⚠ **Stir-frying has no single loss figure — dwell time dominates.** This was briefly
 recorded here as "~20%, a property of the method", on the strength of a brassica and a dense
@@ -264,6 +264,13 @@ mode. Same pan, same oil, same technique — the difference is how long it sat t
 **So a stir-fry yield cannot be forecast from the method alone.** Ask how long it was in the
 pan, or weigh it. The roasting and steaming rows are better behaved because those methods
 run to a fixed doneness.
+
+**A mixed pan lands between its components, and roughly where the weighting predicts.**
+Anja's carrot mix is 328 g carrot (a to-tender vegetable, ~20%), 225 g bean sprouts (a
+flash vegetable, ~8.5%) and 51 g of garlic and ginger. Weighting the rows above by mass
+forecasts ~15%; it measured **13.3%**, a little under, which is what going in late buys the
+sprouts. ⚠ **This row is not a method, it is one recipe's mixture.** Do not apply 13% to
+another mixed stir-fry — reconstruct it from the component rows and the mass split.
 
 ⚠ **Steaming first is not a gentler stir-fry — it changes the loss by about a third.** Pick
 the row by whether the vegetable hit the wok raw, and treat the two as separate methods
