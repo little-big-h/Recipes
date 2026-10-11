@@ -294,6 +294,21 @@ which names the offending field.** Not yet done.
 Deploying v8 removes constraints 1 and 2 — the set-interning sends each distinct
 nutrient list once and references it by id, so raggedness stops being expressible.
 
+**4. Round inline per-100 g values to 6 significant figures, or the generated
+`foodID` forks.** For an inline-`nutrients` food, `foodIDfor` hashes
+`name | brand | calories`. Wolfram stringifies numbers at **6 significant figures**
+by default, so a calories value needing more digits produces a different seed on
+each side and the cross-check reports a `foodID` mismatch while the totals agree.
+Measured on the 2026-10-11 plate: three entries matched at 50.3505, 31.4286 and
+39.5652 kcal; two forked at **177.8408** and **109.2863**, which are 7 significant
+figures. Rounding every value with `Number(x).toPrecision(6)` turned the build from
+`✗ DIFFERS` into **`✓ equivalent`**.
+
+⚠ This is cosmetic — a `foodID` is an identity key and the nutrition was never
+wrong — but it is worth doing, because a cross-check that cries wolf on identity
+keys is a cross-check nobody reads. ⚠ It also only bites **inline** foods: a map
+entry or a USDA record carries its own id and never reaches the hash.
+
 ## Known gaps
 
 **⚠ Nothing here has been validated against the live endpoint.** Wolfram Cloud
