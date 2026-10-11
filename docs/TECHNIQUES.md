@@ -13,6 +13,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Instant Pot inner pot | **867 g** | 2026-08-27 |
 | IKEA 5 L | **1208 g** | 2026-09-20 |
 | IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
+| IKEA 3 L | ⚠ **900 g — ASSUMED, NOT WEIGHED** | 2026-10-11 |
 | Large mixing bowl | **557 g** | 2026-09-30 |
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
 
@@ -45,7 +46,27 @@ yield recorded on 2026-09-19 (1527 g gross → 792 g) is therefore 8 g heavy;
 at 250 g dry that moves the dry-to-cooked ratio from 3.17× to 3.14×, which
 changes nothing worth restating.
 
-All rows are now identified by vessel.
+⚠⚠ **The IKEA 3 L row is a placeholder and Holger authorised it as one** (2026-10-11,
+"assume something reasonable, I will provide it when it is empty"). **900 g** is the midpoint
+of two fits across the measured 2 L and 5 L: linear in volume gives 898 g, and a fit in
+V^(2/3) — the way pot mass scales if the pots were geometrically similar — gives 914 g. It
+is a round number deliberately, so that it reads as an estimate.
+
+⚠ **Nothing derived from it survives re-weighing.** Anja's 2026-10-11 carrot mix is the
+first yield to use it, at 1522 g gross → 622 g, and the arithmetic is violently sensitive:
+
+| If the 3 L tare is | Carrot mix | vs 608 g input |
+|--:|--:|--:|
+| 880 g | 642 g | **+5.6%** |
+| **900 g (assumed)** | **622 g** | **+2.3%** |
+| 920 g | 602 g | −1.0% |
+| 1000 g | 522 g | −14.1% |
+| 1035 g | 487 g | −19.9% |
+
+A 155 g span in the tare moves the component between gaining 6% and losing 20%, so the
+carrot mix contributes no loss figure to the table below until the pot is on the scale.
+
+All other rows are identified and weighed.
 
 *(Distinct from the meal-log method in `MEAL_LOGGING.md`, which uses before − after so the vessel cancels and no tare is needed. Tares are for **yields**; differences are for **portions**.)*
 

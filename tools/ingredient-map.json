@@ -2928,6 +2928,37 @@
   "secondary": null,
   "source": "label"
  },
+ "local:7B3F6A29-5D84-4C10-9E62-1A8D4F7C3B05": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "foodID": "local:7B3F6A29-5D84-4C10-9E62-1A8D4F7C3B05",
+  "name": "Udon Noodles, dry weight, boiled and drained",
+  "per100": {
+   "calcium": 23.0,
+   "calories": 356.0,
+   "carbs": 74.1,
+   "cholesterol": 0.0,
+   "copper": 0.144,
+   "fat": 0.81,
+   "fiber": 4.3,
+   "folate": 14.0,
+   "iron": 1.32,
+   "magnesium": 28.0,
+   "manganese": 0.479,
+   "niacin": 0.875,
+   "pantothenicAcid": 0.491,
+   "phosphorus": 80.0,
+   "potassium": 82.0,
+   "protein": 11.35,
+   "riboflavin": 0.026,
+   "sodium": 456.0,
+   "thiamin": 0.101,
+   "vitaminB6": 0.05,
+   "zinc": 0.45
+  },
+  "secondary": "usda-somen+boil-leach-correction",
+  "source": "usda"
+ },
  "local:7C2B9E45-1A63-4D08-BF57-3E8A0D6C2F91": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
