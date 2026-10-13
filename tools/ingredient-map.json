@@ -2433,6 +2433,33 @@
   "secondary": null,
   "source": "label"
  },
+ "local:4B2D7E58-9C31-4A06-BF74-1E8A5D3C9026": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Farmland",
+  "foodID": "local:4B2D7E58-9C31-4A06-BF74-1E8A5D3C9026",
+  "name": "Edamame, frozen, shelled (Farmland)",
+  "per100": {
+   "calcium": 58.8,
+   "calories": 109.0,
+   "carbs": 8.24,
+   "cholesterol": 0.0,
+   "fat": 4.71,
+   "fatSaturated": 0.0,
+   "fatTrans": 0.0,
+   "fiber": 4.71,
+   "iron": 2.06,
+   "potassium": 470.6,
+   "protein": 10.59,
+   "sodium": 5.88,
+   "sugars": 2.35,
+   "vitaminA": 0.0,
+   "vitaminC": 9.41,
+   "vitaminD": 0.0
+  },
+  "secondary": "label+usda-energy-repair",
+  "source": "label"
+ },
  "local:4B8E1F63-7C29-4A05-9D3E-6F1A2C8B5074": {
   "barcode": "9556041608763",
   "baseAmount": 100.0,
