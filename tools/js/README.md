@@ -256,8 +256,11 @@ and emits a ragged `customNutrientNames` instead of the v8 `nutrientNameSets`
 interning. The v6 interpreter imposes three constraints the v8 draft does not.
 All three were measured against the live endpoint, not inferred.
 
-**1. The nutrient matrix is sized from the first ingredient.** A later row may be
-*narrower* than the first; a later row that is *wider* fails with
+**1. Every later row must be a SUBSET of the first ingredient's nutrient names.**
+⚠ This was first recorded here as "narrower than the first", which is wrong and
+misleading. A **23-field** row failed against a **36-field** first row on 2026-10-15,
+because the Foundation bell pepper carried `biotin` and the onion did not. Width is not
+the test, membership is. A later row naming anything absent from row 0 fails with
 `"Enter data in the required shape."` and HTTP 400. Measured:
 
 | First row | Later row | Result |
@@ -266,11 +269,17 @@ All three were measured against the live endpoint, not inferred.
 | 2 nutrients | 1 nutrient | 200, and the narrow entry decodes correctly |
 | 1 nutrient | 2 nutrients | **400** |
 
-⚠ So a multi-ingredient recipe only reaches the endpoint if **the ingredient with
-the longest nutrient list is listed first**. Reordering the spec is enough, and
-entry order in a `.foodnoms` collection is cosmetic.
+⚠ Sorting widest-first usually works, because the widest row is usually a superset, and
+entry order in a collection is cosmetic so reordering costs nothing. **But it is not
+sufficient. Test membership, not length** — split each row on `,` and check every later
+row against the first as a set. ⚠ **When no ingredient's name set contains all the
+others, the recipe cannot be expressed on v6 at all** and no reordering helps.
 
 **2. A sparse optional column must have no empty cell that the parser can swallow.**
+⚠ **Do not try to dodge this by inlining the branded ingredient.** Dropping the `ref`
+removes `customBrands`, but an inline food has no `foodID`, so `customFoodIds` becomes
+the sparse column instead and the same error returns under a different field name.
+Tried on the 2026-10-15 chili. It is a closed loop.
 `customNotes`, `customBrands` and `customBarcodes` are rejected with
 `"<column> must be empty or the same length as the custom* arrays"` when some but
 not all ingredients fill them. Give **every** ingredient a note, or none. Brands
