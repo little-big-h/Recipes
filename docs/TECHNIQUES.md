@@ -14,6 +14,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | IKEA 5 L | **1208 g** | 2026-09-20 |
 | IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
 | IKEA 3 L | **995 g** | 2026-10-11 |
+| Small wok | **810 g** | 2026-10-15 |
 | Large mixing bowl | **557 g** | 2026-09-30 |
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
 
@@ -51,6 +52,16 @@ wrong by 95 g.** It was interpolated from the measured 2 L and 5 L — linear in
 898 g, a fit in V^(2/3) gives 914 g — and the pot weighed **995 g**, above both. **The
 interpolation was not merely imprecise, it was outside the range the two fits bracketed.**
 These pots are not a geometric series and should not be treated as one. Weigh each.
+
+⚠ **The small wok was carried as an assumed 500 g for one cook and weighed 810 g** — 62%
+high, and the second bad placeholder in five days. The 2026-10-15 chili went from 1611 g to
+**1301 g**, a 19% error in the yield, and its sauce component from 905 g to **595 g**, a 34%
+error.
+
+⚠ **Anything computed against a placeholder must be rebuilt, not adjusted.** That cook’s
+meal log moved from **268 kcal and 2.0 g salt** to **360 kcal and 3.0 g salt** on the same
+weighed portion — the difference between an ordinary bowl and a fifth of a day’s salt.
+Nothing about what was eaten changed; only the denominator did.
 
 ⚠ **A tare error is amplified in the yield it produces, and badly.** Anja's 2026-10-11
 carrot mix was 1522 g gross. The net is only ~35% of that, so the error does not pass
