@@ -2771,6 +2771,29 @@
   "secondary": "label+boil-leach-correction+measured-yield",
   "source": "label"
  },
+ "local:5F2A8C64-7B13-4D90-AE58-2C6F1B4D7E03": {
+  "barcode": "8888090149364",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Fortune",
+  "foodID": "local:5F2A8C64-7B13-4D90-AE58-2C6F1B4D7E03",
+  "name": "Tamago Tofu, Mushroom (Fortune)",
+  "per100": {
+   "calcium": 22.5,
+   "calories": 52.0,
+   "carbs": 1.8,
+   "cholesterol": 100.0,
+   "fat": 2.8,
+   "fatSaturated": 0.7,
+   "fatTrans": 0.0,
+   "fiber": 1.5,
+   "protein": 4.8,
+   "sodium": 169.0,
+   "sugars": 0.6
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:6A4AE1C2-7310-4968-9B44-EC519652DFE2": {
   "baseAmount": 100,
   "baseUnit": "gram",
