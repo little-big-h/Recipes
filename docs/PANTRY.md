@@ -182,6 +182,16 @@ The UK list carried lemongrass paste, galangal paste and dried ginger *because t
 
 ### Vegetables — **the substitution that matters**
 
+- ✅ **Chye sim (菜心)** — *Brassica rapa* var. *parachinensis*, flowering Chinese cabbage. Also **choy sum** (Cantonese), **cai xin** (Mandarin). ⚠ **Not kai lan** (芥蘭, thick waxy stems, markedly more bitter) and **not bok choy** (fat white spoon stems). All three sit together in the shop and cook differently.
+  - **The fastest-cooking green here.** Split stems from leaves: **stems 45–60 s, leaves 20–30 s.** Together you get raw stems or collapsed leaves. That is the whole technique.
+  - **Canonical: 白灼菜心.** Blanch in boiling water with a splash of oil and a pinch of salt, stems first, leaves 30 s later, ~90 s total, drain hard, dress with hot oil poured over sliced garlic plus thinned LKK vegetarian oyster sauce. ⚠ **The oil in the blanching water is not flavour** — it coats the leaves and keeps them glossy rather than dull.
+  - **The LKK is right here and wrong in fried rice.** A faintly bitter brassica is what the bottle's 29.7% sugar is for. On a dry hot wok that sugar burns and the rice goes gummy — use soy in the pan and drizzle thinned oyster sauce off the heat instead.
+  - ⚠ **No acid** — green brassica, so the chlorophyll-to-pheophytin rule applies. Acid at the table only.
+  - ⚠ **Do not microwave-precook it.** Its phase 2 would sit below bok choi's 40 s, which is less than the time to reach temperature, so the step costs more than it saves. Into hotpot raw at the end, like the chrysanthemum greens.
+  - **Buy it young.** Thin stems and tight buds are mild; thick stems and open flowers are noticeably bitter. The yellow flowers are edible.
+  - ⚠ **Nutrition is a donor, not a measurement.** USDA has no choy sum record, so the map carries **SR Legacy 170390, pak-choi** (same species, different variety), flagged `usda-pakchoi-donor`. ⚠ **The Foundation bok choy record 2685572 was rejected**: 17 fields against 170390's 35, and **no vitamin K at all**, which is a headline nutrient for a leafy brassica — the same class of silent hole found in the black bean and chickpea Foundation records. ⚠ Chye sim is stemmier than pak-choi, so **13 kcal/100 g probably understates it** — Asian composition tables put choy sum nearer 20. At the quantities used that is 10–15 kcal on a bunch.
+
+
 - 🛒 **Spinach → Chinese spinach (bayam / 苋菜)** for the morning shakshuka. Closest drop-in: soft leaves that wilt identically, cheapest, most local. **Kangkong** is the more emblematically Singaporean option. **Bok choy is a structural mismatch** — the stems don't wilt, so you get crisp white ribs in a soft streaked-egg dish; workable only leaves-only, or with stems sliced thin and added early.
   - ⚠ **Folate drops ~100 µg** with any of these swaps — spinach's 194 µg was about two-thirds of the shakshuka's total. Worth compensating elsewhere.
   - ✅ **Calcium improves.** Bok choy and most local greens are **low-oxalate**, so their calcium is largely absorbable, unlike spinach's oxalate-bound 99 mg. Relevant to the bone-health flag.
