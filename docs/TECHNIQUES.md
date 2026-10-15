@@ -83,6 +83,7 @@ pot and subtracting its tare.
 | Brown rice, pressure-cooked | **3.02×** | 205 g → 620 g (2026-09-22) |
 | **Black-eyed peas, stovetop, pulled for bite** | **1.81×** | 100 g → 181 g (2026-10-08). ⚠ **Not a general figure — see the note below.** |
 | Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09; confirmed 2026-09-24, 250 g → 518 g (503 g weighed plus 15 g eaten) |
+| **Kidney beans, soaked ~5 h then 8 min HP, natural release, pulled for chew** | **2.31×** | 305 g → 706 g (2026-10-15). ⚠ **A for-chew figure, like the black-eyed peas.** |
 
 ⚠ **A yield ratio is a hydration figure, so cooking for bite lowers it — a lot.** The
 black-eyed peas above were deliberately pulled while the centre still resisted, and came out
@@ -91,6 +92,15 @@ against 116 cooked, record 173758 vs 173759). That is roughly **40% less water t
 Do not use this row to forecast a soft-cooked pot; it will under-predict badly. It is the
 *for-bite* figure, and the gap between it and 2.9× is a useful measure of how much doneness
 costs in yield.
+
+**The kidney beans are the second measurement of the same effect, and they agree.** 305 g
+soaked about five hours, 8 minutes at high pressure, natural release, deliberately short for
+chew: **2.31×**. Published figures for soft-cooked kidney beans run 2.5–2.7×, so this is
+roughly **12% less water taken up** — a smaller shortfall than the black-eyed peas' 40%,
+which fits, because a pressure cycle plus a 15–25 minute natural release is far less
+controllable than pulling a stovetop pan at a tasted moment. ⚠ **Two for-bite rows now exist
+and neither is a general figure.** When forecasting a soft-cooked pot, add roughly 15% to
+the kidney row and 60% to the black-eyed row.
 
 ⚠ **Nutrition is computed from the dry weight, never the cooked weight** — the
 water taken up adds no nutrition. The ratio is for predicting **yield** and for
