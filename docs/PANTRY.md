@@ -196,6 +196,16 @@ The UK list carried lemongrass paste, galangal paste and dried ginger *because t
 
 ### Vegetables — **the substitution that matters**
 
+- ✅ **Kang kong (空心菜 / 蕹菜)** — *Ipomoea aquatica*, water spinach, kangkung in Malay. **Not a brassica** — morning glory family, the same genus as sweet potato leaves, which is why both share soft leaves and a faint slipperiness. Per 100 g raw, from **USDA 169301 "Water convolvulus, raw"** (the botanical alias): **19 kcal, 2.6 g protein, 3.1 g carbohydrate, 2.1 g fibre, sodium 113 mg**, calcium 77 mg, magnesium 71 mg, iron 1.7 mg, vitamin C 55 mg, vitamin A 315 µg, folate 57 µg.
+  - ⚠ **Washing is the real work and it takes longer than cooking.** It grows in water and mud and **the stems are hollow**, so grit lodges inside and stays. Three changes of water minimum, agitating each time and **lifting the greens out** rather than pouring off, so the grit stays behind. Then look through it — snails and insects are common.
+  - ⚠⚠ **Sambal kangkong is not vegetarian, cooked or ordered.** It is bound by **belacan**, shrimp paste, and most hawker versions add dried shrimp as well. It is on nearly every zi char menu. The vegetarian binder is **fermented bean curd (腐乳, fu yu)** or taucheo — a mashed cube gives the same salty-funky body. ⚠ Neither is in this file yet.
+  - **Stems 60–90 s, leaves 15–20 s**, stems cut to 4–5 cm. The split matters more than with chye sim because the leaves collapse almost on contact.
+  - ⚠ **Hottest pan, small batches, no lid.** It holds a lot of water and a crowded or covered pan steams it into something slimy. A lid guarantees it. This is the usual failure.
+  - ⚠ **Serve within a minute or two** — it weeps as it stands and turns slimy on the plate. Cook it last.
+  - ⚠ **No acid**, the same chlorophyll rule as the brassicas, even though it is not one.
+  - ⚠ **It will not work in a shakshuka or any wet braise** (considered 2026-10-16). Spinach belongs there because it collapses into the sauce; kang kong’s hollow stems stay crunchy however long they simmer, and a lidded pot is the worst way to cook it. **Puay leng (菠薐菜) is spinach** under its Hokkien name and is the correct choice there.
+  - ⚠ **Sodium 113 mg/100 g is real and unusually high for a green** — the brassica effect, in a non-brassica. A 300 g bunch carries 0.85 g of salt before seasoning.
+  - **It collapses further than any other green here**, so buy more than looks sensible. Thin stems are tender, thick ones chewier. It keeps badly — use within a day or two.
 - ✅ **Chye sim (菜心)** — *Brassica rapa* var. *parachinensis*, flowering Chinese cabbage. Also **choy sum** (Cantonese), **cai xin** (Mandarin). ⚠ **Not kai lan** (芥蘭, thick waxy stems, markedly more bitter) and **not bok choy** (fat white spoon stems). All three sit together in the shop and cook differently.
   - **The fastest-cooking green here.** Split stems from leaves: **stems 45–60 s, leaves 20–30 s.** Together you get raw stems or collapsed leaves. That is the whole technique.
   - **Canonical: 白灼菜心.** Blanch in boiling water with a splash of oil and a pinch of salt, stems first, leaves 30 s later, ~90 s total, drain hard, dress with hot oil poured over sliced garlic plus thinned LKK vegetarian oyster sauce. ⚠ **The oil in the blanching water is not flavour** — it coats the leaves and keeps them glossy rather than dull.
