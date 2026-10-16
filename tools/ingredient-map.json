@@ -3486,6 +3486,29 @@
   "secondary": null,
   "source": "label"
  },
+ "local:A1C7E394-5B28-4D61-AF03-7C9E2B6D8451": {
+  "barcode": "9316434288671",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Yogood",
+  "foodID": "local:A1C7E394-5B28-4D61-AF03-7C9E2B6D8451",
+  "name": "Wildberry Yoghurt Coated Muesli Bar (Yogood)",
+  "per100": {
+   "calories": 405.0,
+   "carbs": 58.0,
+   "fat": 14.0,
+   "fatMonounsaturated": 4.1,
+   "fatPolyunsaturated": 1.0,
+   "fatSaturated": 9.1,
+   "fatTrans": 0.1,
+   "fiber": 10.0,
+   "protein": 6.3,
+   "sodium": 128.0,
+   "sugars": 29.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:A2A80202-62A6-4F50-9DF6-5265FFFEFE69": {
   "baseAmount": 100,
   "baseUnit": "gram",
