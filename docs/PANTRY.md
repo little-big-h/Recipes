@@ -100,6 +100,14 @@ These were UK standing stock and/or are trivially available in Singapore, but **
 
 ### Acid
 
+- ✅ **Beetroot & ginger sauerkraut — Love Your Guts Co., Tasmania** (250 g jar, barcode `9352642000551`, BBD 17/11/2027). Four ingredients: **organic cabbage, beetroot, ginger, Tasmanian sea salt**. **Vegan, gluten free, raw and unpasteurised.** Per 100 g: **26 kcal (110 kJ), 1.3 g protein, 0.1 g fat, 5.0 g carbohydrate, <0.1 g sugar, sodium 250 mg = 0.63 g salt.** Label serving 35 g = 9 kcal and **0.22 g salt**; the jar holds **1.56 g salt** in total.
+  - ✅ **The sugar line is the evidence the "alive" claim is real.** Raw cabbage carries ~3.2 g sugars per 100 g and beetroot ~7 g. This reads **<0.1 g** — the lactobacilli have eaten essentially all of it. A pasteurised or vinegar-pickled product would still show the sugar.
+  - ⚠⚠ **Do not cook it.** Heat kills the culture, which is the entire reason to buy it over a vinegar pickle. It goes on at the table, off the heat — which is exactly the role in the **sweet base + pickled vegetable** pattern recorded after the 2026-10-06 corn soup.
+  - ⚠ **Keep refrigerated, use within one month of opening.** Bubbling and fizzing on opening is normal and expected for a live ferment.
+  - **At 0.63 g salt/100 g it is a mild kraut**, well under half the 1.65 g/100 g of USDA’s canned sauerkraut. ⚠ Still, a generous 50 g helping is 0.32 g of salt, so it belongs in the budget alongside the pot rather than being treated as free.
+  - ⚠ **Micros are borrowed from USDA 169279 (canned sauerkraut) and sodium deliberately is not** — the donor carries 661 mg/100 g against this label’s 250, a 2.6× difference, so only the fibre and micronutrients were taken. Flagged `label+usda-169279-micros`. ⚠ The borrowed **vitamin C of 14.7 mg is conservative**: the donor is heat-processed and this is raw, so the real figure is higher.
+  - ⚠ Fibre is **not declared** — Australian labelling does not require it. The 2.9 g/100 g carried here is the donor’s. ⚠ Note the Australian convention also means the declared 5.0 g carbohydrate is **available carbohydrate with fibre excluded**, unlike the ASEAN labels in this file.
+
 - ❓ **Limes** — the at-table acid, kept off the main pot for Lara. Cheap and everywhere here.
 - ❓ **Tamarind** — ran out before the move. **Singapore is the easy place to fix this**: wet-market tamarind pulp and Thai/Indian paste are both cheap and better than the UK jar.
 - ❓ **Rice vinegar.**
