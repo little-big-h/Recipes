@@ -2270,6 +2270,26 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:31B7E4C2-8D56-4A03-9E71-2C4F8B6D5A39": {
+  "barcode": "9415748012733",
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "Ceres Organics",
+  "foodID": "local:31B7E4C2-8D56-4A03-9E71-2C4F8B6D5A39",
+  "name": "Organic Coconut Aminos Seasoning (Ceres Organics)",
+  "per100": {
+   "calories": 185.7,
+   "carbs": 45.8,
+   "fat": 0.0,
+   "fatSaturated": 0.0,
+   "fiber": 0.0,
+   "protein": 0.0,
+   "sodium": 1070.0,
+   "sugars": 45.8
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:3514212A-FDC4-43BD-8C21-0A3AAF51F4F2": {
   "baseAmount": 1,
   "baseUnit": "serving",
