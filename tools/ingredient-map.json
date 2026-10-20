@@ -3339,6 +3339,32 @@
   "secondary": "label+matcha-caffeine-est",
   "source": "label"
  },
+ "local:8A5D7B21-3E64-4C09-B7F2-5D18A9C34E67": {
+  "barcode": "4711931031013",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Royal Family",
+  "foodID": "local:8A5D7B21-3E64-4C09-B7F2-5D18A9C34E67",
+  "name": "Taro Mochi, butter bean filled (Royal Family)",
+  "per100": {
+   "calcium": 0.0,
+   "calories": 329.0,
+   "carbs": 73.0,
+   "cholesterol": 0.0,
+   "fat": 3.4,
+   "fatSaturated": 1.6,
+   "fatTrans": 0.0,
+   "fiber": 2.8,
+   "iron": 0.0,
+   "potassium": 0.0,
+   "protein": 1.5,
+   "sodium": 10.0,
+   "sugars": 47.0,
+   "vitaminD": 0.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9": {
   "barcode": "4002239604307",
   "baseAmount": 100,
