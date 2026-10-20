@@ -119,9 +119,11 @@ cause from the two rows above.** An absorption cook, which drains nothing, canno
 *(1 + water : grain) × dry weight*. At the **1.75 : 1 by weight** used here that ceiling is
 **2.75×**, and the measured 2.53× is **92% of it**. The missing 8% is steam vented while the
 pot came to pressure and during the 10-minute release, plus what stayed stuck to the pot.
-So this figure says nothing about how much water kasha *can* take up — published figures for
-cooked buckwheat run near 3×, and more water in an absorption cook would raise the yield
-almost in proportion. ⚠ **Use this row to forecast this method only**; it will under-predict
+So this figure says nothing about how much water kasha *can* take up. USDA's own pair of
+records implies **3.76×** (346 kcal/100 g dry, record `170685`, against 92 cooked, `170686`)
+— half again as much as the 2.75× ceiling this method allows, so the water ran out well
+before the grain stopped absorbing, and more water would raise the yield almost in
+proportion. ⚠ **Use this row to forecast this method only**; it will under-predict
 a water-generous or drained stovetop pan. ⚠ The 1.75 : 1 is **assumed, not recorded** — it is
 the ratio recommended for this cook, and the recipe's own "water used: TBD" is still open
 (`recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md`). If a different amount went in,
