@@ -3265,6 +3265,31 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:7E2C5A94-6B18-4D37-A05C-91F4B8E62D73": {
+  "barcode": "8881300341206",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "The SOS Kitchen",
+  "foodID": "local:7E2C5A94-6B18-4D37-A05C-91F4B8E62D73",
+  "name": "Harissa, North African Chilli Sauce (The SOS Kitchen)",
+  "per100": {
+   "calcium": 46.47,
+   "calories": 100,
+   "carbs": 17.65,
+   "cholesterol": 0,
+   "fat": 4.706,
+   "fatSaturated": 0.5882,
+   "fiber": 4.706,
+   "iron": 1.765,
+   "potassium": 670.6,
+   "protein": 3.529,
+   "sodium": 494.1,
+   "sugars": 9.412,
+   "vitaminD": 0
+  },
+  "secondary": "label-17g-scaled",
+  "source": "label"
+ },
  "local:7E4A1C96-2B58-4D03-9F27-6C8E5A3B1D04": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
