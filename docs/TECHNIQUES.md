@@ -95,6 +95,7 @@ pot and subtracting its tare.
 | **Black-eyed peas, stovetop, pulled for bite** | **1.81×** | 100 g → 181 g (2026-10-08). ⚠ **Not a general figure — see the note below.** |
 | Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09; confirmed 2026-09-24, 250 g → 518 g (503 g weighed plus 15 g eaten) |
 | **Kidney beans, soaked ~5 h then 8 min HP, natural release, pulled for chew** | **2.31×** | 305 g → 706 g (2026-10-15). ⚠ **A for-chew figure, like the black-eyed peas.** |
+| **Buckwheat (kasha), pressure-cooked by absorption, 0 min low pressure + 10-min defined release** | **2.53×** | 250 g → 633 g (2026-10-20; 1500 g gross in the Instant Pot inner pot, tare 867 g). ⚠ **Water-limited, not doneness-limited — see the note below.** |
 
 ⚠ **A yield ratio is a hydration figure, so cooking for bite lowers it — a lot.** The
 black-eyed peas above were deliberately pulled while the centre still resisted, and came out
@@ -112,6 +113,19 @@ which fits, because a pressure cycle plus a 15–25 minute natural release is fa
 controllable than pulling a stovetop pan at a tasted moment. ⚠ **Two for-bite rows now exist
 and neither is a general figure.** When forecasting a soft-cooked pot, add roughly 15% to
 the kidney row and 60% to the black-eyed row.
+
+**The kasha row is set by the water put in, not by how done the grain is — a different
+cause from the two rows above.** An absorption cook, which drains nothing, cannot exceed
+*(1 + water : grain) × dry weight*. At the **1.75 : 1 by weight** used here that ceiling is
+**2.75×**, and the measured 2.53× is **92% of it**. The missing 8% is steam vented while the
+pot came to pressure and during the 10-minute release, plus what stayed stuck to the pot.
+So this figure says nothing about how much water kasha *can* take up — published figures for
+cooked buckwheat run near 3×, and more water in an absorption cook would raise the yield
+almost in proportion. ⚠ **Use this row to forecast this method only**; it will under-predict
+a water-generous or drained stovetop pan. ⚠ The 1.75 : 1 is **assumed, not recorded** — it is
+the ratio recommended for this cook, and the recipe's own "water used: TBD" is still open
+(`recipes/salads/cold-buckwheat-asparagus-blackeyed-salad.md`). If a different amount went in,
+the 92% retention figure and the ceiling both move.
 
 ⚠ **Nutrition is computed from the dry weight, never the cooked weight** — the
 water taken up adds no nutrition. The ratio is for predicting **yield** and for
