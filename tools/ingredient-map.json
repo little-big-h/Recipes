@@ -2493,6 +2493,24 @@
   "secondary": null,
   "source": "label"
  },
+ "local:4A8C2E17-9B53-4D06-8F21-7C5E3A9B6D42": {
+  "barcode": "9551002815129",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Haidilao (Yihai)",
+  "foodID": "local:4A8C2E17-9B53-4D06-8F21-7C5E3A9B6D42",
+  "name": "Mushroom Flavour Hot Pot Seasoning (Haidilao)",
+  "per100": {
+   "calories": 356,
+   "carbs": 83.2,
+   "fat": 0.9,
+   "protein": 1.9,
+   "sodium": 2815,
+   "sugars": 8.8
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:4B2D7E58-9C31-4A06-BF74-1E8A5D3C9026": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
