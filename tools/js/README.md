@@ -269,6 +269,30 @@ the test, membership is. A later row naming anything absent from row 0 fails wit
 | 2 nutrients | 1 nutrient | 200, and the narrow entry decodes correctly |
 | 1 nutrient | 2 nutrients | **400** |
 
+⚠⚠ **The subset rule is necessary but NOT sufficient — measured 2026-10-23.** A recipe
+whose every row is a strict subset of row 0 can still be rejected with the same
+`customNutrientNames` / `customNutrientValues` 400. Bisected, row 0 being a 36-field
+Japanese sweet potato:
+
+| Later row | Fields | Result |
+|:--|--:|:--|
+| Broccoli | 33 of 36 | **200** |
+| Soba (J-Basket) | 14 of 36 | **400** |
+| Haidilao hot pot seasoning | 6 of 36 | **400** |
+
+Swapping the row order does not help, and neither does shortening: a **2675-character**
+URL with a narrow row failed while a **1565-character** one with only wide rows passed,
+so length was not the cause in any of these. **What distinguishes the failures is how
+narrow the row is, not whether it is a subset** — the exact threshold is not established.
+
+✅ **The workaround that does work: give every row the identical full name set, padding
+with explicit zeros.** The 23-10 hotpot meal cross-checked clean this way with 5 rows of
+31 fields each. ⚠ This is only available when the rows are written as inline `nutrients`
+blocks. A recipe assembled from `ref`/`fdcId` ingredients emits each ingredient's own
+name set, so a recipe mixing a label entry with a USDA one often cannot be cross-checked
+at all. That is a limitation of the live v6 object, not of the file, which is written
+locally and stands either way.
+
 ⚠ Sorting widest-first usually works, because the widest row is usually a superset, and
 entry order in a collection is cosmetic so reordering costs nothing. **But it is not
 sufficient. Test membership, not length** — split each row on `,` and check every later

@@ -3592,6 +3592,8 @@
   "foodID": "local:9C4E7B52-1A38-4D60-B2F7-6E5A9D3C8B14",
   "name": "Sweet Potato, Japanese (satsumaimo), raw",
   "per100": {
+   "alcohol": 0.0,
+   "caffeine": 0.0,
    "calcium": 45.42,
    "calories": 126.0,
    "carbs": 31.5,
