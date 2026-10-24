@@ -2880,6 +2880,27 @@
   "secondary": "label+boil-leach-correction",
   "source": "label"
  },
+ "local:5E3A9C27-4B16-4D80-A2F5-8C7E1B4D6A93": {
+  "barcode": "9313727002020",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Nutrisoy",
+  "foodID": "local:5E3A9C27-4B16-4D80-A2F5-8C7E1B4D6A93",
+  "name": "Tofu Teriyaki, marinated (Nutrisoy)",
+  "per100": {
+   "calories": 152.2,
+   "carbs": 3.6,
+   "fat": 8.5,
+   "fatSaturated": 1.3,
+   "fatTrans": 0.05,
+   "fiber": 3.7,
+   "protein": 11.6,
+   "sodium": 473,
+   "sugars": 3.1
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:5E7B2F94-6A18-4D53-B027-3C9E1F5A8D60": {
   "barcode": "011152085074",
   "baseAmount": 100.0,
