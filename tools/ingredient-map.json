@@ -1970,6 +1970,27 @@
   "secondary": null,
   "source": "label"
  },
+ "local:2A6F9D38-5C14-4B70-8E29-7D3A1C6B5E84": {
+  "barcode": "8888380710021",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "San Ying (Sinhua Hock Kee)",
+  "foodID": "local:2A6F9D38-5C14-4B70-8E29-7D3A1C6B5E84",
+  "name": "Pickled Cucumber (San Ying, 翠瓜)",
+  "per100": {
+   "calories": 66.67,
+   "carbs": 13.33,
+   "cholesterol": 0,
+   "fat": 0,
+   "fatSaturated": 0,
+   "fiber": 0,
+   "protein": 3.333,
+   "sodium": 1517,
+   "sugars": 13.33
+  },
+  "secondary": "label-30g-scaled",
+  "source": "label"
+ },
  "local:2B7D4F16-9C58-4A03-8E72-1F6A3D9B5C84": {
   "barcode": "1220000340329",
   "baseAmount": 100.0,
