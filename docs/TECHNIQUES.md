@@ -14,7 +14,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | IKEA 5 L | **1208 g** | 2026-09-20 |
 | IKEA 2 L (Ø 19 cm, art. 20535) | **743 g** | 2026-09-24 |
 | IKEA 3 L | **995 g** | 2026-10-11 |
-| Small wok | **810 g** | 2026-10-15 |
+| Small wok — **the stainless steel one** | **810 g** | 2026-10-15 (identified 2026-10-26) |
 | Large mixing bowl | **557 g** | 2026-09-30 |
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
 
