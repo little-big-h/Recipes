@@ -2689,6 +2689,31 @@
   "secondary": "estimated_from_usda",
   "source": "estimate"
  },
+ "local:4F7A2C65-8B31-4D09-A6E4-2C9F5B7D3A18": {
+  "barcode": "4971646032020",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Kyosin",
+  "foodID": "local:4F7A2C65-8B31-4D09-A6E4-2C9F5B7D3A18",
+  "name": "Hitokuchi Daifuku Mochi, red bean (Kyosin)",
+  "per100": {
+   "calcium": 0,
+   "calories": 273,
+   "carbs": 63.64,
+   "cholesterol": 0,
+   "fat": 0,
+   "fatSaturated": 0,
+   "fatTrans": 0,
+   "fiber": 0.9,
+   "iron": 0.98,
+   "protein": 3.64,
+   "sodium": 18,
+   "sugars": 30,
+   "vitaminC": 0
+  },
+  "secondary": "usda-branded-396377-generic-stand-in",
+  "source": "estimate"
+ },
  "local:5202374B-110E-4719-8237-CBB28AA7BC97": {
   "baseAmount": 100,
   "baseUnit": "gram",
