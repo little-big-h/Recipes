@@ -2369,6 +2369,29 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:3B8E5D14-7A26-4C93-B0F7-5E1A8C6D2F43": {
+  "barcode": "8802142002094",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Dae Chun Gim (Choi s1)",
+  "foodID": "local:3B8E5D14-7A26-4C93-B0F7-5E1A8C6D2F43",
+  "name": "Seaweed Flakes, Original (Dae Chun Gim)",
+  "per100": {
+   "calcium": 170,
+   "calories": 574,
+   "carbs": 34,
+   "fat": 41,
+   "fatSaturated": 4,
+   "fatTrans": 0,
+   "iron": 4,
+   "potassium": 1361,
+   "protein": 17,
+   "sodium": 1093,
+   "sugars": 11
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:3C7E1A58-9D42-4B06-8F31-5A2E7C4D0B69": {
   "barcode": null,
   "baseAmount": 100.0,
