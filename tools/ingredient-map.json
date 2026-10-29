@@ -3719,6 +3719,30 @@
   "secondary": null,
   "source": "label"
  },
+ "local:8E4C1B73-2F59-4A06-B38D-7C5E2A9F4D61": {
+  "barcode": "8881300341022",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "The SOS Kitchen",
+  "foodID": "local:8E4C1B73-2F59-4A06-B38D-7C5E2A9F4D61",
+  "name": "Tom Yum Paste (The SOS Kitchen)",
+  "per100": {
+   "calcium": 95,
+   "calories": 175,
+   "carbs": 24,
+   "fat": 7.5,
+   "fatSaturated": 0.5,
+   "fiber": 2,
+   "iron": 4,
+   "potassium": 540,
+   "protein": 3.5,
+   "sodium": 400,
+   "sugars": 8.5,
+   "vitaminD": 0
+  },
+  "secondary": "label-20g-scaled",
+  "source": "label"
+ },
  "local:9A2E7D53-6B14-4F80-A3C9-5E1B8D4A6F27": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
