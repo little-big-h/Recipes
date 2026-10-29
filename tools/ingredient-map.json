@@ -3511,6 +3511,29 @@
   "secondary": "label+matcha-caffeine-est",
   "source": "label"
  },
+ "local:8A4B2E57-1C96-4D03-BF28-6E5A9C1D7B34": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Royal Family",
+  "foodID": "local:8A4B2E57-1C96-4D03-BF28-6E5A9C1D7B34",
+  "name": "Milk Mochi 鮮奶大福 (Royal Family) - CONTAINS BOVINE GELATIN",
+  "per100": {
+   "calcium": 23,
+   "calories": 371,
+   "carbs": 74.7,
+   "fat": 7.3,
+   "fatSaturated": 3.5,
+   "fatTrans": 0,
+   "fiber": 0,
+   "iron": 0,
+   "potassium": 40,
+   "protein": 1.7,
+   "sodium": 16,
+   "sugars": 40.9
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:8A5D7B21-3E64-4C09-B7F2-5D18A9C34E67": {
   "barcode": "4711931031013",
   "baseAmount": 100.0,
