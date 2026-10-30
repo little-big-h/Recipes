@@ -3277,6 +3277,22 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:7A3E9C28-5B14-4D60-8F93-2E6B1A5D7C84": {
+  "barcode": "078895147728",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lee Kum Kee",
+  "foodID": "local:7A3E9C28-5B14-4D60-8F93-2E6B1A5D7C84",
+  "name": "Soy Bean Sauce 美味黃豆醬 (Lee Kum Kee) - SODIUM NOT DECLARED",
+  "per100": {
+   "calories": 151,
+   "carbs": 16,
+   "fat": 5.7,
+   "protein": 8.9
+  },
+  "secondary": "label-no-sodium-row",
+  "source": "label"
+ },
  "local:7A94FF9B-E956-4FDA-B07E-5F139C778EBB": {
   "baseAmount": 400,
   "baseUnit": "gram",
