@@ -2900,6 +2900,33 @@
   "secondary": null,
   "source": "label"
  },
+ "local:5C8A2E64-3F17-4B90-A6D2-8E4B1C7F5A39": {
+  "barcode": "8858984835604",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Meat Zero (CP Foods)",
+  "foodID": "local:5C8A2E64-3F17-4B90-A6D2-8E4B1C7F5A39",
+  "name": "Plant-Based Minced Meat (Meat Zero)",
+  "per100": {
+   "calcium": 56,
+   "calories": 129,
+   "carbs": 4.3,
+   "cholesterol": 0,
+   "fat": 7.7,
+   "fatSaturated": 0.6,
+   "fatTrans": 0.1,
+   "fiber": 4.4,
+   "iron": 3.2,
+   "potassium": 283,
+   "protein": 10.5,
+   "sodium": 286,
+   "sugars": 2,
+   "vitaminB12": 0.6,
+   "vitaminD": 1.5
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:5D8A3C71-2F46-4E90-B183-7C4A6D2E9F58": {
   "barcode": null,
   "baseAmount": 100.0,
