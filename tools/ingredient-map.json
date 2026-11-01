@@ -1897,6 +1897,28 @@
   "secondary": null,
   "source": null
  },
+ "local:1E7C4A93-6D25-4B08-9F31-5A8E2C6B4D70": {
+  "barcode": "853152100483",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "PROBAR",
+  "foodID": "local:1E7C4A93-6D25-4B08-9F31-5A8E2C6B4D70",
+  "name": "BOLT Organic Energy Chews, Raspberry (PROBAR)",
+  "per100": {
+   "calories": 300,
+   "carbs": 76.67,
+   "fat": 0,
+   "fiber": 0,
+   "niacin": 53.33,
+   "protein": 0,
+   "sodium": 250,
+   "sugars": 46.67,
+   "vitaminB12": 0.72,
+   "vitaminB6": 5.667
+  },
+  "secondary": "label-30g-scaled+dv-derived-b-vitamins",
+  "source": "label"
+ },
  "local:1F4A7C89-5B36-4E27-9A08-6D3E2B5F8C41": {
   "barcode": "5711953195242",
   "baseAmount": 100.0,
