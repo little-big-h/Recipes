@@ -101,6 +101,7 @@ Thin, pressed out to the tray with a **2 cm rim**.
 | 🥑 Neutral oil (tadka) | 15 g |
 | 🧀 Nutritional yeast | 5 g |
 | 🍄‍🟫 Dried shiitake powder | 4 g — ❓ confirm stock |
+| 🥭 Amchur (dried green mango powder) | 5 g — in late, 🛒 on order |
 | 🧂 Salt | 1 g |
 
 **1200 g looks wrong and is correct.** The onion volume is the body of the dish — a thin onion layer is the most common way this bake fails.
@@ -109,25 +110,25 @@ Thin, pressed out to the tray with a **2 cm rim**.
 
 Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in on top of that. 🧀 and 🍄‍🟫 go in with the onions, so both have liquid and time to hydrate. **No garlic** — Zwiebelkuchen has none, and onion is the point of the dish.
 
-#### The missing acid, and why it ends up as sumac on top
+#### The missing acid, and why it ends up as amchur in the onions
 
 ⚠⚠ **Defect in the first version of this plan, found 2026-11-02 while answering a question about chestnuts.** Zwiebelkuchen's binder is sour cream or crème fraîche and **the tang is part of what the dish is**. The custard here drops it, because souring the soya milk risks curdling it in the oven — and the first draft then failed to put the acid anywhere else. **1200 g of sweated onion with no acid against it** is the sweetest thing in the bake with nothing cutting it.
 
 ⚠ Whatever the fix, it is *not* a reason to sour the custard after all. The `PANTRY.md` note on NutriSoy is explicit: the unnamed stabiliser helps against acid curdling but **does not repeal the rule** — soy protein still flocculates near pH 4.5.
 
-**First fix was 15 g of lemon juice or cider vinegar into the onions at the end of the sweat. Superseded the same day by 🍒 sumac on top** (Holger's suggestion), for three reasons:
+**The acid went through three forms in one day. The settled answer is 🥭 amchur, 5 g, into the onions late.**
 
-1. **It is a powder.** The acid arrives with no water attached — the same argument that made the shiitake a powder rather than a solid, and the governing constraint of this whole bake.
-2. **A spike beats an even distribution, and that is recorded, not asserted.** `../docs/TECHNIQUES.md` on the pickle-with-a-sweet-base combination: the pickle works partly because it is *a concentrated salt spike, so each mouthful varies instead of the whole pot being salted up*. A surface scatter applies that model to acid. It works here specifically because the tart is only about 1.5 cm thick, so the surface reaches every bite — it would not work in a pot of soup.
-3. **Sumac is a finishing spice.** The sourness is mostly malic acid and survives the oven, but the fruity top note does not. Baked into the onions for 40 minutes you keep the astringency and lose the character.
+| Candidate | Verdict |
+|:----------|:--------|
+| 🍋 Lemon juice / cider vinegar, 15 g in the onions | First fix. Works, but it is a liquid going into a bake whose governing constraint is keeping water out. **Kept as the fallback.** |
+| 🍒 Sumac, 6 g on top | Holger's suggestion. Better form (a powder) and a good spike, but **Levantine — a third cuisine in a two-cuisine dish.** Superseded. |
+| 🥭 **Amchur, 5 g in the onions** | **Adopted.** A powder like the sumac, and **on-register**: chaat masala, chana masala, stuffed parathas. Removes the identity objection instead of tolerating it. |
 
-**Dose: 6 g, scattered on top with the 2 g of 🌰 cumin.** That is roughly the acid the 15 g of lemon juice would have delivered — sumac runs 10–15% organic acids against lemon juice's ~5%.
+**Why the placement changed with the ingredient.** Sumac was going on top because it is a finishing spice — its malic acid survives the oven but its fruity top note does not — and because a surface scatter delivers acid as a spike rather than evenly, which `../docs/TECHNIQUES.md` records as the better pattern against a sweet base (*a concentrated salt spike, so each mouthful varies instead of the whole pot being salted up*). **Neither argument carries over.** Amchur is conventionally a cooked-in spice, and it is **pale beige, so a surface dusting would be invisible** on a pale onion tart. There is no point scattering something nobody can see. The top stays 🌰 cumin only, which is the thing that has to be seen.
 
-⚠ **The honest objection is identity, not chemistry.** The dish is German and South Asian, and sumac is neither — it reads Levantine. The South Asian powder acid would be **amchur**, which is absent and not in `PANTRY.md` at all. Taken anyway, because sumac and onion is a strong pairing in its own right (musakhan is essentially onion, sumac and bread), because sumac is far less strongly coded than za'atar and most of the room will register only *sour*, and because the dark red against pale onion sits well beside the cumin.
+**Dose and handling.** 5 g, not the sumac's 6 g — amchur is potent and ordinary home use is around a teaspoon for a whole dish, so 5 g on a tray is already generous. **In late**, at the end of the sweat: it is a dried fruit powder, and long dry heat dulls it and can push it towards bitter.
 
-⚠ **❓ Sumac is unconfirmed** (`PANTRY.md:175`). ⚠⚠ **Many brands are cut with salt, some heavily** — read the label before 6 g goes into a 5.5 g budget. If the jar is salted, count it and take the gram back off the onion layer.
-
-**Fallback if there is no sumac:** 15 g lemon juice or cider vinegar into the onions at the end of the sweat, cooked down until the liquid is gone. Worse on all three counts above, but better than no acid at all.
+⚠ **If the amchur has not arrived when the test run happens, do not wait for it.** None of the four questions the test has to answer depends on which acid is in the dish — base firmness, custard weeping, Zwiebelkuchen identity and tray yield are all independent of it. Run the test on the lemon-juice fallback and swap the amchur in for the event itself.
 
 #### Why shiitake is a powder here and not a third solid
 
@@ -166,9 +167,8 @@ Browned **separately** — they are not done at the same time and mixing them in
 | Ingredient | Amount |
 |:-----------|-------:|
 | 🌰 Cumin seed, whole | 2 g |
-| 🍒 Sumac, ground | 6 g — ❓ confirm stock, ⚠ check the label for added salt |
 
-Both scattered visibly. The cumin is the whole joke and it has to be seen. The sumac is the dish's only acid — see the section on it above for why it goes here rather than into the onions.
+Scattered visibly, and it is the only thing on the surface. This is the whole joke and it has to be seen. The dish's acid is 🥭 amchur and it goes into the onions, not here — see the acid section above for why.
 
 ### Bake
 
@@ -235,8 +235,8 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 - 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought.
 - ❓ **Ground turmeric, brown mustard seed, coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
 - ❓ **Shiitake powder** (`PANTRY.md:141`) — unconfirmed, and whole dried caps are not recorded either. One or the other has to be bought, or the 4 g comes out of the plan.
-- ❓ **Sumac** (`PANTRY.md:175`) — unconfirmed, and it is now the dish's only acid, so this one is not optional. ⚠ Check the jar for added salt.
-- ❓ **Amchur** — not in `PANTRY.md` at all. Worth looking for: it is the on-register South Asian replacement for the sumac and would remove the one objection to it.
+- 🛒 **Amchur — on order (2026-11-02).** Not in `PANTRY.md` at all, and it is now the dish's only acid. ⚠ If it has not landed by the test run, use the lemon fallback rather than postponing — the test's four questions do not depend on the acid.
+- ❓ **Sumac** (`PANTRY.md:175`) — no longer needed for this dish, but worth having in the cupboard for other things.
 - ❓ **Cream, butter, cheese** — the dairy section is unresolved and the milk default is explicitly flagged. The soya-milk custard avoids the question entirely, which is the main reason it is the default here.
 - ❓ **Besan (gram flour)** — not recorded. Would bind the custard without egg and add protein. Worth checking for, since an egg-free version would widen who can eat it at the school.
 - **Headcount and tray count** — unknown. One tray is roughly 24 squares.
