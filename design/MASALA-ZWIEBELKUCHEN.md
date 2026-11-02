@@ -99,14 +99,27 @@ Thin, pressed out to the tray with a **2 cm rim**.
 | 🫚 Fresh ginger, grated | 15 g |
 | 🌻 Ground turmeric | 3 g |
 | 🥑 Neutral oil (tadka) | 15 g |
-| 🧀 Nutritional yeast | 8 g |
+| 🧀 Nutritional yeast | 5 g |
+| 🍄‍🟫 Dried shiitake powder | 4 g — ❓ confirm stock |
 | 🧂 Salt | 1 g |
 
 **1200 g looks wrong and is correct.** The onion volume is the body of the dish — a thin onion layer is the most common way this bake fails.
 
 > **Sweat the onions soft with no colour.** Zwiebelkuchen onion is pale and juicy, not caramelised. Browning them collapses the volume to a fraction and buries the spices underneath the sweetness — the opposite of what was wanted in the 26-10 butter masala, where caramelising was the right call.
 
-Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in on top of that. **No garlic** — Zwiebelkuchen has none, and onion is the point of the dish.
+Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in on top of that. 🧀 and 🍄‍🟫 go in with the onions, so both have liquid and time to hydrate. **No garlic** — Zwiebelkuchen has none, and onion is the point of the dish.
+
+#### Why shiitake is a powder here and not a third solid
+
+🧀 supplies **glutamate** only. 🍄‍🟫 supplies **guanylate**, and the two multiply rather than add (`../docs/TECHNIQUES.md` → umami). Guanylate is heat-stable, so a 40-minute bake costs nothing, and the powder carries no water and no salt. **That is why the nooch drops from 8 g to 5 g rather than staying at 8 and having shiitake added on top** — with the pair present, less total does more.
+
+⚠ **Rehydrated shiitake must not go in as a solid.** It is wet, which reintroduces exactly the problem the two-phase mushroom method exists to remove, and it neither browns nor holds a chew, so it cannot do the job the 🍄 king oyster is doing.
+
+⚠ **Keep the dose small, and this is a judgement about the dish, not about the ingredient.** 1200 g of sweated onion plus browned tofu plus browned king oyster plus nooch is already a lot of savoury depth. The failure mode is that the bake stops reading as Zwiebelkuchen and becomes generically savoury, which breaks the one thing the design rests on. 🍄‍🟫 is also brown and the onion layer is meant to be pale — 4 g in 1200 g will not shift the colour, 10 g would.
+
+⚠ **The ✅ Kombu Shiitake Dashi powder is the wrong substitute.** It is 4.8% shiitake, so 10 g of it delivers 0.48 g of actual mushroom, and at 11.4 g salt per 100 g it would put 1.14 g into a 5.5 g budget. That is a dosing constraint on a dish for the kids' table, not an objection to the salt. Grind whole dried caps instead — they are brittle and a spice grinder or processor handles them.
+
+**Optional, free:** the base needs 180 ml of 💧 anyway. Soak dried caps in it, use the liquid in the dough, and the mushroom flavour costs no moisture anywhere it matters. Low impact, since the base is thin and structural.
 
 ### Speck layer
 
@@ -155,7 +168,7 @@ Target band for this kitchen is **0.25–0.32 g salt per 100 g of finished dish*
 
 Estimated finished mass **~1870 g** → **0.29 g salt per 100 g**. Mid-band.
 
-- **Glutamate comes from 8 g nutritional yeast at zero salt cost.** The `PANTRY.md` warning against nutritional yeast — that its cheesy note fights aromatic-led bases — does not apply here. This dish is dairy-adjacent by construction and the cheesy note is an asset.
+- **The whole umami stack is salt-free: 5 g nutritional yeast (glutamate) + 4 g shiitake powder (guanylate).** The `PANTRY.md` warning against nutritional yeast — that its cheesy note fights aromatic-led bases — does not apply here. This dish is dairy-adjacent by construction and the cheesy note is an asset.
 - **No mushroom seasoning.** At 32 g salt per 100 g, 10 g of it would be 3.2 g of salt and would take the whole budget on its own.
 - **→ record** the actual baked mass so the 0.29 figure can be replaced with a measured one.
 
@@ -200,6 +213,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 - 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought.
 - ❓ **Ground turmeric, brown mustard seed, coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
+- ❓ **Shiitake powder** (`PANTRY.md:141`) — unconfirmed, and whole dried caps are not recorded either. One or the other has to be bought, or the 4 g comes out of the plan.
 - ❓ **Cream, butter, cheese** — the dairy section is unresolved and the milk default is explicitly flagged. The soya-milk custard avoids the question entirely, which is the main reason it is the default here.
 - ❓ **Besan (gram flour)** — not recorded. Would bind the custard without egg and add protein. Worth checking for, since an egg-free version would widen who can eat it at the school.
 - **Headcount and tray count** — unknown. One tray is roughly 24 squares.
