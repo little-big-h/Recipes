@@ -1,0 +1,212 @@
+# Masala-Zwiebelkuchen — design + test-run sheet
+
+A German/South-Asian savoury bake for the **Christmas event at the German school**. Sheet-pan Zwiebelkuchen with the Speck replaced by browned tau kwa and king oyster mushroom, and the Kümmel replaced by Kreuzkümmel.
+
+> **Status: designed, not yet cooked.** Quantities below are the *plan* for the first test run. Nothing in this file is measured. Every number marked **→ record** is a weigh-in the test run must produce before a recipe file or a `.foodnoms` file can be written.
+
+---
+
+## The idea in one line
+
+**Zwiebelkuchen is seasoned with Kümmel. This one is seasoned with Kreuzkümmel.**
+
+Caraway out, cumin in. The two words differ by one prefix in German, the two seeds are both Apiaceae, and both occupy the same pungent-seed register in a dish. That single swap is the whole fusion argument and it has to be *visible* — whole cumin scattered on the surface before baking, exactly where the caraway would have gone.
+
+Everything else follows from it: if the top seed is cumin, the onion layer can carry a tadka, and the dish stays recognisably Zwiebelkuchen rather than becoming an onion tart with curry powder in it.
+
+---
+
+## Why this form and not another
+
+Three candidates were considered for the school contribution.
+
+| Candidate | Fusion legibility | Survives a buffet | Risk |
+|:----------|:------------------|:------------------|:-----|
+| **Masala-Zwiebelkuchen** | Good — the Kümmel joke lands with Germans | **Yes** — squares, eaten by hand, better at room temperature than hot | Low |
+| Laugen-Kipferl with potato-pea filling | Best — a samosa in pretzel dough | **No** — a lye crust goes leathery in Singapore humidity within the hour | Medium (lye sourcing) |
+| Savoury Stollen (tau kwa log for the marzipan rope) | Strong, maximum Christmas | Poor — needs a knife and a plate | High |
+
+Zwiebelkuchen wins on the one criterion that matters most at a school buffet: **nothing about it depends on a crust staying crisp.** Anything baked crisp in the morning is soft by the time it is eaten here.
+
+---
+
+## Hard constraints
+
+- **No chilli at all.** Spice as aroma, not as heat. There will be a room full of German children. This is not the usual Jannes accommodation — it is the whole audience.
+- **Vegetarian throughout.** The Speck is gone by default, not as a substitution problem to solve later.
+- **Must be eaten standing up, with fingers, off a napkin.** Squares, firm base, no sauce.
+- **Must hold four hours at ambient Singapore temperature** between leaving the oven and being eaten.
+
+---
+
+## The Speck substitution needs two components, not one
+
+Speck contributes four things: discrete chewy pieces, fat, salt, and smoke. Tofu covers the first only, and tau kwa cubes left pale in a custard are the standard failure of this substitution — they read as blank white squares.
+
+| Function of the Speck | Replacement |
+|:----------------------|:------------|
+| Discrete pieces | 🧊 Tau kwa, 8 mm dice, **browned hard and dry** |
+| Chew | 🍄 King oyster, 8 mm dice, **browned hard and dry** |
+| Fat | 🥑 Oil in the tadka and in the browning |
+| Salt | Budgeted explicitly — see below |
+| Smoke | **Dropped.** ❓ Smoked paprika carries the standing Lara flag and a masala version does not need it. |
+
+**Use tau kwa and king oyster in roughly equal parts.** Tofu alone gives protein without texture, mushroom alone gives texture without protein.
+
+---
+
+## Mushrooms in a custard are a water problem
+
+Recorded loss for wok-fried mushrooms in this kitchen is **30%**. Any of that water still in the mushroom at assembly comes back out during the bake and sits under the custard.
+
+Use the **two-phase method** established 01-11-2026 for king oyster:
+
+1. **Oven, 220 °C convection with fan, no oil**, until the cut faces go from wet to matte.
+2. **Skillet, 3–4 minutes**, with the oil, to brown.
+
+Phase 1 removes the water so that phase 2 has nothing to release onto the pan. A flat skillet beats the wok here — the wok's curved base only puts a few pieces in contact at once.
+
+> **This test run produces the first oven-roasted king oyster losses figures.** Weigh raw, after phase 1, and after phase 2. No row on file separates oven-dewatering from pan-browning.
+
+---
+
+## Plan — one tray
+
+Sized for roughly **38 × 30 cm**. **→ record** the actual Fujioh tray dimensions, because the onion quantity scales off area, not off the other ingredients.
+
+### Base
+
+| Ingredient | Amount |
+|:-----------|-------:|
+| 🌾 Plain flour | 300 g |
+| 💧 Water, warm | 180 ml |
+| 🫧 Instant yeast | 7 g |
+| 🧂 Salt | 4 g |
+| 🥑 Neutral oil | 30 g |
+
+Thin, pressed out to the tray with a **2 cm rim**.
+
+> **Pre-bake the base 10 minutes at 220 °C fan before topping.** Not traditional. A thin yeast base under a wet topping goes soggy underneath, and a square that cannot be picked up by hand is useless at a buffet.
+
+### Onion layer
+
+| Ingredient | Amount |
+|:-----------|-------:|
+| 🧅 Onions, peeled and sliced | **1200 g** |
+| 🌰 Cumin seed, whole (tadka) | 4 g |
+| 🌼 Brown mustard seed | 3 g |
+| 🌿 Fennel seed | 2 g |
+| 🫚 Fresh ginger, grated | 15 g |
+| 🌻 Ground turmeric | 3 g |
+| 🥑 Neutral oil (tadka) | 15 g |
+| 🧀 Nutritional yeast | 8 g |
+| 🧂 Salt | 1 g |
+
+**1200 g looks wrong and is correct.** The onion volume is the body of the dish — a thin onion layer is the most common way this bake fails.
+
+> **Sweat the onions soft with no colour.** Zwiebelkuchen onion is pale and juicy, not caramelised. Browning them collapses the volume to a fraction and buries the spices underneath the sweetness — the opposite of what was wanted in the 26-10 butter masala, where caramelising was the right call.
+
+Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in on top of that. **No garlic** — Zwiebelkuchen has none, and onion is the point of the dish.
+
+### Speck layer
+
+| Ingredient | Amount |
+|:-----------|-------:|
+| 🧊 Tau kwa, 8 mm dice | 200 g |
+| 🍄 King oyster, 8 mm dice | 250 g |
+| 🥑 Neutral oil (browning) | 10 g |
+
+Browned **separately** — they are not done at the same time and mixing them in the pan means one of the two is wrong.
+
+### Custard
+
+| Ingredient | Amount |
+|:-----------|-------:|
+| 🥚 Egg | 3 |
+| 🥛 Soya milk (F&N NutriSoy) | 200 ml |
+| 🌾 Plain flour | 25 g |
+
+> ⚠ **No acid in the custard.** The traditional binder is sour cream or crème fraîche, and the tang is the point of it. Soy protein flocculates near pH 4.5, so souring the soya milk in a custard that then goes into a hot oven is a curdling risk. Either leave it unsoured, or use real cream — which is an unresolved pantry item (`PANTRY.md` flags the milk default as "don't silently resolve, ask") and needs its panel recorded first.
+
+### Top
+
+| Ingredient | Amount |
+|:-----------|-------:|
+| 🌰 Cumin seed, whole | 2 g |
+
+Scattered visibly. This is the whole joke and it has to be seen.
+
+### Bake
+
+**200 °C convection with fan, 35–40 minutes.** The Fujioh FV-EL61 has eight modes and "Convection with fan" is the one wanted — top and bottom elements plus the fan, 50–250 °C, default 220 °C. A fan oven runs effectively hotter than a conventional one, so this sits below the 200 °C a conventional Zwiebelkuchen recipe would specify.
+
+---
+
+## Salt budget
+
+Target band for this kitchen is **0.25–0.32 g salt per 100 g of finished dish**.
+
+| Source | Salt |
+|-------:|-----:|
+| Dough | 4.0 g |
+| Onion layer | 1.0 g |
+| Tau kwa, inherent (0.26 g/100 g × 200 g) | 0.5 g |
+| **Total** | **5.5 g** |
+
+Estimated finished mass **~1870 g** → **0.29 g salt per 100 g**. Mid-band.
+
+- **Glutamate comes from 8 g nutritional yeast at zero salt cost.** The `PANTRY.md` warning against nutritional yeast — that its cheesy note fights aromatic-led bases — does not apply here. This dish is dairy-adjacent by construction and the cheesy note is an asset.
+- **No mushroom seasoning.** At 32 g salt per 100 g, 10 g of it would be 3.2 g of salt and would take the whole budget on its own.
+- **→ record** the actual baked mass so the 0.29 figure can be replaced with a measured one.
+
+---
+
+## Timing
+
+| Stage | Elapsed | Active |
+|:------|--------:|-------:|
+| Dough mix + rise | 90 min | 10 min |
+| Onions, sweated | 40 min | 15 min |
+| Tau kwa + mushroom, two-phase | 40 min | 25 min |
+| Base pre-bake | 10 min | 5 min |
+| Assemble | — | 10 min |
+| Bake | 40 min | — |
+| **Total** | **~3 h** | **~65 min** |
+
+The onions and the Speck-layer mix both keep overnight, so a weekday-evening test is realistic if those are done the day before.
+
+---
+
+## What the test run has to answer
+
+1. **Can a square be picked up by hand after four hours at room temperature?** This is the go/no-go for the school, not the flavour.
+2. **Does the custard weep?** If it does, the mushroom pre-drying did not go far enough and phase 1 needs extending.
+3. **Does it read as Zwiebelkuchen to Anja**, or just as an onion tart with spices in it? If the answer is the second one, the cumin on top is not doing enough work and the fix is more of it, not more spice in the onions.
+4. **Tray yield**, for scaling to however many trays the event needs.
+
+### Weigh-ins
+
+| Measurement | Why |
+|:------------|:----|
+| 🧅 Onion, peeled in → sweated out | **No sweated-onion loss row exists on file.** Everything recorded so far is roasted, wok-fried or microwaved. |
+| 🍄 King oyster, raw → after oven → after skillet | **First oven-roasted king oyster row**, and the first split between oven-dewatering and pan-browning. |
+| 🧊 Tau kwa, in → out | No browned-tofu loss row on file. |
+| Tray assembled → tray baked | Gives the bake loss and the real salt-per-100 g. |
+| Tray internal dimensions | Needed to scale the onion mass for the event. |
+
+---
+
+## Open before the event
+
+- 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought.
+- ❓ **Ground turmeric, brown mustard seed, coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
+- ❓ **Cream, butter, cheese** — the dairy section is unresolved and the milk default is explicitly flagged. The soya-milk custard avoids the question entirely, which is the main reason it is the default here.
+- ❓ **Besan (gram flour)** — not recorded. Would bind the custard without egg and add protein. Worth checking for, since an egg-free version would widen who can eat it at the school.
+- **Headcount and tray count** — unknown. One tray is roughly 24 squares.
+
+---
+
+## Not yet decided
+
+- Whether to bring a second, contrasting item. If the Zwiebelkuchen tests well, the Laugen-Kipferl idea is still the better *fusion* statement and could be made the morning of the event to beat the humidity.
+- Whether the event wants anything warm. Nothing in this design needs it.

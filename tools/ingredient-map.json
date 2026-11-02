@@ -3935,6 +3935,26 @@
   "secondary": "jp-table-macros+usda-168482-micros-scaled-1.514",
   "source": "estimate"
  },
+ "local:9D2F6A83-5C14-4E70-B928-6F3A1D8C5B47": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Tasti",
+  "foodID": "local:9D2F6A83-5C14-4E70-B928-6F3A1D8C5B47",
+  "name": "Oat Baked Squares, Raspberry & White Choc (Tasti)",
+  "per100": {
+   "calories": 424.0,
+   "carbs": 63.1,
+   "fat": 14.4,
+   "fatSaturated": 5.2,
+   "fiber": 8.3,
+   "protein": 7.3,
+   "sodium": 414.0,
+   "sugars": 27.3
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:9D4B7E26-3A81-4C50-BF97-2E6D1A5C8403": {
   "barcode": "9555243000962",
   "baseAmount": 100.0,
