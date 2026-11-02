@@ -101,6 +101,7 @@ Thin, pressed out to the tray with a **2 cm rim**.
 | 🥑 Neutral oil (tadka) | 15 g |
 | 🧀 Nutritional yeast | 5 g |
 | 🍄‍🟫 Dried shiitake powder | 4 g — ❓ confirm stock |
+| 🍋 Lemon juice *or* cider vinegar | 15 g — in at the end of the sweat |
 | 🧂 Salt | 1 g |
 
 **1200 g looks wrong and is correct.** The onion volume is the body of the dish — a thin onion layer is the most common way this bake fails.
@@ -108,6 +109,14 @@ Thin, pressed out to the tray with a **2 cm rim**.
 > **Sweat the onions soft with no colour.** Zwiebelkuchen onion is pale and juicy, not caramelised. Browning them collapses the volume to a fraction and buries the spices underneath the sweetness — the opposite of what was wanted in the 26-10 butter masala, where caramelising was the right call.
 
 Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in on top of that. 🧀 and 🍄‍🟫 go in with the onions, so both have liquid and time to hydrate. **No garlic** — Zwiebelkuchen has none, and onion is the point of the dish.
+
+#### The acid has to go in the onions, and it was missing
+
+⚠⚠ **Defect in the first version of this plan, found 2026-11-02 while answering a question about chestnuts.** Zwiebelkuchen's binder is sour cream or crème fraîche and **the tang is part of what the dish is**. The custard here drops it, because souring the soya milk risks curdling it in the oven — and the first draft then failed to put the acid anywhere else. **1200 g of sweated onion with no acid against it** is the sweetest thing in the bake with nothing cutting it.
+
+**Fix: 15 g of 🍋 lemon juice or cider vinegar into the onions at the end of the sweat, cooked down until the liquid is gone.** The onion layer is not soy-bound, so nothing can flocculate there, and the acid survives the bake where the aroma of a raw finish would not.
+
+⚠ This is *not* a reason to sour the custard after all. The `PANTRY.md` note on NutriSoy is explicit: the unnamed stabiliser helps against acid curdling but **does not repeal the rule** — soy protein still flocculates near pH 4.5.
 
 #### Why shiitake is a powder here and not a third solid
 
@@ -220,7 +229,28 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 ---
 
+## Chestnuts — considered, not adopted
+
+Raised 2026-11-02. **Two different ingredients, opposite answers.**
+
+**Water chestnuts: no.** Over 70% water, and they release it. A custard-bound tart is the worst possible place for that — it is the same failure the two-phase mushroom prep exists to prevent. Their only property is crunch, which does not survive 40 minutes at 200 °C.
+
+**Sweet chestnuts (Maronen): viable only now that the acid is fixed, and still not adopted.**
+
+| For | Against |
+|:----|:--------|
+| Strongest German Christmas signal available after the Kümmel swap — a Weihnachtsmarkt item | **Sweet**, and the bake is already carrying 1200 g of sweated onion |
+| **Starchy, not watery** — one of the few additions with no moisture penalty | Soft and crumbly, so they compete with 🧊 and 🍄 for the discrete-pieces slot and lose |
+| ~2% fat, ~200 kcal/100 g — unlike any other nut, they add substance without richness | Bridge nothing toward the masala side |
+
+**If they go in:** ~150 g cooked, crumbled coarse, **scattered over the onion layer before the custard** — never diced into the Speck mix, which is not the job they can do. ❓ Not in `PANTRY.md`, and vacuum-packed cooked chestnuts are an import item here.
+
+The reason they are now *possible* is the acid fix above: sweet against acid against savoury is a working combination, and it is how chestnut earns its place in Rotkohl mit Maronen. Without acid in the dish it was sweetness piled on sweetness.
+
+---
+
 ## Not yet decided
 
+- **Sweet chestnuts** — see above. Possible, not adopted, Holger's call.
 - Whether to bring a second, contrasting item. If the Zwiebelkuchen tests well, the Laugen-Kipferl idea is still the better *fusion* statement and could be made the morning of the event to beat the humidity.
 - Whether the event wants anything warm. Nothing in this design needs it.
