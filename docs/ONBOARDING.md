@@ -110,6 +110,8 @@ won't guess) and the **current state**. Read this first if you're joining mid-st
     micro path) — never caveat micros as "pending verification."
   - **Salt is not a concern for Holger** — he's an endurance runner (electrolytes).
     Report it; don't flag it. (Family-meal palatability is a separate, milder thing.)
+    **This includes packaged products**, not only dishes cooked here: no ⚠ on a
+    high-salt bar, paste or seasoning. For him that figure is a benefit.
   - **Recipe naming:** append `[DD-MM-YY] ✴️` to every Claude-generated recipe
     `name` (creation date + the Claude-made star). Stamp lives in the collection
     `name`.

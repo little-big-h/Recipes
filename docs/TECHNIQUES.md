@@ -1230,6 +1230,8 @@ The third column of the ingredient table is "Actual used" — left blank in the 
 
 Salt is tracked across **family** recipes for **palatability** (the table has to work for the kids) — it is **not** a health constraint for Holger himself. As a high-mileage runner he benefits from the sodium (electrolyte replacement), so don't minimise salt in his solo dishes. The table below is for *estimating* the salt content of major sources, not for driving it down:
 
+> ⚠⚠ **And it applies to packaged products too.** A bar, paste or seasoning with a high salt figure is **not** a label defect and gets **no ⚠** on its pantry entry — for Holger it is a benefit. The only reason to call a salt figure out at all is **dosing arithmetic**: the doubanjiang's 15.45 g/100 g matters because 15 g of it carries 2.3 g of salt that has to fit a *family* dish's budget. That is a planning number, not a criticism of the product. (Holger, emphatic, 2026-11-02.)
+
 | Source | Salt content |
 |:-------|:-------------|
 | Yellow curry paste (Mae Ploy) | ~10% by weight |

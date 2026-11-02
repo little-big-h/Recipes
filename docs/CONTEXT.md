@@ -27,6 +27,7 @@ Everything a Claude Code instance needs to know about the household, the cook, t
 - High-protein, high-carb meals support athletic recovery
 - Calcium matters (bone health under RED-S)
 - **Salt is a positive for Holger, not a constraint.** As a high-mileage runner he sweats heavily and needs the sodium for electrolyte replacement. Do **not** minimise or flag salt in his solo dishes (breakfasts, his own portions) — report it as a neutral number.
+  - ⚠⚠ **This covers packaged products, not just dishes cooked here.** The scoping to "his solo dishes" has been read too narrowly more than once: a snack bar, paste or seasoning with a high salt figure got a ⚠ on its pantry entry as though it were a label defect. It is not. **A high-salt packaged item is a point in its favour for him.** Record the number, compare it to other products if that is useful, and attach no warning. (Flagged by Holger 2026-11-02, after the Tasti bar entry did exactly this.)
 - Salt *is* tracked for **family meals**, but for **palatability** (kids/shared portions), not health — typical family range ~10–15g. Even there it's a taste lever, not a number to drive down.
 - Whole-food approach; avoids refined carbohydrates
 - Doesn't optimize every meal for protein — varied appealing meals are the goal
