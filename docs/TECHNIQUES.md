@@ -282,12 +282,18 @@ oven, correct the phase 2 value and the three columns follow.
 Input weight less yield, same scale, tare subtracted. For forecasting a yield, and
 for portioning a finished dish.
 
+**Added oil counts as input.** Where a row gives "465 g + 2 g oil", the loss is against
+the 467 g that went into the pan, matching how the broccoli measurements were recorded.
+At these doses it barely matters — 2 g on 465 g of cauliflower is 0.43 g per 100 g, less
+than half the ~1 g per 100 g the roasting row uses, and shifts the percentage by 0.4
+points.
+
 | Method | Loss | Measurements |
 |:--|--:|:--|
 | **Microwaved only, covered, ~1 tbsp water** | **~1–2%** | broccoli 1.4% (2026-10-11, 350 g → 345 g) |
 | Roasted root / squash, ~1 g oil per 100 g | **~16%** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g) |
 | Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
-| **Stir-fried from raw to tender** | **~20%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g) |
+| **Stir-fried from raw to tender** | **~18–22%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g); **cauliflower 17.8%** (2026-11-02, 465 g + 2 g oil → 384 g) |
 | **Stir-fried from raw, flash only** | **~8%** | bean sprouts 8.5% (2026-10-04, 212 g → 194 g) |
 | **Stir-fried from raw, mixed dwell in one pan** | **~13%** | carrot + bean sprout + aromatics 13.3% (2026-10-11, 608 g → 527 g) |
 
@@ -301,6 +307,14 @@ mode. Same pan, same oil, same technique — the difference is how long it sat t
 **So a stir-fry yield cannot be forecast from the method alone.** Ask how long it was in the
 pan, or weigh it. The roasting and steaming rows are better behaved because those methods
 run to a fixed doneness.
+
+⚠ **The cauliflower figure is placed in the to-tender row on inference, not on record.** The
+cook was described only as "frying", with no dwell time or doneness given. 17.8% sits between
+the flash row (~8%) and the other two to-tender measurements (19.9% and 21.9%), and cauliflower
+florets are dense enough that a flash would leave them raw, which is why it is filed here. **If
+it was pulled while still firm, the row is wrong and this is a fourth point on the dwell curve
+instead.** First cauliflower measurement on file, and the first brassica here that is not
+broccoli.
 
 **A mixed pan lands between its components, and roughly where the weighting predicts.**
 Anja's carrot mix is 328 g carrot (a to-tender vegetable, ~20%), 225 g bean sprouts (a
