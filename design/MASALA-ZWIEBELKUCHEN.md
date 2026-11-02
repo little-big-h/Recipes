@@ -101,7 +101,6 @@ Thin, pressed out to the tray with a **2 cm rim**.
 | 🥑 Neutral oil (tadka) | 15 g |
 | 🧀 Nutritional yeast | 5 g |
 | 🍄‍🟫 Dried shiitake powder | 4 g — ❓ confirm stock |
-| 🍋 Lemon juice *or* cider vinegar | 15 g — in at the end of the sweat |
 | 🧂 Salt | 1 g |
 
 **1200 g looks wrong and is correct.** The onion volume is the body of the dish — a thin onion layer is the most common way this bake fails.
@@ -110,13 +109,25 @@ Thin, pressed out to the tray with a **2 cm rim**.
 
 Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in on top of that. 🧀 and 🍄‍🟫 go in with the onions, so both have liquid and time to hydrate. **No garlic** — Zwiebelkuchen has none, and onion is the point of the dish.
 
-#### The acid has to go in the onions, and it was missing
+#### The missing acid, and why it ends up as sumac on top
 
 ⚠⚠ **Defect in the first version of this plan, found 2026-11-02 while answering a question about chestnuts.** Zwiebelkuchen's binder is sour cream or crème fraîche and **the tang is part of what the dish is**. The custard here drops it, because souring the soya milk risks curdling it in the oven — and the first draft then failed to put the acid anywhere else. **1200 g of sweated onion with no acid against it** is the sweetest thing in the bake with nothing cutting it.
 
-**Fix: 15 g of 🍋 lemon juice or cider vinegar into the onions at the end of the sweat, cooked down until the liquid is gone.** The onion layer is not soy-bound, so nothing can flocculate there, and the acid survives the bake where the aroma of a raw finish would not.
+⚠ Whatever the fix, it is *not* a reason to sour the custard after all. The `PANTRY.md` note on NutriSoy is explicit: the unnamed stabiliser helps against acid curdling but **does not repeal the rule** — soy protein still flocculates near pH 4.5.
 
-⚠ This is *not* a reason to sour the custard after all. The `PANTRY.md` note on NutriSoy is explicit: the unnamed stabiliser helps against acid curdling but **does not repeal the rule** — soy protein still flocculates near pH 4.5.
+**First fix was 15 g of lemon juice or cider vinegar into the onions at the end of the sweat. Superseded the same day by 🍒 sumac on top** (Holger's suggestion), for three reasons:
+
+1. **It is a powder.** The acid arrives with no water attached — the same argument that made the shiitake a powder rather than a solid, and the governing constraint of this whole bake.
+2. **A spike beats an even distribution, and that is recorded, not asserted.** `../docs/TECHNIQUES.md` on the pickle-with-a-sweet-base combination: the pickle works partly because it is *a concentrated salt spike, so each mouthful varies instead of the whole pot being salted up*. A surface scatter applies that model to acid. It works here specifically because the tart is only about 1.5 cm thick, so the surface reaches every bite — it would not work in a pot of soup.
+3. **Sumac is a finishing spice.** The sourness is mostly malic acid and survives the oven, but the fruity top note does not. Baked into the onions for 40 minutes you keep the astringency and lose the character.
+
+**Dose: 6 g, scattered on top with the 2 g of 🌰 cumin.** That is roughly the acid the 15 g of lemon juice would have delivered — sumac runs 10–15% organic acids against lemon juice's ~5%.
+
+⚠ **The honest objection is identity, not chemistry.** The dish is German and South Asian, and sumac is neither — it reads Levantine. The South Asian powder acid would be **amchur**, which is absent and not in `PANTRY.md` at all. Taken anyway, because sumac and onion is a strong pairing in its own right (musakhan is essentially onion, sumac and bread), because sumac is far less strongly coded than za'atar and most of the room will register only *sour*, and because the dark red against pale onion sits well beside the cumin.
+
+⚠ **❓ Sumac is unconfirmed** (`PANTRY.md:175`). ⚠⚠ **Many brands are cut with salt, some heavily** — read the label before 6 g goes into a 5.5 g budget. If the jar is salted, count it and take the gram back off the onion layer.
+
+**Fallback if there is no sumac:** 15 g lemon juice or cider vinegar into the onions at the end of the sweat, cooked down until the liquid is gone. Worse on all three counts above, but better than no acid at all.
 
 #### Why shiitake is a powder here and not a third solid
 
@@ -155,8 +166,9 @@ Browned **separately** — they are not done at the same time and mixing them in
 | Ingredient | Amount |
 |:-----------|-------:|
 | 🌰 Cumin seed, whole | 2 g |
+| 🍒 Sumac, ground | 6 g — ❓ confirm stock, ⚠ check the label for added salt |
 
-Scattered visibly. This is the whole joke and it has to be seen.
+Both scattered visibly. The cumin is the whole joke and it has to be seen. The sumac is the dish's only acid — see the section on it above for why it goes here rather than into the onions.
 
 ### Bake
 
@@ -223,6 +235,8 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 - 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought.
 - ❓ **Ground turmeric, brown mustard seed, coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
 - ❓ **Shiitake powder** (`PANTRY.md:141`) — unconfirmed, and whole dried caps are not recorded either. One or the other has to be bought, or the 4 g comes out of the plan.
+- ❓ **Sumac** (`PANTRY.md:175`) — unconfirmed, and it is now the dish's only acid, so this one is not optional. ⚠ Check the jar for added salt.
+- ❓ **Amchur** — not in `PANTRY.md` at all. Worth looking for: it is the on-register South Asian replacement for the sumac and would remove the one objection to it.
 - ❓ **Cream, butter, cheese** — the dairy section is unresolved and the milk default is explicitly flagged. The soya-milk custard avoids the question entirely, which is the main reason it is the default here.
 - ❓ **Besan (gram flour)** — not recorded. Would bind the custard without egg and add protein. Worth checking for, since an egg-free version would widen who can eat it at the school.
 - **Headcount and tray count** — unknown. One tray is roughly 24 squares.
