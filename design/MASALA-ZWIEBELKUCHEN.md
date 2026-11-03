@@ -93,6 +93,14 @@ Thin, pressed out to the tray with a **2 cm rim**.
 
 > **Pre-bake the base 12 minutes at 220 °C fan before topping.** Not traditional. A thin yeast base under a wet topping goes soggy underneath, and a square that cannot be picked up by hand is useless at a buffet. **12 rather than 10 because the base is wholemeal** — see below.
 
+#### Mustard seed: either colour
+
+**Brown or yellow both work, and the difference mostly does not survive the pan.** Brown mustard's sharpness is allyl isothiocyanate, which is volatile and heat-labile — frying destroys most of it, which is why popped mustard reads nutty and faintly bitter rather than hot. Yellow's pungent compound is non-volatile and milder to start with, and also largely goes. What is left in both cases is the roasted seed. Yellow seeds are larger, so they are more visible and pop more vigorously.
+
+What yellow costs is some of the characteristic tadka aroma. What it buys is a small nudge back toward the German side — **yellow is the European mustard** (Senf, German pickles, Zwiebelkuchen's own region) and brown is the Indian one — which is worth a little now that the base is atta rather than German wholemeal. ⚠ **Do not overweight that:** at 3 g in a ~1870 g bake nobody will identify the variety.
+
+**Use whichever is in the cupboard. Do not make a trip for brown.**
+
 #### The brief is maximum atta with no crumble, and the lever is not the blend ratio
 
 Settled 2026-11-03 after going atta → ordinary wholemeal → atta. **Holger's constraint: not crumbly, and as little white flour as possible.** Atta satisfies it better than ordinary wholemeal, because chakki grinding is much finer than roller milling and the wheat is harder, so **less gluten is cut per gram of bran** and the wholemeal fraction can go higher for the same structural integrity.
@@ -120,7 +128,7 @@ Settled 2026-11-03 after going atta → ordinary wholemeal → atta. **Holger's 
 |:-----------|-------:|
 | 🧅 Onions, peeled and sliced | **1200 g** |
 | 🌰 Cumin seed, whole (tadka) | 4 g |
-| 🌼 Brown mustard seed | 3 g |
+| 🌼 Mustard seed, brown **or yellow** | 3 g |
 | 🌿 Fennel seed | 2 g |
 | 🫚 Fresh ginger, grated | 15 g |
 | 🌻 Ground turmeric | 3 g |
@@ -261,7 +269,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 - 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought, now **atta**, plus **plain white** only if the gluten flour falls through. Anja's chapati (`../anjas-cooking/chapati.md`) used UK wholemeal in July 2026, before the move, so there is no local flour on record of any sort.
 - 🛒 **Vital wheat gluten — the thing that makes a 100% atta base work.** `PANTRY.md:323` has it as absent: *BWFO seitan flour (vital wheat gluten) — the large UK stock is gone. Available here but not a supermarket item.* A dedicated errand, like the amchur. ⚠ **If it falls through, the base is 240 g atta + 60 g white and the test compares that against 100% atta on its own.**
-- ❓ **Ground turmeric, brown mustard seed, coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
+- ❓ **Ground turmeric, mustard seed (either colour), coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
 - ❓ **Shiitake powder** (`PANTRY.md:141`) — unconfirmed, and whole dried caps are not recorded either. One or the other has to be bought, or the 4 g comes out of the plan.
 - 🛒 **Amchur — on order (2026-11-02).** Not in `PANTRY.md` at all, and it is now the dish's only acid. ⚠ If it has not landed by the test run, use the lemon fallback rather than postponing — the test's questions do not depend on the acid.
 - ❓ **Sumac** (`PANTRY.md:175`) — no longer needed for this dish, but worth having in the cupboard for other things.
