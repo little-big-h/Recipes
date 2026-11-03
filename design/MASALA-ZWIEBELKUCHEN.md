@@ -85,7 +85,7 @@ Sized for roughly **38 × 30 cm**. **→ record** the actual Fujioh tray dimensi
 | 🧂 Salt | 4 g |
 | 🥑 Neutral oil | 30 g |
 
-**No white flour.** Fallback if the gluten flour cannot be got: **240 g atta + 60 g plain white**, same everything else.
+**No white flour anywhere in this bake** — not in the base, and not in the custard, which carried 25 g of it until 2026-11-03. If the base comes out crumbly the answer is still not white flour: see the zero-white-flour section below for the ladder.
 
 Thin, pressed out to the tray with a **2 cm rim**.
 
@@ -103,7 +103,7 @@ What yellow costs is some of the characteristic tadka aroma. What it buys is a s
 
 #### The brief is maximum atta with no crumble, and the lever is not the blend ratio
 
-Settled 2026-11-03 after going atta → ordinary wholemeal → atta. **Holger's constraint: not crumbly, and as little white flour as possible.** Atta satisfies it better than ordinary wholemeal, because chakki grinding is much finer than roller milling and the wheat is harder, so **less gluten is cut per gram of bran** and the wholemeal fraction can go higher for the same structural integrity.
+Settled 2026-11-03 after going atta → ordinary wholemeal → atta. **Holger's constraint: not crumbly, and — confirmed 2026-11-03 — no white flour at all.** Atta satisfies it better than ordinary wholemeal, because chakki grinding is much finer than roller milling and the wheat is harder, so **less gluten is cut per gram of bran** and the wholemeal fraction can go higher for the same structural integrity.
 
 **But the blend ratio is the wrong lever.** Two things fix crumbliness without a gram of white flour:
 
@@ -122,9 +122,22 @@ Settled 2026-11-03 after going atta → ordinary wholemeal → atta. **Holger's 
 
 **→ Test both halves on one tray: 100% atta + 15 g gluten against 100% atta plain.** Same topping across both, one bake.
 
-This is *not* the comparison first written down. The original was 100% atta + gluten against the 80/20 atta/white fallback, because the gluten flour might not arrive. **It was ordered on 2026-11-03, so that insurance is dead and the fallback half would be testing a path Holger does not want anyway.** The brief is minimum white flour, so the question worth one tray is **does the gluten earn its place** — and both halves stay white-free whatever the answer. **If the plain half holds together, the base gets simpler permanently and the gluten goes back to being seitan flour.**
+This is *not* the comparison first written down. The original was 100% atta + gluten against the 80/20 atta/white fallback, because the gluten flour might not arrive. **It was ordered on 2026-11-03, so that insurance is dead and the fallback half would be testing a path Holger does not want anyway.** The brief is zero white flour, so the question worth one tray is **does the gluten earn its place** — and both halves stay white-free whatever the answer. **If the plain half holds together, the base gets simpler permanently and the gluten goes back to being seitan flour.**
 
-⚠ Keep **80/20 atta/white** documented as the fallback *only* if both halves crumble. That needs plain white flour, which may not have been ordered once the gluten was.
+#### Zero white flour is a rule, not a preference
+
+Confirmed 2026-11-03. **The 80/20 atta/white fallback is struck from the plan**, not kept as insurance — a fallback nobody intends to use is just a tempting escape from solving the actual problem.
+
+⚠ **It also catches the custard**, which carried 25 g of plain white flour until this rule landed. See the Custard section — it is now besan.
+
+**If both base halves crumble, the escalation ladder stays white-free.** In order:
+
+1. **More gluten** — 15 g → 25 g, i.e. 8% of the flour rather than 5%. The first and most likely fix.
+2. **Less oil** — 30 g → 20 g. Fat shortens a dough, so cutting it helps for the same reason adding it would hurt.
+3. **A thicker base.** A thin pressed base is structurally the weakest form available. Thickening it is free and costs only the squares-per-tray count.
+4. **An egg in the dough.** Coagulated egg protein binds. Changes the character towards an enriched dough, so it is last.
+
+Sifting the bran out is **not** on the ladder — that is manufacturing white flour by hand and defeats the point.
 
 ### Onion layer
 
@@ -196,9 +209,13 @@ Browned **separately** — they are not done at the same time and mixing them in
 |:-----------|-------:|
 | 🥚 Egg | 3 |
 | 🥛 Soya milk (F&N NutriSoy) | 200 ml |
-| 🌾 Plain flour | 25 g |
+| 🧆 Besan (gram flour) | 25 g — 🛒 may need adding to the order |
 
 > ⚠ **No acid in the custard.** The traditional binder is sour cream or crème fraîche, and the tang is the point of it. Soy protein flocculates near pH 4.5, so souring the soya milk in a custard that then goes into a hot oven is a curdling risk. Either leave it unsoured, or use real cream — which is an unresolved pantry item (`PANTRY.md` flags the milk default as "don't silently resolve, ask") and needs its panel recorded first.
+
+> ⚠⚠ **The zero-white-flour rule catches the custard too.** This was 25 g of plain white flour until 2026-11-03 and it is easy to miss, because the base is where everyone looks. **Besan replaces it**: on-register for the South Asian half, adds protein, and it suits an egg-bound custard specifically — besan thickens more by protein coagulation than by starch gelatinisation, and the three 🥚 are already doing most of the setting. Forty minutes at 200 °C is well past where raw besan would taste bitter.
+>
+> **Safe alternative: 15 g cornflour** — not wheat at all, neutral, a more reliable pure thickener, and less interesting.
 
 ### Top
 
@@ -277,12 +294,13 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 **→ Photograph every panel as it arrives.** Seven new products, each one a `PANTRY.md` entry and a map record that does not exist yet. The vital wheat gluten matters most: `recipes/oven-mains/pressure-steamed-seitan-sausage.md` is built on a **BWFO UK label that cannot be bought from any more**, so whatever lands here replaces a retired source rather than merely adding one.
 
-⚠ **The two fallbacks written into this plan are now dead paths** — lemon juice for the acid, 80/20 atta/white for the base. **Keep them only against late delivery**, and note that the 80/20 needs plain white flour, which may not have been ordered once the gluten was.
+⚠ **The two fallbacks written into this plan are now dead paths** — lemon juice for the acid, 80/20 atta/white for the base. **Lemon juice stays only against a late amchur delivery. The 80/20 is struck entirely** — zero white flour was confirmed as a rule on 2026-11-03, so there is no white-flour fallback at all.
+
+🛒 **One item may still be missing from that order: besan (gram flour).** The zero-white-flour rule landed after the order went in, and besan is what replaces the custard's 25 g of plain white flour. **Fallback is 15 g cornflour**, which is not wheat at all and so satisfies the rule too.
 
 ### Still open, and not solvable by shopping
 
 - ❓ **Cream, butter, cheese** — the dairy section is unresolved and the milk default is explicitly flagged. The soya-milk custard avoids the question entirely, which is the main reason it is the default here.
-- ❓ **Besan (gram flour)** — not recorded. Would bind the custard without egg and add protein. Worth checking for, since an egg-free version would widen who can eat it at the school.
 - ⚠ **Headcount and tray count — unknown, and now the only thing actually blocking the event plan.** One tray is roughly 24 squares.
 - ⚠ **Tray internal dimensions — unmeasured.** The 1200 g of onion is sized for roughly 38 × 30 cm and scales off area, so this has to be measured before the test run, not after.
 
