@@ -221,7 +221,7 @@ Browned **separately** — they are not done at the same time and mixing them in
 >
 > ⚠ **Check which "corn flour" is in the cupboard.** In the UK and Singapore it means **cornstarch** — fine, white, pure starch. In the US the same words mean finely milled maize, which is yellow, gritty and thickens quite differently. This project already has a case of one English name covering two unrelated things: the 2026-10-09 trip that came back with 决明子 cassia *seed* instead of cassia bark (`../docs/PANTRY.md:179`). White and powdery is the right one.
 >
-> **Besan was the first choice and is the better one on paper** — on-register for the South Asian half, and it would have added about 5.5 g of protein that corn flour does not. Dropped because it is not in stock and corn flour is. Trivial against a ~1870 g bake, but it is a real difference rather than a free swap.
+> **Besan was the first choice and is the better one on paper** — on-register for the South Asian half, and it would have added about 5.5 g of protein that corn flour does not. Dropped because it is not in stock and corn flour is. Trivial against a ~1870 g bake, but it is a real difference rather than a free swap. It is now on the list as 🛒 in `../docs/PANTRY.md` → Pulses and grains, with its USDA figures and the chana-dal-versus-kabuli distinction, so a later version of this bake can use it.
 
 ### Top
 
