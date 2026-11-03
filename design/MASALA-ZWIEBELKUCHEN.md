@@ -128,7 +128,7 @@ This is *not* the comparison first written down. The original was 100% atta + gl
 
 Confirmed 2026-11-03. **The 80/20 atta/white fallback is struck from the plan**, not kept as insurance — a fallback nobody intends to use is just a tempting escape from solving the actual problem.
 
-⚠ **It also catches the custard**, which carried 25 g of plain white flour until this rule landed. See the Custard section — it is now besan.
+⚠ **It also catches the custard**, which carried 25 g of plain white flour until this rule landed. See the Custard section — it is now 15 g of corn flour.
 
 **If both base halves crumble, the escalation ladder stays white-free.** In order:
 
@@ -209,13 +209,19 @@ Browned **separately** — they are not done at the same time and mixing them in
 |:-----------|-------:|
 | 🥚 Egg | 3 |
 | 🥛 Soya milk (F&N NutriSoy) | 200 ml |
-| 🧆 Besan (gram flour) | 25 g — 🛒 may need adding to the order |
+| 🌽 Corn flour (cornstarch) | 15 g — ✅ in stock, **slake it first** |
 
 > ⚠ **No acid in the custard.** The traditional binder is sour cream or crème fraîche, and the tang is the point of it. Soy protein flocculates near pH 4.5, so souring the soya milk in a custard that then goes into a hot oven is a curdling risk. Either leave it unsoured, or use real cream — which is an unresolved pantry item (`PANTRY.md` flags the milk default as "don't silently resolve, ask") and needs its panel recorded first.
 
-> ⚠⚠ **The zero-white-flour rule catches the custard too.** This was 25 g of plain white flour until 2026-11-03 and it is easy to miss, because the base is where everyone looks. **Besan replaces it**: on-register for the South Asian half, adds protein, and it suits an egg-bound custard specifically — besan thickens more by protein coagulation than by starch gelatinisation, and the three 🥚 are already doing most of the setting. Forty minutes at 200 °C is well past where raw besan would taste bitter.
+> ⚠⚠ **The zero-white-flour rule catches the custard too.** This was 25 g of plain white flour until 2026-11-03 and it is easy to miss, because the base is where everyone looks. **Corn flour replaces it** — maize, not wheat, so the rule is satisfied, and it was already in stock, which besan was not.
 >
-> **Safe alternative: 15 g cornflour** — not wheat at all, neutral, a more reliable pure thickener, and less interesting.
+> ✅ **15 g, not 25 g.** Corn flour is near-pure starch and a much stronger thickener than wheat or gram flour, so it is not a gram-for-gram swap. It also **sets firmer and more sliceable**, which suits a tart that has to hold a square in the hand.
+>
+> ⚠ **Slake it.** Mix the 15 g with a little of the cold 🥛 to a smooth paste before the rest of the milk and the 🥚 go in. Added dry it will lump.
+>
+> ⚠ **Check which "corn flour" is in the cupboard.** In the UK and Singapore it means **cornstarch** — fine, white, pure starch. In the US the same words mean finely milled maize, which is yellow, gritty and thickens quite differently. This project already has a case of one English name covering two unrelated things: the 2026-10-09 trip that came back with 决明子 cassia *seed* instead of cassia bark (`../docs/PANTRY.md:179`). White and powdery is the right one.
+>
+> **Besan was the first choice and is the better one on paper** — on-register for the South Asian half, and it would have added about 5.5 g of protein that corn flour does not. Dropped because it is not in stock and corn flour is. Trivial against a ~1870 g bake, but it is a real difference rather than a free swap.
 
 ### Top
 
@@ -296,7 +302,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 ⚠ **The two fallbacks written into this plan are now dead paths** — lemon juice for the acid, 80/20 atta/white for the base. **Lemon juice stays only against a late amchur delivery. The 80/20 is struck entirely** — zero white flour was confirmed as a rule on 2026-11-03, so there is no white-flour fallback at all.
 
-🛒 **One item may still be missing from that order: besan (gram flour).** The zero-white-flour rule landed after the order went in, and besan is what replaces the custard's 25 g of plain white flour. **Fallback is 15 g cornflour**, which is not wheat at all and so satisfies the rule too.
+✅ **Nothing further needs buying.** The zero-white-flour rule landed after the order went in and left the custard needing a non-wheat binder. Besan was the first choice but is not in stock, so it is **15 g of corn flour**, which Holger already has a fair amount of.
 
 ### Still open, and not solvable by shopping
 
