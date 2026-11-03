@@ -78,30 +78,32 @@ Sized for roughly **38 × 30 cm**. **→ record** the actual Fujioh tray dimensi
 
 | Ingredient | Amount |
 |:-----------|-------:|
-| 🫓 Atta (chakki-ground wholemeal) | 150 g — 🛒 not recorded locally |
+| 🫓 Wholemeal flour | 150 g — 🛒 fine stoneground if there is a choice |
 | 🌾 Plain white flour | 150 g |
-| 💧 Water, warm | ~195 ml — **by feel, not by number** |
+| 💧 Water, warm | ~190 ml — **by feel, not by number** |
 | 🫧 Instant yeast | 7 g |
 | 🧂 Salt | 4 g |
 | 🥑 Neutral oil | 30 g |
 
 Thin, pressed out to the tray with a **2 cm rim**.
 
-> **Pre-bake the base 12 minutes at 220 °C fan before topping.** Not traditional. A thin yeast base under a wet topping goes soggy underneath, and a square that cannot be picked up by hand is useless at a buffet. **12 rather than 10 because of the atta** — see below.
+> **Pre-bake the base 12 minutes at 220 °C fan before topping.** Not traditional. A thin yeast base under a wet topping goes soggy underneath, and a square that cannot be picked up by hand is useless at a buffet. **12 rather than 10 because of the wholemeal** — see below.
 
-#### Why the base is half atta and not all of it
+#### Why the base is half wholemeal and not all of it
 
-**Atta is the strongest fusion step in the plan.** Every other South Asian element here is a seasoning — the cumin, the amchur, the shiitake. The flour is a third of the bake by mass, so atta makes the fusion structural rather than decorative.
+**Atta was considered and dropped** (2026-11-02 → 03). It was the strongest fusion step available, because the flour is a third of the bake by mass and would have made the fusion structural rather than decorative. Holger chose ordinary wholemeal instead.
 
-⚠ **But atta is a flour for *unleavened* flatbread, and the tell is that Indian leavened breads use maida, not atta.** Naan and kulcha are refined white. Bran particles cut gluten strands, so a 100% atta yeast dough is crumblier and holds together less well — and **crumbliness is exactly how test question 1 fails.** A square that falls apart in the hand is useless here, and the 2 cm rim also has to hold the custard in while it sets.
+**That is not a loss to argue with.** With a wholemeal base the dish's South Asian half lives **entirely in the seasoning** — cumin, amchur, shiitake, ginger, turmeric, mustard — and the structure stays German throughout. A **Vollkorn** base is itself a German signal rather than a neutral one, so the division is arguably cleaner than a half-atta base would have been.
 
-⚠ **Second risk, less obvious: a wholemeal base is more porous, so moisture from the topping migrates through it faster.** Atta may go soggy *sooner* than white, not later. Hence 12 minutes of pre-bake rather than 10.
+⚠ **But it makes the crumbliness risk worse, not better.** Ordinary wholemeal is roller-milled with coarser bran than chakki-ground atta, and coarser bran cuts more gluten per gram. **Crumbliness is exactly how test question 1 fails** — a square that falls apart in the hand is useless at a buffet, and the 2 cm rim has to hold the custard while it sets. **So the 50/50 blend matters more now than it did with atta**, not less.
 
-✅ **One point in atta's favour over ordinary wholemeal:** chakki grinding is much finer than Western wholemeal milling and the wheat is harder, so it gives a softer, more extensible dough. As wholemeals go it is the right one for this.
+⚠ **Second risk, less obvious: a wholemeal base is more porous, so moisture from the topping migrates through it faster.** It may go soggy *sooner* than a white base, not later. Hence 12 minutes of pre-bake rather than 10. This argument is about wholemeal in general and was never specific to atta.
 
-⚠ **Hydration must go up.** Atta absorbs roughly 10–15 percentage points more water than white flour, so the 180 ml this plan first specified would give a dry, cracking dough at a 50/50 blend. ~195 ml is a starting point and the dough should be judged by feel.
+⚠ **Hydration goes up, but less than atta would have needed.** Atta's chakki-damaged starch is unusually thirsty, 10–15 percentage points above white. Ordinary wholemeal takes nearer 5–10. So **~190 ml** rather than the 180 ml this plan first specified, judged by feel.
 
-**→ Test both halves on one tray.** Press 100% atta on one half and the 50/50 blend on the other, same topping across both, one bake. That settles the flour question outright instead of carrying it into the event. **If the 100% half holds together, the blend is unnecessary caution** and later versions should go all atta.
+⚠ **Buy fine stoneground if there is a choice.** Stoneground behaves closer to atta than roller-milled does, and grind coarseness matters more here than brand.
+
+**→ Test both halves on one tray.** Press 100% wholemeal on one half and the 50/50 blend on the other, same topping across both, one bake. That settles the flour question outright instead of carrying it into the event. **If the 100% half holds together, the blend is unnecessary caution.**
 
 ### Onion layer
 
@@ -143,7 +145,7 @@ Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in
 
 **Dose and handling.** 5 g, not the sumac's 6 g — amchur is potent and ordinary home use is around a teaspoon for a whole dish, so 5 g on a tray is already generous. **In late**, at the end of the sweat: it is a dried fruit powder, and long dry heat dulls it and can push it towards bitter.
 
-⚠ **If the amchur has not arrived when the test run happens, do not wait for it.** None of the five questions the test has to answer depends on which acid is in the dish — base firmness, custard weeping, Zwiebelkuchen identity, tray yield and the atta-versus-blend comparison are all independent of it. Run the test on the lemon-juice fallback and swap the amchur in for the event itself.
+⚠ **If the amchur has not arrived when the test run happens, do not wait for it.** None of the five questions the test has to answer depends on which acid is in the dish — base firmness, custard weeping, Zwiebelkuchen identity, tray yield and the wholemeal-versus-blend comparison are all independent of it. Run the test on the lemon-juice fallback and swap the amchur in for the event itself.
 
 #### Why shiitake is a powder here and not a third solid
 
@@ -155,7 +157,7 @@ Order: bloom 🌰🌼🌿 in the 🥑, then 🫚, then 🌻, then the 🧅 go in
 
 ⚠ **The ✅ Kombu Shiitake Dashi powder is the wrong substitute.** It is 4.8% shiitake, so 10 g of it delivers 0.48 g of actual mushroom, and at 11.4 g salt per 100 g it would put 1.14 g into a 5.5 g budget. That is a dosing constraint on a dish for the kids' table, not an objection to the salt. Grind whole dried caps instead — they are brittle and a spice grinder or processor handles them.
 
-**Optional, free:** the base needs ~195 ml of 💧 anyway. Soak dried caps in it, use the liquid in the dough, and the mushroom flavour costs no moisture anywhere it matters. Low impact, since the base is thin and structural.
+**Optional, free:** the base needs ~190 ml of 💧 anyway. Soak dried caps in it, use the liquid in the dough, and the mushroom flavour costs no moisture anywhere it matters. Low impact, since the base is thin and structural.
 
 ### Speck layer
 
@@ -232,7 +234,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 2. **Does the custard weep?** If it does, the mushroom pre-drying did not go far enough and phase 1 needs extending.
 3. **Does it read as Zwiebelkuchen to Anja**, or just as an onion tart with spices in it? If the answer is the second one, the cumin on top is not doing enough work and the fix is more of it, not more spice in the onions.
 4. **Tray yield**, for scaling to however many trays the event needs.
-5. **Does 100% atta hold together, or is the 50/50 blend needed?** Answered by pressing the two doughs side by side on the one tray — see the base section.
+5. **Does 100% wholemeal hold together, or is the 50/50 blend needed?** Answered by pressing the two doughs side by side on the one tray — see the base section.
 
 ### Weigh-ins
 
@@ -248,7 +250,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 ## Open before the event
 
-- 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought, now in two kinds: **atta and plain white**. Anja's chapati (`../anjas-cooking/chapati.md`) used UK wholemeal in July 2026, before the move, so there is no local flour on record of any sort.
+- 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought, now in two kinds: **wholemeal and plain white**. Anja's chapati (`../anjas-cooking/chapati.md`) used UK wholemeal in July 2026, before the move, so there is no local flour on record of any sort.
 - ❓ **Ground turmeric, brown mustard seed, coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
 - ❓ **Shiitake powder** (`PANTRY.md:141`) — unconfirmed, and whole dried caps are not recorded either. One or the other has to be bought, or the 4 g comes out of the plan.
 - 🛒 **Amchur — on order (2026-11-02).** Not in `PANTRY.md` at all, and it is now the dish's only acid. ⚠ If it has not landed by the test run, use the lemon fallback rather than postponing — the test's questions do not depend on the acid.
