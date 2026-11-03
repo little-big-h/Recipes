@@ -120,7 +120,11 @@ Settled 2026-11-03 after going atta → ordinary wholemeal → atta. **Holger's 
 
 ✅ **What the base gains by being atta:** this is the only structural fusion element in the dish. Everything else South Asian here is a seasoning — cumin, amchur, shiitake, ginger, turmeric, mustard — while the flour is a third of the bake by mass.
 
-**→ Test both halves on one tray.** Press **100% atta + gluten** on one half and the **80/20 atta/white** fallback on the other, same topping across both, one bake. If the gluten flour has not arrived, test **100% atta against 80/20** instead — that still answers whether any white is needed at all.
+**→ Test both halves on one tray: 100% atta + 15 g gluten against 100% atta plain.** Same topping across both, one bake.
+
+This is *not* the comparison first written down. The original was 100% atta + gluten against the 80/20 atta/white fallback, because the gluten flour might not arrive. **It was ordered on 2026-11-03, so that insurance is dead and the fallback half would be testing a path Holger does not want anyway.** The brief is minimum white flour, so the question worth one tray is **does the gluten earn its place** — and both halves stay white-free whatever the answer. **If the plain half holds together, the base gets simpler permanently and the gluten goes back to being seitan flour.**
+
+⚠ Keep **80/20 atta/white** documented as the fallback *only* if both halves crumble. That needs plain white flour, which may not have been ordered once the gluten was.
 
 ### Onion layer
 
@@ -251,7 +255,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 2. **Does the custard weep?** If it does, the mushroom pre-drying did not go far enough and phase 1 needs extending.
 3. **Does it read as Zwiebelkuchen to Anja**, or just as an onion tart with spices in it? If the answer is the second one, the cumin on top is not doing enough work and the fix is more of it, not more spice in the onions.
 4. **Tray yield**, for scaling to however many trays the event needs.
-5. **Does 100% atta plus vital wheat gluten hold together, or is the 80/20 fallback needed?** Answered by pressing the two doughs side by side on the one tray — see the base section.
+5. **Does the vital wheat gluten earn its place, or does 100% atta hold together on its own?** Answered by pressing the two doughs side by side on the one tray — see the base section. Both halves are white-flour-free either way.
 
 ### Weigh-ins
 
@@ -267,15 +271,20 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 
 ## Open before the event
 
-- 🛒 **Flour and yeast are not in `PANTRY.md` at all.** The post-move restock never covered baking. Both have to be bought, now **atta**, plus **plain white** only if the gluten flour falls through. Anja's chapati (`../anjas-cooking/chapati.md`) used UK wholemeal in July 2026, before the move, so there is no local flour on record of any sort.
-- 🛒 **Vital wheat gluten — the thing that makes a 100% atta base work.** `PANTRY.md:323` has it as absent: *BWFO seitan flour (vital wheat gluten) — the large UK stock is gone. Available here but not a supermarket item.* A dedicated errand, like the amchur. ⚠ **If it falls through, the base is 240 g atta + 60 g white and the test compares that against 100% atta on its own.**
-- ❓ **Ground turmeric, mustard seed (either colour), coriander seed** — unconfirmed. ✅ Whole cumin, whole fennel and cloves are confirmed.
-- ❓ **Shiitake powder** (`PANTRY.md:141`) — unconfirmed, and whole dried caps are not recorded either. One or the other has to be bought, or the 4 g comes out of the plan.
-- 🛒 **Amchur — on order (2026-11-02).** Not in `PANTRY.md` at all, and it is now the dish's only acid. ⚠ If it has not landed by the test run, use the lemon fallback rather than postponing — the test's questions do not depend on the acid.
-- ❓ **Sumac** (`PANTRY.md:175`) — no longer needed for this dish, but worth having in the cupboard for other things.
+### 📦 All ordered 2026-11-03 — nothing on this list is blocking any more
+
+**Atta · instant yeast · vital wheat gluten · amchur · shiitake powder · ground turmeric · brown mustard seed.** None of it was in `PANTRY.md`: the post-move restock never covered baking at all, and Anja's chapati (`../anjas-cooking/chapati.md`) used UK wholemeal in July 2026, before the move, so there was no local flour on record of any kind.
+
+**→ Photograph every panel as it arrives.** Seven new products, each one a `PANTRY.md` entry and a map record that does not exist yet. The vital wheat gluten matters most: `recipes/oven-mains/pressure-steamed-seitan-sausage.md` is built on a **BWFO UK label that cannot be bought from any more**, so whatever lands here replaces a retired source rather than merely adding one.
+
+⚠ **The two fallbacks written into this plan are now dead paths** — lemon juice for the acid, 80/20 atta/white for the base. **Keep them only against late delivery**, and note that the 80/20 needs plain white flour, which may not have been ordered once the gluten was.
+
+### Still open, and not solvable by shopping
+
 - ❓ **Cream, butter, cheese** — the dairy section is unresolved and the milk default is explicitly flagged. The soya-milk custard avoids the question entirely, which is the main reason it is the default here.
 - ❓ **Besan (gram flour)** — not recorded. Would bind the custard without egg and add protein. Worth checking for, since an egg-free version would widen who can eat it at the school.
-- **Headcount and tray count** — unknown. One tray is roughly 24 squares.
+- ⚠ **Headcount and tray count — unknown, and now the only thing actually blocking the event plan.** One tray is roughly 24 squares.
+- ⚠ **Tray internal dimensions — unmeasured.** The 1200 g of onion is sized for roughly 38 × 30 cm and scales off area, so this has to be measured before the test run, not after.
 
 ---
 
