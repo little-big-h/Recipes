@@ -970,6 +970,19 @@ mushroomy water.
 - Or **dry them** to brittle in a low oven, after which they behave as bought dried
   shiitake and cold-soaking works normally.
 
+### Puay leng stems — keep them, and they crunch
+
+**Two separate things here: a name trap, and a technique.**
+
+⚠⚠ **Puay leng (菠薐菜 / 菠菜) is true spinach, *Spinacia oleracea*, despite being sold in Singapore as "Chinese spinach".** FairPrice lists the identical vegetable as *"Organic English Spinach Puay Leng"* and as *"Chef Chinese Spinach Phuay Leng"*. The green that English properly calls Chinese spinach is **bayam / 苋菜 / amaranth**, a different plant with a different USDA record. **Resolve puay leng to USDA `168462` "Spinach, raw"; resolve bayam to an amaranth record.** This is the fourth name collision on file, after cassia bark vs cassia seed, UK vs US corn flour, and besan vs chickpea flour.
+
+✅ **The stems are not a thing to strip out. Cut small, they stay crunchy** — Holger's daily shakshuka practice, 2026-11-04, and it corrects what was nearly written into the mushroom soup recipe.
+
+- **The crunch is turgor, not fibre.** Intact cells holding water under pressure. Puay leng stalks are long and substantial, unlike the stubby stems on bagged baby spinach, so short lengths of them keep that turgor through brief heat.
+- ⚠ **What destroys it is sustained submersion in hot liquid**, not heat as such. So the handling rule is: **cut small and add off the heat, at the end or at the bowl.** Stirred into a simmering pot they go soft and, on a mature bunch, slightly stringy.
+- ⚠ **A bowl of hot soup keeps working on them in a way a plated shakshuka does not.** The technique transfers, but eat it promptly — a bowl that stands ten minutes has soft stems.
+- **Bayam is the opposite case.** Mature amaranth stems *are* genuinely fibrous and do soften to strings. The advice here is specific to puay leng and must not be carried across on the strength of the shared English name.
+
 ### Red cabbage — the acid rule inverts
 
 ⚠ **Acid is mandatory for red cabbage, and forbidden for green brassicas.** Same family,

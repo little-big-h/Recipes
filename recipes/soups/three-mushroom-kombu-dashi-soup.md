@@ -17,7 +17,7 @@
 | 🟢 | 🦪 King oyster (roasted, sliced thick, at the bowl) | 300 g | 139 | | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
 | 🟡 | 🧅 Onion (browned in the small wok) | 400 g | 152 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟢 | 🥔 White potato (diced) | 400 g | 276 | | [usda](https://fdc.nal.usda.gov/food-details/170028/nutrients) |
-| 🟢 | 🥬 Spinach (wilted in after blending) | 250 g | 58 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
+| 🟢 | 🥬 Puay leng, leaves + stems cut small (off heat, per bowl) | 250 g | 58 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | 🟤 | 🥛 Soya milk, NutriSoy (off heat, per bowl) | 400 ml | 168 | | label |
 | ⚪ | 🍋 Lemon juice (at the table, after the soya milk) | 20 g | 4 | | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
 | 🟣 | 🥑 Avocado oil (10 g mushrooms, 10 g onions) | 20 g | 177 | | local |
@@ -69,7 +69,7 @@
 
 ### 5. At the bowl, not in the pot
 
-14. 🥬 Spinach wilted through off the heat — blended spinach turns a brown soup khaki.
+14. 🥬 Spinach wilted through off the heat — blended spinach turns a brown soup khaki. **Keep the stems and cut them small**: puay leng stalks stay crunchy when cut short and added off the heat, which is a second texture for free. ⚠ Eat promptly — a bowl standing ten minutes softens them. See `../../docs/TECHNIQUES.md` → *Puay leng stems*, which also records that puay leng is true spinach despite the "Chinese spinach" label.
 15. 🥛 Soya milk **off the heat, never boiled after**.
 16. 🍋 Lemon **after** the soya milk, or at the table.
     > ⚠ These two conflict and the order matters: soy protein flocculates near pH 4.5. In a 3 kg pot buffered by potato and mushroom a squeeze will not get near that, but lemon at the table is both safer and fresher.
