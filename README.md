@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
-2. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
-3. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
-4. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
-5. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
-6. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
-7. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
-8. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
-9. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
-10. **[Quinoa (Anja)](anjas-cooking/quinoa.md)** — 2026-07-21
+1. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
+2. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
+3. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
+4. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
+5. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
+6. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
+7. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
+8. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
+9. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
+10. **[Chapati (Anja)](anjas-cooking/chapati.md)** — 2026-07-21
 
 ---
 
