@@ -927,6 +927,12 @@ it all boil off, and only then does searing start.
 Browning costs nothing in umami: shiitake's guanylate is heat-stable, so Maillard is added
 on top rather than traded against it.
 
+**What the mushrooms sit on, for oven roasting: a bare preheated sheet.** Decided 2026-11-04.
+
+- ⚠ **Not baking paper.** Mushrooms shed a lot of water in the dry phase. On bare metal it hits a hot surface and flashes off; under them, paper traps a film of liquid, goes limp, and the mushrooms steam in their own juice — exactly what the dry phase exists to prevent. Paper is also an insulating layer, so the undersides brown less. **Silicone mats are worse again**, being thicker. The usual reason to reach for paper is sticking, which barely arises here: in the dry phase there is no oil and the mushrooms are actively shedding water, and by the browning phase they have oil.
+- ⚠⚠ **Not a wire rack either, and this is the less obvious one.** A rack gives better all-round air circulation, but **what drips off is not just water** — mushroom liquor carries the free glutamate, the nucleotides and the sugars. On a sheet that liquid pools thinly, concentrates as it evaporates, and the solids end up back on the mushroom. On a rack it leaves, and scorches bitter on the tray below. **The rack is right for things eaten dry where the drippings do not matter; for mushrooms going into a dish, the drippings are part of what you are cooking for.** (If a rack is used anyway, put a few millimetres of water in the tray beneath so the drips land in liquid rather than scorching, and add that water to the pot.)
+- ✅ **Preheat the sheet**, so the mushrooms start evaporating on contact instead of warming slowly in their own liquid. ✅ **And do not crowd** — that dominates every other variable here.
+
 **Fresh stems, and why they are not a cold-soak ingredient.** Fresh shiitake stems stay
 woody however long they cook, so they come off the cap — but they are more intensely
 flavoured than the caps and are worth keeping for stock. ⚠ **Cold-soaking them does almost
