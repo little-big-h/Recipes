@@ -493,6 +493,34 @@ For tomato-acidic dishes that risk scorching:
 
 *Gauge pressures per the Instant Pot Singapore manual for this appliance class — High 70–80 kPa, Low 40–50 kPa — converted to saturation temperature at sea level. ⚠ Corrects the earlier ~120 °C / ~107 °C figures, which were wrong in both directions. The Ninja is assumed to sit in the same band; the manufacturer does not publish working pressure. See the F₀ arithmetic in the food-safety section above.*
 
+> ⚠ **Checked 2026-11-04 and the gap is confirmed, so do not go looking again.** The actual machine is a **Duo Plus `DPPC604`** and its own user manual **publishes no kPa or psi figure anywhere** — it exposes pressure only as a selectable "pressure level". The appliance-class band above remains the best available basis for these temperatures.
+
+### Sous Vide — Instant Pot Duo Plus `DPPC604`
+
+Recorded 2026-11-04 from the model's own manual. **The program does not use pressure**; it is a thermostat with the pot as the bath.
+
+| Program | Default temp | Default time | Max time |
+|:--|--:|--:|--:|
+| Custom | 56 °C | 3 h | 99 h 30 |
+| **Chicken** | **60 °C** | 2 h | 99 h 30 |
+| Beef | 54 °C | 2 h | 99 h 30 |
+| Egg | 70 °C | 30 min | 24 h |
+
+Temperature and time are both adjustable on the Control Dial. Automatic Keep Warm is **off** by default and Delay Start is **not available**.
+
+- **Lid on and locked.** The manual is explicit: *"You should use the pressure cooking lid to maintain an accurate temperature."* Locking it is for temperature stability, not pressure.
+- ⚠ **The manual does not publish the adjustable temperature range** — only the four defaults above. The min/max are unknown for this model. (The *Duo Evo Plus*, a different machine, publishes 25–90 °C; do not assume it transfers.)
+- ⚠ **The manual never mentions adding water.** Its preheat step says *"place the empty inner cooking pot into the cooker base"* and the kit list is tongs and bags only. There is no minimum or maximum liquid given for this program. That is an omission in the manual, not an instruction.
+- ⚠ **No circulation pump, and the element is in the base**, so the bath stratifies and anything resting on the bottom sits against the hottest surface. **Stir at the start and once midway.** Published reviews also report this machine is slow to reach temperature — allow for it in timing.
+
+**What it is actually good for here: kombu dashi.** The whole kombu technique is *hold below boiling and never let it boil* (see Kombu and homemade dashi above), which on a hob needs watching and here does not. **The Chicken program's 60 °C default is exactly the dashi target**, so no custom setting is needed — select Chicken, set 60 minutes.
+
+**Method, ignoring the manual's bagged-food flow:** kombu and cold water straight into the inner pot, no bag, 15–25 g kombu per litre. Lid on and locked. Chicken, 60 minutes. The preheat gives a cold steep and the program then holds the extraction sweet spot for an hour — better than either the cold brew or the hot-extraction method, because there is no window to miss. Skip the "wait for Hot, then add the pouch" step entirely.
+
+⚠⚠ **Frozen shiitake stems go in AFTER the bath reaches temperature, never at the start.** Freezing ruptures the cells but **does not kill the enzymes**, so the GMP temperature shape above still applies: fast through **40–50 °C** where phosphomonoesterase destroys 5′-GMP, then hold **60–70 °C** where ribonuclease makes it. **This machine's slow preheat is the problem** — stems added cold would sit in the destruction band for the whole ramp-up, losing guanylate on the way to making it. The kombu does not care, because glutamate extraction is not enzymatic.
+
+**So the sequence is:** kombu + cold water → 60 °C for 60 min → **pull the kombu** → **frozen stems straight in, no thawing**, into water already at 60 °C → another 30 min → then Sauté to bring the stock up. Dropping them in frozen matters: thawing on a board loses the liquid carrying what the ice crystals released. Strain properly at the end, since stems are woody.
+
 ### Pressure-cook times (concise reference)
 
 Detailed times in `Nussinow_Cooking_Times.md`. Quick reference:
