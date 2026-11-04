@@ -30,6 +30,19 @@ It did on 2026-09-24: the yellow curry corn soup was recorded against the IKEA
 5 L on exactly that reasoning and was actually in the Instant Pot, putting the
 yield out by 341 g.
 
+### The standard two-vessel workflow
+
+Recorded 2026-11-04, from Holger: **"base in Instant Pot, aromatics in the small wok."** This is the default division of labour for a soup or a braise in this kitchen, not a per-recipe choice, so plan around it rather than proposing single-vessel sequences.
+
+| Vessel | Job |
+|:--|:--|
+| **Instant Pot** (inner pot tare **867 g**) | The base — stock, the bulk vegetables, the long cook, the blend-down |
+| **Small wok**, the stainless steel one (tare **810 g**) | Aromatics — onion, garlic, ginger, a tadka, anything browned |
+
+**The consequence that matters: the fond ends up in the wok, not in the pot.** Browning aromatics is only worth doing if what sticks to the pan gets recovered, so **deglaze the wok with a ladle of the cooking liquid and pour it into the Instant Pot.** A plan that browns aromatics and then forgets this throws away the reason for browning them.
+
+**The second consequence is scheduling.** The two vessels run in parallel, so an unattended Instant Pot stage — a long pressure cook, or a sous vide dashi — is free time for the wok and the oven rather than a queue. Write timings as parallel tracks, not a sequence.
+
 ⚠ **Weigh the pot properly, once, rather than estimating it in the moment.** The
 IKEA 5 L was first given as "1500 g" on 2026-09-13 and re-weighed at 1208 g on
 2026-09-20 — a 292 g error, which is ~10% of a sauce yield and fed straight into
