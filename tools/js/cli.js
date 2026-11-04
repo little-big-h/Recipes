@@ -112,7 +112,23 @@ async function main() {
       // on it.
       const check = await verifyAgainstEndpoint(file, buildFoodNomsUrl(result, opts));
       if (!check.reachable) {
-        console.log(`\n  endpoint unreachable (${check.reason}) — file written, NOT cross-checked`);
+        if (check.kind === 'outage' || check.kind === 'unknown') {
+          console.log(`\n  endpoint unreachable (${check.reason}) — file written, NOT cross-checked`);
+        } else {
+          // Reached, understood, refused. Say so plainly: calling this an outage
+          // sends the reader hunting for a network fault that is not there.
+          console.log(`\n  ✗ endpoint REJECTED the request (${check.reason})`);
+          for (const f of check.fieldFailures) console.log(`    ${f}`);
+          if (check.fieldFailures.some((f) => /customNutrient/i.test(f))) {
+            console.log('    → the sparse-column rule: every row must carry the identical set of');
+            console.log('      nutrient names. Pad inline `nutrients` blocks to their union with');
+            console.log('      explicit zeros. Not possible for `ref`/`fdcId` rows — README.md.');
+          }
+          if (check.kind === 'url-too-long') {
+            console.log('    → shorten the notes, or drop nutrients — README.md, live v6 constraints.');
+          }
+          console.log('  file written, NOT cross-checked');
+        }
         break;
       }
       if (check.equivalent) {

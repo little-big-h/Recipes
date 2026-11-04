@@ -47,13 +47,24 @@ wrote Butternut and Red Lentil Soup.foodnoms (7264 bytes)
   ✓ equivalent to the Wolfram endpoint (recipe JSON + totals)
 ```
 
-Three outcomes:
+Four outcomes:
 
 - **✓ equivalent** — the file is trustworthy.
-- **endpoint unreachable** — the file still stands; it no longer depends on
-  Wolfram. Reported, not silently ignored.
+- **endpoint unreachable** — a transport failure or a 5xx. The file still
+  stands; it no longer depends on Wolfram. Reported, not silently ignored.
+- **✗ endpoint REJECTED the request** — the endpoint was reached, understood the
+  request and refused it (400, or 414 for length). **This is not an outage**, and
+  it is usually fixable in seconds. The endpoint's own `Failure` string and the
+  offending field names are printed, plus the fix where the fault is recognised
+  — see *live v6 constraints* below.
 - **✗ differs** — the diff is printed and the exit code is 1. Do not ship the
   file: two implementations disagreeing means one has a bug.
+
+**Rejection and unreachable are deliberately distinct**, because `CLAUDE.md`
+prescribes opposite responses: an unreachable endpoint means "ship the file and
+say it was not cross-checked", while a rejection means "the URL is wrong for this
+endpoint version, go and look". Conflating them was a real defect — see the note
+under the v6 constraints.
 
 ### The differential suite
 
@@ -316,13 +327,30 @@ Bisected at **3191 characters OK, 3197 failing**, and it returns **414**, not 40
 ⚠ **Do not read a 400 as "too long".** The 18-ingredient stir-fry at ~7000 chars
 is the only genuine 414 seen so far.
 
-⚠ **`build` reports every one of these as "endpoint unreachable".** That is wrong
-and it is the dangerous kind of wrong: per `CLAUDE.md` an unreachable endpoint
-means "ship the file, say it was not cross-checked", whereas all three faults
-above are fixable in seconds. **`build` should distinguish 400 (our URL is
-malformed for this endpoint version), 414 (genuinely too long) and a transport
-failure (actually unreachable), and print the endpoint's own `Failure` string,
-which names the offending field.** Not yet done.
+✅ **Fixed 2026-11-04. `build` used to report every one of these as "endpoint
+unreachable".** That was wrong, and wrong in the dangerous direction: per
+`CLAUDE.md` an unreachable endpoint means "ship the file, say it was not
+cross-checked", whereas all three faults above are fixable in seconds. It cost
+three manual `curl` checks on 2026-11-03/04 before anyone fixed it.
+
+`build` now classifies the status — **400 rejected**, **414 too long**, **5xx or
+a transport failure unreachable** — and prints the endpoint's own `Failure`
+string together with the per-field failures, which name the offending column.
+When the failing fields are `customNutrient*` it also prints the sparse-column
+fix. Example output on a three-ingredient recipe whose rows carry 11, 7 and ~30
+nutrient names:
+
+```
+  ✗ endpoint REJECTED the request (HTTP 400 — The API could not be evaluated
+    because the following fields contain failures: "customNutrientNames",
+    "customNutrientValues".)
+    customNutrientNames: Enter data in the required shape.
+    customNutrientValues: Enter data in the required shape.
+    → the sparse-column rule: every row must carry the identical set of
+      nutrient names. Pad inline `nutrients` blocks to their union with
+      explicit zeros. Not possible for `ref`/`fdcId` rows — README.md.
+  file written, NOT cross-checked
+```
 
 Deploying v8 removes constraints 1 and 2 — the set-interning sends each distinct
 nutrient list once and references it by id, so raggedness stops being expressible.
