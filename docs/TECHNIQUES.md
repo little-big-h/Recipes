@@ -215,15 +215,21 @@ The standing method here: vegetables are pre-cooked in the microwave, then finis
 wok, a soup or a hotpot. Times are **per 100 g, covered, with about a tablespoon of water**,
 in a **900 W output** oven (1600 W input).
 
-> ⚠⚠ **THIS TABLE WAS BUILT FOR A DIFFERENT APPLIANCE. The Singapore microwave is 700 W, a
-> separate machine from the 900 W one these figures were computed for** (confirmed
-> 2026-11-05). `CONTEXT.md` has always said 700 W and this section has always said 900 W;
-> they were not in conflict, they were describing two ovens, and nobody noticed the table
-> did not move with the kitchen.
+> ⚠⚠ **UNRESOLVED: THE POWER RATING IS IN DISPUTE AND THIS WHOLE TABLE RESTS ON IT.**
+> `CONTEXT.md` records the microwave as **700 W**; this section says **900 W output**
+> (1600 W input). Both cannot describe the same oven. Raised 2026-11-05, **not settled** —
+> an earlier version of this note claimed Holger had confirmed they were two separate
+> appliances. **He did not. That was a misreading and the claim is withdrawn.**
 >
-> **The correction is bounded, because only phase 1 depends on power.** Phase 2 is
-> conduction and pectin and does not care about watts, and for the dense items it is most of
-> the total. So **add a fixed amount to every figure in the table** rather than rescaling it:
+> Two possibilities, and the table is only right under one of them: either **one of the two
+> figures is simply wrong**, or **the 900 W oven was the UK one and did not move**, in which
+> case the table is calibrated for a machine this kitchen no longer has. **→ Read the plate
+> on the back or inside the door.** Output, not input.
+>
+> **If 700 W is the right figure, the correction is bounded, because only phase 1 depends on
+> power.** Phase 2 is conduction and pectin and does not care about watts, and for the dense
+> items it is most of the total. So **add a fixed amount to every figure in the table**
+> rather than rescaling it:
 >
 > | Power column | Phase 1 at 900 W | Phase 1 at 700 W | **Add to every time in that row** |
 > |:--|--:|--:|--:|
@@ -238,8 +244,9 @@ in a **900 W output** oven (1600 W input).
 > 15–20% penalty above 400 g, and the 1–2 minutes standing at reduced power are all
 > properties of the food and the geometry, not of the magnetron.
 >
-> **→ Retime a row or two on the 700 W oven and replace this note with corrected figures.**
-> The arithmetic above is a derivation, not a measurement.
+> **→ Settle the rating first, then retime a row or two on the actual oven and replace this
+> note with corrected figures.** The arithmetic above is a derivation from a disputed
+> number, not a measurement.
 
 **The model has two phases, and only the first depends on power.**
 
