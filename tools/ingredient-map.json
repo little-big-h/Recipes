@@ -3428,7 +3428,7 @@
   "per100": {
    "calcium": 78.8,
    "calories": 26.0,
-   "carbs": 0.8,
+   "carbs": 1.2,
    "cholesterol": 0.0,
    "fat": 1.3,
    "fatSaturated": 0.2,
@@ -3440,7 +3440,7 @@
    "sodium": 2.0,
    "sugars": 0.8
   },
-  "secondary": null,
+  "secondary": "label-carb-fibre-folded",
   "source": "label"
  },
  "local:7B3F6A29-5D84-4C10-9E62-1A8D4F7C3B05": {
