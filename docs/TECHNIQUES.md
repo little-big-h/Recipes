@@ -215,6 +215,32 @@ The standing method here: vegetables are pre-cooked in the microwave, then finis
 wok, a soup or a hotpot. Times are **per 100 g, covered, with about a tablespoon of water**,
 in a **900 W output** oven (1600 W input).
 
+> ⚠⚠ **THIS TABLE WAS BUILT FOR A DIFFERENT APPLIANCE. The Singapore microwave is 700 W, a
+> separate machine from the 900 W one these figures were computed for** (confirmed
+> 2026-11-05). `CONTEXT.md` has always said 700 W and this section has always said 900 W;
+> they were not in conflict, they were describing two ovens, and nobody noticed the table
+> did not move with the kitchen.
+>
+> **The correction is bounded, because only phase 1 depends on power.** Phase 2 is
+> conduction and pectin and does not care about watts, and for the dense items it is most of
+> the total. So **add a fixed amount to every figure in the table** rather than rescaling it:
+>
+> | Power column | Phase 1 at 900 W | Phase 1 at 700 W | **Add to every time in that row** |
+> |:--|--:|--:|--:|
+> | 100% | 40 s | 51 s | **+11 s** |
+> | 80% | 50 s | 64 s | **+14 s** |
+> | 70% | 57 s | 73 s | **+16 s** |
+> | frozen, 100% | 88 s | 113 s | **+25 s** |
+>
+> So 🥔 potato ready-to-eat goes from 5:05 to **5:21 per 100 g**, and 🥬 bok choi to soup from
+> 0:50 to **1:01** — proportionally much worse for the quick leafy rows than for the slow
+> dense ones. ⚠ **The scaling rules below are unaffected**: the 80–400 g linear window, the
+> 15–20% penalty above 400 g, and the 1–2 minutes standing at reduced power are all
+> properties of the food and the geometry, not of the magnetron.
+>
+> **→ Retime a row or two on the 700 W oven and replace this note with corrected figures.**
+> The arithmetic above is a derivation, not a measurement.
+
 **The model has two phases, and only the first depends on power.**
 
 - **Phase 1 — reaching 100 °C.** A fixed energy cost: 100 g of vegetable is ~90 g of water

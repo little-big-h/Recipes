@@ -85,7 +85,7 @@ Behavioural rather than purely sensory at times — patterns can shift. Treat as
 - **Big wok** (carbon steel) for sauté, simmer, finishing
 - **Large pans and pots** for general cooking
 - **Two bamboo steamers** for steaming separate components
-- **Microwave** (700 W; used as a fast cook-through / jumpstart station — e.g. onion softening, hasselback jacket potatoes)
+- **Microwave** (**700 W**; used as a fast cook-through / jumpstart station — e.g. onion softening, hasselback jacket potatoes). ⚠⚠ **This is a different machine from the 900 W oven the microwave pre-cooking table in `TECHNIQUES.md` was computed for** — that table did not move with the kitchen. Confirmed 2026-11-05. Every phase-1 figure there needs +11 to +25 s depending on the power column; the correction table is in that section.
 - **Standalone blender** for soups and sauces
 - **Oil sprayer / mister** — Holger's standard way to apply oil; ideal for getting a thin, even coat into awkward spots (e.g. down into hasselback cuts) with minimal oil
 
