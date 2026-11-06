@@ -452,3 +452,22 @@ carries a name a human can recognise.
 
 **Not yet fixed.** The 1/100 scaling is the serious half: it ships a wrong file
 that passes its own cross-check.
+
+### ⚠ `cleanFilename` strips the date stamp, so same-dish rebuilds silently overwrite
+
+Found 2026-11-06. `Tofu (Anja) [06-11-26] ✴️` and `Tofu (Anja) [04-11-26] ✴️`
+both write to **`Tofu (Anja).foodnoms`**. The second build overwrote the first
+with no warning, and the loss would have gone unnoticed had `git status` not
+been checked. Older files in `examples/` — `Chilli (Anja) [31-10-26].foodnoms`,
+`Broccoli with Oil [30-10-26].foodnoms` — keep their stamps, so the behaviour
+has changed at some point.
+
+**Until it is fixed, pass `-o` explicitly whenever a dish recurs:**
+
+```bash
+node cli.js build spec.json -o "Tofu (Anja) [06-11-26].foodnoms"
+```
+
+⚠ The same applies to any dish cooked more than once — broccoli and the Anja
+dishes are the obvious repeat offenders. **Check `git status` after a build**:
+an overwrite shows as a modified file where a new one was expected.

@@ -4307,6 +4307,29 @@
   "secondary": null,
   "source": null
  },
+ "local:C8B3E5A7-4D62-4109-8F37-2A6E9C1D5B40": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Fortune",
+  "foodID": "local:C8B3E5A7-4D62-4109-8F37-2A6E9C1D5B40",
+  "name": "Traditional Tau Kwa (Fortune)",
+  "per100": {
+   "calcium": 219,
+   "calories": 113,
+   "carbs": 4,
+   "cholesterol": 0,
+   "fat": 6.6,
+   "fatSaturated": 1.2,
+   "fatTrans": 0,
+   "fiber": 2.6,
+   "protein": 12,
+   "sodium": 139,
+   "sugars": 1
+  },
+  "secondary": "label-carb-fibre-folded",
+  "source": "label"
+ },
  "local:C9E4B178-4A63-4D05-8E27-1B9F6C3A5D40": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
