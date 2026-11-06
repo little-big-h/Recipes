@@ -416,3 +416,39 @@ exists to protect, and would go red whenever USDA did.
 
 Uses the project's free FDC key (the same one committed in `tools/fdc-lookup.wl`).
 Override with `FDC_API_KEY=... ` to spend a different key's quota.
+
+### ⚠ Known bug: `patch` + `emit: "fooddef"` scales every nutrient by 1/100
+
+Found 2026-11-06 building a standalone purple sweet potato record.
+
+```json
+{ "fdcId": 168482, "grams": 100, "patch": { "vitaminA": -709 },
+  "foodnoms": { "emit": "fooddef" } }
+```
+
+writes a `contentType 3` block that declares `baseAmount: 100 gram` but carries
+**per-gram values** — 0.86 kcal where it should be 86, 0.2012 g carbohydrate
+where it should be 20.12. Every nutrient is out by 100×, and nothing in the
+build output says so, because the cross-check compares against an endpoint that
+makes the same mistake and therefore reports **✓ equivalent**.
+
+**The recipe path is not affected.** `Purple Sweet Potato & Soybean Soup
+[30-10-26].foodnoms` was checked and carries the patched entry correctly, at
+836 g with `vitaminA: 0`. The fault is specific to the combination of a patch
+with the standalone `fooddef` emit.
+
+⚠ **A second problem with the same combination, independent of the arithmetic:**
+the emitted food is named after the *base* record — `🩹 Sweet potato, raw,
+unprepared (Includes foods for USDA's Food Distribution Program) #Patched`.
+That is the wrong name on a device for a food whose entire purpose is to be
+distinguishable from the unpatched one.
+
+**Workaround, and what was done here:** add a named entry to
+`tools/ingredient-map.json` with the corrected values and a `source` /
+`secondary` pair recording the base record and the adjustment — e.g.
+`usda+correction` / `usda-168482-vitaminA-zeroed` — then emit the `fooddef`
+from a `ref`. Provenance is preserved in the documented way and the food
+carries a name a human can recognise.
+
+**Not yet fixed.** The 1/100 scaling is the serious half: it ships a wrong file
+that passes its own cross-check.
