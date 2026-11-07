@@ -2,7 +2,7 @@
 
 *A German/South-Asian savoury bake for the Christmas event at the German school. Sheet-pan Zwiebelkuchen with two substitutions doing the work: the **Kümmel becomes Kreuzkümmel** — caraway out, cumin in, the two words a prefix apart in German — and the Speck becomes browned mushroom — 🍄 king oyster and 🍄‍🟫 shiitake. The base is **100% atta**, which is the only structural fusion element in the dish; everything else South Asian here is a seasoning. No chilli, no white flour, and 🥬 nothing that needs cutlery. Cuts into roughly 24 squares eaten by hand.*
 
-> ⚠ **COOKED 07-11-2026, and the quantities above are what actually went in**, not the plan. Where they differ from the design the reason is written beside them. Still outstanding: the sweated-onion weight, the two mushrooms out of the oven, and the baked tray — see **Weigh-ins** under Design notes. Full reasoning, including everything considered and rejected, is in [`design/MASALA-ZWIEBELKUCHEN.md`](../../design/MASALA-ZWIEBELKUCHEN.md).
+> ⚠ **COOKED 07-11-2026, and the quantities above are what actually went in**, not the plan. Where they differ from the design the reason is written beside them. **Eaten at the German school the same day and well received** — reactions and the three requested changes are under **Version 2** below. Still outstanding: the sweated-onion weight and the two mushrooms out of the oven — see **Weigh-ins** under Design notes. Full reasoning, including everything considered and rejected, is in [`design/MASALA-ZWIEBELKUCHEN.md`](../../design/MASALA-ZWIEBELKUCHEN.md).
 
 ---
 
@@ -59,7 +59,7 @@
 
 4. **Tadka:** bloom 🌰 4 g cumin, 🌼 mustard and 🌿 fennel in 🥑 15 g oil until the seeds pop. Then 🫚 ginger, then 🌻 turmeric.
 5. 🧅 Onions in on top of that, with 🧀 nooch, 🍄‍🟫 shiitake powder and 🧂 1 g salt. **Sweat soft with no colour.**
-   > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1250 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
+   > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1316 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
 6. 🥭 **Amchur in at the very end.** It is a dried fruit powder and long dry heat dulls it and pushes it bitter.
 
 ### 3. Speck layer — oven
@@ -111,9 +111,9 @@
 
 ⚠ **That makes it a dense square, not a light one: 190 kcal per 100 g.** All the water left and the solids stayed. Worth knowing for the event — 24 squares of 65 g is a canapé portion rather than a slice.
 
-**80 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1250 g of onion rather than anything added. **Saturated fat is 13.1 g against 90.4 g total** — 14% — because the fat is avocado oil, egg yolk and tofu rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
+**80 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1316 g of onion rather than anything added. **Saturated fat is 13.1 g against 90.4 g total** — 14% — because the fat is avocado oil and egg yolk rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
 
-⚠ **USDA-derived, not FoodNoms-verified**, and planned rather than cooked.
+⚠ **USDA-derived, not FoodNoms-verified.** The quantities are the as-cooked ones; the nutrient values are USDA-resolved.
 
 ⚠ **Some totals are floors.** Coverage runs from 1 to 19 of 19 rows depending on the nutrient; biotin comes from a single ingredient and alcohol from two, so read those as minimums. Macros are covered by 18 or 19 of 19. Micros are committed best-estimates and final, per the project's macros-versus-micros rule.
 
@@ -126,7 +126,7 @@
 ## Design notes
 
 - **The fusion is two substitutions, not a pile of spices.** Kümmel → Kreuzkümmel on top, and Speck → browned tau kwa plus king oyster. The atta base is the third and the only structural one.
-- **Why the Speck layer is all mushroom.** Speck gives discrete chewy pieces, fat, salt and smoke. Tau kwa was in the design for the pieces and the protein, and king oyster for the chew — but only silken tofu was available on the day and silken cannot be diced or browned. Mushroom took the whole layer rather than tofu taking a larger share, because pale wet cubes in a custard are the standard failure of this substitution. Smoke is dropped rather than faked. ⚠ **The cost is about 26 g of protein across the tray**, which is why the per-square protein drops from 5.8 g to 4.9 g.
+- **Why the Speck layer is all mushroom.** Speck gives discrete chewy pieces, fat, salt and smoke. Tau kwa was in the design for the pieces and the protein, and king oyster for the chew — but only silken tofu was available on the day and silken cannot be diced or browned. Mushroom took the whole layer rather than tofu taking a larger share, because pale wet cubes in a custard are the standard failure of this substitution. Smoke is dropped rather than faked. ⚠ **The cost is about 26 g of protein across the tray**, which is why the per-square protein drops from 5.8 g to 5.0 g.
 - **1316 g of onion is not a typo.** The onion volume is the body of the dish, and a thin onion layer is the most common way this bake fails.
 - **Zero white flour is a rule.** If the base comes out crumbly the ladder is: more gluten (15 → 25 g), then less oil (fat shortens dough, so cutting it helps), then a thicker base, then an egg in the dough. Sifting out the bran is not on the ladder — that is making white flour by hand.
 - **Considered and rejected:** chestnuts, sumac, lemongrass and makrut lime leaves, and ordinary wholemeal in place of atta. Each with reasoning in the design doc, so none of them gets re-proposed.
@@ -141,3 +141,47 @@
 | ~~Tray assembled → tray baked~~ | ✅ **Done: 1550 g.** 45% of the total input lost, against a planned estimate of 1970 g. |
 | **Does a square survive four hours at room temperature?** | The go/no-go for the school, and not a number. |
 | **100% atta + gluten vs 100% atta plain** | Press both on one tray. If the plain half holds, the gluten goes back to being seitan flour. |
+
+---
+
+## Version 2 — asked for after the first cook
+
+**Reception, 07-11-2026.** Anja and Julina loved it, Jannes liked it a lot, Lara complained about the mushrooms. Two slices went to an Indian friend; his verdict is not in yet, and it is the one that tests whether the masala half of the fusion actually reads as masala to someone who grew up with it.
+
+**Holger asked for three changes, all of them seasoning, none of them structural:**
+
+| Change | v1 | v2 | Why |
+|:-------|---:|---:|:----|
+| 🧂 Salt | 5 g | **20 g** | Asked for directly. Split **6 g in the dough / 14 g on the onions** — see the dough note below. |
+| 🧀 Nutritional yeast | 5 g | **15 g** | For cheesiness. A Zwiebelkuchen normally has no cheese in it, but it does have the dairy-and-bacon register that the nooch is standing in for, and 5 g across 2.6 kg was too little to be tasted as anything. |
+| 🥭 Amchur | 5 g | **12 g** | For tanginess. 5 g was set as a trivial, barely-perceptible dose; 12 g is roughly 0.8% of the onion layer, which is normal Indian practice for amchur on a vegetable. |
+
+Nothing else moves. The onion, the mushrooms, the base and the bake all held, so they stay as they are.
+
+### What the three changes require in the method
+
+1. **Salt in the dough stays low, and the rest goes on the onions.** 6 g against 324 g of flour is 1.85% — ordinary bread salt, and the yeast is unbothered. Putting a large share of 20 g in the dough would slow the rise noticeably, and salt in a dough does not reach the part of the dish that tastes under-seasoned anyway. The onion layer is where the seasoning is read.
+2. ⚠ **14 g of salt on 1316 g of onion pulls water out faster, so the sweat behaves differently.** The onions will release liquid sooner and more of it. Sweat them until that liquid has gone again, not just until they are soft — otherwise the extra water lands in the custard. **Expect the yield to come in a little under 1550 g**, not over.
+3. ⚠ **12 g of amchur is enough acid to matter to the custard, where 5 g was not.** Amchur is roughly 15% citric acid, so this is about 1.8 g of acid, and soy protein flocculates near pH 4.5. The existing defence holds but has to be followed properly: **the amchur goes on the onions at the end of the sweat and never into the custard**, and the onion layer should be **off the heat and no longer steaming** when the custard is poured over it. Hot acidic onion plus soya-milk custard is how this curdles.
+4. **The nooch goes in with the onions as before**, not on top. Nooch toasted dry on the surface of a 200 °C bake goes bitter.
+
+### Nutrition after the three changes (not yet cooked)
+
+| Macro | v1 as cooked | v2 planned |
+|:------|-------------:|-----------:|
+| Energy | 2939 kcal | **2996 kcal** |
+| Protein | 119 g | **124 g** |
+| Carbohydrates | 417 g | **427 g** |
+| Fat | 90.4 g | **90.9 g** |
+| — of which saturates | 13.1 g | **13.2 g** |
+| Fibre | 80.0 g | **82.2 g** |
+| Salt | 6.0 g | **20.1 g** |
+| Potassium | 5310 mg | **5330 mg** |
+| Folate | 714 µg | **719 µg** |
+
+The nooch is doing almost all of the nutritional work in that column: 10 g of it carries about 5 g of protein, the folate and the B-vitamin load. The amchur adds sugars and the 7 g of fibre difference. Computed with `cli.js compute`; no `.foodnoms` file is written for v2 until it is cooked.
+
+### Lara and the mushrooms
+
+Worth separating from the seasoning changes, because it is not a seasoning problem and **no quantity change fixes it.** Lara has scored two mushroom dishes near her ceiling — the Thai shiitake soup 7.8 and the squash-sage-onion quiche 7.5 — and in both of those the mushroom was **invisible**: blended smooth in the soup, powder in the quiche. Here it was 450 g of 8 mm dice sitting on top where it cannot be missed. That is the same shape as her already-recorded rule about silken tofu and cottage cheese, which are fine blended and a problem in visible pieces. **The hypothesis is that she objects to recognisable mushroom pieces, not to mushroom flavour** — see observation 58 in `../../docs/RATINGS.md`. If a Lara-friendly version is ever wanted, the lever is form: shiitake powder plus a smaller dice, or mushroom duxelles stirred through the onion instead of a discrete layer. Not planned for v2 — the mushroom layer is the Speck substitute and the dish loses its point without it.
+
