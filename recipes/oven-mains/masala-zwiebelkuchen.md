@@ -1,6 +1,6 @@
 # Masala-Zwiebelkuchen [07-11-26] ✴️
 
-*A German/South-Asian savoury bake for the Christmas event at the German school. Sheet-pan Zwiebelkuchen with two substitutions doing the work: the **Kümmel becomes Kreuzkümmel** — caraway out, cumin in, the two words a prefix apart in German — and the Speck becomes 🧊 browned tau kwa plus 🍄 browned king oyster. The base is **100% atta**, which is the only structural fusion element in the dish; everything else South Asian here is a seasoning. No chilli, no white flour, and 🥬 nothing that needs cutlery. Cuts into roughly 24 squares eaten by hand.*
+*A German/South-Asian savoury bake for the Christmas event at the German school. Sheet-pan Zwiebelkuchen with two substitutions doing the work: the **Kümmel becomes Kreuzkümmel** — caraway out, cumin in, the two words a prefix apart in German — and the Speck becomes browned mushroom — 🍄 king oyster and 🍄‍🟫 shiitake. The base is **100% atta**, which is the only structural fusion element in the dish; everything else South Asian here is a seasoning. No chilli, no white flour, and 🥬 nothing that needs cutlery. Cuts into roughly 24 squares eaten by hand.*
 
 > ⚠ **PLANNED, NOT COOKED.** Every quantity is design, not measurement. The *Actual used* column is empty on purpose — see **Weigh-ins** under Design notes. Full reasoning, including everything considered and rejected, is in [`design/MASALA-ZWIEBELKUCHEN.md`](../../design/MASALA-ZWIEBELKUCHEN.md).
 
@@ -11,12 +11,11 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🟡 | 🧅 Onions, sliced (sweated **pale**) | 1250 g | 475 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟢 | 🫓 Atta, chakki-ground wholemeal | 320 g | 1184 | | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
+| 🟢 | 🫓 Atta, chakki-ground wholemeal | 324 g | 1199 | | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
 | 🟤 | 💪 Vital wheat gluten | 16 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
 | 🔵 | 💧 Water, warm (dough) | ~230 ml | 0 | | |
 | 🟣 | 🫧 Instant yeast | 7 g | 23 | | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
-| 🟤 | 🧊 Tau kwa, 8 mm dice (browned dry) | 200 g | 234 | | label |
-| 🟢 | 🍄 King oyster, 8 mm dice (browned dry) | 250 g | 116 | | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
+| 🟢 | 🍄 King oyster, 8 mm dice (browned dry) | 180 g | 83 | | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
 | 🟤 | 🥚 Egg (custard) | 3 (~150 g) | 215 | | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
 | 🟤 | 🥛 Soya milk, NutriSoy plain (custard) | 200 ml | 84 | | label |
 | 🟠 | 🌽 Corn flour, slaked (custard) | 15 g | 57 | | [usda](https://fdc.nal.usda.gov/food-details/169698/nutrients) |
@@ -30,11 +29,12 @@
 | ⚪ | 🥭 Amchur (in **late**) | 5 g | 16 | | proxy |
 | 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
 | 🟣 | 🧂 Salt (4 dough / 1 onions) | 5 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| | **Total** | **~2.74 kg** | **~3062** | | |
+| 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 270 g | 119 | | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
+| | **Total** | **~2.75 kg** | **~2929** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2513 g; with the dough water that is ~2.74 kg going in, against an estimated **1970 g** out once the onions sweat, the tofu and mushroom brown and the tart bakes. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2517 g; with the dough water that is ~2.74 kg going in, against an estimated **1970 g** out once the onions sweat, the tofu and mushroom brown and the tart bakes. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
 
 ---
 
@@ -64,7 +64,9 @@
 
 ### 3. Speck layer — oven
 
-7. 🧊 Tau kwa and 🍄 king oyster in 8 mm dice, **browned hard and dry, separately** — they are not done at the same moment and sharing a pan means one of them is wrong. Oil (🥑 10 g) only once the surfaces have gone matte.
+7. 🍄 King oyster and 🍄‍🟫 shiitake caps in 8 mm dice, **browned hard and dry.** Oil (🥑 10 g) only once the surfaces have gone matte. The two can share a tray — both are mushroom and shed water similarly — but **shiitake caps are thinner and colour first, so pull them when they are done** rather than waiting for the king oyster.
+   > ⚠ **Shiitake caps only.** The stems stay woody through a bake. Bag them for the freezer, where they are the dashi ingredient.
+   > ⚠⚠ **This layer was 200 g tau kwa + 250 g king oyster until 07-11-2026.** Only silken tofu was in the house on the day, and silken cannot do this job at all — at roughly 90% water and set with GDL, 8 mm cubes collapse the moment they meet a hot pan. **Mushroom took the whole layer rather than tofu taking a larger share**, because the tofu was there for discrete pieces and the mushroom for chew, and a layer that is mostly pale wet cubes is the exact failure the two-component substitution existed to avoid.
    > Bare preheated metal, **not paper and not a rack** — see `../../docs/TECHNIQUES.md`.
 
 ### 4. Base
@@ -76,7 +78,7 @@
 
 10. **Slake** 🌽 15 g corn flour into a little cold 🥛 soya milk, then whisk in the rest of the milk and the 🥚 eggs. Dropped in dry it lumps.
     > ⚠ **No acid in the custard.** Soy protein flocculates near pH 4.5. The dish's acid is the 🥭 amchur in the onions, deliberately.
-11. Onions over the base, then the browned 🧊 and 🍄, then pour the custard over.
+11. Onions over the base, then the browned 🍄 and 🍄‍🟫, then pour the custard over.
 12. 🌰 **2 g whole cumin scattered on top, and nothing else.** This is the whole joke and it has to be seen.
 
 ### 6. Bake
@@ -91,18 +93,18 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3062 kcal | Iron | 26.3 mg |
-| Protein | 139 g | Calcium | 1635 mg |
-| Carbohydrates | 405 g | Zinc | 17.7 mg |
-| — of which sugars | 80.4 g | Magnesium | 667 mg |
-| Fat | 100 g | Potassium | 4731 mg |
-| — of which saturates | 14.8 g | Vitamin D | 4.5 µg |
-| Fibre | 76.4 g | Vitamin B12 | 1.3 µg |
-| Salt | 6.0 g | Folate | 614 µg |
+| Energy | 2929 kcal | Iron | 26.6 mg |
+| Protein | 118 g | Calcium | 944 mg |
+| Carbohydrates | 415 g | Zinc | 19.5 mg |
+| — of which sugars | 78.8 g | Magnesium | 701 mg |
+| Fat | 90.3 g | Potassium | 5196 mg |
+| — of which saturates | 13.0 g | Vitamin D | 4.6 µg |
+| Fibre | 79.0 g | Vitamin B12 | 1.3 µg |
+| Salt | 6.0 g | Folate | 703 µg |
 
-**Per square at 24:** 128 kcal, 5.8 g protein, 3.2 g fibre. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
+**Per square at 24:** 122 kcal, 4.9 g protein, 3.3 g fibre. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
-**76 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1250 g of onion rather than anything added. **Saturated fat is 14.8 g against 100 g total** — 15% — because the fat is avocado oil, egg yolk and tofu rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
+**79 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1250 g of onion rather than anything added. **Saturated fat is 13.0 g against 90.3 g total** — 14% — because the fat is avocado oil, egg yolk and tofu rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
 
 ⚠ **USDA-derived, not FoodNoms-verified**, and planned rather than cooked.
 
@@ -117,7 +119,7 @@
 ## Design notes
 
 - **The fusion is two substitutions, not a pile of spices.** Kümmel → Kreuzkümmel on top, and Speck → browned tau kwa plus king oyster. The atta base is the third and the only structural one.
-- **Why tofu alone will not replace Speck.** Speck gives discrete chewy pieces, fat, salt and smoke. Tau kwa cubes left pale in a custard read as blank white squares — the standard failure. 🍄 King oyster supplies the chew that tofu cannot; smoke is dropped rather than faked.
+- **Why the Speck layer is all mushroom.** Speck gives discrete chewy pieces, fat, salt and smoke. Tau kwa was in the design for the pieces and the protein, and king oyster for the chew — but only silken tofu was available on the day and silken cannot be diced or browned. Mushroom took the whole layer rather than tofu taking a larger share, because pale wet cubes in a custard are the standard failure of this substitution. Smoke is dropped rather than faked. ⚠ **The cost is about 26 g of protein across the tray**, which is why the per-square protein drops from 5.8 g to 4.9 g.
 - **1250 g of onion is not a typo.** The onion volume is the body of the dish, and a thin onion layer is the most common way this bake fails.
 - **Zero white flour is a rule.** If the base comes out crumbly the ladder is: more gluten (15 → 25 g), then less oil (fat shortens dough, so cutting it helps), then a thicker base, then an egg in the dough. Sifting out the bran is not on the ladder — that is making white flour by hand.
 - **Considered and rejected:** chestnuts, sumac, lemongrass and makrut lime leaves, and ordinary wholemeal in place of atta. Each with reasoning in the design doc, so none of them gets re-proposed.
@@ -128,7 +130,7 @@
 |:------------|:----|
 | ~~Tray internal dimensions~~ | ✅ **Measured 2026-11-07: 40 × 30 cm = 1200 cm².** Quantities below are scaled to it. |
 | 🧅 Onion peeled in → sweated out | No sweated-onion losses row exists on file. |
-| 🧊 and 🍄 raw in → browned out | No browned-tofu row either, and only one mushroom row. |
+| 🍄 and 🍄‍🟫 raw in → browned out | Only one roasted-mushroom row exists on file. Two varieties in one session would give two. |
 | Tray assembled → tray baked | Replaces the estimated 1900 g yield. |
 | **Does a square survive four hours at room temperature?** | The go/no-go for the school, and not a number. |
 | **100% atta + gluten vs 100% atta plain** | Press both on one tray. If the plain half holds, the gluten goes back to being seitan flour. |
