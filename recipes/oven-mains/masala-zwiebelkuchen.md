@@ -10,10 +10,10 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟡 | 🧅 Onions, sliced (sweated **pale**) | 1200 g | 456 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟢 | 🫓 Atta, chakki-ground wholemeal | 300 g | 1110 | | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
-| 🟤 | 💪 Vital wheat gluten | 15 g | 56 | | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
-| 🔵 | 💧 Water, warm (dough) | ~215 ml | 0 | | |
+| 🟡 | 🧅 Onions, sliced (sweated **pale**) | 1250 g | 475 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟢 | 🫓 Atta, chakki-ground wholemeal | 320 g | 1184 | | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
+| 🟤 | 💪 Vital wheat gluten | 16 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
+| 🔵 | 💧 Water, warm (dough) | ~230 ml | 0 | | |
 | 🟣 | 🫧 Instant yeast | 7 g | 23 | | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
 | 🟤 | 🧊 Tau kwa, 8 mm dice (browned dry) | 200 g | 234 | | label |
 | 🟢 | 🍄 King oyster, 8 mm dice (browned dry) | 250 g | 116 | | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
@@ -28,13 +28,13 @@
 | 🟣 | 🧀 Nutritional yeast | 5 g | 17 | | local |
 | 🟠 | 🍄‍🟫 Dried shiitake powder | 4 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
 | ⚪ | 🥭 Amchur (in **late**) | 5 g | 16 | | proxy |
-| 🟣 | 🥑 Neutral oil (30 dough / 15 tadka / 10 browning) | 55 g | 486 | | local |
+| 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
 | 🟣 | 🧂 Salt (4 dough / 1 onions) | 5 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| | **Total** | **~2.65 kg** | **~2947** | | |
+| | **Total** | **~2.74 kg** | **~3062** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2440 g; with the dough water that is ~2.65 kg going in, against an estimated **1900 g** out once the onions sweat, the tofu and mushroom brown and the tart bakes. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2513 g; with the dough water that is ~2.74 kg going in, against an estimated **1970 g** out once the onions sweat, the tofu and mushroom brown and the tart bakes. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
 
 ---
 
@@ -50,16 +50,16 @@
 
 ### 1. Dough — start first, it gates everything
 
-1. **Autolyse.** Mix the 🫓 atta and ~215 ml warm 💧 alone. Rest **30 minutes**. No yeast, no salt, no oil yet.
+1. **Autolyse.** Mix the 🫓 atta and ~230 ml warm 💧 alone. Rest **30 minutes**. No yeast, no salt, no oil yet.
    > The highest-value step in this dough and it costs only clock time. The bran hydrates and softens so its edges cut less gluten, and gluten develops without kneading.
-2. Add 🫧 yeast, 🧂 4 g salt, 💪 vital wheat gluten and 🥑 30 g oil. Knead to a smooth, slightly tacky dough. **Judge the water by feel** — atta's chakki-damaged starch is unusually thirsty and 215 ml is a starting point, not a target.
+2. Add 🫧 yeast, 🧂 4 g salt, 💪 16 g vital wheat gluten and 🥑 32 g oil. Knead to a smooth, slightly tacky dough. **Judge the water by feel** — atta's chakki-damaged starch is unusually thirsty and 230 ml is a starting point, not a target.
 3. Rise until roughly doubled, about **80 minutes**.
 
 ### 2. Onions — small wok
 
 4. **Tadka:** bloom 🌰 4 g cumin, 🌼 mustard and 🌿 fennel in 🥑 15 g oil until the seeds pop. Then 🫚 ginger, then 🌻 turmeric.
 5. 🧅 Onions in on top of that, with 🧀 nooch, 🍄‍🟫 shiitake powder and 🧂 1 g salt. **Sweat soft with no colour.**
-   > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1200 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
+   > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1250 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
 6. 🥭 **Amchur in at the very end.** It is a dried fruit powder and long dry heat dulls it and pushes it bitter.
 
 ### 3. Speck layer — oven
@@ -69,7 +69,7 @@
 
 ### 4. Base
 
-8. Press the dough thin into the tray with a **2 cm rim**. Sized for ~38 × 30 cm.
+8. Press the dough thin into the tray with a **2 cm rim**. **The tray is 40 × 30 cm**, measured 2026-11-07.
 9. **Pre-bake 12 minutes at 220 °C, convection with fan.** Not traditional, and necessary: a thin base under a wet topping goes soggy underneath, and a square that cannot be picked up by hand is useless at a buffet. 12 rather than 10 because wholemeal is more porous and lets topping moisture through faster.
 
 ### 5. Custard and assembly
@@ -87,22 +87,22 @@
 
 ## Nutrition
 
-**Whole recipe** (≈1.9 kg, ~24 squares):
+**Whole recipe** (≈1.97 kg, ~24 squares):
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2947 kcal | Iron | 25.4 mg |
-| Protein | 135 g | Calcium | 1617 mg |
-| Carbohydrates | 387 g | Zinc | 17.0 mg |
-| — of which sugars | 77.5 g | Magnesium | 636 mg |
-| Fat | 97.9 g | Potassium | 4569 mg |
-| — of which saturates | 14.6 g | Vitamin D | 4.5 µg |
-| Fibre | 73.4 g | Vitamin B12 | 1.3 µg |
-| Salt | 6.0 g | Folate | 597 µg |
+| Energy | 3062 kcal | Iron | 26.3 mg |
+| Protein | 139 g | Calcium | 1635 mg |
+| Carbohydrates | 405 g | Zinc | 17.7 mg |
+| — of which sugars | 80.4 g | Magnesium | 667 mg |
+| Fat | 100 g | Potassium | 4731 mg |
+| — of which saturates | 14.8 g | Vitamin D | 4.5 µg |
+| Fibre | 76.4 g | Vitamin B12 | 1.3 µg |
+| Salt | 6.0 g | Folate | 614 µg |
 
-**Per square at 24:** 123 kcal, 5.6 g protein, 3.1 g fibre.
+**Per square at 24:** 128 kcal, 5.8 g protein, 3.2 g fibre. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
-**73 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1200 g of onion rather than anything added. **Saturated fat is 14.6 g against 97.9 g total** — 15% — because the fat is avocado oil, egg yolk and tofu rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
+**76 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1250 g of onion rather than anything added. **Saturated fat is 14.8 g against 100 g total** — 15% — because the fat is avocado oil, egg yolk and tofu rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
 
 ⚠ **USDA-derived, not FoodNoms-verified**, and planned rather than cooked.
 
@@ -118,7 +118,7 @@
 
 - **The fusion is two substitutions, not a pile of spices.** Kümmel → Kreuzkümmel on top, and Speck → browned tau kwa plus king oyster. The atta base is the third and the only structural one.
 - **Why tofu alone will not replace Speck.** Speck gives discrete chewy pieces, fat, salt and smoke. Tau kwa cubes left pale in a custard read as blank white squares — the standard failure. 🍄 King oyster supplies the chew that tofu cannot; smoke is dropped rather than faked.
-- **1200 g of onion is not a typo.** The onion volume is the body of the dish, and a thin onion layer is the most common way this bake fails.
+- **1250 g of onion is not a typo.** The onion volume is the body of the dish, and a thin onion layer is the most common way this bake fails.
 - **Zero white flour is a rule.** If the base comes out crumbly the ladder is: more gluten (15 → 25 g), then less oil (fat shortens dough, so cutting it helps), then a thicker base, then an egg in the dough. Sifting out the bran is not on the ladder — that is making white flour by hand.
 - **Considered and rejected:** chestnuts, sumac, lemongrass and makrut lime leaves, and ordinary wholemeal in place of atta. Each with reasoning in the design doc, so none of them gets re-proposed.
 
@@ -126,7 +126,7 @@
 
 | Measurement | Why |
 |:------------|:----|
-| Tray internal dimensions | The 1200 g of onion scales off **area**. Measure before, not after. |
+| ~~Tray internal dimensions~~ | ✅ **Measured 2026-11-07: 40 × 30 cm = 1200 cm².** Quantities below are scaled to it. |
 | 🧅 Onion peeled in → sweated out | No sweated-onion losses row exists on file. |
 | 🧊 and 🍄 raw in → browned out | No browned-tofu row either, and only one mushroom row. |
 | Tray assembled → tray baked | Replaces the estimated 1900 g yield. |

@@ -72,18 +72,22 @@ Phase 1 removes the water so that phase 2 has nothing to release onto the pan. A
 
 ## Plan — one tray
 
-Sized for roughly **38 × 30 cm**. **→ record** the actual Fujioh tray dimensions, because the onion quantity scales off area, not off the other ingredients.
+✅ **Tray measured 2026-11-07: 40 × 30 cm = 1200 cm²**, against the 1140 cm² this plan assumed — **5% more area.**
+
+⚠ **Only the dough and the onion were scaled, and that is a deliberate limit rather than laziness.** 5% is below the resolution of most of this recipe: three eggs cannot be scaled by 1.05, and the spices are measured in whole grams. The two quantities where 5% is visible are the **dough**, which has to reach the corners and still make a 2 cm rim, and the **onion**, which is the body of the dish. Atta 300 → **320 g**, gluten 15 → **16 g**, water ~215 → **~230 ml**, dough oil 30 → **32 g**, onion 1200 → **1250 g**. Everything else stands.
+
+**Cut 6 × 4 on the 40 cm side: 24 squares of about 6.7 × 7.5 cm.**
 
 ### Base
 
 | Ingredient | Amount |
 |:-----------|-------:|
-| 🫓 Atta (chakki-ground wholemeal) | **300 g** — 🛒 not recorded locally |
-| 💪 Vital wheat gluten | **15 g** — 🛒 absent, see below |
-| 💧 Water, warm | ~215 ml — **by feel, not by number** |
+| 🫓 Atta (chakki-ground wholemeal) | **320 g** — 🛒 not recorded locally |
+| 💪 Vital wheat gluten | **16 g** — 🛒 absent, see below |
+| 💧 Water, warm | ~230 ml — **by feel, not by number** |
 | 🫧 Instant yeast | 7 g |
 | 🧂 Salt | 4 g |
-| 🥑 Neutral oil | 30 g |
+| 🥑 Neutral oil | 32 g |
 
 **No white flour anywhere in this bake** — not in the base, and not in the custard, which carried 25 g of it until 2026-11-03. If the base comes out crumbly the answer is still not white flour: see the zero-white-flour section below for the ladder.
 
@@ -143,7 +147,7 @@ Sifting the bran out is **not** on the ladder — that is manufacturing white fl
 
 | Ingredient | Amount |
 |:-----------|-------:|
-| 🧅 Onions, peeled and sliced | **1200 g** |
+| 🧅 Onions, peeled and sliced | **1250 g** |
 | 🌰 Cumin seed, whole (tadka) | 4 g |
 | 🌼 Mustard seed, brown **or yellow** | 3 g |
 | 🌿 Fennel seed | 2 g |
@@ -288,7 +292,7 @@ The onions and the Speck-layer mix both keep overnight, so a weekday-evening tes
 | 🍄 King oyster, raw → after oven → after skillet | **First oven-roasted king oyster row**, and the first split between oven-dewatering and pan-browning. |
 | 🧊 Tau kwa, in → out | No browned-tofu loss row on file. |
 | Tray assembled → tray baked | Gives the bake loss and the real salt-per-100 g. |
-| Tray internal dimensions | Needed to scale the onion mass for the event. |
+| ~~Tray internal dimensions~~ | ✅ **Done 2026-11-07: 40 × 30 cm.** Quantities scaled. |
 
 ---
 
