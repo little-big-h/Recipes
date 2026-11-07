@@ -34,7 +34,7 @@
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2579 g; with the dough water that is ~2.74 kg going in, against an estimated **1970 g** out once the onions sweat, the tofu and mushroom brown and the tart bakes. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2579 g; with the dough water that is ~2.81 kg going in, against **1550 g measured out** once the onions sweated, the mushrooms browned and the tart baked. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
 
 ---
 
@@ -92,7 +92,7 @@
 
 ## Nutrition
 
-**Whole recipe** (≈1.97 kg, ~24 squares):
+**Whole recipe** (**1550 g measured**, 24 squares):
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -105,7 +105,11 @@
 | Fibre | 80.0 g | Vitamin B12 | 1.3 µg |
 | Salt | 6.0 g | Folate | 714 µg |
 
-**Per square at 24:** 122 kcal, 5.0 g protein, 3.3 g fibre. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
+**Per square at 24:** 65 g, 122 kcal, 5.0 g protein, 3.3 g fibre. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
+
+⚠⚠ **The bake lost 45% of its mass, and the plan expected far less.** 2579 g of listed ingredients plus ~230 ml of dough water went in — 2809 g — and **1550 g came out**. The estimate written before the cook was 1970 g, **27% too high**. The error was almost certainly the onion: 1316 g of it sweated down, and the plan treated that as a modest loss rather than the largest single one in the dish. **Use 1550 g, or ~55% of total input, to forecast the next tray.**
+
+⚠ **That makes it a dense square, not a light one: 190 kcal per 100 g.** All the water left and the solids stayed. Worth knowing for the event — 24 squares of 65 g is a canapé portion rather than a slice.
 
 **80 g of fibre in one tray** is the number worth noticing, and it is the atta and the 1250 g of onion rather than anything added. **Saturated fat is 13.1 g against 90.4 g total** — 14% — because the fat is avocado oil, egg yolk and tofu rather than butter or cream, which a traditional Zwiebelkuchen leans on heavily.
 
@@ -131,9 +135,9 @@
 
 | Measurement | Why |
 |:------------|:----|
-| ~~Tray internal dimensions~~ | ✅ **Measured 2026-11-07: 40 × 30 cm = 1200 cm².** Quantities below are scaled to it. |
-| 🧅 Onion peeled in → sweated out | No sweated-onion losses row exists on file. |
-| 🍄 and 🍄‍🟫 raw in → browned out | Only one roasted-mushroom row exists on file. Two varieties in one session would give two. |
-| Tray assembled → tray baked | Replaces the estimated 1900 g yield. |
+| ~~Tray internal dimensions~~ | ✅ **Measured 2026-11-07: 40 × 30 cm = 1200 cm².** Quantities above are scaled to it. |
+| 🧅 Onion peeled in → sweated out | ⚠ **Not taken, and it is the one that would have paid.** The whole-bake loss came to 45% and the onion is the prime suspect, but with only the final tray weighed the onion, mushroom and bake losses cannot be separated. Weigh it next time. |
+| 🍄 and 🍄‍🟫 raw in → browned out | ⚠ **Not taken.** Two roasted-mushroom losses rows were available in this one session and both were missed. |
+| ~~Tray assembled → tray baked~~ | ✅ **Done: 1550 g.** 45% of the total input lost, against a planned estimate of 1970 g. |
 | **Does a square survive four hours at room temperature?** | The go/no-go for the school, and not a number. |
 | **100% atta + gluten vs 100% atta plain** | Press both on one tray. If the plain half holds, the gluten goes back to being seitan flour. |

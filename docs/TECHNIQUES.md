@@ -342,6 +342,7 @@ points.
 | **Stir-fried from raw to tender** | **~18–22%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g); **cauliflower 17.8%** (2026-11-02, 465 g + 2 g oil → 384 g) |
 | **Stir-fried from raw, flash only** | **~8%** | bean sprouts 8.5% (2026-10-04, 212 g → 194 g) |
 | **Stir-fried from raw, mixed dwell in one pan** | **~13%** | carrot + bean sprout + aromatics 13.3% (2026-10-11, 608 g → 527 g) |
+| **Sheet-pan onion tart, whole bake** | **~45%** | Masala-Zwiebelkuchen 44.8% (2026-11-07, 2809 g in incl. dough water -> 1550 g). ⚠ Composite - onion sweat, mushroom roast and oven bake are not separable because only the final tray was weighed. |
 | **Tau kwa cooked with a soy-and-sesame seasoning** | **~12%** | 11.6% (2026-11-04, Anja: 247 g tau kwa + 2 g sesame oil + 19 g reduced-salt soy → 237 g) |
 
 ⚠ **Stir-frying has no single loss figure — dwell time dominates.** This was briefly
