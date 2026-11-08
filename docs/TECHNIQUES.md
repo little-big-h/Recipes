@@ -344,6 +344,7 @@ points.
 | **Stir-fried from raw, mixed dwell in one pan** | **~13%** | carrot + bean sprout + aromatics 13.3% (2026-10-11, 608 g → 527 g) |
 | **Sheet-pan onion tart, whole bake** | **~45%** | Masala-Zwiebelkuchen 44.8% (2026-11-07, 2809 g in incl. dough water -> 1550 g). ⚠ Composite - onion sweat, mushroom roast and oven bake are not separable because only the final tray was weighed. |
 | **Tau kwa cooked with a soy-and-sesame seasoning** | **~12%** | 11.6% (2026-11-04, Anja: 247 g tau kwa + 2 g sesame oil + 19 g reduced-salt soy → 237 g) |
+| **Thin egg-and-milk batter, pan-cooked (pancakes)** | **~16%** | 16.1% (2026-11-08, 2225 g batter → 1866 g cooked). ⚠ **All of it is water off the pan surface** — nothing is poured away and the oil is in the batter, so unlike the roasting rows this is pure evaporation and should scale with surface area, not with batch size. A thicker pancake off the same batter will lose less. |
 
 ⚠ **Stir-frying has no single loss figure — dwell time dominates.** This was briefly
 recorded here as "~20%, a property of the method", on the strength of a brassica and a dense
