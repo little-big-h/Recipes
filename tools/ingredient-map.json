@@ -2623,6 +2623,32 @@
   "secondary": null,
   "source": "label"
  },
+ "local:4C7E9A13-2B68-4D5F-9E31-7A6C85B204F1": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lecka",
+  "foodID": "local:4C7E9A13-2B68-4D5F-9E31-7A6C85B204F1",
+  "name": "Mango Coconut Energy Bar (Lecka)",
+  "per100": {
+   "calcium": 20.0,
+   "calories": 400.0,
+   "carbs": 57.5,
+   "cholesterol": 0.0,
+   "fat": 17.5,
+   "fatSaturated": 7.5,
+   "fatTrans": 0.0,
+   "fiber": 2.5,
+   "iron": 1.75,
+   "potassium": 557.5,
+   "protein": 7.5,
+   "sodium": 150.0,
+   "sugars": 55.0,
+   "vitaminD": 0.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:4C9E3B18-7D52-4A60-BF31-8E2A5D7C0946": {
   "barcode": "6975742470654",
   "baseAmount": 100.0,
