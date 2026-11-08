@@ -2513,6 +2513,32 @@
   "secondary": null,
   "source": null
  },
+ "local:3E8B5D27-9A14-4C63-B70F-2D5A8E619C43": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lecka",
+  "foodID": "local:3E8B5D27-9A14-4C63-B70F-2D5A8E619C43",
+  "name": "Cacao Banana Energy Bar (Lecka)",
+  "per100": {
+   "calcium": 75.0,
+   "calories": 400.0,
+   "carbs": 52.5,
+   "cholesterol": 0.0,
+   "fat": 20.0,
+   "fatSaturated": 7.5,
+   "fatTrans": 0.0,
+   "fiber": 10.0,
+   "iron": 7.75,
+   "potassium": 1127.5,
+   "protein": 7.5,
+   "sodium": 150.0,
+   "sugars": 42.5,
+   "vitaminD": 0.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:3F1C8A62-7D4E-4B19-9E5A-0C2B7A6D8E41": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
