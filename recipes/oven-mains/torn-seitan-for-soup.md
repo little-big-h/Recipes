@@ -37,9 +37,9 @@
 
 ## Timeline
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Pan%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b0%2c20%2c%22Besan%22%5d%5d%7d%2c%22Hands%22%3a%7b%22color%22%3a%22%238C6D46%22%2c%22steps%22%3a%5b%5b20%2c25%2c%22Mix%22%5d%2c%5b45%2c47%2c%22Stretch%22%5d%2c%5b57%2c59%2c%22Stretch%22%5d%2c%5b67%2c69%2c%22Stretch%22%5d%2c%5b79%2c87%2c%22Twist+and+wrap%22%5d%5d%7d%2c%22Log%22%3a%7b%22color%22%3a%22%239B8CC4%22%2c%22steps%22%3a%5b%5b25%2c45%2c%22Rest+20+min%22%5d%2c%5b87%2c147%2c%22Proof+60+min%22%5d%2c%5b222%2c300%2c%22Cool+wrapped%22%5d%5d%7d%2c%22Oven%22%3a%7b%22color%22%3a%22%23D1A83A%22%2c%22steps%22%3a%5b%5b135%2c147%2c%22Preheat+175C%22%5d%2c%5b147%2c222%2c%22Steam+75+min%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a147%2c%22color%22%3a%22%23A8862E%22%2c%22label%22%3a%22Into+oven%22%7d%2c%7b%22t%22%3a222%2c%22color%22%3a%22%23A8862E%22%2c%22label%22%3a%22Steam+done%22%7d%5d)
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Pan%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b0%2c20%2c%22Besan%22%5d%5d%7d%2c%22Hands%22%3a%7b%22color%22%3a%22%238C6D46%22%2c%22steps%22%3a%5b%5b20%2c25%2c%22Mix%22%5d%2c%5b45%2c47%2c%22Stretch%22%5d%2c%5b57%2c59%2c%22Stretch%22%5d%2c%5b67%2c69%2c%22Stretch%22%5d%2c%5b79%2c87%2c%22Twist+and+wrap%22%5d%5d%7d%2c%22Log%22%3a%7b%22color%22%3a%22%239B8CC4%22%2c%22steps%22%3a%5b%5b25%2c45%2c%22Rest+20+min%22%5d%2c%5b87%2c147%2c%22Proof+in+basket%22%5d%2c%5b237%2c315%2c%22Cool+wrapped%22%5d%5d%7d%2c%22Steamer%22%3a%7b%22color%22%3a%22%23D17A3A%22%2c%22steps%22%3a%5b%5b137%2c147%2c%22Boil+wok%22%5d%2c%5b147%2c237%2c%22Steam+90+min%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a147%2c%22color%22%3a%22%23A85F22%22%2c%22label%22%3a%22Basket+on%22%7d%2c%7b%22t%22%3a237%2c%22color%22%3a%22%23A85F22%22%2c%22label%22%3a%22Steam+done%22%7d%5d)
 
-**About five hours to tearable, and roughly 25 minutes of it is hands-on.** The three stretches are spaced ten minutes apart and take two minutes each — the rests between them are not idle time, they are what lets the next stretch go further.
+**About five and a half hours to tearable, and roughly 25 minutes of it is hands-on.** The three stretches are spaced ten minutes apart and take two minutes each — the rests between them are not idle time, they are what lets the next stretch go further. **The log proofs in the bamboo basket it will be steamed in**, so there is no transfer between the proof and the heat.
 
 ---
 
@@ -68,13 +68,19 @@
 ### 4. Wrap and proof
 
 8. **Wrap in foil, firmly but not tight** — the sausage recipe's sweet-wrapper twist is too tight here; the 🫧 yeast needs somewhere to go. Leave roughly a third again of slack.
-9. **Proof 60 minutes.** Singapore ambient is the right temperature.
+9. **Proof 60 minutes, in the bamboo basket.** Singapore ambient is the right temperature. Proofing in the basket means the log is never lifted between the proof and the heat.
    > ⚠ **Shorter than a bread proof, deliberately.** The gas is wanted for the voids, not for volume, and **an over-proofed dough slackens and loses the fibre tension** the stretching just built. Sixty minutes, not ninety.
 
-### 5. Steam
+### 5. Steam — bamboo basket over a wok
 
-10. **175 °C, 75 minutes, in a bain-marie** — the wrapped log in a tray with ~2 cm of hot water, the tray covered.
-    > ⚠⚠ **Not the Instant Pot.** Its Steam program pressurises, and pressure compacts the grain back into the uniform block this method exists to avoid. A hob steamer is fine. ⚠ **Never submerge or simmer** — water logs the fibres and they go to mush.
+10. **Bamboo steamer, 90 minutes over briskly boiling water**, the wrapped log sitting in the basket it proofed in.
+    > ✅ **The bamboo basket is the better vessel here, not merely an acceptable one.** It gives **true saturated steam at 100 °C**, where the oven bain-marie was an approximation of it — and that heat is **gentler and more even than a 175 °C oven**, which matters because the log has to finish expanding before its surface sets. Gluten denatures at roughly 60–70 °C and the window is short.
+    > ✅ **Bamboo absorbs condensate** rather than raining it back down, which is the one thing a metal steamer cannot do. With the log wrapped it changes little; it is the reason to reach for bamboo rather than a metal tier if both are out.
+    > ✅ **Proof the log in the basket.** It then goes onto the wok in one movement, with no lifting or transfer to knock the gas out of a dough that has just spent an hour building it.
+    > ⚠ **90 minutes, not 75.** The oven's hot walls radiate and drive heat in faster; saturated steam at 100 °C is gentler and therefore slower. ⚠ **This figure is an estimate with no measurement behind it** — see **Weigh-ins**.
+    > ⚠⚠ **Top the wok up with BOILING water, never cold.** Ninety minutes will run a wok dry, and a dry wok under a bamboo basket scorches it and can crack it. Cold water from the tap drops the pot off the boil and stalls the cook for several minutes.
+    > ⚠⚠ **Not the Instant Pot.** Its Steam program pressurises, and pressure compacts the grain back into the uniform block this method exists to avoid. ⚠ **Never submerge or simmer** — water logs the fibres and they go to mush.
+    > **Alternative if the wok is wanted elsewhere:** 175 °C for **75 minutes** in a covered bain-marie — the wrapped log in a tray holding ~2 cm of hot water, the tray covered. It works; it is simply the second-best version of the same idea.
 
 ### 6. Cool, then tear
 
@@ -140,6 +146,7 @@
 | Measurement | Why |
 |:------------|:----|
 | **Dough into the wrap → log out of the steam** | ⚠ **Still outstanding.** The ~700 g yield is a guess and no wrapped-steam loss figure exists anywhere on file. With 753 g going in, this is one weighing. |
+| **Was 90 minutes in the bamboo enough?** | The steaming time is an estimate derived from the oven figure, not a measurement. Probe the centre, or cut the first log in half and look — undercooked seitan is visibly wet and pasty in the middle, and it does not improve on cooling. |
 | **Rope length at the first stretch → at the third** | The direct measure of whether the rests are doing their work. If the third pull is no longer than the first, the rests are too short. |
 | **Does it tear, or does it break?** | The go/no-go, and not a number. Breaking into lumps means either not enough stretching or not enough cooling — test the cooling first, it is free. |
 | **Torn warm vs torn cold, from the same log** | Tear a piece while it is still warm and another the next morning. One cheap comparison that settles how load-bearing the overnight rest really is. |
