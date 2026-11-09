@@ -29,7 +29,7 @@
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. The listed ingredients sum to **443 g**; with the water that is ~753 g into the wrap, against an estimated **~700 g** out — a tightly wrapped steam loses very little.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. The listed ingredients sum to **443 g**; with the water that is ~753 g into the wrap, against **716 g measured** out — **a 4.9% loss**, and the estimate was 2% low. A tightly wrapped steam does indeed lose very little.*
 
 **Changed from the fluffy version:** 🌾 gluten **250 → 290 g**, 🫘 besan **60 → 30 g**, 🥔 potato starch **15 g → removed**, 💧 water **350 → 310 g**, 🥑 oil **20 → 24 g as cooked**. Every one of those moves in the same direction: **more continuous gluten, less filler, a firmer dough.**
 
@@ -99,7 +99,7 @@
 
 ## Nutrition
 
-**Whole recipe** (~700 g estimated, 8 portions):
+**Whole recipe** (**716 g measured**, 8 portions):
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -112,7 +112,7 @@
 | Fibre | 14.0 g | Vitamin B12 | 0.0 µg |
 | Salt | 8.0 g | Folate | 287 µg |
 
-**Per portion at 8:** ~88 g, 212 kcal, 30.1 g protein, 1.7 g fibre.
+**Per portion at 8:** **89.5 g**, 212 kcal, 30.1 g protein, 1.7 g fibre — **33.7 g of protein per 100 g of finished seitan.**
 
 **241 g of protein, and 57% of the energy — the highest of anything in this project by a wide margin.** At roughly 34 g per 100 g finished it beats tau kwa, eggs and every legume on file. The move from the fluffy version added 24 g of protein purely by shifting 30 g from 🫘 besan to 🌾 gluten.
 
@@ -147,7 +147,7 @@
 
 | Measurement | Why |
 |:------------|:----|
-| **Dough into the wrap → log out of the steam** | ⚠ **Still outstanding.** The ~700 g yield is a guess and no wrapped-steam loss figure exists anywhere on file. With 753 g going in, this is one weighing. |
+| ~~Dough into the wrap → log out of the steam~~ | ✅ **Done: 753 g → 716 g, a 4.9% loss.** The first wrapped-steam figure on file, now a row in `../../docs/TECHNIQUES.md`. ⚠ **The loss is syneresis, not evaporation** — the foil is sealed, so what is lost is water the gluten was holding and squeezed out as it set, which pools in the wrap. The ~700 g estimate was 2% low, against the Masala-Zwiebelkuchen estimate that was 27% high. |
 | **Was 90 minutes in the bamboo enough?** | The steaming time is an estimate derived from the oven figure, not a measurement. Probe the centre, or cut the first log in half and look — undercooked seitan is visibly wet and pasty in the middle, and it does not improve on cooling. |
 | **Rope length at the first stretch → at the third** | The direct measure of whether the rests are doing their work. If the third pull is no longer than the first, the rests are too short. |
 | **Does it tear, or does it break?** | The go/no-go, and not a number. Breaking into lumps means either not enough stretching or not enough cooling — test the cooling first, it is free. |

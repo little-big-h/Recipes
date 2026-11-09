@@ -22,10 +22,12 @@
 | 🟣 | 🧀 Nutritional yeast | 20 g | 70 | 20 g | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 30 g | 79 | **45 g** | local |
 | 🟣 | 🧂 Salt | — | 0 | **5 g** | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| 🟣 | 🥑 Avocado oil | — | 18 | **2 g** | local |
-| 🟤 | 🥩 Torn seitan, browned | ~700 g | — | | [recipe](../oven-mains/torn-seitan-for-soup.md) |
+| 🟣 | 🥑 Avocado oil (sweating the aromatics) | — | 18 | **2 g** | local |
+| 🟤 | 🥩 Torn seitan, browned | ~700 g | — | **716 g** | [recipe](../oven-mains/torn-seitan-for-soup.md) |
+| 🟣 | 🥑 Avocado oil (browning the seitan) | — | 27 | **3 g** | local |
 | ⚪ | 🥭 Amchur — **at the table, not in the pot** | ~12 g | — | | proxy |
 | | **Total in the pot** | | **~1986** | **~3827 g** | |
+| | **Whole dish incl. 🥩 seitan** | | **~3765** | **~4549 g + broccoli** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -50,7 +52,7 @@
 1. **🌽 400 g of the corn, dry in the wok, hard**, no oil, until the kernels are spotted brown and starting to pop. Tip out and reserve.
    > ⚠⚠ **This is the step that decides whether the soup is one-note.** 1.5 kg of corn plus 390 g of onion is a sweet pot, and Maillard on the kernels is the only thing in the dish that supplies savoury depth in the opposite direction. ⚠ **Frozen kernels mean there are no cobs**, so there is no corn stock to build on either — the body comes from blending and the depth comes from browning. Nothing else can stand in for it.
 2. **🧅 onion, 🧄 garlic, 🫚 ginger into the same wok with 🥑 2 g oil** and sweat soft without colour.
-   > **2 g is the whole fat content of the soup**, and it is there only because the aromatics cannot sweat in a dry pan. The charring in step 1 uses none at all.
+   > **2 g here, and 3 g later for the seitan — 5 g of oil in the entire dish.** The charring in step 1 uses none at all, and the aromatics only need enough not to catch.
 
 ### 2. Pot — simmer and blend
 
@@ -73,7 +75,7 @@
 
 ### 4. Seitan and assembly
 
-9. **🥩 Brown the torn seitan hard** in a dry or lightly oiled skillet until the ragged edges catch.
+9. **🥩 Brown the torn seitan hard** in 🥑 3 g oil until the ragged edges catch. The whole 716 g batch goes in.
    > ⚠ Torn surfaces have an enormous area. Searing builds a skin that resists waterlogging, and **skipping it is the main way seitan goes spongy in soup.**
 10. **🥩 seitan and 🥦 broccoli into the bowls, soup ladled over.** Not simmered in.
     > ⚠ **Nothing holds the solids in suspension**, since there is no starch — kernels and seitan settle. Stir before each ladle, and again when reheating.
@@ -87,16 +89,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2047 kcal | Iron | 15.7 mg |
+| Energy | 2073 kcal | Iron | 15.7 mg |
 | Protein | 80.5 g | Calcium | 438 mg |
 | Carbohydrates | 466 g | Zinc | 13.8 mg |
 | — of which sugars | 103 g | Magnesium | 644 mg |
-| Fat | 17.5 g | Potassium | 6981 mg |
-| — of which saturates | 3.1 g | Vitamin A | 347 µg |
+| Fat | 20.5 g | Potassium | 6981 mg |
+| — of which saturates | 3.4 g | Vitamin A | 347 µg |
 | Fibre | 67.9 g | Vitamin C | 630 mg |
 | Salt | 10.5 g | Folate | 1016 µg |
 
-⚠⚠ **The 🥩 seitan is deliberately not in this file.** It has its own collection — `examples/Torn Seitan for Soup [09-11-26].foodnoms` — so **log both and they add**; folding its components in here would double-count the moment both are imported. ~700 g of seitan would add roughly **1690 kcal and 241 g of protein**, which takes the dish from 80 g of protein to over 300 g.
+⚠⚠ **The 🥩 seitan is deliberately not in this file.** It has its own collection — `examples/Torn Seitan for Soup [09-11-26].foodnoms` — so **log both and they add**; folding its components in here would double-count the moment both are imported. The measured **716 g** batch adds **1692 kcal and 241 g of protein**, which takes the dish from 80 g of protein to **322 g**.
 
 ✅ **630 mg of vitamin C, and it lands exactly where it is needed.** The seitan's 18.2 mg of iron is non-haem, from the wheat gluten, and its own recipe flags that it has no vitamin C anywhere in the formula to help absorb it. **This soup is the fix** — the 🥦 broccoli carries the great majority of that 630 mg, and it is eaten in the same bowl.
 
@@ -130,6 +132,6 @@
 |:------------|:----|
 | **Pot in → pot out** | The ~4150 g yield is an estimate. No figure exists on file for a blended corn soup simmered uncovered. |
 | 🥦 **Broccoli raw in → steamed out** | The 1.4% microwave figure was measured on 350 g. 538 g is a different load in the same box, and it is one weighing. |
-| 🥩 **Seitan torn in** | Needed to make the two `.foodnoms` collections add up to the real bowl. |
+| ~~🥩 Seitan torn in~~ | ✅ **Done: the whole 716 g batch**, plus 3 g of oil to brown it. The two collections now add up to the real bowl. |
 | **Did the char survive the simmer?** | Not a number. If the 400 g of charred corn has gone soft and lost its edge by serving, it goes in later next time — or gets scattered on top instead. |
 | **Is it sweet anyway?** | The go/no-go for the whole design. If it still reads sweet despite the charring and the amchur, the next version chars 600 g rather than 400 g. |
