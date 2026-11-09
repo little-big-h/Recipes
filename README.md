@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Masala-Zwiebelkuchen](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-07
-2. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
-3. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
-4. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
-5. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
-6. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
-7. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
-8. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
-9. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
-10. **[Lime Pie (Anja)](anjas-cooking/lime-pie.md)** — 2026-07-24
+1. **[Yeast-Risen Besan Seitan](recipes/oven-mains/yeast-risen-besan-seitan.md)** — 2026-11-09
+2. **[Masala-Zwiebelkuchen](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-07
+3. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
+4. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
+5. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
+6. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
+7. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
+8. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
+9. **[Squash, Sage & Onion Quiche](recipes/oven-mains/squash-sage-onion-quiche.md)** — 2026-07-26
+10. **[Chickpea & Butternut Squash Soup](recipes/soups/chickpea-butternut-squash-soup.md)** — 2026-07-24
 
 ---
 
