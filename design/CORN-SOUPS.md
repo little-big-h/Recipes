@@ -216,6 +216,27 @@ These are predictions made at the time of profile design, not actuals. Quoted he
 - Jannes underperformed prediction by a full point — the planned 60 g white miso was substituted at cook time for 18 g red miso, and the v2 hypothesis is that this drove Jannes's drop
 - The prediction model was directionally accurate (Anja, Lara, Julina all within noise)
 
+### Cantonese (cooked v1, 2026-11-09) ⭐
+
+| Person | Actual |
+|:-------|:------:|
+| Julina | **9.35** |
+| Anja | 8.8 |
+| Holger | 8.8 |
+| Jannes | 8.0 |
+| Lara | 7.7 |
+| **avg** | **8.53** |
+
+**No prediction existed** — this profile was added after the matrix. **8.53 beats every predicted profile average above**, the best of which was Mexican at 8.10, and beats both cooked actuals (Japanese 7.66, Nordic qualitative-negative).
+
+**Observations:**
+- **Jannes moved 6.0 → 8.0 within the lineage.** His Japanese v1 score was the matrix's largest miss (predicted 7.0, actual 6.0), attributed to red miso substituted on the day. The Cantonese profile has no fermented intensity at all, and he hit his personal ceiling.
+- **Lara 7.7 at the top of her band**, on the only profile with no acid in the pot.
+- **The acid was table-side and four of five took it.** Lara, who did not, is the one who scored at her ceiling — see observation 60 in `../docs/RATINGS.md`.
+- ⚠ **Pickled cucumber reappears, and the Nordic reading may need revising.** Jannes and Holger added it at the table here and liked it; Anja disliked it *in* the Nordic profile. Same ingredient, different format, opposite reactions — so Nordic's reception may have been a format failure rather than an ingredient one. **Testable: rebuild Nordic with the pickled elements served alongside.**
+
+---
+
 ### Nordic (cooked v1, qualitative)
 
 Prediction had Nordic as broadly liked (avg 7.8) with Lara as the highest scorer (8.0) and the family as a whole bunched around 7.5–8.0.

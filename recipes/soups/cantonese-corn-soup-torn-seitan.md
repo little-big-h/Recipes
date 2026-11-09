@@ -4,6 +4,8 @@
 
 > ⚠ **COOKED 09-11-2026.** Quantities are as cooked. **The 🥩 seitan is not in the `.foodnoms` file** — it has its own collection, so log both; see **Nutrition**.
 
+> ✅ **RATED 09-11-2026 — family average 8.53 across all five**: Julina 9.35, Anja 8.8, Holger 8.8, Jannes 8.0, Lara 7.7. On a like-for-like basis the best result in the project, and above every *predicted* profile average in the matrix. **Four of five added the 🥭 amchur at the table and Lara did not — and Lara scored at the top of her band.** Jannes and Holger also added ✅ pickled cucumber. See remark 78 and observation 60 in [`../../docs/RATINGS.md`](../../docs/RATINGS.md).
+
 > **See also** [`../../design/CORN-SOUPS.md`](../../design/CORN-SOUPS.md), the seven-profile matrix this sits outside of.
 
 ---
