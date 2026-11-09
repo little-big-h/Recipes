@@ -207,7 +207,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Tom Yum Broccoli, Carrot & Chickpea Soup | v1 | cooked | 2026-08-10 | [tom-yum-broccoli-carrot-chickpea-soup.md](../recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md) |
 | Masala-Zwiebelkuchen | v1 | cooked | 2026-11-07 | [masala-zwiebelkuchen.md](../recipes/oven-mains/masala-zwiebelkuchen.md) |
 | Masala-Zwiebelkuchen | v2 | planned | — | [masala-zwiebelkuchen.md](../recipes/oven-mains/masala-zwiebelkuchen.md) |
-| Torn Seitan for Soup | v1 | planned | — | [torn-seitan-for-soup.md](../recipes/oven-mains/torn-seitan-for-soup.md) |
+| Torn Seitan for Soup | v1 | cooked | 2026-11-09 | [torn-seitan-for-soup.md](../recipes/oven-mains/torn-seitan-for-soup.md) |
 
 ---
 

@@ -6,7 +6,7 @@
 
 > ⚠⚠ **This is also the opposite recipe to [`pressure-steamed-seitan-sausage.md`](./pressure-steamed-seitan-sausage.md).** That one wants a dense, uniform, sliceable sausage and kneads into a tight ball. This one wants a directional grain and stretches instead. Both develop the gluten hard — **the difference is the direction**, and it is the whole recipe.
 
-> ⚠ **COOKING 09-11-2026 — actuals are going into the table as they are weighed.** So far only the 🥑 oil, at **24 g against 20 g planned**; the nutrition below already carries it. Everything else is still the plan, and the yield is still an estimate. See **Weigh-ins** under Design notes for what is still outstanding.
+> ⚠ **COOKED 09-11-2026, and every quantity above is what actually went in.** The build held to the plan exactly, with **one deviation: 🥑 oil 24 g against 20 g** — the nutrition below carries it. **The outstanding items are all outcomes rather than quantities**: the yield out of the steamer, whether 90 minutes was enough, and whether it tears. See **Weigh-ins** under Design notes.
 
 ---
 
@@ -14,18 +14,18 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟤 | 🌾 Vital wheat gluten | 290 g | 1073 | | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
-| 🟤 | 🫘 Besan, **dry-roasted then cooled** | 30 g | 116 | | [usda](https://fdc.nal.usda.gov/food-details/174288/nutrients) |
-| 🟢 | 🫓 Atta, chakki-ground wholemeal | 40 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
-| 🟣 | 🧀 Nutritional yeast | 15 g | 52 | | local |
-| 🟣 | 🫧 Instant yeast | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
-| 🟣 | 🍬 Sugar | 8 g | 31 | | [usda](https://fdc.nal.usda.gov/food-details/169655/nutrients) |
-| 🔵 | 💧 Water, warm (~35 °C) | ~310 g | 0 | | |
+| 🟤 | 🌾 Vital wheat gluten | 290 g | 1073 | 290 g | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
+| 🟤 | 🫘 Besan, **dry-roasted then cooled** | 30 g | 116 | 30 g | [usda](https://fdc.nal.usda.gov/food-details/174288/nutrients) |
+| 🟢 | 🫓 Atta, chakki-ground wholemeal | 40 g | 148 | 40 g | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
+| 🟣 | 🧀 Nutritional yeast | 15 g | 52 | 15 g | local |
+| 🟣 | 🫧 Instant yeast | 6 g | 20 | 6 g | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
+| 🟣 | 🍬 Sugar | 8 g | 31 | 8 g | [usda](https://fdc.nal.usda.gov/food-details/169655/nutrients) |
+| 🔵 | 💧 Water, warm (~35 °C) | ~310 g | 0 | 310 g | |
 | 🟣 | 🥑 Avocado oil | 20 g | 212 | **24 g** | local |
-| 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 20 g | 35 | | local |
-| 🟠 | 🍥 Kombu-shiitake dashi powder | 4 g | 5 | | local |
-| 🟣 | 🧂 Salt | 6 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| | **Total** | **~753 g** | **~1692** | | |
+| 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 20 g | 35 | 20 g | local |
+| 🟠 | 🍥 Kombu-shiitake dashi powder | 4 g | 5 | 4 g | local |
+| 🟣 | 🧂 Salt | 6 g | 0 | 6 g | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
+| | **Total** | **~753 g** | **~1692** | **753 g** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -64,6 +64,8 @@
    > ⚠ **Stop pulling the moment it resists hard.** A torn dough has lost the continuity the fibres need; let it rest longer rather than forcing it.
 7. **Rest 10 minutes after the third stretch**, then **pull it out one last time and twist the rope along its length**, four or five turns, like wringing a cloth. Coil the twisted rope loosely into a log.
    > **The twist is what puts the grain into a spiral**, so the finished piece tears along a curve rather than splitting into flat slabs.
+
+> ✅ **The 310 g of water was right as specified, confirmed on the 09-11 cook** — it was measured rather than judged by feel and the dough came together without adjustment. Worth recording, because the project's other high-gluten dough (the Masala-Zwiebelkuchen) carries an explicit "judge the water by feel" instruction. At 0.86 : 1 against the dry weight this one can be measured.
 
 ### 4. Wrap and proof
 
