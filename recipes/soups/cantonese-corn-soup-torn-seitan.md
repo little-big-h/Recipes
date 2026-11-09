@@ -22,9 +22,10 @@
 | 🟣 | 🧀 Nutritional yeast | 20 g | 70 | 20 g | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 30 g | 79 | **45 g** | local |
 | 🟣 | 🧂 Salt | — | 0 | **5 g** | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
+| 🟣 | 🥑 Avocado oil | — | 18 | **2 g** | local |
 | 🟤 | 🥩 Torn seitan, browned | ~700 g | — | | [recipe](../oven-mains/torn-seitan-for-soup.md) |
 | ⚪ | 🥭 Amchur — **at the table, not in the pot** | ~12 g | — | | proxy |
-| | **Total in the pot** | | **~1968** | **~3825 g** | |
+| | **Total in the pot** | | **~1986** | **~3827 g** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -48,7 +49,8 @@
 
 1. **🌽 400 g of the corn, dry in the wok, hard**, no oil, until the kernels are spotted brown and starting to pop. Tip out and reserve.
    > ⚠⚠ **This is the step that decides whether the soup is one-note.** 1.5 kg of corn plus 390 g of onion is a sweet pot, and Maillard on the kernels is the only thing in the dish that supplies savoury depth in the opposite direction. ⚠ **Frozen kernels mean there are no cobs**, so there is no corn stock to build on either — the body comes from blending and the depth comes from browning. Nothing else can stand in for it.
-2. **🧅 onion, 🧄 garlic, 🫚 ginger into the same wok** and sweat soft without colour.
+2. **🧅 onion, 🧄 garlic, 🫚 ginger into the same wok with 🥑 2 g oil** and sweat soft without colour.
+   > **2 g is the whole fat content of the soup**, and it is there only because the aromatics cannot sweat in a dry pan. The charring in step 1 uses none at all.
 
 ### 2. Pot — simmer and blend
 
@@ -85,12 +87,12 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2029 kcal | Iron | 15.7 mg |
+| Energy | 2047 kcal | Iron | 15.7 mg |
 | Protein | 80.5 g | Calcium | 438 mg |
 | Carbohydrates | 466 g | Zinc | 13.8 mg |
 | — of which sugars | 103 g | Magnesium | 644 mg |
-| Fat | 15.5 g | Potassium | 6981 mg |
-| — of which saturates | 2.8 g | Vitamin A | 347 µg |
+| Fat | 17.5 g | Potassium | 6981 mg |
+| — of which saturates | 3.1 g | Vitamin A | 347 µg |
 | Fibre | 67.9 g | Vitamin C | 630 mg |
 | Salt | 10.5 g | Folate | 1016 µg |
 
