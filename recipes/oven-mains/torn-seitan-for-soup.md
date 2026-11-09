@@ -6,7 +6,7 @@
 
 > ⚠⚠ **This is also the opposite recipe to [`pressure-steamed-seitan-sausage.md`](./pressure-steamed-seitan-sausage.md).** That one wants a dense, uniform, sliceable sausage and kneads into a tight ball. This one wants a directional grain and stretches instead. Both develop the gluten hard — **the difference is the direction**, and it is the whole recipe.
 
-> ⚠ **PLANNED, NOT COOKED.** No quantity here has been weighed and the yield is an estimate. The *Actual used* column is empty on purpose — see **Weigh-ins** under Design notes.
+> ⚠ **COOKING 09-11-2026 — actuals are going into the table as they are weighed.** So far only the 🥑 oil, at **24 g against 20 g planned**; the nutrition below already carries it. Everything else is still the plan, and the yield is still an estimate. See **Weigh-ins** under Design notes for what is still outstanding.
 
 ---
 
@@ -21,17 +21,17 @@
 | 🟣 | 🫧 Instant yeast | 6 g | 20 | | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
 | 🟣 | 🍬 Sugar | 8 g | 31 | | [usda](https://fdc.nal.usda.gov/food-details/169655/nutrients) |
 | 🔵 | 💧 Water, warm (~35 °C) | ~310 g | 0 | | |
-| 🟣 | 🥑 Avocado oil | 20 g | 177 | | local |
+| 🟣 | 🥑 Avocado oil | 20 g | 212 | **24 g** | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 20 g | 35 | | local |
 | 🟠 | 🍥 Kombu-shiitake dashi powder | 4 g | 5 | | local |
 | 🟣 | 🧂 Salt | 6 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| | **Total** | **~749 g** | **~1657** | | |
+| | **Total** | **~753 g** | **~1692** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. The listed ingredients sum to **439 g**; with the water that is ~749 g into the wrap, against an estimated **~700 g** out — a tightly wrapped steam loses very little.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. The listed ingredients sum to **443 g**; with the water that is ~753 g into the wrap, against an estimated **~700 g** out — a tightly wrapped steam loses very little.*
 
-**Changed from the fluffy version:** 🌾 gluten **250 → 290 g**, 🫘 besan **60 → 30 g**, 🥔 potato starch **15 g → removed**, 💧 water **350 → 310 g**. Every one of those moves in the same direction: **more continuous gluten, less filler, a firmer dough.**
+**Changed from the fluffy version:** 🌾 gluten **250 → 290 g**, 🫘 besan **60 → 30 g**, 🥔 potato starch **15 g → removed**, 💧 water **350 → 310 g**, 🥑 oil **20 → 24 g as cooked**. Every one of those moves in the same direction: **more continuous gluten, less filler, a firmer dough.**
 
 ---
 
@@ -95,18 +95,18 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 1657 kcal | Iron | 18.2 mg |
+| Energy | 1692 kcal | Iron | 18.2 mg |
 | Protein | 241 g | Calcium | 444 mg |
 | Carbohydrates | 112 g | Zinc | 5.1 mg |
 | — of which sugars | 17.4 g | Magnesium | 180 mg |
-| Fat | 29.7 g | Potassium | 752 mg |
-| — of which saturates | 3.5 g | Vitamin D | 0.0 µg |
+| Fat | 33.7 g | Potassium | 752 mg |
+| — of which saturates | 4.0 g | Vitamin D | 0.0 µg |
 | Fibre | 14.0 g | Vitamin B12 | 0.0 µg |
 | Salt | 8.0 g | Folate | 287 µg |
 
-**Per portion at 8:** ~88 g, 207 kcal, 30.1 g protein, 1.7 g fibre.
+**Per portion at 8:** ~88 g, 212 kcal, 30.1 g protein, 1.7 g fibre.
 
-**241 g of protein, and 58% of the energy — the highest of anything in this project by a wide margin.** At roughly 34 g per 100 g finished it beats tau kwa, eggs and every legume on file. The move from the fluffy version added 24 g of protein purely by shifting 30 g from 🫘 besan to 🌾 gluten.
+**241 g of protein, and 57% of the energy — the highest of anything in this project by a wide margin.** At roughly 34 g per 100 g finished it beats tau kwa, eggs and every legume on file. The move from the fluffy version added 24 g of protein purely by shifting 30 g from 🫘 besan to 🌾 gluten.
 
 ⚠ **The same move cost fibre and folate**, which came almost entirely from the besan: fibre **17.1 → 14.0 g**, folate **418 → 287 µg**. That is the real price of the halved besan, and it is worth knowing rather than discovering later. It is not a reason to put the besan back — the grain matters more here, and the soup brings its own vegetables.
 
@@ -139,7 +139,7 @@
 
 | Measurement | Why |
 |:------------|:----|
-| **Dough into the wrap → log out of the steam** | The ~700 g yield is a guess. No wrapped-steam loss figure exists anywhere on file. |
+| **Dough into the wrap → log out of the steam** | ⚠ **Still outstanding.** The ~700 g yield is a guess and no wrapped-steam loss figure exists anywhere on file. With 753 g going in, this is one weighing. |
 | **Rope length at the first stretch → at the third** | The direct measure of whether the rests are doing their work. If the third pull is no longer than the first, the rests are too short. |
 | **Does it tear, or does it break?** | The go/no-go, and not a number. Breaking into lumps means either not enough stretching or not enough cooling — test the cooling first, it is free. |
 | **Torn warm vs torn cold, from the same log** | Tear a piece while it is still warm and another the next morning. One cheap comparison that settles how load-bearing the overnight rest really is. |
