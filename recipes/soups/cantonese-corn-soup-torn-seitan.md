@@ -27,7 +27,7 @@
 | 🟣 | 🥑 Avocado oil (browning the seitan) | — | 27 | **3 g** | local |
 | ⚪ | 🥭 Amchur — **at the table, not in the pot** | ~12 g | — | | proxy |
 | | **Total in the pot** | | **~1986** | **~3827 g** | |
-| | **Whole dish incl. 🥩 seitan** | | **~3765** | **~4794 g** | |
+| | **Whole dish incl. 🥩 seitan** | | **~3765** | **4264 g** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -87,7 +87,7 @@
 
 ## Nutrition
 
-**The soup and 🥦 broccoli**, without the 🥩 seitan (**~4078 g**, 10 portions):
+**The soup, 🥦 broccoli included**, without the 🥩 seitan (**3548 g measured**, 10 portions):
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -132,7 +132,7 @@
 
 | Measurement | Why |
 |:------------|:----|
-| **Pot in → pot out** | ⚠⚠ **Measured but UNRESOLVED: 4415 g gross, so 3548 g net after the recorded 867 g inner-pot tare.** The loss is **7.3%** if the 🥦 broccoli went in after the weighing and **18.7%** if it was already in, and 18.7% looks too high for ~26 minutes at a simmer. The water volume is unconfirmed too. The `TECHNIQUES.md` row is marked provisional until both are settled. 4415 g cannot be a net weight under either reading — it exceeds the input. |
+| ~~Pot in → pot out~~ | ✅ **Done: 4365 g → 3548 g, an 18.7% loss**, with the 🥦 broccoli in the pot and in the weighing. 4415 g gross less the recorded 867 g inner-pot tare. ⚠⚠ **Composite, not pure evaporation** — the soup was decanted to a blender and back, which costs 50–150 g on a 2 L batch, and the pot was hot for ~34 minutes rather than the 26 first assumed. **Blending in the pot with a stick blender should cut this by several points.** ⚠ The 1800 ml of water was specced but not confirmed on the day. |
 | 🥦 **Broccoli raw in → steamed out** | ⚠ **Not taken, and it cannot be now** — the broccoli went into the pot on this cook rather than being steamed separately, so there is no separate weight to record. It also leaves the pot yield ambiguous: see the note on **Pot in → pot out**. |
 | ~~🥩 Seitan torn in~~ | ✅ **Done: the whole 716 g batch**, plus 3 g of oil to brown it. The two collections now add up to the real bowl. |
 | **Did the char survive the simmer?** | Not a number. If the 400 g of charred corn has gone soft and lost its edge by serving, it goes in later next time — or gets scattered on top instead. |
