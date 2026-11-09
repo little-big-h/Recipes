@@ -4,7 +4,7 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Yeast-Risen Besan Seitan](recipes/oven-mains/yeast-risen-besan-seitan.md)** — 2026-11-09
+1. **[Torn Seitan for Soup](recipes/oven-mains/torn-seitan-for-soup.md)** — 2026-11-09
 2. **[Masala-Zwiebelkuchen](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-07
 3. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
 4. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06

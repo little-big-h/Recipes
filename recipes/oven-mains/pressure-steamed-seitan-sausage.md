@@ -33,7 +33,7 @@
 
 ## Method
 
-> ⚠⚠ **There are now two seitan recipes in this repo and they give opposite instructions.** This one is built for a **dense, chewy** sausage: knead hard, no leavening, pressure-steamed. [`yeast-risen-besan-seitan.md`](./yeast-risen-besan-seitan.md) is built for a **fluffy** loaf and says *do not knead*, dilutes the gluten with besan, and would be ruined by pressure. Check which one you meant before starting.
+> ⚠⚠ **There are now two seitan recipes in this repo and they give opposite instructions.** This one is built for a **dense, chewy** sausage: knead hard, no leavening, pressure-steamed. [`torn-seitan-for-soup.md`](./torn-seitan-for-soup.md) is built for **ragged strands that go into a broth**: it develops the gluten just as hard but **in one direction only**, by stretching rather than kneading, and it would be ruined by pressure. Check which one you meant before starting.
 
 > **Knead hard, not gently.** Unlike bread dough, you *want* aggressive gluten development here — the dough should fight back and tighten under your hands. **Never use immediate/quick release on the Ninja** — this recipe uses delayed release throughout.
 
