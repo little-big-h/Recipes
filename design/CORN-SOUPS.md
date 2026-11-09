@@ -42,6 +42,9 @@ This file documents the 7-profile matrix at reference level. Specific cooked ite
 | **Thai** | Fragrant, citrusy, spicy | Silken tofu 600 g | Pak choi, sugar snap | Concept only | — |
 | **Mediterranean** | Herby, tangy, bright | White beans 150 g + chickpeas 150 g | Courgette, artichoke | Concept only | — |
 | **Nordic** | Creamy, sharp, savoury | White beans 300 g dry | Beetroot, leek | Cooked v1 (qualitative ratings only) | [creamy-corn-soup-nordic.md](../recipes/soups/creamy-corn-soup-nordic.md) |
+| **Cantonese** ⭐ | Savoury, charred, light-bodied | *(none — torn seitan instead)* | Broccoli, sweetcorn whole | **Cooked 2026-11-09** | [cantonese-corn-soup-torn-seitan.md](../recipes/soups/cantonese-corn-soup-torn-seitan.md) |
+
+> ⭐ **An eighth profile, added 2026-11-09, and it breaks two of the matrix rules on purpose.** It carries **no legume** — the protein is torn seitan — and it **does not finish as a blended purée**, because a shredded protein needs a liquid to sit in rather than a purée to be coated by. It also adds the step none of the original seven has: **a third of the corn charred dry before anything else**, which is what stops a 1.5 kg corn pot reading as one-note sweet.
 
 ---
 
