@@ -27,7 +27,7 @@
 | 🟣 | 🥑 Avocado oil (browning the seitan) | — | 27 | **3 g** | local |
 | ⚪ | 🥭 Amchur — **at the table, not in the pot** | ~12 g | — | | proxy |
 | | **Total in the pot** | | **~1986** | **~3827 g** | |
-| | **Whole dish incl. 🥩 seitan** | | **~3765** | **~4549 g + broccoli** | |
+| | **Whole dish incl. 🥩 seitan** | | **~3765** | **~4794 g** | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -85,7 +85,7 @@
 
 ## Nutrition
 
-**The soup alone**, without the 🥩 seitan (~4150 g estimated, 10 portions):
+**The soup and 🥦 broccoli**, without the 🥩 seitan (**~4078 g**, 10 portions):
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -130,7 +130,7 @@
 
 | Measurement | Why |
 |:------------|:----|
-| **Pot in → pot out** | The ~4150 g yield is an estimate. No figure exists on file for a blended corn soup simmered uncovered. |
+| ~~Pot in → pot out~~ | ✅ **Done: 3827 g → 3548 g, a 7.3% loss.** First figure on file for a blended soup simmered with the lid off, now a row in `../../docs/TECHNIQUES.md`. ⚠ **Derived from a gross 4415 g minus the recorded 867 g Instant Pot inner-pot tare** — read as gross because 4415 g net is impossible against 3827 g of input. The soup-only estimate was 2% high. |
 | 🥦 **Broccoli raw in → steamed out** | The 1.4% microwave figure was measured on 350 g. 538 g is a different load in the same box, and it is one weighing. |
 | ~~🥩 Seitan torn in~~ | ✅ **Done: the whole 716 g batch**, plus 3 g of oil to brown it. The two collections now add up to the real bowl. |
 | **Did the char survive the simmer?** | Not a number. If the 400 g of charred corn has gone soft and lost its edge by serving, it goes in later next time — or gets scattered on top instead. |
