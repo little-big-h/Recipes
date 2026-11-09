@@ -65,9 +65,11 @@
 7. **🧀 nooch, 🦪 oyster sauce and 🧂 salt in**, then hold off the boil.
    > **Three umami sources that multiply rather than add**: shiitake guanylate in the 🍥 dashi, mushroom guanylate in the 🦪 LKK sauce, and 🧀 glutamate. ⚠ The 🦪 sauce is roughly **30% sugar**, so the 15 g increase over the plan pushes the same direction the charring is pulling against.
 
-### 3. Broccoli — never in the pot
+### 3. Broccoli — into the pot, as cooked
 
-8. **🥦 Microwave-steam the broccoli, covered, with a tablespoon of water**, and pull it **firmly under-done.**
+8. ⚠⚠ **AS COOKED 09-11-2026 the 🥦 broccoli went into the pot**, not into the bowls — the design below says the opposite and the design lost. The notes under it are kept because they are the argument for the next version, not a description of this cook.
+
+8. *(As designed, not as cooked)* **🥦 Microwave-steam the broccoli, covered, with a tablespoon of water**, and pull it **firmly under-done.**
    > ✅ **~1.4% loss** — the lowest figure in the project's table, against ~20% stir-fried from raw. ⚠ **It never goes in the pot.** Simmered, it greys and turns sulfurous; 538 g is a tenth of the bowl, not a garnish, so that would be a real loss.
    > ✅ **Peel and dice the stalk and use it.** It is the crunchiest part of the plant and the texture this was added for.
    > ✅ **No acid in the pot means it stays bright green.** Acid converts chlorophyll to pheophytin — the constraint the Tom Yum Broccoli soup had to design around, and the reason the 🥭 amchur is at the table.
@@ -77,7 +79,7 @@
 
 9. **🥩 Brown the torn seitan hard** in 🥑 3 g oil until the ragged edges catch. The whole 716 g batch goes in.
    > ⚠ Torn surfaces have an enormous area. Searing builds a skin that resists waterlogging, and **skipping it is the main way seitan goes spongy in soup.**
-10. **🥩 seitan and 🥦 broccoli into the bowls, soup ladled over.** Not simmered in.
+10. **🥩 seitan into the bowls, soup ladled over.** Not simmered in. *(The 🥦 broccoli was in the pot on this cook — see step 8.)*
     > ⚠ **Nothing holds the solids in suspension**, since there is no starch — kernels and seitan settle. Stir before each ladle, and again when reheating.
 11. **🥭 Amchur at the table.** Stir 10–12 g into a few spoons of the hot soup to make a loose slurry first — dry powder clumps on liquid — and let people spoon it in.
 
@@ -130,8 +132,8 @@
 
 | Measurement | Why |
 |:------------|:----|
-| ~~Pot in → pot out~~ | ✅ **Done: 3827 g → 3548 g, a 7.3% loss.** First figure on file for a blended soup simmered with the lid off, now a row in `../../docs/TECHNIQUES.md`. ⚠ **Derived from a gross 4415 g minus the recorded 867 g Instant Pot inner-pot tare** — read as gross because 4415 g net is impossible against 3827 g of input. The soup-only estimate was 2% high. |
-| 🥦 **Broccoli raw in → steamed out** | The 1.4% microwave figure was measured on 350 g. 538 g is a different load in the same box, and it is one weighing. |
+| **Pot in → pot out** | ⚠⚠ **Measured but UNRESOLVED: 4415 g gross, so 3548 g net after the recorded 867 g inner-pot tare.** The loss is **7.3%** if the 🥦 broccoli went in after the weighing and **18.7%** if it was already in, and 18.7% looks too high for ~26 minutes at a simmer. The water volume is unconfirmed too. The `TECHNIQUES.md` row is marked provisional until both are settled. 4415 g cannot be a net weight under either reading — it exceeds the input. |
+| 🥦 **Broccoli raw in → steamed out** | ⚠ **Not taken, and it cannot be now** — the broccoli went into the pot on this cook rather than being steamed separately, so there is no separate weight to record. It also leaves the pot yield ambiguous: see the note on **Pot in → pot out**. |
 | ~~🥩 Seitan torn in~~ | ✅ **Done: the whole 716 g batch**, plus 3 g of oil to brown it. The two collections now add up to the real bowl. |
 | **Did the char survive the simmer?** | Not a number. If the 400 g of charred corn has gone soft and lost its edge by serving, it goes in later next time — or gets scattered on top instead. |
 | **Is it sweet anyway?** | The go/no-go for the whole design. If it still reads sweet despite the charring and the amchur, the next version chars 600 g rather than 400 g. |
