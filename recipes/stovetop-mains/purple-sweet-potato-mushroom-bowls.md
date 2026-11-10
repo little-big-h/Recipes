@@ -15,7 +15,8 @@
 | 🟢 | 🍠 Purple sweet potato, **15 mm** dice | 500 g | 1004 | **830 g** | local |
 | 🟢 | 🎃 Butternut squash, **25 mm** dice | 500 g | 246 | **546 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake caps, big wok | 600 g | 204 | | local |
-| 🟢 | 🌿 Sweet potato leaves **and thin stems** | 350 g | 148 | **stems 77 g**, leaves pending | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
+| 🟢 | 🌿 Sweet potato **leaves** | 350 g bunch | 76 | **182 g** | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
+| 🟢 | 🌿 Sweet potato **thin stems** | — | 32 | **77 g** | leaf record as proxy |
 | 🟢 | 🫑 Baby peppers, **raw** | 150 g | 47 | | [usda](https://fdc.nal.usda.gov/food-details/170108/nutrients) |
 | 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 855 | **247 g** | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
@@ -34,7 +35,7 @@
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.61 kg** | **~3324** | | |
+| | **Total** | **~3.52 kg** | **~3286** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -120,18 +121,18 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3324 kcal | Iron | 31.3 mg |
-| Protein | 119 g | Calcium | 1266 mg |
-| Carbohydrates | 592 g | Zinc | 16.7 mg |
+| Energy | 3286 kcal | Iron | 31.0 mg |
+| Protein | 117 g | Calcium | 1195 mg |
+| Carbohydrates | 584 g | Zinc | 16.6 mg |
 | — of which sugars | 79.2 g | Magnesium | 1346 mg |
-| Fat | 75.4 g | Potassium | 11744 mg |
-| — of which saturates | 29.2 g | Vitamin A | 3920 µg |
-| Fibre | 127 g | Vitamin C | 414 mg |
+| Fat | 75.4 g | Potassium | 11375 mg |
+| — of which saturates | 29.2 g | Vitamin A | 3731 µg |
+| Fibre | 122 g | Vitamin C | 398 mg |
 | Salt | 10.2 g | Folate | 689 µg |
 
-**Per serving at 5:** ~633 g, 665 kcal, 23.8 g protein, 25.3 g fibre.
+**Per serving at 5:** ~615 g, 657 kcal, 23.3 g protein, 24.3 g fibre.
 
-⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
+⚠⚠ **122 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
 ✅ **Saturated fat came down from 75 g to 30 g, and one swap did all of it.** 270 g of Ayam cream carried 69 g of saturated fat on its own; 200 ml of Kara light carries 24 g. Total fat fell 123 → 78 g even after adding 10 g of oil for the paste. **The cut point flagged earlier was taken without being asked for.**
 
@@ -166,7 +167,7 @@
 | Measurement | Why |
 |:------------|:----|
 | 🍄‍🟫 **Shiitake raw in → browned out** | ⚠⚠ **The one that keeps getting missed.** There is **no wok-browned or roasted mushroom loss figure anywhere in the project** — it has been available and skipped three sessions running. 600 g in one wok is the cleanest chance yet. ⚠ The **big wok's tare is not on file** (only the small one, 810 g) — weigh it empty first. |
-| 🌿 **Leaves raw in → wilted out** | 350 g to an estimated ~80 g is a 77% loss and entirely a guess. No leafy-green wilting figure exists on file. ⚠ **Weigh the trimmed stems and leaves separately before cooking** — they behave differently and the estimate assumed leaves only, so one number for the bunch would be uninterpretable. |
+| ~~🌿 Trimmed weights taken~~ | ✅ **Done: 182 g leaves + 77 g thin stems = 259 g usable from a 350 g bunch, so 91 g of woody discard — a 26% trim loss.** First trim figure on file for sweet potato greens. ⚠ **The WILTED weight is still outstanding** and is the one with no precedent anywhere in the project; the ~80 g estimate was for leaves only and is now too low, since the stems barely shrink. |
 | ~~🍠 Sweet potato tray weighed~~ | ✅ **Done: 833 g → 691 g, a 17.0% loss** (1275 g gross on tray B, tare 584 g). **The first purple sweet potato roasting figure on file** — and it came in *above* orange sweet potato (16.4%) and butternut (15.8%), against a prediction that denser and drier would mean less loss. |
 | ~~🎃 Squash tray weighed~~ | ✅ **Done: 548 g → 426 g, a 22.3% loss** (1080 g gross on tray A, tare 654 g). ⚠⚠ **Against 15.8% for butternut already on file — same vegetable, and the variable is tray LOAD.** That figure came off a 1958 g tray, this one off 546 g. With the 830 g sweet potato tray at 17.0%, the two nights bracket the effect: **crowded trays steam and hold water in, spread trays roast and lose it.** Filed in [`../../docs/TECHNIQUES.md`](../../docs/TECHNIQUES.md). |
 | 🎃 **and** 🍠 **each tray weighed before and after roasting** | ⚠ **Two figures for one weighing each, and one of them is new.** The losses table has orange sweet potato at 16.4% and butternut at 15.8%, but **no figure at all for PURPLE sweet potato**, which is denser and drier and may well lose less. The trays are assigned — **ceramic A (tare 654 g) for 🎃 squash, B (584 g) for 🍠 sweet potato** — so each vegetable gets its own number instead of sharing one. | ⚠ **Half done — 🎃 squash still outstanding.**
