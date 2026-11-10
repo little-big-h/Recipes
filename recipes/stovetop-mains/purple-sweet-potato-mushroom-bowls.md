@@ -2,7 +2,7 @@
 
 *The box-day bowl: two roasted roots, wok-browned 🍄‍🟫 shiitake, 🌰 buckwheat, 🌿 sweet potato leaves wilted in at the last second and 🫑 raw baby peppers over the top. **The sauce is the linchpin** — everything else is a component that can be cooked and held, and the sauce is what turns five separate things into one dish.*
 
-> ⚠ **COOKING 10-11-2026 — actuals go into the table as they are weighed.** So far the 🍠 purple sweet potato, at **830 g against 500 g planned** (1417 g gross on ceramic tray B, tare 584 g, including 3 g of oil). The nutrition below carries it; everything else is still the design. See **Weigh-ins** under Design notes.
+> ⚠ **COOKING 10-11-2026 — actuals go into the table as they are weighed.** Both roots are in: 🍠 purple sweet potato **830 g** against 500 g planned (1417 g gross on ceramic tray B, tare 584 g, with 3 g of oil) and 🎃 butternut **546 g** against 500 g (1202 g gross on tray A, tare 654 g, with 2 g of oil). The nutrition below carries both; everything else is still the design. See **Weigh-ins** under Design notes.
 
 > **Variation on the Tuesday dinner in** [`../../design/MEAL-PLAN-2026-11-10.md`](../../design/MEAL-PLAN-2026-11-10.md): 🌿 sweet potato leaves and a separate protein in, nothing dropped — the butternut stays because there is a kilo of it in the box.
 
@@ -13,7 +13,7 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | Source |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🟢 | 🍠 Purple sweet potato, **15 mm** dice | 500 g | 1004 | **830 g** | local |
-| 🟢 | 🎃 Butternut squash, **25 mm** dice | 500 g | 225 | | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
+| 🟢 | 🎃 Butternut squash, **25 mm** dice | 500 g | 246 | **546 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake caps, big wok | 600 g | 204 | | local |
 | 🟢 | 🌿 Sweet potato leaves | 350 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
 | 🟢 | 🫑 Baby peppers, **raw** | 150 g | 47 | | [usda](https://fdc.nal.usda.gov/food-details/170108/nutrients) |
@@ -31,14 +31,14 @@
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 25 g | 44 | | local |
 | 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 6 | | local |
 | 🔵 | 🍄‍🟫 Frozen shiitake **stems** (steeped, then removed) | ~120 g | — | | — |
-| 🟣 | 🥑 Avocado oil | 18 g | 159 | | local |
+| 🟣 | 🥑 Avocado oil | 18 g | 115 | **13 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.88 kg** | **~4312** | | |
+| | **Total** | **~3.92 kg** | **~4289** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 The 🌰 buckwheat's 600 ml of cooking water is not in the `.foodnoms` file. Listed ingredients sum to 3882 g; with that water it is ~4.48 kg in, against an estimated **~3.56 kg** served once the roots, the 🍄‍🟫 shiitake and the 🌿 leaves have lost theirs.*
+*💧 The 🌰 buckwheat's 600 ml of cooking water is not in the `.foodnoms` file. Listed ingredients sum to 3923 g; with that water it is ~4.52 kg in, against an estimated **~3.60 kg** served once the roots, the 🍄‍🟫 shiitake and the 🌿 leaves have lost theirs.*
 
 **🫛 Edamame is the protein as specced. Leftover torn seitan, re-browned, is the alternative** — it was served separately from the 09-11 soup, so there is some in the fridge, and an overnight rest only improves it.
 
@@ -64,7 +64,7 @@
 ### 2. Roots — two trays, two different dice
 
 2. **🍠 purple sweet potato at 15 mm on ceramic tray B, 🎃 butternut at 25 mm on ceramic tray A**, ~1 g 🥑 oil per 100 g, **220 °C convection with fan, ~30 min**.
-   > ⚠ **As cooked 10-11: 830 g of 🍠 sweet potato with 3 g of oil — 0.36 g per 100 g**, against the ~1 g per 100 g the losses table's roasting row was measured at. Expect less browning, and treat the resulting loss figure as **not strictly comparable** to the 16.4% and 15.8% already on file.
+   > ⚠ **As cooked 10-11: 830 g of 🍠 sweet potato with 3 g of oil and 546 g of 🎃 squash with 2 g — 0.36 and 0.37 g per 100 g**, against the ~1 g per 100 g the losses table's roasting row was measured at. Expect less browning, and treat the resulting loss figure as **not strictly comparable** to the 16.4% and 15.8% already on file.
    > ⚠ **830 g of 15 mm dice is a lot for one tray.** Small dice pack densely; if any of it sits two deep it steams rather than roasts, which costs both the browning and a clean measurement. Spread it or split it.
    > **Preheat the ceramic hard.** Ceramic conducts far more slowly than steel, so a cold tray costs the roots their browned underside; given a long preheat it holds that heat well once it has it. Tares are **A 654 g, B 584 g** — weigh each tray loaded, before and after, and both vegetables give their own loss figure.
    > ⚠⚠ **The different dice is the whole point, not fussiness.** Purple sweet potato is denser and drier; butternut is softer and carries more free sugar, so its edges catch first. At equal dice the butternut is done while the sweet potato is still firm. Cut the sweet potato smaller and they finish together.
@@ -112,20 +112,20 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 4312 kcal | Iron | 34.7 mg |
-| Protein | 145 g | Calcium | 1609 mg |
-| Carbohydrates | 700 g | Zinc | 19.8 mg |
-| — of which sugars | 83.6 g | Magnesium | 1677 mg |
-| Fat | 128 g | Potassium | 11503 mg |
-| — of which saturates | 75.2 g | Vitamin A | 3675 µg |
-| Fibre | 140 g | Vitamin C | 404 mg |
-| Salt | 7.5 g | Folate | 741 µg |
+| Energy | 4289 kcal | Iron | 35.0 mg |
+| Protein | 145 g | Calcium | 1631 mg |
+| Carbohydrates | 706 g | Zinc | 19.9 mg |
+| — of which sugars | 84.7 g | Magnesium | 1693 mg |
+| Fat | 123 g | Potassium | 11665 mg |
+| — of which saturates | 74.7 g | Vitamin A | 3920 µg |
+| Fibre | 141 g | Vitamin C | 413 mg |
+| Salt | 7.5 g | Folate | 754 µg |
 
-**Per serving at 5:** ~712 g, 862 kcal, 29 g protein, 28.1 g fibre.
+**Per serving at 5:** ~718 g, 858 kcal, 29 g protein, 28.2 g fibre.
 
 ⚠⚠ **140 g of fibre is the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **28 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
-⚠⚠ **75 g of saturated fat, and 69 g of that is the single can of 🥥 coconut cream.** The same pattern as the Tom Yum Broccoli soup. Everything else in the bowl is close to fat-free; **150 ml instead of the full 270 ml is the cut point if it reads heavy**, with soya milk making up the volume.
+⚠⚠ **75 g of saturated fat, and 69 g of that is the single can of 🥥 coconut cream** — a share that only rose when the roots went in at 5 g of oil between them. The same pattern as the Tom Yum Broccoli soup. Everything else in the bowl is close to fat-free; **150 ml instead of the full 270 ml is the cut point if it reads heavy**, with soya milk making up the volume.
 
 **Vitamin A 3675 µg** is mostly the 🎃 butternut and the 🌿 sweet potato leaves, and **potassium 10391 mg** is unusually high even for this project.
 
