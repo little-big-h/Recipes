@@ -341,7 +341,7 @@ points.
 | Method | Loss | Measurements |
 |:--|--:|:--|
 | **Microwaved only, covered, ~1 tbsp water** | **~1–2%** | broccoli 1.4% (2026-10-11, 350 g → 345 g) |
-| Roasted root / squash, ~1 g oil per 100 g | **~16%** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g) |
+| Roasted root / squash, ~1 g oil per 100 g | **~16%** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g); **PURPLE sweet potato 17.0%** (2026-11-10, 833 g incl. 3 g oil → 691 g, ceramic tray B tare 584 g). ⚠ **The purple figure was predicted to come in LOWER than the others and did not** — denser and drier should mean less water to lose, and it lost slightly more. Within noise for one measurement, but do not assume purple is the low-loss root. ⚠ It also ran at **0.36 g oil per 100 g**, a third of this row’s rate; less oil means less of a barrier to moisture loss, which plausibly inflates it a little. |
 | Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
 | **Stir-fried from raw to tender** | **~18–22%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g); **cauliflower 17.8%** (2026-11-02, 465 g + 2 g oil → 384 g) |
 | **Stir-fried from raw, flash only** | **~8%** | bean sprouts 8.5% (2026-10-04, 212 g → 194 g) |
