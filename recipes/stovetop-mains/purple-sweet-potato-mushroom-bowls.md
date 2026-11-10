@@ -118,7 +118,7 @@
 |:------|------:|:------|------:|
 | Energy | 3271 kcal | Iron | 31.3 mg |
 | Protein | 114 g | Calcium | 1265 mg |
-| Carbohydrates | 706 g | Zinc | 19.9 mg |
+| Carbohydrates | 585 g | Zinc | 16.2 mg |
 | — of which sugars | 78.4 g | Magnesium | 1354 mg |
 | Fat | 74.0 g | Potassium | 11744 mg |
 | — of which saturates | 29.3 g | Vitamin A | 3920 µg |
@@ -127,7 +127,7 @@
 
 **Per serving at 5:** ~620 g, 654 kcal, 22.8 g protein, 25.2 g fibre.
 
-⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **28 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
+⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
 ✅ **Saturated fat came down from 75 g to 30 g, and one swap did all of it.** 270 g of Ayam cream carried 69 g of saturated fat on its own; 200 ml of Kara light carries 24 g. Total fat fell 123 → 78 g even after adding 10 g of oil for the paste. **The cut point flagged earlier was taken without being asked for.**
 
