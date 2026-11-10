@@ -2,7 +2,7 @@
 
 *The box-day bowl: two roasted roots, wok-browned 🍄‍🟫 shiitake, 🌰 buckwheat, 🌿 sweet potato leaves wilted in at the last second and 🫑 raw baby peppers over the top. **The sauce is the linchpin** — everything else is a component that can be cooked and held, and the sauce is what turns five separate things into one dish.*
 
-> ⚠ **COOKING 10-11-2026 — actuals go into the table as they are weighed.** Both roots are in: 🍠 purple sweet potato **830 g** against 500 g planned (1417 g gross on ceramic tray B, tare 584 g, with 3 g of oil) and 🎃 butternut **546 g** against 500 g (1202 g gross on tray A, tare 654 g, with 2 g of oil). The nutrition below carries both; everything else is still the design. See **Weigh-ins** under Design notes.
+> ✅ **COOKED AND RATED 10-11-2026 — average 7.95 across four**: Julina 8.7, Holger 8.2, Lara 7.5, Jannes 7.4. Anja unscored. The weakest of three dishes in four days. **Holger added extra amchur at the table for acidity, which is the sweetness flag in this recipe being confirmed in practice.** Lara skipped the squash and Jannes the sweet potato — see remark 80 in [`../../docs/RATINGS.md`](../../docs/RATINGS.md). Quantities below are as cooked.
 
 > **Variation on the Tuesday dinner in** [`../../design/MEAL-PLAN-2026-11-10.md`](../../design/MEAL-PLAN-2026-11-10.md): 🌿 sweet potato leaves and a separate protein in, nothing dropped — the butternut stays because there is a kilo of it in the box.
 
