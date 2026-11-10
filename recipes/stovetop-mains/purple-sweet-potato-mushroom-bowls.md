@@ -23,7 +23,7 @@
 | 🟤 | 🥛 Soya milk, NutriSoy plain | 250 g | 34 | **80 g** | local |
 | 🟡 | 🌾 Lemongrass, **tender lower 10 cm only** | 60 g | 60 | **60 g** | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟡 | 🍃 Makrut lime leaves | 8 whole + 4 shredded | ~0 | | — |
-| 🟡 | 🌱 Coriander — 15 g stems/roots, 20 g leaves | 35 g | 8 | | [usda](https://fdc.nal.usda.gov/food-details/169997/nutrients) |
+| 🟡 | 🌱 Coriander — stems/roots in the paste, leaves at the end | 35 g | 7 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169997/nutrients) |
 | 🟡 | 🫚 Ginger, grated | 25 g | 12 | **15 g** | local |
 | 🟡 | 🧄 Garlic | 20 g | 45 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟡 | 🧅 Onion | 80 g | 30 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
@@ -34,7 +34,7 @@
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.54 kg** | **~3278** | | |
+| | **Total** | **~3.54 kg** | **~3277** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -116,7 +116,7 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3278 kcal | Iron | 31.4 mg |
+| Energy | 3277 kcal | Iron | 31.4 mg |
 | Protein | 115 g | Calcium | 1282 mg |
 | Carbohydrates | 587 g | Zinc | 16.3 mg |
 | — of which sugars | 78.3 g | Magnesium | 1353 mg |
@@ -125,7 +125,7 @@
 | Fibre | 126 g | Vitamin C | 416 mg |
 | Salt | 7.5 g | Folate | 689 µg |
 
-**Per serving at 5:** ~620 g, 656 kcal, 22.9 g protein, 25.2 g fibre.
+**Per serving at 5:** ~619 g, 655 kcal, 22.9 g protein, 25.2 g fibre.
 
 ⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
