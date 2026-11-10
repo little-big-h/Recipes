@@ -17,7 +17,10 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Small wok — **the stainless steel one** | **810 g** | 2026-10-15 (identified 2026-10-26) |
 | Large mixing bowl | **557 g** | 2026-09-30 |
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
-| Ceramic baking tray | **654 g** | 2026-11-10 |
+| Ceramic baking tray **A** — 🎃 **squash** | **654 g** | 2026-11-10 |
+| Ceramic baking tray **B** — 🍠 **sweet potato** | **584 g** | 2026-11-10 |
+
+⚠ **The two ceramic trays are 70 g apart, so the scale identifies them and no marking is strictly needed** — but they are assigned anyway: **A (654 g) for 🎃 squash, B (584 g) for 🍠 sweet potato**. The point of a standing assignment is that **each tray can be weighed before and after roasting and give its own loss figure**, without decanting and without two vegetables sharing one number. For a durable physical mark, a notch filed in the underside of the rim or a porcelain marker baked at ~160 °C both survive; nail polish does not survive 220 °C.
 
 ⚠ **Ask which vessel a "with pot" weight was taken in. Never infer it.** A yield
 given as "5240 with pot" is unusable until the vessel is named, and the tares

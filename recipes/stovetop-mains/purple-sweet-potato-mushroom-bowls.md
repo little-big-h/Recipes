@@ -63,7 +63,8 @@
 
 ### 2. Roots — two trays, two different dice
 
-2. **🍠 purple sweet potato at 15 mm, 🎃 butternut at 25 mm, one tray each**, ~1 g 🥑 oil per 100 g, **220 °C convection with fan, ~30 min**.
+2. **🍠 purple sweet potato at 15 mm on ceramic tray B, 🎃 butternut at 25 mm on ceramic tray A**, ~1 g 🥑 oil per 100 g, **220 °C convection with fan, ~30 min**.
+   > **Preheat the ceramic hard.** Ceramic conducts far more slowly than steel, so a cold tray costs the roots their browned underside; given a long preheat it holds that heat well once it has it. Tares are **A 654 g, B 584 g** — weigh each tray loaded, before and after, and both vegetables give their own loss figure.
    > ⚠⚠ **The different dice is the whole point, not fussiness.** Purple sweet potato is denser and drier; butternut is softer and carries more free sugar, so its edges catch first. At equal dice the butternut is done while the sweet potato is still firm. Cut the sweet potato smaller and they finish together.
    > ⚠ **One tray each, not both on one.** A 40 × 30 cm tray holds about 700–800 g of dice in a single layer. Crowd 1 kg onto it and they steam in their own moisture — pale, soft cubes instead of browned edges. That failure is far likelier than any problem with mixing the two vegetables.
    > On file: roasted sweet potato loses **16.4%**, butternut **15.8%** — near enough identical, which is why they suit the same oven and the same oil rate.
@@ -155,6 +156,7 @@
 |:------------|:----|
 | 🍄‍🟫 **Shiitake raw in → browned out** | ⚠⚠ **The one that keeps getting missed.** There is **no wok-browned or roasted mushroom loss figure anywhere in the project** — it has been available and skipped three sessions running. 600 g in one wok is the cleanest chance yet. ⚠ The **big wok's tare is not on file** (only the small one, 810 g) — weigh it empty first. |
 | 🌿 **Leaves raw in → wilted out** | 350 g to an estimated ~80 g is a 77% loss and entirely a guess. No leafy-green wilting figure exists on file. |
+| 🎃 **and** 🍠 **each tray weighed before and after roasting** | ⚠ **Two figures for one weighing each, and one of them is new.** The losses table has orange sweet potato at 16.4% and butternut at 15.8%, but **no figure at all for PURPLE sweet potato**, which is denser and drier and may well lose less. The trays are assigned — **ceramic A (tare 654 g) for 🎃 squash, B (584 g) for 🍠 sweet potato** — so each vegetable gets its own number instead of sharing one. |
 | **Bowl contents assembled** | The ~3.28 kg yield is built from five separate estimates stacked together, which is exactly how the Masala-Zwiebelkuchen forecast came out 27% high. |
 | 🌰 **Buckwheat dry in → cooked out at 1.5 : 1** | The 2.53× row is for 1.75 : 1. A second ratio turns one measurement into a usable relationship. ⚠ **Note the steeped water separately** — the grain is absorbing shiitake liquor, not plain water, so the yield is not strictly comparable to the plain-water row. |
 | 🍄‍🟫 **Stems in → strained liquid out** | Tells you which way the volume moved, which nothing on file answers. Frozen stems should give water up rather than soak it in, but that is reasoning, not a measurement. |
