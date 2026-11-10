@@ -19,8 +19,8 @@
 | 🟢 | 🫑 Baby peppers, **raw** | 150 g | 47 | | [usda](https://fdc.nal.usda.gov/food-details/170108/nutrients) |
 | 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 1384 | | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
-| 🟤 | 🥥 Coconut cream (Ayam, 270 ml can) | 270 g | 770 | | local |
-| 🟤 | 🥛 Soya milk, NutriSoy plain | 250 g | 105 | | local |
+| 🟤 | 🥥 Coconut milk **LIGHT** (Kara UHT) | 270 g Ayam cream | 264 | **200 ml Kara light** | local |
+| 🟤 | 🥛 Soya milk, NutriSoy plain | 250 g | 34 | **80 g** | local |
 | 🟡 | 🌾 Lemongrass, **tender lower 10 cm only** | 60 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟡 | 🍃 Makrut lime leaves | 8 whole + 4 shredded | ~0 | | — |
 | 🟡 | 🌱 Coriander — 15 g stems/roots, 20 g leaves | 35 g | 8 | | [usda](https://fdc.nal.usda.gov/food-details/169997/nutrients) |
@@ -31,14 +31,14 @@
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 25 g | 44 | | local |
 | 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 6 | | local |
 | 🔵 | 🍄‍🟫 Frozen shiitake **stems** (steeped, then removed) | ~120 g | — | | — |
-| 🟣 | 🥑 Avocado oil | 18 g | 115 | **13 g** | local |
+| 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.92 kg** | **~4289** | | |
+| | **Total** | **~3.69 kg** | **~3800** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 The 🌰 buckwheat's 600 ml of cooking water is not in the `.foodnoms` file. Listed ingredients sum to 3923 g; with that water it is ~4.52 kg in, against an estimated **~3.60 kg** served once the roots, the 🍄‍🟫 shiitake and the 🌿 leaves have lost theirs.*
+*💧 The 🌰 buckwheat's 600 ml of cooking water is not in the `.foodnoms` file. Listed ingredients sum to 3693 g; with that water it is ~4.29 kg in, against an estimated **~3.40 kg** served once the roots, the 🍄‍🟫 shiitake and the 🌿 leaves have lost theirs.*
 
 **🫛 Edamame is the protein as specced. Leftover torn seitan, re-browned, is the alternative** — it was served separately from the 09-11 soup, so there is some in the fridge, and an overnight rest only improves it.
 
@@ -86,7 +86,9 @@
 
 ### 4. The sauce — the linchpin
 
-5. **Open the 🥥 coconut cream and do not shake the can.** It separates; **spoon off the thick top and fry the paste in that.** No added oil is needed — the cream is 28.5% fat.
+5. ⚠⚠ **AS COOKED 10-11: 200 ml of Kara LIGHT UHT coconut milk, not the Ayam cream — and that breaks the step below.** A light UHT milk is **homogenised and stabilised**, so it does **not** separate and there is **no fat cap to fry the paste in**. **Fry the paste in 🥑 10 g of oil instead.** ✅ The compensation: the Ayam’s no-gum purity was the whole reason for the never-boil-hard rule, and a stabilised milk holds together far better — but it will not reduce to richness, so do not try.
+
+5. *(As designed, with the Ayam cream)* **Open the 🥥 coconut cream and do not shake the can.** It separates; **spoon off the thick top and fry the paste in that.** No added oil is needed — the cream is 28.5% fat.
 6. **Pound to a paste**: 🌾 lemongrass, 🫚 ginger, 🧄 garlic, 🧅 onion and the 🌱 coriander **stems and roots**.
    > ⚠⚠ **🌾 Lemongrass: the tender lower 10 cm only, and it must be pounded or sliced to nothing.** It is intensely fibrous — any piece big enough to notice is a piece nobody can chew. The upper stalks go to the freezer; 350 g is months of supply.
    > **🌱 Coriander roots and stems carry most of the flavour** and they take heat; the leaves do not. Leaves go on at the end.
@@ -94,7 +96,7 @@
 8. **🍃 Eight whole makrut leaves in, bruised**, then the rest of the 🥥 cream, the 🥛 soya milk, 🦪 oyster sauce, 🍥 dashi powder, 🧀 nooch and 🧂 salt. **Simmer gently 8 minutes, then fish the leaves out.**
    > ⚠⚠ **Do not let it boil hard.** The Ayam cream is 100% coconut kernel extract with **no gums or emulsifiers**, which is why it tastes clean and also why it **splits more readily than a stabilised brand**.
    > **🍃 Whole in, then out — then four more shredded fine, stirred in off the heat.** The infused leaves give the deep background; the fresh shred gives the top note that cooking destroys. The central rib is tough, so strip it before shredding.
-9. **Taste for body.** It should coat a spoon and run off it, not cling. Loosen with more 🥛 soya milk.
+9. **Taste for body.** It should coat a spoon and run off it, not cling. ⚠⚠ **With the light milk the 🥛 soya milk drops from 250 g to about 80 g** — the 250 g existed to loosen a 28.5% cream, and against 200 ml of light milk it would give coloured water. Add it a spoon at a time and stop when it coats.
 
 ### 5. Leaves, then assemble
 
@@ -112,20 +114,20 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 4289 kcal | Iron | 35.0 mg |
-| Protein | 145 g | Calcium | 1631 mg |
+| Energy | 3800 kcal | Iron | 35.0 mg |
+| Protein | 132 g | Calcium | 1291 mg |
 | Carbohydrates | 706 g | Zinc | 19.9 mg |
-| — of which sugars | 84.7 g | Magnesium | 1693 mg |
-| Fat | 123 g | Potassium | 11665 mg |
-| — of which saturates | 74.7 g | Vitamin A | 3920 µg |
-| Fibre | 141 g | Vitamin C | 413 mg |
+| — of which sugars | 78.4 g | Magnesium | 1693 mg |
+| Fat | 78.2 g | Potassium | 12234 mg |
+| — of which saturates | 30.2 g | Vitamin A | 3920 µg |
+| Fibre | 142 g | Vitamin C | 413 mg |
 | Salt | 7.5 g | Folate | 754 µg |
 
-**Per serving at 5:** ~718 g, 858 kcal, 29 g protein, 28.2 g fibre.
+**Per serving at 5:** ~680 g, 760 kcal, 26.4 g protein, 28.4 g fibre.
 
 ⚠⚠ **140 g of fibre is the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **28 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
-⚠⚠ **75 g of saturated fat, and 69 g of that is the single can of 🥥 coconut cream** — a share that only rose when the roots went in at 5 g of oil between them. The same pattern as the Tom Yum Broccoli soup. Everything else in the bowl is close to fat-free; **150 ml instead of the full 270 ml is the cut point if it reads heavy**, with soya milk making up the volume.
+✅ **Saturated fat came down from 75 g to 30 g, and one swap did all of it.** 270 g of Ayam cream carried 69 g of saturated fat on its own; 200 ml of Kara light carries 24 g. Total fat fell 123 → 78 g even after adding 10 g of oil for the paste. **The cut point flagged earlier was taken without being asked for.**
 
 **Vitamin A 3675 µg** is mostly the 🎃 butternut and the 🌿 sweet potato leaves, and **potassium 10391 mg** is unusually high even for this project.
 
