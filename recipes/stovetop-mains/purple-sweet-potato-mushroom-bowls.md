@@ -30,6 +30,7 @@
 | 🟣 | 🧀 Nutritional yeast | 10 g | 35 | | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 25 g | 44 | | local |
 | 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 6 | | local |
+| 🔵 | 🍄‍🟫 Frozen shiitake **stems** (steeped, then removed) | ~120 g | — | | — |
 | 🟣 | 🥑 Avocado oil | 18 g | 159 | | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
@@ -45,9 +46,9 @@
 
 ## Timeline
 
-![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Big+wok%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b0%2c20%2c%22Brown+shiitake%22%5d%5d%7d%2c%22Hands%22%3a%7b%22color%22%3a%22%238C6D46%22%2c%22steps%22%3a%5b%5b0%2c12%2c%22Dice+roots%22%5d%2c%5b20%2c32%2c%22Pound+paste%22%5d%2c%5b52%2c60%2c%22Assemble%22%5d%5d%7d%2c%22Oven%22%3a%7b%22color%22%3a%22%23D1A83A%22%2c%22steps%22%3a%5b%5b12%2c18%2c%22Preheat%22%5d%2c%5b18%2c48%2c%22Roast+roots%22%5d%5d%7d%2c%22Instant+Pot%22%3a%7b%22color%22%3a%22%235A8CD1%22%2c%22steps%22%3a%5b%5b26%2c48%2c%22Buckwheat%22%5d%5d%7d%2c%22Small+wok%22%3a%7b%22color%22%3a%22%23B772B7%22%2c%22steps%22%3a%5b%5b36%2c52%2c%22Sauce+and+leaves%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a48%2c%22color%22%3a%22%23A8862E%22%2c%22label%22%3a%22Roots+out%22%7d%5d)
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7b%22Big+wok%22%3a%7b%22color%22%3a%22%235AAD5A%22%2c%22steps%22%3a%5b%5b12%2c32%2c%22Brown+shiitake%22%5d%5d%7d%2c%22Hands%22%3a%7b%22color%22%3a%22%238C6D46%22%2c%22steps%22%3a%5b%5b0%2c10%2c%22Dice+roots%22%5d%2c%5b32%2c44%2c%22Pound+paste%22%5d%2c%5b68%2c76%2c%22Assemble%22%5d%5d%7d%2c%22Oven%22%3a%7b%22color%22%3a%22%23D1A83A%22%2c%22steps%22%3a%5b%5b28%2c34%2c%22Preheat%22%5d%2c%5b34%2c64%2c%22Roast+roots%22%5d%5d%7d%2c%22Instant+Pot%22%3a%7b%22color%22%3a%22%235A8CD1%22%2c%22steps%22%3a%5b%5b0%2c12%2c%22Heat+bath+to+60C%22%5d%2c%5b12%2c42%2c%22Steep+stems%22%5d%2c%5b42%2c64%2c%22Buckwheat%22%5d%5d%7d%2c%22Small+wok%22%3a%7b%22color%22%3a%22%23B772B7%22%2c%22steps%22%3a%5b%5b52%2c68%2c%22Sauce+and+leaves%22%5d%5d%7d%7d&syncs=%5b%7b%22t%22%3a42%2c%22color%22%3a%22%233A5F8C%22%2c%22label%22%3a%22Stems+out%22%7d%2c%7b%22t%22%3a64%2c%22color%22%3a%22%23A8862E%22%2c%22label%22%3a%22Roots+out%22%7d%5d)
 
-**An hour, five stations, and only one real dependency.** The 🍄‍🟫 shiitake can be done well ahead and held; the roots, the 🌰 buckwheat and the sauce all finish within four minutes of each other by design. **Only the sauce has to be hot and fresh at the end** — everything else tolerates sitting.
+**About 75 minutes, five stations, and the Instant Pot is now the long pole.** The sous-vide steep has to finish before the 🌰 buckwheat can start, so the pot runs from minute zero; the roots, the buckwheat and the sauce still land within four minutes of each other. The 🍄‍🟫 shiitake can be done well ahead and held, and **only the sauce has to be hot and fresh at the end.**
 
 ---
 
@@ -69,28 +70,34 @@
 
 ### 3. Buckwheat — Instant Pot
 
-3. **🌰 400 g kasha, 600 g water — 1.5 : 1, not the usual 1.75 : 1.** Absorption cook: **0 minutes at low pressure**, then **wait ten minutes by the clock and vent by hand.**
+3. **Steep the 🍄‍🟫 frozen shiitake stems first, in the water the 🌰 buckwheat will absorb.** 600 g water into the inner pot, lid on and **locked**, **Sous Vide → Chicken, 60 °C**. When it reaches temperature, **then** drop the frozen stems in. Hold **30 minutes**, stirring once midway.
+   > ⚠⚠ **The stems go in AFTER the bath is at temperature, never at the start, and this is the whole reason for using sous vide rather than the pressure cycle.** Phosphomonoesterase **destroys** 5′-GMP at **40–50 °C**; ribonuclease **makes** it at **60–70 °C**. Freezing ruptures the cells but **does not kill the enzymes**, so stems sitting in water that climbs slowly from cold spend the climb in the destructive band. A pressure cycle does exactly that and then overshoots to ~110 °C. See `../../docs/TECHNIQUES.md`.
+   > **Chicken at 60 °C, not Egg at 70 °C.** 60 °C is inside the productive band with margin; 70 °C is its top edge and risks denaturing the enzyme you are relying on.
+   > ⚠ **No circulation pump and the element is in the base**, so the bath stratifies and 600 g is a shallow layer. Stir at the start and once midway.
+   > ⚠ **An absorption cook keeps everything you infuse**, which is the point — nothing is drained away. But **take the stems out before the grain goes in.** They stay woody through any cook; that is why they were bagged for dashi in the first place.
+   > ⚠ **Weigh the strained liquid and correct it back to 600 g.** It can go either way: frozen stems have ruptured cells and give water up at 60 °C, so the volume may rise rather than fall. A sealed absorption cook cannot be topped up mid-cycle, and dry is the direction that leaves hard grains.
+4. **🌰 400 g kasha into the strained 600 g — 1.5 : 1, not the usual 1.75 : 1.** Absorption cook: **0 minutes at low pressure**, then **wait ten minutes by the clock and vent by hand.**
    > ⚠ **Deliberately drier than the measured row.** Buckwheat has no gluten and a soft starchy endosperm, and it keeps absorbing after it is cooked — under a sauce it slumps. The **2.53×** yield in `../../docs/TECHNIQUES.md` was measured at 1.75 : 1; at 1.5 : 1 expect about **2.3×**, so ~920 g.
    > ⚠ **There is no automatic timed release on the Instant Pot.** "Ten-minute defined release" means exactly that: set a timer when the cycle ends, then vent manually. That is what was done when the 2.53× figure was taken.
    > ⚠ **If raw green groats rather than pre-toasted kasha**, dry-toast them first. That is the difference between separate grains and porridge.
 
 ### 4. The sauce — the linchpin
 
-4. **Open the 🥥 coconut cream and do not shake the can.** It separates; **spoon off the thick top and fry the paste in that.** No added oil is needed — the cream is 28.5% fat.
-5. **Pound to a paste**: 🌾 lemongrass, 🫚 ginger, 🧄 garlic, 🧅 onion and the 🌱 coriander **stems and roots**.
+5. **Open the 🥥 coconut cream and do not shake the can.** It separates; **spoon off the thick top and fry the paste in that.** No added oil is needed — the cream is 28.5% fat.
+6. **Pound to a paste**: 🌾 lemongrass, 🫚 ginger, 🧄 garlic, 🧅 onion and the 🌱 coriander **stems and roots**.
    > ⚠⚠ **🌾 Lemongrass: the tender lower 10 cm only, and it must be pounded or sliced to nothing.** It is intensely fibrous — any piece big enough to notice is a piece nobody can chew. The upper stalks go to the freezer; 350 g is months of supply.
    > **🌱 Coriander roots and stems carry most of the flavour** and they take heat; the leaves do not. Leaves go on at the end.
-6. **Fry the paste in the coconut fat** until it smells cooked and the fat separates again, 4–5 minutes.
-7. **🍃 Eight whole makrut leaves in, bruised**, then the rest of the 🥥 cream, the 🥛 soya milk, 🦪 oyster sauce, 🍥 dashi powder, 🧀 nooch and 🧂 salt. **Simmer gently 8 minutes, then fish the leaves out.**
+7. **Fry the paste in the coconut fat** until it smells cooked and the fat separates again, 4–5 minutes.
+8. **🍃 Eight whole makrut leaves in, bruised**, then the rest of the 🥥 cream, the 🥛 soya milk, 🦪 oyster sauce, 🍥 dashi powder, 🧀 nooch and 🧂 salt. **Simmer gently 8 minutes, then fish the leaves out.**
    > ⚠⚠ **Do not let it boil hard.** The Ayam cream is 100% coconut kernel extract with **no gums or emulsifiers**, which is why it tastes clean and also why it **splits more readily than a stabilised brand**.
    > **🍃 Whole in, then out — then four more shredded fine, stirred in off the heat.** The infused leaves give the deep background; the fresh shred gives the top note that cooking destroys. The central rib is tough, so strip it before shredding.
-8. **Taste for body.** It should coat a spoon and run off it, not cling. Loosen with more 🥛 soya milk.
+9. **Taste for body.** It should coat a spoon and run off it, not cling. Loosen with more 🥛 soya milk.
 
 ### 5. Leaves, then assemble
 
-9. **🌿 Sweet potato leaves into the sauce wok, off the heat**, folded through until just collapsed.
+10. **🌿 Sweet potato leaves into the sauce wok, off the heat**, folded through until just collapsed.
    > ⚠ **350 g will read as roughly 80 g.** They are also mildly mucilaginous — a coconut sauce carries that well, a thin broth would not — and they go slippery if they sit in a hot pan. In, folded, out.
-10. **Bowls: 🌰 buckwheat, then the roots and 🍄‍🟫 shiitake, then 🫛 edamame, sauce over, 🫑 raw baby peppers and 🌱 coriander leaves on top.** 🍋‍🟩 Lime wedges on the table.
+11. **Bowls: 🌰 buckwheat, then the roots and 🍄‍🟫 shiitake, then 🫛 edamame, sauce over, 🫑 raw baby peppers and 🌱 coriander leaves on top.** 🍋‍🟩 Lime wedges on the table.
     > 🫑 **The peppers are raw and stay raw.** Lara is fine with raw pepper and flagged against cooked — this costs nothing and removes a whole objection.
     > ⚪ **Acid at the table, not in the pot.** Observation 60.
 
@@ -123,6 +130,8 @@
 
 ⚠ **USDA-derived, not FoodNoms-verified**, and planned rather than cooked.
 
+⚠ **The steeped 🍄‍🟫 stems are not in the `.foodnoms` file.** They are strained out, so only their soluble extract stays in the grain — a small fraction that cannot be quantified from a USDA record for whole stems. Counting the full 120 g would overstate it badly; counting nothing understates it slightly. Nothing is the honest choice.
+
 ⚠ **Many micros are floors** — coverage runs from 8 to 17 of 19 rows; the label-derived 🥥 cream, 🥛 soya milk, 🧀 nooch, 🦪 sauce and 🍥 dashi rows carry macros only.
 
 ⬇ **FoodNoms file:** `examples/Purple Sweet Potato & Mushroom Bowls [10-11-26].foodnoms`.
@@ -147,5 +156,6 @@
 | 🍄‍🟫 **Shiitake raw in → browned out** | ⚠⚠ **The one that keeps getting missed.** There is **no wok-browned or roasted mushroom loss figure anywhere in the project** — it has been available and skipped three sessions running. 600 g in one wok is the cleanest chance yet. ⚠ The **big wok's tare is not on file** (only the small one, 810 g) — weigh it empty first. |
 | 🌿 **Leaves raw in → wilted out** | 350 g to an estimated ~80 g is a 77% loss and entirely a guess. No leafy-green wilting figure exists on file. |
 | **Bowl contents assembled** | The ~3.28 kg yield is built from five separate estimates stacked together, which is exactly how the Masala-Zwiebelkuchen forecast came out 27% high. |
-| 🌰 **Buckwheat dry in → cooked out at 1.5 : 1** | The 2.53× row is for 1.75 : 1. A second ratio turns one measurement into a usable relationship. |
+| 🌰 **Buckwheat dry in → cooked out at 1.5 : 1** | The 2.53× row is for 1.75 : 1. A second ratio turns one measurement into a usable relationship. ⚠ **Note the steeped water separately** — the grain is absorbing shiitake liquor, not plain water, so the yield is not strictly comparable to the plain-water row. |
+| 🍄‍🟫 **Stems in → strained liquid out** | Tells you which way the volume moved, which nothing on file answers. Frozen stems should give water up rather than soak it in, but that is reasoning, not a measurement. |
 | **Does the sauce coat or slide?** | The go/no-go, and not a number. If it slides off the buckwheat, the next version reduces the 🥛 soya milk rather than adding starch. |
