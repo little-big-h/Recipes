@@ -3001,6 +3001,25 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:5D2A8C41-6B93-4E07-A1F5-3C8E7D260B94": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "milliliter",
+  "brand": "Ayam Brand",
+  "foodID": "local:5D2A8C41-6B93-4E07-A1F5-3C8E7D260B94",
+  "name": "Pure Coconut Cream, 270 ml can (Ayam Brand)",
+  "per100": {
+   "calories": 285.0,
+   "carbs": 4.0,
+   "fat": 28.5,
+   "fatSaturated": 25.5,
+   "protein": 3.1,
+   "sodium": 19.0,
+   "sugars": 3.9
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:5D8A3C71-2F46-4E90-B183-7C4A6D2E9F58": {
   "barcode": null,
   "baseAmount": 100.0,
