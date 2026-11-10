@@ -21,7 +21,7 @@
 | 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 855 | **247 g** | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
 | 🟤 | 🥥 Coconut milk **LIGHT** (Kara UHT) | 270 g Ayam cream | 264 | **200 ml Kara light** | local |
-| 🟤 | 🥛 Soya milk — **Homesoy**, not NutriSoy | 250 g | 86 | **205 g** | local |
+| 🟤 | 🥛 Soya milk — **Homesoy**, not NutriSoy | 250 g | 126 | **300 g** (205 + 95) | local |
 | 🟡 | 🌾 Lemongrass, **tender lower 10 cm only** | 60 g | 60 | **60 g** | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟡 | 🍃 Makrut lime leaves | 8 whole + 4 shredded | ~0 | | — |
 | 🟡 | 🌱 Coriander — stems/roots in the paste, leaves at the end | 35 g | 7 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169997/nutrients) |
@@ -35,7 +35,7 @@
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.52 kg** | **~3286** | | |
+| | **Total** | **~3.61 kg** | **~3311** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -121,16 +121,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3286 kcal | Iron | 31.0 mg |
-| Protein | 117 g | Calcium | 1195 mg |
-| Carbohydrates | 584 g | Zinc | 16.6 mg |
+| Energy | 3311 kcal | Iron | 31.0 mg |
+| Protein | 119 g | Calcium | 1270 mg |
+| Carbohydrates | 585 g | Zinc | 16.6 mg |
 | — of which sugars | 79.2 g | Magnesium | 1346 mg |
-| Fat | 75.4 g | Potassium | 11375 mg |
+| Fat | 76.1 g | Potassium | 11375 mg |
 | — of which saturates | 29.2 g | Vitamin A | 3731 µg |
 | Fibre | 122 g | Vitamin C | 398 mg |
 | Salt | 10.2 g | Folate | 689 µg |
 
-**Per serving at 5:** ~615 g, 657 kcal, 23.3 g protein, 24.3 g fibre.
+**Per serving at 5:** ~634 g, 662 kcal, 23.8 g protein, 24.4 g fibre.
 
 ⚠⚠ **122 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
