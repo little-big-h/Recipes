@@ -29,7 +29,7 @@
 | 🟣 | 🥑 Avocado oil (browning the seitan) | — | 27 | **3 g** | local |
 | ⚪ | 🥭 Amchur — **at the table, not in the pot** | ~12 g | — | | proxy |
 | | **Total in the pot** | | **~1986** | **~3827 g** | |
-| | **Whole dish incl. 🥩 seitan** | | **~3765** | **4264 g** | |
+| | *(🥩 seitan is a separate dish — see below)* | | | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -79,9 +79,9 @@
 
 ### 4. Seitan and assembly
 
-9. **🥩 Brown the torn seitan hard** in 🥑 3 g oil until the ragged edges catch. The whole 716 g batch goes in.
+9. **🥩 Brown the torn seitan hard** in 🥑 3 g oil until the ragged edges catch.
    > ⚠ Torn surfaces have an enormous area. Searing builds a skin that resists waterlogging, and **skipping it is the main way seitan goes spongy in soup.**
-10. **🥩 seitan into the bowls, soup ladled over.** Not simmered in. *(The 🥦 broccoli was in the pot on this cook — see step 8.)*
+10. ⚠⚠ **AS COOKED 09-11-2026 the 🥩 seitan was served SEPARATELY — a dish of its own on the table, not in the bowls and not in the soup.** People took as much or as little as they wanted, so **how much of the 716 g was eaten with the soup is not known** and the two cannot be summed into one dish. *(The 🥦 broccoli, by contrast, was in the pot — see step 8.)*
     > ⚠ **Nothing holds the solids in suspension**, since there is no starch — kernels and seitan settle. Stir before each ladle, and again when reheating.
 11. **🥭 Amchur at the table.** Stir 10–12 g into a few spoons of the hot soup to make a loose slurry first — dry powder clumps on liquid — and let people spoon it in.
 
@@ -102,7 +102,7 @@
 | Fibre | 67.9 g | Vitamin C | 630 mg |
 | Salt | 10.5 g | Folate | 1016 µg |
 
-⚠⚠ **The 🥩 seitan is deliberately not in this file.** It has its own collection — `examples/Torn Seitan for Soup [09-11-26].foodnoms` — so **log both and they add**; folding its components in here would double-count the moment both are imported. The measured **716 g** batch adds **1692 kcal and 241 g of protein**, which takes the dish from 80 g of protein to **322 g**.
+⚠⚠ **The 🥩 seitan is not in this file, and that turned out to be more right than intended.** It has its own collection — `examples/Torn Seitan for Soup [09-11-26].foodnoms` — and it was **served separately on the table**, so it is a second dish rather than an ingredient. **Log whatever was actually taken from its own file**; do not assume the 716 g batch belongs to this soup. For reference the whole batch is 1692 kcal and 241 g of protein, but only part of it was eaten here.
 
 ✅ **630 mg of vitamin C, and it lands exactly where it is needed.** The seitan's 18.2 mg of iron is non-haem, from the wheat gluten, and its own recipe flags that it has no vitamin C anywhere in the formula to help absorb it. **This soup is the fix** — the 🥦 broccoli carries the great majority of that 630 mg, and it is eaten in the same bowl.
 
@@ -136,6 +136,6 @@
 |:------------|:----|
 | ~~Pot in → pot out~~ | ✅ **Done: 4365 g → 3548 g, an 18.7% loss**, with the 🥦 broccoli in the pot and in the weighing. 4415 g gross less the recorded 867 g inner-pot tare. ⚠⚠ **Composite, not pure evaporation** — the soup was decanted to a blender and back, which costs 50–150 g on a 2 L batch, and the pot was hot for ~34 minutes rather than the 26 first assumed. **Blending in the pot with a stick blender should cut this by several points.** ⚠ The 1800 ml of water was specced but not confirmed on the day. |
 | 🥦 **Broccoli raw in → steamed out** | ⚠ **Not taken, and it cannot be now** — the broccoli went into the pot on this cook rather than being steamed separately, so there is no separate weight to record. It also leaves the pot yield ambiguous: see the note on **Pot in → pot out**. |
-| ~~🥩 Seitan torn in~~ | ✅ **Done: the whole 716 g batch**, plus 3 g of oil to brown it. The two collections now add up to the real bowl. |
+| 🥩 **Seitan actually eaten with the soup** | ⚠ **Not taken, and not recoverable.** The 716 g batch was browned with 3 g of oil and **served separately**, so the portion that went with the soup is unknown. Weigh what comes back to the kitchen next time, or portion it out. |
 | **Did the char survive the simmer?** | Not a number. If the 400 g of charred corn has gone soft and lost its edge by serving, it goes in later next time — or gets scattered on top instead. |
 | **Is it sweet anyway?** | The go/no-go for the whole design. If it still reads sweet despite the charring and the amchur, the next version chars 600 g rather than 400 g. |
