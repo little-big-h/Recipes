@@ -15,7 +15,7 @@
 | 🟢 | 🍠 Purple sweet potato, **15 mm** dice | 500 g | 1004 | **830 g** | local |
 | 🟢 | 🎃 Butternut squash, **25 mm** dice | 500 g | 246 | **546 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake caps, big wok | 600 g | 204 | | local |
-| 🟢 | 🌿 Sweet potato leaves **and thin stems** | 350 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
+| 🟢 | 🌿 Sweet potato leaves **and thin stems** | 350 g | 148 | **stems 77 g**, leaves pending | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
 | 🟢 | 🫑 Baby peppers, **raw** | 150 g | 47 | | [usda](https://fdc.nal.usda.gov/food-details/170108/nutrients) |
 | 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 855 | **247 g** | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
@@ -106,7 +106,7 @@
 
 10. ⚠⚠ **Stems and leaves are two ingredients, not one, and they do not go in together.** **Thin stems first**, cut 2–3 cm, **60–90 seconds over heat**; **then the 🌿 leaves, off the heat**, folded through until just collapsed. Treat them the same and you get either woody stems or dead leaves.
     > **Keep the thin stems — they are the crunch.** Same mechanism as the puay leng stems in the shakshuka: it is **turgor, not fibre**, and sustained submersion is what destroys it. They are also the more mucilaginous part, which a coconut sauce carries and a thin broth would not. ⚠ **Snap test:** a stem that breaks cleanly is tender; one that bends and pulls a string is woody — discard or peel those. Expect the base of each stem to fail it.
-    > ⚠ **Keeping the stems changes the yield.** The ~80 g estimate below assumed leaves only; with the thin stems in, usable material goes from roughly 200 g to nearer 300 g of the 350 g bunch.
+    > ⚠ **Keeping the stems changes the yield, though less than first claimed.** As trimmed on 10-11 the stems came to **77 g — 22% of the 350 g bunch**, against an assumption that they were a larger share. Usable material goes from roughly 200 g to nearer **270 g**, not the 300 g first estimated. ⚠ **USDA  is a LEAF record**; stems are higher in water and lower in nutrient density, so costing 77 g of stem against it overstates them slightly.
    > ⚠ **350 g will read as roughly 80 g.** They are also mildly mucilaginous — a coconut sauce carries that well, a thin broth would not — and they go slippery if they sit in a hot pan. In, folded, out.
 11. **Bowls: 🌰 buckwheat, then the roots and 🍄‍🟫 shiitake, then 🫛 edamame, sauce over, 🫑 raw baby peppers and 🌱 coriander leaves on top.** 🍋‍🟩 Lime wedges on the table.
     > 🫑 **The peppers are raw and stay raw.** Lara is fine with raw pepper and flagged against cooked — this costs nothing and removes a whole objection.
