@@ -17,6 +17,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Small wok — **the stainless steel one** | **810 g** | 2026-10-15 (identified 2026-10-26) |
 | Large mixing bowl | **557 g** | 2026-09-30 |
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
+| Ceramic baking tray | **654 g** | 2026-11-10 |
 
 ⚠ **Ask which vessel a "with pot" weight was taken in. Never infer it.** A yield
 given as "5240 with pot" is unusable until the vessel is named, and the tares
@@ -981,6 +982,8 @@ Browning costs nothing in umami: shiitake's guanylate is heat-stable, so Maillar
 on top rather than traded against it.
 
 **What the mushrooms sit on, for oven roasting: a bare preheated sheet.** Decided 2026-11-04.
+
+⚠ **The ceramic tray (tare 654 g, 2026-11-10) is the wrong pan for this.** Ceramic conducts heat an order of magnitude more slowly than steel, so the contact surface stays cooler and the water leaves slowly - which is the opposite of what the rule above is for. It also tends to have deeper walls that trap steam. **Metal for mushrooms; ceramic for anything that wants gentle even heat and no aggressive contact browning.** For roasted roots it works, preheated hard, at the cost of a paler underside.
 
 - ⚠ **Not baking paper.** Mushrooms shed a lot of water in the dry phase. On bare metal it hits a hot surface and flashes off; under them, paper traps a film of liquid, goes limp, and the mushrooms steam in their own juice — exactly what the dry phase exists to prevent. Paper is also an insulating layer, so the undersides brown less. **Silicone mats are worse again**, being thicker. The usual reason to reach for paper is sticking, which barely arises here: in the dry phase there is no oil and the mushrooms are actively shedding water, and by the browning phase they have oil.
 - ⚠⚠ **Not a wire rack either, and this is the less obvious one.** A rack gives better all-round air circulation, but **what drips off is not just water** — mushroom liquor carries the free glutamate, the nucleotides and the sugars. On a sheet that liquid pools thinly, concentrates as it evaporates, and the solids end up back on the mushroom. On a rack it leaves, and scorches bitter on the tray below. **The rack is right for things eaten dry where the drippings do not matter; for mushrooms going into a dish, the drippings are part of what you are cooking for.** (If a rack is used anyway, put a few millimetres of water in the tray beneath so the drips land in liquid rather than scorching, and add that water to the pot.)
