@@ -15,7 +15,7 @@
 | 🟢 | 🍠 Purple sweet potato, **15 mm** dice | 500 g | 1004 | **830 g** | local |
 | 🟢 | 🎃 Butternut squash, **25 mm** dice | 500 g | 246 | **546 g** | [usda](https://fdc.nal.usda.gov/food-details/169295/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake caps, big wok | 600 g | 204 | | local |
-| 🟢 | 🌿 Sweet potato leaves | 350 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
+| 🟢 | 🌿 Sweet potato leaves **and thin stems** | 350 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
 | 🟢 | 🫑 Baby peppers, **raw** | 150 g | 47 | | [usda](https://fdc.nal.usda.gov/food-details/170108/nutrients) |
 | 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 855 | **247 g** | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
@@ -104,7 +104,9 @@
 
 ### 5. Leaves, then assemble
 
-10. **🌿 Sweet potato leaves into the sauce wok, off the heat**, folded through until just collapsed.
+10. ⚠⚠ **Stems and leaves are two ingredients, not one, and they do not go in together.** **Thin stems first**, cut 2–3 cm, **60–90 seconds over heat**; **then the 🌿 leaves, off the heat**, folded through until just collapsed. Treat them the same and you get either woody stems or dead leaves.
+    > **Keep the thin stems — they are the crunch.** Same mechanism as the puay leng stems in the shakshuka: it is **turgor, not fibre**, and sustained submersion is what destroys it. They are also the more mucilaginous part, which a coconut sauce carries and a thin broth would not. ⚠ **Snap test:** a stem that breaks cleanly is tender; one that bends and pulls a string is woody — discard or peel those. Expect the base of each stem to fail it.
+    > ⚠ **Keeping the stems changes the yield.** The ~80 g estimate below assumed leaves only; with the thin stems in, usable material goes from roughly 200 g to nearer 300 g of the 350 g bunch.
    > ⚠ **350 g will read as roughly 80 g.** They are also mildly mucilaginous — a coconut sauce carries that well, a thin broth would not — and they go slippery if they sit in a hot pan. In, folded, out.
 11. **Bowls: 🌰 buckwheat, then the roots and 🍄‍🟫 shiitake, then 🫛 edamame, sauce over, 🫑 raw baby peppers and 🌱 coriander leaves on top.** 🍋‍🟩 Lime wedges on the table.
     > 🫑 **The peppers are raw and stay raw.** Lara is fine with raw pepper and flagged against cooked — this costs nothing and removes a whole objection.
@@ -164,7 +166,7 @@
 | Measurement | Why |
 |:------------|:----|
 | 🍄‍🟫 **Shiitake raw in → browned out** | ⚠⚠ **The one that keeps getting missed.** There is **no wok-browned or roasted mushroom loss figure anywhere in the project** — it has been available and skipped three sessions running. 600 g in one wok is the cleanest chance yet. ⚠ The **big wok's tare is not on file** (only the small one, 810 g) — weigh it empty first. |
-| 🌿 **Leaves raw in → wilted out** | 350 g to an estimated ~80 g is a 77% loss and entirely a guess. No leafy-green wilting figure exists on file. |
+| 🌿 **Leaves raw in → wilted out** | 350 g to an estimated ~80 g is a 77% loss and entirely a guess. No leafy-green wilting figure exists on file. ⚠ **Weigh the trimmed stems and leaves separately before cooking** — they behave differently and the estimate assumed leaves only, so one number for the bunch would be uninterpretable. |
 | 🎃 **and** 🍠 **each tray weighed before and after roasting** | ⚠ **Two figures for one weighing each, and one of them is new.** The losses table has orange sweet potato at 16.4% and butternut at 15.8%, but **no figure at all for PURPLE sweet potato**, which is denser and drier and may well lose less. The trays are assigned — **ceramic A (tare 654 g) for 🎃 squash, B (584 g) for 🍠 sweet potato** — so each vegetable gets its own number instead of sharing one. |
 | **Bowl contents assembled** | The ~3.28 kg yield is built from five separate estimates stacked together, which is exactly how the Masala-Zwiebelkuchen forecast came out 27% high. |
 | 🌰 **Buckwheat dry in → cooked out at 1.5 : 1** | The 2.53× row is for 1.75 : 1. A second ratio turns one measurement into a usable relationship. ⚠ **Note the steeped water separately** — the grain is absorbing shiitake liquor, not plain water, so the yield is not strictly comparable to the plain-water row. |
