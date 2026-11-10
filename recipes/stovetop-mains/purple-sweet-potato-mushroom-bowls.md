@@ -27,14 +27,14 @@
 | 🟡 | 🫚 Ginger, grated | 25 g | 12 | **15 g** | local |
 | 🟡 | 🧄 Garlic | 20 g | 45 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟡 | 🧅 Onion | 80 g | 30 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟣 | 🧀 Nutritional yeast | 10 g | 35 | | local |
+| 🟣 | 🧀 Nutritional yeast | 10 g | 56 | **16 g** | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 25 g | 44 | | local |
 | 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 6 | | local |
 | 🔵 | 🍄‍🟫 Frozen shiitake **stems** (steeped, then removed) | ~120 g | — | | — |
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.54 kg** | **~3277** | | |
+| | **Total** | **~3.55 kg** | **~3297** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -116,16 +116,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3277 kcal | Iron | 31.4 mg |
-| Protein | 115 g | Calcium | 1282 mg |
-| Carbohydrates | 587 g | Zinc | 16.3 mg |
+| Energy | 3297 kcal | Iron | 31.5 mg |
+| Protein | 117 g | Calcium | 1284 mg |
+| Carbohydrates | 589 g | Zinc | 16.8 mg |
 | — of which sugars | 78.3 g | Magnesium | 1353 mg |
 | Fat | 74.0 g | Potassium | 11744 mg |
 | — of which saturates | 29.2 g | Vitamin A | 3920 µg |
-| Fibre | 126 g | Vitamin C | 416 mg |
+| Fibre | 127 g | Vitamin C | 414 mg |
 | Salt | 7.5 g | Folate | 689 µg |
 
-**Per serving at 5:** ~619 g, 655 kcal, 22.9 g protein, 25.2 g fibre.
+**Per serving at 5:** ~620 g, 659 kcal, 23.5 g protein, 25.4 g fibre.
 
 ⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
