@@ -20,7 +20,7 @@
 | 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 855 | **247 g** | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
 | 🟤 | 🥥 Coconut milk **LIGHT** (Kara UHT) | 270 g Ayam cream | 264 | **200 ml Kara light** | local |
-| 🟤 | 🥛 Soya milk, NutriSoy plain | 250 g | 34 | **80 g** | local |
+| 🟤 | 🥛 Soya milk — **Homesoy**, not NutriSoy | 250 g | 86 | **205 g** | local |
 | 🟡 | 🌾 Lemongrass, **tender lower 10 cm only** | 60 g | 60 | **60 g** | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟡 | 🍃 Makrut lime leaves | 8 whole + 4 shredded | ~0 | | — |
 | 🟡 | 🌱 Coriander — stems/roots in the paste, leaves at the end | 35 g | 7 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169997/nutrients) |
@@ -34,7 +34,7 @@
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.48 kg** | **~3304** | | |
+| | **Total** | **~3.61 kg** | **~3324** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -120,16 +120,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3304 kcal | Iron | 31.3 mg |
-| Protein | 117 g | Calcium | 1284 mg |
-| Carbohydrates | 591 g | Zinc | 16.7 mg |
-| — of which sugars | 78.0 g | Magnesium | 1346 mg |
-| Fat | 74.0 g | Potassium | 11744 mg |
+| Energy | 3324 kcal | Iron | 31.3 mg |
+| Protein | 119 g | Calcium | 1266 mg |
+| Carbohydrates | 592 g | Zinc | 16.7 mg |
+| — of which sugars | 79.2 g | Magnesium | 1346 mg |
+| Fat | 75.4 g | Potassium | 11744 mg |
 | — of which saturates | 29.2 g | Vitamin A | 3920 µg |
 | Fibre | 127 g | Vitamin C | 414 mg |
 | Salt | 10.2 g | Folate | 689 µg |
 
-**Per serving at 5:** ~608 g, 661 kcal, 23.5 g protein, 25.2 g fibre.
+**Per serving at 5:** ~633 g, 665 kcal, 23.8 g protein, 25.3 g fibre.
 
 ⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
