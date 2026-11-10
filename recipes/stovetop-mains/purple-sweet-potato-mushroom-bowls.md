@@ -29,12 +29,12 @@
 | 🟡 | 🧅 Onion | 80 g | 30 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟣 | 🧀 Nutritional yeast | 10 g | 56 | **16 g** | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 25 g | 69 | **39 g** | local |
-| 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 6 | | local |
+| 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 19 | **16 g** | local |
 | 🔵 | 🍄‍🟫 Frozen shiitake **stems** (steeped, then removed) | ~120 g | — | | — |
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.56 kg** | **~3322** | | |
+| | **Total** | **~3.56 kg** | **~3335** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -116,16 +116,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3322 kcal | Iron | 31.5 mg |
+| Energy | 3335 kcal | Iron | 31.5 mg |
 | Protein | 117 g | Calcium | 1284 mg |
-| Carbohydrates | 595 g | Zinc | 16.8 mg |
+| Carbohydrates | 598 g | Zinc | 16.8 mg |
 | — of which sugars | 82.4 g | Magnesium | 1353 mg |
 | Fat | 74.0 g | Potassium | 11744 mg |
 | — of which saturates | 29.2 g | Vitamin A | 3920 µg |
 | Fibre | 127 g | Vitamin C | 414 mg |
-| Salt | 8.5 g | Folate | 689 µg |
+| Salt | 10.2 g | Folate | 689 µg |
 
-**Per serving at 5:** ~623 g, 664 kcal, 23.5 g protein, 25.4 g fibre.
+**Per serving at 5:** ~623 g, 667 kcal, 23.6 g protein, 25.4 g fibre.
 
 ⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
@@ -149,6 +149,7 @@
 
 ## Design notes
 
+- ⚠ **All three umami levers went up together on the day** — 🧀 nooch 10 → 16 g, 🦪 oyster sauce 25 → 39 g, 🍥 dashi powder 5 → 16 g. Individually each is small; together the sauce is markedly more savoury than designed. That is the right direction against two roasted roots and coconut, but it is a large combined move — **taste the sauce before adding anything else to it.**
 - **The sauce is the only thing that has to be fresh.** Shiitake, roots and buckwheat all hold; a bowl dish is a set of components plus one binding element, and the binding element is where the attention goes. That is also why the sauce carries all three umami sources — 🧀 glutamate, and guanylate from both the 🍥 dashi and the mushroom-based 🦪 LKK sauce — rather than spreading them across the components.
 - **This bowl has the corn soup's sweetness problem and the same fix.** Two roasted roots plus coconut cream is sweet by default, exactly as 1.5 kg of corn was. The counters are identical: **savoury depth built in** (the three umami sources, the hard-browned 🍄‍🟫 shiitake) and **acid at the table** (🍋‍🟩 lime). The Cantonese soup scored 8.53 on that combination the day before.
 - **Two roots, two dice, two trays.** Three separate reasons, and only the first is about the vegetables: density differs, sugar content differs, and a single tray cannot hold a kilo in one layer.
