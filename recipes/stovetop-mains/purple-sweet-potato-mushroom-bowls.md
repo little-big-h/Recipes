@@ -26,7 +26,7 @@
 | 🟡 | 🌱 Coriander — stems/roots in the paste, leaves at the end | 35 g | 7 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169997/nutrients) |
 | 🟡 | 🫚 Ginger, grated | 25 g | 12 | **15 g** | local |
 | 🟡 | 🧄 Garlic | 20 g | 45 | **30 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
-| 🟡 | 🧅 Onion | 80 g | 30 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟡 | ~~🧅 Onion~~ | 80 g | 0 | **none** | — |
 | 🟣 | 🧀 Nutritional yeast | 10 g | 56 | **16 g** | local |
 | 🟣 | 🦪 Vegetarian oyster sauce (LKK) | 25 g | 69 | **39 g** | local |
 | 🟠 | 🍥 Kombu-shiitake dashi powder | 5 g | 19 | **16 g** | local |
@@ -34,7 +34,7 @@
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.56 kg** | **~3335** | | |
+| | **Total** | **~3.48 kg** | **~3304** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -91,7 +91,9 @@
 5. ⚠⚠ **AS COOKED 10-11: 200 ml of Kara LIGHT UHT coconut milk, not the Ayam cream — and that breaks the step below.** A light UHT milk is **homogenised and stabilised**, so it does **not** separate and there is **no fat cap to fry the paste in**. **Fry the paste in 🥑 10 g of oil instead.** ✅ The compensation: the Ayam’s no-gum purity was the whole reason for the never-boil-hard rule, and a stabilised milk holds together far better — but it will not reduce to richness, so do not try.
 
 5. *(As designed, with the Ayam cream)* **Open the 🥥 coconut cream and do not shake the can.** It separates; **spoon off the thick top and fry the paste in that.** No added oil is needed — the cream is 28.5% fat.
-6. **Pound to a paste**: 🌾 lemongrass, 🫚 ginger, 🧄 garlic, 🧅 onion and the 🌱 coriander **stems and roots**.
+6. ⚠⚠ **AS COOKED 10-11: NO 🧅 onion in the paste** — so it is 135 g of 🌾 lemongrass, 🧄 garlic, 🫚 ginger and 🌱 coriander root rather than 215 g. The onion was over a third of it and the wet, forgiving third. **What is left is concentrated and low-moisture, and garlic burns bitter: lower the heat, keep it moving, and expect 2–3 minutes rather than 4–5.** It also removes bulk and sweetness, so **loosen with the surplus shiitake liquor rather than the 🥛 soya milk** — you may not need the soya milk at all.
+
+6. *(As designed)* **Pound to a paste**: 🌾 lemongrass, 🫚 ginger, 🧄 garlic, 🧅 onion and the 🌱 coriander **stems and roots**.
    > ⚠⚠ **🌾 Lemongrass: the tender lower 10 cm only, and it must be pounded or sliced to nothing.** It is intensely fibrous — any piece big enough to notice is a piece nobody can chew. The upper stalks go to the freezer; 350 g is months of supply.
    > **🌱 Coriander roots and stems carry most of the flavour** and they take heat; the leaves do not. Leaves go on at the end.
 7. **Fry the paste in the coconut fat** until it smells cooked and the fat separates again, 4–5 minutes.
@@ -116,16 +118,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3335 kcal | Iron | 31.5 mg |
+| Energy | 3304 kcal | Iron | 31.3 mg |
 | Protein | 117 g | Calcium | 1284 mg |
-| Carbohydrates | 598 g | Zinc | 16.8 mg |
-| — of which sugars | 82.4 g | Magnesium | 1353 mg |
+| Carbohydrates | 591 g | Zinc | 16.7 mg |
+| — of which sugars | 78.0 g | Magnesium | 1346 mg |
 | Fat | 74.0 g | Potassium | 11744 mg |
 | — of which saturates | 29.2 g | Vitamin A | 3920 µg |
 | Fibre | 127 g | Vitamin C | 414 mg |
 | Salt | 10.2 g | Folate | 689 µg |
 
-**Per serving at 5:** ~623 g, 667 kcal, 23.6 g protein, 25.4 g fibre.
+**Per serving at 5:** ~608 g, 661 kcal, 23.5 g protein, 25.2 g fibre.
 
 ⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **25 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
