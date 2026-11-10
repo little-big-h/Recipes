@@ -17,7 +17,7 @@
 | 🟢 | 🍄‍🟫 Shiitake caps, big wok | 600 g | 204 | | local |
 | 🟢 | 🌿 Sweet potato leaves | 350 g | 148 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
 | 🟢 | 🫑 Baby peppers, **raw** | 150 g | 47 | | [usda](https://fdc.nal.usda.gov/food-details/170108/nutrients) |
-| 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 1384 | | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
+| 🟤 | 🌰 Buckwheat groats (kasha), dry | 400 g | 855 | **247 g** | [usda](https://fdc.nal.usda.gov/food-details/170685/nutrients) |
 | 🟤 | 🫛 Edamame, shelled, frozen | 250 g | 273 | | local |
 | 🟤 | 🥥 Coconut milk **LIGHT** (Kara UHT) | 270 g Ayam cream | 264 | **200 ml Kara light** | local |
 | 🟤 | 🥛 Soya milk, NutriSoy plain | 250 g | 34 | **80 g** | local |
@@ -34,11 +34,11 @@
 | 🟣 | 🥑 Avocado oil | 18 g | 203 | **23 g** | local |
 | 🟣 | 🧂 Salt | 4 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | ⚪ | 🍋‍🟩 Lime — **at the table** | wedges | — | | — |
-| | **Total** | **~3.69 kg** | **~3800** | | |
+| | **Total** | **~3.54 kg** | **~3271** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 The 🌰 buckwheat's 600 ml of cooking water is not in the `.foodnoms` file. Listed ingredients sum to 3693 g; with that water it is ~4.29 kg in, against an estimated **~3.40 kg** served once the roots, the 🍄‍🟫 shiitake and the 🌿 leaves have lost theirs.*
+*💧 The 🌰 buckwheat's 600 ml of cooking water is not in the `.foodnoms` file. Listed ingredients sum to 3540 g; with the buckwheat’s 370 g of steeped liquor it is ~3.91 kg in, against an estimated **~3.10 kg** served once the roots, the 🍄‍🟫 shiitake and the 🌿 leaves have lost theirs.*
 
 **🫛 Edamame is the protein as specced. Leftover torn seitan, re-browned, is the alternative** — it was served separately from the 09-11 soup, so there is some in the fridge, and an overnight rest only improves it.
 
@@ -79,7 +79,9 @@
    > ⚠ **No circulation pump and the element is in the base**, so the bath stratifies and 600 g is a shallow layer. Stir at the start and once midway.
    > ⚠ **An absorption cook keeps everything you infuse**, which is the point — nothing is drained away. But **take the stems out before the grain goes in.** They stay woody through any cook; that is why they were bagged for dashi in the first place.
    > ⚠ **Weigh the strained liquid and correct it back to 600 g.** It can go either way: frozen stems have ruptured cells and give water up at 60 °C, so the volume may rise rather than fall. A sealed absorption cook cannot be topped up mid-cycle, and dry is the direction that leaves hard grains.
-4. **🌰 400 g kasha into the strained 600 g — 1.5 : 1, not the usual 1.75 : 1.** Absorption cook: **0 minutes at low pressure**, then **wait ten minutes by the clock and vent by hand.**
+4. ⚠ **AS COOKED 10-11: 247 g of kasha, not 400 g — so 370 g of the steeped liquor, not 600 g.** That leaves **~230 g of shiitake liquor surplus. It goes into the sauce**, in place of part of the 🥛 soya milk: it is the same infusion the grain is getting, and the light coconut milk needs loosening anyway. Do not pour it away.
+
+4. *(As designed)* **🌰 400 g kasha into the strained 600 g — 1.5 : 1, not the usual 1.75 : 1.** Absorption cook: **0 minutes at low pressure**, then **wait ten minutes by the clock and vent by hand.**
    > ⚠ **Deliberately drier than the measured row.** Buckwheat has no gluten and a soft starchy endosperm, and it keeps absorbing after it is cooked — under a sauce it slumps. The **2.53×** yield in `../../docs/TECHNIQUES.md` was measured at 1.75 : 1; at 1.5 : 1 expect about **2.3×**, so ~920 g.
    > ⚠ **There is no automatic timed release on the Instant Pot.** "Ten-minute defined release" means exactly that: set a timer when the cycle ends, then vent manually. That is what was done when the 2.53× figure was taken.
    > ⚠ **If raw green groats rather than pre-toasted kasha**, dry-toast them first. That is the difference between separate grains and porridge.
@@ -114,18 +116,18 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 3800 kcal | Iron | 35.0 mg |
-| Protein | 132 g | Calcium | 1291 mg |
+| Energy | 3271 kcal | Iron | 31.3 mg |
+| Protein | 114 g | Calcium | 1265 mg |
 | Carbohydrates | 706 g | Zinc | 19.9 mg |
-| — of which sugars | 78.4 g | Magnesium | 1693 mg |
-| Fat | 78.2 g | Potassium | 12234 mg |
-| — of which saturates | 30.2 g | Vitamin A | 3920 µg |
-| Fibre | 142 g | Vitamin C | 413 mg |
-| Salt | 7.5 g | Folate | 754 µg |
+| — of which sugars | 78.4 g | Magnesium | 1354 mg |
+| Fat | 74.0 g | Potassium | 11744 mg |
+| — of which saturates | 29.3 g | Vitamin A | 3920 µg |
+| Fibre | 126 g | Vitamin C | 413 mg |
+| Salt | 7.5 g | Folate | 689 µg |
 
-**Per serving at 5:** ~680 g, 760 kcal, 26.4 g protein, 28.4 g fibre.
+**Per serving at 5:** ~620 g, 654 kcal, 22.8 g protein, 25.2 g fibre.
 
-⚠⚠ **140 g of fibre is the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **28 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
+⚠⚠ **126 g of fibre is still the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **28 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
 ✅ **Saturated fat came down from 75 g to 30 g, and one swap did all of it.** 270 g of Ayam cream carried 69 g of saturated fat on its own; 200 ml of Kara light carries 24 g. Total fat fell 123 → 78 g even after adding 10 g of oil for the paste. **The cut point flagged earlier was taken without being asked for.**
 
