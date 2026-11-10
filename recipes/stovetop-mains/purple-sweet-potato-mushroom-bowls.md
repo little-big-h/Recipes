@@ -123,7 +123,7 @@
 
 **Per serving at 5:** ~712 g, 862 kcal, 29 g protein, 28.1 g fibre.
 
-⚠⚠ **140 g of fibre is the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **26 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
+⚠⚠ **140 g of fibre is the highest figure in the project by a wide margin** — against 80 g for the Masala-Zwiebelkuchen and 68 g for the Cantonese corn soup. **28 g per serving is roughly a whole day's intake in one bowl.** The 🌰 buckwheat and the two roots carry most of it. Worth knowing before serving it to the children, who are not used to it.
 
 ⚠⚠ **75 g of saturated fat, and 69 g of that is the single can of 🥥 coconut cream.** The same pattern as the Tom Yum Broccoli soup. Everything else in the bowl is close to fat-free; **150 ml instead of the full 270 ml is the cut point if it reads heavy**, with soya milk making up the volume.
 
