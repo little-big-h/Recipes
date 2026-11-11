@@ -4059,6 +4059,29 @@
   "secondary": "label-20g-scaled",
   "source": "label"
  },
+ "local:8F3C6A21-5D79-4B04-A6E8-1C2B9D7F5043": {
+  "barcode": "8888090149302",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Fortune",
+  "foodID": "local:8F3C6A21-5D79-4B04-A6E8-1C2B9D7F5043",
+  "name": "Japanese Silken Tofu with Omega 3 DHA (Fortune)",
+  "per100": {
+   "calcium": 98.6,
+   "calories": 57.0,
+   "carbs": 2.7,
+   "cholesterol": 0.0,
+   "fat": 2.9,
+   "fatSaturated": 0.5,
+   "fatTrans": 0.0,
+   "fiber": 0.0,
+   "protein": 5.0,
+   "sodium": 3.0,
+   "sugars": 0.7
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:9A2E7D53-6B14-4F80-A3C9-5E1B8D4A6F27": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
