@@ -2231,6 +2231,26 @@
   "secondary": null,
   "source": "label"
  },
+ "local:2E7B4F91-8C35-4D60-B2A7-6F1D9C4E8530": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lecka",
+  "foodID": "local:2E7B4F91-8C35-4D60-B2A7-6F1D9C4E8530",
+  "name": "Banana Cinnamon Energy Bar (Lecka)",
+  "per100": {
+   "calories": 375.0,
+   "carbs": 62.5,
+   "fat": 10.0,
+   "fatSaturated": 2.5,
+   "fiber": 7.5,
+   "protein": 7.5,
+   "sodium": 125.0,
+   "sugars": 37.5
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:2FD209A7-4292-467D-BE37-E9E704F325F0": {
   "baseAmount": 100,
   "baseUnit": "gram",
