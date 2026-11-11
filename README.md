@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Purple Sweet Potato & Mushroom Bowls](recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md)** — 2026-11-10
-2. **[Cantonese Corn Soup with Torn Seitan](recipes/soups/cantonese-corn-soup-torn-seitan.md)** — 2026-11-09
-3. **[Torn Seitan for Soup](recipes/oven-mains/torn-seitan-for-soup.md)** — 2026-11-09
-4. **[Masala-Zwiebelkuchen](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-07
-5. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
-6. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
-7. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
-8. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
-9. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
-10. **[Tom Yum Butternut & Cauliflower Curry](recipes/stovetop-mains/tom-yum-butternut-cauliflower-curry.md)** — 2026-08-04
+1. **[Cheesy Roasted Cauliflower Soup](recipes/soups/cheesy-roasted-cauliflower-soup.md)** — 2026-11-11
+2. **[Purple Sweet Potato & Mushroom Bowls](recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md)** — 2026-11-10
+3. **[Cantonese Corn Soup with Torn Seitan](recipes/soups/cantonese-corn-soup-torn-seitan.md)** — 2026-11-09
+4. **[Torn Seitan for Soup](recipes/oven-mains/torn-seitan-for-soup.md)** — 2026-11-09
+5. **[Masala-Zwiebelkuchen](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-07
+6. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
+7. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
+8. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24
+9. **[Tom Yum Broccoli, Carrot & Chickpea Soup](recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md)** — 2026-08-10
+10. **[Tom Yum Sweet Potato & Soy Soup with Asparagus](recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md)** — 2026-08-05
 
 ---
 
