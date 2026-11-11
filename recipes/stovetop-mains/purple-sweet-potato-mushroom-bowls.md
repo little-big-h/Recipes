@@ -2,7 +2,7 @@
 
 *The box-day bowl: two roasted roots, wok-browned 🍄‍🟫 shiitake, 🌰 buckwheat, 🌿 sweet potato leaves wilted in at the last second and 🫑 raw baby peppers over the top. **The sauce is the linchpin** — everything else is a component that can be cooked and held, and the sauce is what turns five separate things into one dish.*
 
-> ✅ **COOKED AND RATED 10-11-2026 — average 7.95 across four**: Julina 8.7, Holger 8.2, Lara 7.5, Jannes 7.4. Anja unscored. The weakest of three dishes in four days. **Holger added extra amchur at the table for acidity, which is the sweetness flag in this recipe being confirmed in practice.** Lara skipped the squash and Jannes the sweet potato — see remark 80 in [`../../docs/RATINGS.md`](../../docs/RATINGS.md). Quantities below are as cooked.
+> ✅ **COOKED AND RATED 10-11-2026 — average 8.32 across all five**: **Anja 9.8**, Julina 8.7, Holger 8.2, Lara 7.5, Jannes 7.4. **Anja’s 9.8 is her highest recorded score in the project**, and the 2.4-point spread is the widest on file — see observation 61. **Holger added extra amchur at the table for acidity, which is the sweetness flag in this recipe being confirmed in practice.** Lara skipped the squash and Jannes the sweet potato — see remark 80 in [`../../docs/RATINGS.md`](../../docs/RATINGS.md). Quantities below are as cooked.
 
 > **Variation on the Tuesday dinner in** [`../../design/MEAL-PLAN-2026-11-10.md`](../../design/MEAL-PLAN-2026-11-10.md): 🌿 sweet potato leaves and a separate protein in, nothing dropped — the butternut stays because there is a kilo of it in the box.
 
