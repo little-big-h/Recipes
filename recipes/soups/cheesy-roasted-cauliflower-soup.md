@@ -71,6 +71,32 @@
 
 ---
 
+## Serving — the bowl it became
+
+**Reported 2026-11-13, after the fact: the soup is markedly better as a composed bowl than as a plain one.** Per bowl, over the soup:
+
+| | | |
+|:--|:--|:--|
+| 🍄‍🟫 | **Shiitake, a generous helping** | browned, not raw |
+| 🍠 | **Purple sweet potato** | roasted |
+| 🍅 | **Cherry tomatoes**, a handful | |
+| 🍋 | **Lemon juice** | at the table |
+| 🌶️ | ✅ **Sichuan pepper** | at the table |
+
+⚠⚠ **This is not a garnish list, it is the fix for the one weakness the ratings exposed.** The soup is a smooth purée with no texture at all, and that is exactly the profile **Anja marks down** — she gave it **8.0, her lowest of the week**, a day after 9.8 on the most texturally varied dish of the week (observations 61 and 66). **The toppings add back the texture variety she rewards without touching the soup itself**, which is the version **Jannes scored 8.5** on — the first time he has ever gone above 8.0.
+
+**So one pot serves both ends of the spread.** Jannes takes it plain; the adults build it. That is observation 10's build-your-own pattern doing the same job it does at the hotpot, and here it costs nothing but a few bowls of toppings.
+
+✅ **It also answers the open question this recipe was left with.** The design note below records that the lime was specced for the table and never came out — the first dish of that week where table-side acid was not reached for. **It has now been reached for, as lemon.** The soup does want acid; it just wanted it at the bowl rather than in the pot, which is where observation 60 says it belongs.
+
+🌶️ **Sichuan pepper is numbing rather than hot**, so it is not a chilli-heat problem — but it is a strong sensation and it belongs on the adult side of the table. Keeping it there is what lets Jannes's bowl stay the one he scored.
+
+🍅 **The cherry tomatoes are doing more than colour**: tomato glutamate stacks onto the dashi and miso already in the pot, and glutamate and guanylate multiply. That is the same mechanism that made 30 g of nooch taste like twice as much (observation 62).
+
+⚠ **None of this is in the `.foodnoms` file** — the toppings are per-bowl and were not weighed. Log them separately if they matter.
+
+---
+
 ## Nutrition
 
 **Whole recipe** (**3675 g measured**, 9 servings):
@@ -111,7 +137,7 @@
 - **Every colour argument from the broccoli version is void here.** Cauliflower is white, so there is no chlorophyll to protect: no uncovered-pot rule, no race off the heat, no fast cool-down, and no penalty for using beige soya milk as the bulk liquid. Switching vegetable simplified the dish rather than complicating it.
 - ⚠ **Jannes cooked it, and it broke his ceiling.** Three candidate causes and one meal cannot separate them: the mild aromatic profile, the smooth creamy register that remark 66 already had as his best, and cooking it himself. **The aromatic one was predicted two days in advance** (observation 61, from the Tuesday bowls) and so carries the most weight — but the ownership effect is untested and worth watching.
 - **Considered and rejected on the day:** 🥬 **daikon** (95% water, will not brown, a second brassica adding sulfur rather than balance, and nothing about it points at cheesy — better in a dashi broth or hotpot); 🫚 **galangal paste** (pine and camphor against a lactic-umami target, and squarely the aromatic register observation 61 says costs Jannes — it went to Thursday's yellow curry instead).
-- ⚠ **The acid never came out.** Lime was specced for the table and was not used, which is the first dish this week where table-side acid was not reached for. With 875 g of sweet onion in the pot it may simply not have been needed, or it may be worth trying once.
+- ✅ **The acid question is answered, two days late.** Lime was specced for the table and was not used on the night, which made this the only dish that week where table-side acid was not reached for — and the note here said it was worth trying once. **It was, as lemon juice, and it improved the dish** (see **Serving** above). The soup does want acid; it wanted it at the bowl, not in the pot.
 
 ### Weigh-ins still outstanding
 
