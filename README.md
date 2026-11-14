@@ -4,13 +4,13 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Quinoa Bake (Anja)](anjas-cooking/quinoa-bake.md)** — 2026-11-13
-2. **[Vegetable & Potato Soup (Anja) — v2](anjas-cooking/vegetable-potato-soup.md)** — 2026-11-12
-3. **[Cheesy Roasted Cauliflower Soup](recipes/soups/cheesy-roasted-cauliflower-soup.md)** — 2026-11-11
-4. **[Purple Sweet Potato & Mushroom Bowls](recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md)** — 2026-11-10
-5. **[Cantonese Corn Soup with Torn Seitan](recipes/soups/cantonese-corn-soup-torn-seitan.md)** — 2026-11-09
-6. **[Torn Seitan for Soup](recipes/oven-mains/torn-seitan-for-soup.md)** — 2026-11-09
-7. **[Masala-Zwiebelkuchen](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-07
+1. **[Masala-Zwiebelkuchen — v2](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-14
+2. **[Quinoa Bake (Anja)](anjas-cooking/quinoa-bake.md)** — 2026-11-13
+3. **[Vegetable & Potato Soup (Anja) — v2](anjas-cooking/vegetable-potato-soup.md)** — 2026-11-12
+4. **[Cheesy Roasted Cauliflower Soup](recipes/soups/cheesy-roasted-cauliflower-soup.md)** — 2026-11-11
+5. **[Purple Sweet Potato & Mushroom Bowls](recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md)** — 2026-11-10
+6. **[Cantonese Corn Soup with Torn Seitan](recipes/soups/cantonese-corn-soup-torn-seitan.md)** — 2026-11-09
+7. **[Torn Seitan for Soup](recipes/oven-mains/torn-seitan-for-soup.md)** — 2026-11-09
 8. **[Three-Mushroom Soup with Kombu Dashi](recipes/soups/three-mushroom-kombu-dashi-soup.md)** — 2026-11-04
 9. **[Corn, Galangal & Bamboo Soup](recipes/soups/corn-galangal-bamboo-soup.md)** — 2026-10-06
 10. **[Yellow Curry Corn Soup with Chickpeas, Broccoli & Shiitake](recipes/soups/yellow-curry-corn-chickpea-shiitake-soup.md)** — 2026-09-24

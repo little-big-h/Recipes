@@ -210,7 +210,7 @@ When does a new version warrant a new file (`-v2.md`) vs editing the existing on
 | Tom Yum Sweet Potato & Soy Soup with Asparagus | v1 | cooked | 2026-08-05 | [tom-yum-sweetpotato-soy-asparagus-soup.md](../recipes/soups/tom-yum-sweetpotato-soy-asparagus-soup.md) |
 | Tom Yum Broccoli, Carrot & Chickpea Soup | v1 | cooked | 2026-08-10 | [tom-yum-broccoli-carrot-chickpea-soup.md](../recipes/soups/tom-yum-broccoli-carrot-chickpea-soup.md) |
 | Masala-Zwiebelkuchen | v1 | cooked | 2026-11-07 | [masala-zwiebelkuchen.md](../recipes/oven-mains/masala-zwiebelkuchen.md) |
-| Masala-Zwiebelkuchen | v2 | planned | — | [masala-zwiebelkuchen.md](../recipes/oven-mains/masala-zwiebelkuchen.md) |
+| Masala-Zwiebelkuchen | v2 | cooked | 2026-11-14 | [masala-zwiebelkuchen.md](../recipes/oven-mains/masala-zwiebelkuchen.md) |
 | Torn Seitan for Soup | v1 | cooked | 2026-11-09 | [torn-seitan-for-soup.md](../recipes/oven-mains/torn-seitan-for-soup.md) |
 | Cantonese Corn Soup with Torn Seitan | v1 | cooked | 2026-11-09 | [cantonese-corn-soup-torn-seitan.md](../recipes/soups/cantonese-corn-soup-torn-seitan.md) |
 | Purple Sweet Potato & Mushroom Bowls | v1 | cooked | 2026-11-10 | [purple-sweet-potato-mushroom-bowls.md](../recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md) |

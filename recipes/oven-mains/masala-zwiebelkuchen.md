@@ -1,8 +1,23 @@
-# Masala-Zwiebelkuchen [07-11-26] ✴️
+# Masala-Zwiebelkuchen — v2 [14-11-26] ✴️
 
 *A German/South-Asian savoury bake for the Christmas event at the German school. Sheet-pan Zwiebelkuchen with two substitutions doing the work: the **Kümmel becomes Kreuzkümmel** — caraway out, cumin in, the two words a prefix apart in German — and the Speck becomes browned mushroom — 🍄 king oyster and 🍄‍🟫 shiitake. The base is **100% atta**, which is the only structural fusion element in the dish; everything else South Asian here is a seasoning. No chilli, no white flour, and 🥬 nothing that needs cutlery. Cuts into roughly 24 squares eaten by hand.*
 
-> ⚠ **COOKED 07-11-2026, and the quantities above are what actually went in**, not the plan. Where they differ from the design the reason is written beside them. **Eaten at the German school the same day and well received** — reactions and the three requested changes are under **Version 2** below. Still outstanding: the sweated-onion weight and the two mushrooms out of the oven — see **Weigh-ins** under Design notes. Full reasoning, including everything considered and rejected, is in [`design/MASALA-ZWIEBELKUCHEN.md`](../../design/MASALA-ZWIEBELKUCHEN.md).
+> 🍴 **THIS IS v2, THE LIVE RECIPE — cooking 14-11-2026.** The quantities in the table and the method below are **v2**. **Three seasoning changes from v1**, all asked for after the first cook: 🧂 salt **5 → 20 g**, 🧀 nooch **5 → 15 g**, 🥭 amchur **5 → 12 g**. Nothing structural moves. The v1 cook of 07-11 is preserved in full under **v1 — the first cook** at the bottom. Full reasoning, including everything considered and rejected, is in [`design/MASALA-ZWIEBELKUCHEN.md`](../../design/MASALA-ZWIEBELKUCHEN.md).
+
+> ⚠⚠ **Read "Before you start" below before mixing** — one of the three changes was revised by something learned after the spec was written, and two measurements are overdue.
+
+---
+
+## Before you start
+
+**Four things, and the first revises the spec.**
+
+1. ⚠⚠ **The nooch will hit harder than the 3× suggests.** Observation 62 in [`../../docs/RATINGS.md`](../../docs/RATINGS.md), filed 11-11 off the Cheesy Roasted Cauliflower Soup: **glutamate and guanylate multiply**, so where a guanylate source is present the nooch punches well above its weight — 30 g there read as unmistakably cheesy against a prediction that it would not. **This bake carries 4 g of 🍄‍🟫 shiitake powder in the onion layer.** 5 → 15 g alongside it should land nearer a 5× impression than a 3× one. That is probably what was wanted, but **taste the onion layer before the custard goes on**; 10–12 g is still reachable then and unreachable after.
+2. ⚠⚠ **Weigh the sweated onion. This is the fifth chance.** 1316 g into the small wok (tare **810 g**), gross again when the liquid has gone. Observation 59 names this as the one loss figure absent from the whole project, and it has now been skipped twice on this dish alone. It is also what makes v1's 45% whole-bake loss interpretable instead of a single unattributable number.
+3. ⚠ **Spread the mushrooms over two trays.** Measured 10-11: a crowded tray loses **16%** and a spread one **22%**, and the crowded version comes out pale and steamed. 450 g on one bare preheated sheet is crowded.
+4. ⚠ **Decide the gluten test before mixing.** Whether the 💪 16 g of vital wheat gluten earns its place against plain atta is still unanswered from v1, and the only way to answer it is to **press both doughs onto one tray** — which has to be decided now, not later.
+
+**Also still open from v1:** does a square survive four hours at room temperature, does the custard weep, and does it read as Zwiebelkuchen to Anja. None needs equipment; all three need somebody to notice on the day.
 
 ---
 
@@ -24,17 +39,17 @@
 | 🟠 | 🌿 Fennel seed (tadka) | 2 g | 7 | | [usda](https://fdc.nal.usda.gov/food-details/171323/nutrients) |
 | 🟡 | 🫚 Fresh ginger, grated | 15 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🟠 | 🌻 Ground turmeric | 3 g | 9 | | [usda](https://fdc.nal.usda.gov/food-details/172231/nutrients) |
-| 🟣 | 🧀 Nutritional yeast | 5 g | 17 | | local |
+| 🟣 | 🧀 Nutritional yeast *(v1: 5 g)* | **15 g** | 52 | | local |
 | 🟠 | 🍄‍🟫 Dried shiitake powder | 4 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
-| ⚪ | 🥭 Amchur (in **late**) | 5 g | 16 | | proxy |
+| ⚪ | 🥭 Amchur, in **late** *(v1: 5 g)* | **12 g** | 38 | | proxy |
 | 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
-| 🟣 | 🧂 Salt (4 dough / 1 onions) | 5 g | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
+| 🟣 | 🧂 Salt — **6 dough / 14 onions** *(v1: 5 g)* | **20 g** | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 268 g | 118 | | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
-| | **Total** | **~2.81 kg** | **~2939** | | |
+| | **Total** | **~2.84 kg** | **~2996** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to 2579 g; with the dough water that is ~2.81 kg going in, against **1550 g measured out** once the onions sweated, the mushrooms browned and the tart baked. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to **2611 g**; with the dough water that is ~2.84 kg going in. **v1 yielded 1550 g from 2.81 kg — a 45% loss — so forecast ~55% of total input, about 1560 g.** ⚠ The extra salt on the onions should push it slightly lower, not higher. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
 
 ---
 
@@ -52,15 +67,18 @@
 
 1. **Autolyse.** Mix the 🫓 atta and ~230 ml warm 💧 alone. Rest **30 minutes**. No yeast, no salt, no oil yet.
    > The highest-value step in this dough and it costs only clock time. The bran hydrates and softens so its edges cut less gluten, and gluten develops without kneading.
-2. Add 🫧 yeast, 🧂 4 g salt, 💪 16 g vital wheat gluten and 🥑 32 g oil. Knead to a smooth, slightly tacky dough. **Judge the water by feel** — atta's chakki-damaged starch is unusually thirsty and 230 ml is a starting point, not a target.
+2. Add 🫧 yeast, 🧂 **6 g** salt, 💪 16 g vital wheat gluten and 🥑 32 g oil. Knead to a smooth, slightly tacky dough. **Judge the water by feel** — atta's chakki-damaged starch is unusually thirsty and 230 ml is a starting point, not a target.
 3. Rise until roughly doubled, about **80 minutes**.
 
 ### 2. Onions — small wok
 
 4. **Tadka:** bloom 🌰 4 g cumin, 🌼 mustard and 🌿 fennel in 🥑 15 g oil until the seeds pop. Then 🫚 ginger, then 🌻 turmeric.
-5. 🧅 Onions in on top of that, with 🧀 nooch, 🍄‍🟫 shiitake powder and 🧂 1 g salt. **Sweat soft with no colour.**
+5. 🧅 Onions in on top of that, with 🧀 **15 g** nooch, 🍄‍🟫 shiitake powder and 🧂 **14 g** salt. **Sweat soft with no colour.**
+   > ⚠⚠ **14 g of salt on 1316 g of onion draws water out faster than v1 did.** The onions release liquid sooner and more of it. **Sweat until that liquid has gone again, not just until they are soft** — otherwise the extra water lands in the custard. Expect the yield slightly under v1's 1550 g, not over.
+   > ⚠⚠ **Taste the onion layer before the custard goes on.** 15 g of nooch beside 4 g of shiitake powder will read stronger than the 3× increase suggests — see **Before you start**. Pulling back is possible at this point and impossible after assembly.
    > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1316 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
-6. 🥭 **Amchur in at the very end.** It is a dried fruit powder and long dry heat dulls it and pushes it bitter.
+6. 🥭 **12 g amchur in at the very end.** It is a dried fruit powder and long dry heat dulls it and pushes it bitter.
+   > ⚠⚠ **At 12 g the acid now matters to the custard, where 5 g did not.** Amchur is roughly 15% citric acid, so this is ~1.8 g of acid, and soy protein flocculates near pH 4.5. **The amchur stays on the onions and never goes into the custard — and the onion layer must be off the heat and no longer steaming when the custard is poured.** Hot acidic onion plus soya-milk custard is how this curdles.
 
 ### 3. Speck layer — oven
 
@@ -92,20 +110,22 @@
 
 ## Nutrition
 
-**Whole recipe** (**1550 g measured**, 24 squares):
+**Whole recipe, v2 planned** (~1560 g forecast, 24 squares). *v1 measured 1550 g; the figures in brackets are v1 as cooked.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | 2939 kcal | Iron | 26.8 mg |
-| Protein | 119 g | Calcium | 955 mg |
-| Carbohydrates | 417 g | Zinc | 19.6 mg |
-| — of which sugars | 82.6 g | Magnesium | 707 mg |
-| Fat | 90.4 g | Potassium | 5310 mg |
-| — of which saturates | 13.1 g | Vitamin D | 4.6 µg |
-| Fibre | 80.0 g | Vitamin B12 | 1.3 µg |
-| Salt | 6.0 g | Folate | 714 µg |
+| Energy | **2996** (2939) kcal | Iron | **26.9** (26.8) mg |
+| Protein | **124** (119) g | Calcium | **958** (955) mg |
+| Carbohydrates | **427** (417) g | Zinc | **19.6** mg |
+| — of which sugars | **87.4** (82.6) g | Magnesium | **709** (707) mg |
+| Fat | **90.9** (90.4) g | Potassium | **5330** (5310) mg |
+| — of which saturates | **13.2** (13.1) g | Vitamin D | 4.6 µg |
+| Fibre | **82.2** (80.0) g | Vitamin B12 | 1.3 µg |
+| Salt | **20.1** (6.0) g | Folate | **719** (714) µg |
 
-**Per square at 24:** 65 g, 122 kcal, 5.0 g protein, 3.3 g fibre. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
+**Per square at 24, v2 forecast:** ~65 g, 125 kcal, 5.2 g protein, 3.4 g fibre.
+
+**Almost all of the change is the 🧀 nooch** — 10 g of it carries the extra 5 g of protein, the folate and the B-vitamins. The 🥭 amchur adds the sugars and most of the fibre difference. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
 ⚠⚠ **The bake lost 45% of its mass, and the plan expected far less.** 2579 g of listed ingredients plus ~230 ml of dough water went in — 2809 g — and **1550 g came out**. The estimate written before the cook was 1970 g, **27% too high**. The error was almost certainly the onion: 1316 g of it sweated down, and the plan treated that as a modest loss rather than the largest single one in the dish. **Use 1550 g, or ~55% of total input, to forecast the next tray.**
 
@@ -117,7 +137,7 @@
 
 ⚠ **Some totals are floors.** Coverage runs from 1 to 19 of 19 rows depending on the nutrient; biotin comes from a single ingredient and alcohol from two, so read those as minimums. Macros are covered by 18 or 19 of 19. Micros are committed best-estimates and final, per the project's macros-versus-micros rule.
 
-⬇ **FoodNoms file:** `examples/Masala-Zwiebelkuchen [07-11-26].foodnoms` — built locally by `cli.js build`, and the artifact to import.
+⬇ **FoodNoms file, v2:** `examples/Masala-Zwiebelkuchen v2 [14-11-26].foodnoms` — built locally by `cli.js build`, and the artifact to import. The v1 file is `examples/Masala-Zwiebelkuchen [07-11-26].foodnoms`.
 
 > ⚠⚠ **No `BuildFoodNomsRecipe` download link, because one cannot work for this recipe.** With 19 ingredients the generated URL is **12,058 characters** against a measured ceiling of ~3191, and the endpoint returns **414**. Embedding a dead link would be worse than saying so. Use the local file.
 
@@ -144,11 +164,11 @@
 
 ---
 
-## Version 2 — asked for after the first cook
+## v1 — the first cook, 07-11-2026
 
 **Reception, 07-11-2026.** Anja and Julina loved it, Jannes liked it a lot, Lara complained about the mushrooms. Two slices went to an Indian friend; his verdict is not in yet, and it is the one that tests whether the masala half of the fusion actually reads as masala to someone who grew up with it.
 
-**Holger asked for three changes, all of them seasoning, none of them structural:**
+**The three changes asked for afterwards, which are now the live recipe above:**
 
 | Change | v1 | v2 | Why |
 |:-------|---:|---:|:----|
@@ -158,14 +178,14 @@
 
 Nothing else moves. The onion, the mushrooms, the base and the bake all held, so they stay as they are.
 
-### What the three changes require in the method
+### Why the three changes are specced the way they are
 
 1. **Salt in the dough stays low, and the rest goes on the onions.** 6 g against 324 g of flour is 1.85% — ordinary bread salt, and the yeast is unbothered. Putting a large share of 20 g in the dough would slow the rise noticeably, and salt in a dough does not reach the part of the dish that tastes under-seasoned anyway. The onion layer is where the seasoning is read.
 2. ⚠ **14 g of salt on 1316 g of onion pulls water out faster, so the sweat behaves differently.** The onions will release liquid sooner and more of it. Sweat them until that liquid has gone again, not just until they are soft — otherwise the extra water lands in the custard. **Expect the yield to come in a little under 1550 g**, not over.
 3. ⚠ **12 g of amchur is enough acid to matter to the custard, where 5 g was not.** Amchur is roughly 15% citric acid, so this is about 1.8 g of acid, and soy protein flocculates near pH 4.5. The existing defence holds but has to be followed properly: **the amchur goes on the onions at the end of the sweat and never into the custard**, and the onion layer should be **off the heat and no longer steaming** when the custard is poured over it. Hot acidic onion plus soya-milk custard is how this curdles.
 4. **The nooch goes in with the onions as before**, not on top. Nooch toasted dry on the surface of a 200 °C bake goes bitter.
 
-### Nutrition after the three changes (not yet cooked)
+### v1 as cooked, for comparison
 
 | Macro | v1 as cooked | v2 planned |
 |:------|-------------:|-----------:|
