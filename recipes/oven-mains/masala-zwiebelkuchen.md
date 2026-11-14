@@ -44,7 +44,7 @@
 | ⚪ | 🥭 Amchur, in **late** *(v1: 5 g)* | **12 g** | 38 | | proxy |
 | 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
 | 🟣 | 🧂 Salt — **6 dough / 14 onions** *(v1: 5 g)* | **20 g** | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 268 g | 118 | | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
+| 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 268 g | 119 | **270 g** | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
 | | **Total** | **~2.84 kg** | **~2996** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
