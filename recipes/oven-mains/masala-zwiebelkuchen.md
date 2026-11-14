@@ -25,7 +25,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🟡 | 🧅 Onions, sliced (sweated **pale**) | 1316 g | 500 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟡 | 🧅 Onions, sliced (sweated **pale**) | 1316 g | 456 | **1201 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟢 | 🫓 Atta, chakki-ground wholemeal | 324 g | 1199 | | [usda](https://fdc.nal.usda.gov/food-details/790085/nutrients) |
 | 🟤 | 💪 Vital wheat gluten | 16 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
 | 🔵 | 💧 Water, warm (dough) | ~230 ml | 0 | | |
@@ -45,11 +45,11 @@
 | 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
 | 🟣 | 🧂 Salt — **6 dough / 14 onions** *(v1: 5 g)* | **20 g** | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 268 g | 119 | **270 g** | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
-| | **Total** | **~2.84 kg** | **~2996** | | |
+| | **Total** | **~2.74 kg** | **~2957** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to **2611 g**; with the dough water that is ~2.84 kg going in. **v1 yielded 1550 g from 2.81 kg — a 45% loss — so forecast ~55% of total input, about 1560 g.** ⚠ The extra salt on the onions should push it slightly lower, not higher. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to **2506 g**; with the dough water that is ~2.74 kg going in. **v1 yielded 1550 g from 2.81 kg — a 45% loss — so at 55% retention forecast about 1500 g**, the onion being 115 g lighter than v1. ⚠ The extra salt on the onions should push it slightly lower, not higher. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
 
 ---
 
@@ -110,20 +110,20 @@
 
 ## Nutrition
 
-**Whole recipe, v2 planned** (~1560 g forecast, 24 squares). *v1 measured 1550 g; the figures in brackets are v1 as cooked.*
+**Whole recipe, v2 as cooked so far** (~1500 g forecast, 24 squares). *v1 measured 1550 g; the figures in brackets are v1 as cooked.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **2996** (2939) kcal | Iron | **26.9** (26.8) mg |
-| Protein | **124** (119) g | Calcium | **958** (955) mg |
-| Carbohydrates | **427** (417) g | Zinc | **19.6** mg |
-| — of which sugars | **87.4** (82.6) g | Magnesium | **709** (707) mg |
-| Fat | **90.9** (90.4) g | Potassium | **5330** (5310) mg |
+| Energy | **2957** (2939) kcal | Iron | **26.6** (26.8) mg |
+| Protein | **123** (119) g | Calcium | **950** (955) mg |
+| Carbohydrates | **418** (417) g | Zinc | **19.5** mg |
+| — of which sugars | **80.7** (82.6) g | Magnesium | **698** (707) mg |
+| Fat | **90.9** (90.4) g | Potassium | **5162** (5310) mg |
 | — of which saturates | **13.2** (13.1) g | Vitamin D | 4.6 µg |
-| Fibre | **82.2** (80.0) g | Vitamin B12 | 1.3 µg |
-| Salt | **20.1** (6.0) g | Folate | **719** (714) µg |
+| Fibre | **80.6** (80.0) g | Vitamin B12 | 1.3 µg |
+| Salt | **20.1** (6.0) g | Folate | **698** (714) µg |
 
-**Per square at 24, v2 forecast:** ~65 g, 125 kcal, 5.2 g protein, 3.4 g fibre.
+**Per square at 24, v2 forecast:** ~63 g, 123 kcal, 5.1 g protein, 3.4 g fibre.
 
 **Almost all of the change is the 🧀 nooch** — 10 g of it carries the extra 5 g of protein, the folate and the B-vitamins. The 🥭 amchur adds the sugars and most of the fibre difference. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
