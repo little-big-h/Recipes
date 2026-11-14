@@ -34,7 +34,7 @@
 | 🟤 | 🥚 Egg (custard) | 3 (~150 g) | 215 | | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
 | 🟤 | 🥛 Soya milk — **Homesoy**, not NutriSoy | 200 ml | 68 | **200 ml** | local ⚠ |
 | 🟠 | 🥔 Potato starch, slaked (custard) | 11 g | 42 | | [usda](https://fdc.nal.usda.gov/food-details/169698/nutrients) |
-| 🟠 | 🌰 Cumin seed, whole (4 g tadka, 2 g on top) | 6 g | 23 | | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) |
+| 🟠 | 🌰 Cumin seed, whole — **4 g tadka, 10.5 g on top** | 6 g | 55 | **14.5 g** | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) |
 | 🟠 | 🌼 Mustard seed, brown **or yellow** (tadka) | 3 g | 15 | | [usda](https://fdc.nal.usda.gov/food-details/170929/nutrients) |
 | 🟠 | 🌿 Fennel seed (tadka) | 2 g | 7 | | [usda](https://fdc.nal.usda.gov/food-details/171323/nutrients) |
 | 🟡 | 🫚 Fresh ginger, grated | 15 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
@@ -45,7 +45,7 @@
 | 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
 | 🟣 | 🧂 Salt — **6 dough / 14 onions** *(v1: 5 g)* | **20 g** | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 268 g | 119 | **270 g** | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
-| | **Total** | **~2.74 kg** | **~2922** | | |
+| | **Total** | **~2.75 kg** | **~2954** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
@@ -112,7 +112,9 @@
     > ⚠ Costed in the `.foodnoms` against the SR Legacy **cornstarch** record. Both are over 99% pure starch so the swap is nutritionally immaterial at 11 g, and the branded potato starch records are sparse and look label-rounded.
     > ⚠ **No acid in the custard.** Soy protein flocculates near pH 4.5. The dish's acid is the 🥭 amchur in the onions, deliberately.
 11. Onions over the base, then the browned 🍄 and 🍄‍🟫, then pour the custard over.
-12. 🌰 **2 g whole cumin scattered on top, and nothing else.** This is the whole joke and it has to be seen.
+12. 🌰 **10.5 g whole cumin scattered on top, and nothing else** *(the spec said 2 g — Holger went all out)*. This is the whole joke and it has to be seen.
+    > ⚠⚠ **This is the only raised seasoning that cannot be avoided on a plate.** Salt, nooch and amchur all live in the onion layer and could in principle be served around; the top scatter is uniform and visible. **Lara is flagged against assertive cumin** (2026-06-06 — she called a chilli-free pinto soup spicy, which Anja attributed to doubled cumin), and whole seeds on top are the most assertive form there is, bitten directly rather than met dispersed.
+    > **If repeating: scatter two-thirds of the tray and leave a corner plain.** It costs nothing and preserves the build-your-own escape that let Lara skip the squash and Jannes the sweet potato on 10-11, both still scoring in their band.
 
 ### 6. Bake
 
@@ -126,16 +128,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **2922** (2939) kcal | Iron | **27.1** (26.8) mg |
-| Protein | **120** (119) g | Calcium | **696** (955) mg |
-| Carbohydrates | **416** (417) g | Zinc | **19.5** mg |
-| — of which sugars | **80.6** (82.6) g | Magnesium | **691** (707) mg |
-| Fat | **89.4** (90.4) g | Potassium | **5352** (5310) mg |
+| Energy | **2954** (2939) kcal | Iron | **32.8** (26.8) mg |
+| Protein | **121** (119) g | Calcium | **775** (955) mg |
+| Carbohydrates | **419** (417) g | Zinc | **19.9** mg |
+| — of which sugars | **80.8** (82.6) g | Magnesium | **726** (707) mg |
+| Fat | **91.3** (90.4) g | Potassium | **5461** (5310) mg |
 | — of which saturates | **12.7** (13.1) g | Vitamin D | **3.3** (4.6) µg |
-| Fibre | **80.7** (80.0) g | Vitamin B12 | 1.3 µg |
+| Fibre | **81.6** (80.0) g | Vitamin B12 | 1.3 µg |
 | Salt | **20.1+** (6.0) g | Folate | **691** (714) µg |
 
-**Per square at 24, v2 forecast:** ~63 g, 122 kcal, 5.0 g protein, 3.4 g fibre.
+**Per square at 24, v2 forecast:** ~63 g, 123 kcal, 5.0 g protein, 3.4 g fibre.
 
 **Almost all of the change is the 🧀 nooch** — 10 g of it carries the extra 5 g of protein, the folate and the B-vitamins. The 🥭 amchur adds the sugars and most of the fibre difference. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
