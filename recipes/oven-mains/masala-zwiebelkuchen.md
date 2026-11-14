@@ -30,7 +30,7 @@
 | 🟤 | 💪 Vital wheat gluten | 16 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/168147/nutrients) |
 | 🔵 | 💧 Water, warm (dough) | ~230 ml | 0 | | |
 | 🟣 | 🫧 Instant yeast | 7 g | 23 | | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
-| 🟢 | 🍄 King oyster, 8 mm dice (browned dry) | 182 g | 84 | | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
+| 🟢 | 🍄 King oyster, 8 mm dice (browned dry) | 182 g | 88 | **190 g** | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
 | 🟤 | 🥚 Egg (custard) | 3 (~150 g) | 215 | | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
 | 🟤 | 🥛 Soya milk, NutriSoy plain (custard) | 200 ml | 84 | | label |
 | 🟠 | 🥔 Potato starch, slaked (custard) | 11 g | 42 | | [usda](https://fdc.nal.usda.gov/food-details/169698/nutrients) |
