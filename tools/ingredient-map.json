@@ -3202,6 +3202,22 @@
   "secondary": null,
   "source": null
  },
+ "local:6B2E9A47-3D81-4F05-A7C6-1E8B5D3A9240": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lee Kum Kee",
+  "foodID": "local:6B2E9A47-3D81-4F05-A7C6-1E8B5D3A9240",
+  "name": "Premium Mushroom Powder, 200 g can (Lee Kum Kee)",
+  "per100": {
+   "calories": 226.0,
+   "carbs": 51.7,
+   "fat": 0.2,
+   "protein": 4.3
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:6B7E2D49-5C81-4A03-9E67-2D4F8B1C5A70": {
   "barcode": "9352642000551",
   "baseAmount": 100.0,

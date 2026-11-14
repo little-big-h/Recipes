@@ -32,7 +32,7 @@
 | 🟣 | 🫧 Instant yeast | 7 g | 23 | | [usda](https://fdc.nal.usda.gov/food-details/175043/nutrients) |
 | 🟢 | 🍄 King oyster, 8 mm dice (browned dry) | 182 g | 88 | **190 g** | [usda](https://fdc.nal.usda.gov/food-details/2003599/nutrients) |
 | 🟤 | 🥚 Egg (custard) | 3 (~150 g) | 215 | | [usda](https://fdc.nal.usda.gov/food-details/171287/nutrients) |
-| 🟤 | 🥛 Soya milk, NutriSoy plain (custard) | 200 ml | 84 | | label |
+| 🟤 | 🥛 Soya milk — **Homesoy**, not NutriSoy | 200 ml | 68 | **200 ml** | local ⚠ |
 | 🟠 | 🥔 Potato starch, slaked (custard) | 11 g | 42 | | [usda](https://fdc.nal.usda.gov/food-details/169698/nutrients) |
 | 🟠 | 🌰 Cumin seed, whole (4 g tadka, 2 g on top) | 6 g | 23 | | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) |
 | 🟠 | 🌼 Mustard seed, brown **or yellow** (tadka) | 3 g | 15 | | [usda](https://fdc.nal.usda.gov/food-details/170929/nutrients) |
@@ -40,16 +40,28 @@
 | 🟡 | 🫚 Fresh ginger, grated | 15 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🟠 | 🌻 Ground turmeric | 3 g | 9 | | [usda](https://fdc.nal.usda.gov/food-details/172231/nutrients) |
 | 🟣 | 🧀 Nutritional yeast *(v1: 5 g)* | **15 g** | 52 | | local |
-| 🟠 | 🍄‍🟫 Dried shiitake powder | 4 g | 12 | | [usda](https://fdc.nal.usda.gov/food-details/168436/nutrients) |
+| 🟠 | 🍄‍🟫 Mushroom powder — **LKK, not plain shiitake** | 4 g | 9 | **4 g** | local ⚠ |
 | ⚪ | 🥭 Amchur, in **late** *(v1: 5 g)* | **12 g** | 38 | | proxy |
 | 🟣 | 🥑 Neutral oil (32 dough / 15 tadka / 10 browning) | 57 g | 504 | | local |
 | 🟣 | 🧂 Salt — **6 dough / 14 onions** *(v1: 5 g)* | **20 g** | 0 | | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
 | 🟢 | 🍄‍🟫 Shiitake **caps**, diced (browned dry) | 268 g | 119 | **270 g** | [usda](https://fdc.nal.usda.gov/food-details/1999628/nutrients) |
-| | **Total** | **~2.74 kg** | **~2957** | | |
+| | **Total** | **~2.74 kg** | **~2922** | | |
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
 *💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to **2506 g**; with the dough water that is ~2.74 kg going in. **v1 yielded 1550 g from 2.81 kg — a 45% loss — so at 55% retention forecast about 1500 g**, the onion being 115 g lighter than v1. ⚠ The extra salt on the onions should push it slightly lower, not higher. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+
+### ⚠⚠ Two substitutions on the day, and one of them is not like-for-like
+
+**🥛 Soya milk: Homesoy, not F&N NutriSoy.** Minor. Homesoy carries **78.8 mg calcium per 100 ml against NutriSoy's 200**, and no vitamin D — which is why calcium drops 955 → 696 mg and vitamin D 4.6 → 3.3 µg against v1. Nothing in the method changes.
+
+**🍄‍🟫 Mushroom powder: Lee Kum Kee "Premium Mushroom Powder", not plain dried shiitake. This one matters.** Its ingredient list in order is **salt, maltodextrin, sugar, mushroom powder (shiitake + white button), yeast extract, flavour enhancers (disodium 5′-inosinate, disodium 5′-guanylate), flavouring** — mushroom is the *fourth* ingredient. Per 100 g: 226 kcal, 4.3 g protein, 0.2 g fat, 51.7 g carbohydrate, against USDA `168436` dried mushroom powder at 296 kcal and 9.6 g protein.
+
+- ✅ **The panel reconciles exactly**: 51.7×4 + 4.3×4 + 0.2×9 = **226 kcal** as declared. That lets the rest be backed out by difference — about **40% of the tin is salt**, so 4 g carries roughly **1.6 g**. ⚠ The panel declares **no sodium row**, so that figure is derived, not read.
+- ⚠⚠ **The real difference is the added I+G.** This product carries *purified* disodium inosinate and guanylate plus yeast-extract glutamate, where dried shiitake only has what the mushroom itself contains. **Observation 62 holds that guanylate multiplies nooch** — and the 🧀 nooch was already raised 5 → 15 g, onto an onion layer 9% lighter than v1's. **Three multipliers have stacked in one layer and only one of them was planned.**
+- ⚠ **"No MSG Added" is true and narrow**: it refers to monosodium glutamate specifically. Yeast extract is a glutamate source and the I+G are nucleotide enhancers.
+- → **Taste the onion layer before the custard goes on.** Pulling the nooch back is possible then and impossible after assembly.
+
 
 ---
 
@@ -114,16 +126,16 @@
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **2957** (2939) kcal | Iron | **26.6** (26.8) mg |
-| Protein | **123** (119) g | Calcium | **950** (955) mg |
-| Carbohydrates | **418** (417) g | Zinc | **19.5** mg |
-| — of which sugars | **80.7** (82.6) g | Magnesium | **698** (707) mg |
-| Fat | **90.9** (90.4) g | Potassium | **5162** (5310) mg |
-| — of which saturates | **13.2** (13.1) g | Vitamin D | 4.6 µg |
-| Fibre | **80.6** (80.0) g | Vitamin B12 | 1.3 µg |
-| Salt | **20.1** (6.0) g | Folate | **698** (714) µg |
+| Energy | **2922** (2939) kcal | Iron | **27.1** (26.8) mg |
+| Protein | **120** (119) g | Calcium | **696** (955) mg |
+| Carbohydrates | **416** (417) g | Zinc | **19.5** mg |
+| — of which sugars | **80.6** (82.6) g | Magnesium | **691** (707) mg |
+| Fat | **89.4** (90.4) g | Potassium | **5352** (5310) mg |
+| — of which saturates | **12.7** (13.1) g | Vitamin D | **3.3** (4.6) µg |
+| Fibre | **80.7** (80.0) g | Vitamin B12 | 1.3 µg |
+| Salt | **20.1+** (6.0) g | Folate | **691** (714) µg |
 
-**Per square at 24, v2 forecast:** ~63 g, 123 kcal, 5.1 g protein, 3.4 g fibre.
+**Per square at 24, v2 forecast:** ~63 g, 122 kcal, 5.0 g protein, 3.4 g fibre.
 
 **Almost all of the change is the 🧀 nooch** — 10 g of it carries the extra 5 g of protein, the folate and the B-vitamins. The 🥭 amchur adds the sugars and most of the fibre difference. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
