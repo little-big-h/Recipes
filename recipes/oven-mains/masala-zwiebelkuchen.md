@@ -13,7 +13,7 @@
 **Four things, and the first revises the spec.**
 
 1. ⚠⚠ **The nooch will hit harder than the 3× suggests.** Observation 62 in [`../../docs/RATINGS.md`](../../docs/RATINGS.md), filed 11-11 off the Cheesy Roasted Cauliflower Soup: **glutamate and guanylate multiply**, so where a guanylate source is present the nooch punches well above its weight — 30 g there read as unmistakably cheesy against a prediction that it would not. **This bake carries 4 g of 🍄‍🟫 shiitake powder in the onion layer.** 5 → 15 g alongside it should land nearer a 5× impression than a 3× one. That is probably what was wanted, but **taste the onion layer before the custard goes on**; 10–12 g is still reachable then and unreachable after.
-2. ⚠⚠ **Weigh the sweated onion. This is the fifth chance.** 1316 g into the small wok (tare **810 g**), gross again when the liquid has gone. Observation 59 names this as the one loss figure absent from the whole project, and it has now been skipped twice on this dish alone. It is also what makes v1's 45% whole-bake loss interpretable instead of a single unattributable number.
+2. ⚠⚠ **Weigh the sweated onion. This is the fifth chance.** **1201 g as cooked** into the small wok (tare **810 g**), gross again when the liquid has gone. Observation 59 names this as the one loss figure absent from the whole project, and it has now been skipped twice on this dish alone. It is also what makes v1's 45% whole-bake loss interpretable instead of a single unattributable number.
 3. ⚠ **Spread the mushrooms over two trays.** Measured 10-11: a crowded tray loses **16%** and a spread one **22%**, and the crowded version comes out pale and steamed. 450 g on one bare preheated sheet is crowded.
 4. ⚠ **Decide the gluten test before mixing.** Whether the 💪 16 g of vital wheat gluten earns its place against plain atta is still unanswered from v1, and the only way to answer it is to **press both doughs onto one tray** — which has to be decided now, not later.
 
@@ -49,7 +49,7 @@
 
 *Legend: 🟢 Vegetables · 🟡 Aromatics · 🟠 Spices / Pastes · 🔵 Stock · 🟤 Protein · 🟣 Seasoning · ⚪ Acid*
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to **2506 g**; with the dough water that is ~2.74 kg going in. **v1 yielded 1550 g from 2.81 kg — a 45% loss — so at 55% retention forecast about 1500 g**, the onion being 115 g lighter than v1. ⚠ The extra salt on the onions should push it slightly lower, not higher. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. Listed ingredients sum to **2506 g**; with the dough water that is ~2.74 kg going in. **v1 yielded 1550 g from 2.81 kg — a 45% loss. v2 yielded 2055 g from 2.74 kg — a 25% loss.** The forecast written before the cook was ~1500 g and it was **37% too low**; the warning attached to it said the extra salt should push the yield *below* v1, and it came out 505 g above. See the yield note under Nutrition. ⚠ 🥭 Amchur is costed against USDA dried mango — **no amchur record exists** — which is trivial at 5 g but is a proxy, not a match.*
 
 ### ⚠⚠ Two substitutions on the day, and one of them is not like-for-like
 
@@ -86,9 +86,9 @@
 
 4. **Tadka:** bloom 🌰 4 g cumin, 🌼 mustard and 🌿 fennel in 🥑 15 g oil until the seeds pop. Then 🫚 ginger, then 🌻 turmeric.
 5. 🧅 Onions in on top of that, with 🧀 **15 g** nooch, 🍄‍🟫 shiitake powder and 🧂 **14 g** salt. **Sweat soft with no colour.**
-   > ⚠⚠ **14 g of salt on 1316 g of onion draws water out faster than v1 did.** The onions release liquid sooner and more of it. **Sweat until that liquid has gone again, not just until they are soft** — otherwise the extra water lands in the custard. Expect the yield slightly under v1's 1550 g, not over.
+   > ⚠⚠ **14 g of salt on 1201 g of onion draws water out faster than v1 did.** The onions release liquid sooner and more of it. **Sweat until that liquid has gone again, not just until they are soft** — otherwise the extra water lands in the custard. Expect the yield slightly under v1's 1550 g, not over.
    > ⚠⚠ **Taste the onion layer before the custard goes on.** 15 g of nooch beside 4 g of shiitake powder will read stronger than the 3× increase suggests — see **Before you start**. Pulling back is possible at this point and impossible after assembly.
-   > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1316 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
+   > ⚠ **Pale, not caramelised.** Zwiebelkuchen onion is juicy and pale. Browning collapses 1201 g to a fraction and buries the spices under sweetness. This is the opposite of the 26-10 butter masala, where caramelising was right.
 6. 🥭 **12 g amchur in at the very end.** It is a dried fruit powder and long dry heat dulls it and pushes it bitter.
    > ⚠⚠ **At 12 g the acid now matters to the custard, where 5 g did not.** Amchur is roughly 15% citric acid, so this is ~1.8 g of acid, and soy protein flocculates near pH 4.5. **The amchur stays on the onions and never goes into the custard — and the onion layer must be off the heat and no longer steaming when the custard is poured.** Hot acidic onion plus soya-milk custard is how this curdles.
 
@@ -124,7 +124,7 @@
 
 ## Nutrition
 
-**Whole recipe, v2 as cooked so far** (~1500 g forecast, 24 squares). *v1 measured 1550 g; the figures in brackets are v1 as cooked.*
+**Whole recipe, v2 as cooked** (**2055 g measured**, 24 squares). *v1 measured 1550 g; the figures in brackets are v1 as cooked.*
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -137,11 +137,20 @@
 | Fibre | **81.6** (80.0) g | Vitamin B12 | 1.3 µg |
 | Salt | **20.1+** (6.0) g | Folate | **691** (714) µg |
 
-**Per square at 24, v2 forecast:** ~63 g, 123 kcal, 5.0 g protein, 3.4 g fibre.
+**Per square at 24, as cooked:** **85.6 g**, 123 kcal, 5.0 g protein, 3.4 g fibre. *v1 squares were 64.6 g at the same 122 kcal — so a v2 square is 33% heavier carrying the same energy, and the extra mass is water.*
 
 **Almost all of the change is the 🧀 nooch** — 10 g of it carries the extra 5 g of protein, the folate and the B-vitamins. The 🥭 amchur adds the sugars and most of the fibre difference. Cut 6 × 4 on the 40 cm side gives squares of about 6.7 × 7.5 cm.
 
-⚠⚠ **The bake lost 45% of its mass, and the plan expected far less.** 2579 g of listed ingredients plus ~230 ml of dough water went in — 2809 g — and **1550 g came out**. The estimate written before the cook was 1970 g, **27% too high**. The error was almost certainly the onion: 1316 g of it sweated down, and the plan treated that as a modest loss rather than the largest single one in the dish. **Use 1550 g, or ~55% of total input, to forecast the next tray.**
+### ⚠⚠ v2 lost 25% where v1 lost 45%, and 505 g has to be accounted for
+
+**2055 g came out of a 2744 g input** (2514.5 g of listed ingredients plus ~230 ml of dough water) — a **25.1% loss**, against v1's 44.8% off a 2809 g input. **505 g more came out of 65 g less going in**, on the same 40 × 30 cm tray at the same 200 °C fan for the same time.
+
+- **The energy did not move**: 2954 kcal against v1's 2939, within 0.5%. So the extra 505 g carries no energy, which means **it is water** — a v2 square is 85.6 g against v1's 64.6 g at the same 122 kcal.
+- **The mechanism the recipe itself predicted is the onion sweat.** 14 g of salt on 1201 g of onion pulls water out faster, and step 5 warns that stopping at *soft* rather than at *dry* leaves that water to land in the custard, where the sealed surface of a set custard cannot drive it off. 1201 g of onion carries roughly 1080 g of water, so a sweat stopped halfway accounts for the whole discrepancy on its own.
+- ⚠ **This is not yet attributed, and it cannot be until two things are known**: whether 2055 g is net of the tray, and what the onions weighed coming out of the wok. **The sweated-onion weigh-in is the measurement that would settle it**, and it has now been the open question on this dish for two cooks.
+- ⚠ **Do not write a losses row for this dish from either figure yet.** 45% and 25% on the same recipe, same tray, same bake cannot both be the dish's loss, and publishing either as "the" sheet-pan Zwiebelkuchen figure would bury the fact that the two cooks disagree by 20 points.
+
+⚠⚠ **v1: the bake lost 45% of its mass, and the plan expected far less.** 2579 g of listed ingredients plus ~230 ml of dough water went in — 2809 g — and **1550 g came out**. The estimate written before the cook was 1970 g, **27% too high**. The error was almost certainly the onion: 1316 g of it sweated down, and the plan treated that as a modest loss rather than the largest single one in the dish. **Use 1550 g, or ~55% of total input, to forecast the next tray.**
 
 ⚠ **That makes it a dense square, not a light one: 190 kcal per 100 g.** All the water left and the solids stayed. Worth knowing for the event — 24 squares of 65 g is a canapé portion rather than a slice.
 
@@ -170,7 +179,7 @@
 | Measurement | Why |
 |:------------|:----|
 | ~~Tray internal dimensions~~ | ✅ **Measured 2026-11-07: 40 × 30 cm = 1200 cm².** Quantities above are scaled to it. |
-| 🧅 Onion peeled in → sweated out | ⚠ **Not taken, and it is the one that would have paid.** The whole-bake loss came to 45% and the onion is the prime suspect, but with only the final tray weighed the onion, mushroom and bake losses cannot be separated. Weigh it next time. |
+| 🧅 Onion peeled in → sweated out | ⚠⚠ **Not taken in v1, and now the measurement v2 needs too** — the 45% / 25% split between the two cooks turns on it. **Not taken, and it is the one that would have paid.** The whole-bake loss came to 45% and the onion is the prime suspect, but with only the final tray weighed the onion, mushroom and bake losses cannot be separated. Weigh it next time. |
 | 🍄 and 🍄‍🟫 raw in → browned out | ⚠ **Not taken.** Two roasted-mushroom losses rows were available in this one session and both were missed. |
 | ~~Tray assembled → tray baked~~ | ✅ **Done: 1550 g.** 45% of the total input lost, against a planned estimate of 1970 g. |
 | **Does a square survive four hours at room temperature?** | The go/no-go for the school, and not a number. |
