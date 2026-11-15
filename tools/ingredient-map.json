@@ -3514,6 +3514,32 @@
   "secondary": "label-no-sodium-row",
   "source": "label"
  },
+ "local:7A4D1E63-5B92-4C08-A3F7-1D6E8B2C5490": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Lecka",
+  "foodID": "local:7A4D1E63-5B92-4C08-A3F7-1D6E8B2C5490",
+  "name": "Tropical Fruits Energy Bar (Lecka)",
+  "per100": {
+   "calcium": 12.5,
+   "calories": 350.0,
+   "carbs": 57.5,
+   "cholesterol": 0.0,
+   "fat": 10.0,
+   "fatSaturated": 2.5,
+   "fatTrans": 0.0,
+   "fiber": 5.0,
+   "iron": 2.5,
+   "potassium": 702.5,
+   "protein": 5.0,
+   "sodium": 200.0,
+   "sugars": 50.0,
+   "vitaminD": 0.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:7A94FF9B-E956-4FDA-B07E-5F139C778EBB": {
   "baseAmount": 400,
   "baseUnit": "gram",
