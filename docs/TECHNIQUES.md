@@ -341,9 +341,22 @@ points.
 | Method | Loss | Measurements |
 |:--|--:|:--|
 | **Microwaved only, covered, ~1 tbsp water** | **~1–2%** | broccoli 1.4% (2026-10-11, 350 g → 345 g) |
-| Roasted root / squash, ~1 g oil per 100 g | **~16% CROWDED, ~22% SPREAD** | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g); **PURPLE sweet potato 17.0%** (2026-11-10, 833 g incl. 3 g oil → 691 g, ceramic tray B tare 584 g). ⚠ **The purple figure was predicted to come in LOWER than the others and did not** — denser and drier should mean less water to lose, and it lost slightly more. Within noise for one measurement, but do not assume purple is the low-loss root. ⚠ It also ran at **0.36 g oil per 100 g**, a third of this row’s rate; less oil means less of a barrier to moisture loss, which plausibly inflates it a little.; **butternut 22.3%** (2026-11-10, 548 g incl. 2 g oil → 426 g, ceramic tray A tare 654 g). |
+| Roasted root / squash, ~1 g oil per 100 g | **loss% ≈ 24.6 − 0.0046 × tray load in g** (~16% at 1950 g, ~18% at 1280 g, ~22% at 550 g) | sweet potato 16.4% (2026-09-30); butternut 15.8% (2026-10-01, 1958 g → 1665 g); **PURPLE sweet potato 17.0%** (2026-11-10, 833 g incl. 3 g oil → 691 g, ceramic tray B tare 584 g). ⚠ **The purple figure was predicted to come in LOWER than the others and did not** — denser and drier should mean less water to lose, and it lost slightly more. Within noise for one measurement, but do not assume purple is the low-loss root. ⚠ It also ran at **0.36 g oil per 100 g**, a third of this row’s rate; less oil means less of a barrier to moisture loss, which plausibly inflates it a little.; **butternut 22.3%** (2026-11-10, 548 g incl. 2 g oil → 426 g, ceramic tray A tare 654 g); **butternut 18.2%** (2026-11-16, 1283 g incl. 5 g oil → 1050 g). |
 
-⚠⚠ **Tray loading matters more than the vegetable, and the row above hides it.** Butternut lost **15.8% off a 1958 g tray** and **22.3% off a 546 g tray** — same vegetable, so water content is constant and **load is the variable**. A heavily loaded tray steams in its own moisture and holds water in; a properly spread one roasts and loses it. The two 2026-11-10 trays bracket the same effect: **830 g of sweet potato lost 17.0%** (flagged before the cook as probably over a single layer) against **546 g of squash at 22.3%**. **Use ~16% to forecast a crowded tray and ~22% for a single layer** — and note that the crowded number comes with pale, soft, steamed cubes, so it is the cheaper yield and the worse result.
+⚠⚠ **Tray loading matters more than the vegetable, and with three butternut points the relationship is now usable as a formula.** Same vegetable at three loads, so water content is constant and **load is the only variable**:
+
+| Date | Load in | Out | Loss |
+|:-----|--------:|----:|-----:|
+| 2026-10-01 | 1958 g | 1665 g | **15.8%** |
+| 2026-11-16 | 1283 g | 1050 g | **18.2%** |
+| 2026-11-10 | 548 g | 426 g | **22.3%** |
+
+**A least-squares line through the three gives loss% ≈ 24.6 − 0.0046 × load_g**, and it reproduces all three within 0.5 percentage points. The 2026-11-16 tray was forecast at 15.8–22.3% before the cook and landed at 18.2%, in the middle of the band as the load predicted.
+
+- **Use the formula between about 550 g and 2000 g on one tray.** Outside that it is extrapolation: the line has to bend, because loss cannot pass 100% going down or reach 0% going up.
+- ⚠ **It is a line fitted to three points from three different cooks**, not a measured physical law. What it really tracks is **exposed surface per gram on a fixed tray area** — so it only transfers to a tray of comparable area, and a tray twice the size at the same load behaves like half the load.
+- ⚠ **The crowded end is the cheaper yield and the worse result.** A heavily loaded tray steams in its own moisture and comes out pale and soft; a spread one roasts and browns. Reading the formula as "load the tray and keep more food" gets the arithmetic right and the cooking wrong.
+- The two 2026-11-10 trays show the same effect across different vegetables: **830 g of sweet potato lost 17.0%** against **548 g of squash at 22.3%**.
 | Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
 | **Stir-fried from raw to tender** | **~18–22%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g); **cauliflower 17.8%** (2026-11-02, 465 g + 2 g oil → 384 g) |
 | **Stir-fried from raw, flash only** | **~8%** | bean sprouts 8.5% (2026-10-04, 212 g → 194 g) |
