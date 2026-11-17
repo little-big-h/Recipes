@@ -24,7 +24,7 @@
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🔴 | 🟣 Beetroot, raw, **unpeeled, scrubbed** | 1200 g | 468 | **1088 g** | [usda](https://fdc.nal.usda.gov/food-details/169145/nutrients) |
-| 🔴 | 🍠 Purple sweet potato, raw, skin on | 800 g | 712 | | local |
+| 🔴 | 🍠 Purple sweet potato, raw, skin on | 800 g | 764 | **858 g** | local |
 | 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | | local |
 | 🔴 | 🥥 Coconut cream, Ayam 270 ml can | 270 g | 770 | | local |
 | 🟤 | 🧅 Onion, sliced | 400 g | 165 | **474 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
@@ -41,7 +41,7 @@
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~4.13 kg** | **~3153** | | |
+| | **Total in the file** | **~4.19 kg** | **~3203** | | |
 
 *💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **Roughly 60% of the fat in this dish is coconut saturated fat** — 270 g of Ayam cream at 25.5% saturated is about 69 g of the 74.5 g total, which is a consequence of using cream rather than a light milk.*
 
@@ -60,7 +60,7 @@
 1. 🟣 **Scrub and cut the beetroot into 2–3 cm pieces, skin on.** Roast at 200 °C fan, about 70 minutes**, until a knife goes through without resistance. Oil is optional here; the beetroot is going into a blender, so surface browning matters less than the water leaving.
    > ⚠ **No beetroot roasting-loss figure exists in this project.** Weigh the tray in and out — see Weigh-ins below.
 2. 🍠 **Purple sweet potato on the second tray, skin on, 2–3 cm**, in about 20 minutes later so the two come out together. **Spread, not crowded** — the browned edges are the only visual definition the chunks will have.
-   > **Forecast from the measured relationship:** loss% ≈ 24.6 − 0.0046 × tray load in g. 800 g on one tray predicts about **21%**, so expect roughly **630 g** of chunks. The measured purple-sweet-potato figure of 10-11 was 17.0% at a heavier load.
+   > **Forecast from the measured relationship:** loss% ≈ 24.6 − 0.0046 × tray load in g. **858 g as weighed predicts 20.7%, so expect roughly 680 g of chunks.** The measured purple-sweet-potato figure of 10-11 was 17.0% at a heavier load.
 
 ### 2. Pot — aromatics
 
@@ -92,20 +92,20 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200) and 🧅 onion 474 g (planned 400).** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800).** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **3153** kcal | Potassium | **11310** mg |
-| Protein | **120** g | Calcium | **1742** mg |
-| Fat | **124** g | Iron | **33.5** mg |
-| — of which saturates | **74.5** g | Magnesium | **883** mg |
-| Carbohydrates | **421** g | Zinc | **10.0** mg |
-| — of which sugars | **160** g | Folate | **1801** µg |
-| Fibre | **96.1** g | Vitamin C | **234** mg |
-| Salt | **11.2** g | Vitamin K | **1740** µg |
+| Energy | **3203** kcal | Potassium | **11506** mg |
+| Protein | **121** g | Calcium | **1759** mg |
+| Fat | **124** g | Iron | **33.8** mg |
+| — of which saturates | **74.5** g | Magnesium | **898** mg |
+| Carbohydrates | **432** g | Zinc | **10.1** mg |
+| — of which sugars | **163** g | Folate | **1808** µg |
+| Fibre | **97.8** g | Vitamin C | **235** mg |
+| Salt | **11.3** g | Vitamin K | **1740** µg |
 
-**Per serving at 10:** ~395 g, 315 kcal, 12.0 g protein, 9.6 g fibre. **Energy density ~80 kcal per 100 g.**
+**Per serving at 10:** ~400 g, 320 kcal, 12.1 g protein, 9.8 g fibre. **Energy density ~80 kcal per 100 g.**
 
 ⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–9 of the 14 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
 
@@ -132,7 +132,7 @@
 | Measurement | Why |
 |:------------|:----|
 | 🟣 **Beetroot raw in → roasted out** *(1088 g in, unpeeled)* | ⚠⚠ **Whatever number this gives is a SKIN-ON figure and must be recorded as one.** Skin is a barrier to water leaving, so an unpeeled tray loses less than a peeled one and the two are not interchangeable. ⚠⚠ **Some of the roots were also soft from storage, which puts the figure at further risk.** A dehydrated beetroot has already lost part of the water the measurement is meant to capture, so a tray mixing soft and fresh roots gives a number representing neither. **Record roughly what fraction was soft, or the figure goes down as unusable rather than being banked as misleading.** ⚠⚠ **No beetroot roasting figure exists anywhere in this project.** It is also a fourth vegetable for the tray-load relationship, which so far rests on butternut and sweet potato only — a beetroot point is the first test of whether loss% ≈ 24.6 − 0.0046 × load transfers beyond those two. |
-| 🍠 **Sweet potato raw in → roasted out** | Forecast ~21% at 800 g on a spread tray. The 10-11 measurement was 17.0% at a heavier load; this is the confirmation at the light end. |
+| 🍠 **Sweet potato raw in → roasted out** *(858 g in)* | Forecast **20.7%, about 680 g out**, on a spread tray. The 10-11 measurement was 17.0% at a heavier load; this is the confirmation at the light end. |
 | 🧅 **Onion peeled in → sweated out** *(474 g in)* | ⚠⚠ **Observation 59 names this as the one loss figure absent from the whole project**, and it has now been skipped on the Zwiebelkuchen twice. 474 g is a small, easy version of the same measurement — weigh the pan before the onion goes in, and again when the liquid has gone. |
 | **Pot before blending → soup after** | ⚠ **This tests a prediction already on file.** The Cantonese corn soup lost 18.7% as a composite, and that row says explicitly that **a stick blender used in the pot should cut it by several points** because nothing is decanted to a jug and back. This cook is the first chance to find out. |
 | **Does the beetroot read as earthy to the children?** | The go/no-go for ever cooking it again, and not a number. |
