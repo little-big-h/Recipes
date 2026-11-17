@@ -26,7 +26,7 @@
 | 🔴 | 🟣 Beetroot, raw, **unpeeled, scrubbed** | 1200 g | 468 | **1088 g** | [usda](https://fdc.nal.usda.gov/food-details/169145/nutrients) |
 | 🔴 | 🍠 Purple sweet potato, raw, skin on | 800 g | 764 | **858 g** | local |
 | 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | | local |
-| 🔴 | 🥥 Coconut cream, Ayam 270 ml can | 270 g | 770 | | local |
+| 🔴 | 🥥 Coconut cream — **Kara UHT, 200 ml pack**, not Ayam | 270 g | 492 | **200 g** | local ⚠ |
 | 🟤 | 🧅 Onion, sliced | 400 g | 165 | **474 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | | local |
@@ -41,9 +41,9 @@
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~4.19 kg** | **~3217** | | |
+| | **Total in the file** | **~4.12 kg** | **~2939** | | |
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **Roughly 60% of the fat in this dish is coconut saturated fat** — 270 g of Ayam cream at 25.5% saturated is about 69 g of the 74.5 g total, which is a consequence of using cream rather than a light milk.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **The 🥥 coconut swap took 278 kcal and 28 g of fat out of the dish.** 200 g of Kara cream at 24.5% fat replaces 270 g of Ayam at 28.5%, so fat falls 124 → 95.9 g and saturated fat 74.5 → 52.5 g. **Coconut is still about half the fat in the dish** — 49 g of the 95.9 g total — but this is a noticeably lighter soup than the one designed, at 75 kcal per 100 g against 80.*
 
 ---
 
@@ -64,8 +64,9 @@
 
 ### 2. Pot — aromatics
 
-3. 🥥 **Crack the thick top layer off the coconut cream can and fry the aromatics in it** rather than adding oil. The Ayam cream carries no gums, so it separates in the can and the solid top is the frying fat; keep the thin remainder for step 7.
-4. 🫚 **Ginger, 🧄 garlic and 🪵 15 g galangal paste into the fat**, 🥑 10 g oil only if the pan is dry. **Thirty to sixty seconds**, until they smell cooked and the fat takes colour.
+3. 🥑 **Heat the oil.** The fry here is oil and nothing else.
+   > ⚠⚠ **This step changed when the coconut changed, and the original version does not work.** The recipe was written around the **Ayam** cream, which carries no gums, separates in the can, and gives a solid top layer to fry in instead of oil. **Kara comes in a carton, and a carton cannot be cracked** — there is no lid to lift and no top layer to scoop, whatever the contents have done. ⚠ UHT cartons are also normally homogenised and usually carry a stabiliser, so it probably does not separate either, but **the Kara ingredient list is not on file** and that part is expectation rather than a read label. Use the 🥑 oil, and the 🥥 Kara goes in as a single addition at step 7.
+4. 🫚 **Ginger, 🧄 garlic and 🪵 15 g galangal paste into the oil.** **Thirty to sixty seconds**, until they smell cooked and the fat takes colour.
    > ⚠⚠ **The 🌾 lemongrass is deliberately NOT in this step** — it goes into the simmer at step 6. A bruised stalk is rigid and 25 cm long, so it will not sit in the fat, and **the garlic burns long before a leathery stalk gives up anything**. Lemongrass releases its oils with time in hot liquid, not in a 60-second fry. The only version that works in a pan is finely minced tender lower stalk, and that cannot then be removed — which puts the splinters back in the bowl.
    > 🪵 **Galangal goes in here and not late**, and at a quarter of the lemongrass by weight it reads as depth rather than as the lead aromatic. The paste disappears in the blender, unlike the stalks. ⚠⚠ **Lara is flagged on galangal by name** — her profile lists warm aromatics (galangal, cinnamon, cardamom) among her dislikes, not firmly established. **Beetroot is already a first exposure for her, so this is a second unknown on the same rater**: if the dish scores badly, the two causes will not be separable. Pushing past about 30 g would make galangal the lead aromatic, which is a different dish.
 5. 🧅 **Onion in, sweat soft with no colour**, about 15 minutes.
@@ -75,8 +76,8 @@
 6. 🟣 Roasted beetroot in, 🫘 **taucheo**, 🧈 **silken tofu**, the 💧 water and 🌾 **the lemongrass — cut into 6–8 cm lengths and bruised hard** with the back of a knife. **Simmer gently, 10–12 minutes**
    > 🌾 **Cut and bruised, whole, and fished out before blending.** Cutting is so the pieces fit the pot and can be found again; bruising splits the fibres so the oils leave. ⚠ **An immersion blender is not strong enough to make lemongrass disappear** — minced and blended, it leaves splinters in the bowl. Removal is what keeps the texture clean, so the pieces have to stay big enough to retrieve. — long enough to melt the taucheo, short enough that the colour holds. Betanin degrades with heat and with being held hot, so this is not a soup to leave on a low flame while everything else catches up.
    > 🧈 **The tofu is GDL-set and already coagulated**, so it will not curdle against beetroot the way soya milk would. That is why it is the body here and Homesoy is not.
-7. **Pull the lemongrass out. Immersion-blend smooth in the pot.** Then **off the heat**, stir in the rest of the 🥥 coconut cream.
-   > ⚠⚠ **The coconut cream must not boil.** No gums means it splits under hard heat, and once it has split no amount of blending brings it back.
+7. **Pull the lemongrass out. Immersion-blend smooth in the pot.** Then **off the heat**, stir in the 🥥 coconut cream.
+   > ⚠ **Off the heat, but now for the colour rather than for the coconut.** That warning was written for the Ayam, which splits under hard heat because it carries no gums. A UHT carton is expected to tolerate heat better — ⚠ unverified, the ingredient list is not on file — so the reason to keep it off the boil here is **betanin, which degrades with heat and with being held hot.**
    > ⚠ **Taste before deciding about starch.** The blended beetroot, the sweet potato starch and 600 g of tofu may already carry the body. If it is genuinely thin, a cornflour slurry goes in here — **cornflour, not potato starch**, because cornflour holds under prolonged heat where potato starch peaks and then thins. **You can add starch late; you cannot remove tofu**, which is why the order is this way round.
 
 ### 4. Table
@@ -92,20 +93,20 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40).** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam).** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **3217** kcal | Potassium | **11542** mg |
-| Protein | **122** g | Calcium | **1776** mg |
-| Fat | **124** g | Iron | **34.0** mg |
-| — of which saturates | **74.5** g | Magnesium | **900** mg |
-| Carbohydrates | **435** g | Zinc | **10.2** mg |
-| — of which sugars | **163** g | Folate | **1808** µg |
-| Fibre | **98.0** g | Vitamin C | **238** mg |
+| Energy | **2939** kcal | Potassium | **12185** mg |
+| Protein | **119** g | Calcium | **1776** mg |
+| Fat | **95.9** g | Iron | **34.0** mg |
+| — of which saturates | **52.5** g | Magnesium | **900** mg |
+| Carbohydrates | **434** g | Zinc | **10.2** mg |
+| — of which sugars | **158** g | Folate | **1808** µg |
+| Fibre | **98.4** g | Vitamin C | **238** mg |
 | Salt | **11.3** g | Vitamin K | **1740** µg |
 
-**Per serving at 10:** ~400 g, 322 kcal, 12.2 g protein, 9.8 g fibre. **Energy density ~80 kcal per 100 g.**
+**Per serving at 10:** ~390 g, 294 kcal, 11.9 g protein, 9.8 g fibre. **Energy density ~75 kcal per 100 g.**
 
 ⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–9 of the 14 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
 

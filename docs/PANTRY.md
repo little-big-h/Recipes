@@ -445,6 +445,8 @@ Replaces the UK's Buy Whole Foods Online / M&S / Ocado stack. `BWFO_GRAPHQL.md` 
 
 ## Open items
 
+- ⚠ **Neither Kara coconut product has a `PANTRY.md` entry**, though both are in `tools/ingredient-map.json` and both have now been cooked with: **UHT Coconut Cream** (246 kcal, 24.5 g fat, 23.4 saturated, 2.7 g protein per 100 g — used 2026-11-17, stated as a **200 ml pack**) and **UHT Coconut Milk LIGHT** (132 kcal, 12.6 g fat — used 2026-11-10, 200 ml). **No barcode, no ingredient list and no pack photograph is on file for either.** The gap matters for one practical reason: the Ayam can separates and can be cracked for its solid top layer, which is a frying technique two recipes rely on, and whether the Kara cartons do anything comparable has never been checked. Photograph both packs.
+
 1. **Confirm the ❓ list.** The fastest path is Holger walking the shelves once; everything above then flips to ✅ or 🛒.
 2. **Record a local milk** (panel + barcode). ~~Fortified soya drink~~ — done, NutriSoy. Plain dairy "milk" still resolves to nothing.
 3. **Record a local light coconut *milk*** and its fat %, against the 9% reference several recipes assume. *(The Ayam **cream** is recorded, but at 28.5% it doesn't fill this slot.)*
