@@ -1,0 +1,134 @@
+# Beetroot & Coconut Soup with Roasted Purple Sweet Potato [17-11-26] ✴️
+
+*A blended beetroot soup on a Southeast Asian profile rather than a Northern European one: 🥥 coconut cream and 🌾 lemongrass instead of dill and soured cream, 🫘 taucheo for the savoury depth, and the sweetness coming from roasted root rather than from sugar. The 🍠 purple sweet potato stays in chunks and never meets the pot. Everything green, and both proteins, go on at the table.*
+
+> 🍴 **DESIGNED 2026-11-17, NOT YET COOKED.** Quantities below are planned and scaled to **1200 g of beetroot** — the ratios are the part that matters, so rescale to whatever the delivery actually weighs. The **Actual used** column is empty until the cook.
+
+> ⚠⚠ **Read "Before you start" first.** Three of the decisions in this recipe are there to protect things that are easy to lose, and one of them has to be made before the oven goes on.
+
+---
+
+## Before you start
+
+**Four things.**
+
+1. ⚠⚠ **Roast the beetroot. Do not simmer it.** In almost all beetroot cooking the water is poured away; **here the cooking water is the soup**, so everything that leaves the beetroot stays in the dish. Beetroot's earthy smell is geosmin, and it is volatile — dry heat drives some of it off and concentrates the sugar instead. Boiling keeps all of it and dilutes the sweetness. Pressure-cooking is faster and wrong for the same reason.
+2. ⚠⚠ **No child in this project has ever been scored on beetroot.** The only mention in the whole ratings log is Holger liking beets in a Nordic cold corn soup. Treat this as a first exposure and keep the escapes open — which is why every green, both proteins and the acid are assembled at the table, the structure that let Lara skip the squash and Jannes the sweet potato on 10-11 with both still scoring in their band.
+3. ⚠ **The chunks will barely show, and that is expected.** Violet against magenta is low contrast. The 🍠 browned roasted edges give some definition back; the 🍃 greens and 🟩 edamame give the rest. This is the reason the leaves are in the dish at all.
+4. ⚠ **If the 🥬 spinach is the shakshuka spinach, this takes it from there.** Worth checking before it goes in the pot rather than after.
+
+---
+
+## Ingredients
+
+| Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
+|:----:|:-----------|:-------:|--------:|:-----------:|:----:|
+| 🔴 | 🟣 Beetroot, raw, peeled | 1200 g | 516 | | [usda](https://fdc.nal.usda.gov/food-details/169145/nutrients) |
+| 🔴 | 🍠 Purple sweet potato, raw, skin on | 800 g | 712 | | local |
+| 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | | local |
+| 🔴 | 🥥 Coconut cream, Ayam 270 ml can | 270 g | 770 | | local |
+| 🟤 | 🧅 Onion, sliced | 400 g | 139 | | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
+| 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
+| 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | | local |
+| 🟤 | 🧄 Garlic, raw | 40 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
+| 🟤 | 🫚 Ginger root, raw | 20 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
+| 🟤 | 🥑 Avocado oil | 10 g | 88 | | local |
+| 🟤 | 💧 Water | ~1200 ml | 0 | | — |
+| 🟢 | 🍃 Sweet potato leaves (~180 g leaf + 70 g stem) | 250 g | 105 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
+| 🟢 | 🟩 Edamame, frozen, shelled | 250 g | 273 | | local |
+| 🟢 | 🥬 Spinach, raw | 200 g | 46 | | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
+| 🟢 | 🍋 Lime wedges | at the table | — | | — |
+| 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
+| 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
+| | **Total in the file** | **~4.15 kg** | **~3168** | | |
+
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **Roughly 60% of the fat in this dish is coconut saturated fat** — 270 g of Ayam cream at 25.5% saturated is about 69 g of the 74.5 g total, which is a consequence of using cream rather than a light milk.*
+
+---
+
+## Timeline
+
+![Cooking Timeline](https://www.wolframcloud.com/obj/pirk0/RenderTimeline?steps=%7B%22Oven%22%3A%7B%22color%22%3A%22%23D17A3A%22%2C%22steps%22%3A%5B%5B0%2C70%2C%22Roast%20beetroot%20200C%20fan%22%5D%2C%5B20%2C70%2C%22Roast%20sweet%20potato%2C%20second%20tray%22%5D%5D%7D%2C%22Pot%22%3A%7B%22color%22%3A%22%235A8CD1%22%2C%22steps%22%3A%5B%5B60%2C72%2C%22Fry%20aromatics%20in%20coconut%20top%20layer%22%5D%2C%5B72%2C88%2C%22Sweat%20onion%22%5D%2C%5B88%2C100%2C%22Water%2C%20taucheo%2C%20tofu%2C%20simmer%22%5D%2C%5B100%2C106%2C%22Immersion%20blend%22%5D%2C%5B106%2C110%2C%22Coconut%20cream%2C%20off%20heat%22%5D%5D%7D%2C%22Table%22%3A%7B%22color%22%3A%22%237FB069%22%2C%22steps%22%3A%5B%5B95%2C105%2C%22Wilt%20greens%2C%20thaw%20edamame%22%5D%2C%5B110%2C118%2C%22Assemble%20bowls%22%5D%5D%7D%7D&syncs=%5B%7B%22t%22%3A70%2C%22color%22%3A%22%23B5651D%22%2C%22label%22%3A%22Trays%20out%22%7D%2C%7B%22t%22%3A113%2C%22color%22%3A%22%23595959%22%2C%22label%22%3A%22Serve%22%7D%5D)
+
+---
+
+## Method
+
+### 1. Oven — two trays
+
+1. 🟣 **Peel and cut the beetroot into 2–3 cm pieces. Roast at 200 °C fan, about 70 minutes**, until a knife goes through without resistance. Oil is optional here; the beetroot is going into a blender, so surface browning matters less than the water leaving.
+   > ⚠ **No beetroot roasting-loss figure exists in this project.** Weigh the tray in and out — see Weigh-ins below.
+2. 🍠 **Purple sweet potato on the second tray, skin on, 2–3 cm**, in about 20 minutes later so the two come out together. **Spread, not crowded** — the browned edges are the only visual definition the chunks will have.
+   > **Forecast from the measured relationship:** loss% ≈ 24.6 − 0.0046 × tray load in g. 800 g on one tray predicts about **21%**, so expect roughly **630 g** of chunks. The measured purple-sweet-potato figure of 10-11 was 17.0% at a heavier load.
+
+### 2. Pot — aromatics
+
+3. 🥥 **Crack the thick top layer off the coconut cream can and fry the aromatics in it** rather than adding oil. The Ayam cream carries no gums, so it separates in the can and the solid top is the frying fat; keep the thin remainder for step 7.
+4. 🌾 **Bruise the lemongrass stalks whole** with the back of a knife, 🫚 ginger and 🧄 garlic in after them, 🥑 10 g oil only if the pan is dry.
+   > ⚠ **Whole stalks, fished out before blending.** Fresh lemongrass is fibrous and an immersion blender is not strong enough to make it disappear; minced-and-blended leaves splinters in the bowl. Bruising gets the oil out, removal keeps the texture clean.
+5. 🧅 **Onion in, sweat soft with no colour**, about 15 minutes.
+
+### 3. Pot — the base
+
+6. 🟣 Roasted beetroot in, 🫘 **taucheo**, 🧈 **silken tofu** and the 💧 water. **Simmer gently, 10–12 minutes** — long enough to melt the taucheo, short enough that the colour holds. Betanin degrades with heat and with being held hot, so this is not a soup to leave on a low flame while everything else catches up.
+   > 🧈 **The tofu is GDL-set and already coagulated**, so it will not curdle against beetroot the way soya milk would. That is why it is the body here and Homesoy is not.
+7. **Pull the lemongrass out. Immersion-blend smooth in the pot.** Then **off the heat**, stir in the rest of the 🥥 coconut cream.
+   > ⚠⚠ **The coconut cream must not boil.** No gums means it splits under hard heat, and once it has split no amount of blending brings it back.
+   > ⚠ **Taste before deciding about starch.** The blended beetroot, the sweet potato starch and 600 g of tofu may already carry the body. If it is genuinely thin, a cornflour slurry goes in here — **cornflour, not potato starch**, because cornflour holds under prolonged heat where potato starch peaks and then thins. **You can add starch late; you cannot remove tofu**, which is why the order is this way round.
+
+### 4. Table
+
+8. 🍃 **Sweet potato leaves: separate the stems from the leaves.** Stems get a few minutes in the hot soup or a pan, **leaves about thirty seconds**. 🥬 Spinach wilts in the hot bowl on its own.
+9. 🟩 **Edamame straight from the freezer** — 30 seconds of heat, not cooking.
+10. 🍠 Roasted chunks, 🦪 mock abalone, 🍋 lime wedges and 🍄‍🟫 mushroom seasoning all go on the table, not in the pot.
+    > ⚠ **Acid at the table, not in the pot.** Observation 60: four of five took the amchur at the table on 09-11, Lara did not, and she scored at her ceiling. She is flagged against sourness.
+    > ⚠ **The mushroom seasoning multiplies the taucheo rather than adding to it.** The LKK powder carries purified inosinate and guanylate; taucheo is a glutamate source; observation 62 holds that the two multiply. A light hand goes further than it looks. This is a dose, not an objection.
+    > ⚠ **Read the 🦪 abalone braise before putting it in a bowl.** Pre-braised mock abalone is usually soy, sugar and five-spice or star anise, and **anise against lemongrass is a real fight**. A plain soy braise sits in the soup happily; an anise-forward one belongs beside it.
+
+---
+
+## Nutrition
+
+**Whole recipe, planned** (~4000 g forecast yield, 10 servings). ⚠ **Planned, not as cooked** — nothing here has been weighed yet.
+
+| Macro | Total | Micro | Total |
+|:------|------:|:------|------:|
+| Energy | **3168** kcal | Potassium | **11520** mg |
+| Protein | **121** g | Calcium | **1746** mg |
+| Fat | **124** g | Iron | **34.1** mg |
+| — of which saturates | **74.5** g | Magnesium | **900** mg |
+| Carbohydrates | **424** g | Zinc | **10.2** mg |
+| — of which sugars | **163** g | Folate | **1908** µg |
+| Fibre | **97.6** g | Vitamin C | **233** mg |
+| Salt | **11.4** g | Vitamin K | **1740** µg |
+
+**Per serving at 10:** ~400 g, 317 kcal, 12.1 g protein, 9.8 g fibre. **Energy density ~79 kcal per 100 g.**
+
+⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–8 of the 13 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
+
+**FoodNoms:** [download](https://www.wolframcloud.com/obj/pirk0/BuildFoodNomsRecipe?name=Beetroot+%26+Coconut+Soup+with+Roasted+Purple+Sweet+Potato+%5B17-11-26%5D+%E2%9C%B4%EF%B8%8F&servings=10&collectionType=3&totalServingSize=4000&customNames=Beets%2C+raw%3BPurple+Sweet+Potato%2C+raw%2C+skin+on%3BOnions%2C+raw%3BGarlic%2C+raw%3BGinger+root%2C+raw%3BLemon+grass+%28citronella%29%2C+raw%3BCrushed+Salted+Soy+Beans+%2F+Taucheo+%28Tai+Hua%29%3BPure+Coconut+Cream%2C+270+ml+can+%28Ayam+Brand%29%3BJapanese+Silken+Tofu+with+Omega+3+DHA+%28Fortune%29%3BOil+%28Avocado%29%3BSpinach%2C+raw%3BSweet+potato+leaves%2C+raw%3BEdamame%2C+frozen%2C+shelled+%28Farmland%29&customFoodIds=foodnoms%3Ausda%3A169145%3Blocal%3AB4D7E2A9-6C31-4F58-9A20-7E5D1C8B3F46%3Bfoodnoms%3Ausda%3A2709795%3Bfoodnoms%3Ausda%3A169230%3Bfoodnoms%3Ausda%3A169231%3Bfoodnoms%3Ausda%3A168573%3Blocal%3A7C2B9E45-1A63-4D08-BF57-3E8A0D6C2F91%3Blocal%3A5D2A8C41-6B93-4E07-A1F5-3C8E7D260B94%3Blocal%3A8F3C6A21-5D79-4B04-A6E8-1C2B9D7F5043%3Bfoodnoms%3A46D6CFD7-5184-4C62-A572-0F04A6D25009%3Bfoodnoms%3Ausda%3A168462%3Bfoodnoms%3Ausda%3A169303%3Blocal%3A4B2D7E58-9C31-4A06-BF74-1E8A5D3C9026&customQuantities=1200%3B800%3B400%3B40%3B20%3B60%3B50%3B270%3B600%3B10%3B200%3B250%3B250&customUnits=gram%3Bgram%3Bgram%3Bgram%3Bgram%3Bgram%3Bgram%3Bmilliliter%3Bgram%3Bgram%3Bgram%3Bgram%3Bgram&customNutrientNames=calories%2Cprotein%2Cfat%2Ccarbs%2Cfiber%2CfatSaturated%2CfatTrans%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Czinc%2Cphosphorus%2Ccopper%2Cmanganese%2Cselenium%2Ccaffeine%2CvitaminE%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2CpantothenicAcid%2Cfolate%2CvitaminA%2CvitaminB12%2CvitaminK%2Csugars%2CvitaminD%2CvitaminC%3Bcaffeine%2Ccalcium%2Ccalories%2Ccarbs%2Ccholesterol%2Ccopper%2Cfat%2CfatMonounsaturated%2CfatPolyunsaturated%2CfatSaturated%2CfatTrans%2Cfiber%2Cfolate%2Ciron%2Cmagnesium%2Cmanganese%2Cniacin%2CpantothenicAcid%2Cphosphorus%2Cpotassium%2Cprotein%2Criboflavin%2Cselenium%2Csodium%2Csugars%2Cthiamin%2CvitaminA%2CvitaminB12%2CvitaminB6%2CvitaminC%2CvitaminD%2CvitaminE%2CvitaminK%2Cwater%2Czinc%3Bcalories%2Cprotein%2Cfat%2Ccarbs%2Cfiber%2CfatSaturated%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Czinc%2Cphosphorus%2Ccopper%2Cselenium%2Ccaffeine%2CvitaminE%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2Cfolate%2CvitaminA%2CvitaminB12%2CvitaminK%2Csugars%2CvitaminD%2CvitaminC%3Bcalories%2Cprotein%2Cfat%2Ccarbs%2Cfiber%2CfatSaturated%2CfatTrans%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Czinc%2Cphosphorus%2Ccopper%2Cmanganese%2Cselenium%2Ccaffeine%2CvitaminE%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2CpantothenicAcid%2Cfolate%2CvitaminA%2CvitaminB12%2CvitaminK%2Csugars%2CvitaminD%2CvitaminC%3Bcalories%2Cprotein%2Cfat%2Ccarbs%2Cfiber%2CfatSaturated%2CfatTrans%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Czinc%2Cphosphorus%2Ccopper%2Cmanganese%2Cselenium%2Ccaffeine%2CvitaminE%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2CpantothenicAcid%2Cfolate%2CvitaminA%2CvitaminB12%2CvitaminK%2Csugars%2CvitaminD%2CvitaminC%3Bcalories%2Cprotein%2Cfat%2Ccarbs%2CfatSaturated%2CfatTrans%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Czinc%2Cphosphorus%2Ccopper%2Cmanganese%2Cselenium%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2CpantothenicAcid%2Cfolate%2CvitaminA%2CvitaminB12%2CvitaminD%2CvitaminC%3Bcalories%2Ccarbs%2Ccholesterol%2Cfat%2CfatSaturated%2CfatTrans%2Cfiber%2Cprotein%2Csodium%2Csugars%3Bcalories%2Ccarbs%2Cfat%2CfatSaturated%2Cprotein%2Csodium%2Csugars%3Bcalcium%2Ccalories%2Ccarbs%2Ccholesterol%2Cfat%2CfatSaturated%2CfatTrans%2Cfiber%2Cprotein%2Csodium%2Csugars%3Bcalcium%2Ccalories%2Ccarbs%2Ccopper%2Cfat%2CfatMonounsaturated%2CfatPolyunsaturated%2CfatSaturated%2Cfiber%2Cfolate%2Ciron%2Cmagnesium%2Cmanganese%2Cniacin%2CpantothenicAcid%2Cphosphorus%2Cpotassium%2Cprotein%2Criboflavin%2Cselenium%2Csodium%2Cthiamin%2CvitaminA%2CvitaminB12%2CvitaminB6%2CvitaminC%2Cwater%2Czinc%3Bcalories%2Cprotein%2Cfat%2Ccarbs%2Cfiber%2CfatSaturated%2CfatTrans%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Czinc%2Cphosphorus%2Ccopper%2Cmanganese%2Cselenium%2Ccaffeine%2CvitaminE%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2CpantothenicAcid%2Cfolate%2CvitaminA%2CvitaminB12%2CvitaminK%2Csugars%2CvitaminD%2CvitaminC%3Bcalories%2Cprotein%2Cfat%2Ccarbs%2Cfiber%2CfatSaturated%2CfatTrans%2CfatMonounsaturated%2CfatPolyunsaturated%2Ccholesterol%2Cwater%2Csodium%2Cpotassium%2Ccalcium%2Ciron%2Cmagnesium%2Cphosphorus%2Cselenium%2Cniacin%2Cthiamin%2Criboflavin%2CvitaminB6%2CpantothenicAcid%2CvitaminA%2CvitaminB12%2CvitaminK%2CvitaminD%2CvitaminC%3Bcalcium%2Ccalories%2Ccarbs%2Ccholesterol%2Cfat%2CfatSaturated%2CfatTrans%2Cfiber%2Ciron%2Cpotassium%2Cprotein%2Csodium%2Csugars%2CvitaminA%2CvitaminC%2CvitaminD&customNutrientValues=43%2C1.61%2C0.17%2C9.56%2C2.8%2C0.027%2C0%2C0.032%2C0.06%2C0%2C87.58%2C78%2C325%2C16%2C0.8%2C23%2C0.35%2C40%2C0.075%2C0.329%2C0.7%2C0%2C0.04%2C0.334%2C0.031%2C0.04%2C0.067%2C0.155%2C109%2C2%2C0%2C0.2%2C6.76%2C0%2C4.9%3B0%2C30%2C86%2C20.12%2C0%2C0.151%2C0.05%2C0.001%2C0.014%2C0.018%2C0%2C3%2C11%2C0.61%2C25%2C0.258%2C0.557%2C0.8%2C47%2C337%2C1.57%2C0.061%2C0.6%2C55%2C4.18%2C0.078%2C0%2C0%2C0.209%2C2.4%2C0%2C0.26%2C1.8%2C77.28%2C0.3%3B38%2C0.86%2C0.08%2C8.46%2C1.7%2C0.042%2C0.013%2C0.017%2C0%2C90.3%2C1%2C171%2C17%2C0.24%2C9%2C0.17%2C33%2C0.041%2C0%2C0%2C0.02%2C0.116%2C0.046%2C0.027%2C0.12%2C19%2C0%2C0%2C0.4%2C5.8%2C0%2C8.2%3B149%2C6.36%2C0.5%2C33.06%2C2.1%2C0.089%2C0%2C0.011%2C0.249%2C0%2C58.58%2C17%2C401%2C181%2C1.7%2C25%2C1.16%2C153%2C0.299%2C1.672%2C14.2%2C0%2C0.08%2C0.7%2C0.2%2C0.11%2C1.235%2C0.596%2C3%2C0%2C0%2C1.7%2C1%2C0%2C31.2%3B80%2C1.82%2C0.75%2C17.77%2C2%2C0.203%2C0%2C0.154%2C0.154%2C0%2C78.89%2C13%2C415%2C16%2C0.6%2C43%2C0.34%2C34%2C0.226%2C0.229%2C0.7%2C0%2C0.26%2C0.75%2C0.025%2C0.034%2C0.16%2C0.203%2C11%2C0%2C0%2C0.1%2C1.7%2C0%2C5%3B99%2C1.82%2C0.49%2C25.31%2C0.119%2C0%2C0.054%2C0.17%2C0%2C70.58%2C6%2C723%2C65%2C8.17%2C60%2C2.23%2C101%2C0.266%2C5.224%2C0.7%2C1.101%2C0.065%2C0.135%2C0.08%2C0.05%2C75%2C0%2C0%2C0%2C2.6%3B107%2C11.5%2C0%2C4.5%2C0.7%2C0%2C5%2C10.1%2C5843%2C6.5%3B285%2C4%2C28.5%2C25.5%2C3.1%2C19%2C3.9%3B98.6%2C57%2C2.7%2C0%2C2.9%2C0.5%2C0%2C0%2C5%2C3%2C0.7%3B0%2C884%2C0%2C0%2C100%2C70.554%2C13.486%2C11.56%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%3B23%2C2.86%2C0.39%2C3.63%2C2.2%2C0.063%2C0%2C0.01%2C0.165%2C0%2C91.4%2C79%2C558%2C99%2C2.71%2C79%2C0.53%2C49%2C0.13%2C0.897%2C1%2C0%2C2.03%2C0.724%2C0.078%2C0.189%2C0.195%2C0.065%2C194%2C469%2C0%2C482.9%2C0.42%2C0%2C28.1%3B42%2C2.49%2C0.51%2C8.82%2C5.3%2C0.111%2C0%2C0.02%2C0.228%2C0%2C86.81%2C6%2C508%2C78%2C0.97%2C70%2C81%2C0.9%2C1.13%2C0.156%2C0.345%2C0.19%2C0.225%2C189%2C0%2C302.2%2C0%2C11%3B58.8%2C109%2C8.24%2C0%2C4.71%2C0%2C0%2C4.71%2C2.06%2C470.6%2C10.59%2C5.88%2C2.35%2C0%2C9.41%2C0&customBrands=%3B%3B%3B%3B%3B%3BTai+Hua%3BAyam+Brand%3BFortune%3B%3B%3B%3BFarmland&customBarcodes=%3B%3B%3B%3B%3B%3B%3B%3B8888090149302%3B%3B%3B%3B&customNotes=Raw+peeled+weight.+Roasted%2C+not+simmered+-+the+cooking+water+is+the+soup+here%2C+so+anything+that+leaves+the+beetroot+stays+in+the+dish%3BRoasted+separately+and+added+at+the+bowl.+Measured+loss+17.0+pct+on+2026-11-10%3B%3B%3B%3BFresh+stalks%2C+bruised+whole+and+fished+out+before+blending%3BThe+umami+in+the+pot.+At+5843+mg+sodium+per+100+g%2C+50+g+is+the+dose+this+pot+size+takes%3BThick+top+layer+cracked+off+to+fry+the+aromatics%2C+the+rest+stirred+in+off+the+heat.+No+gums%2C+so+it+splits+if+boiled%3BBlended+into+the+base+for+body+and+protein.+GDL-set%2C+so+it+does+not+curdle+against+beetroot+the+way+soya+milk+would%3B%3BAt+the+table.+Wilts+in+the+hot+bowl%3BAt+the+table+-+roughly+180+g+leaves+and+70+g+stems%2C+separated.+Stems+first%2C+leaves+about+thirty+seconds%3BAt+the+table.+Green+against+magenta+is+the+contrast+the+purple+chunks+cannot+give)
+
+⚠ **Built locally and NOT cross-checked** — the endpoint rejected the request with HTTP 400, which is the sparse-column rule: four label-derived rows carry a different nutrient-name set from the USDA rows, and the endpoint requires every row to declare the same columns. The totals above are the local computation. File: `examples/Beetroot & Coconut Soup with Roasted Purple Sweet Potato [17-11-26].foodnoms`.
+
+⚠ USDA-derived, not FoodNoms-verified.
+
+---
+
+## Design notes
+
+- **The profile is a deliberate move away from the obvious one.** Beetroot soup defaults to dill, caraway and soured cream. Coconut, lemongrass and taucheo were chosen because the two things that make beetroot difficult for children — earthiness and flat sweetness — are both answered by citrus and fermented-soy savouriness, and because the 10-11 makrut-lemongrass coconut sauce on sweet roots already scored in band with this family.
+- **Three body-builders were available and only two are used.** Silken tofu, coconut cream and a cornflour slurry would all thicken this. Tofu and coconut are in; the starch is held back as a decision to make after tasting. **This matters beyond this dish**: remark 49 logs an open, never-run controlled test of whether cornflour adds creaminess on top of coconut-plus-blended-tofu, on a sauce that already has scores. Spending that question inside a brand-new dish with two new vegetables would answer nothing transferable.
+- **Why the greens are at the table and not in the pot.** Simmered greens grey and turn sulfurous, which the Cantonese corn soup established for broccoli. Here there is a second reason: **dark green against magenta is the only strong colour contrast in the dish**, and it is wasted if it is blended in.
+- **Why cauliflower is not in this.** It was in the same delivery and was deliberately left out: it stains pink, and its flavour — bland, faintly sulfurous, slightly sweet — dilutes rather than adds against lemongrass and coconut. It is also the better use of a vegetable that keeps: the Cheesy Roasted Cauliflower Soup produced **Jannes's 8.5, his only score above 8.0 in 21 ratings**, and has never been repeated, so a second cook of it is worth more than a side dish here.
+- **Considered and rejected:** Homesoy in place of the tofu (curdles against beetroot), simmering the beetroot (keeps the geosmin in the soup), lime in the pot (observation 60), and putting the sweet potato chunks in the pot (anthocyanins shift blue-grey near neutral pH, and they would also break up).
+
+### Weigh-ins for the first cook
+
+| Measurement | Why |
+|:------------|:----|
+| 🟣 **Beetroot raw in → roasted out** | ⚠⚠ **No beetroot roasting figure exists anywhere in this project.** It is also a fourth vegetable for the tray-load relationship, which so far rests on butternut and sweet potato only — a beetroot point is the first test of whether loss% ≈ 24.6 − 0.0046 × load transfers beyond those two. |
+| 🍠 **Sweet potato raw in → roasted out** | Forecast ~21% at 800 g on a spread tray. The 10-11 measurement was 17.0% at a heavier load; this is the confirmation at the light end. |
+| 🧅 **Onion peeled in → sweated out** | ⚠⚠ **Observation 59 names this as the one loss figure absent from the whole project**, and it has now been skipped on the Zwiebelkuchen twice. 400 g is a small, easy version of the same measurement. |
+| **Pot before blending → soup after** | ⚠ **This tests a prediction already on file.** The Cantonese corn soup lost 18.7% as a composite, and that row says explicitly that **a stick blender used in the pot should cut it by several points** because nothing is decanted to a jug and back. This cook is the first chance to find out. |
+| **Does the beetroot read as earthy to the children?** | The go/no-go for ever cooking it again, and not a number. |
+| **Does the soup hold its colour to the table?** | Betanin degrades with heat and with holding. If it browns between blending and serving, the fix is a shorter gap, not more beetroot. |
