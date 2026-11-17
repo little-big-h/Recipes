@@ -4290,6 +4290,29 @@
   "secondary": "usda-169719-label-rejected",
   "source": "usda"
  },
+ "local:9D4C2B71-6E38-4A05-B193-7F2A8C5D6E04": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Unicurd",
+  "foodID": "local:9D4C2B71-6E38-4A05-B193-7F2A8C5D6E04",
+  "name": "Organic Tau Kwa (Unicurd)",
+  "per100": {
+   "calcium": 150.0,
+   "calories": 107.0,
+   "carbs": 3.0,
+   "cholesterol": 0.0,
+   "fat": 5.5,
+   "fatSaturated": 1.2,
+   "fatTrans": 0.0,
+   "fiber": 1.5,
+   "protein": 12.2,
+   "sodium": 88.0,
+   "sugars": 1.0
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:9E6D3B71-4A28-4C50-BF19-2D7A5E8C0364": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
