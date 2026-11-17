@@ -2079,6 +2079,33 @@
   "secondary": "usda-pakchoi-donor"
   ,"source": "usda"
  },
+ "local:2C7F5B81-4D63-4A09-BE27-9F1A3D6C8E05": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Sunshine",
+  "foodID": "local:2C7F5B81-4D63-4A09-BE27-9F1A3D6C8E05",
+  "name": "Ultra Fine Wholemeal Bread, 100 pct Whole Grains (Sunshine)",
+  "per100": {
+   "calcium": 311.0,
+   "calories": 222.0,
+   "carbs": 32.8,
+   "cholesterol": 0.0,
+   "fat": 3.5,
+   "fatSaturated": 1.6,
+   "fatTrans": 0.0,
+   "fiber": 6.5,
+   "iron": 6.0,
+   "niacin": 3.76,
+   "protein": 14.8,
+   "riboflavin": 0.35,
+   "sodium": 393.0,
+   "sugars": 4.9,
+   "thiamin": 0.81
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:2C7F8A45-3E91-4B62-8D07-1A5C9E3F7B20": {
   "baseAmount": 100.0,
   "baseUnit": "gram",
