@@ -31,8 +31,8 @@
 | 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | | local |
 | 🟤 | 🧄 Garlic, raw | 40 g | 73 | **49 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
-| 🟤 | 🫚 Ginger root, raw | 20 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
-| 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 5 | | local |
+| 🟤 | 🫚 Ginger root, raw | 20 g | 14 | **18 g** | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
+| 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 7 | **20 g** | local |
 | 🟤 | 🥑 Avocado oil | 10 g | 88 | | local |
 | 🟤 | 💧 Water | ~1200 ml | 0 | | — |
 | 🟢 | 🍃 Sweet potato leaves (~180 g leaf + 70 g stem) | 250 g | 105 | | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) |
@@ -41,7 +41,7 @@
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~4.12 kg** | **~2939** | | |
+| | **Total in the file** | **~4.13 kg** | **~2939** | | |
 
 *💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **The 🥥 coconut swap took 278 kcal and 28 g of fat out of the dish.** 200 g of Kara cream at 24.5% fat replaces 270 g of Ayam at 28.5%, so fat falls 124 → 95.9 g and saturated fat 74.5 → 52.5 g. **Coconut is still about half the fat in the dish** — 49 g of the 95.9 g total — but this is a noticeably lighter soup than the one designed, at 75 kcal per 100 g against 80.*
 
@@ -66,7 +66,7 @@
 
 3. 🥑 **Heat the oil.** The fry here is oil and nothing else.
    > ⚠⚠ **This step changed when the coconut changed, and the original version does not work.** The recipe was written around the **Ayam** cream, which carries no gums, separates in the can, and gives a solid top layer to fry in instead of oil. **Kara comes in a carton, and a carton cannot be cracked** — there is no lid to lift and no top layer to scoop, whatever the contents have done. ⚠ UHT cartons are also normally homogenised and usually carry a stabiliser, so it probably does not separate either, but **the Kara ingredient list is not on file** and that part is expectation rather than a read label. Use the 🥑 oil, and the 🥥 Kara goes in as a single addition at step 7.
-4. 🫚 **Ginger, 🧄 garlic and 🪵 15 g galangal paste into the oil.** **Thirty to sixty seconds**, until they smell cooked and the fat takes colour.
+4. 🫚 **Ginger, 🧄 garlic and 🪵 20 g galangal paste into the oil.** **Thirty to sixty seconds**, until they smell cooked and the fat takes colour.
    > ⚠⚠ **The 🌾 lemongrass is deliberately NOT in this step** — it goes into the simmer at step 6. A bruised stalk is rigid and 25 cm long, so it will not sit in the fat, and **the garlic burns long before a leathery stalk gives up anything**. Lemongrass releases its oils with time in hot liquid, not in a 60-second fry. The only version that works in a pan is finely minced tender lower stalk, and that cannot then be removed — which puts the splinters back in the bowl.
    > 🪵 **Galangal goes in here and not late**, and at a quarter of the lemongrass by weight it reads as depth rather than as the lead aromatic. The paste disappears in the blender, unlike the stalks. ⚠⚠ **Lara is flagged on galangal by name** — her profile lists warm aromatics (galangal, cinnamon, cardamom) among her dislikes, not firmly established. **Beetroot is already a first exposure for her, so this is a second unknown on the same rater**: if the dish scores badly, the two causes will not be separable. Pushing past about 30 g would make galangal the lead aromatic, which is a different dish.
 5. 🧅 **Onion in, sweat soft with no colour**, about 15 minutes.
@@ -93,17 +93,17 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam).** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15).** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
 | Energy | **2939** kcal | Potassium | **12185** mg |
 | Protein | **119** g | Calcium | **1776** mg |
-| Fat | **95.9** g | Iron | **34.0** mg |
+| Fat | **96.0** g | Iron | **34.0** mg |
 | — of which saturates | **52.5** g | Magnesium | **900** mg |
 | Carbohydrates | **434** g | Zinc | **10.2** mg |
 | — of which sugars | **158** g | Folate | **1808** µg |
-| Fibre | **98.4** g | Vitamin C | **238** mg |
+| Fibre | **98.5** g | Vitamin C | **238** mg |
 | Salt | **11.3** g | Vitamin K | **1740** µg |
 
 **Per serving at 10:** ~390 g, 294 kcal, 11.9 g protein, 9.8 g fibre. **Energy density ~75 kcal per 100 g.**
@@ -124,7 +124,7 @@
 - **Three body-builders were available and only two are used.** Silken tofu, coconut cream and a cornflour slurry would all thicken this. Tofu and coconut are in; the starch is held back as a decision to make after tasting. **This matters beyond this dish**: remark 49 logs an open, never-run controlled test of whether cornflour adds creaminess on top of coconut-plus-blended-tofu, on a sauce that already has scores. Spending that question inside a brand-new dish with two new vegetables would answer nothing transferable.
 - **Why the greens are at the table and not in the pot.** Simmered greens grey and turn sulfurous, which the Cantonese corn soup established for broccoli. Here there is a second reason: **dark green against magenta is the only strong colour contrast in the dish**, and it is wasted if it is blended in.
 - **Why cauliflower is not in this.** It was in the same delivery and was deliberately left out: it stains pink, and its flavour — bland, faintly sulfurous, slightly sweet — dilutes rather than adds against lemongrass and coconut. It is also the better use of a vegetable that keeps: the Cheesy Roasted Cauliflower Soup produced **Jannes's 8.5, his only score above 8.0 in 21 ratings**, and has never been repeated, so a second cook of it is worth more than a side dish here.
-- **Galangal was added on 2026-11-17, after the first draft, and it is the one aromatic decision that cuts both ways.** It belongs to this profile — galangal, lemongrass and coconut is the standard Thai base, and the 2026-10-06 corn, galangal and coconut soup is logged in `../../docs/TECHNIQUES.md` with Holger's verdict *"a very good soup"*. ⚠ **But it pulls against the job the lemongrass is here to do.** Lemongrass is in this soup to cut beetroot's earthiness with brightness; galangal is piney, resinous and peppery, so against earthy beetroot it reinforces the unfamiliar direction rather than countering it. **15 g rather than 30 g is the whole of the compromise** — present, behind the lemongrass, and small enough that it is not the thing a rater names.
+- **Galangal was added on 2026-11-17, after the first draft, and it is the one aromatic decision that cuts both ways.** It belongs to this profile — galangal, lemongrass and coconut is the standard Thai base, and the 2026-10-06 corn, galangal and coconut soup is logged in `../../docs/TECHNIQUES.md` with Holger's verdict *"a very good soup"*. ⚠ **But it pulls against the job the lemongrass is here to do.** Lemongrass is in this soup to cut beetroot's earthiness with brightness; galangal is piney, resinous and peppery, so against earthy beetroot it reinforces the unfamiliar direction rather than countering it. **15 g rather than 30 g was the whole of the compromise** — present, behind the lemongrass, and small enough that it is not the thing a rater names. ⚠ **As cooked it went in at 20 g**, a third of the lemongrass by weight rather than a quarter. Still subordinate, and still short of the 30 g that would make galangal the lead aromatic, but the margin against Lara's flag is smaller than the design allowed for.
 - ⚠ **Using the paste is a deliberate override of a standing decision.** `PANTRY.md` records that fresh galangal is a wet-market staple in Singapore and that the project should stop reaching for pastes by default. Using up a jar already in the house is a fair reason; it is not a reason to buy the next one.
 - **Considered and rejected:** Homesoy in place of the tofu (curdles against beetroot), simmering the beetroot (keeps the geosmin in the soup), lime in the pot (observation 60), and putting the sweet potato chunks in the pot (anthocyanins shift blue-grey near neutral pH, and they would also break up).
 
