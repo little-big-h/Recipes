@@ -28,7 +28,7 @@
 | 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | | local |
 | 🔴 | 🥥 Coconut cream — **Kara UHT, 200 ml pack**, not Ayam | 270 g | 492 | **200 g** | local ⚠ |
 | 🟤 | 🧅 Onion, sliced | 400 g | 165 | **474 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
-| 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
+| 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | **60 g** *(at plan)* | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | | local |
 | 🟤 | 🧄 Garlic, raw | 40 g | 73 | **49 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟤 | 🫚 Ginger root, raw | 20 g | 14 | **18 g** | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
@@ -93,7 +93,7 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250).** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan).** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
