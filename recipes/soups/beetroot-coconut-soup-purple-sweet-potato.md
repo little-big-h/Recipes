@@ -30,7 +30,7 @@
 | 🟤 | 🧅 Onion, sliced | 400 g | 165 | **474 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
 | 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | | local |
-| 🟤 | 🧄 Garlic, raw | 40 g | 60 | | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
+| 🟤 | 🧄 Garlic, raw | 40 g | 73 | **49 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟤 | 🫚 Ginger root, raw | 20 g | 16 | | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 5 | | local |
 | 🟤 | 🥑 Avocado oil | 10 g | 88 | | local |
@@ -41,7 +41,7 @@
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~4.19 kg** | **~3203** | | |
+| | **Total in the file** | **~4.19 kg** | **~3217** | | |
 
 *💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **Roughly 60% of the fat in this dish is coconut saturated fat** — 270 g of Ayam cream at 25.5% saturated is about 69 g of the 74.5 g total, which is a consequence of using cream rather than a light milk.*
 
@@ -92,20 +92,20 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800).** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40).** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **3203** kcal | Potassium | **11506** mg |
-| Protein | **121** g | Calcium | **1759** mg |
-| Fat | **124** g | Iron | **33.8** mg |
-| — of which saturates | **74.5** g | Magnesium | **898** mg |
-| Carbohydrates | **432** g | Zinc | **10.1** mg |
+| Energy | **3217** kcal | Potassium | **11542** mg |
+| Protein | **122** g | Calcium | **1776** mg |
+| Fat | **124** g | Iron | **34.0** mg |
+| — of which saturates | **74.5** g | Magnesium | **900** mg |
+| Carbohydrates | **435** g | Zinc | **10.2** mg |
 | — of which sugars | **163** g | Folate | **1808** µg |
-| Fibre | **97.8** g | Vitamin C | **235** mg |
+| Fibre | **98.0** g | Vitamin C | **238** mg |
 | Salt | **11.3** g | Vitamin K | **1740** µg |
 
-**Per serving at 10:** ~400 g, 320 kcal, 12.1 g protein, 9.8 g fibre. **Energy density ~80 kcal per 100 g.**
+**Per serving at 10:** ~400 g, 322 kcal, 12.2 g protein, 9.8 g fibre. **Energy density ~80 kcal per 100 g.**
 
 ⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–9 of the 14 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
 
