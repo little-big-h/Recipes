@@ -25,11 +25,11 @@
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
 | 🔴 | 🟣 Beetroot, raw, **unpeeled, scrubbed** | 1200 g | 468 | **1088 g** | [usda](https://fdc.nal.usda.gov/food-details/169145/nutrients) |
 | 🔴 | 🍠 Purple sweet potato, raw, skin on | 800 g | 764 | **858 g** | local |
-| 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | | local |
+| 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | **600 g** *(at plan)* | local |
 | 🔴 | 🥥 Coconut cream — **Kara UHT, 200 ml pack**, not Ayam | 270 g | 492 | **200 g** | local ⚠ |
 | 🟤 | 🧅 Onion, sliced | 400 g | 165 | **474 g** | [usda](https://fdc.nal.usda.gov/food-details/2709795/nutrients) |
 | 🟤 | 🌾 Lemongrass, fresh stalks | 60 g | 59 | **60 g** *(at plan)* | [usda](https://fdc.nal.usda.gov/food-details/168573/nutrients) |
-| 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | | local |
+| 🟤 | 🫘 Taucheo, crushed salted soy beans | 50 g | 54 | **50 g** *(at plan)* | local |
 | 🟤 | 🧄 Garlic, raw | 40 g | 73 | **49 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟤 | 🫚 Ginger root, raw | 20 g | 14 | **18 g** | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 7 | **20 g** | local |
@@ -96,7 +96,7 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan), 🌱 Biogreen seasoning powder 20 g.** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (**5970 g**, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan), 🌱 Biogreen seasoning powder 20 g, 🧈 tofu 600 g and 🫘 taucheo 50 g (both at plan).** ⚠ The 🥑 oil, 🟩 edamame and the roasted 🍠 tray weight are still outstanding.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
@@ -139,6 +139,6 @@
 | 🍠 **Sweet potato raw in → roasted out** *(858 g in)* | Forecast **20.7%, about 680 g out**, on a spread tray. The 10-11 measurement was 17.0% at a heavier load; this is the confirmation at the light end. |
 | 🧅 **Onion peeled in → sweated out** *(474 g in)* | ⚠⚠ **Observation 59 names this as the one loss figure absent from the whole project**, and it has now been skipped on the Zwiebelkuchen twice. 474 g is a small, easy version of the same measurement — weigh the pan before the onion goes in, and again when the liquid has gone. |
 | **Pot before blending → soup after** | ⚠ **This tests a prediction already on file.** The Cantonese corn soup lost 18.7% as a composite, and that row says explicitly that **a stick blender used in the pot should cut it by several points** because nothing is decanted to a jug and back. This cook is the first chance to find out. ⚠⚠ **It was cooked in the Instant Pot, which the method does not mention** — that is where the 5525 g reading was taken. |
-| ⚠⚠ **Pot reading 5525 g — UNRESOLVED** | **Reported 2026-11-17 as "yield in instant pot: 5525".** Gross with the 867 g inner-pot tare gives **4658 g net**; taken as net it is 5525 g. ⚠ **Unlike the 2026-11-09 corn soup, arithmetic cannot settle it here.** That one was provably gross because 4415 g exceeded the total input under every reading. Here the water was never confirmed, and the 🧈 tofu and 🫘 taucheo were not weighed, so **both readings are possible**: net 4658 implies roughly 2300 ml of water, net 5525 implies roughly 3200 ml. **Do not bank a loss figure from this until the reading, the water and the two missing weights are known.** |
+| ✅ **Soup out of the pot: 4658 g** | **5525 g gross in the Instant Pot, less the recorded 867 g inner-pot tare.** Confirmed as a gross reading by Holger, not inferred. ⚠⚠ **No pot-loss figure can be computed from it.** Loss needs the input, the input is mostly water, and the water was not recorded — Holger's call on the night, and it closes this measurement rather than leaving it open. **The prediction it would have tested is still untested**: the Cantonese corn soup row holds that a stick blender used in the pot should cut that 18.7% composite loss by several points, because nothing is decanted to a jug and back. **Record the water next time and this is a one-line calculation.** |
 | **Does the beetroot read as earthy to the children?** | The go/no-go for ever cooking it again, and not a number. |
 | **Does the soup hold its colour to the table?** | Betanin degrades with heat and with holding. If it browns between blending and serving, the fix is a shorter gap, not more beetroot. |
