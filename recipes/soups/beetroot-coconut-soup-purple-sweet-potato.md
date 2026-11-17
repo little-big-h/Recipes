@@ -33,7 +33,7 @@
 | 🟤 | 🧄 Garlic, raw | 40 g | 73 | **49 g** | [usda](https://fdc.nal.usda.gov/food-details/169230/nutrients) |
 | 🟤 | 🫚 Ginger root, raw | 20 g | 14 | **18 g** | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 7 | **20 g** | local |
-| 🟤 | 🌱 Bio green seasoning powder | — | **not costed** | **20 g** | ⚠ none |
+| 🟤 | 🌱 Biogreen Japanese Style Seasoning Powder | — | 48 | **20 g** | local |
 | 🟤 | 🥑 Avocado oil | 10 g | 88 | | local |
 | 🟤 | 💧 Water | ~1200 ml | 0 | | — |
 | 🟢 | 🍃 Sweet potato leaves + stems | 250 g | 160 | **380 g** (200 leaf + 180 stem) | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) ⚠ |
@@ -42,11 +42,11 @@
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~4.19 kg** | **~2978** | | |
+| | **Total in the file** | **~4.21 kg** | **~3026** | | |
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠⚠ **The whole 380 g of 🍃 leaf and stem is costed against USDA `169303` "Sweet potato leaves, raw", because FoodData Central carries no stem or shoot record.** That is a proxy and it runs one way: **the leaf is far denser in micronutrients than the stem, so the folate, vitamin K, vitamin C and iron contributed by this row are overstated** — and here **47% of the row is stem**, against 30% on 2026-11-10, so the overstatement is larger this time. The two cooks are still comparable because both used the same proxy, but a figure from this row is not a leaf figure. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **Two things are deliberately not costed, for the same reason: no label is on file for either, and a guess in the nutrition would be worse than a gap.** The 🦪 **mock abalone** is not in `PANTRY.md`, not in the ingredient map and has never appeared in a recipe. The 🌱 **bio green seasoning powder, 20 g, added on the day**, is likewise unrecorded anywhere in the project. Photograph both packs and both can be folded in.
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠⚠ **The whole 380 g of 🍃 leaf and stem is costed against USDA `169303` "Sweet potato leaves, raw", because FoodData Central carries no stem or shoot record.** That is a proxy and it runs one way: **the leaf is far denser in micronutrients than the stem, so the folate, vitamin K, vitamin C and iron contributed by this row are overstated** — and here **47% of the row is stem**, against 30% on 2026-11-10, so the overstatement is larger this time. The two cooks are still comparable because both used the same proxy, but a figure from this row is not a leaf figure. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is still not costed** — it is not in `PANTRY.md`, not in the ingredient map and has never appeared in a recipe, so a guess in the nutrition would be worse than the gap. Photograph the tin and it can be folded in.
 
-⚠⚠ **The 🌱 powder may be doing part of the 🫘 taucheo's job, and the taucheo had not been weighed when it went in.** A seasoning powder of this kind is commonly a vegetable-and-herb bouillon, which would make it a second savoury source in a soup that already has one. If it carries yeast extract, observation 62 applies — glutamate multiplies rather than adds. **Taste before dosing the taucheo**, not after. ⚠ A herb-forward European seasoning (parsley, celery, lovage) also sits awkwardly against lemongrass, galangal and coconut; whether that matters depends entirely on what is in it. ⚠ **The 🥥 coconut swap took 278 kcal and 28 g of fat out of the dish.** 200 g of Kara cream at 24.5% fat replaces 270 g of Ayam at 28.5%, so fat falls 124 → 95.9 g and saturated fat 74.5 → 52.5 g. **Coconut is still about half the fat in the dish** — 49 g of the 95.9 g total — but this is a noticeably lighter soup than the one designed, at 75 kcal per 100 g against 80.*
+⚠⚠ **The 🌱 Biogreen powder is a dashi analogue, and that changes what the 🫘 taucheo is for.** Its ingredient list is **shiitake mushroom extract, kombu extract, vegetable protein, nutritional yeast, natural spices, sea salt** — shiitake carries guanylate, kombu and the yeast carry glutamate, and **observation 62 holds that those multiply rather than add**. That is three umami sources in one tin, already in the pot. **Taucheo was in this recipe to be the umami in the pot, and that job is now done.** Taste before dosing it, and if it goes in at all, go well below the 50 g planned and add it for its fermented-bean character rather than for savouriness. ⚠ **Dose, for the arithmetic:** the can directs 2 g per litre of water for a soup base, so 20 g in a pot this size is roughly **2.5× the label rate**. ✅ The earlier worry that this might be a European herb blend fighting the lemongrass is void — it is Japanese-style and sits inside the profile. ⚠ **The 🥥 coconut swap took 278 kcal and 28 g of fat out of the dish.** 200 g of Kara cream at 24.5% fat replaces 270 g of Ayam at 28.5%, so fat falls 124 → 95.9 g and saturated fat 74.5 → 52.5 g. **Coconut is still about half the fat in the dish** — 49 g of the 95.9 g total — but this is a noticeably lighter soup than the one designed, at 75 kcal per 100 g against 80.*
 
 ---
 
@@ -96,20 +96,20 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan), 🌱 bio green seasoning powder 20 g.** Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan), 🌱 Biogreen seasoning powder 20 g.** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **2978** kcal | Potassium | **12456** mg |
-| Protein | **120** g | Calcium | **1808** mg |
-| Fat | **96.3** g | Iron | **33.3** mg |
+| Energy | **3026** kcal | Potassium | **12456** mg |
+| Protein | **122** g | Calcium | **1808** mg |
+| Fat | **96.4** g | Iron | **33.3** mg |
 | — of which saturates | **52.5** g | Magnesium | **936** mg |
-| Carbohydrates | **443** g | Zinc | **9.9** mg |
+| Carbohydrates | **452** g | Zinc | **9.9** mg |
 | — of which sugars | **158** g | Folate | **1672** µg |
 | Fibre | **104** g | Vitamin C | **233** mg |
-| Salt | **11.3** g | Vitamin K | **1796** µg |
+| Salt | **15.9** g | Vitamin K | **1796** µg |
 
-**Per serving at 10:** ~400 g, 298 kcal, 12.0 g protein, 10.4 g fibre. **Energy density ~74 kcal per 100 g.**
+**Per serving at 10:** ~400 g, 303 kcal, 12.2 g protein, 10.4 g fibre. **Energy density ~75 kcal per 100 g.**
 
 ⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–9 of the 14 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
 
