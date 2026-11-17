@@ -35,15 +35,15 @@
 | 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 7 | **20 g** | local |
 | 🟤 | 🥑 Avocado oil | 10 g | 88 | | local |
 | 🟤 | 💧 Water | ~1200 ml | 0 | | — |
-| 🟢 | 🍃 Sweet potato **stems** (leaf weight not yet recorded) | 250 g | 76 | **180 g stem** | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) ⚠ |
+| 🟢 | 🍃 Sweet potato leaves + stems | 250 g | 160 | **380 g** (200 leaf + 180 stem) | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) ⚠ |
 | 🟢 | 🟩 Edamame, frozen, shelled | 250 g | 273 | | local |
 | 🟢 | 🥬 Spinach, raw | 200 g | 30 | **130 g** | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~3.99 kg** | **~2894** | | |
+| | **Total in the file** | **~4.19 kg** | **~2978** | | |
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠⚠ **The 🍃 stems are costed against USDA `169303` "Sweet potato leaves, raw", because FoodData Central carries no stem or shoot record.** That is a proxy and it runs one way: **the leaf is far denser in micronutrients than the stem, so the folate, vitamin K, vitamin C and iron contributed by this row are overstated.** It is the same treatment as 2026-11-10, where 182 g of leaf and 77 g of stem were costed together under this record, so at least the two cooks are comparable. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **The 🥥 coconut swap took 278 kcal and 28 g of fat out of the dish.** 200 g of Kara cream at 24.5% fat replaces 270 g of Ayam at 28.5%, so fat falls 124 → 95.9 g and saturated fat 74.5 → 52.5 g. **Coconut is still about half the fat in the dish** — 49 g of the 95.9 g total — but this is a noticeably lighter soup than the one designed, at 75 kcal per 100 g against 80.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠⚠ **The whole 380 g of 🍃 leaf and stem is costed against USDA `169303` "Sweet potato leaves, raw", because FoodData Central carries no stem or shoot record.** That is a proxy and it runs one way: **the leaf is far denser in micronutrients than the stem, so the folate, vitamin K, vitamin C and iron contributed by this row are overstated** — and here **47% of the row is stem**, against 30% on 2026-11-10, so the overstatement is larger this time. The two cooks are still comparable because both used the same proxy, but a figure from this row is not a leaf figure. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **The 🥥 coconut swap took 278 kcal and 28 g of fat out of the dish.** 200 g of Kara cream at 24.5% fat replaces 270 g of Ayam at 28.5%, so fat falls 124 → 95.9 g and saturated fat 74.5 → 52.5 g. **Coconut is still about half the fat in the dish** — 49 g of the 95.9 g total — but this is a noticeably lighter soup than the one designed, at 75 kcal per 100 g against 80.*
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### 4. Table
 
-8. 🍃 **Sweet potato leaves: separate the stems from the leaves.** Stems get a few minutes in the hot soup or a pan, **leaves about thirty seconds**. 🥬 Spinach wilts in the hot bowl on its own.
+8. 🍃 **Sweet potato leaves: separate the stems from the leaves** — as cooked, **200 g leaf and 180 g stem**, so the stems are nearly half of it and the bigger job, not a trimming. Stems get a few minutes in the hot soup or a pan, **leaves about thirty seconds**. 🥬 Spinach wilts in the hot bowl on its own.
 9. 🟩 **Edamame straight from the freezer** — 30 seconds of heat, not cooking.
 10. 🍠 Roasted chunks, 🦪 mock abalone, 🍋 lime wedges and 🍄‍🟫 mushroom seasoning all go on the table, not in the pot.
     > ⚠ **Acid at the table, not in the pot.** Observation 60: four of five took the amchur at the table on 09-11, Lara did not, and she scored at her ceiling. She is flagged against sourness.
@@ -93,20 +93,20 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato stems 180 g.** ⚠ **The 🍃 leaf weight is still missing** and the row above holds stems only. Everything else below is still the plan.
+**Whole recipe, as cooked so far** (~3900 g forecast yield, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250).** Everything else below is still the plan.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **2894** kcal | Potassium | **11440** mg |
-| Protein | **115** g | Calcium | **1652** mg |
-| Fat | **95.3** g | Iron | **31.4** mg |
-| — of which saturates | **52.5** g | Magnesium | **796** mg |
-| Carbohydrates | **425** g | Zinc | **9.9** mg |
+| Energy | **2978** kcal | Potassium | **12456** mg |
+| Protein | **120** g | Calcium | **1808** mg |
+| Fat | **96.3** g | Iron | **33.3** mg |
+| — of which saturates | **52.5** g | Magnesium | **936** mg |
+| Carbohydrates | **443** g | Zinc | **9.9** mg |
 | — of which sugars | **158** g | Folate | **1672** µg |
-| Fibre | **93.3** g | Vitamin C | **211** mg |
-| Salt | **11.3** g | Vitamin K | **1192** µg |
+| Fibre | **104** g | Vitamin C | **233** mg |
+| Salt | **11.3** g | Vitamin K | **1796** µg |
 
-**Per serving at 10:** ~380 g, 289 kcal, 11.5 g protein, 9.3 g fibre. **Energy density ~75 kcal per 100 g.** ⚠ Will rise again once the 🍃 leaves are weighed in.
+**Per serving at 10:** ~400 g, 298 kcal, 12.0 g protein, 10.4 g fibre. **Energy density ~74 kcal per 100 g.**
 
 ⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–9 of the 14 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
 
