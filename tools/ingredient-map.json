@@ -3021,6 +3021,27 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:5C8E1A39-7D42-4B60-9F15-3A6D2C8E4B07": {
+  "barcode": "9300658411892",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Farmers Union",
+  "foodID": "local:5C8E1A39-7D42-4B60-9F15-3A6D2C8E4B07",
+  "name": "Greek Style Yogurt, No Sugar Added (Farmers Union)",
+  "per100": {
+   "calcium": 269.0,
+   "calories": 55.0,
+   "carbs": 4.9,
+   "fat": 0.2,
+   "fatSaturated": 0.1,
+   "fiber": 0.0,
+   "protein": 8.3,
+   "sodium": 59.0,
+   "sugars": 4.9
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:5D2A8C41-6B93-4E07-A1F5-3C8E7D260B94": {
   "barcode": null,
   "baseAmount": 100.0,
