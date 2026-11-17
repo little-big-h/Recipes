@@ -34,15 +34,15 @@
 | 🟤 | 🫚 Ginger root, raw | 20 g | 14 | **18 g** | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🟤 | 🪵 Galangal paste, Sing Long, 100% galangal | 15 g | 7 | **20 g** | local |
 | 🟤 | 🌱 Biogreen Japanese Style Seasoning Powder | — | 48 | **20 g** | local |
-| 🟤 | 🥑 Avocado oil | 10 g | 88 | | local |
+| 🟤 | 🥑 Avocado oil | 10 g | 0 | **none used** | — |
 | 🟤 | 💧 Water | ~1200 ml | 0 | | — |
 | 🟢 | 🍃 Sweet potato leaves + stems | 250 g | 160 | **380 g** (200 leaf + 180 stem) | [usda](https://fdc.nal.usda.gov/food-details/169303/nutrients) ⚠ |
-| 🟢 | 🟩 Edamame, frozen, shelled | 250 g | 273 | | local |
+| 🟢 | 🟩 Edamame, frozen, shelled | 250 g | 273 | **250 g** *(at plan)* | local |
 | 🟢 | 🥬 Spinach, raw | 200 g | 30 | **130 g** | [usda](https://fdc.nal.usda.gov/food-details/168462/nutrients) |
 | 🟢 | 🍋 Lime wedges | at the table | — | | — |
 | 🟢 | 🍄‍🟫 Mushroom seasoning, LKK | at the table | — | | — |
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
-| | **Total in the file** | **~4.21 kg** | **~3026** | | |
+| | **Total in the file** | **~4.20 kg** | **~2937** | | |
 
 *💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠⚠ **The whole 380 g of 🍃 leaf and stem is costed against USDA `169303` "Sweet potato leaves, raw", because FoodData Central carries no stem or shoot record.** That is a proxy and it runs one way: **the leaf is far denser in micronutrients than the stem, so the folate, vitamin K, vitamin C and iron contributed by this row are overstated** — and here **47% of the row is stem**, against 30% on 2026-11-10, so the overstatement is larger this time. The two cooks are still comparable because both used the same proxy, but a figure from this row is not a leaf figure. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is still not costed** — it is not in `PANTRY.md`, not in the ingredient map and has never appeared in a recipe, so a guess in the nutrition would be worse than the gap. Photograph the tin and it can be folded in.
 
@@ -68,6 +68,7 @@
 ### 2. Pot — aromatics
 
 3. 🥑 **Heat the oil.** The fry here is oil and nothing else.
+   > ⚠⚠ **AS COOKED THERE WAS NO OIL AT ALL — not this step, not anywhere in the dish.** The only fat in the finished soup is the 🥥 coconut cream and what the 🧈 tofu and 🟩 edamame bring, so the whole 86.4 g is intrinsic. ⚠ **The consequence to watch is extraction, not calories.** 🪵 Galangal and the spices are largely fat-soluble, and a dry pan pulls less out of them than oil does. The coconut cream arriving later and the simmer recover some of it into the liquid, but if the galangal reads weaker than 20 g suggests it should, this is the reason rather than the dose.
    > ⚠⚠ **This step changed when the coconut changed, and the original version does not work.** The recipe was written around the **Ayam** cream, which carries no gums, separates in the can, and gives a solid top layer to fry in instead of oil. **Kara comes in a carton, and a carton cannot be cracked** — there is no lid to lift and no top layer to scoop, whatever the contents have done. ⚠ UHT cartons are also normally homogenised and usually carry a stabiliser, so it probably does not separate either, but **the Kara ingredient list is not on file** and that part is expectation rather than a read label. Use the 🥑 oil, and the 🥥 Kara goes in as a single addition at step 7.
 4. 🫚 **Ginger, 🧄 garlic and 🪵 20 g galangal paste into the oil.** **Thirty to sixty seconds**, until they smell cooked and the fat takes colour.
    > ⚠⚠ **The 🌾 lemongrass is deliberately NOT in this step** — it goes into the simmer at step 6. A bruised stalk is rigid and 25 cm long, so it will not sit in the fat, and **the garlic burns long before a leathery stalk gives up anything**. Lemongrass releases its oils with time in hot liquid, not in a 60-second fry. The only version that works in a pan is finely minced tender lower stalk, and that cannot then be removed — which puts the splinters back in the bowl.
@@ -96,20 +97,20 @@
 
 ## Nutrition
 
-**Whole recipe, as cooked so far** (**5970 g**, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan), 🌱 Biogreen seasoning powder 20 g, 🧈 tofu 600 g and 🫘 taucheo 50 g (both at plan).** ⚠ The 🥑 oil, 🟩 edamame and the roasted 🍠 tray weight are still outstanding.
+**Whole recipe, as cooked so far** (**5970 g**, 10 servings). ⚠ **Weighed so far: 🟣 beetroot 1088 g (planned 1200), 🧅 onion 474 g (planned 400), 🍠 purple sweet potato 858 g (planned 800), 🧄 garlic 49 g (planned 40), 🥥 coconut cream 200 g of Kara (planned 270 g of Ayam), 🫚 ginger 18 g (planned 20), 🪵 galangal 20 g (planned 15), 🥬 spinach 130 g (planned 200), 🍃 sweet potato leaves 200 g + stems 180 g = 380 g (planned 250), 🌾 lemongrass 60 g (at plan), 🌱 Biogreen seasoning powder 20 g, 🧈 tofu 600 g and 🫘 taucheo 50 g (both at plan).** 🟩 edamame 250 g (at plan), and **🥑 no oil at all**. ⚠ Only the roasted 🍠 tray weight is still outstanding.
 
 | Macro | Total | Micro | Total |
 |:------|------:|:------|------:|
-| Energy | **3026** kcal | Potassium | **12456** mg |
+| Energy | **2937** kcal | Potassium | **12456** mg |
 | Protein | **122** g | Calcium | **1808** mg |
-| Fat | **96.4** g | Iron | **33.3** mg |
-| — of which saturates | **52.5** g | Magnesium | **936** mg |
+| Fat | **86.4** g | Iron | **33.3** mg |
+| — of which saturates | **51.5** g | Magnesium | **936** mg |
 | Carbohydrates | **452** g | Zinc | **9.9** mg |
 | — of which sugars | **158** g | Folate | **1672** µg |
 | Fibre | **104** g | Vitamin C | **233** mg |
 | Salt | **15.9** g | Vitamin K | **1796** µg |
 
-**Per serving at 10:** ~400 g, 303 kcal, 12.2 g protein, 10.4 g fibre. **Energy density ~75 kcal per 100 g.**
+**Per serving at 10:** ~597 g, 294 kcal, 12.2 g protein, 10.4 g fibre. **Energy density ~49 kcal per 100 g** against the 5970 g served.
 
 ⚠ **Several micronutrient totals are floors, not totals** — folate, vitamin K and pantothenic acid come from 7–9 of the 14 rows, because the label-derived entries (taucheo, coconut cream, silken tofu, edamame) declare no micronutrients. The potassium, calcium, iron and magnesium figures are the better-covered ones.
 
