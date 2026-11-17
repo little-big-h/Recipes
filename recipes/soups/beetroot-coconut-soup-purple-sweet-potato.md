@@ -23,7 +23,7 @@
 
 | Type | Ingredient | Planned | Est. kcal | Actual used | USDA |
 |:----:|:-----------|:-------:|--------:|:-----------:|:----:|
-| 🔴 | 🟣 Beetroot, raw, peeled | 1200 g | 468 | **1088 g** | [usda](https://fdc.nal.usda.gov/food-details/169145/nutrients) |
+| 🔴 | 🟣 Beetroot, raw, **unpeeled, scrubbed** | 1200 g | 468 | **1088 g** | [usda](https://fdc.nal.usda.gov/food-details/169145/nutrients) |
 | 🔴 | 🍠 Purple sweet potato, raw, skin on | 800 g | 712 | | local |
 | 🔴 | 🧈 Silken tofu, Fortune DHA | 600 g | 342 | | local |
 | 🔴 | 🥥 Coconut cream, Ayam 270 ml can | 270 g | 770 | | local |
@@ -43,7 +43,7 @@
 | 🟢 | 🦪 Mock abalone, pre-braised seitan | at the table | **not costed** | | ⚠ none |
 | | **Total in the file** | **~4.05 kg** | **~3125** | | |
 
-*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **Roughly 60% of the fat in this dish is coconut saturated fat** — 270 g of Ayam cream at 25.5% saturated is about 69 g of the 74.5 g total, which is a consequence of using cream rather than a light milk.*
+*💧 Water carries no nutrients and is not in the `.foodnoms` file. ⚠ **The 🟣 beetroot went in unpeeled and is costed against USDA `169145` "Beets, raw", which is the peeled edible portion — no skin-on beet record exists in FoodData Central.** Beetroot skin is thin, a few percent of a scrubbed root, and compositionally close to the flesh, so the error is small and in one direction: **the fibre and mineral figures are slightly low.** Not worth building a record for, unlike the sweet potatoes, where the project does carry skin-on entries because the skin is a meaningful fraction. ⚠ **The 🦪 mock abalone is deliberately not costed** — it is not in `PANTRY.md`, not in the ingredient map and has no label on file, so putting a guess in the nutrition would be worse than leaving it out. Photograph the tin and it can be added. ⚠ **Roughly 60% of the fat in this dish is coconut saturated fat** — 270 g of Ayam cream at 25.5% saturated is about 69 g of the 74.5 g total, which is a consequence of using cream rather than a light milk.*
 
 ---
 
@@ -57,7 +57,7 @@
 
 ### 1. Oven — two trays
 
-1. 🟣 **Peel and cut the beetroot into 2–3 cm pieces. Roast at 200 °C fan, about 70 minutes**, until a knife goes through without resistance. Oil is optional here; the beetroot is going into a blender, so surface browning matters less than the water leaving.
+1. 🟣 **Scrub and cut the beetroot into 2–3 cm pieces, skin on.** Roast at 200 °C fan, about 70 minutes**, until a knife goes through without resistance. Oil is optional here; the beetroot is going into a blender, so surface browning matters less than the water leaving.
    > ⚠ **No beetroot roasting-loss figure exists in this project.** Weigh the tray in and out — see Weigh-ins below.
 2. 🍠 **Purple sweet potato on the second tray, skin on, 2–3 cm**, in about 20 minutes later so the two come out together. **Spread, not crowded** — the browned edges are the only visual definition the chunks will have.
    > **Forecast from the measured relationship:** loss% ≈ 24.6 − 0.0046 × tray load in g. 800 g on one tray predicts about **21%**, so expect roughly **630 g** of chunks. The measured purple-sweet-potato figure of 10-11 was 17.0% at a heavier load.
@@ -131,7 +131,7 @@
 
 | Measurement | Why |
 |:------------|:----|
-| 🟣 **Beetroot raw in → roasted out** *(1088 g in)* | ⚠⚠ **Some of the roots were soft from storage, which puts the figure at risk.** A dehydrated beetroot has already lost part of the water the measurement is meant to capture, so a tray mixing soft and fresh roots gives a number representing neither. **Record roughly what fraction was soft, or the figure goes down as unusable rather than being banked as misleading.** ⚠⚠ **No beetroot roasting figure exists anywhere in this project.** It is also a fourth vegetable for the tray-load relationship, which so far rests on butternut and sweet potato only — a beetroot point is the first test of whether loss% ≈ 24.6 − 0.0046 × load transfers beyond those two. |
+| 🟣 **Beetroot raw in → roasted out** *(1088 g in, unpeeled)* | ⚠⚠ **Whatever number this gives is a SKIN-ON figure and must be recorded as one.** Skin is a barrier to water leaving, so an unpeeled tray loses less than a peeled one and the two are not interchangeable. ⚠⚠ **Some of the roots were also soft from storage, which puts the figure at further risk.** A dehydrated beetroot has already lost part of the water the measurement is meant to capture, so a tray mixing soft and fresh roots gives a number representing neither. **Record roughly what fraction was soft, or the figure goes down as unusable rather than being banked as misleading.** ⚠⚠ **No beetroot roasting figure exists anywhere in this project.** It is also a fourth vegetable for the tray-load relationship, which so far rests on butternut and sweet potato only — a beetroot point is the first test of whether loss% ≈ 24.6 − 0.0046 × load transfers beyond those two. |
 | 🍠 **Sweet potato raw in → roasted out** | Forecast ~21% at 800 g on a spread tray. The 10-11 measurement was 17.0% at a heavier load; this is the confirmation at the light end. |
 | 🧅 **Onion peeled in → sweated out** | ⚠⚠ **Observation 59 names this as the one loss figure absent from the whole project**, and it has now been skipped on the Zwiebelkuchen twice. 400 g is a small, easy version of the same measurement. |
 | **Pot before blending → soup after** | ⚠ **This tests a prediction already on file.** The Cantonese corn soup lost 18.7% as a composite, and that row says explicitly that **a stick blender used in the pot should cut it by several points** because nothing is decanted to a jug and back. This cook is the first chance to find out. |
