@@ -54,8 +54,24 @@ From the **Ingredients** table, for each row capture `{name, amount, unit}`:
 - **Exclusions** — items with `Est. kcal` of `—`, or marked `(garnish)` /
   `(at table)`, are at-table extras: **omit** them from both the `.foodnoms`
   entries and the totals (per `FOODNOMS_FORMAT.md` §6 "omit, don't zero").
-- **Removed-before-serving** items (e.g. kombu): include at their small leached
-  contribution if the recipe gives one, else omit. Mirror the recipe's intent.
+- **Removed-before-serving** items (e.g. kombu, lemongrass stalks, makrut
+  leaves, bruised ginger, bay, whole spices fished out): include at their small
+  leached contribution if the recipe gives one, **else omit**. Mirror the
+  recipe's intent.
+  - **Keep the ingredient row** in the recipe's table, with `—` in the kcal
+    column and *(removed before serving)* after the name, so the dish still
+    records what went in. The exclusion is from the totals, not from the record.
+  - ⚠ **The test is eaten / not eaten, not where it is served.** Components
+    handed round at the table that people actually eat — edamame, wilted
+    greens, roasted chunks, pickles — are **included in full**. Only genuine
+    garnishes carrying `—` / *(garnish)* are excluded.
+  - ⚠⚠ **This rule was broken on 2026-11-18** (Beetroot & Coconut Soup): 60 g of
+    lemongrass was costed at full weight although the method fishes the stalks
+    out. The energy error was 59 kcal and trivial; **the iron error was 4.9 mg,
+    15% of the dish's figure**, because lemongrass is iron-dense at 8.17 mg per
+    100 g. **A removed aromatic can be a rounding error on energy and a serious
+    error on micronutrients at the same time** — do not judge the size of the
+    mistake by the calories. Promoted to a hard rule in `CLAUDE.md`.
 
 ---
 
