@@ -281,7 +281,37 @@ needs all of it.
 | 🥬 Brussels sprouts | halved | **80%** | 50 s | 1:30 | 2:20 | 3:10 |
 | 🎃 Butternut | 2 cm | **80%** | 50 s | 1:40 | 2:40 | 3:40 |
 | 🍠 Sweet potato | 2 cm | **70%** | 57 s | 2:05 | 3:20 | 4:35 |
+| 🍠 Sweet potato, **slices** ⚠ | 8 mm | **80%** | 50 s | 1:13 | 1:39 | **2:05** |
 | 🥔 Potato | 2 cm | **70%** | 57 s | 2:10 | 3:40 | 5:05 |
+
+⚠ **The 🍠 sliced row is PROVISIONAL and is the only row with any measurement behind it.**
+Everything else in this table is derived from the model. The slice row came from one trial on
+2026-11-18: **38 g of 8 mm slices, covered, 40 s at 80%, judged slightly under by Holger.**
+That bounds the answer from below at **more than 1:45 per 100 g** and nothing more; **2:05 is
+40 s plus 20%, extrapolated, not a measured figure.** ⚠ The trial also ran at **38 g, well
+below the 80 g floor** the scaling rules set, so its evenness cannot be trusted even if its
+timing can. **Confirm on a batch of 150–400 g and replace these numbers.**
+
+⚠⚠ **The slice row is not a substitute for the 2 cm row — the geometry is the whole
+difference.** Phase 1 is identical per 100 g, because it is the energy to bring the water to
+100 °C and depends on mass alone. **Phase 2 is where the thickness pays**: conduction to the
+centre scales roughly with the square of the half-thickness, so 8 mm against 20 mm is about
+0.16 of the conduction time. It does not fall that far in practice, because part of phase 2
+is pectin solubilising, which is time-at-temperature and shrinks with neither thickness nor
+power. **Phase 2 drops from 3:38 to roughly 1:15, not to 0:35.**
+
+✅ **The slice row runs at 80% where the 2 cm row runs at 70%**, and the reason is the same
+mechanism read backwards: the dense rows drop the power because at full power a 2 cm cube is
+mush outside before the middle is done. **A thin slice barely has an outside and an inside**,
+so the penalty for higher power nearly disappears and the shorter phase 1 is worth taking.
+
+⚠ **Why the slices are microwaved COVERED even though the goal is a dry surface.** A
+microwave heats volumetrically and drives moisture outward from the centre, so cooking
+uncovered dehydrates the body of the slice rather than its face, and gives something leathery
+throughout. It also costs time: every gram evaporated takes 2.26 kJ, about 3 s of delivered
+power at 80%, so an uncovered 100 g batch losing ~8 g instead of ~1.5 g pays roughly **20 s
+extra per 100 g**. **The surface drying belongs in the 1–2 minute stand afterwards, uncovered
+on a rack**, where only the exposed face loses water and the interior keeps it.
 
 ⚠ **Why the dense items drop to 70–80%, given phase 2 is power-independent.** Lowering the
 power costs nothing on the part of the cook that is limited by conduction to the centre,
