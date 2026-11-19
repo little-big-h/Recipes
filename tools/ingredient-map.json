@@ -2650,6 +2650,25 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:4A9E6C13-7B52-4D08-9F36-2C8A1E5B7D40": {
+  "barcode": null,
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Malouf's Spice Mezza",
+  "foodID": "local:4A9E6C13-7B52-4D08-9F36-2C8A1E5B7D40",
+  "name": "Red Harissa, 260 g jar (Malouf's Spice Mezza)",
+  "per100": {
+   "calories": 178.8,
+   "carbs": 4.7,
+   "fat": 16.4,
+   "fatSaturated": 2.2,
+   "protein": 2.1,
+   "sodium": 8.0,
+   "sugars": 4.4
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:4B2D7E58-9C31-4A06-BF74-1E8A5D3C9026": {
   "baseAmount": 100.0,
   "baseUnit": "gram",

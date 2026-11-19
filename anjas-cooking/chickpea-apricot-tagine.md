@@ -19,12 +19,12 @@
 | 🧄 Garlic | 45 g | 64 | [usda](https://fdc.nal.usda.gov/food-details/2709786/nutrients) |
 | 🫚 Ginger | 27 g | 22 | [usda](https://fdc.nal.usda.gov/food-details/169231/nutrients) |
 | 🥑 Avocado oil | 15 g | 133 | local |
-| 🌶️ Harissa (2 tsp) | 10 g | 10 | local |
+| 🌶️ Harissa — **Malouf’s Red Harissa** | 10 g | 18 | local |
 | 🌻 Turmeric, ground (2 tsp) | 6 g | 19 | [usda](https://fdc.nal.usda.gov/food-details/172231/nutrients) |
 | 🌰 Cumin, ground (2 tsp) | 4 g | 15 | [usda](https://fdc.nal.usda.gov/food-details/170923/nutrients) ⚠ |
 | 🌿 Coriander, ground (2 tsp) | 3 g | 9 | [usda](https://fdc.nal.usda.gov/food-details/170922/nutrients) ⚠ |
 | 🧂 Salt | 2 g | 0 | [usda](https://fdc.nal.usda.gov/food-details/173468/nutrients) |
-| **Cooked yield** | **3287 g** | **2325** | net of the pot |
+| **Cooked yield** | **3287 g** | **2333** | net of the pot |
 
 **3859 g in → 3287 g out, a 14.8% loss.** Straightforward open-pot evaporation — there is nothing composite about it, no decanting and no second vessel, which makes it the cleanest simmer-loss figure on file.
 
@@ -57,10 +57,10 @@
 | | Tagine | Millet | Together on a plate |
 |:--|--:|--:|--:|
 | Yield | 3287 g | 1075 g | 4362 g |
-| Energy | 2325 kcal | 1512 kcal | 3837 kcal |
-| Protein | 95.8 g | 44.1 g | 140 g |
-| Fat | 44.6 g | 16.9 g | 61.5 g |
-| Carbohydrate | 424 g | 291 g | 715 g |
+| Energy | 2333 kcal | 1512 kcal | 3845 kcal |
+| Protein | 95.6 g | 44.1 g | 140 g |
+| Fat | 45.7 g | 16.9 g | 62.6 g |
+| Carbohydrate | 423 g | 291 g | 714 g |
 | Fibre | **107 g** | 34 g | **141 g** |
 | Potassium | 9237 mg | 780 mg | 10017 mg |
 | Calcium | 1345 mg | — | 1345 mg |
@@ -91,4 +91,4 @@
 - ⚠ **The tomato brand is assumed, not confirmed.** Costed against the **Cirio** canned tomato record, on the precedent of Anja's zucchini curry of 2026-07-21. 4 × 400 g cans. If it was a different tin the energy will move by a few percent and nothing else materially.
 - ⚠ **Ground cumin and ground coriander are costed against whole seed records** — FoodData Central has no ground entry for either. Grinding does not change composition, so the only error is whatever moisture the ground product has lost, which at 4 g and 3 g is immaterial.
 - ⚠ **The spinach went in as 75 g of leaf and 74 g of stem, weighed separately, and is costed entirely against the raw leaf record.** The stem is roughly half of it. Same proxy, and the same direction of error, as the sweet potato greens in the beetroot soup: **the leaf is denser in micronutrients than the stem, so folate, vitamin K and iron from this row read high.**
-- **Harissa** is The SOS Kitchen jar from `../docs/PANTRY.md`.
+- ✅ **The harissa is identified and corrected.** It is **Malouf’s Spice Mezza Red Harissa**, confirmed by photograph on 2026-11-19, **not** The SOS Kitchen jar this was first costed against. ⚠⚠ **The two are not interchangeable**: 16.4 g of fat per 100 g against 4.7, and 4.7 g of carbohydrate against 17.65. At the 10 g dose here it moves the tagine by 8 kcal and nothing else that matters, but a recipe using harissa by the spoonful would be badly wrong with the other record.
