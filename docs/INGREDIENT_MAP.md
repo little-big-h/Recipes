@@ -139,3 +139,25 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | White Miso | `local:0CF95E20-08C5-4FFF-B889-E25F0B144CF9` | gram | 190.0 | local |
 | Yellow Curry Paste | `foodnoms:fn:8c5c376f-dd7e-4d72-9394-2ccad763aaa4` | gram | 153.0 | fn |
 | Yellow Onion (Raw) | `foodnoms:usda:790646` | gram | 38.0 | [usda](https://fdc.nal.usda.gov/food-details/790646/nutrients) |
+
+---
+
+## ⚠⚠ Three entries carry impossible per-100 g energies — found 2026-11-19, NOT yet corrected
+
+Audited while costing Anja's tagine. These three rows declare a per-100 g energy that no food can have:
+
+| Entry | Declared per 100 g | Plausible value | Key |
+|:--|--:|--:|:--|
+| Ground Cumin | **2600 kcal** | ~375 kcal | `foodnoms:openai:1a2ce535-…` |
+| Garlic Powder | **1800 kcal** | ~331 kcal | `foodnoms:openai:c12d3878-…` |
+| Sesame Seeds (garnish) | **5200 kcal** | ~573 kcal | `local:6C8317A7-…` |
+
+Pure fat is 900 kcal per 100 g, so **every one of these is above the physical ceiling** and cannot be a rounding or convention problem.
+
+✅ **No shipped file is affected.** All three were checked against `examples/` on 2026-11-19 and **none appears in any built `.foodnoms`**, so no recipe total currently carries the error. They are latent traps, not live damage.
+
+⚠ **The overstatement is not a consistent factor** — 6.9×, 5.4× and 9.1× respectively — so this is not one scaling bug with one fix. All three share `baseAmount: 1`, which is the thing they have in common and the place to start looking.
+
+⚠ **Left uncorrected deliberately.** Rewriting three provenance-bearing entries is Holger's call, not a unilateral fix, and the right replacement values should come from USDA records rather than from arithmetic on the wrong ones. **Until then, do not use these three refs — resolve cumin, garlic powder and sesame to USDA directly.** Anja's tagine did exactly that, costing its ground cumin against `170923` (Spices, cumin seed).
+
+**A cheap guard worth adding to `tools/js`:** reject any `per100.calories` above about 900 at build time. It would have caught all three the first time one was used.
