@@ -42,7 +42,11 @@
 
 **2070 g in the 3 L pot less its 995 g tare.** Same arithmetic check: 2070 g exceeds the 1240 g of input, so the reading must be gross.
 
-⚠⚠ **The yield is lower than the input, and that is the interesting number.** 1240 g went in and 1075 g came out — **165 g lost, 13.3%** — which for a grain cooked in a covered pot would be high. **Millet absorbs water, it does not shed it**, so this is evaporation from an open or loosely-covered simmer, not something the grain did. ⚠ **Water ratio was 2.1 : 1**, which is low for millet; the usual is 2.5 : 1 and higher. **Final hydration is 2.69× the dry weight**, against the project's kasha figures of 2.53× at 1.75 : 1 and 3.11× at 2.43 : 1 — so millet at this ratio sits close to buckwheat's retention curve.
+⚠⚠ **The yield is lower than the input, and that is the interesting number.** 1240 g went in and 1075 g came out — **165 g lost, 13.3%** — which for a grain cooked in a covered pot would be high. **Millet absorbs water, it does not shed it**, so this is evaporation from an open or loosely-covered simmer, not something the grain did. ⚠ **Water ratio was 2.1 : 1**, which is low for millet; the usual is 2.5 : 1 and higher. **Final hydration is 2.69× the dry weight.**
+
+⚠⚠ **The texture was poor, and the cause was the grain, not the cooking. Anja identified it as glutinous (waxy) millet.** A waxy grain is essentially pure amylopectin with no amylose — and **amylose is what makes grains set firm and separate as they cool**. So a waxy millet is physically incapable of cooking up fluffy, at any water ratio, in any vessel. ⚠ **"Glutinous" means glue-like, not gluten**; millet is gluten-free in every variety. **The tell on a packet is the character 糸 — 糯 (nuò)** — which marks any waxy grain, along with the labels **黄米 / 大黄米** and **糯小米**, against plain **小米** (foxtail millet) for the ordinary kind.
+
+**Use the rest of the packet where stickiness is the point** — steamed cakes, northern-style zongzi, a thick congee, or blended at about one part in four or five with a non-waxy grain for body. **For a pilaf-style side, buy foxtail or proso millet instead.** ⚠ **This also means the hydration figure above does not generalise to millet**, and it is flagged as such in `../docs/TECHNIQUES.md`.
 
 ---
 

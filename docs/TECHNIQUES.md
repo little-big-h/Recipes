@@ -112,6 +112,7 @@ pot and subtracting its tare.
 | **Black-eyed peas, stovetop, pulled for bite** | **1.81×** | 100 g → 181 g (2026-10-08). ⚠ **Not a general figure — see the note below.** |
 | Chickpeas, pressure-cooked from dry | **2.07×** | measured 2026-09; confirmed 2026-09-24, 250 g → 518 g (503 g weighed plus 15 g eaten) |
 | **Kidney beans, soaked ~5 h then 8 min HP, natural release, pulled for chew** | **2.31×** | 305 g → 706 g (2026-10-15). ⚠ **A for-chew figure, like the black-eyed peas.** |
+| **Millet, GLUTINOUS (waxy) ⚠⚠, open-simmered at 2.1 : 1** | **2.69×** | 400 g → 1075 g (2026-11-19; 2070 g gross in the IKEA 3 L pot, tare 995 g). ⚠⚠ **Do NOT read this as a millet figure.** The grain was a **waxy variety**, essentially pure amylopectin with no amylose, which absorbs and holds water differently from ordinary foxtail or proso millet. It also lost **165 g, 13.3%, to evaporation** — the pot was not sealed, so the grain received about **1.69 : 1**, not the 2.1 : 1 put in. **Two reasons this row cannot forecast a normal millet cook.** |
 | **Buckwheat (kasha), pressure-cooked by absorption, 0 min low pressure + 10-min defined release** | **2.53×** | 250 g → 633 g (2026-10-20; 1500 g gross in the Instant Pot inner pot, tare 867 g). ⚠ **Water-limited, not doneness-limited — see the note below.** |
 
 ⚠ **A yield ratio is a hydration figure, so cooking for bite lowers it — a lot.** The
