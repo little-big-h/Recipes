@@ -107,12 +107,49 @@ Amounts per single serving, in **grams unless noted** (ml for liquids; *pc* = wh
 
 1. **Spice preparation** per profile (often the night before for soaked components)
 2. **Bloom aromatics** in oil 30–60 sec
-3. **Bloom ground spices and pastes** 30–60 sec
+3. **Bloom ground spices and pastes** 30–60 sec — **and liquid smoke, where used; see the section below**
 4. **Deglaze with the hand-crushed canned tomatoes + any pre-soaked components**
 5. **Wilt spinach** 1–2 min
 6. **Salt the sauce** to taste here — once the eggs are in you can't adjust it
 7. **Eggs — streaked, not poached on top** (Holger's house method): crack the eggs onto the simmering sauce, let them set **undisturbed ~2 min**, then **fold gently once or twice to pull streaks** through the sauce. Take it **off the heat while still soft** — carryover finishes them; if they look done in the pan they'll be rubbery. Fold, don't scramble: ribbons of set white/yolk through the red, not a uniform scramble. *This egg step is the constant across every shakshuka profile below — where an older profile sketch still reads "eggs in wells / cover," follow this instead. (The **sauerkraut hash**, Structure 2, is the exception: its eggs are genuinely poached on top.)*
 8. **Finish** per profile (herbs, sprinkles, at-table options)
+
+### Liquid smoke — goes in at step 3, not at the table
+
+**Holger began using it at the table as a finishing seasoning. For a single-serving dish it
+belongs in the pan instead, with the ground spices and pastes.** Recorded 2026-11-20.
+
+- ✅ **The phenols are fat-soluble.** Guaiacol and syringol are what the flavour actually is,
+  and they disperse through oil far better than through water. In at step 3 they end up
+  distributed through the sauce; applied to the finished dish they stay where the drop landed,
+  which is why neat liquid smoke reads as one very smoky mouthful and nothing else.
+- ✅ **A simmer costs less than the "aromatics late" reflex suggests.** **Guaiacol boils at
+  205 °C and syringol at 261 °C** — these are not volatile top notes like lemongrass or makrut
+  that a simmer strips out. Some is lost by steam over a long cook; most is not.
+- ✅ **Cooking it in also loses the raw chemical edge.** Smoke condensate carries acetic and
+  formic acid and most liquid smokes sit around **pH 2.5–3**, so a drop applied neat delivers
+  acid and smoke in the same instant. In a tomato base the acidity is irrelevant — the dish is
+  already acidic — and the phenols arrive without it.
+- ✅ **It suits this dish's profile.** Smoke against tomato and cumin is coherent: it builds a
+  **smoked-paprika character without the smoked paprika**, with the dose under control rather
+  than fixed by a jar.
+
+**→ Dose low in the pan and keep the bottle on the table.** Early addition is the one thing
+that cannot be walked back, so put in less than seems right and correct in the bowl. For a
+solo meal that costs nothing and gives both the integration and the control.
+
+⚠ **One case where it does NOT go in early: anything built on soya milk.** At pH 2.5–3 against
+soy protein flocculating near 4.5, it curdles. Off the heat at the end, or in the bowl — the
+same rule as every other acid in this kitchen. Does not apply to the tomato-based profiles.
+
+⚠⚠ **This is a single-serving rule and it does not transfer to the family table.** **Lara is
+flagged against smoke** — observation 17 reads her aversion to smoked paprika as being to the
+*smoke* rather than the paprika, with sweet paprika well tolerated. If a stew built this way
+ever goes to the family table, the smoke has to come back out of the pot and go beside it.
+
+⚠ **No liquid smoke product is recorded in `../docs/PANTRY.md`** — no brand, no label, no
+ingredient list. Worth a photograph: formulations vary, and some carry molasses, caramel or
+added vinegar that change how they behave.
 
 > **Tomato base — whole canned tomatoes (the standard).** Holger no longer uses passata; every profile's base is now a **400 g tin of whole peeled tomatoes, hand-crushed** (juice included) — riper fruit than passata, no calcium-chloride firming agent, melts silkier. Canonical tin: **[BWFO Organic Whole Peeled Tomatoes](https://www.buywholefoodsonline.co.uk/organic-whole-peeled-tomatoes.html)** — label **19 kcal/100 g = 76 kcal/400 g** (0.1 g fat, 3 g carb (3 g sugars), 0.9 g fibre, 1.1 g protein, salt 0.1 g); micros estimated from USDA canned-tomato generic 170138. (Older per-cook nutrition blocks below may cite whatever tin they used at the time — e.g. a 19 kcal "chopped" record or a 100 kcal/400 g standard; new builds use this one.) Simmer to thicken — but because the eggs are **stirred through** (not poached on top) the base only needs to be *not-watery*, **not jammy**; over-reduced base + set egg goes dry. The acid-stall rule still applies (keep tomatoes out of any bean/grain cook-water); a longer simmer + the umami finish (miso/aminos/nooch per profile) tames the brighter acidity of fresh-tasting whole tomatoes.
 
