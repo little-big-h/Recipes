@@ -1046,7 +1046,56 @@ run on 2–5 g of oil.
 | Method | When | Settings |
 |:--|:--|:--|
 | **Oven** | family quantity, side dish | **220 °C, single layer, gills up, 20–25 min**, turn once |
-| **Wok** | stir-fry component, or anything frozen | highest heat, in batches of ~200 g |
+| **Wok** | stir-fry component, or anything frozen | **See the method below — the old entry said "highest heat" and that was wrong for the first half of the cook.** ~200 g batches |
+
+#### The wok method, as converged on by Holger 2026-11-20
+
+**Supersedes the old "highest heat" instruction, which was wrong for the first half of the
+cook: maximum heat widens the gap between how fast the contact face climbs and how fast the
+interior reaches water-release temperature, so the bottom layer scorches while the pile above
+it is still cold.**
+
+1. **~200 g in the microwave at 80%, covered, until just warm — 40–50 °C**, below the point
+   where meaningful water release begins. About **1:00 from the fridge**, less from room
+   temperature. Stir once.
+2. **Into the wok, lid on, until they start to shed water.**
+3. **Lid off until dry. Stir and scrape, then push the mushrooms up the sides and let the
+   liquid pool and boil in the hot centre.**
+4. **Once dry, spray with about 1 g of oil** and fry to the colour wanted.
+5. Optional: a starch or protein component in here — sweet potato, tofu, parboiled beans.
+6. **Soy sauce**, then **a little Chinkiang black vinegar**, then cook until done.
+7. **At the table: chilli sauce, Sichuan pepper, apple cider vinegar.**
+
+✅✅ **The microwave step is what makes the wok the right pan.** A wok concentrates heat in a
+small base, which is the worst possible shape for heating a pile evenly — so for the
+release phase it is a bad tool. **Doing that phase in the microwave removes the objection
+entirely**, and leaves the wok doing only the two things its geometry is good at: boiling a
+small pool hard in the centre, and searing.
+
+✅ **Pushing the mushrooms up the sides is the point of step 3.** It puts a small deep pool on
+the hottest part of the pan — maximum evaporation rate — while holding the mushrooms out of
+their own boiling liquid, where they would steam.
+
+✅ **Stopping the microwave at 40–50 °C also builds guanylate.** Ribonuclease converts the
+mushroom's RNA to GMP at **60–70 °C**, so warming to just below that and then climbing slowly
+under the lid walks the mushrooms through the window. **Cold into a hot wok skips it.** This
+is a second, independent reason not to rush step 2.
+
+⚠⚠ **Watch the last seconds of the pool in step 3.** That liquor is the most concentrated
+flavour in the pan — free glutamate, nucleotides and sugars. **Reduced to a syrup and scraped
+back through the mushrooms it is the best thing in the dish; boiled past dry on the hottest
+part of a wok it scorches and turns bitter**, the same failure this file already warns about
+for drippings landing under a rack. **Pull the mushrooms back through it as it goes syrupy**
+rather than letting it dry out alone.
+
+✅ **The Chinkiang vinegar is doing more than acid.** It is aged and carries free amino acids
+from the fermentation of its grain, so it adds glutamate alongside the soy. That is why it
+reads as depth rather than sourness, and why a white vinegar at the same dose would taste
+sharper and do less.
+
+⚠ **Vinegar in the pan plus vinegar at the table is two doses of acid, and Lara is flagged
+against sourness.** For a family table, drop the in-pan vinegar — the table already carries
+the lever, per observation 60.
 
 ⚠ **Crowding is the usual failure, in either method.** Trapped steam gives grey and rubbery
 instead of brown. Two trays beat one full one.
