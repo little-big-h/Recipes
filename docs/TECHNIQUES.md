@@ -949,8 +949,36 @@ See **`docs/READING.md`** for the full reference shelf (with audiobook availabil
 
 ### Miso (red and white)
 
-- **Never boil** — destroys aromatic compounds and live cultures
-- Whisk in off heat as the final seasoning step
+**⚠ "Never boil" was the entry here until 2026-11-20, and it was one instruction covering
+two different situations, resting partly on a reason that does not hold up. Rewritten below.**
+
+**What heat actually destroys: the aroma, and only the aroma.** Miso's characteristic smell is
+volatile compounds built during fermentation — **HEMF** (a furanone, the signature miso and
+soy-sauce aroma), esters, 4-ethylguaiacol. Volatile means driven off by sustained heat. What
+survives smells generically salty-savoury rather than of miso.
+
+✅✅ **What heat does NOT destroy is the glutamate, and that is the half the old rule hid.**
+Free glutamate is a thermally stable amino acid and survives boiling intact — which is why
+long-simmered miso dishes and soy sauce still taste savoury. **So boiling miso costs the smell
+and essentially none of the umami.** If the miso is in a dish as a glutamate source, when it
+goes in barely matters.
+
+⚠ **The live cultures are the weakest of the reasons and should not be weighted equally.**
+Much commercial miso is pasteurised already, and anything surviving that will not survive a hot
+soup whenever it is added.
+
+**There is also a texture effect**: boiled miso separates and goes slightly grainy. That is
+visible in a clear soup and invisible in a blended one.
+
+**So the rule is a miso-SOUP rule that had been generalised too far.** Japanese cooking adds
+miso early on purpose in plenty of dishes — miso-nikomi udon, dengaku, miso-simmered braises —
+because cooked miso develops a deeper, less aromatic character those dishes want.
+
+| Situation | Rule |
+|:--|:--|
+| **Miso's aroma is the point** — clear dashi soup, a dressing, anything where you would notice it smelling of miso | **Whisk in off heat, as the final seasoning step.** The original rule, and here it is right. |
+| **Miso is a glutamate source** in a blended or strongly flavoured pot | **Timing barely matters.** The 30 g of brown miso in the Cheesy Roasted Cauliflower Soup was doing savoury work in a 3.7 kg blended pot already carrying dashi and nooch; boiling it would have cost almost nothing the dish was using. |
+| **Hot dry pan** — glazing shiitake or vegetables | ⚠ **"Off heat" is not achievable and not the issue** — the pan is far above boiling and the volatiles are gone regardless. **The real rule here is do not scorch it**: miso's sugars and amino acids brown fast on a hot dry surface and then go bitter. Loosen it with a spoon of water so it coats rather than catches, and give it the last two or three minutes only. |
 - **White miso (shiro)**: mild, sweet, ~6% salt by weight
 - **Red miso (aka)**: assertive, fermented-forward, ~13% salt by weight
 - **Substitution ratio**: 30g white ≈ 18g red (matches both salt and flavour intensity)
@@ -1416,7 +1444,7 @@ The most useful tasting diagnostic in the project. **When a dish tastes flat/hol
 
 Fix: add an umami source, *then* re-taste for salt (you'll usually need less than you thought).
 
-- **Match the cuisine.** Indian → bloom tomato paste (bhuna), browned onion, kasoori methi, yoghurt. Japanese/East-Asian → miso (off heat), dashi-soy, kombu-shiitake dashi. Mexican/Med → tomato paste, capers, the bean-cooking liquor. Soy/miso/aminos in a tikka muddy it — keep umami in-cuisine.
+- **Match the cuisine.** Indian → bloom tomato paste (bhuna), browned onion, kasoori methi, yoghurt. Japanese/East-Asian → miso (off heat where its aroma is the point — see the Miso section, the rule is narrower than it looks), dashi-soy, kombu-shiitake dashi. Mexican/Med → tomato paste, capers, the bean-cooking liquor. Soy/miso/aminos in a tikka muddy it — keep umami in-cuisine.
 - **Glutamate × guanylate/inosinate multiply** — pairing two sources (e.g. kombu + shiitake, tomato + mushroom) is more than additive.
 - **Cross-cuisine shortcut: mushroom powder.** A small pinch boosts umami with little cuisine signature. **Porcini** integrates most seamlessly (deep, neutral, "rich" not "Asian"); plain white/cremini is most invisible; **shiitake** (stocked) works but is a touch more East-Asian-recognisable — keep the dose small.
 
