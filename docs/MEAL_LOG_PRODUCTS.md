@@ -96,7 +96,17 @@ other complete-composition packaged food).
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|:--|
 | Oat Slice — Cranberry & Blueberry | 466 | 6.5g | 53.8g | 27.5g | 23.8g | 15.7g | 5.9g | 149mg | Whole-grain oats/oat flour + coconut + brown sugar/golden syrup/brown rice syrup + butter, cranberries 6%, blueberries 2%. Box: 5 slices, 35g each (163 kcal/slice). Coconut + butter make this markedly richer (esp. saturated fat) than a typical bakery item of similar size. |
 
+## Mister Donut
 
+Yeast-raised, tapioca/wheat-blend "mochi donut" rings (Pon De Ring line) — chewier,
+less oil-absorbent than a Western cake doughnut, so notably leaner per 100g than the
+USDA cake-doughnut records despite the glaze. The plain variant's figures are the
+chain's own published nutrition (211 kcal / 59 g piece); flavoured variants add an
+estimated glaze on top of that base, not label-sourced themselves.
+
+| Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Notes |
+|:--|--:|--:|--:|--:|--:|--:|--:|:--|
+| Pon De Ring, Coffee flavour | 360 | 5.0g | 48g | 20g | 17g | 0.8g | 240mg | Coffee-speckled glaze over the plain Pon De Ring base (chain-published: 211kcal/59g piece ≈ 358 kcal/100g, scaled here to ~90% base + ~10% coffee-sugar glaze). Logged once at 53.6g (Nov 21). |
 
 Hotpot works differently from other meal-log entries: Plate & Shoot weighs each dish/ingredient
 dunked into the pot **separately** (its own before/after), not as one combined dish — so unlike
