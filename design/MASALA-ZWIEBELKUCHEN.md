@@ -328,6 +328,7 @@ Raised 2026-11-02. **Two different ingredients, opposite answers.**
 |:----|:--------|
 | Strongest German Christmas signal available after the Kümmel swap — a Weihnachtsmarkt item | **Sweet**, and the bake is already carrying 1200 g of sweated onion |
 | **Starchy, not watery** — one of the few additions with no moisture penalty | Soft and crumbly, so they compete with 🧊 and 🍄 for the discrete-pieces slot and lose |
+| ✅ **MEASURED 2026-11-21 and better than this table assumed**: a cooked peeled pack reads **0.3 g fat and 199.6 kcal per 100 g**, against the "~2%" guessed here. The energy estimate was right to 0.2%; **the fat estimate was about 7× too high.** See `../docs/PANTRY.md`. | The reasons for not adopting were sweetness and texture, and the label changes neither. **Still not adopted.** |
 | ~2% fat, ~200 kcal/100 g — unlike any other nut, they add substance without richness | Bridge nothing toward the masala side |
 
 **If they go in:** ~150 g cooked, crumbled coarse, **scattered over the onion layer before the custard** — never diced into the Speck mix, which is not the job they can do. ❓ Not in `PANTRY.md`, and vacuum-packed cooked chestnuts are an import item here.

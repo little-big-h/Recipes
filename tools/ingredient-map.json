@@ -1869,6 +1869,24 @@
   "secondary": "label",
   "source": "label"
  },
+ "local:1C6B4E27-8D53-4A90-BF16-7E2A5C9D3B48": {
+  "barcode": "6927409100053",
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "brand": "Yit Hong",
+  "foodID": "local:1C6B4E27-8D53-4A90-BF16-7E2A5C9D3B48",
+  "name": "Chestnuts, cooked and peeled, 100 g pack (Yit Hong)",
+  "per100": {
+   "calories": 199.6,
+   "carbs": 45.2,
+   "fat": 0.3,
+   "protein": 3.9,
+   "sodium": 0.0,
+   "sugars": 6.3
+  },
+  "secondary": "label",
+  "source": "label"
+ },
  "local:1D392317-7844-41F9-8260-701F147AC6C1": {
   "baseAmount": 100,
   "baseUnit": "milliliter",
