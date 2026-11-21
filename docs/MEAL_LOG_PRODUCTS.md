@@ -100,13 +100,13 @@ other complete-composition packaged food).
 
 Yeast-raised, tapioca/wheat-blend "mochi donut" rings (Pon De Ring line) — chewier,
 less oil-absorbent than a Western cake doughnut, so notably leaner per 100g than the
-USDA cake-doughnut records despite the glaze. The plain variant's figures are the
-chain's own published nutrition (211 kcal / 59 g piece); flavoured variants add an
-estimated glaze on top of that base, not label-sourced themselves.
+USDA cake-doughnut records despite the coating. The plain variant's figures are the
+chain's own published nutrition (211 kcal / 59 g piece); flavoured variants adjust
+that base for the coating, not label-sourced themselves.
 
 | Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Notes |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
-| Pon De Ring, Coffee flavour | 360 | 5.0g | 48g | 20g | 17g | 0.8g | 240mg | Coffee-speckled glaze over the plain Pon De Ring base (chain-published: 211kcal/59g piece ≈ 358 kcal/100g, scaled here to ~90% base + ~10% coffee-sugar glaze). Logged once at 53.6g (Nov 21). |
+| Pon De Ring, Coffee flavour | 346 | 5.3g | 44g | 10g | 16.5g | 0.8g | 250mg | Coffee-flavoured dusting over the plain Pon De Ring base (chain-published: 211kcal/59g piece ≈ 358 kcal/100g). First estimate assumed a sugar glaze (20g sugars); revised down after Holger reported it's "not particularly sweet" — a light coffee dusting, not a sugar glaze. Logged once at 53.6g (Nov 21). |
 
 Hotpot works differently from other meal-log entries: Plate & Shoot weighs each dish/ingredient
 dunked into the pot **separately** (its own before/after), not as one combined dish — so unlike
