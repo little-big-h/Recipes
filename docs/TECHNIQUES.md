@@ -6,7 +6,7 @@ Hard-won knowledge from recipe iteration. This file complements `RECIPE_FORMAT.m
 
 ## Vessel tare weights
 
-⚠ **The sheet-pan figure is tray PLUS silicone mat, not the bare tray.** Weighed together on 2026-11-22 and only usable when the mat is on it. ✅ It also settles a reading taken before it existed: the Masala-Zwiebelkuchen v2 yield of **2055 g on 2026-11-14 must have been net**, since 2055 g gross would leave 914 g of tart against 2744 g of input, a 67% loss. The assumption made at the time was right.
+⚠ **The sheet-pan figure is tray PLUS silicone mat, not the bare tray.** Weighed together on 2026-11-22 and only usable when the mat is on it. ✅ It also settles a reading taken before it existed: the Masala-Zwiebelkuchen v2 yield of **2055 g on 2026-11-14 was net — confirmed by Holger 2026-11-22**, and independently implied by the arithmetic, since 2055 g gross would leave 914 g of tart against 2744 g of input, a 67% loss. The assumption made at the time was right.
 
 Recorded so a finished dish can be **weighed in its pot** and the yield read off by subtraction — no decanting, no second vessel, and it works when the pot is too hot or too full to pour. Weigh pot + contents on the scale, subtract the tare below.
 
