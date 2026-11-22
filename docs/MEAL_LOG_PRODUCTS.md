@@ -86,14 +86,17 @@ brand printed on the wrapper wasn't legible in the photo. Estimated via top-down
 | Multigrain Cranberry (マルチグレインクランベリー) | 265 | 8.5g | 44g | 9g | 7g | 4.5g | Seeded multigrain dinner roll (visible oats/seeds crust) studded with dried cranberries — savoury bread-roll base, not a sweet milk-bread like the Cranberries Loaf, so notably less sugar and more fibre (whole grain + seeds). Sold 5pcs/$3.50 from the shelf; bag of rolls pictured, no weight logged yet. |
 | Shio Pan (Salt Bread Roll, 塩パン) | 335 | 6.8g | 40g | 5g | 15g | 1.5g | Croissant-shaped soft milk-bread roll with a butter core, glossy egg-washed crust, coarse sea salt flakes on top — distinct from a French laminated butter croissant (softer crumb, less flaky), same style as the common Japanese-bakery shio pan. Bakery attribution tentative (bag of rolls visible in the same photo, consistent with the same bakery run as the Multigrain Cranberry buy, but not label-confirmed) — flag to confirm vendor. Logged once at 43.7g (Sep 26). |
 
-## Nature('s) Patisserie (Singapore) — bakery name tentative
+## The Signature Patisserie (Singapore)
 
-Embossed wrapper reads "NATUR...PATI..." (partially obscured in photo) — flag to
-confirm the full vendor name next visit.
+Vendor name resolved from a second shelf photo (wrapper reads "SIGNA...PATISSE...")
+— matches "The Signature Patisserie" also seen as the vendor on the separately
+logged Avocado Toast & Eggs plate (Nov 21/22 audit cycle). The first cookie's
+wrapper only showed "NATUR...PATI...", misread as a different bakery name.
 
 | Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Notes |
 |:--|--:|--:|--:|--:|--:|--:|:--|
-| Matcha Azuki Red Bean Cookie (Premium) | 445 | 5.4g | 57.5g | 32.5g | 20.5g | 2.6g | Rich butter-based matcha cookie dough (Niao Neko matcha base, per the shelf label) studded with whole sweetened azuki red beans. "Premium" tier, $3.80. From shelf label, not yet logged with a weight. |
+| Matcha Azuki Red Bean Cookie (Premium) | 445 | 5.4g | 57.5g | 32.5g | 20.5g | 2.6g | Rich butter-based matcha cookie dough (Niko Neko matcha base, per the shelf label) studded with whole sweetened azuki red beans. "Premium" tier, $3.80. From shelf label, not yet logged with a weight. |
+| Matcha Cream Cheese Cookie (Premium) | 444 | 5.4g | 49.4g | 28g | 24g | 1.6g | Same rich matcha cookie dough base (Niko Neko matcha base) swirled with fluffy sweetened cream cheese instead of azuki beans — richer in fat, less sugary than the azuki version since cream cheese carries far less sugar than sweetened bean paste. "Premium" tier, $3.80. From shelf label, not yet logged with a weight. |
 
 ## Carman's (packaged, Australian import)
 
