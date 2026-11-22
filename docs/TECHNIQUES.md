@@ -6,6 +6,8 @@ Hard-won knowledge from recipe iteration. This file complements `RECIPE_FORMAT.m
 
 ## Vessel tare weights
 
+⚠ **The sheet-pan figure is tray PLUS silicone mat, not the bare tray.** Weighed together on 2026-11-22 and only usable when the mat is on it. ✅ It also settles a reading taken before it existed: the Masala-Zwiebelkuchen v2 yield of **2055 g on 2026-11-14 must have been net**, since 2055 g gross would leave 914 g of tart against 2744 g of input, a 67% loss. The assumption made at the time was right.
+
 Recorded so a finished dish can be **weighed in its pot** and the yield read off by subtraction — no decanting, no second vessel, and it works when the pot is too hot or too full to pour. Weigh pot + contents on the scale, subtract the tare below.
 
 | Vessel | Tare | Recorded |
@@ -19,6 +21,7 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 | Large Pyrex bowl | **749 g** | 2026-09-30 |
 | Ceramic baking tray **A** — 🎃 **squash** | **654 g** | 2026-11-10 |
 | Ceramic baking tray **B** — 🍠 **sweet potato** | **584 g** | 2026-11-10 |
+| **Sheet pan, 40 × 30 cm, INCLUDING its silicone mat** ⚠ | **1141 g** | 2026-11-22 |
 
 ⚠ **The two ceramic trays are 70 g apart, so the scale identifies them and no marking is strictly needed** — but they are assigned anyway: **A (654 g) for 🎃 squash, B (584 g) for 🍠 sweet potato**. The point of a standing assignment is that **each tray can be weighed before and after roasting and give its own loss figure**, without decanting and without two vegetables sharing one number. For a durable physical mark, a notch filed in the underside of the rim or a porcelain marker baked at ~160 °C both survive; nail polish does not survive 220 °C.
 
