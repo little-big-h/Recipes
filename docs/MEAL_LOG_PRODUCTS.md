@@ -97,6 +97,7 @@ wrapper only showed "NATUR...PATI...", misread as a different bakery name.
 |:--|--:|--:|--:|--:|--:|--:|:--|
 | Matcha Azuki Red Bean Cookie (Premium) | 445 | 5.4g | 57.5g | 32.5g | 20.5g | 2.6g | Rich butter-based matcha cookie dough (Niko Neko matcha base, per the shelf label) studded with whole sweetened azuki red beans. "Premium" tier, $3.80. From shelf label, not yet logged with a weight. |
 | Matcha Cream Cheese Cookie (Premium) | 444 | 5.4g | 49.4g | 28g | 24g | 1.6g | Same rich matcha cookie dough base (Niko Neko matcha base) swirled with fluffy sweetened cream cheese instead of azuki beans — richer in fat, less sugary than the azuki version since cream cheese carries far less sugar than sweetened bean paste. "Premium" tier, $3.80. From shelf label, not yet logged with a weight. |
+| Yuzu Cream Cheese Bun (Premium) | 316 | 6.0g | 42.5g | 20.5g | 13.2g | 1.4g | Different format from the two matcha cookies — a soft vanilla-base sweet bun (egg-washed, sugar-glazed), not a crackled cookie, with candied Korean yuzu peel pieces baked in and a fluffy cream cheese filling. "Premium" tier, $3.80. From shelf label, not yet logged with a weight. |
 
 ## Carman's (packaged, Australian import)
 
