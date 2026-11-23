@@ -4,16 +4,16 @@
 
 *The 10 most recently created dishes (recipes + Anja's cooks), newest first. Kept current on every new dish (see `CLAUDE.md`).*
 
-1. **[Buckwheat & Mushroom Patties](recipes/stovetop-mains/buckwheat-mushroom-patties.md)** — 2026-11-22
-2. **[Chickpea & Apricot Tagine, with Millet (Anja)](anjas-cooking/chickpea-apricot-tagine.md)** — 2026-11-19
-3. **[Beetroot & Coconut Soup with Roasted Purple Sweet Potato](recipes/soups/beetroot-coconut-soup-purple-sweet-potato.md)** — 2026-11-17
-4. **[Masala-Zwiebelkuchen — v2](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-14
-5. **[Quinoa Bake (Anja)](anjas-cooking/quinoa-bake.md)** — 2026-11-13
-6. **[Vegetable & Potato Soup (Anja) — v2](anjas-cooking/vegetable-potato-soup.md)** — 2026-11-12
-7. **[Cheesy Roasted Cauliflower Soup](recipes/soups/cheesy-roasted-cauliflower-soup.md)** — 2026-11-11
-8. **[Purple Sweet Potato & Mushroom Bowls](recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md)** — 2026-11-10
-9. **[Cantonese Corn Soup with Torn Seitan](recipes/soups/cantonese-corn-soup-torn-seitan.md)** — 2026-11-09
-10. **[Torn Seitan for Soup](recipes/oven-mains/torn-seitan-for-soup.md)** — 2026-11-09
+1. **[Vegetable Lasagna (Anja)](anjas-cooking/vegetable-lasagna.md)** — 2026-11-23
+2. **[Buckwheat & Mushroom Patties](recipes/stovetop-mains/buckwheat-mushroom-patties.md)** — 2026-11-22
+3. **[Chickpea & Apricot Tagine, with Millet (Anja)](anjas-cooking/chickpea-apricot-tagine.md)** — 2026-11-19
+4. **[Beetroot & Coconut Soup with Roasted Purple Sweet Potato](recipes/soups/beetroot-coconut-soup-purple-sweet-potato.md)** — 2026-11-17
+5. **[Masala-Zwiebelkuchen — v2](recipes/oven-mains/masala-zwiebelkuchen.md)** — 2026-11-14
+6. **[Quinoa Bake (Anja)](anjas-cooking/quinoa-bake.md)** — 2026-11-13
+7. **[Vegetable & Potato Soup (Anja) — v2](anjas-cooking/vegetable-potato-soup.md)** — 2026-11-12
+8. **[Cheesy Roasted Cauliflower Soup](recipes/soups/cheesy-roasted-cauliflower-soup.md)** — 2026-11-11
+9. **[Purple Sweet Potato & Mushroom Bowls](recipes/stovetop-mains/purple-sweet-potato-mushroom-bowls.md)** — 2026-11-10
+10. **[Cantonese Corn Soup with Torn Seitan](recipes/soups/cantonese-corn-soup-torn-seitan.md)** — 2026-11-09
 
 ---
 
