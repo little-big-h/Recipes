@@ -120,6 +120,7 @@ that base for the coating, not label-sourced themselves.
 | Product | kcal | Protein | Carbs | Sugars | Fat | Fibre | Sodium | Notes |
 |:--|--:|--:|--:|--:|--:|--:|--:|:--|
 | Pon De Ring, Coffee flavour | 360 | 5.3g | 42g | 12g | 19g | 0.8g | 245mg | Creamy coffee glaze (dairy-cream/butter based) over the plain Pon De Ring base (chain-published: 211kcal/59g piece ≈ 358 kcal/100g). Revised twice after taste confirmation: first assumed a sugar glaze (20g sugars), Holger said "not particularly sweet" so sugars were cut; then he added "the glaze seems creamy" so fat was revised back up while keeping sugars moderate rather than low. Logged once at 53.6g (Nov 21). |
+| Pon De Ring, Strawberry flavour | 361 | 5.0g | 48.5g | 17g | 17.1g | 0.9g | 240mg | Glossy pink strawberry sugar glaze with visible strawberry bits over the plain Pon De Ring base — a classic glossy sugar glaze, visually distinct from the coffee flavour's creamy/matte glaze, so modelled as a standard sugar-glaze adjustment rather than reusing the coffee flavour's revised figures. Not yet taste-confirmed. Logged once at 55.1g (Nov 24). |
 
 Hotpot works differently from other meal-log entries: Plate & Shoot weighs each dish/ingredient
 dunked into the pot **separately** (its own before/after), not as one combined dish — so unlike
