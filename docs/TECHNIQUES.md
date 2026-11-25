@@ -1139,6 +1139,47 @@ mushroomy water.
 - Or **dry them** to brittle in a low oven, after which they behave as bought dried
   shiitake and cold-soaking works normally.
 
+### King oyster — pulling, and why no other mushroom here does it
+
+**The stem is the whole point.** A king oyster stem is densely packed **parallel hyphae**,
+and that alignment is a grain in the woodworking sense: there is a direction along which the
+tissue separates cleanly and a direction across which it does not. **The cap has no grain at
+all** and will not pull — it gets sliced and goes in as a second texture.
+
+⚠⚠ **Shred it RAW.** A fork dragged down the cut face of the stem, along the grain, working
+around it until the whole stem is strands. **Cooking first destroys the thing that makes it
+possible**: heat softens the hyphal walls and the stem then smears or crumbles under the fork
+instead of separating. This is the opposite order from pulling cooked meat, and getting it
+backwards is the main way the technique fails.
+
+⚠ **Lower heat than for diced mushroom, and watch it more closely.** Strands carry several
+times the surface per gram that dice do, so they pass through the dry phase faster and go
+from matte to scorched faster. The three phases are the same as for shiitake — water
+released, water evaporated, browning — but the third one arrives sooner than expected.
+
+**Why not the others:**
+
+| Mushroom | Pulls? | Why |
+|:--|:--|:--|
+| **King oyster, stem** | ✅ yes | Aligned parallel hyphae — a real grain |
+| **King oyster, cap** | ✗ no | Undifferentiated; slice it |
+| **Portobello** | ✗ no | Flesh is undifferentiated, so tearing gives irregular **crumb**, not strands. ⚠ Tried 2026-11; it *"kind of worked but did not hold up in a soup"* — crumb has nothing to interlock with |
+| **Oyster (pleurotus)** | partly | Tears into sheets along the fan rather than strands; good for a different texture |
+| **Shiitake** | ✗ no | Cap is sliced; the stem is woody and goes to stock (above) |
+
+✅ **It is also the driest common mushroom** — **88.1% water**, against shiitake's 89.7% and
+portobello's 92.8% (USDA). For anything where free water is the enemy, that is worth having
+before any cooking happens at all. ⚠ **It is also the most energy-dense of the three**, 46.4
+kcal/100 g against portobello's 22, and it is **poor in selenium and copper where portobello
+is rich** — 1.2 µg and 0.047 mg per 100 g against 18.6 µg and 0.286 mg. A straight swap of
+600 g costs about 105 µg of selenium. That is a nutrition consequence of a texture decision
+and it is worth knowing before making it.
+
+**Commercially:** the pulled mushroom sold in Singapore by Guzman y Gomez comes from **Fable
+Food Co** and is made from **shiitake stems** — the waste stream this kitchen already freezes
+for stock. A different species and a different mechanism from the above, but it confirms
+stems are the pulling material in general, not caps.
+
 ### Puay leng stems — keep them, and they crunch
 
 **Two separate things here: a name trap, and a technique.**
