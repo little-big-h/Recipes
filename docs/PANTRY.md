@@ -289,6 +289,8 @@ These were UK standing stock and/or are trivially available in Singapore, but **
 
 ### Spices and pastes
 
+- 🛒 **Horseradish, prepared — absent, flagged 2026-11-26.** Wanted as a **table condiment for beetroot soup**, which is the borscht pairing Holger grew up with. Costed against USDA `173472`: per 100 g **48 kcal, 1.18 g protein, 0.69 g fat, 11.29 g carbohydrate, 3.3 g fibre**, 85.1% water. At a 25 g dose that is **12 kcal**, so it is nutritionally free and bought purely for the pungency. ⚠ **Fresh root is hard to find in Singapore; jarred prepared horseradish is the realistic buy** and the vinegar in it stabilises the pungency, which is an advantage here. ✅ **Most "wasabi" sold here is horseradish, mustard and colouring**, so a tube is the same allyl isothiocyanate under another name and is available everywhere. Food definition: `examples/Horseradish, prepared.foodnoms`. Method and the form-it-cold rule: `TECHNIQUES.md` and the beetroot soup recipe, step 11.
+
 - ❓ Mild curry powder (the organic no-chilli/no-paprika one — most scorch-forgiving under dry heat; label data in the archive) · ❓ tikka masala / Madras · ❓ **smoked paprika** ⚠ Lara flag, stays flagged · ❓ sweet paprika · ❓ ras el hanout · ❓ harissa powder · ❓ shichimi · ❓ za'atar · ❓ sumac · ❓ gochujang · ❓ Mae Ploy yellow (~10% salt) and green curry paste.
 - ✅ Whole: **cumin**, **fennel** (both confirmed 2026-10-02). ❓ Whole: black/brown mustard, coriander seeds, bird's-eye chillies. ❓ Ground: turmeric, ginger, coriander, cinnamon.
 - ✅ **Cloves** (bought 2026-10-03). ⚠ The most overdosable spice in the cupboard — eugenol dominates a dish irreversibly and is perceptible far below the level most recipes imply. Two or three whole cloves season a whole pot; a teaspoon ruins one.

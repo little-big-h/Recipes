@@ -1272,6 +1272,80 @@ feature rather than a hazard.
 It stir-fries well otherwise: denser and tougher than green cabbage, so it takes longer and
 stays crunchier, and it is more peppery and less sweet.
 
+### Sweet potato leaves vs spinach — and the oxalate problem
+
+**Not substitutes.** Per 100 g raw, spinach wins most micronutrient columns, but two
+corrections eat much of the lead and a third factor reverses part of it.
+
+| | Sweet potato leaves `169303` | Spinach `168462` |
+|:--|--:|--:|
+| Energy | **42** kcal | 23 |
+| Protein | 2.49 g | **2.86** |
+| Fibre | **5.3** g | 2.2 |
+| Water | 86.8% | 91.4% |
+| Potassium | 508 mg | **558** |
+| Calcium | 78 mg | **99** |
+| Iron | 0.97 mg | **2.71** |
+| Magnesium | 70 mg | **79** |
+| Phosphorus | **81** mg | 49 |
+| Folate | — | **194** µg |
+| Vitamin A | 189 µg | **469** |
+| Vitamin K | 302 µg | **483** |
+| Vitamin C | 11 mg | **28.1** |
+| Riboflavin | **0.345** mg | 0.189 |
+| Pantothenic acid | **0.225** mg | 0.065 |
+| Zinc / copper / manganese / vit E | — | 0.53 / 0.13 / 0.897 / 2.03 |
+
+⚠ **Correction 1 — the water, and it moves everything toward spinach.** Sweet potato leaves
+are **13.2% dry matter against spinach's 8.6%**, so 100 g of leaves is 1.53× as much actual
+plant. Spinach is winning those columns while bringing less material. Per 100 g of **dry
+matter**: iron 7.4 mg against 31.5 (**spinach 4.3×**), vitamin K 2291 µg against 5615
+(2.45×), calcium 591 mg against 1151 (1.95×), protein 18.9 g against 33.3 (1.76×). **Fibre
+is the only thing the leaves keep**, 40.2 g against 25.6 (1.57×). Corrected for water,
+spinach beats sweet potato leaves on essentially every micronutrient.
+
+⚠ **Correction 2 — four of spinach's wins are blanks, not zeros.** Folate, zinc, copper,
+manganese and vitamin E are **unmeasured in the raw leaf record**, not absent from the leaf.
+The cooked record `169304` puts folate at 49 µg/100 g, so raw is plausibly 50–85 — well
+under spinach's 194, but not nothing. **Read those rows as unknown.**
+
+⚠⚠ **The factor no column shows: oxalate.** Spinach runs about **970 mg/100 g**, among the
+highest of any food eaten in quantity. Oxalate binds calcium and iron into insoluble
+complexes in the gut, and **calcium absorption from spinach measures around 5%**, against
+roughly 30% from dairy and 50% from low-oxalate greens. **So spinach's mineral lead on paper
+is much larger than its lead in a person.**
+
+⚠⚠ **But the leaf figure is not settled and must not be quoted as if it were.** Published
+values for sweet potato leaves run from **58 mg/100 g** in one study to **~590 mg/100 g** in
+a consumer database — an order of magnitude apart, varying with cultivar and leaf maturity,
+and **no study measures the two side by side on a fresh-weight basis.** What holds: ✅ even
+the high leaf estimate is at or below spinach, and ✅ boiling for 3 minutes drops the reported
+figure from 590 to 340, so cooking in water that is then discarded is a real lever. **What
+does not hold is calling sweet potato leaves a low-oxalate green.** Directionally likely,
+not established.
+
+✅ **One consequence that is useful at the table.** Spinach's dry, chalky, mouth-coating
+finish **is** the oxalate — calcium oxalate on the tongue. Sweet potato leaves do not have
+it, which makes them the easier green for the kids' table, and it is the same mechanism as
+the absorption problem.
+
+**Practical differences in this kitchen:**
+
+- ⚠ **Stems.** The 2026-11-18 soup split **200 g leaf to 180 g stem** — nearly half, needing
+  longer cooking (see the method in that recipe). Spinach stems are negligible. The leaves
+  are more work. ⚠ FDC has **no stem or shoot record**, so a stem costed against the leaf
+  record reads high on micronutrients.
+- **Shrinkage.** Spinach collapses to very little; sweet potato leaves hold volume.
+  ⚠ **Neither figure is on file** and both are easy to capture.
+- **Mucilage.** Sweet potato leaves carry a slight viscosity that gives a soup body. Spinach
+  gives none.
+- Sweet potato leaves are abundant and cheap in the wet markets here; spinach is mostly
+  imported.
+
+**The summary:** use the leaves for fibre, for bulk that survives cooking, and for a green
+children will accept. Use spinach when folate and vitamin A are specifically wanted, pair it
+with vitamin C, and do not count its calcium.
+
 ### Bok choi
 
 - Two viable approaches:
