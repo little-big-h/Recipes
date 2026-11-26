@@ -25,6 +25,8 @@ Recorded so a finished dish can be **weighed in its pot** and the yield read off
 
 ⚠ **The two ceramic trays are 70 g apart, so the scale identifies them and no marking is strictly needed** — but they are assigned anyway: **A (654 g) for 🎃 squash, B (584 g) for 🍠 sweet potato**. The point of a standing assignment is that **each tray can be weighed before and after roasting and give its own loss figure**, without decanting and without two vegetables sharing one number. For a durable physical mark, a notch filed in the underside of the rim or a porcelain marker baked at ~160 °C both survive; nail polish does not survive 220 °C.
 
+⚠⚠ **There is no BARE sheet-pan tare, and the 1141 g figure cannot be adjusted into one** because the mat was never weighed separately. With the mat as the standing default (2026-11-26) that is consistent and nothing is wrong — but **mushrooms are the documented bare-metal exception**, so the first time shiitake are weighed in the bare tray the yield comes out wrong by the mat’s whole weight. The warning below applies directly: a 9.5% tare error became an 18% yield error and flipped a component. **Weigh the bare tray once and the gap closes permanently.**
+
 ⚠ **Ask which vessel a "with pot" weight was taken in. Never infer it.** A yield
 given as "5240 with pot" is unusable until the vessel is named, and the tares
 here differ by up to 465 g. ⚠ **Do not try to deduce it from the arithmetic
@@ -392,6 +394,7 @@ points.
 - ⚠ **The crowded end is the cheaper yield and the worse result.** A heavily loaded tray steams in its own moisture and comes out pale and soft; a spread one roasts and browns. Reading the formula as "load the tray and keep more food" gets the arithmetic right and the cooking wrong.
 - The two 2026-11-10 trays show the same effect across different vegetables: **830 g of sweet potato lost 17.0%** against **548 g of squash at 22.3%**.
 | Microwave-steamed, then briefly stir-fried | **~14–16%** | broccoli 13.9% (2026-09-30); broccoli 15.6% (2026-10-01, 687.5 g → 580 g) |
+| **Fennel bulb — microwaved, DRAINED, then browned** | **24.1%** | 2026-11-26, **560 g trimmed → 425 g**. ⚠⚠ **Composite, and part of it left as liquid rather than vapour** — the method drains the microwave condensate before browning, so this is **not comparable to the roasting or stir-fry rows**, which lose everything as steam. ⚠ **The browning stage is unconfirmed.** A pan sear was the plan, and the loss is far too high for a covered microwave alone (~1–2%), so a real browning stage happened — but which one was never confirmed. ⚠ **The phase 2 hold time was not recorded either**, so the figure that would make this method reproducible is still missing. ⚠ For interest only: the butternut roasting formula predicts **22.0%** at this load and the measurement came in **2.1 points above it**. The methods are not comparable, so treat the agreement as coincidence until a second fennel point exists. |
 | **Stir-fried from raw to tender** | **~18–22%** | broccoli 19.9% (2026-10-04, 553.2 g → 443 g); lotus root 21.9% (2026-10-04, 153.7 g → 120 g); **cauliflower 17.8%** (2026-11-02, 465 g + 2 g oil → 384 g) |
 | **Stir-fried from raw, flash only** | **~8%** | bean sprouts 8.5% (2026-10-04, 212 g → 194 g) |
 | **Stir-fried from raw, mixed dwell in one pan** | **~13%** | carrot + bean sprout + aromatics 13.3% (2026-10-11, 608 g → 527 g) |
@@ -1114,7 +1117,8 @@ on top rather than traded against it.
 
 ⚠ **The ceramic tray (tare 654 g, 2026-11-10) is the wrong pan for this.** Ceramic conducts heat an order of magnitude more slowly than steel, so the contact surface stays cooler and the water leaves slowly - which is the opposite of what the rule above is for. It also tends to have deeper walls that trap steam. **Metal for mushrooms; ceramic for anything that wants gentle even heat and no aggressive contact browning.** For roasted roots it works, preheated hard, at the cost of a paler underside.
 
-- ⚠ **Not baking paper.** Mushrooms shed a lot of water in the dry phase. On bare metal it hits a hot surface and flashes off; under them, paper traps a film of liquid, goes limp, and the mushrooms steam in their own juice — exactly what the dry phase exists to prevent. Paper is also an insulating layer, so the undersides brown less. **Silicone mats are worse again**, being thicker. The usual reason to reach for paper is sticking, which barely arises here: in the dry phase there is no oil and the mushrooms are actively shedding water, and by the browning phase they have oil.
+- ⚠ **Not baking paper.** Mushrooms shed a lot of water in the dry phase. On bare metal it hits a hot surface and flashes off; under them, paper traps a film of liquid, goes limp, and the mushrooms steam in their own juice — exactly what the dry phase exists to prevent. Paper is also an insulating layer, so the undersides brown less. ⚠⚠ **Silicone mats are worse too, but NOT for the reason recorded here until 2026-11-26 ("being thicker").** Silicone is non-absorbent and non-wicking, so unlike paper it traps no film of liquid at all. **The objection is purely thermal.** Silicone conducts at about **0.2 W/m·K** and a mat is roughly **0.6 mm**, giving a thermal resistance of about **0.003 m²K/W** in series with the pan. At plausible contact-face fluxes during the water-shedding phase — 2–10 kW/m², estimated from latent heat over a 30-minute bake — that is a **6 to 30 °C drop at the face**. Bare steel has both mass and conductivity, so it dumps heat into wet food and recovers quickly; through a mat the steel’s heat must cross the silicone first, so the food sees a cooler surface for longer and the water leaves more slowly. ⚠ **An embedded copper mesh does not fix this.** The mesh is encapsulated, so silicone remains in the path on both faces; copper’s 400 W/m·K spreads heat **in-plane**, evening out the tray’s hot spots, which is a real benefit but changes how evenly that drop is distributed rather than how large it is. ⚠ **An OPEN mesh you can see light through is a different product entirely** — liquid drains, air circulates, nothing steams at the face, but contact becomes lines instead of a face so contact browning drops, and the drippings scorch on the tray beneath exactly as the wire-rack objection below describes. **The test is whether light passes through it.** ⚠ Many mats sold as "copper" are copper-**coloured** PTFE-coated fibreglass with no metal in them, in which case there is no conduction argument either way.
+- ✅ **Holger’s decision, 2026-11-26: the mat is the default for roasting anyway, because cleanup is far easier and the thermal cost is worth it.** That trade is sound for most vegetables — for fennel and roots you give up some bottom colour and almost nothing else. ⚠⚠ **Mushrooms stay the exception**, and on the drippings argument rather than the thermal one, which stands independently. **To claw back browning on a mat: cut face UP and take the colour from above** — 220 °C rather than 200, preheat the tray with the mat on it (check the mat’s rating, typically 220–250 °C), 40–45 min instead of 30–40, and a few minutes of top heat or grill at the end, which bypasses the mat completely. The thin oil film is worth more than it was, because the path already has a barrier in it. The usual reason to reach for paper is sticking, which barely arises here: in the dry phase there is no oil and the mushrooms are actively shedding water, and by the browning phase they have oil.
 - ⚠⚠ **Not a wire rack either, and this is the less obvious one.** A rack gives better all-round air circulation, but **what drips off is not just water** — mushroom liquor carries the free glutamate, the nucleotides and the sugars. On a sheet that liquid pools thinly, concentrates as it evaporates, and the solids end up back on the mushroom. On a rack it leaves, and scorches bitter on the tray below. **The rack is right for things eaten dry where the drippings do not matter; for mushrooms going into a dish, the drippings are part of what you are cooking for.** (If a rack is used anyway, put a few millimetres of water in the tray beneath so the drips land in liquid rather than scorching, and add that water to the pot.)
 - ✅ **Preheat the sheet**, so the mushrooms start evaporating on contact instead of warming slowly in their own liquid. ✅ **And do not crowd** — that dominates every other variable here.
 
@@ -1179,6 +1183,58 @@ and it is worth knowing before making it.
 Food Co** and is made from **shiitake stems** — the waste stream this kitchen already freezes
 for stock. A different species and a different mechanism from the above, but it confirms
 stems are the pulling material in general, not caps.
+
+### Fennel bulb — the anethole-versus-sweetness fork
+
+⚠⚠ **The two things you might want move in opposite directions, so "maximum flavour" has to
+be resolved before any time or temperature matters.** The anise character is **anethole**,
+which is volatile, so sustained heat drives it off. Sweetness and depth come from
+caramelisation and Maillard browning, which need sustained heat and a dry surface. **No
+setting maximises both.** Long roasting is why people who dislike raw fennel like it
+roasted: the anise leaves and the sugar arrives.
+
+✅ **The way out is not to choose — roast for depth, then put the anethole back at the end.**
+Raw fronds stirred in off the heat, or whole fennel seeds toasted and crushed (✅ confirmed in
+`PANTRY.md`, 2026-10-02). Same pattern as liquid smoke at the table and miso off the heat:
+cook the heat-stable part, add the volatile part last.
+
+**Oven route, for the sweet browned version.** **200 °C fan, 30–40 min.** Halves, or wedges
+about 2 cm thick cut through the root so each holds together; cut face down, turned once.
+For deeper colour give it **220 °C for the last 5–10 min** rather than running hot
+throughout, which chars the edges before the core softens. **Push to 220 °C the whole way if
+it is going into a soup**, where browning matters more than the anise.
+
+**Microwave route, as phase 1 of two.** Same logic as the shiitake wok method above: let the
+microwave do the water and softening work, and leave the hot tool doing only browning. The
+oven stage then drops to 10–15 min at 220 °C, or a pan replaces it.
+
+- **Phase 1 at 100%, covered**, per the two-phase model: 40 s per 100 g plus the 15–20%
+  penalty above 400 g. **560 g comes out at about 4:15–4:30.**
+- Then a hold to soften the fibre. ⚠ **The phase 2 duration is still unrecorded.** Fennel is
+  more fibrous than broccoli, so start at 3 min and expect up to 5.
+- ⚠ **Stop short of soft.** The second stage keeps cooking it, and layers that have already
+  collapsed will not hold their shape to take a sear.
+- ⚠⚠ **Drain and pat the cut faces dry before browning.** A covered microwave loses only
+  **1–2%**, so essentially all the water is still in there, just hot and mobile. Nothing
+  colours until the surface is dry.
+- ⚠⚠ **Keep the drained liquid and reduce it back in.** It carries dissolved sugars and some
+  anethole, and pouring it away is the mushroom-drippings mistake in another form.
+  **Missed on 2026-11-26** — the drain was specified and saving the liquid was not, which is
+  also why that cook’s loss figure is a composite rather than an evaporation figure.
+- ⚠ **Do not borrow the 40–50 °C stop from the shiitake protocol.** That exists to walk
+  mushrooms through the ribonuclease window for guanylate; fennel has no analogue. Take it
+  to 100 °C.
+
+**A pan beats the oven for the second stage.** Cut face down, hot, a little oil, **3–4 min a
+side**. Direct contact browns a drained face fast, it is quicker than heating an oven for a
+12-minute job, and it avoids the tray-versus-mat question entirely.
+
+⚠ **No amylase lever here, unlike sweet potato.** Fennel stores very little starch and its
+sugars are already free, so a low-temperature hold buys softening and nothing else. Go
+straight to roasting heat.
+
+⚠ **Trimming waste runs 10–25%**, so an as-bought weight and a ready-to-cook weight are
+different measurements and **cannot share a loss row**. The 2026-11-26 figure is trimmed.
 
 ### Puay leng stems — keep them, and they crunch
 
