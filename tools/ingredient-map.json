@@ -4842,5 +4842,39 @@
   },
   "secondary": null,
   "source": null
+ },
+ "local:219785EB-E35D-4CF5-9DD4-F53B6DC49C9C": {
+  "baseAmount": 100,
+  "baseUnit": "gram",
+  "brand": null,
+  "foodID": "local:219785EB-E35D-4CF5-9DD4-F53B6DC49C9C",
+  "name": "Low Fat UHT Milk (Farmhouse)",
+  "per100": {
+   "calcium": 125.0,
+   "calories": 44.5,
+   "carbs": 4.84,
+   "cholesterol": 6.8,
+   "fat": 1.06,
+   "fatSaturated": 0.97,
+   "fiber": 0.0,
+   "folate": 5.0,
+   "iron": 0.03,
+   "magnesium": 11.0,
+   "niacin": 0.093,
+   "pantothenicAcid": 0.361,
+   "phosphorus": 95.0,
+   "potassium": 150.0,
+   "protein": 3.19,
+   "riboflavin": 0.185,
+   "selenium": 3.3,
+   "sodium": 42.6,
+   "sugars": 4.45,
+   "thiamin": 0.02,
+   "vitaminB12": 0.47,
+   "vitaminB6": 0.037,
+   "zinc": 0.42
+  },
+  "secondary": "label-per100ml-div-1.033+usda-170872-micros",
+  "source": "label"
  }
 }
