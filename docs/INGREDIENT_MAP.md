@@ -101,6 +101,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Lemon Juice (Raw) | `foodnoms:usda:167747` | gram | 22.0 | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
 | Lemongrass Paste | `foodnoms:fn:12201ed0-e2ef-4495-884f-0e5016e3630a` | gram | 47.0 | fn |
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | [usda](https://fdc.nal.usda.gov/food-details/2709850/nutrients) |
+| Low Fat UHT Milk (Farmhouse) | `local:219785EB-E35D-4CF5-9DD4-F53B6DC49C9C` | gram | 44.5 | label (FairPrice listing) + usda micros |
 | Milk (Semi-Skimmed) — **default for "milk"** | `local:24C74E7A-6DD7-4CB8-821D-DB3BDCF9CB0D` | milliliter | 47.0 | milk.co.uk |
 | Mild Curry Powder (turmeric/coriander/fennel/pepper/mustard/cumin — no chilli) | `local:F4C1A2B3-6D5E-4F8A-9B7C-3E2D1A0F5C6B` | gram | 312.0 | label (macros) + usda micros |
 | Miso | `foodnoms:usda:2707439` | gram | 198.0 | [usda](https://fdc.nal.usda.gov/food-details/2707439/nutrients) |
