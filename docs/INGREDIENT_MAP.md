@@ -98,6 +98,7 @@ entry's stored `baseAmount`. Full per-100 nutrients for every row are in
 | Kecap Manis (Chi Wan) | `local:8A7FF9A0-FFAF-4E89-905F-1983CEDDB5E9` | milliliter | 122.0 | label (Chi Wan) |
 | Kidney Beans | `foodnoms:usda:2707379` | gram | 177.0 | [usda](https://fdc.nal.usda.gov/food-details/2707379/nutrients) |
 | Kombu (removed before cooking) | `local:C64E654B-E028-4547-B160-C1559BE0D34E` | gram | 15.0 | local |
+| Leibniz Wholemeal Keks (Bahlsen) | `local:F4B0C20C-493A-4AD4-8F53-94464596D3F0` | gram | 441.2 | label + usda micros |
 | Lemon Juice (Raw) | `foodnoms:usda:167747` | gram | 22.0 | [usda](https://fdc.nal.usda.gov/food-details/167747/nutrients) |
 | Lemongrass Paste | `foodnoms:fn:12201ed0-e2ef-4495-884f-0e5016e3630a` | gram | 47.0 | fn |
 | Lima Bean (From Canned) | `foodnoms:usda:2709850` | gram | 122.0 | [usda](https://fdc.nal.usda.gov/food-details/2709850/nutrients) |
