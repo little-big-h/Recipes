@@ -3169,6 +3169,35 @@
   "secondary": null,
   "source": "label"
  },
+ "local:5E2C9A47-3B81-4D6F-A092-7C4E1B8F5D23": {
+  "baseAmount": 100.0,
+  "baseUnit": "gram",
+  "barcode": "40081434",
+  "brand": "Hengstenberg",
+  "foodID": "local:5E2C9A47-3B81-4D6F-A092-7C4E1B8F5D23",
+  "name": "Cornichons / Cocktail Gherkins (Hengstenberg), drained",
+  "per100": {
+   "calcium": 54.0,
+   "calories": 22.0,
+   "carbs": 2.9,
+   "copper": 0.026,
+   "fat": 0.4,
+   "fatSaturated": 0.05,
+   "fiber": 1.0,
+   "folate": 8.0,
+   "iron": 0.23,
+   "magnesium": 7.1,
+   "manganese": 0.056,
+   "phosphorus": 16.0,
+   "potassium": 112.0,
+   "protein": 1.2,
+   "sodium": 520.0,
+   "sugars": 2.8,
+   "zinc": 0.11
+  },
+  "secondary": "label+usda-324653-micros",
+  "source": "label"
+ },
  "local:5E3A8D16-4C27-4B91-A630-8F1D5E2C7B04": {
   "barcode": "011152085074",
   "baseAmount": 100.0,
